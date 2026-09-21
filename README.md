@@ -91,6 +91,18 @@ SOURCE_SANITY_TOKEN=<read token for the Sharjah project> npm run content:migrate
 npm run content:attributes
 ```
 
+## Deploying
+
+The site is deployed on Vercel (Hobby plan, private repository). Vercel only deploys commits whose author
+is the GitHub account that owns the Vercel project (`razanKurouni`); a commit attributed to any other
+GitHub account is left in the **BLOCKED** state. Commit with an email that belongs to that account, for
+example the GitHub no-reply address:
+
+```bash
+git config user.name "razanKurouni"
+git config user.email "249701379+razanKurouni@users.noreply.github.com"
+```
+
 ## Notes
 
 - Pages keep working when a section is missing in the CMS: the components fall back to their built-in copy.
