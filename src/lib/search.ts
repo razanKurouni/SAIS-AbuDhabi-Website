@@ -1,0 +1,261 @@
+import { getSanityClient } from "@/lib/sanity";
+
+export type SearchResult = {
+  id: string;
+  page: string;
+  path: string;
+  section: string;
+  snippet: string;
+  href: string;
+};
+
+type IndexEntry = {
+  id: string;
+  page: string;
+  path: string;
+  section: string;
+  isPageEntry: boolean;
+  title: string;
+  text: string;
+};
+
+/** Sanity page document → route and the name shown on a result. */
+const PAGE_ROUTES: Record<string, { path: string; label: string }> = {
+  "homepage-main": { path: "/", label: "Home" },
+  "about-page": { path: "/about-us", label: "About Us" },
+  "our-team-page": { path: "/about-us/our-team", label: "Our Team" },
+  "academics-page": { path: "/academics", label: "Academics" },
+  "academics-kindergarten-page": { path: "/academics/kindergarten", label: "Kindergarten" },
+  "academics-elementary-page": { path: "/academics/elementary", label: "Elementary" },
+  "academics-middle-school-page": { path: "/academics/middle-school", label: "Middle School" },
+  "academics-high-school-page": { path: "/academics/high-school", label: "High School" },
+  "admissions-page": { path: "/admissions", label: "Admissions" },
+  "admissions-application-page": { path: "/admissions/applications", label: "Applications" },
+  "admissions-book-tour-page": { path: "/admissions/book-a-tour", label: "Book a Tour" },
+  "admissions-faq-page": { path: "/admissions/faqs", label: "FAQs" },
+  "admissions-fees-page": { path: "/admissions/fees", label: "Fees" },
+  "admissions-withdrawal-page": { path: "/admissions/withdrawal", label: "Withdrawal" },
+  "careers-page": { path: "/careers", label: "Careers" },
+  "contact-page": { path: "/contact-us", label: "Contact Us" },
+  "extra-curricular-activities-page": { path: "/extra-curricular-activities", label: "Extra Curricular Activities" },
+  "food-services-nutrition-page": { path: "/food-services-nutrition", label: "Food Services & Nutrition" },
+  "health-safety-page": { path: "/health-safety", label: "Health & Safety" },
+  "medical-services-page": { path: "/medical-services", label: "Medical Services" },
+  "news-listing-page": { path: "/news-events", label: "News & Events" },
+  "our-campus-page": { path: "/our-campus", label: "Our Campus" },
+  "our-community-page": { path: "/our-community", label: "Our Community" },
+  "parent-involvement-page": { path: "/parent-involvement", label: "Parent Involvement" },
+  "school-calendar-page": { path: "/school-calendar", label: "School Calendar" },
+  "school-policies-page": { path: "/school-policies", label: "School Policies" },
+  "school-supplies-uniform-page": { path: "/school-supplies-uniform", label: "School Supplies & Uniform" },
+  "student-inclusion-page": { path: "/student-inclusion", label: "Student Inclusion" },
+  "student-life-page": { path: "/student-life", label: "Student Life" },
+  "student-programs-page": { path: "/achievements", label: "Achievements" },
+  "student-staff-wellbeing-page": { path: "/student-staff-wellbeing", label: "Student & Staff Wellbeing" },
+  "transportation-safety-page": { path: "/transportation-safety-guidelines", label: "Transportation Safety Guidelines" },
+};
+
+/** Keys whose values are settings, media or links rather than copy. */
+const SKIP_KEYS = new Set([
+  "_id", "_key", "_type", "_ref", "_rev", "_createdAt", "_updatedAt", "_system",
+  "seo", "navigation", "image", "mobileImage", "icon", "logo", "logos", "badge", "video", "asset",
+  "href", "url", "slug", "imagePosition", "imageSide", "imageWidth", "theme", "variant", "iconType",
+  "openInNewTab", "hidden", "ariaLabel", "recipientEmail", "formSection",
+]);
+const SKIP_TYPES = new Set(["image", "imageWithAlt", "reference", "slug", "file"]);
+
+function collectText(value: unknown, out: string[]) {
+  if (value == null) return;
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    if (trimmed.length > 1 && !/^(#|https?:|mailto:|tel:|\/)/.test(trimmed) && !/^#?[0-9a-f]{3,8}$/i.test(trimmed) && !/^var\(/.test(trimmed)) out.push(trimmed);
+    return;
+  }
+  if (Array.isArray(value)) { value.forEach((item) => collectText(item, out)); return; }
+  if (typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    if (typeof record._type === "string" && SKIP_TYPES.has(record._type)) return;
+    if (record._type === "block" && Array.isArray(record.children)) {
+      out.push((record.children as Array<{ text?: string }>).map((child) => child.text ?? "").join(""));
+      return;
+    }
+    for (const [key, child] of Object.entries(record)) {
+      if (SKIP_KEYS.has(key) || /color$/i.test(key) || /navigation/i.test(key)) continue;
+      collectText(child, out);
+    }
+  }
+}
+
+function sectionTitle(value: unknown): string {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return "";
+  const record = value as Record<string, unknown>;
+  const heading = record.heading as Record<string, unknown> | undefined;
+  const candidates = [heading?.title, record.title, record.label, record.name, record.subtitle];
+  const found = candidates.find((candidate) => typeof candidate === "string" && candidate.trim().length > 1);
+  return typeof found === "string" ? found : "";
+}
+
+function firstLine(text: string) {
+  return text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)[0] ?? "";
+}
+
+function cleanPageTitle(document: Record<string, unknown>, fallback: string) {
+  const hero = document.hero as Record<string, unknown> | undefined;
+  const seo = document.seo as Record<string, unknown> | undefined;
+  const raw = [hero?.title, seo?.title, document.title].find((candidate) => typeof candidate === "string" && candidate.trim());
+  const title = typeof raw === "string" ? raw.replace(/\s*\|.*$/, "").replace(/\s+/g, " ").trim() : "";
+  return title || fallback;
+}
+
+function normalize(text: string) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function buildEntries(documents: Array<Record<string, unknown>>): IndexEntry[] {
+  const entries: IndexEntry[] = [];
+
+  for (const document of documents) {
+    const id = String(document._id ?? "");
+    const type = String(document._type ?? "");
+
+    if (type === "newsPost") {
+      const slug = (document.slug as { current?: string } | undefined)?.current;
+      if (!slug) continue;
+      const parts: string[] = [];
+      collectText(document, parts);
+      const title = String(document.title ?? "").trim() || "News";
+      entries.push({ id, page: "News & Events", path: `/news-events/${slug}`, section: title, isPageEntry: true, title, text: normalize(parts.join(" ")) });
+      continue;
+    }
+
+    const route = PAGE_ROUTES[id];
+    if (!route) continue;
+    const pageTitle = cleanPageTitle(document, route.label);
+
+    // The page itself: its name and hero copy.
+    const heroParts: string[] = [];
+    collectText(document.hero, heroParts);
+    entries.push({ id, page: route.label, path: route.path, section: pageTitle, isPageEntry: true, title: `${route.label} ${pageTitle}`, text: normalize(heroParts.join(" ")) });
+
+    // Each section on the page.
+    for (const [key, value] of Object.entries(document)) {
+      if (key === "hero" || SKIP_KEYS.has(key) || /navigation/i.test(key) || !value || typeof value !== "object") continue;
+      const items = Array.isArray(value) ? value : [value];
+      const isList = Array.isArray(value) && items.every((item) => sectionTitle(item));
+
+      if (isList) {
+        // A list of titled items (e.g. FAQ entries): each is its own hit.
+        items.forEach((item, index) => {
+          const title = normalize(sectionTitle(item));
+          const parts: string[] = [];
+          collectText(item, parts);
+          entries.push({ id: `${id}:${key}:${index}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text: normalize(parts.join(" ")) });
+        });
+        continue;
+      }
+
+      const title = normalize(sectionTitle(value)) || (Array.isArray(value) ? "" : "");
+      const parts: string[] = [];
+      collectText(value, parts);
+      const text = normalize(parts.join(" "));
+      if (!title && !text) continue;
+      // A section that only repeats the page title adds nothing to the page entry.
+      if (!title || (title.toLowerCase() === pageTitle.toLowerCase() && text.toLowerCase() === title.toLowerCase())) {
+        if (text && text.toLowerCase() !== pageTitle.toLowerCase()) entries.push({ id: `${id}:${key}`, page: route.label, path: route.path, section: pageTitle, isPageEntry: true, title: pageTitle, text });
+        continue;
+      }
+      entries.push({ id: `${id}:${key}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text });
+    }
+  }
+
+  return entries;
+}
+
+let cachedEntries: { builtAt: number; entries: IndexEntry[] } | null = null;
+const CACHE_MS = 60_000;
+
+async function getEntries(): Promise<IndexEntry[]> {
+  if (cachedEntries && Date.now() - cachedEntries.builtAt < CACHE_MS) return cachedEntries.entries;
+  const client = getSanityClient();
+  const ids = Object.keys(PAGE_ROUTES);
+  const documents = await client.fetch<Array<Record<string, unknown>>>(
+    `*[!(_id in path("drafts.**")) && (_id in $ids || _type == "newsPost")]`,
+    { ids },
+  );
+  const entries = buildEntries(documents);
+  cachedEntries = { builtAt: Date.now(), entries };
+  return entries;
+}
+
+function makeSnippet(text: string, query: string, tokens: string[]) {
+  const lower = text.toLowerCase();
+  let at = lower.indexOf(query);
+  if (at < 0) for (const token of tokens) { at = lower.indexOf(token); if (at >= 0) break; }
+  if (at < 0) return text.slice(0, 140) + (text.length > 140 ? "…" : "");
+  const start = Math.max(0, at - 60);
+  const end = Math.min(text.length, at + 110);
+  let snippet = text.slice(start, end);
+  if (start > 0) snippet = "…" + snippet.replace(/^\S*\s/, "");
+  if (end < text.length) snippet = snippet.replace(/\s\S*$/, "") + "…";
+  return snippet;
+}
+
+/**
+ * A link that opens the page and lands on the section: the hash names the
+ * section's title and the page's SearchJump component scrolls to the heading
+ * that carries it (works in every browser, unlike text fragments).
+ */
+export const SEARCH_JUMP_PARAM = "find";
+
+function makeHref(entry: IndexEntry) {
+  if (entry.isPageEntry) return entry.path;
+  const target = firstLine(entry.section).slice(0, 80);
+  if (!target) return entry.path;
+  return `${entry.path}#${SEARCH_JUMP_PARAM}=${encodeURIComponent(target)}`;
+}
+
+function displayTitle(text: string) {
+  const line = firstLine(text);
+  return line.length > 90 ? line.slice(0, 88).replace(/\s\S*$/, "") + "…" : line;
+}
+
+export async function searchSite(rawQuery: string, limit = 12): Promise<SearchResult[]> {
+  const query = normalize(rawQuery).toLowerCase();
+  if (query.length < 2) return [];
+  const tokens = query.split(" ").filter((token) => token.length > 1);
+  if (tokens.length === 0) return [];
+
+  const entries = await getEntries();
+  const scored: Array<{ entry: IndexEntry; score: number }> = [];
+
+  for (const entry of entries) {
+    const title = entry.title.toLowerCase();
+    const text = entry.text.toLowerCase();
+    let score = 0;
+    let hits = 0;
+    for (const token of tokens) {
+      const inTitle = title.includes(token);
+      const inText = text.includes(token);
+      if (inTitle) score += 10;
+      if (inText) score += 3;
+      if (inTitle || inText) hits += 1;
+    }
+    if (hits === 0) continue;
+    if (hits < tokens.length) score -= 4 * (tokens.length - hits);
+    if (title.includes(query)) score += 20;
+    else if (text.includes(query)) score += 8;
+    if (entry.isPageEntry) score += 2;
+    scored.push({ entry, score });
+  }
+
+  scored.sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title));
+
+  return scored.slice(0, limit).map(({ entry }) => ({
+    id: entry.id,
+    page: entry.page,
+    path: entry.path,
+    section: displayTitle(entry.section) || entry.page,
+    snippet: makeSnippet(entry.text, query, tokens),
+    href: makeHref(entry),
+  }));
+}

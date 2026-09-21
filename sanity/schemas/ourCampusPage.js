@@ -1,0 +1,127 @@
+export const ourCampusPage = {
+  name: "ourCampusPage",
+  title: "Our Campus Page",
+  type: "document",
+  fields: [
+    { name: "seo", title: "SEO", type: "seo", options: { collapsible: true, collapsed: false } },
+    {
+      name: "hero",
+      title: "Hero",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      description: "Editable hero content and colors for the Our Campus page.",
+      fields: [
+        { name: "heading", title: "Hero Text", type: "sectionHeading" },
+        { name: "image", title: "Hero Image (Desktop)", type: "imageWithAlt" },
+        { name: "mobileImage", title: "Hero Image (Mobile)", type: "imageWithAlt", description: "Optional image used on screens up to 920px wide. Falls back to the desktop image when empty." },
+        { name: "topLineColor", title: "Top Line Color", type: "string" },
+        { name: "panelColor", title: "Panel Background Color", type: "string" },
+        { name: "waveColor", title: "Curved Line Color", type: "string" },
+        { name: "textColor", title: "Text Color", type: "string" },
+        { name: "imagePosition", title: "Image Position", type: "string" },
+        { name: "imageWidth", title: "Desktop Image Width", type: "string" },
+      ],
+    },
+    {
+      name: "intro",
+      title: "Modern Spaces Intro",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      fields: [{ name: "heading", title: "Heading Text", type: "sectionHeading" }],
+    },
+    {
+      name: "videoSection",
+      title: "Campus Video",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      fields: [
+        {
+          name: "videoFile",
+          title: "Campus Video File",
+          type: "file",
+          description: "Upload the campus video here. MP4 is recommended for the best browser support.",
+          options: { accept: "video/*" },
+        },
+        { name: "poster", title: "Video Poster Image", type: "imageWithAlt" },
+        {
+          name: "videoUrl",
+          title: "External Video URL (Optional)",
+          type: "url",
+          description: "Fallback direct video URL. The uploaded Campus Video File is used first when both are provided.",
+        },
+      ],
+    },
+    {
+      name: "facilities",
+      title: "Facilities",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+    },
+    {
+      name: "librarySection",
+      title: "The Library",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+      description: "Editable Library section shown directly below Facilities.",
+    },
+    {
+      name: "elementaryLibrarySection",
+      title: "Elementary School Library",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+      description: "Text beside an image, shown directly below The Library. Bulleted lists are supported.",
+    },
+    {
+      name: "secondaryLibrarySection",
+      title: "Middle & High School Library",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      description: "Curved panel with the image on the left and the text on the right. Bulleted lists are supported.",
+      fields: [
+        { name: "heading", title: "Text Content", type: "sectionHeading" },
+        { name: "image", title: "Image", type: "imageWithAlt" },
+        {
+          name: "imagePosition",
+          title: "Image Position",
+          type: "string",
+          description: "Optional CSS object-position value, for example center or 45% center.",
+        },
+        {
+          name: "backgroundColor",
+          title: "Section Background Color",
+          type: "string",
+          description: "Optional CSS color for the whole band, for example #35608B.",
+        },
+        {
+          name: "curveColor",
+          title: "Curve Color",
+          type: "string",
+          description: "Optional CSS color for the curved shape on the left, for example #00A5B2.",
+        },
+        {
+          name: "curveLineColor",
+          title: "Curved Line Color",
+          type: "string",
+          description: "Optional CSS color for the thick line along the curve, for example #D9724F.",
+        },
+        { name: "titleColor", title: "Title Color", type: "string", description: "Optional CSS color, for example #ffffff." },
+        { name: "textColor", title: "Text Color", type: "string", description: "Optional CSS color, for example #ffffff." },
+      ],
+    },
+    {
+      name: "roboticsLabSection",
+      title: "The Robotics Lab",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+      description: "Text beside an image, shown directly below the Middle & High School Library.",
+    },
+  ],
+  preview: {
+    prepare() {
+      return {
+        title: "Our Campus",
+        subtitle: "Hero, intro, video, facilities, and libraries",
+      };
+    },
+  },
+};

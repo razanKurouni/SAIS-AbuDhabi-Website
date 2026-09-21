@@ -1,0 +1,18 @@
+/* Studio form spacing ------------------------------------------------------
+   Page documents are long lists of sections. Every section field is a
+   collapsible object, which the Studio renders as a fieldset; these rules
+   give those fieldsets room to breathe so one section clearly ends before
+   the next begins. */
+
+[data-testid="document-panel-scroller"] fieldset {
+  margin-block: 22px;
+}
+
+[data-testid="document-panel-scroller"] fieldset + fieldset {
+  margin-top: 26px;
+}
+
+/* Fallback for form rows the Studio does not wrap in a fieldset. */
+[data-testid="document-panel-scroller"] > div > div > [data-testid^="field-"] {
+  margin-block: 18px;
+}

@@ -1,0 +1,213 @@
+import Image from "next/image";
+import Link from "next/link";
+import { Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
+import { FacebookBrandIcon, LinkedinBrandIcon } from "@/components/ui/social-icons";
+import { normalizeHref } from "@/lib/portal-links";
+import type { FooterContactItem, LinkField, SiteFooter as SiteFooterData } from "@/types/sanity";
+
+type SiteFooterProps = {
+  footer?: SiteFooterData;
+};
+
+const defaultSocialLinks: LinkField[] = [
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school/", openInNewTab: true },
+  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=100063804654073", openInNewTab: true },
+  { label: "YouTube", href: "https://www.youtube.com/@sharjahamericaninternation5133", openInNewTab: true },
+  { label: "Instagram", href: "https://www.instagram.com/saissharjahcampus/", openInNewTab: true },
+];
+
+const defaultLegalLinks: LinkField[] = [
+  { label: "Terms & Conditions", href: "/terms-and-conditions" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+];
+
+const defaultParentStudentLinks: LinkField[] = [
+  { label: "Parent Portal", href: "https://saiss.ppnv1.mograsys.com", openInNewTab: true },
+  { label: "Apply Online", href: "https://saiss.oa.mograsys.com", openInNewTab: true },
+  { label: "Download the App", href: "/admissions/applications#mograhub-app" },
+];
+
+const defaultQuickLinks: LinkField[] = [
+  { label: "About SAIS", href: "/about-us" },
+  { label: "Admissions", href: "/admissions" },
+  { label: "Careers", href: "/careers" },
+  { label: "Contact Us", href: "/contact-us" },
+];
+
+const defaultContactItems: FooterContactItem[] = [
+  {
+    icon: "location",
+    label: "Address",
+    text: "Sharjah American International School\nSharjah Campus\nTha\u2019alabah Bin Sa\u2019ad St.\nNear Al Ramaqia Park, Sharjah",
+    href: "https://maps.app.goo.gl/jVbwRcqpRdNSYe2h7",
+  },
+  {
+    icon: "phone",
+    label: "Phone",
+    text: "+971 6 538 0000",
+    href: "tel:+97165380000",
+  },
+  {
+    icon: "email",
+    label: "Email",
+    text: "sais@saissharjah.com",
+    href: "mailto:sais@saissharjah.com",
+  },
+];
+
+const socialIcons = [LinkedinBrandIcon, FacebookBrandIcon, Youtube, Instagram];
+const contactIcons = { location: MapPin, phone: Phone, email: Mail };
+
+function findSocialLink(links: LinkField[], label: string, fallback: LinkField) {
+  return links.find((link) => link.label?.toLowerCase().includes(label.toLowerCase())) || fallback;
+}
+
+function isHighlightedFooterLink(label?: string) {
+  const normalizedLabel = label?.trim().toLowerCase();
+
+  return ["campus tours", "admissions process", "faq’s", "faq's", "fees"].includes(normalizedLabel || "");
+}
+
+function FooterLink({ link }: { link: LinkField }) {
+  return (
+    <Link
+      href={normalizeHref(link.href) || "#"}
+      target={link.openInNewTab ? "_blank" : undefined}
+      rel={link.openInNewTab ? "noreferrer" : undefined}
+      className={`site-footer__link ${isHighlightedFooterLink(link.label) ? "site-footer__link--blue" : ""}`.trim()}
+    >
+      {link.label}
+    </Link>
+  );
+}
+
+export function SiteFooter({ footer }: SiteFooterProps) {
+  const socialLinks = footer?.socialLinks?.length ? footer.socialLinks : defaultSocialLinks;
+  const legalLinks = footer?.legalLinks?.length ? footer.legalLinks : defaultLegalLinks;
+  const parentStudentLinks = footer?.parentStudentLinks?.length ? footer.parentStudentLinks : defaultParentStudentLinks;
+  const parentStudentLinksTitle = footer?.parentStudentLinksTitle || "Parents & Students";
+  const quickLinks = footer?.quickLinks?.length ? footer.quickLinks : defaultQuickLinks;
+  const quickLinksTitle = footer?.quickLinksTitle || "Quick Links";
+  const contactItems = footer?.contactItems?.length ? footer.contactItems : defaultContactItems;
+  const copyrightText = footer?.copyrightText || "© 2026 Sharjah American International School Campus";
+  const creditLabel = footer?.creditLabel || "Site by";
+  const creditName = footer?.creditName || "Formulate";
+  const creditUrl = footer?.creditUrl || "https://www.formulatecreative.com/";
+
+  return (
+    <footer className="site-footer">
+      <div className="site-footer__main">
+        <svg className="site-footer__shape" viewBox="0 0 760 436" preserveAspectRatio="none" aria-hidden="true">
+          <path
+            d="M0 0H674C635 38 633 103 660 160L704 249C740 324 713 394 667 461L0 436Z"
+            fill="var(--sais-primary)"
+          />
+          <path
+            d="M674 -24C635 38 633 103 660 160L704 249C740 324 713 394 667 461"
+            fill="none"
+            stroke="var(--sais-accent)"
+            strokeLinecap="round"
+            strokeWidth="44"
+          />
+        </svg>
+
+        <div className="site-footer__content">
+          <div className="site-footer__brand-area">
+            <Image
+              src={footer?.logo?.url || "/sais-footer-logo-lockup.png"}
+              alt={footer?.logo?.alt || "Sharjah American International School"}
+              width={390}
+              height={88}
+              className="site-footer__logo"
+            />
+
+            <address className="site-footer__contact">
+              {contactItems.map((item) => {
+                const Icon = contactIcons[item.icon || "location"];
+
+                return (
+                  <a key={item._key || item.label} href={normalizeHref(item.href) || "#"} className="site-footer__contact-item">
+                    <span className="site-footer__contact-icon" aria-hidden="true">
+                      <Icon />
+                    </span>
+                    <span>{item.text}</span>
+                  </a>
+                );
+              })}
+            </address>
+
+            <svg className="site-footer__curve-mask" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M0 70 C240 112 468 112 720 70 C980 28 1196 28 1440 70 V140 H0 Z" />
+            </svg>
+            <svg className="site-footer__wave" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M0 70 C240 112 468 112 720 70 C980 28 1196 28 1440 70" />
+            </svg>
+          </div>
+
+          <div className="site-footer__right">
+            <div className="site-footer__social" aria-label="Social media links">
+              {socialIcons.map((Icon, index) => {
+                const link = findSocialLink(socialLinks, defaultSocialLinks[index].label, defaultSocialLinks[index]);
+
+                return (
+                  <a
+                    key={link.label}
+                    href={normalizeHref(link.href) || "#"}
+                    target={link.openInNewTab ? "_blank" : undefined}
+                    rel={link.openInNewTab ? "noreferrer" : undefined}
+                    aria-label={link.label}
+                    className="site-footer__social-link"
+                  >
+                    <Icon aria-hidden="true" />
+                  </a>
+                );
+              })}
+            </div>
+
+            <nav className="site-footer__nav" aria-label="Footer navigation">
+              <div className="site-footer__column site-footer__column--quick-links">
+                <h2>{quickLinksTitle}</h2>
+                {quickLinks.map((link) => (
+                  <FooterLink key={`${link.label}-${link.href}`} link={link} />
+                ))}
+              </div>
+              <div className="site-footer__column site-footer__column--parents-students">
+                <h2>{parentStudentLinksTitle}</h2>
+                {parentStudentLinks.map((link) => (
+                    <FooterLink key={`${link.label}-${link.href}`} link={link} />
+                ))}
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div className="site-footer__bottom">
+        <div className="site-footer__bottom-inner">
+          <p>{copyrightText}</p>
+
+          <nav className="site-footer__legal" aria-label="Legal links">
+            {legalLinks.map((link) => (
+              <Link
+                key={`${link.label}-${link.href}`}
+                href={normalizeHref(link.href) || "#"}
+                target={link.openInNewTab ? "_blank" : undefined}
+                rel={link.openInNewTab ? "noreferrer" : undefined}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <p className="site-footer__credit">
+            {creditLabel}{" "}
+            <a href={creditUrl} target="_blank" rel="noreferrer">
+              {creditName}
+            </a>
+          </p>
+          </nav>
+
+          
+        </div>
+      </div>
+    </footer>
+  );
+}

@@ -1,0 +1,68 @@
+export const admissionsPage = {
+  name: "admissionsPage",
+  title: "Admissions Intro Page",
+  type: "document",
+  fields: [
+    { name: "seo", title: "SEO", type: "seo", options: { collapsible: true, collapsed: false } },
+    {
+      name: "hero",
+      title: "Hero",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      fields: [
+        { name: "heading", title: "Hero Text", type: "sectionHeading" },
+        { name: "image", title: "Hero Image (Desktop)", type: "imageWithAlt" },
+        { name: "mobileImage", title: "Hero Image (Mobile)", type: "imageWithAlt", description: "Optional image used on screens up to 920px wide. Falls back to the desktop image when empty." },
+        { name: "topLineColor", title: "Top Line Color", type: "string" },
+        { name: "panelColor", title: "Panel Background Color", type: "string" },
+        { name: "waveColor", title: "Curved Line Color", type: "string" },
+        { name: "textColor", title: "Text Color", type: "string" },
+        { name: "imagePosition", title: "Image Position", type: "string" },
+        { name: "imageWidth", title: "Desktop Image Width", type: "string" },
+      ],
+    },
+    {
+      name: "innerNavigation",
+      title: "Admissions Navigation",
+      type: "object",
+      options: { collapsible: true, collapsed: false },
+      fields: [
+        { name: "items", title: "Navigation Items", type: "array", of: [{ type: "linkField" }] },
+        { name: "activeHref", title: "Active Page URL", type: "string" },
+        { name: "activeColor", title: "Active Color", type: "string" },
+        { name: "inactiveColor", title: "Inactive Color", type: "string" },
+        { name: "textColor", title: "Text Color", type: "string" },
+        { name: "dividerColor", title: "Divider Color", type: "string" },
+        { name: "topLineColor", title: "Top Line Color", type: "string" },
+        { name: "ariaLabel", title: "Accessibility Label", type: "string" },
+      ],
+    },
+    {
+      name: "introSection",
+      title: "Admissions Welcome Section",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+    },
+    {
+      name: "rollingAdmissionsSection",
+      title: "Rolling Admissions Section",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+      description: "White image and text section displayed below Learning at SAIS.",
+    },
+    {
+      name: "policySection",
+      title: "Admissions Policy Section",
+      type: "imageTextSection",
+      options: { collapsible: true, collapsed: false },
+    },
+  ],
+  preview: {
+    prepare() {
+      return {
+        title: "Admissions Intro",
+        subtitle: "Admissions landing page",
+      };
+    },
+  },
+};
