@@ -804,6 +804,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
         }
       ]
     },
+    "whyFeature": {
+      "imagePosition": "left"
+    },
     "intro": {
       "imagePosition": "left",
       "theme": "blue"

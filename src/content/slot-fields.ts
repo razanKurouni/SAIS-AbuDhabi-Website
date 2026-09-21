@@ -1339,6 +1339,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "homepage-main/whyFeature": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "homepage-main/whySection": {
     "section": [
       "ctas",

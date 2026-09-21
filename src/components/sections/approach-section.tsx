@@ -18,6 +18,8 @@ type ApproachSectionBaseProps = {
   imageSizes?: string;
   cta?: Cta;
   showTitle?: boolean;
+  /** Render the title inside the text panel instead of keeping it for screen readers only. */
+  visibleTitle?: boolean;
   naturalImage?: boolean;
 };
 
@@ -41,6 +43,7 @@ export function ApproachSectionBase({
   imageSizes = "100vw",
   cta,
   showTitle = true,
+  visibleTitle = false,
   naturalImage = false,
 }: ApproachSectionBaseProps) {
   const hasRichText = Boolean(content?.length);
@@ -57,7 +60,7 @@ export function ApproachSectionBase({
       aria-labelledby={showTitle ? titleId : undefined}
       aria-label={showTitle ? undefined : title}
     >
-      {showTitle ? (
+      {showTitle && !visibleTitle ? (
         <h2 id={titleId} className="sr-only">
           {title}
         </h2>
@@ -120,6 +123,13 @@ export function ApproachSectionBase({
         </div>
 
         <div className="approach-section__content">
+          {showTitle && visibleTitle ? (
+            <Reveal threshold={0.22}>
+              <h2 id={titleId} className="approach-section__title">
+                {title}
+              </h2>
+            </Reveal>
+          ) : null}
           {lead && <p className="approach-section__lead">{lead}</p>}
 
           {hasRichText ? (
@@ -174,6 +184,7 @@ export function ApproachSection({ section }: ApproachSectionProps) {
     <ApproachSectionBase
       className="approach-section--home"
       title={section.heading?.title}
+      visibleTitle={Boolean(section.heading?.title)}
       lead={section.heading?.subtitle}
       content={section.heading?.description}
       image={section.image}

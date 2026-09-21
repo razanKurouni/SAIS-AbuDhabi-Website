@@ -12,6 +12,7 @@ import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { ApproachSection } from "@/components/sections/approach-section";
 import { AboutGovernanceSection } from "@/components/sections/about-governance-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { LatestNewsSection } from "@/components/sections/latest-news-section";
 import { SocialSection } from "@/components/sections/social-section";
 import { SiteFooter } from "@/components/sections/site-footer";
@@ -35,6 +36,16 @@ export function HomePage({ data, instagramPosts }: HomePageProps) {
         <HeroContactBand section={data?.heroContactBand} />
         <AccreditationsSection section={data?.accreditations} />
         <ApproachSection section={data?.whySection} />
+        {data?.whyFeature ? (
+          <EditorialSplitSection
+            id="home-why-feature"
+            title={data.whyFeature.heading?.title || "Why SAIS"}
+            section={data.whyFeature}
+            fallbackImage={{}}
+            fallbackParagraphs={[]}
+            className="editorial-split-section--home-feature"
+          />
+        ) : null}
         <FactsSection section={data?.facts} />
         <WhyDubaiSection section={data?.whyDubai} />
         <QuickLinksSection section={data?.quickLinks} />

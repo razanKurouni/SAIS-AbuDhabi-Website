@@ -112,6 +112,7 @@ export function adaptHomepage(page: CmsPage, settings: SiteSettings | null): Hom
       ? { heading: requiredHeading(s.get("accreditations")), logos: logos(s.get("accreditations")).map((logo) => ({ name: logo.name || "", image: logo.image })) }
       : undefined,
     whySection: imageText(s.get("whySection")),
+    whyFeature: imageText(s.get("whyFeature")),
     facts: s.has("facts") ? { heading: requiredHeading(s.get("facts")), items: metrics(s.get("facts")) } : undefined,
     quickLinks: s.has("quickLinks")
       ? { heading: requiredHeading(s.get("quickLinks")), cards: featureCards(s.get("quickLinks")) }

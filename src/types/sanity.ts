@@ -1037,6 +1037,7 @@ export type HomepageData = {
     logos?: LogoItem[];
   };
   whySection?: ImageTextSection;
+  whyFeature?: ImageTextSection;
   facts?: {
     heading: SectionHeading;
     items?: MetricItem[];

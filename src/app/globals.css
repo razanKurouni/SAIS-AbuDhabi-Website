@@ -5728,6 +5728,14 @@ ul {
   margin-left: 14%;
 }
 
+.approach-section__title {
+  margin: 0 0 0.35em;
+  color: #ffffff;
+  font-size: clamp(1.9rem, 2.6vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
 .approach-section__lead {
   margin: 0;
   color: #ffffff;
