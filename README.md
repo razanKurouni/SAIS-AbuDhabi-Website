@@ -43,6 +43,20 @@ Every section type shares the same field names (`heading`, `body`, `image`, `car
 which is what keeps the attribute count small. Keep that in mind when adding fields: prefer reusing an
 existing field name over inventing a new one.
 
+### Which fields the Studio shows
+
+Inside a section the Studio only shows the fields that section actually uses; empty optional fields are
+hidden (`sanity/schemas/visibility.js`). The list of used fields per page section is generated from the
+content into `src/content/slot-fields.ts`:
+
+```bash
+npm run content:slot-fields
+```
+
+To make a hidden field editable for one section, add its name to that section's entry in
+`src/content/slot-fields.ts` (for example add `"subtitle"` under `heading`). A field that already has
+content is always shown.
+
 ### Adding a section to a page
 
 1. Add a slot to the page in `src/content/page-spec.ts` (slot id, kind, label).
@@ -50,7 +64,7 @@ existing field name over inventing a new one.
 3. Render it in the page under `src/app/`.
 4. Put any colors for it in `src/design/page-design.ts`.
 5. Create the section in the Studio with the same `slot` id (the migration script does this automatically
-   when it copies content).
+   when it copies content), then run `npm run content:slot-fields` so its fields show up.
 
 ## Sanity project
 

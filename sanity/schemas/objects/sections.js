@@ -10,6 +10,7 @@
  * words, images and links.
  */
 import { SLOT_LABELS } from "../slot-labels";
+import { onlyWhenUsedAll } from "../visibility";
 
 const slot = {
   name: "slot",
@@ -50,7 +51,7 @@ export const imageTextSection = {
   name: "imageTextSection",
   title: "Image & Text",
   type: "object",
-  fields: [slot, heading, body, image, mobileImage, icon, ctas],
+  fields: [slot, ...onlyWhenUsedAll([heading, body, image, mobileImage, icon, ctas], "section")],
   preview: preview("Image & Text"),
 };
 
@@ -58,7 +59,7 @@ export const textSection = {
   name: "textSection",
   title: "Text",
   type: "object",
-  fields: [slot, heading, body],
+  fields: [slot, ...onlyWhenUsedAll([heading, body], "section")],
   preview: preview("Text"),
 };
 
@@ -66,7 +67,7 @@ export const cardsSection = {
   name: "cardsSection",
   title: "Cards / List",
   type: "object",
-  fields: [slot, heading, body, image, cta, ctas, cards, entries],
+  fields: [slot, ...onlyWhenUsedAll([heading, body, image, cta, ctas, cards, entries], "section")],
   preview: preview("Cards"),
 };
 
@@ -74,7 +75,7 @@ export const entriesSection = {
   name: "entriesSection",
   title: "Info Entries",
   type: "object",
-  fields: [slot, heading, body, image, entries],
+  fields: [slot, ...onlyWhenUsedAll([heading, body, image, entries], "section")],
   preview: preview("Entries"),
 };
 
@@ -82,7 +83,7 @@ export const ctaSection = {
   name: "ctaSection",
   title: "Call to Action",
   type: "object",
-  fields: [slot, heading, ctas, file],
+  fields: [slot, ...onlyWhenUsedAll([heading, ctas, file], "section")],
   preview: preview("Call to Action"),
 };
 
@@ -92,10 +93,15 @@ export const mediaSection = {
   type: "object",
   fields: [
     slot,
-    heading,
-    { ...image, title: "Poster Image" },
-    { name: "video", title: "Video File", type: "file", options: { accept: "video/*" } },
-    { name: "href", title: "Video URL", type: "string", description: "Optional external video link (YouTube, Vimeo, MP4)." },
+    ...onlyWhenUsedAll(
+      [
+        heading,
+        { ...image, title: "Poster Image" },
+        { name: "video", title: "Video File", type: "file", options: { accept: "video/*" } },
+        { name: "href", title: "Video URL", type: "string", description: "Optional external video link (YouTube, Vimeo, MP4)." },
+      ],
+      "section",
+    ),
   ],
   preview: preview("Video"),
 };
@@ -106,11 +112,16 @@ export const formSection = {
   type: "object",
   fields: [
     slot,
-    heading,
-    { name: "recipientEmail", title: "Recipient Email", type: "string" },
-    { name: "submitLabel", title: "Submit Button Label", type: "string" },
-    { name: "successMessage", title: "Success Message", type: "text", rows: 2 },
-    { name: "errorMessage", title: "Error Message", type: "text", rows: 2 },
+    ...onlyWhenUsedAll(
+      [
+        heading,
+        { name: "recipientEmail", title: "Recipient Email", type: "string" },
+        { name: "submitLabel", title: "Submit Button Label", type: "string" },
+        { name: "successMessage", title: "Success Message", type: "text", rows: 2 },
+        { name: "errorMessage", title: "Error Message", type: "text", rows: 2 },
+      ],
+      "section",
+    ),
   ],
   preview: preview("Form"),
 };
@@ -119,7 +130,7 @@ export const newsSection = {
   name: "newsSection",
   title: "News",
   type: "object",
-  fields: [slot, heading, cta],
+  fields: [slot, ...onlyWhenUsedAll([heading, cta], "section")],
   preview: preview("News"),
 };
 
@@ -127,7 +138,7 @@ export const gallerySection = {
   name: "gallerySection",
   title: "Gallery",
   type: "object",
-  fields: [slot, heading, { name: "images", title: "Images", type: "array", of: [{ type: "picture" }] }, ctas],
+  fields: [slot, ...onlyWhenUsedAll([heading, { name: "images", title: "Images", type: "array", of: [{ type: "picture" }] }, ctas], "section")],
   preview: preview("Gallery"),
 };
 

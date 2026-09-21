@@ -8,7 +8,10 @@
  *
  * Nothing here controls design (colors, layouts, variants). Those live in the
  * code under `src/design/`.
+ *
+ * Fields are hidden in the Studio unless the section uses them (see visibility.js).
  */
+import { onlyWhenUsedAll } from "../visibility";
 
 export const picture = {
   name: "picture",
@@ -91,7 +94,7 @@ export const sectionHeading = {
   name: "sectionHeading",
   title: "Heading",
   type: "object",
-  fields: [
+  fields: onlyWhenUsedAll([
     { name: "eyebrow", title: "Eyebrow", type: "string", description: "Small label above the title. Optional." },
     { name: "title", title: "Title", type: "string" },
     {
@@ -102,7 +105,7 @@ export const sectionHeading = {
     },
     { name: "subtitle", title: "Subtitle", type: "string" },
     { name: "description", title: "Text", type: "blockContent" },
-  ],
+  ], "heading"),
 };
 
 export const seo = {
@@ -127,7 +130,7 @@ export const entry = {
   title: "Entry",
   type: "object",
   description: "A small list row: a label with a value, a link, or an icon.",
-  fields: [
+  fields: onlyWhenUsedAll([
     { name: "label", title: "Label", type: "string" },
     { name: "text", title: "Text / Value", type: "text", rows: 2 },
     { name: "href", title: "Link", type: "string" },
@@ -138,7 +141,7 @@ export const entry = {
       description: "Optional built-in icon name (for example location, phone, email).",
     },
     { name: "icon", title: "Icon Image", type: "picture" },
-  ],
+  ], "entry"),
   preview: {
     select: { title: "label", subtitle: "text" },
     prepare: ({ title, subtitle }) => ({ title: title || subtitle || "Entry", subtitle: title ? subtitle : undefined }),
@@ -150,7 +153,7 @@ export const card = {
   title: "Card",
   type: "object",
   description: "A repeatable item: card, slide, team member, FAQ, table row, document…",
-  fields: [
+  fields: onlyWhenUsedAll([
     { name: "title", title: "Title", type: "string" },
     { name: "subtitle", title: "Subtitle", type: "string", description: "Role, location, or a second line." },
     { name: "label", title: "Label", type: "string", description: "Short badge text: a year, a number, a button label." },
@@ -173,7 +176,7 @@ export const card = {
       of: [{ type: "entry" }],
       description: "Sub-items: table cells, bullet points, dates, pillars.",
     },
-  ],
+  ], "card"),
   preview: {
     select: { title: "title", subtitle: "subtitle", description: "description", media: "image", icon: "icon" },
     prepare: ({ title, subtitle, description, media, icon }) => ({

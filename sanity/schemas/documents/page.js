@@ -1,4 +1,5 @@
 import { sectionTypeNames } from "../objects/sections";
+import { onlyWhenUsedAll } from "../visibility";
 
 export const page = {
   name: "page",
@@ -25,7 +26,7 @@ export const page = {
       title: "Hero",
       type: "object",
       options: { collapsible: true, collapsed: false },
-      fields: [
+      fields: onlyWhenUsedAll([
         { name: "heading", title: "Heading", type: "sectionHeading" },
         { name: "image", title: "Hero Image (Desktop)", type: "picture" },
         {
@@ -42,7 +43,7 @@ export const page = {
           of: [{ type: "string" }],
           description: "Short values shown under the homepage hero.",
         },
-      ],
+      ], "hero"),
     },
     {
       name: "sections",
