@@ -86,7 +86,6 @@ export const PAGE_SPECS: PageSpec[] = [
       it("whySection", "Why SAIS"),
       it("whyFeature", "Why SAIS – Feature"),
       entries("facts", "Facts & Figures"),
-      cards("whyDubai", "Why Choose Us"),
       cards("quickLinks", "Quick Links"),
       cards("learningPhases", "Learning Phases"),
       cards("tour", "Book a Tour / Apply"),

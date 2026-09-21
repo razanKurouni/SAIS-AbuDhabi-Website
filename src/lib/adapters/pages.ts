@@ -78,7 +78,6 @@ import {
   textSection,
   valuesSlides,
   video,
-  whyItems,
 } from "./common";
 
 function base(page: CmsPage) {
@@ -93,7 +92,6 @@ export function adaptHomepage(page: CmsPage, settings: SiteSettings | null): Hom
   const s = bySlot(page);
   const news = s.get("news");
   const instagram = s.get("instagram");
-  const whyDubai = s.get("whyDubai");
   const learningPhases = s.get("learningPhases");
 
   return {
@@ -104,9 +102,6 @@ export function adaptHomepage(page: CmsPage, settings: SiteSettings | null): Hom
     heroContactBand: ctaBand(s.get("heroContactBand")),
     intro: imageText(s.get("intro")),
     growthSection: imageText(s.get("growthSection")),
-    whyDubai: whyDubai
-      ? { heading: requiredHeading(whyDubai), image: image(whyDubai.image), items: whyItems(whyDubai) }
-      : undefined,
     ctaBand: s.has("ctaBand") ? { text: "", ...ctaBand(s.get("ctaBand")) } : undefined,
     accreditations: s.has("accreditations")
       ? { heading: requiredHeading(s.get("accreditations")), logos: logos(s.get("accreditations")).map((logo) => ({ name: logo.name || "", image: logo.image })) }

@@ -3,7 +3,6 @@ import { SiteHeader } from "@/components/sections/site-header";
 import { HomeHero } from "@/components/sections/home-hero";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { HeroContactBand } from "@/components/sections/hero-contact-band";
-import { WhyDubaiSection } from "@/components/sections/why-dubai-section";
 import { AccreditationsSection } from "@/components/sections/accreditations-section";
 import { FactsSection } from "@/components/sections/facts-section";
 import { QuickLinksSection } from "@/components/sections/quick-links-section";
@@ -47,7 +46,6 @@ export function HomePage({ data, instagramPosts }: HomePageProps) {
           />
         ) : null}
         <FactsSection section={data?.facts} />
-        <WhyDubaiSection section={data?.whyDubai} />
         <QuickLinksSection section={data?.quickLinks} />
         <LearningPhasesSection section={data?.learningPhases} />
         <TourIntroSection section={data?.tour} />

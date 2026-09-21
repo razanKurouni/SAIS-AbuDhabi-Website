@@ -1,0 +1,80 @@
+{
+  "_key": "whyDubai",
+  "_type": "cardsSection",
+  "cards": [
+    {
+      "_key": "well-rounded",
+      "_type": "card",
+      "description": "Aims to develop well-rounded, bilingual students equipped for the 21st century",
+      "icon": {
+        "_type": "image",
+        "alt": "Innovation and development icon",
+        "asset": {
+          "_ref": "image-e0cb6301bb2d90b8e8e1c5d409c2b31799c9b213-138x138-png",
+          "_type": "reference"
+        }
+      },
+      "iconType": "student",
+      "title": "Well-rounded students"
+    },
+    {
+      "_key": "staff-development",
+      "_type": "card",
+      "description": "Focuses on staff development to maintain high teaching standards",
+      "icon": {
+        "_type": "image",
+        "alt": "Student success icon",
+        "asset": {
+          "_ref": "image-d6dc02c37add46eaf161d5959d8bf363310c70cd-148x138-png",
+          "_type": "reference"
+        }
+      },
+      "iconType": "globe",
+      "title": "Staff development"
+    },
+    {
+      "_key": "adaptive-learning",
+      "_type": "card",
+      "description": "Recognizes that children learn in different ways and adapts teaching accordingly",
+      "icon": {
+        "_type": "image",
+        "alt": "Adaptive learning icon",
+        "asset": {
+          "_ref": "image-72ae2c35c59bc83f1575f6a1d61f284b384ae0c7-139x138-png",
+          "_type": "reference"
+        }
+      },
+      "iconType": "learning",
+      "title": "Adaptive learning"
+    },
+    {
+      "_key": "school-experience",
+      "_type": "card",
+      "description": "Creates an enriching and fulfilling school experience for students and families",
+      "icon": {
+        "_type": "image",
+        "alt": "Family partnership icon",
+        "asset": {
+          "_ref": "image-f6403e55db76e8ebcd842eabce01f340bffe4f0b-146x138-png",
+          "_type": "reference"
+        }
+      },
+      "iconType": "family",
+      "title": "School experience"
+    }
+  ],
+  "heading": {
+    "_type": "sectionHeading",
+    "subtitle": "We offer an American based curriculum within the framework of Islamic values.",
+    "title": "Why SAIS - Sharjah?"
+  },
+  "image": {
+    "_type": "image",
+    "alt": "Sharjah American International School building",
+    "asset": {
+      "_ref": "image-9db5d9e1811b466bf440bf5a467604aaa776b494-764x656-jpg",
+      "_type": "reference"
+    }
+  },
+  "slot": "whyDubai"
+}

@@ -1320,25 +1320,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "homepage-main/whyDubai": {
-    "section": [
-      "cards",
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "subtitle",
-      "title"
-    ],
-    "card": [
-      "description",
-      "icon",
-      "iconType",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
   "homepage-main/whyFeature": {
     "section": [
       "heading",
