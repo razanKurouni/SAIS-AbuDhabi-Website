@@ -1,4 +1,4 @@
-import { PAGE_SPECS, slotLabel } from "@/content/page-spec";
+import { PAGE_SPECS, pageDocumentId, slotLabel, specIdFromDocumentId } from "@/content/page-spec";
 import { getSanityClient } from "@/lib/sanity";
 
 export type SearchResult = {
@@ -22,7 +22,7 @@ type IndexEntry = {
 
 /** Sanity page document → route and the name shown on a result. */
 const PAGE_ROUTES: Record<string, { path: string; label: string }> = Object.fromEntries(
-  PAGE_SPECS.map((spec) => [spec.id, { path: spec.route, label: spec.title }]),
+  PAGE_SPECS.map((spec) => [pageDocumentId(spec.id), { path: spec.route, label: spec.title }]),
 );
 
 /** Keys whose values are settings, media or links rather than copy. */
@@ -115,7 +115,7 @@ function buildEntries(documents: Array<Record<string, unknown>>): IndexEntry[] {
       const slot = typeof section.slot === "string" ? section.slot : String(sectionIndex);
       const cards = Array.isArray(section.cards) ? (section.cards as Array<Record<string, unknown>>) : [];
       const titledCards = cards.length > 0 && cards.every((card) => sectionTitle(card));
-      const sectionHeading = normalize(sectionTitle(section)) || slotLabel(id, slot);
+      const sectionHeading = normalize(sectionTitle(section)) || slotLabel(specIdFromDocumentId(id), slot);
 
       if (titledCards) {
         // A list of titled items (e.g. FAQ entries, team members): each is its own hit.

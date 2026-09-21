@@ -6,6 +6,7 @@ import { applyDesign } from "@/design/apply-design";
 import { PAGE_DESIGN } from "@/design/page-design";
 import { mapLegacySectionsToHomepage } from "@/lib/content";
 import * as adapt from "@/lib/adapters/pages";
+import { pageDocumentId } from "@/content/page-spec";
 import type {
   AboutPageData,
   AcademicsElementaryPageData,
@@ -61,10 +62,11 @@ export function getSanityClient(useCdn = true) {
 /* Raw content                                                              */
 /* ----------------------------------------------------------------------- */
 
-export async function getPage(id: string, useCdn = true): Promise<CmsPage | null> {
+/** Loads a page by its spec id (see src/content/page-spec.ts). */
+export async function getPage(specId: string, useCdn = true): Promise<CmsPage | null> {
   try {
     const client = getSanityClient(useCdn);
-    return await client.fetch<CmsPage | null>(pageQuery, { id });
+    return await client.fetch<CmsPage | null>(pageQuery, { id: pageDocumentId(specId) });
   } catch {
     return null;
   }

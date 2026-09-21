@@ -8,7 +8,7 @@
 import { createClient } from "@sanity/client";
 import fs from "node:fs";
 import path from "node:path";
-import { PAGE_SPECS } from "../src/content/page-spec.ts";
+import { PAGE_SPECS, pageDocumentId } from "../src/content/page-spec.ts";
 
 const rootDir = process.cwd();
 const args = process.argv.slice(2);
@@ -88,7 +88,7 @@ const client = createClient({
   useCdn: false,
 });
 
-const singletonDocumentIds = [...PAGE_SPECS.map((spec) => spec.id), "site-settings"];
+const singletonDocumentIds = [...PAGE_SPECS.map((spec) => pageDocumentId(spec.id)), "site-settings"];
 
 const draftIds = singletonDocumentIds.map((id) => `drafts.${id}`);
 const pageIds = new Set([...singletonDocumentIds, ...draftIds]);

@@ -2,7 +2,7 @@ import { defineConfig } from "sanity";
 import { structureTool, type ListItemBuilder, type StructureBuilder } from "sanity/structure";
 import type { SchemaTypeDefinition } from "sanity";
 import { schemaTypes } from "./sanity/schemas";
-import { PAGE_GROUPS, PAGE_SPECS } from "./src/content/page-spec";
+import { PAGE_GROUPS, PAGE_SPECS, pageDocumentId } from "./src/content/page-spec";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01";
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
@@ -12,7 +12,8 @@ export const SITE_SETTINGS_ID = "site-settings";
 /** Document types that exist once (or as a fixed set) and must not be created or deleted from the Studio. */
 const fixedTypes = ["siteSettings", "page"];
 
-function pageItem(S: StructureBuilder, id: string, title: string): ListItemBuilder {
+function pageItem(S: StructureBuilder, specId: string, title: string): ListItemBuilder {
+  const id = pageDocumentId(specId);
   return S.listItem()
     .title(title)
     .id(id)

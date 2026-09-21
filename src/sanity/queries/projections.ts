@@ -7,6 +7,17 @@ export const pictureProjection = `{
   "height": asset->metadata.dimensions.height
 }`;
 
+/**
+ * News post images: tolerant of the older `{ image: { asset }, alt }` shape so
+ * a dataset converted in place keeps its news pictures until they are normalized.
+ */
+export const newsPictureProjection = `{
+  alt,
+  "url": coalesce(asset->url, image.asset->url),
+  "width": coalesce(asset->metadata.dimensions.width, image.asset->metadata.dimensions.width),
+  "height": coalesce(asset->metadata.dimensions.height, image.asset->metadata.dimensions.height)
+}`;
+
 /** A picture that may have a `mobileImage` sibling field. */
 export const responsivePictureProjection = `{
   alt,

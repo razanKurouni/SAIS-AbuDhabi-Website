@@ -9,7 +9,8 @@
     "lint": "eslint",
     "content:migrate": "node --env-file=.env.local scripts/migrate-from-sharjah.mjs",
     "content:attributes": "node --env-file=.env.local scripts/sanity-attribute-report.mjs --all --summary-only",
-    "content:slot-fields": "node --env-file=.env.local scripts/generate-slot-fields.mjs"
+    "content:slot-fields": "node --env-file=.env.local scripts/generate-slot-fields.mjs",
+    "content:remove-old-model": "node --env-file=.env.local scripts/remove-old-model-documents.mjs"
   },
   "dependencies": {
     "@sanity/client": "^7.17.0",

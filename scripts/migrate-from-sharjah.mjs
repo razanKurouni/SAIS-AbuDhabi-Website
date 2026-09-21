@@ -2,7 +2,7 @@
  * Copies the content of the SAIS Sharjah website (old, page-specific Sanity
  * model) into this project's compact content model.
  *
- *   node --env-file=.env.local scripts/migrate-from-sharjah.mjs [--dry-run] [--skip-assets]
+ *   node --env-file=.env.local scripts/migrate-from-sharjah.mjs [--dry-run] [--skip-assets] [--in-place]
  *
  * Source (old) project:
  *   SOURCE_SANITY_PROJECT_ID  (default uwffig4f)
@@ -18,15 +18,22 @@
  *
  * Only content, images and SEO are migrated. Colors, layouts and other design
  * settings are intentionally left behind: they live in src/design/.
+ *
+ * --in-place converts a dataset onto itself (source = target): the new
+ * documents are written next to the old ones (page ids get PAGE_ID_PREFIX, see
+ * src/content/page-spec.ts), assets are reused as they are, and news posts are
+ * left untouched. The old documents keep the current site working until
+ * scripts/remove-old-model-documents.mjs removes them.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { createClient } from "@sanity/client";
-import { PAGE_SPECS } from "../src/content/page-spec.ts";
+import { PAGE_ID_PREFIX, PAGE_SPECS, pageDocumentId } from "../src/content/page-spec.ts";
 
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has("--dry-run");
-const skipAssets = args.has("--skip-assets");
+const inPlace = args.has("--in-place");
+const skipAssets = args.has("--skip-assets") || inPlace;
 
 const source = createClient({
   projectId: process.env.SOURCE_SANITY_PROJECT_ID || "uwffig4f",
@@ -48,8 +55,18 @@ if (!process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || !process.env.SANITY_AUTH_TOKEN
   console.error("Set NEXT_PUBLIC_SANITY_PROJECT_ID and SANITY_AUTH_TOKEN for the target project (see .env.local).");
   process.exit(1);
 }
-if (source.config().projectId === target.config().projectId && source.config().dataset === target.config().dataset) {
-  console.error("Source and target are the same dataset. Refusing to run.");
+const sameDataset =
+  source.config().projectId === target.config().projectId && source.config().dataset === target.config().dataset;
+if (sameDataset && !inPlace) {
+  console.error("Source and target are the same dataset. Pass --in-place to convert it onto itself.");
+  process.exit(1);
+}
+if (inPlace && !sameDataset) {
+  console.error("--in-place requires the source and target to be the same dataset.");
+  process.exit(1);
+}
+if (inPlace && !PAGE_ID_PREFIX) {
+  console.error("--in-place requires a non-empty PAGE_ID_PREFIX in src/content/page-spec.ts so new pages do not overwrite old ones.");
   process.exit(1);
 }
 
@@ -115,6 +132,7 @@ function collectAssetRefs(value) {
 }
 
 function mappedRef(ref) {
+  if (inPlace) return ref;
   const mapped = assetMap[ref];
   if (!mapped && !skipAssets && !dryRun) throw new Error(`Asset ${ref} was not migrated.`);
   return mapped || ref;
@@ -358,7 +376,7 @@ function pageOf(spec, doc) {
   }
 
   return compact({
-    _id: spec.id,
+    _id: pageDocumentId(spec.id),
     _type: "page",
     title: spec.title,
     route: spec.route,
@@ -480,9 +498,11 @@ const homepage = byId.get("homepage-main");
 [header, footer, homepage?.header].forEach(collectAssetRefs);
 documents.push(() => siteSettingsOf(header, footer, homepage));
 
-for (const doc of sourceDocs.filter((item) => item._type === "newsPost")) {
-  collectAssetRefs(doc);
-  documents.push(() => newsPostOf(doc));
+if (!inPlace) {
+  for (const doc of sourceDocs.filter((item) => item._type === "newsPost")) {
+    collectAssetRefs(doc);
+    documents.push(() => newsPostOf(doc));
+  }
 }
 
 await migrateAssets();

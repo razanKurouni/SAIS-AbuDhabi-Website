@@ -1,4 +1,4 @@
-import { pictureProjection, seoProjection } from "./projections";
+import { newsPictureProjection } from "./projections";
 
 export const newsPostsQuery = `*[_type == "newsPost"] | order(featured desc, publishedAt desc) {
   _id,
@@ -8,7 +8,7 @@ export const newsPostsQuery = `*[_type == "newsPost"] | order(featured desc, pub
   featured,
   publishedAt,
   excerpt,
-  image ${pictureProjection}
+  image ${newsPictureProjection}
 }`;
 
 export const newsPostBySlugQuery = `*[_type == "newsPost" && slug.current == $slug][0] {
@@ -19,7 +19,7 @@ export const newsPostBySlugQuery = `*[_type == "newsPost" && slug.current == $sl
   featured,
   publishedAt,
   excerpt,
-  image ${pictureProjection},
+  image ${newsPictureProjection},
   body,
-  seo ${seoProjection}
+  seo { title, description, image ${newsPictureProjection} }
 }`;

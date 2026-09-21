@@ -433,6 +433,21 @@ export const PAGE_SPECS: PageSpec[] = [
   },
 ];
 
+/**
+ * Prefix added to every page document id in Sanity. Keep it empty for a fresh
+ * dataset. Set it (for example "site-") when the compact model is introduced
+ * into a dataset that still holds documents of an older model with the same
+ * ids, so both can coexist until the old ones are removed.
+ */
+export const PAGE_ID_PREFIX: string = "";
+
+/** Sanity document id of a page spec. */
+export const pageDocumentId = (specId: string) => `${PAGE_ID_PREFIX}${specId}`;
+
+/** Page spec id from a Sanity document id. */
+export const specIdFromDocumentId = (documentId: string) =>
+  PAGE_ID_PREFIX && documentId.startsWith(PAGE_ID_PREFIX) ? documentId.slice(PAGE_ID_PREFIX.length) : documentId;
+
 export const PAGE_SPEC_BY_ID: Record<string, PageSpec> = Object.fromEntries(
   PAGE_SPECS.map((spec) => [spec.id, spec]),
 );

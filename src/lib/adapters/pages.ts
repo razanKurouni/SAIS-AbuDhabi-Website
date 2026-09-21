@@ -42,6 +42,7 @@ import type {
   TransportationSafetyPageData,
 } from "@/types/sanity";
 import { INNER_NAVIGATION } from "@/design/inner-navigation";
+import { specIdFromDocumentId } from "@/content/page-spec";
 import {
   branchCards,
   bySlot,
@@ -84,7 +85,7 @@ function base(page: CmsPage) {
   return {
     seo: page.seo,
     hero: hero(page),
-    innerNavigation: INNER_NAVIGATION[page._id],
+    innerNavigation: INNER_NAVIGATION[specIdFromDocumentId(page._id)],
   };
 }
 
