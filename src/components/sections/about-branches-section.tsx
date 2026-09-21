@@ -34,14 +34,14 @@ const fallbackCards: AboutBranchCard[] = [
     buttonColor: "#27779d",
   },
   {
-    name: "SAIS - Sharjah",
+    name: "SAIS - UAQ",
     established: "1997",
     location: "Al Ramaqiya Area, Sharjah, UAE",
     description:
-      "SAIS - Sharjah offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+      "SAIS - UAQ offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
     image: {
       url: "/about-branch-sharjah.png",
-      alt: "SAIS - Sharjah campus building",
+      alt: "SAIS - UAQ campus building",
     },
     cta: {
       label: "See More",

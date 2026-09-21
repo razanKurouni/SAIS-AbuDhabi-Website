@@ -7,7 +7,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://new-sais-main.verce
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Sharjah American International School | SAIS - Sharjah",
+  title: "Sharjah American International School | SAIS - UAQ",
   description: "Official website of Sharjah American International School.",
   icons: {
     icon: "/sais-tab-icon.png",

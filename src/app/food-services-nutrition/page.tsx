@@ -9,15 +9,15 @@ import { getFoodServicesNutritionPage, getHomepage } from "@/lib/sanity";
 import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Food Services & Nutrition | SAIS - Sharjah",
-  description: "Learn about food services and nutrition at SAIS - Sharjah.",
+  title: "Food Services & Nutrition | SAIS - UAQ",
+  description: "Learn about food services and nutrition at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "Food\nNutrition",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah food services and nutrition",
+    alt: "SAIS - UAQ food services and nutrition",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -61,7 +61,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah cafeteria",
+    alt: "SAIS - UAQ cafeteria",
   },
   imagePosition: "center",
   theme: "blue",

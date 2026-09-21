@@ -19,7 +19,7 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Careers | SAIS - Sharjah",
+  title: "Careers | SAIS - UAQ",
   description: "Explore career opportunities at Sharjah American International School.",
 };
 
@@ -38,7 +38,7 @@ const fallbackHero = {
   title: "Work At\nOur School",
   image: {
     url: "/careers-hero.jpg",
-    alt: "SAIS - Sharjah teacher supporting a student in a sensory learning space",
+    alt: "SAIS - UAQ teacher supporting a student in a sensory learning space",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "#707174",
@@ -65,12 +65,12 @@ const fallbackIntroDescription: PortableTextBlock[] = [
 
 const fallbackIntroImage = {
   url: "/careers-work-for-sais.png",
-  alt: "SAIS - Sharjah staff members standing together",
+  alt: "SAIS - UAQ staff members standing together",
 };
 
 const fallbackEditorialImage = {
   url: "/careers-editorial.jpg",
-  alt: "SAIS - Sharjah teacher supporting a student in a learning space",
+  alt: "SAIS - UAQ teacher supporting a student in a learning space",
 };
 
 const fallbackEditorialParagraphs = [
@@ -101,7 +101,7 @@ const fallbackCareSection: ContactInfoSectionData = {
   },
   image: {
     url: "/careers-professional-care.jpg",
-    alt: "SAIS - Sharjah teacher supporting students during a classroom activity",
+    alt: "SAIS - UAQ teacher supporting students during a classroom activity",
   },
   imagePosition: "center",
   panelColor: "#00a5b2",

@@ -10,8 +10,8 @@ import { getAdmissionsWithdrawalPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Withdrawal Process | SAIS - Sharjah",
-  description: "Learn about the student withdrawal process at SAIS - Sharjah.",
+  title: "Student Withdrawal Process | SAIS - UAQ",
+  description: "Learn about the student withdrawal process at SAIS - UAQ.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

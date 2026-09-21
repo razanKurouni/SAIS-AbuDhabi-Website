@@ -19,15 +19,15 @@ import { IntroFeatureSection } from "@/components/sections/intro-feature-section
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Our Campus | SAIS - Sharjah",
-  description: "Explore SAIS - Sharjah's modern campus, facilities, learning spaces, and sports environments.",
+  title: "Our Campus | SAIS - UAQ",
+  description: "Explore SAIS - UAQ's modern campus, facilities, learning spaces, and sports environments.",
 };
 
 const fallbackHero = {
   title: "Our\nCampus",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah campus",
+    alt: "SAIS - UAQ campus",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -74,7 +74,7 @@ const fallbackElementaryLibrary: ImageTextSection = {
   },
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - Sharjah elementary students reading together",
+    alt: "SAIS - UAQ elementary students reading together",
   },
   imagePosition: "right",
   titleColor: "#00A5B2",
@@ -131,7 +131,7 @@ const fallbackSecondaryLibrary: CurvedPanelSection = {
   },
   image: {
     url: "/images/academics-steam.jpg",
-    alt: "SAIS - Sharjah secondary students working in the library",
+    alt: "SAIS - UAQ secondary students working in the library",
   },
   backgroundColor: "#1E6F9B",
   curveColor: "#00A5B2",
@@ -160,7 +160,7 @@ const fallbackRoboticsLab: ImageTextSection = {
   },
   image: {
     url: "/images/academics-steam.jpg",
-    alt: "SAIS - Sharjah students building a robot in the robotics lab",
+    alt: "SAIS - UAQ students building a robot in the robotics lab",
   },
   imagePosition: "right",
   backgroundColor: "#F2F2F2",

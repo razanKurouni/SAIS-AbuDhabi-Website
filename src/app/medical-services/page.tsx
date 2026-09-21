@@ -9,15 +9,15 @@ import { getHomepage, getMedicalServicesPage } from "@/lib/sanity";
 import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Medical Services | SAIS - Sharjah",
-  description: "Learn about medical services at SAIS - Sharjah.",
+  title: "Medical Services | SAIS - UAQ",
+  description: "Learn about medical services at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "Medical\nServices",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah medical services",
+    alt: "SAIS - UAQ medical services",
   },
   topLineColor: "#216B97",
   panelColor: "#707174",
@@ -47,7 +47,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah medical clinic care",
+    alt: "SAIS - UAQ medical clinic care",
   },
   imagePosition: "center",
   theme: "blue",

@@ -17,15 +17,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Parent Involvement | SAIS - Sharjah",
-  description: "Learn how SAIS - Sharjah partners with parents to support student success.",
+  title: "Parent Involvement | SAIS - UAQ",
+  description: "Learn how SAIS - UAQ partners with parents to support student success.",
 };
 
 const fallbackHero = {
   title: "Parent\nInvolvement",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah parent involvement",
+    alt: "SAIS - UAQ parent involvement",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -66,7 +66,7 @@ const fallbackEngagementSection: ParentEngagementSection = {
 
 const fallbackProactiveIntroImage: SanityImage = {
   url: "/about-intro-students.jpg",
-  alt: "SAIS - Sharjah students in a music lesson",
+  alt: "SAIS - UAQ students in a music lesson",
 };
 
 const fallbackProactiveIntroParagraphs = [

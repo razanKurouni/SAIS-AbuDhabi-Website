@@ -12,15 +12,15 @@ import type { InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import type { ImageTextSection, InnerNavigation, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Achievements | SAIS - Sharjah",
-  description: "Explore student achievements in academics, sports, and leadership at SAIS - Sharjah.",
+  title: "Achievements | SAIS - UAQ",
+  description: "Explore student achievements in academics, sports, and leadership at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "Achievements",
   image: {
     url: "/sais-hero-students.jpg",
-    alt: "SAIS - Sharjah students working together",
+    alt: "SAIS - UAQ students working together",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -69,7 +69,7 @@ const fallbackExcellenceIntro: ImageTextSection = {
   },
   image: {
     url: "/about-values-growth.jpg",
-    alt: "SAIS - Sharjah swimming coach guiding a student in the pool",
+    alt: "SAIS - UAQ swimming coach guiding a student in the pool",
   },
   imagePosition: "right",
   backgroundColor: "#ffffff",
@@ -97,7 +97,7 @@ const fallbackHighlightsSection: ImageTextSection = {
   },
   image: {
     url: "/about-values-character.jpg",
-    alt: "SAIS - Sharjah student playing the violin during a music lesson",
+    alt: "SAIS - UAQ student playing the violin during a music lesson",
   },
 };
 
@@ -115,13 +115,13 @@ const fallbackCommunitySection: ImageTextSection = {
       ),
       paragraph(
         "achievements-community-3",
-        "SAIS - Sharjah remains committed to building a generation of confident, capable, and compassionate individuals prepared to lead and contribute meaningfully to the world."
+        "SAIS - UAQ remains committed to building a generation of confident, capable, and compassionate individuals prepared to lead and contribute meaningfully to the world."
       ),
     ],
   },
   image: {
     url: "/about-values-community.jpg",
-    alt: "SAIS - Sharjah students celebrating at a school chess tournament",
+    alt: "SAIS - UAQ students celebrating at a school chess tournament",
   },
   imagePosition: "right",
   backgroundColor: "#F2F2F2",

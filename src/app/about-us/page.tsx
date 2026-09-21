@@ -21,7 +21,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { RichText } from "@/components/ui/rich-text";
 
 const fallbackMetadata: Metadata = {
-  title: "About SAIS | SAIS - Sharjah",
+  title: "About SAIS | SAIS - UAQ",
   description: "Learn more about Sharjah American International School.",
 };
 
@@ -48,7 +48,7 @@ const fallbackHero = {
 const fallbackIntro = {
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - Sharjah students smiling together on the playground",
+    alt: "SAIS - UAQ students smiling together on the playground",
   },
   body: [
     "The SAIS educational community currently encompasses four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",

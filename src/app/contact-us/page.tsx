@@ -8,7 +8,7 @@ import { SectionReveal } from "@/components/ui/section-reveal";
 import { getContactPage, getHomepage } from "@/lib/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Contact Us | SAIS - Sharjah",
+  title: "Contact Us | SAIS - UAQ",
   description: "Contact Sharjah American International School.",
 };
 

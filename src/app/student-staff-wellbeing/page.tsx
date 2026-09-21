@@ -35,7 +35,7 @@ const fallbackFrameworkBody = [
 const fallbackFramework: CurvedPanelSection = {
   image: {
     url: "/images/academics-culture.jpg",
-    alt: "SAIS - Sharjah teacher supporting a student",
+    alt: "SAIS - UAQ teacher supporting a student",
   },
   backgroundColor: "#707174",
   curveColor: "#00A5B2",
@@ -64,15 +64,15 @@ function toFrameworkSlider(section?: CurvedPanelSection): LearningSliderData {
 }
 
 const fallbackMetadata: Metadata = {
-  title: "Student & Staff Wellbeing | SAIS - Sharjah",
-  description: "Learn about student and staff wellbeing support at SAIS - Sharjah.",
+  title: "Student & Staff Wellbeing | SAIS - UAQ",
+  description: "Learn about student and staff wellbeing support at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "Student &\nStaff Wellbeing",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah campus building",
+    alt: "SAIS - UAQ campus building",
   },
   topLineColor: "#216B97",
   panelColor: "#707174",

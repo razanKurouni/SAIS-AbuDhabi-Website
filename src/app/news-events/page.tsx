@@ -6,8 +6,8 @@ import { PageHero } from "@/components/sections/page-hero";
 import { getHomepage, getNewsListingPage, getNewsPosts } from "@/lib/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Latest News | SAIS - Sharjah",
-  description: "Read the latest news, events, and newsletters from SAIS - Sharjah.",
+  title: "Latest News | SAIS - UAQ",
+  description: "Read the latest news, events, and newsletters from SAIS - UAQ.",
 };
 
 const innerNavItems = [

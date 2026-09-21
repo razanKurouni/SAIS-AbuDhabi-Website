@@ -9,25 +9,25 @@ const fallbackCards: MissionShowcaseCard[] = [
   {
     title: "Help",
     description: "Helping students achieve their personal goals, develop an individual purpose, and become college- and career-ready.",
-    image: { url: "/images/about-mission/help.jpg", alt: "Teacher helping SAIS - Sharjah students with their creative work" },
+    image: { url: "/images/about-mission/help.jpg", alt: "Teacher helping SAIS - UAQ students with their creative work" },
     color: "#287aa3",
   },
   {
     title: "Support",
     description: "Providing individualized support and removing barriers to learning, ensuring that every student has access to high-quality education and opportunities for growth and development.",
-    image: { url: "/images/about-mission/support.jpg", alt: "Teacher supporting young SAIS - Sharjah students in class" },
+    image: { url: "/images/about-mission/support.jpg", alt: "Teacher supporting young SAIS - UAQ students in class" },
     color: "#00a5b2",
   },
   {
     title: "Promote",
     description: "Promoting character, critical thinking, communication, and creativity in a safe and socially enriching environment.",
-    image: { url: "/images/about-mission/promote.jpg", alt: "SAIS - Sharjah teacher celebrating learning with students" },
+    image: { url: "/images/about-mission/promote.jpg", alt: "SAIS - UAQ teacher celebrating learning with students" },
     color: "#7a7a7a",
   },
   {
     title: "Cultivate",
     description: "Cultivating well-being, leadership, and community service to prepare students for lifelong success.",
-    image: { url: "/images/about-mission/cultivate.jpg", alt: "SAIS - Sharjah student learning to play the violin" },
+    image: { url: "/images/about-mission/cultivate.jpg", alt: "SAIS - UAQ student learning to play the violin" },
     color: "#df7150",
   },
 ];
@@ -62,7 +62,7 @@ export function AboutMissionShowcaseSection({ section }: Props) {
                   {card.image?.url ? (
                     <Image
                       src={card.image.url}
-                      alt={card.image.alt || card.title || "SAIS - Sharjah mission"}
+                      alt={card.image.alt || card.title || "SAIS - UAQ mission"}
                       fill
                       sizes="(max-width: 720px) 100vw, (max-width: 1024px) 50vw, 28vw"
                       style={{ objectPosition: card.imagePosition || "center" }}

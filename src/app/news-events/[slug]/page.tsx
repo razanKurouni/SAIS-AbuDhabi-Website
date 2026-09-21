@@ -23,15 +23,15 @@ export async function generateMetadata({ params }: NewsPostPageProps): Promise<M
 
   if (!post) {
     return {
-      title: "News | SAIS - Sharjah",
+      title: "News | SAIS - UAQ",
       robots: { index: false, follow: false },
     };
   }
 
-  const title = post.seo?.title || `${post.title || "News"} | SAIS - Sharjah`;
-  const description = post.seo?.description || post.excerpt || "Latest news and events from SAIS - Sharjah.";
+  const title = post.seo?.title || `${post.title || "News"} | SAIS - UAQ`;
+  const description = post.seo?.description || post.excerpt || "Latest news and events from SAIS - UAQ.";
   const image = post.seo?.image?.url || post.image?.url;
-  const imageAlt = post.seo?.image?.alt || post.image?.alt || post.title || "SAIS - Sharjah news";
+  const imageAlt = post.seo?.image?.alt || post.image?.alt || post.title || "SAIS - UAQ news";
   const canonicalPath = `/news-events/${slug}`;
 
   return {
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: NewsPostPageProps): Promise<M
     openGraph: {
       type: "article",
       url: canonicalPath,
-      siteName: "SAIS - Sharjah",
+      siteName: "SAIS - UAQ",
       title,
       description,
       publishedTime: post.publishedAt,

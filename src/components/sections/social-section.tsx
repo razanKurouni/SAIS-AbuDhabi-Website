@@ -69,7 +69,7 @@ export function SocialSection({ section, posts = [] }: SocialSectionProps) {
         <div className="social-feed__grid">
           {(posts.length
             ? posts.map((post) => ({
-                image: { url: post.mediaUrl, alt: post.caption || "SAIS - Sharjah Instagram post" },
+                image: { url: post.mediaUrl, alt: post.caption || "SAIS - UAQ Instagram post" },
                 href: post.permalink,
                 key: post.id,
               }))

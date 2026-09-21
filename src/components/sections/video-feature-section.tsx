@@ -74,7 +74,7 @@ export function VideoFeatureSection({
             ) : poster?.url ? (
               <Image
                 src={poster.url}
-                alt={poster.alt || title || "SAIS - Sharjah parents video"}
+                alt={poster.alt || title || "SAIS - UAQ parents video"}
                 fill
                 sizes="(max-width: 767px) 100vw, 85vw"
                 className="video-feature__poster"

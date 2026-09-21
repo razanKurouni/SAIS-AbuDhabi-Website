@@ -222,7 +222,7 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
                   {image?.url ? (
                     <Image
                       src={image.url}
-                      alt={image.alt || member.name || fallback.name || "SAIS - Sharjah team member"}
+                      alt={image.alt || member.name || fallback.name || "SAIS - UAQ team member"}
                       fill
                       sizes="(max-width: 767px) 78vw, 322px"
                       className="our-team-leadership__image"

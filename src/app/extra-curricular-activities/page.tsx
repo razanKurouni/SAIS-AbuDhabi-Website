@@ -15,7 +15,7 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Extra Curricular Activities | SAIS - Sharjah",
+  title: "Extra Curricular Activities | SAIS - UAQ",
   description: "Explore extracurricular activities at Sharjah American International School.",
 };
 
@@ -23,7 +23,7 @@ const fallbackHero = {
   title: "Extra Curricular\nActivities",
   image: {
     url: "/about-values-community.jpg",
-    alt: "SAIS - Sharjah students participating in extracurricular activities",
+    alt: "SAIS - UAQ students participating in extracurricular activities",
   },
   topLineColor: "#216B97",
   panelColor: "#707174",
@@ -109,7 +109,7 @@ const fallbackActivitiesSlider: AcademicsLearningSliderSectionData = {
       "Our music program invites students to explore the world of sound and rhythm through band, choir, and instrumental lessons. Students develop their musical skills, build confidence in performance, and enjoy opportunities to participate in concerts and school events. Music nurtures creativity, discipline, and a lifelong appreciation for the arts.",
       {
         url: "/about-values-growth.jpg",
-        alt: "SAIS - Sharjah student playing the violin during a music lesson",
+        alt: "SAIS - UAQ student playing the violin during a music lesson",
       }
     ),
     activitySlide(
@@ -118,7 +118,7 @@ const fallbackActivitiesSlider: AcademicsLearningSliderSectionData = {
       "Swimming, badminton, football, and volleyball run throughout the year, with structured training sessions and friendly matches. Students improve their technique and fitness while building the discipline, communication, and teamwork that competitive play asks of them, and represent the school in interschool fixtures.",
       {
         url: "/about-values-community.jpg",
-        alt: "SAIS - Sharjah students during a sports training session",
+        alt: "SAIS - UAQ students during a sports training session",
       }
     ),
     activitySlide(
@@ -127,7 +127,7 @@ const fallbackActivitiesSlider: AcademicsLearningSliderSectionData = {
       "Environmental clubs, public speaking forums, chess, robotics, and student leadership groups give students a place to pursue what interests them and to lead. Members plan their own events, take part in competitions and expos, and learn to organise, collaborate, and speak for their peers with confidence.",
       {
         url: "/about-values-character.jpg",
-        alt: "SAIS - Sharjah students working together in a school club",
+        alt: "SAIS - UAQ students working together in a school club",
       }
     ),
   ],

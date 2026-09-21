@@ -19,7 +19,7 @@ import { TourSection } from "@/components/sections/tour-section";
 import { RichText } from "@/components/ui/rich-text";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Life | SAIS - Sharjah",
+  title: "Student Life | SAIS - UAQ",
   description: "Explore student life at Sharjah American International School.",
 };
 
@@ -47,7 +47,7 @@ const fallbackHero = {
   title: "Student\nLife",
   image: {
     url: "/about-values-community.jpg",
-    alt: "SAIS - Sharjah students enjoying school life",
+    alt: "SAIS - UAQ students enjoying school life",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -98,7 +98,7 @@ const fallbackSgaSection: ContactInfoSectionData = {
   },
   image: {
     url: "/about-statement-mission.jpg",
-    alt: "SAIS - Sharjah student government association meeting",
+    alt: "SAIS - UAQ student government association meeting",
   },
   items: [],
   imagePosition: "center",
@@ -115,7 +115,7 @@ const fallbackStudentCongressSection: ImageTextSection = {
       paragraph("student-life-congress-mission-label", "Mission", true),
       paragraph(
         "student-life-congress-mission",
-        "The SAIS - Sharjah Student Congress strives to enhance collaboration between Student Leadership Associations by creating effective pathways for leadership groups to accomplish their objectives and fulfill their agendas."
+        "The SAIS - UAQ Student Congress strives to enhance collaboration between Student Leadership Associations by creating effective pathways for leadership groups to accomplish their objectives and fulfill their agendas."
       ),
       paragraph("student-life-congress-vision-label", "Vision", true),
       paragraph(
@@ -126,7 +126,7 @@ const fallbackStudentCongressSection: ImageTextSection = {
   },
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - Sharjah student presenting to the Student Congress",
+    alt: "SAIS - UAQ student presenting to the Student Congress",
   },
   imagePosition: "right",
   backgroundColor: "#F2F2F2",
@@ -153,7 +153,7 @@ const fallbackProgramsSection: ImageTextSection = {
   },
   image: {
     url: "/sais-hero-students.jpg",
-    alt: "SAIS - Sharjah students in their varsity jackets on campus",
+    alt: "SAIS - UAQ students in their varsity jackets on campus",
   },
   imagePosition: "right",
   backgroundColor: "#ffffff",
@@ -177,7 +177,7 @@ const fallbackMiniSgaSection: ContactInfoSectionData = {
   },
   image: {
     url: "/about-values-growth.jpg",
-    alt: "SAIS - Sharjah elementary students walking through the school corridor",
+    alt: "SAIS - UAQ elementary students walking through the school corridor",
   },
   items: [],
   imagePosition: "center",
@@ -203,7 +203,7 @@ const fallbackSgaShowcaseSection: ImageTextSection = {
   },
   image: {
     url: "/sais-logo-lockup-solid.png",
-    alt: "SAIS - Sharjah Student Government Association emblem",
+    alt: "SAIS - UAQ Student Government Association emblem",
   },
   imagePosition: "left",
   backgroundColor: "#216B97",

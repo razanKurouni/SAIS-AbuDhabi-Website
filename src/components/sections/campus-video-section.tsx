@@ -25,7 +25,7 @@ export function CampusVideoSection({ section }: CampusVideoSectionProps) {
           ) : poster?.url ? (
             <Image
               src={poster.url}
-              alt={poster.alt || "SAIS - Sharjah campus video"}
+              alt={poster.alt || "SAIS - UAQ campus video"}
               fill
               sizes="(max-width: 767px) 92vw, 78vw"
               className="campus-video__poster"

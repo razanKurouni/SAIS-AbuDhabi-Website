@@ -11,8 +11,8 @@ import { getAdmissionsApplicationPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Admissions Application | SAIS - Sharjah",
-  description: "Learn about the SAIS - Sharjah application process and registration timelines.",
+  title: "Admissions Application | SAIS - UAQ",
+  description: "Learn about the SAIS - UAQ application process and registration timelines.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -43,7 +43,7 @@ const fallbackSection: AboutKhdaSectionData = {
   },
   image: {
     url: "/sais-building-futures.png",
-    alt: "SAIS - Sharjah students learning in a science lab",
+    alt: "SAIS - UAQ students learning in a science lab",
   },
   badge: {
     url: "/about-khda-badge.png",
@@ -96,7 +96,7 @@ export function AboutKhdaSection({ section }: AboutKhdaSectionProps) {
             {image?.url ? (
               <Image
                 src={image.url}
-                alt={image.alt || title || "SAIS - Sharjah students"}
+                alt={image.alt || title || "SAIS - UAQ students"}
                 fill
                 sizes="(max-width: 767px) calc(100vw - 50px), 44vw"
                 className="about-khda__image"

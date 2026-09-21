@@ -34,7 +34,7 @@ export function FaqGridSection({ section, introSection }: FaqGridSectionProps) {
             <Reveal className="faq-grid-section__media">
               <Image
                 src={introSection.image.url}
-                alt={introSection.image.alt || "SAIS - Sharjah student"}
+                alt={introSection.image.alt || "SAIS - UAQ student"}
                 fill
                 sizes="(max-width: 767px) 100vw, 42vw"
                 className="faq-grid-section__image"

@@ -6,12 +6,12 @@ type AboutInspectionSectionProps = {
 };
 
 const fallbackParagraphs = [
-  "SAIS - Sharjah takes part in the annual review and inspection that the Strategic Planning and Educational Affairs Authority (SPEA) runs for private schools in the Emirate. Ahead of it the school assesses its own student learning outcomes and the measures around them, and the findings, together with the authority's report and recommendations, set the improvement cycle for the year: reflection, planning, action, and monitoring."
+  "SAIS - UAQ takes part in the annual review and inspection that the Strategic Planning and Educational Affairs Authority (SPEA) runs for private schools in the Emirate. Ahead of it the school assesses its own student learning outcomes and the measures around them, and the findings, together with the authority's report and recommendations, set the improvement cycle for the year: reflection, planning, action, and monitoring."
 ];
 
 const fallbackImage = {
   url: "/about-inspection-review.jpg",
-  alt: "SAIS - Sharjah teacher reading with students in the library",
+  alt: "SAIS - UAQ teacher reading with students in the library",
 };
 
 export function AboutInspectionSection({ section }: AboutInspectionSectionProps) {

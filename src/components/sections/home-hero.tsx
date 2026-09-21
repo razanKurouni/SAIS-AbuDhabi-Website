@@ -13,7 +13,7 @@ const fallbackHero = {
     "Through a rigorous American curriculum grounded in Islamic values and cultural heritage.",
   image: {
     url: "/sais-hero-students.jpg",
-    alt: "SAIS - Sharjah students gathered on campus",
+    alt: "SAIS - UAQ students gathered on campus",
   },
 };
 

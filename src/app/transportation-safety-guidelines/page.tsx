@@ -14,15 +14,15 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "School Transportation Safety Guidelines | SAIS - Sharjah",
-  description: "Learn about school transportation safety guidelines at SAIS - Sharjah.",
+  title: "School Transportation Safety Guidelines | SAIS - UAQ",
+  description: "Learn about school transportation safety guidelines at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "School Transportation\nSafety Guidelines",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah school transportation",
+    alt: "SAIS - UAQ school transportation",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -52,7 +52,7 @@ const fallbackSafetyHighlight: SafetyHighlightSectionData = {
   },
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - Sharjah students gathered in the school yard",
+    alt: "SAIS - UAQ students gathered in the school yard",
   },
   imagePosition: "center",
   backgroundColor: "#216B97",
@@ -75,7 +75,7 @@ const fallbackBoardingSection: ImageTextSection = {
   },
   image: {
     url: "/images/academics-steam.jpg",
-    alt: "SAIS - Sharjah student carrying a project kit",
+    alt: "SAIS - UAQ student carrying a project kit",
   },
   imagePosition: "left",
 };

@@ -14,7 +14,7 @@ const fallbackCards: StatementCard[] = [
       "To be a leading American curriculum school group, recognized for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE's identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
     image: {
       url: "/about-statement-vision.jpg",
-      alt: "Teacher supporting a student in a SAIS - Sharjah classroom",
+      alt: "Teacher supporting a student in a SAIS - UAQ classroom",
     },
     cardColor: "#27779d",
     imagePosition: "center",
@@ -25,7 +25,7 @@ const fallbackCards: StatementCard[] = [
       "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
     image: {
       url: "/about-statement-mission.jpg",
-      alt: "SAIS - Sharjah principal speaking with students on campus",
+      alt: "SAIS - UAQ principal speaking with students on campus",
     },
     cardColor: "#00a5b2",
     imagePosition: "center",
@@ -65,7 +65,7 @@ export function AboutStatementSection({ section }: AboutStatementSectionProps) {
                   {image?.url ? (
                     <Image
                       src={image.url}
-                      alt={image.alt || card.title || fallback.title || "SAIS - Sharjah statement"}
+                      alt={image.alt || card.title || fallback.title || "SAIS - UAQ statement"}
                       fill
                       sizes="(max-width: 767px) calc(100vw - 40px), 41vw"
                       className="about-statement__image"

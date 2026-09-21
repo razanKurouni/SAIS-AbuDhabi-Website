@@ -10,15 +10,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackMetadata: Metadata = {
-  title: "School Supplies & Uniform | SAIS - Sharjah",
-  description: "Learn about school supplies and uniform at SAIS - Sharjah.",
+  title: "School Supplies & Uniform | SAIS - UAQ",
+  description: "Learn about school supplies and uniform at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "School Supplies\n& Uniform",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah school supplies and uniform",
+    alt: "SAIS - UAQ school supplies and uniform",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -62,7 +62,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah school supplies",
+    alt: "SAIS - UAQ school supplies",
   },
   imagePosition: "center",
   theme: "teal",
@@ -79,7 +79,7 @@ const fallbackUniformSection: ImageTextSection = {
     description: [
       paragraph(
         "school-uniform-1",
-        "All students from KG1 through Grade 12 wear the SAIS - Sharjah uniform, which supports our learning-focused environment and reinforces our core values of compassion, excellence, integrity, respect, and responsibility."
+        "All students from KG1 through Grade 12 wear the SAIS - UAQ uniform, which supports our learning-focused environment and reinforces our core values of compassion, excellence, integrity, respect, and responsibility."
       ),
       paragraph(
         "school-uniform-2",
@@ -96,7 +96,7 @@ const fallbackUniformSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah students in uniform",
+    alt: "SAIS - UAQ students in uniform",
   },
   imagePosition: "right",
   theme: "teal",

@@ -10,9 +10,9 @@ type AboutAccreditationsSectionProps = {
 };
 
 const fallbackBody = [
-  "SAIS - Sharjah maintains full accreditation from two internationally recognized and distinguished accreditation bodies: The New England Association of Schools and Colleges (NEASC) and Cognia. These accreditations affirm our commitment to educational excellence and continuous improvement.",
+  "SAIS - UAQ maintains full accreditation from two internationally recognized and distinguished accreditation bodies: The New England Association of Schools and Colleges (NEASC) and Cognia. These accreditations affirm our commitment to educational excellence and continuous improvement.",
   "Our institution holds all required licenses and permits from Dubai's regulatory authorities.",
-  "SAIS - Sharjah is an approved and authorized College Board testing center for the PSAT, SAT, and Advanced Placement (AP) examinations. Our official Test Center number is 52858.",
+  "SAIS - UAQ is an approved and authorized College Board testing center for the PSAT, SAT, and Advanced Placement (AP) examinations. Our official Test Center number is 52858.",
 ];
 
 const fallbackLogos: AccreditationLogo[] = [

@@ -10,15 +10,15 @@ import { getHealthSafetyPage, getHomepage } from "@/lib/sanity";
 import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Health & Safety | SAIS - Sharjah",
-  description: "Learn about health and safety care at SAIS - Sharjah.",
+  title: "Health & Safety | SAIS - UAQ",
+  description: "Learn about health and safety care at SAIS - UAQ.",
 };
 
 const fallbackHero = {
   title: "Health\n& Safety",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah health and safety",
+    alt: "SAIS - UAQ health and safety",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -48,7 +48,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah medical care",
+    alt: "SAIS - UAQ medical care",
   },
   imagePosition: "left",
   theme: "teal",
@@ -74,7 +74,7 @@ const fallbackApproachSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - Sharjah health awareness",
+    alt: "SAIS - UAQ health awareness",
   },
   imagePosition: "right",
   theme: "teal",
