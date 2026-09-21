@@ -196,6 +196,7 @@ function cardOf(item) {
   let entries;
   if (Array.isArray(item.rows)) entries = item.rows.map(entryOf);
   else if (Array.isArray(item.items)) entries = item.items.map(entryOf);
+  else if (Array.isArray(item.panels)) entries = item.panels.map((panel) => ({ ...entryOf(panel), icon: pic(panel.image) }));
   else if (FEE_COLUMNS.some((column) => item[column] !== undefined)) {
     entries = FEE_COLUMNS.filter((column) => item[column] !== undefined).map((column) => ({
       _type: "entry",
@@ -260,11 +261,12 @@ const converters = {
   image: (old) => ({ _type: "imageTextSection", image: pic(old) }),
   cards: (old, spec) => {
     const list = Array.isArray(old) ? old : old[spec.items || "cards"] ?? old.items;
-    const heading = headingOf(old.heading) || (str(old.title) ? { _type: "sectionHeading", title: old.title, subtitle: str(old.statement) } : undefined);
-    if (str(old.groupTitle)) {
-      const base = heading || { _type: "sectionHeading" };
-      base.eyebrow = old.groupTitle;
-      return build(base);
+    let heading = headingOf(old.heading) || (str(old.title) ? { _type: "sectionHeading", title: old.title, subtitle: str(old.statement) } : undefined);
+    if (spec.titleFrom && str(old[spec.titleFrom])) {
+      heading = { _type: "sectionHeading", title: old[spec.titleFrom] };
+    }
+    if (spec.eyebrowFrom && str(old[spec.eyebrowFrom])) {
+      heading = { ...(heading || { _type: "sectionHeading" }), eyebrow: old[spec.eyebrowFrom] };
     }
     return build(heading);
 

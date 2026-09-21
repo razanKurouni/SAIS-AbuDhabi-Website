@@ -166,6 +166,36 @@ export function members(section?: CmsSection | null): BoardGovernorMember[] {
   }));
 }
 
+/** Cards that only carry a title and an image (department slides, simple galleries). */
+export function titledImages(section?: CmsSection | null) {
+  return cards(section).map((card) => ({
+    _key: card._key,
+    title: card.title,
+    image: image(card.image),
+  }));
+}
+
+/** Cards with a title, an image and rich text (campus facilities). */
+export function richCards(section?: CmsSection | null) {
+  return cards(section).map((card) => ({
+    _key: card._key,
+    title: card.title,
+    image: image(card.image),
+    body: card.body,
+  }));
+}
+
+/** People cards: name, role, short text and photo. */
+export function people(section?: CmsSection | null) {
+  return cards(section).map((card) => ({
+    _key: card._key,
+    name: card.title,
+    role: card.subtitle,
+    description: card.description,
+    image: image(card.image),
+  }));
+}
+
 export function statementCards(section?: CmsSection | null): StatementCard[] {
   return cards(section).map((card) => ({
     _key: card._key,

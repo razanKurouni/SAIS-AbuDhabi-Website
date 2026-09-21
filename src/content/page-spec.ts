@@ -33,6 +33,10 @@ export type SlotSpec = {
   path?: string;
   /** Old array field holding the cards/entries when it is not `cards`/`items`. */
   items?: string;
+  /** Old plain-string field whose value becomes the section heading title (migration only). */
+  titleFrom?: string;
+  /** Old plain-string field whose value becomes the section heading eyebrow (migration only). */
+  eyebrowFrom?: string;
 };
 
 export type PageSpec = {
@@ -113,7 +117,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/about-us/our-team",
     title: "Our Team",
     group: "About SAIS",
-    slots: [cards("leadershipSection", "Leadership Team", { items: "members" })],
+    slots: [cards("leadershipSection", "Leadership Team", { items: "members", eyebrowFrom: "groupTitle" })],
   },
   {
     id: "academics-page",
