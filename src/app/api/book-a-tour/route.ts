@@ -5,8 +5,8 @@ import nodemailer from "nodemailer";
 export const runtime = "nodejs";
 
 const sanity = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "uwffig4f",
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "sais-uaq",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01",
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   apiVersion: "2023-01-01",
   useCdn: false,
 });
@@ -223,7 +223,7 @@ export async function POST(request: Request) {
   const recipient = isRegistration
     ? "registration@saisdubai.com"
     : await sanity.fetch<string | null>(
-        `*[_type == "admissionsBookTourPage" && _id == "admissions-book-tour-page"][0].formSection.recipientEmail`,
+        `*[_type == "page" && _id == "admissions-book-tour-page"][0].sections[slot == "formSection"][0].recipientEmail`,
       ).catch(() => null) || fallbackRecipient;
   const subject = isRegistration
     ? "New SAIS - Sharjah Pre-Registration Request"

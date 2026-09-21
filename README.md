@@ -2,56 +2,84 @@
 
 Sharjah American International School — Umm Al Quwain Campus website, built with Next.js and Sanity.
 
-This project started as a copy of the Sharjah campus site
-([razanKurouni/SAIS_Sharjah_Website](https://github.com/razanKurouni/SAIS_Sharjah_Website))
-and points at its own Sanity dataset, `sais-uaq`, inside the shared `SAIS` Sanity project.
+The site started as a copy of the Sharjah campus site
+([razanKurouni/SAIS_Sharjah_Website](https://github.com/razanKurouni/SAIS_Sharjah_Website)) and uses its own
+Sanity project (`zpdqig01`, dataset `production`).
 
 ## Stack
 
 - Next.js 16 (App Router)
 - Tailwind CSS 4
 - Framer Motion
-- Sanity Content Lake (`@sanity/client`)
+- Sanity Content Lake (`@sanity/client`), Studio served at `/studio`
 
 ## Run locally
 
 ```bash
 npm install
-cp .env.local.example .env.local
+cp .env.local.example .env.local   # then fill in the values
 npm run dev
 ```
 
 Open [http://localhost:3001](http://localhost:3001).
 
-## Sanity config
+## How content and design are split
+
+The CMS only holds **content**: words, images, files, links and SEO. Everything about **how it looks**
+lives in the code, so editors never see color or layout fields, and the dataset stays far below the
+2,000-attribute limit of Sanity's free plan (about 200 attributes in use).
+
+| Where | What |
+| --- | --- |
+| `sanity/schemas/` | The content model: `page` (hero + sections), `siteSettings` (menu & footer), `newsPost`, and a few shared objects (`card`, `entry`, `cta`, `picture`). |
+| `src/content/page-spec.ts` | The list of pages, their routes, and the sections ("slots") each page renders. Shared by the Studio, the migration script, the frontend and the search index. |
+| `src/design/page-design.ts` | Colors, themes, image positions and other design tokens per page and section. Edit here to change the look. |
+| `src/design/inner-navigation.ts` | The sub-navigation shown under the hero of some pages. |
+| `src/design/forms.ts` | The Book a Tour form fields. |
+| `src/lib/adapters/` | Turns CMS sections into the props the page components expect. |
+| `src/lib/sanity.ts` | Data access: `getPage`, `getSiteSettings`, `getHomepage`, and one `getXPage()` per route. |
+
+Every section type shares the same field names (`heading`, `body`, `image`, `cards`, `entries`, `ctas`…),
+which is what keeps the attribute count small. Keep that in mind when adding fields: prefer reusing an
+existing field name over inventing a new one.
+
+### Adding a section to a page
+
+1. Add a slot to the page in `src/content/page-spec.ts` (slot id, kind, label).
+2. Map it in the page's adapter in `src/lib/adapters/pages.ts`.
+3. Render it in the page under `src/app/`.
+4. Put any colors for it in `src/design/page-design.ts`.
+5. Create the section in the Studio with the same `slot` id (the migration script does this automatically
+   when it copies content).
+
+## Sanity project
 
 `.env.local`:
 
 ```bash
-NEXT_PUBLIC_SANITY_PROJECT_ID=uwffig4f
-NEXT_PUBLIC_SANITY_DATASET=sais-uaq
+NEXT_PUBLIC_SANITY_PROJECT_ID=zpdqig01
+NEXT_PUBLIC_SANITY_DATASET=production
+SANITY_AUTH_TOKEN=...   # write token, only needed for scripts
 ```
 
-The Studio is served at `/studio` and reads the same dataset.
+### Copying content from the Sharjah site
 
-## Seeding the UAQ dataset from the Sharjah content
-
-To start the UAQ site with the Sharjah content as a base and then edit it in the Studio:
+`scripts/migrate-from-sharjah.mjs` converts the Sharjah site's content (old page-specific model) into this
+model, uploads the images and files, and writes everything to the UAQ project. It is safe to re-run.
 
 ```bash
-# export the Sharjah dataset
-npx sanity dataset export sais-sharjah sais-sharjah.tar.gz
-
-# import it into the UAQ dataset
-npx sanity dataset import sais-sharjah.tar.gz sais-uaq
+SOURCE_SANITY_TOKEN=<read token for the Sharjah project> npm run content:migrate
 ```
 
-The `scripts/` folder also contains the per-page seed scripts (`npm run seed:*`). They all
-write to `NEXT_PUBLIC_SANITY_DATASET`, so with `.env.local` set to `sais-uaq` they will populate
-the UAQ dataset. They require a `SANITY_AUTH_TOKEN` with write access.
+### Checking the attribute usage
+
+```bash
+npm run content:attributes
+```
 
 ## Notes
 
-- Homepage content is loaded from the `homepage` singleton document; older `homeSection` documents are used as a fallback.
-- Uploaded images are read from `images[]` and fallback placeholders from `imagePlaceholders[]`.
-- Page models are defined in `sanity/schemas/`.
+- Pages keep working when a section is missing in the CMS: the components fall back to their built-in copy.
+- The Book a Tour form posts to `/api/book-a-tour`; the recipient address is edited in the Studio
+  (Book a Tour page → Tour Form), the mail provider is configured through environment variables
+  (see `EMAIL_SETUP.md`).

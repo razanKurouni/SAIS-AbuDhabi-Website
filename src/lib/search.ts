@@ -1,3 +1,4 @@
+import { PAGE_SPECS, slotLabel } from "@/content/page-spec";
 import { getSanityClient } from "@/lib/sanity";
 
 export type SearchResult = {
@@ -20,49 +21,18 @@ type IndexEntry = {
 };
 
 /** Sanity page document → route and the name shown on a result. */
-const PAGE_ROUTES: Record<string, { path: string; label: string }> = {
-  "homepage-main": { path: "/", label: "Home" },
-  "about-page": { path: "/about-us", label: "About Us" },
-  "our-team-page": { path: "/about-us/our-team", label: "Our Team" },
-  "academics-page": { path: "/academics", label: "Academics" },
-  "academics-kindergarten-page": { path: "/academics/kindergarten", label: "Kindergarten" },
-  "academics-elementary-page": { path: "/academics/elementary", label: "Elementary" },
-  "academics-middle-school-page": { path: "/academics/middle-school", label: "Middle School" },
-  "academics-high-school-page": { path: "/academics/high-school", label: "High School" },
-  "admissions-page": { path: "/admissions", label: "Admissions" },
-  "admissions-application-page": { path: "/admissions/applications", label: "Applications" },
-  "admissions-book-tour-page": { path: "/admissions/book-a-tour", label: "Book a Tour" },
-  "admissions-faq-page": { path: "/admissions/faqs", label: "FAQs" },
-  "admissions-fees-page": { path: "/admissions/fees", label: "Fees" },
-  "admissions-withdrawal-page": { path: "/admissions/withdrawal", label: "Withdrawal" },
-  "careers-page": { path: "/careers", label: "Careers" },
-  "contact-page": { path: "/contact-us", label: "Contact Us" },
-  "extra-curricular-activities-page": { path: "/extra-curricular-activities", label: "Extra Curricular Activities" },
-  "food-services-nutrition-page": { path: "/food-services-nutrition", label: "Food Services & Nutrition" },
-  "health-safety-page": { path: "/health-safety", label: "Health & Safety" },
-  "medical-services-page": { path: "/medical-services", label: "Medical Services" },
-  "news-listing-page": { path: "/news-events", label: "News & Events" },
-  "our-campus-page": { path: "/our-campus", label: "Our Campus" },
-  "our-community-page": { path: "/our-community", label: "Our Community" },
-  "parent-involvement-page": { path: "/parent-involvement", label: "Parent Involvement" },
-  "school-calendar-page": { path: "/school-calendar", label: "School Calendar" },
-  "school-policies-page": { path: "/school-policies", label: "School Policies" },
-  "school-supplies-uniform-page": { path: "/school-supplies-uniform", label: "School Supplies & Uniform" },
-  "student-inclusion-page": { path: "/student-inclusion", label: "Student Inclusion" },
-  "student-life-page": { path: "/student-life", label: "Student Life" },
-  "student-programs-page": { path: "/achievements", label: "Achievements" },
-  "student-staff-wellbeing-page": { path: "/student-staff-wellbeing", label: "Student & Staff Wellbeing" },
-  "transportation-safety-page": { path: "/transportation-safety-guidelines", label: "Transportation Safety Guidelines" },
-};
+const PAGE_ROUTES: Record<string, { path: string; label: string }> = Object.fromEntries(
+  PAGE_SPECS.map((spec) => [spec.id, { path: spec.route, label: spec.title }]),
+);
 
 /** Keys whose values are settings, media or links rather than copy. */
 const SKIP_KEYS = new Set([
   "_id", "_key", "_type", "_ref", "_rev", "_createdAt", "_updatedAt", "_system",
-  "seo", "navigation", "image", "mobileImage", "icon", "logo", "logos", "badge", "video", "asset",
-  "href", "url", "slug", "imagePosition", "imageSide", "imageWidth", "theme", "variant", "iconType",
-  "openInNewTab", "hidden", "ariaLabel", "recipientEmail", "formSection",
+  "seo", "navigation", "image", "mobileImage", "icon", "logo", "logos", "badge", "video", "asset", "file", "images",
+  "href", "url", "slug", "route", "slot", "iconType", "openInNewTab", "hidden", "ariaLabel", "recipientEmail",
+  "submitLabel", "successMessage", "errorMessage",
 ]);
-const SKIP_TYPES = new Set(["image", "imageWithAlt", "reference", "slug", "file"]);
+const SKIP_TYPES = new Set(["image", "picture", "reference", "slug", "file", "formSection"]);
 
 function collectText(value: unknown, out: string[]) {
   if (value == null) return;
@@ -102,7 +72,8 @@ function firstLine(text: string) {
 function cleanPageTitle(document: Record<string, unknown>, fallback: string) {
   const hero = document.hero as Record<string, unknown> | undefined;
   const seo = document.seo as Record<string, unknown> | undefined;
-  const raw = [hero?.title, seo?.title, document.title].find((candidate) => typeof candidate === "string" && candidate.trim());
+  const heroHeading = hero?.heading as Record<string, unknown> | undefined;
+  const raw = [heroHeading?.title, seo?.title, document.title].find((candidate) => typeof candidate === "string" && candidate.trim());
   const title = typeof raw === "string" ? raw.replace(/\s*\|.*$/, "").replace(/\s+/g, " ").trim() : "";
   return title || fallback;
 }
@@ -138,34 +109,43 @@ function buildEntries(documents: Array<Record<string, unknown>>): IndexEntry[] {
     entries.push({ id, page: route.label, path: route.path, section: pageTitle, isPageEntry: true, title: `${route.label} ${pageTitle}`, text: normalize(heroParts.join(" ")) });
 
     // Each section on the page.
-    for (const [key, value] of Object.entries(document)) {
-      if (key === "hero" || SKIP_KEYS.has(key) || /navigation/i.test(key) || !value || typeof value !== "object") continue;
-      const items = Array.isArray(value) ? value : [value];
-      const isList = Array.isArray(value) && items.every((item) => sectionTitle(item));
+    const sections = Array.isArray(document.sections) ? (document.sections as Array<Record<string, unknown>>) : [];
+    sections.forEach((section, sectionIndex) => {
+      if (!section || typeof section !== "object") return;
+      const slot = typeof section.slot === "string" ? section.slot : String(sectionIndex);
+      const cards = Array.isArray(section.cards) ? (section.cards as Array<Record<string, unknown>>) : [];
+      const titledCards = cards.length > 0 && cards.every((card) => sectionTitle(card));
+      const sectionHeading = normalize(sectionTitle(section)) || slotLabel(id, slot);
 
-      if (isList) {
-        // A list of titled items (e.g. FAQ entries): each is its own hit.
-        items.forEach((item, index) => {
-          const title = normalize(sectionTitle(item));
+      if (titledCards) {
+        // A list of titled items (e.g. FAQ entries, team members): each is its own hit.
+        cards.forEach((card, index) => {
+          const title = normalize(sectionTitle(card));
           const parts: string[] = [];
-          collectText(item, parts);
-          entries.push({ id: `${id}:${key}:${index}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text: normalize(parts.join(" ")) });
+          collectText(card, parts);
+          entries.push({ id: `${id}:${slot}:${index}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text: normalize(parts.join(" ")) });
         });
-        continue;
+        const { cards: _cards, ...rest } = section;
+        void _cards;
+        const parts: string[] = [];
+        collectText(rest, parts);
+        const text = normalize(parts.join(" "));
+        if (text) entries.push({ id: `${id}:${slot}`, page: route.label, path: route.path, section: sectionHeading, isPageEntry: false, title: sectionHeading, text });
+        return;
       }
 
-      const title = normalize(sectionTitle(value)) || (Array.isArray(value) ? "" : "");
       const parts: string[] = [];
-      collectText(value, parts);
+      collectText(section, parts);
       const text = normalize(parts.join(" "));
-      if (!title && !text) continue;
+      if (!text) return;
+      const title = normalize(sectionTitle(section));
       // A section that only repeats the page title adds nothing to the page entry.
       if (!title || (title.toLowerCase() === pageTitle.toLowerCase() && text.toLowerCase() === title.toLowerCase())) {
-        if (text && text.toLowerCase() !== pageTitle.toLowerCase()) entries.push({ id: `${id}:${key}`, page: route.label, path: route.path, section: pageTitle, isPageEntry: true, title: pageTitle, text });
-        continue;
+        if (text.toLowerCase() !== pageTitle.toLowerCase()) entries.push({ id: `${id}:${slot}`, page: route.label, path: route.path, section: pageTitle, isPageEntry: true, title: pageTitle, text });
+        return;
       }
-      entries.push({ id: `${id}:${key}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text });
-    }
+      entries.push({ id: `${id}:${slot}`, page: route.label, path: route.path, section: title, isPageEntry: false, title, text });
+    });
   }
 
   return entries;
@@ -179,7 +159,7 @@ async function getEntries(): Promise<IndexEntry[]> {
   const client = getSanityClient();
   const ids = Object.keys(PAGE_ROUTES);
   const documents = await client.fetch<Array<Record<string, unknown>>>(
-    `*[!(_id in path("drafts.**")) && (_id in $ids || _type == "newsPost")]`,
+    `*[!(_id in path("drafts.**")) && ((_type == "page" && _id in $ids) || _type == "newsPost")]`,
     { ids },
   );
   const entries = buildEntries(documents);
