@@ -1,0 +1,198 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "our-team-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Meet Our Team"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ team members standing together",
+      "asset": {
+        "_ref": "image-7cc19db66e60d2644b7bce10def186219182aa2d-1113x562-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ team members standing together",
+      "asset": {
+        "_ref": "image-a9f4919082aff77fc7ddaf98f66fed6e8e784fe9-7974x4780-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/about-us/our-team",
+  "sections": [
+    {
+      "_key": "leadershipSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "mohammed-sultan",
+          "_type": "card",
+          "description": "Leadership Philosophy:  Inspire and motivate staff by setting a shared vision that sets high standards for all, fostering a positive school culture that is both collaborative and inclusive, promote staff growth and professional development, and focus on increasing student achievement by enhancing teaching practices.",
+          "image": {
+            "_type": "image",
+            "alt": "Saleh M. Jadayel",
+            "asset": {
+              "_ref": "image-dbf22e5641031ed5f707d1c40be20ec0a3000bef-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "36",
+          "subtitle": "School Principal",
+          "title": "Saleh M. Jadayel"
+        },
+        {
+          "_key": "bachir-zarzour",
+          "_type": "card",
+          "description": "Leadership Philosophy: Effective leadership is built on high expectations, collaboration, and continuous growth through creating a supportive and inspiring school culture where students and staff feel valued, empowered, and motivated to achieve their full potential.",
+          "image": {
+            "_type": "image",
+            "alt": "Dima Mokdad",
+            "asset": {
+              "_ref": "image-d78c42b5d3694f52955d7bef94e56c98e0e8e851-496x684-png",
+              "_type": "reference"
+            }
+          },
+          "label": "15",
+          "subtitle": "Vice Principal",
+          "title": "Dima Mokdad"
+        },
+        {
+          "_key": "meisam-hasanpour",
+          "_type": "card",
+          "description": "Leadership Philosophy: Fostering a caring and inclusive environment supported by strong pedagogy, continuous professional development, and a commitment to literacy development within a global education framework. \n\nParent collaboration is an integral part of every learner’s success and works to build meaningful partnerships that support the academic, social, and emotional growth of all students.",
+          "image": {
+            "_type": "image",
+            "alt": "Johnette Hopkins Williams ",
+            "asset": {
+              "_ref": "image-93f639ce14ebc6e33acf5734fadd6edeb3c807b3-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "15",
+          "subtitle": "Head of KG, Elementary, and Middle School; Head of the Inclusion Department; Child Protection Officer",
+          "title": "Johnette Hopkins Williams "
+        },
+        {
+          "_key": "donna-reeves",
+          "_type": "card",
+          "description": "Leadership Philosophy: Foster student-centered learning by creating inclusive and engaging environments that support every learner’s growth, while empowering teachers to design creative and innovative lessons driven by data to ensure purposeful and responsive instruction, thereby equipping high school students with the skills, knowledge, and mindset needed to succeed beyond the classroom and thrive in the real world, while strengthening connections\nwith alumni to inspire, mentor, and\ngive back.",
+          "image": {
+            "_type": "image",
+            "alt": "Meriam Mneimneh",
+            "asset": {
+              "_ref": "image-b8cf9772712acd03129ca4b906fcb2b38a9e0817-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "28",
+          "subtitle": "Head of High School; Teaching, Learning and Assessment Coordinator",
+          "title": "Meriam Mneimneh"
+        },
+        {
+          "_key": "rana-el-dor",
+          "_type": "card",
+          "description": "Leadership Philosophy: Foster a respectful, inclusive, and disciplined school environment where every student is empowered to reach their full potential, through consistency, fairness, resilience, and effective communication, while building strong and positive relationships with students, staff, and parents. This approach emphasizes character development, accountability, and high expectations to support both academic success and personal growth, while contributing to the UAE National Agenda",
+          "image": {
+            "_type": "image",
+            "alt": "Rabie Hassan Abdalla",
+            "asset": {
+              "_ref": "image-a146bd8c6668a703450dc0f7007a58d2b2692304-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "20",
+          "subtitle": "High School Boys’ Coordinator",
+          "title": "Rabie Hassan Abdalla"
+        },
+        {
+          "_key": "preet-sahota",
+          "_type": "card",
+          "description": "Ms. Preet is the Wellbeing Coordinator and Social-Emotional/Guidance Counselor at SAIS - UAQ. She leads Student Support Services, including academic, university and career guidance, social-emotional support, and whole-school wellbeing initiatives, fostering a positive and inclusive learning environment.",
+          "image": {
+            "_type": "image",
+            "alt": "Maha M. El Ayobi",
+            "asset": {
+              "_ref": "image-9e38b459a34337474c4a56b786d8ba8aca39ae88-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": " xx",
+          "subtitle": "Middle School Girls’ Coordinator & PTA Liaison",
+          "title": "Maha M. El Ayobi"
+        },
+        {
+          "_key": "3126559547f1",
+          "_type": "card",
+          "description": "Leadership Philosophy: Emphasize the social and emotional development of students while cultivating critical thinking and providing enriching opportunities that challenge learners to grow, guided by the belief that “how you treat others is the truest measurement of your character.” \nFoster a respectful and supportive environment where students are empowered to reflect, take responsibility, and continuously strive for their highest level of success.",
+          "image": {
+            "_type": "image",
+            "alt": "Rederick Williams",
+            "asset": {
+              "_ref": "image-286ffcb994b943c6399d6cff3043aa72c08f5556-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "25",
+          "title": "Rederick Williams"
+        },
+        {
+          "_key": "e31717503ef9",
+          "_type": "card",
+          "description": "Leadership Philosophy: Model and set the standards necessary to grow their staff in becoming future leaders by displaying a sense of belonging and compassion. \n\nA great leader chooses to work alongside others, who together are working to achieve one common goal…SUCCESS!",
+          "image": {
+            "_type": "image",
+            "alt": "Jennifer Barksdale",
+            "asset": {
+              "_ref": "image-e587c902856d54823f035dc08873997999ad423a-992x1368-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "20",
+          "title": "Jennifer Barksdale"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "leadership-description",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "leadership-description-text",
+                "_type": "span",
+                "text": "Our Senior Leadership Team (SLT) provides strategic direction and fosters a culture of excellence and innovation."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "eyebrow": "Senior Leadership Team",
+        "title": "Our academic team is a diverse group of passionate educators and experienced leaders committed to delivering high-quality education across all grade levels."
+      },
+      "slot": "leadershipSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Meet the team at Sharjah American International School Sharjah.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ team members standing together",
+      "asset": {
+        "_ref": "image-73e761606b8e65ba475ee0b0c7b342f807ae7f0d-1113x562-png",
+        "_type": "reference"
+      }
+    },
+    "title": "Our Team | SAIS - UAQ"
+  },
+  "title": "Our Team"
+}
