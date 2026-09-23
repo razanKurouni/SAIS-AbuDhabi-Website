@@ -16695,3 +16695,31 @@ a.school-policy-card__cover:hover {
     bottom: 28px;
   }
 }
+
+/* About: Testing and Program Excellence copy (subheading, bullet list, lone last logo) */
+.about-accreditations__copy strong {
+  color: var(--about-accreditations-line, var(--sais-primary));
+  font-weight: 600;
+}
+
+.about-accreditations__copy ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--about-accreditations-text, #6f7378);
+  font-size: clamp(0.93rem, 0.96vw, 1rem);
+  line-height: 1.58;
+}
+
+.about-accreditations__copy li + li {
+  margin-top: 6px;
+}
+
+.about-accreditations__logo-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 767px) {
+  .about-accreditations__logo-card:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+}

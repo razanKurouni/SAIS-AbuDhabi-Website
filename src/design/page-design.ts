@@ -14,24 +14,18 @@ import type { DesignOverlay } from "./apply-design";
 export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   "about-page": {
     "accreditations": {
-      "backgroundColor": "#f3f3f3",
+      "backgroundColor": "#ffffff",
       "lineColor": "#216B97",
       "logos": [
         {
+          "width": "120px"
+        },
+        {
+          "width": "150px"
+        },
+        {
           "width": "240px"
-        },
-        {
-          "width": "260px"
-        },
-        {
-          "width": "260px"
-        },
-        {
-          "width": "280px"
-        },
-        null,
-        null,
-        null
+        }
       ],
       "textColor": "#6F7378",
       "titleColor": "#00A5B2"

@@ -192,7 +192,6 @@ export default async function AboutUsPage() {
       <AboutPrincipalMessageSection section={aboutPrincipalMessage} />
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />
-      <AboutAccreditationsSection section={aboutAccreditations} />
       <AboutValuesSection section={aboutValues} />
       <AcademicsElementaryAssessmentSection
         className="about-accreditation-feature academics-middle-school-tailored-section"
@@ -202,6 +201,7 @@ export default async function AboutUsPage() {
         fallbackSection={fallbackAccreditationFeature}
       />
       <AboutBenefitsSection section={aboutPage?.benefits} />
+      <AboutAccreditationsSection section={aboutAccreditations} />
       <AboutBranchesSection section={aboutBranches} />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
