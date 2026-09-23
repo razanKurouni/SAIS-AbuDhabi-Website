@@ -178,9 +178,9 @@ export default async function AboutUsPage() {
       <AboutPrincipalMessageSection section={aboutPrincipalMessage} />
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />
-      <AboutValuesSection section={aboutValues} />
       <AboutAccreditationsSection section={aboutAccreditations} />
       <AboutKhdaSection section={aboutKhda} />
+      <AboutValuesSection section={aboutValues} />
       <AboutBranchesSection section={aboutBranches} />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
