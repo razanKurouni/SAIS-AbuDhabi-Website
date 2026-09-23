@@ -1,0 +1,73 @@
+{
+  "_key": "principalMessage",
+  "_type": "imageTextSection",
+  "heading": {
+    "_type": "sectionHeading",
+    "description": [
+      {
+        "_key": "bb69a5ab13c1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "78fde578ed25",
+            "_type": "span",
+            "text": "I wish to extend a warm welcome to the Sharjah American International School (SAIS - UAQ) community through our website. We hope to provide you with information as well as some examples of what our staff and students achieve here.We are proud of the rich diversity of nationalities represented at SAIS and the manner in which the host country culture enhances the life of the school.\n\nWhile the prevailing religion is Islam, we host believers of many world religions and respect their beliefs. Our students from kindergarten to grade 12 have a multitude of opportunities to develop, both in and outside of the classroom, because we believe that every child is important and has a unique personality and learning requirements. Our graduates typically go to the best universities in the UAE, Canada, the United States and the UK. We have a strong tradition of excellence in Mathematics, the Sciences, and Information Technology, and have produced engineers, architects and doctors of the highest quality. Athletically, our sports teams routinely take home much coveted cups and medals and are viewed as the teams to beat in most competitions. However, what we are most proud of is the excellent reputation our students have earned in the community by acting responsibly as positive ambassadors for the school while staying close to home or traveling abroad.\n\nStudents leaving SAIS are quick to comment on the close bonds they enjoyed with their teachers and, after graduating, return often to our campus to maintain these positive relationships. Our attachment to our students is borne out of our belief that if we care about them as individuals they will ultimately thrive as students. We invite you to explore our website and gain a “feel’’ for what we believe is a really great school to be in!"
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "e76e0a846b0f",
+        "_type": "block",
+        "style": "normal"
+      },
+      {
+        "_key": "fe67b49aca00",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "78fde578ed25",
+            "_type": "span",
+            "text": "Sharjah Campus Principal,"
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "c0ab1b940e0c",
+        "_type": "block",
+        "style": "normal"
+      },
+      {
+        "_key": "a4c089d1d266",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "78fde578ed25",
+            "_type": "span",
+            "text": "Mr. Saleh Jadayel"
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "title": "A Message from Our Principal"
+  },
+  "image": {
+    "_type": "image",
+    "alt": " Our Principal",
+    "asset": {
+      "_ref": "image-66cc8f0522cce20f3693609ff1557701aabbc309-6677x7269-jpg",
+      "_type": "reference"
+    }
+  },
+  "mobileImage": {
+    "_type": "image",
+    "alt": "SAIS - UAQ principal portrait",
+    "asset": {
+      "_ref": "image-11b531b97fe485a483d8bb62f75aac6bd400a64a-2000x1950-jpg",
+      "_type": "reference"
+    }
+  },
+  "slot": "principalMessage"
+}
