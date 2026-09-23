@@ -187,19 +187,6 @@ export type AboutAccreditationsSection = {
   textColor?: string;
 };
 
-export type AboutKhdaSection = {
-  heading?: SectionHeading;
-  image?: SanityImage;
-  badge?: SanityImage;
-  cta?: Cta;
-  imagePosition?: string;
-  backgroundColor?: string;
-  panelColor?: string;
-  accentColor?: string;
-  titleColor?: string;
-  textColor?: string;
-};
-
 export type AboutBranchCard = {
   _key?: string;
   name?: string;
@@ -269,7 +256,7 @@ export type AboutPageData = {
   missionShowcase?: MissionShowcaseSection;
   valuesGrid?: ValuesGridSection;
   accreditations?: AboutAccreditationsSection;
-  khdaSection?: AboutKhdaSection;
+  khdaSection?: AcademicsKindergartenFeatureSection;
   branches?: AboutBranchesSection;
   governance?: ImageTextSection;
   inspection?: ImageTextSection;

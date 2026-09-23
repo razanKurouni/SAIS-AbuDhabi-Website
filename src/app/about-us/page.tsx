@@ -1,13 +1,14 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
+import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AboutAccreditationsSection } from "@/components/sections/about-accreditations-section";
 import { AboutBranchesSection } from "@/components/sections/about-branches-section";
 import { AboutBoardGovernorsSection } from "@/components/sections/about-board-governors-section";
 import { AboutGovernanceSection } from "@/components/sections/about-governance-section";
 import { AboutInspectionSection } from "@/components/sections/about-inspection-section";
-import { AboutKhdaSection } from "@/components/sections/about-khda-section";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { AboutPrincipalMessageSection } from "@/components/sections/about-principal-message-section";
 import { AboutStatementSection } from "@/components/sections/about-statement-section";
 import { AboutValuesSection } from "@/components/sections/about-values-section";
@@ -76,6 +77,18 @@ const highlights = [
     text: "A welcoming community for students and families across every stage of school life.",
   },
 ];
+
+const fallbackAccreditationFeature: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "left",
+  imagePosition: "30% 35%",
+  backgroundColor: "#ffffff",
+  panelColor: "#27779D",
+  waveColor: "#D97252",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
+};
 
 export default async function AboutUsPage() {
   const [data, aboutPage] = await Promise.all([getHomepage(), getAboutPage()]);
@@ -179,7 +192,13 @@ export default async function AboutUsPage() {
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />
       <AboutAccreditationsSection section={aboutAccreditations} />
-      <AboutKhdaSection section={aboutKhda} />
+      <AcademicsElementaryAssessmentSection
+        className="about-accreditation-feature academics-middle-school-tailored-section"
+        imageSide="left"
+        titleId="about-accreditation-title"
+        section={aboutKhda}
+        fallbackSection={fallbackAccreditationFeature}
+      />
       <AboutValuesSection section={aboutValues} />
       <AboutBranchesSection section={aboutBranches} />
       <TourIntroSection section={data?.tour} />

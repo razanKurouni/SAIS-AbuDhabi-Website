@@ -87,15 +87,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "center"
     },
     "khdaSection": {
-      "accentColor": "#D97252",
       "backgroundColor": "#ffffff",
-      "cta": {
-        "variant": "primary"
-      },
-      "imagePosition": "center",
+      "imagePosition": "30% 35%",
+      "imageSide": "left",
       "panelColor": "#27779D",
       "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     },
     "missionShowcase": {
       "cards": [
