@@ -68,8 +68,9 @@ export function AboutKhdaSection({ section }: AboutKhdaSectionProps) {
     ? section.heading.description
     : fallbackSection.heading?.description;
   const image = section?.image?.url ? section.image : fallbackSection.image;
-  const badge = section?.badge?.url ? section.badge : fallbackSection.badge;
-  const cta = section?.cta || fallbackSection.cta;
+  // The badge and the button only appear when the CMS section provides them.
+  const badge = section ? (section.badge?.url ? section.badge : undefined) : fallbackSection.badge;
+  const cta = section ? section.cta : fallbackSection.cta;
   const style: AboutKhdaStyle = {
     "--about-khda-bg": section?.backgroundColor || fallbackSection.backgroundColor,
     "--about-khda-panel": section?.panelColor || fallbackSection.panelColor,

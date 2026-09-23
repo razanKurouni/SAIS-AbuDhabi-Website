@@ -1,0 +1,89 @@
+[
+  {
+    "_key": "statement",
+    "_type": "cardsSection",
+    "cards": [
+      {
+        "_key": "vision",
+        "_type": "card",
+        "description": "To be a leading American curriculum school group, recognized for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE's identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
+        "image": {
+          "_type": "image",
+          "alt": "Teacher supporting a student in a SAIS - UAQ classroom",
+          "asset": {
+            "_ref": "image-5909b08322284a91127c87a2e9f5837c93806156-1552x814-jpg",
+            "_type": "reference"
+          }
+        },
+        "title": "Vision"
+      },
+      {
+        "_key": "mission",
+        "_type": "card",
+        "description": "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ principal speaking with students on campus",
+          "asset": {
+            "_ref": "image-bcfc55ad5a7bc4c851b678ce0a856a310a6d8156-1552x814-jpg",
+            "_type": "reference"
+          }
+        },
+        "title": "Mission"
+      }
+    ],
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Our Vision & Mission "
+    },
+    "slot": "statement"
+  },
+  {
+    "_key": "khdaSection",
+    "_type": "imageTextSection",
+    "ctas": [
+      {
+        "_key": "khmub4id93",
+        "_type": "cta",
+        "href": "https://spea.shj.ae/en/",
+        "label": "See More",
+        "openInNewTab": true
+      }
+    ],
+    "heading": {
+      "_type": "sectionHeading",
+      "description": [
+        {
+          "_key": "about-khda-description",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "about-khda-description-span",
+              "_type": "span",
+              "text": "The Strategic Planning and Educational Affairs Authority (SPEA) is the official government body responsible for regulating and monitoring private education in the Emirate of Sharjah. SPEA works to ensure high-quality educational standards across private schools and educational institutions by conducting inspections, supporting continuous improvement, and promoting excellence in teaching and learning. The authority also collaborates with schools, parents, and the wider community to enhance educational outcomes and provide students with a safe, inclusive, and future-focused learning environment."
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "title": "The Strategic Planning and Educational Affairs Authority (SPEA)"
+    },
+    "icon": {
+      "_type": "image",
+      "alt": "Licensed and approved by SPEA",
+      "asset": {
+        "_ref": "image-5e27753ddd64396dd3c13113e7e4f0a68d4e6797-169x123-png",
+        "_type": "reference"
+      }
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students learning in a science lab",
+      "asset": {
+        "_ref": "image-096f16de876edd10f80b91ff8c6c01dcbb02afd5-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "slot": "khdaSection"
+  }
+]

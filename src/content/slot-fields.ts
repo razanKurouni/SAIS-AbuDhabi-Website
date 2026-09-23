@@ -111,9 +111,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "about-page/khdaSection": {
     "section": [
-      "ctas",
       "heading",
-      "icon",
       "image"
     ],
     "heading": [
