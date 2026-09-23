@@ -145,6 +145,7 @@ export function adaptAbout(page: CmsPage): AboutPageData {
       ? { heading: heading(s.get("accreditations")), body: s.get("accreditations")?.body, logos: logos(s.get("accreditations")) }
       : undefined,
     khdaSection: imageText(s.get("khdaSection")),
+    benefits: s.has("benefits") ? { heading: heading(s.get("benefits")), cards: featureCards(s.get("benefits")) } : undefined,
     branches: s.has("branches") ? { heading: heading(s.get("branches")), cards: branchCards(s.get("branches")) } : undefined,
   };
 }

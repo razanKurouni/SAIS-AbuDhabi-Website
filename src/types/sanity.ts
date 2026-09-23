@@ -245,6 +245,14 @@ export type AboutIntroSection = {
   imagePosition?: string;
 };
 
+export type AboutBenefitsSection = {
+  heading?: SectionHeading;
+  cards?: FeatureCard[];
+  backgroundColor?: string;
+  titleColor?: string;
+  subtitleColor?: string;
+};
+
 export type AboutPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
@@ -257,6 +265,7 @@ export type AboutPageData = {
   valuesGrid?: ValuesGridSection;
   accreditations?: AboutAccreditationsSection;
   khdaSection?: AcademicsKindergartenFeatureSection;
+  benefits?: AboutBenefitsSection;
   branches?: AboutBranchesSection;
   governance?: ImageTextSection;
   inspection?: ImageTextSection;

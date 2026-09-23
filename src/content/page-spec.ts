@@ -109,6 +109,7 @@ export const PAGE_SPECS: PageSpec[] = [
       cards("statement", "Mission & Vision"),
       cards("accreditations", "Accreditations", { items: "logos" }),
       it("khdaSection", "Inspection Rating"),
+      cards("benefits", "Accreditation Benefits"),
       cards("branches", "Our Branches"),
     ],
   },

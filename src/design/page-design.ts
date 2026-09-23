@@ -95,6 +95,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#ffffff",
       "waveColor": "#D97252"
     },
+    "benefits": {
+      "backgroundColor": "#f4f4f4",
+      "subtitleColor": "#00A5B2",
+      "titleColor": "#216B97"
+    },
     "missionShowcase": {
       "cards": [
         {

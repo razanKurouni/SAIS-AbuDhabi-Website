@@ -38,6 +38,23 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "about-page/benefits": {
+    "section": [
+      "cards",
+      "heading"
+    ],
+    "heading": [
+      "subtitle",
+      "title"
+    ],
+    "card": [
+      "description",
+      "image",
+      "title"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
   "about-page/boardGovernors": {
     "section": [
       "cards"

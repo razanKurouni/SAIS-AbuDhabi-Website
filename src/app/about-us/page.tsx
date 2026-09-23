@@ -4,6 +4,7 @@ import type { CSSProperties } from "react";
 import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AboutAccreditationsSection } from "@/components/sections/about-accreditations-section";
+import { AboutBenefitsSection } from "@/components/sections/about-benefits-section";
 import { AboutBranchesSection } from "@/components/sections/about-branches-section";
 import { AboutBoardGovernorsSection } from "@/components/sections/about-board-governors-section";
 import { AboutGovernanceSection } from "@/components/sections/about-governance-section";
@@ -200,6 +201,7 @@ export default async function AboutUsPage() {
         section={aboutKhda}
         fallbackSection={fallbackAccreditationFeature}
       />
+      <AboutBenefitsSection section={aboutPage?.benefits} />
       <AboutBranchesSection section={aboutBranches} />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
