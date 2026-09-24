@@ -3197,7 +3197,7 @@ a.contact-info-section__item-text:hover {
 }
 .academics-high-school-career-guidance-center{
       background: var(--support-programs-bg, #f5f5f5);
-      padding-top: 0 !important;
+      padding-top: 62px !important;
       padding-bottom: 62px !important;
 }
 .academics-high-school-career-guidance-center>div{
@@ -16142,7 +16142,7 @@ a.school-policy-card__cover:hover {
 
 /* The career guidance heading sits in the same grey as the feature above it: no opening of its own, 62 below to the slider. */
 .academics-high-school-page .academics-high-school-career-guidance-center {
-  padding-top: 0;
+  padding-top: 62px;
   padding-bottom: 62px;
 }
 
