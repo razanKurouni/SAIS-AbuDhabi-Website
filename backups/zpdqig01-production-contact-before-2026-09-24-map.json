@@ -1,0 +1,129 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "contact-page",
+  "_rev": "z2nMvYbGDG4FxTvfDJobul",
+  "_type": "page",
+  "_updatedAt": "2026-09-24T13:10:05Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Contact Us"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/contact-us",
+  "sections": [
+    {
+      "_key": "contactInfo",
+      "_type": "entriesSection",
+      "body": [
+        {
+          "_key": "b-2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s-3",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Office Hours:"
+            },
+            {
+              "_key": "s-4",
+              "_type": "span",
+              "marks": [],
+              "text": "\nMonday – Thursday | 7:30 AM – 3:20 PM\nFriday | 7:30 AM – 11:30 AM"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "entries": [
+        {
+          "_key": "contact-address",
+          "_type": "entry",
+          "href": "https://www.google.com/maps/search/?api=1&query=Sharjah+American+International+School+Umm+Al+Quwain",
+          "iconType": "location",
+          "label": "Campus Address",
+          "text": "Sharjah American International School – Umm Al Quwain\nCampus Salama 2, P.O. Box 1202, Umm Al Quwain, UAE"
+        },
+        {
+          "_key": "contact-phone",
+          "_type": "entry",
+          "href": "tel:+97167665553",
+          "iconType": "phone",
+          "label": "Phone",
+          "text": "+971 6 766 5553"
+        },
+        {
+          "_key": "contact-email",
+          "_type": "entry",
+          "href": "mailto:saisq@saisuaq.com",
+          "iconType": "email",
+          "label": "Email",
+          "text": "saisq@saisuaq.com"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "b-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-1",
+                "_type": "span",
+                "marks": [],
+                "text": "Whether you’re a parent, student, or visitor, feel free to reach out with your questions, feedback, or inquiries. Our team is here to support you."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "We’d Love to Hear From You"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School – Umm Al Quwain campus building",
+        "asset": {
+          "_ref": "image-3c361b940c4f228af9db13f2367bd77a9afec7e4-2000x1010-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "contactInfo"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Contact Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "CONTACT US",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    },
+    "title": "Contact Us | SAIS - UAQ"
+  },
+  "title": "Contact Us"
+}

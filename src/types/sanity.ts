@@ -971,6 +971,7 @@ export type FooterContactItem = {
   text?: string;
   href?: string;
   icon?: "location" | "phone" | "email";
+  iconType?: string;
 };
 
 export type SiteFooter = {

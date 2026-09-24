@@ -28,7 +28,7 @@ const contactInnerNavItems = [
 ];
 
 const MAP_EMBED_SRC =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.0008505426777!2d55.4606613!3d25.3571191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f58ef068c4d27%3A0x2f954d7d4fba1241!2sSharjah%20American%20International%20School-Sharjah%20Campus!5e1!3m2!1sen!2sae!4v1789389986562!5m2!1sen!2sae";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.7873680416133!2d55.5862808!3d25.5016975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5fbd959cca1d1%3A0x8e14e4c7843736be!2sSAIS%20Umm%20Al%20Quwain!5e1!3m2!1sen!2sae!4v1790255839786!5m2!1sen!2sae";
 
 export async function generateMetadata(): Promise<Metadata> {
   const contactPage = await getContactPage();
@@ -91,7 +91,7 @@ export default async function ContactUsPage() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Sharjah American International School — Sharjah Campus location"
+            title="Sharjah American International School — Umm Al Quwain Campus location"
           />
         </SectionReveal>
       </section>

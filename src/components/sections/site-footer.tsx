@@ -38,20 +38,20 @@ const defaultContactItems: FooterContactItem[] = [
   {
     icon: "location",
     label: "Address",
-    text: "Sharjah American International School\nSharjah Campus\nTha\u2019alabah Bin Sa\u2019ad St.\nNear Al Ramaqia Park, Sharjah",
-    href: "https://maps.app.goo.gl/jVbwRcqpRdNSYe2h7",
+    text: "Sharjah American International School \u2013 Umm Al Quwain\nCampus Salama 2, P.O. Box 1202\nUmm Al Quwain, UAE",
+    href: "https://maps.google.com/?cid=10238059398487815870",
   },
   {
     icon: "phone",
     label: "Phone",
-    text: "+971 6 538 0000",
-    href: "tel:+97165380000",
+    text: "+971 6 766 5553",
+    href: "tel:+97167665553",
   },
   {
     icon: "email",
     label: "Email",
-    text: "sais@saissharjah.com",
-    href: "mailto:sais@saissharjah.com",
+    text: "saisq@saisuaq.com",
+    href: "mailto:saisq@saisuaq.com",
   },
 ];
 
@@ -123,7 +123,8 @@ export function SiteFooter({ footer }: SiteFooterProps) {
 
             <address className="site-footer__contact">
               {contactItems.map((item) => {
-                const Icon = contactIcons[item.icon || "location"];
+                const iconKey = (item.iconType || item.icon) as keyof typeof contactIcons;
+                const Icon = contactIcons[iconKey] || contactIcons.location;
 
                 return (
                   <a key={item._key || item.label} href={normalizeHref(item.href) || "#"} className="site-footer__contact-item">
