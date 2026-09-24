@@ -366,7 +366,7 @@ export default async function AcademicsMiddleSchoolPage() {
           section={middleSchoolPage.assessmentDetailSection}
           fallbackImage={{}}
           fallbackParagraphs={[]}
-          className="academics-steam-section academics-career-guidance-outreach-section"
+          className="academics-steam-section academics-career-guidance-outreach-section academics-middle-school-assessment-detail-section"
           preserveRichText
         />
       ) : null}

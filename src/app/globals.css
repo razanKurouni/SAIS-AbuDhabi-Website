@@ -16760,3 +16760,9 @@ a.school-policy-card__cover:hover {
     fill: var(--intro-feature-panel-color);
   }
 }
+
+/* Middle School: assessment details band, white with 50px vertical padding */
+.academics-middle-school-assessment-detail-section.editorial-split-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
