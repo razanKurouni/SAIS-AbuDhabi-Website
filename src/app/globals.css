@@ -13153,54 +13153,14 @@ img:where(
   }
 }
 
-.faq-category-section {
-  background: #ffffff;
-  padding: clamp(54px, 6vw, 88px) 0 clamp(66px, 7vw, 104px);
-}
 
-.faq-category-section--muted {
-  background: #f2f2f2;
-}
 
-.faq-category-section__inner {
-  display: grid;
-  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.6fr);
-  align-items: start;
-  gap: clamp(50px, 9vw, 150px);
-  width: 85%;
-  max-width: 1600px;
-  margin: 0 auto;
-}
 
-.faq-category-section__title {
-  max-width: 260px;
-  margin: 0;
-  color: #df7150;
-  font-size: clamp(1.55rem, 2.2vw, 2rem);
-  font-weight: 600;
-  line-height: 1.16;
-  white-space: pre-line;
-}
 
-.faq-category-section__items {
-  display: grid;
-  gap: clamp(34px, 3.6vw, 52px);
-}
 
-.faq-category-section .faq-grid-card__question {
-  font-size: clamp(1.05rem, 1.45vw, 1.36rem);
-}
 
 @media (max-width: 767px) {
-  .faq-category-section__inner {
-    grid-template-columns: 1fr;
-    gap: 36px;
-    width: calc(100% - 32px);
-  }
 
-  .faq-category-section__title {
-    max-width: none;
-  }
 }
 
 /* ── Admissions Application Steps ────────────────────────────── */
@@ -16804,4 +16764,25 @@ a.school-policy-card__cover:hover {
 
 .admissions-withdrawal-policy__split .editorial-split-section__rich-text p {
   color: #707278;
+}
+
+/* FAQ: no image, questions in two columns, all teal */
+.faq-grid-section__content--full {
+  grid-template-columns: 1fr;
+}
+
+.faq-grid-section__content--full .faq-grid-section__grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(32px, 3.4vw, 52px) clamp(34px, 4vw, 66px);
+  align-content: start;
+}
+
+.faq-grid-section .faq-grid-card__question {
+  color: var(--sais-accent);
+}
+
+@media (max-width: 767px) {
+  .faq-grid-section__content--full .faq-grid-section__grid {
+    grid-template-columns: 1fr;
+  }
 }

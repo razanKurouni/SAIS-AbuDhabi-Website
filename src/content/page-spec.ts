@@ -247,10 +247,7 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Admissions",
     slots: [
       entries("introSection", "Introduction"),
-      cards("faqSection", "General FAQs", { items: "items" }),
-      cards("admissionsOrientationSection", "Admissions & Orientation FAQs", { items: "items" }),
-      cards("academicsSupportSection", "Academics & Support FAQs", { items: "items" }),
-      cards("logisticsOperationsSection", "Logistics & Operations FAQs", { items: "items" }),
+      cards("faqSection", "Questions", { items: "items" }),
     ],
   },
   {

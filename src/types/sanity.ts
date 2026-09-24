@@ -352,9 +352,6 @@ export type AdmissionsFaqPageData = {
   innerNavigation?: InnerNavigation;
   introSection?: ContactInfoSection;
   faqSection?: FaqSection;
-  admissionsOrientationSection?: FaqSection;
-  academicsSupportSection?: FaqSection;
-  logisticsOperationsSection?: FaqSection;
 };
 
 export type AdmissionsFeesPageData = {

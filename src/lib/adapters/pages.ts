@@ -304,9 +304,6 @@ export function adaptAdmissionsFaq(page: CmsPage): AdmissionsFaqPageData {
     ...base(page),
     introSection: contactInfo(s.get("introSection")),
     faqSection: faq("faqSection"),
-    admissionsOrientationSection: faq("admissionsOrientationSection"),
-    academicsSupportSection: faq("academicsSupportSection"),
-    logisticsOperationsSection: faq("logisticsOperationsSection"),
   };
 }
 

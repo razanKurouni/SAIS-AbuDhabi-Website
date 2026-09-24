@@ -29,7 +29,7 @@ export function FaqGridSection({ section, introSection }: FaqGridSectionProps) {
           className="faq-grid-section__introduction"
         />
 
-        <div className="faq-grid-section__content">
+        <div className={`faq-grid-section__content${introSection?.image?.url ? "" : " faq-grid-section__content--full"}`}>
           {introSection?.image?.url ? (
             <Reveal className="faq-grid-section__media">
               <Image

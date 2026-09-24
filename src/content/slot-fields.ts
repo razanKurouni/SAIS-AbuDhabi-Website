@@ -840,36 +840,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "admissions-faq-page/academicsSupportSection": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "title"
-    ],
-    "card": [
-      "description",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "admissions-faq-page/admissionsOrientationSection": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "title"
-    ],
-    "card": [
-      "description",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
   "admissions-faq-page/faqSection": {
     "section": [
       "cards"
@@ -884,29 +854,13 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "admissions-faq-page/introSection": {
     "section": [
-      "heading",
-      "image"
+      "heading"
     ],
     "heading": [
       "description",
       "title"
     ],
     "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "admissions-faq-page/logisticsOperationsSection": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "title"
-    ],
-    "card": [
-      "description",
-      "title"
-    ],
     "cardEntry": [],
     "entry": []
   },

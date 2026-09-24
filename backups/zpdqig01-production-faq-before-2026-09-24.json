@@ -1,0 +1,207 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "admissions-faq-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Frequently Asked Questions"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-cc325ac4a7396e6956fc41aaf473510eea22a5fe-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-cc325ac4a7396e6956fc41aaf473510eea22a5fe-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/admissions/faqs",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "faq-intro-primary",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "faq-intro-primary-span",
+                "_type": "span",
+                "text": "Welcome to our FAQ section, designed to provide parents and students with clear, helpful information about our school’s policies, academics, admissions, attendance, and extra-curricular activities."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "faq-intro-secondary",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "faq-intro-secondary-span",
+                "_type": "span",
+                "text": "We are committed to transparency and open communication. Here you can find answers to common questions about school life, and our team is always ready to support you if you need further assistance."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Modern Learning, Clearly Explained"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ parent walking with two students",
+        "asset": {
+          "_ref": "image-08b3f8935ef7f99ff3a894ba57b01eed0969c907-1456x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "introSection"
+    },
+    {
+      "_key": "faqSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "curriculum",
+          "_type": "card",
+          "description": "SAIS - UAQ follows an American curriculum aligned with UAE Ministry of Education requirements and internationally recognized standards. Our academic program emphasizes strong foundations, critical thinking, creativity, and preparation for future study.",
+          "title": "What curriculum does SAIS - UAQ follow?"
+        },
+        {
+          "_key": "grades",
+          "_type": "card",
+          "description": "SAIS - UAQ welcomes students from Kindergarten through Grade 12.",
+          "title": "What grade levels does SAIS - UAQ offer?"
+        },
+        {
+          "_key": "language",
+          "_type": "card",
+          "description": "The primary language of instruction is English, with additional courses in Arabic, Islamic Education, and French.",
+          "title": "What is the primary language of instruction?"
+        }
+      ],
+      "slot": "faqSection"
+    },
+    {
+      "_key": "admissionsOrientationSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "application-timing",
+          "_type": "card",
+          "description": "Applications are accepted for the same year from September to December and for the following year from February onwards, but early enrollment is recommended due to limited seat availability.",
+          "title": "When can I apply for admission?"
+        },
+        {
+          "_key": "application-support",
+          "_type": "card",
+          "description": "Our admissions team supports families throughout the application process, answers questions, and helps ensure a clear and smooth transition into the SAIS community.",
+          "title": "How does SAIS support new student applications?"
+        },
+        {
+          "_key": "student-transition",
+          "_type": "card",
+          "description": "SAIS offers orientation programs for new students and parents, including guided tours, counseling sessions, and transition workshops in Elementary, Middle, and High School.",
+          "title": "How does SAIS support new student transitions?"
+        },
+        {
+          "_key": "placement-test",
+          "_type": "card",
+          "description": "Yes, students undergo an academic assessment in English and Math to determine placement and support needs.",
+          "title": "Is there a placement test for new students?"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Admissions and\nOrientation"
+      },
+      "slot": "admissionsOrientationSection"
+    },
+    {
+      "_key": "academicsSupportSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "ap-courses",
+          "_type": "card",
+          "description": "Yes, SAIS offers a variety of AP courses in subjects such as Calculus, Biology, Chemistry, Computer Science, and English.",
+          "title": "Are Advanced Placement (AP) courses available?"
+        },
+        {
+          "_key": "inclusion-support",
+          "_type": "card",
+          "description": "Yes, SAIS has a dedicated Inclusion Department.",
+          "title": "Does SAIS provide inclusion support for Students of Determination?"
+        },
+        {
+          "_key": "counseling-guidance",
+          "_type": "card",
+          "description": "Yes, SAIS offers academic, personal, and career counseling, including university planning and NAPO ambassador programs.",
+          "title": "Are there counseling and career guidance services?"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Academics and\nSupport"
+      },
+      "slot": "academicsSupportSection"
+    },
+    {
+      "_key": "logisticsOperationsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "transportation",
+          "_type": "card",
+          "description": "Yes, SAIS offers safe and reliable bus transportation with designated routes throughout Sharjah and nearby areas.",
+          "title": "Is transportation provided?"
+        },
+        {
+          "_key": "school-hours",
+          "_type": "card",
+          "description": "School hours are typically from 7:30 AM to 3:15 PM, Monday through Wednesday and Thursday from 7:30 AM to 2:30 PM.",
+          "title": "What are the school hours?"
+        },
+        {
+          "_key": "meal-services",
+          "_type": "card",
+          "description": "Yes, the school has a canteen offering healthy snacks and lunch options, with menus updated regularly.",
+          "title": "Does the school offer meal services?"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Logistics and\nOperations"
+      },
+      "slot": "logisticsOperationsSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Find answers to frequently asked questions about SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-cc325ac4a7396e6956fc41aaf473510eea22a5fe-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Frequently Asked Questions | SAIS - UAQ"
+  },
+  "title": "FAQs"
+}

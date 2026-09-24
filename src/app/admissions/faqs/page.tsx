@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { FaqGridSection } from "@/components/sections/faq-grid-section";
-import { FaqCategorySection } from "@/components/sections/faq-category-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
 import { getAdmissionsFaqPage, getHomepage } from "@/lib/sanity";
@@ -67,16 +66,6 @@ export default async function AdmissionsFaqPage() {
       />
 
       <FaqGridSection section={page?.faqSection} introSection={page?.introSection} />
-      <FaqCategorySection section={page?.admissionsOrientationSection} id="faq-admissions-orientation-title" />
-      <FaqCategorySection
-        section={page?.academicsSupportSection}
-        id="faq-academics-support-title"
-        className="faq-category-section--muted"
-      />
-      <FaqCategorySection
-        section={page?.logisticsOperationsSection}
-        id="faq-logistics-operations-title"
-      />
     </SitePageShell>
   );
 }
