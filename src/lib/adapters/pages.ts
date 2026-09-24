@@ -456,12 +456,8 @@ export function adaptStudentLife(page: CmsPage): StudentLifePageData {
     beyondClassroomIntro: textSection(s.get("beyondClassroomIntro")),
     sgaSection: contactInfo(s.get("sgaSection")),
     studentCongressSection: imageText(s.get("studentCongressSection")),
-    ministriesSlider: s.has("ministriesSlider")
-      ? { heading: heading(s.get("ministriesSlider")), cards: iconCards(s.get("ministriesSlider")) }
-      : undefined,
     programsSection: imageText(s.get("programsSection")),
     miniSgaSection: contactInfo(s.get("miniSgaSection")),
-    sgaShowcaseSection: imageText(s.get("sgaShowcaseSection")),
   };
 }
 

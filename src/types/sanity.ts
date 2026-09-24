@@ -636,7 +636,6 @@ export type StudentLifePageData = {
   };
   sgaSection?: ContactInfoSection;
   studentCongressSection?: ImageTextSection;
-  ministriesSlider?: AcademicsSupportProgramsSection;
   programsSection?: ImageTextSection;
   miniSgaSection?: ContactInfoSection;
   sgaShowcaseSection?: ImageTextSection;

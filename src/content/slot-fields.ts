@@ -1651,7 +1651,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "heading"
     ],
     "heading": [
-      "accentTitle",
       "description",
       "title"
     ],
@@ -1672,23 +1671,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-life-page/ministriesSlider": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "subtitle",
-      "title"
-    ],
-    "card": [
-      "description",
-      "icon",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
   "student-life-page/programsSection": {
     "section": [
       "heading",
@@ -1703,15 +1685,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "entry": []
   },
   "student-life-page/sgaSection": {
-    "section": [
-      "image"
-    ],
-    "heading": [],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-life-page/sgaShowcaseSection": {
     "section": [
       "heading",
       "image"

@@ -389,10 +389,8 @@ export const PAGE_SPECS: PageSpec[] = [
       txt("beyondClassroomIntro", "Beyond the Classroom"),
       entries("sgaSection", "Student Government"),
       it("studentCongressSection", "Student Congress"),
-      cards("ministriesSlider", "Ministries"),
-      it("programsSection", "Programs"),
-      entries("miniSgaSection", "Mini SGA"),
-      it("sgaShowcaseSection", "SGA Showcase"),
+      entries("miniSgaSection", "Comprehensive Learning"),
+      it("programsSection", "Social and Ethical Foundations"),
     ],
   },
   {

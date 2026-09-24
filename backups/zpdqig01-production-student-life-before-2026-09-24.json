@@ -1,0 +1,171 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-life-page",
+  "_rev": "FCO364qzHDm2jW4qFkb3iR",
+  "_system": {
+    "base": {
+      "id": "student-life-page",
+      "rev": "FCO364qzHDm2jW4qFkaoeU"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T10:34:40Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Student\nLife"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students enjoying student life",
+      "asset": {
+        "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students enjoying student life",
+      "asset": {
+        "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/student-life",
+  "sections": [
+    {
+      "_key": "beyondClassroomIntro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "student-life-beyond-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "student-life-beyond-intro-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Student life forms the essential foundation for personal and academic development. During this formative period, young people encounter diverse situations that prepare them for future challenges. They develop crucial skills in respect and self-discipline while building relationships with peers and educators."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "A Foundation for Growth and Development"
+      },
+      "slot": "beyondClassroomIntro"
+    },
+    {
+      "_key": "sgaSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "e005c052a9bc",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "8b13229c6e61",
+                "_type": "span",
+                "marks": [],
+                "text": "School life represents a joyful time when students can explore, form friendships, acquire skills, and embrace experiences without the weight of adult responsibilities."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cf662aa75d04",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3ddc1d1b42e3",
+                "_type": "span",
+                "marks": [],
+                "text": "Within the school environment, students learn the importance of punctuality, adherence to rules, and fulfillment of responsibilities while gaining knowledge and developing new capabilities."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Character Formation"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Student Government Association",
+        "asset": {
+          "_ref": "image-807d09df4f384fd2a07be02adbc02f6a4e34d2b3-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "sgaSection"
+    },
+    {
+      "_key": "studentCongressSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "student-life-congress-mission-label",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "student-life-congress-mission-label-span",
+                "_type": "span",
+                "marks": [],
+                "text": "The guidance received during student life transforms young people into well-rounded individuals. Teachers and parents provide direction, helping students distinguish between beneficial and detrimental choices."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "a5392ae73d33",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "db1fe7981620",
+                "_type": "span",
+                "marks": [],
+                "text": "This golden period of development is when children’s minds, comparable to clay are most receptive to positive molding and influence."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Guided Development"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student presenting to the Student Congress",
+        "asset": {
+          "_ref": "image-a73b0cb6da5b94c790650aa5f6bf160d06988e5e-1560x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "studentCongressSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore student life, programs, and extracurricular opportunities at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students enjoying student life",
+      "asset": {
+        "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student Life | SAIS - UAQ"
+  },
+  "title": "Student Life"
+}

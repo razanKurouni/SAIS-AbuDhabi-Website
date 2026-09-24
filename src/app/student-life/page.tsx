@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { AcademicsSupportProgramsSliderSection } from "@/components/sections/academics-support-programs-slider-section";
 import { ContactInfoSection } from "@/components/sections/contact-info-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
@@ -9,7 +8,6 @@ import { PageHero } from "@/components/sections/page-hero";
 import { getHomepage, getStudentLifePage } from "@/lib/sanity";
 import { resolveStudentSectionNavItems, studentSectionNavItems } from "@/lib/student-section-navigation";
 import type {
-  AcademicsSupportProgramsSection,
   ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   PortableTextBlock,
@@ -187,66 +185,6 @@ const fallbackMiniSgaSection: ContactInfoSectionData = {
   textColor: "#ffffff",
 };
 
-const fallbackSgaShowcaseSection: ImageTextSection = {
-  heading: {
-    title: "Student Government Association\n(SGA)",
-    description: [
-      paragraph(
-        "student-life-sga-showcase-1",
-        "Through the Student Government Association (SGA), student leaders take initiative in planning school-wide events, advocating for their peers, and promoting a strong sense of community. Our students proudly represent SAIS on open days in university, local and international competitions, leadership forums, and academic fairs, gaining valuable exposure to real-world experiences. Whether competing in debate tournaments, science expos, or athletic championships, or joining one of our many sports teams, students learn teamwork, resilience, and school pride."
-      ),
-      paragraph(
-        "student-life-sga-showcase-2",
-        "From celebrating cultural heritage during National Day festivities to showcasing talent in interschool competitions, student life thrives with purpose and pride."
-      ),
-    ],
-  },
-  image: {
-    url: "/sais-logo-lockup-solid.png",
-    alt: "SAIS - UAQ Student Government Association emblem",
-  },
-  imagePosition: "left",
-  backgroundColor: "#216B97",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
-};
-
-const fallbackMinistriesSlider: AcademicsSupportProgramsSection = {
-  heading: {
-    title: "SGA Ministries & Leadership Structure",
-    subtitle:
-      "The SGA operates through a dynamic structure of specialized ministries, each designed to address key areas of student life and leadership:",
-  },
-  cards: [
-    {
-      _key: "ministry-of-relations",
-      title: "Ministry\nof Relations",
-      description: "Building communication and collaboration.",
-    },
-    {
-      _key: "ministry-of-well-being",
-      title: "Ministry of\nWell-being",
-      description: "Supporting student wellness and care.",
-    },
-    {
-      _key: "ministry-of-finance",
-      title: "Ministry of\nFinance",
-      description: "Managing budgets and resources.",
-    },
-    {
-      _key: "ministry-of-activity",
-      title: "Ministry of\nActivity",
-      description: "Organizing engaging events, programs, and activities.",
-    },
-  ],
-  backgroundColor: "#ffffff",
-  titleColor: "#00A5B2",
-  cardTextColor: "#216B97",
-  cardIconColor: "#D97252",
-  cardBorderColor: "#216B97",
-  cardHoverBorderColor: "#D97252",
-};
-
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getStudentLifePage();
 
@@ -350,33 +288,13 @@ export default async function StudentLifePage() {
         preserveRichText
       />
 
-      <AcademicsSupportProgramsSliderSection
-        section={page?.ministriesSlider}
-        fallbackSection={fallbackMinistriesSlider}
-        className="support-slider-compact student-life-ministries"
-        visibleCounts={{ desktop: 4, tablet: 2, mobile: 1 }}
-        fallbackIconNames={["handshake", "heart", "calculator", "ruler", "megaphone", "celebration"]}
-      />
-
-      <EditorialSplitSection
-        id="student-life-sga-showcase"
-        title={fallbackSgaShowcaseSection.heading.title}
-        section={{
-          ...page?.sgaShowcaseSection,
-          heading: page?.sgaShowcaseSection?.heading ?? fallbackSgaShowcaseSection.heading,
-          imagePosition:
-            page?.sgaShowcaseSection?.imagePosition || fallbackSgaShowcaseSection.imagePosition,
-          backgroundColor:
-            page?.sgaShowcaseSection?.backgroundColor || fallbackSgaShowcaseSection.backgroundColor,
-          titleColor: page?.sgaShowcaseSection?.titleColor || fallbackSgaShowcaseSection.titleColor,
-          textColor: page?.sgaShowcaseSection?.textColor || fallbackSgaShowcaseSection.textColor,
-        }}
-        fallbackImage={fallbackSgaShowcaseSection.image || {}}
-        fallbackParagraphs={[]}
-        className="editorial-split-listed student-life-sga-showcase"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 36vw"
-        showTitle
-        preserveRichText
+      <ContactInfoSection
+        section={page?.miniSgaSection}
+        fallbackSection={fallbackMiniSgaSection}
+        className="student-life-sga-section student-life-mini-sga"
+        titleId="student-life-mini-sga-title"
+        ariaLabel="Comprehensive Learning"
+        flipped={false}
       />
 
       <EditorialSplitSection
@@ -394,15 +312,8 @@ export default async function StudentLifePage() {
         fallbackParagraphs={[]}
         className="editorial-split-listed student-life-programs"
         imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
+        showTitle
         preserveRichText
-      />
-
-      <ContactInfoSection
-        section={page?.miniSgaSection}
-        fallbackSection={fallbackMiniSgaSection}
-        className="student-life-sga-section student-life-mini-sga"
-        titleId="student-life-mini-sga-title"
-        ariaLabel="Mini Student Government Association"
       />
 
       <TourIntroSection  section={data?.tour} />

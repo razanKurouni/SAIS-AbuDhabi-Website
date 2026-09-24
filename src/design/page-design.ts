@@ -1261,30 +1261,16 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "miniSgaSection": {
       "imagePosition": "center",
-      "panelColor": "#00A5B2",
+      "panelColor": "#6F7175",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
-      "waveColor": "#1E6F9B"
-    },
-    "ministriesSlider": {
-      "backgroundColor": "#ffffff",
-      "cardBorderColor": "#216B97",
-      "cardHoverBorderColor": "#D97252",
-      "cardIconColor": "#D97252",
-      "cardTextColor": "#216B97",
-      "titleColor": "#00A5B2"
+      "waveColor": "#00A5B2"
     },
     "programsSection": {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#f2f2f2",
       "imagePosition": "right",
       "textColor": "#666B70",
-      "titleColor": "#00A5B2"
-    },
-    "sgaShowcaseSection": {
-      "backgroundColor": "#216B97",
-      "imagePosition": "left",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+      "titleColor": "#216B97"
     },
     "studentCongressSection": {
       "backgroundColor": "#F2F2F2",
