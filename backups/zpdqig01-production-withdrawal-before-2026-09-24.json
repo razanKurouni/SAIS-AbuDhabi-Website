@@ -1,0 +1,113 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "admissions-withdrawal-page",
+  "_rev": "FCO364qzHDm2jW4qFjUfns",
+  "_system": {
+    "base": {
+      "id": "admissions-withdrawal-page",
+      "rev": "hGTjvdKxmFqhtnAxpX2cew"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T08:07:02Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Student Withdrawal\nProcess"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/admissions/withdrawal",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "imageTextSection",
+      "body": [
+        {
+          "_key": "withdrawal-step-1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "withdrawal-step-1-span",
+              "_type": "span",
+              "marks": [],
+              "text": "Our Registration and Accounts teams will review any outstanding or prepaid tuition and transportation fees and provide you with a detailed statement outlining any amounts due or refundable."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "f28abf58629e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "68a44ad85375",
+              "_type": "span",
+              "marks": [],
+              "text": "At SAIS UAQ, your child’s success and well-being are our top priorities. Should you be considering a transfer due to concerns about academic progress or welfare, please first contact your child’s Section Coordinator. They will collaborate with you to address any issues and explore possible solutions."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b120a04def4f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9f6dede4f06a",
+              "_type": "span",
+              "marks": [],
+              "text": "If you wish to follow up with the withdrawal, please submit a written withdrawal notice to the Admissions Office, be sure to include your child’s full name, grade level, and last day of attendance. To be eligible for any refund, this notice must arrive at least one full month (30 days) in advance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Should your circumstances require relocation or should you decide to transfer your child to another educational institution, please contact the Registration Department T: +971 6 766 5533 for assistance with the withdrawal process."
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student studying in the classroom",
+        "asset": {
+          "_ref": "image-bdb62eb64c5d54f12a34d030b69f2f64753be58f-1562x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "intro"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about the student withdrawal process at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student Withdrawal Process | SAIS - UAQ"
+  },
+  "title": "Withdrawal"
+}

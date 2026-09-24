@@ -1,11 +1,9 @@
-import Image from "next/image";
 import type { Metadata } from "next";
-import type { CSSProperties } from "react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { Reveal } from "@/components/ui/reveal";
-import { RichText } from "@/components/ui/rich-text";
 import { getAdmissionsWithdrawalPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
@@ -13,6 +11,20 @@ const fallbackMetadata: Metadata = {
   title: "Student Withdrawal Process | SAIS - UAQ",
   description: "Learn about the student withdrawal process at SAIS - UAQ.",
 };
+
+/** Wraps any phone number in the lead sentence so it can take the accent colour. */
+function highlightPhone(text: string) {
+  const parts = text.split(/(\+?\d[\d ]{6,}\d)/);
+  return parts.map((part, index) =>
+    /^\+?\d[\d ]{6,}\d$/.test(part) ? (
+      <span key={index} className="admissions-withdrawal-page__phone">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  );
+}
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getAdmissionsWithdrawalPage();
@@ -70,40 +82,24 @@ export default async function AdmissionsWithdrawalPage() {
       />
 
       {intro ? (
-        <section id="withdrawal-policy" className="about-intro-section admissions-withdrawal-policy" aria-labelledby="withdrawal-intro-title">
-          <div className="about-intro-section__inner">
-            <Reveal threshold={0.16}>
-              <h2 id="withdrawal-intro-title" className="about-intro-section__lead">
-                {intro.heading?.title}
+        <section id="withdrawal-policy" className="admissions-withdrawal-policy" aria-labelledby="withdrawal-intro-title">
+          {intro.heading?.title ? (
+            <Reveal threshold={0.16} className="admissions-withdrawal-policy__lead-wrap">
+              <h2 id="withdrawal-intro-title" className="about-intro-section__lead admissions-withdrawal-policy__lead">
+                {highlightPhone(intro.heading.title)}
               </h2>
             </Reveal>
+          ) : null}
 
-            <div className="about-intro-section__content">
-              <Reveal
-                className="about-intro-section__media"
-                delay={120}
-                threshold={0.14}
-                style={{ "--about-intro-image-position": intro.imagePosition || "center" } as CSSProperties}
-              >
-                {intro.image?.url ? (
-                  <Image
-                    src={intro.image.url}
-                    alt={intro.image.alt || intro.policyTitle || "Student withdrawal process"}
-                    fill
-                    sizes="(max-width: 767px) 100vw, 40vw"
-                    className="about-intro-section__image"
-                  />
-                ) : null}
-              </Reveal>
-
-              <Reveal className="about-intro-section__body admissions-withdrawal-policy__body" delay={220} threshold={0.14}>
-                {intro.policyTitle ? (
-                  <h3 className="admissions-withdrawal-policy__title">{intro.policyTitle}</h3>
-                ) : null}
-                <RichText blocks={intro.body} className="admissions-withdrawal-policy__rich-text" />
-              </Reveal>
-            </div>
-          </div>
+          <EditorialSplitSection
+            id="withdrawal-policy-details"
+            title="Withdrawal process"
+            section={{ heading: { title: "", description: intro.body }, image: intro.image, imagePosition: "left" }}
+            fallbackImage={{}}
+            fallbackParagraphs={[]}
+            className="academics-steam-section admissions-withdrawal-policy__split"
+            preserveRichText
+          />
         </section>
       ) : null}
     </SitePageShell>
