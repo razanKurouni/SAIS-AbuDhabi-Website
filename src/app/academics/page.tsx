@@ -390,6 +390,18 @@ const fallbackAssessmentProtocolSection: AcademicsKindergartenAssessmentSectionD
   cardHoverBorderColor: "#df7150",
 };
 
+const fallbackTestingExcellenceSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#6F7175",
+  waveColor: "#D97252",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
+};
+
 const fallbackCareerGuidanceSection: Required<AcademicsKindergartenFeatureSection> = {
   heading: { title: "" },
   image: {},
@@ -529,6 +541,14 @@ export default async function AcademicsPage() {
           preserveRichText
         />
       ) : null}
+
+      <AcademicsElementaryAssessmentSection
+        section={academicsPage?.testingExcellenceSection}
+        fallbackSection={fallbackTestingExcellenceSection}
+        className="academics-testing-excellence-section academics-middle-school-tailored-section"
+        imageSide="right"
+        titleId="academics-testing-excellence-title"
+      />
 
       <AcademicsTeachingCommitmentsSection
         section={academicsPage?.teachingCommitmentsSection}

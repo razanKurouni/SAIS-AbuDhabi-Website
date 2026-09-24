@@ -526,6 +526,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "textColor": "#707278",
       "theme": "light"
+    },
+    "testingExcellenceSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#6F7175",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     }
   },
   "admissions-application-page": {
