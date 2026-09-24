@@ -1,0 +1,340 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "academics-middle-school-page",
+  "_rev": "FCO364qzHDm2jW4qFiMdcX",
+  "_system": {
+    "base": {
+      "id": "academics-middle-school-page",
+      "rev": "FCO364qzHDm2jW4qFiMUV7"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T06:54:41Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "eyebrow": "Academics",
+      "title": "Middle School"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ middle school students reading together",
+      "asset": {
+        "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ middle school students reading together",
+      "asset": {
+        "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/academics/middle-school",
+  "sections": [
+    {
+      "_key": "overviewSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "middle-school-overview",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "middle-school-overview-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Our Middle School program supports students through the important transition toward High School education. Middle School students experience a subject-based learning environment that encourages academic growth, independence, critical thinking, and personal responsibility."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "bf3449466d72",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fba2fd0e38a8",
+                "_type": "span",
+                "marks": [],
+                "text": "The learning environment is designed to meet the developmental needs of middle school learners while providing a safe, supportive, and engaging atmosphere. Through a balanced academic program, dedicated teachers, and a strong sense of community, students are encouraged to build confidence, develop their skills, and prepare successfully for high school and beyond."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Stepping Into Specialised Learning"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school students reading in the library",
+        "asset": {
+          "_ref": "image-c5e1ce15376fb8084e677ac5c3dfc0e7bdec608a-1556x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "overviewSection"
+    },
+    {
+      "_key": "tailoredInstructionSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "middle-school-tailored-instruction",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "middle-school-tailored-instruction-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Transitions are carefully considered in the design of teaching and learning approaches. Teachers utilize a variety of instructional strategies tailored to students’ developmental stages and subject areas, fostering independence, critical thinking, creativity, and collaboration."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "48fcf75c78f3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1ce2353c7ae6",
+                "_type": "span",
+                "marks": [],
+                "text": "The curriculum is structured to provide a balanced blend of academic rigor, inquiry-based learning, and opportunities for exploration and self-discovery, ensuring that students thrive academically, socially, and emotionally throughout their educational journey."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Tailored Instruction  for Every Stage of Learning"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school student playing keyboard during music class",
+        "asset": {
+          "_ref": "image-c31d0ff5a86f90bbd7bbd12237cd17aa2f02c759-1939x1670-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "tailoredInstructionSection"
+    },
+    {
+      "_key": "curriculumLifeSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "middle-school-curriculum-life-activities",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "middle-school-curriculum-life-activities-span",
+                "_type": "span",
+                "marks": [],
+                "text": "The Middle School curriculums designed to deepen students’ subject knowledge while continuing to develop critical thinking, creativity, communication, and independent learning skills."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "57df5b543387",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "89b609033dc6",
+                "_type": "span",
+                "marks": [],
+                "text": "Students engage in a balanced academic program that includes core subjects, specialist instruction, electives, and enrichment opportunities that support both academic and personal growth."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "The Curriculum"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students participating in class",
+        "asset": {
+          "_ref": "image-29bb523a8488a47b0022cdadd88b779954be4c41-1560x1268-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "curriculumLifeSection"
+    },
+    {
+      "_key": "assessmentSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "middle-school-assessment",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "middle-school-assessment-span",
+                "_type": "span",
+                "marks": [],
+                "text": "In Middle School, assessment becomes more structured while continuing to focus on student development and continuous improvement. Students are assessed through quizzes, unit tests, formative assessments, projects, performance tasks, presentations, classwork, and project-based assessments."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "53cbe4282324",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c1e24c2f06e5",
+                "_type": "span",
+                "marks": [],
+                "text": "Assessment practices are designed to measure students’ understanding, application of knowledge, analytical thinking, and ability to communicate their learning effectively. Teachers use assessment data to identify students’ strengths, address learning gaps, and provide targeted support when needed."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Assessment"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school students reviewing a book together",
+        "asset": {
+          "_ref": "image-d71d767deec0034ca19743ede2771a60b908154e-2602x1826-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "assessmentSection"
+    },
+    {
+      "_key": "supportProgramsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "students-of-determination",
+          "_type": "card",
+          "description": "Students with special educational needs and/or disabilities (SEND/SOD) are supported through individualized education plans (IEPs), push-in/pull-out support services, and tailored curriculum, instruction, and assessments.",
+          "icon": {
+            "_type": "image",
+            "alt": "Students of Determination",
+            "asset": {
+              "_ref": "image-50104dadb4f2b4de26be20716e95b37a8f56689d-337x343-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "determination",
+          "title": "Students of Determination"
+        },
+        {
+          "_key": "gifted-and-talented",
+          "_type": "card",
+          "description": "Students with identified gifts and/or talents are provided with enrichment and accelerated programs as comprehensively stated and elaborated on in their advanced learning plans (ALPs).",
+          "icon": {
+            "_type": "image",
+            "alt": "Gifted and Talented Students",
+            "asset": {
+              "_ref": "image-e42f72f3796c7fa2effc55595c6c26490279c506-300x343-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "gifted",
+          "title": "Gifted and Talented Students"
+        },
+        {
+          "_key": "eal-learners",
+          "_type": "card",
+          "description": "Students with additional English language needs are identified through WIDA screener and supported with tiered interventions.",
+          "icon": {
+            "_type": "image",
+            "alt": "EAL Learners",
+            "asset": {
+              "_ref": "image-69c5c3934b703ef9801f54003cb4c5327d86549c-311x343-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "eal",
+          "title": "EAL Learners"
+        },
+        {
+          "_key": "academic-counseling",
+          "_type": "card",
+          "description": "Students in all phases are provided with integrated support through counseling, pastoral care, and academic planning.",
+          "icon": {
+            "_type": "image",
+            "alt": "Academic Counseling",
+            "asset": {
+              "_ref": "image-880598a4eba8c21059c0c18bfef2ea3a82c8f8c9-287x333-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "counseling",
+          "title": "Academic Counseling"
+        },
+        {
+          "_key": "differentiation",
+          "_type": "card",
+          "description": "Internal and external assessment data as well as observational feedback are used to design targeted interventions and personalized instruction.",
+          "icon": {
+            "_type": "image",
+            "alt": "Differentiation",
+            "asset": {
+              "_ref": "image-85df85bd95ed50d5d7a2282f3ebf8c60508601ac-328x333-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "differentiation",
+          "title": "Differentiation"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Inclusion & Support Programs"
+      },
+      "slot": "supportProgramsSection"
+    },
+    {
+      "_key": "learningPhasesElementaryImage",
+      "_type": "imageTextSection",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ elementary students participating in a music class",
+        "asset": {
+          "_ref": "image-c7112cfd643cf15116aeb613818c181576f05b27-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "learningPhasesElementaryImage"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Middle School academics at Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ middle school students reading together",
+      "asset": {
+        "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Middle School | Academics | SAIS - UAQ"
+  },
+  "title": "Middle School"
+}

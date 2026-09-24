@@ -479,6 +479,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "academics-middle-school-page/assessmentDetailSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "academics-middle-school-page/assessmentSection": {
     "section": [
       "heading",
@@ -493,43 +505,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "entry": []
   },
   "academics-middle-school-page/curriculumLifeSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-middle-school-page/curriculumOverviewSection": {
-    "section": [
-      "heading"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-middle-school-page/curriculumOverviewSection.firstBlock": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-middle-school-page/curriculumOverviewSection.secondBlock": {
     "section": [
       "heading",
       "image"

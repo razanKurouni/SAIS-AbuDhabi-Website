@@ -767,6 +767,7 @@ export type AcademicsMiddleSchoolPageData = {
   curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
   curriculumLifeSection?: ImageTextSection;
   assessmentSection?: ContactInfoSection;
+  assessmentDetailSection?: ImageTextSection;
   supportProgramsSection?: AcademicsSupportProgramsSection;
   learningPhasesElementaryImage?: SanityImage;
 };

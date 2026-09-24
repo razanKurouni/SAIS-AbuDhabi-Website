@@ -182,6 +182,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("curriculumOverviewSection.secondBlock", "Curriculum Overview – Block 2"),
       it("curriculumLifeSection", "Curriculum Life"),
       entries("assessmentSection", "Assessment"),
+      it("assessmentDetailSection", "Assessment – Details"),
       cards("supportProgramsSection", "Support Programs"),
       { slot: "learningPhasesElementaryImage", kind: "image", label: "Learning Phases – Elementary Image" },
     ],

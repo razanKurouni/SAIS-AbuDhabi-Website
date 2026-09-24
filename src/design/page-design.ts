@@ -343,6 +343,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "academics-middle-school-page": {
+    "assessmentDetailSection": {
+      "backgroundColor": "#f4f4f4",
+      "imagePosition": "left",
+      "textColor": "#707278",
+      "theme": "light"
+    },
     "assessmentSection": {
       "backgroundColor": "#ffffff",
       "imagePosition": "center",

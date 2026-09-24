@@ -359,6 +359,18 @@ export default async function AcademicsMiddleSchoolPage() {
         imagePosition={assessmentSection.imagePosition || fallbackAssessmentSection.imagePosition}
       />
 
+      {middleSchoolPage?.assessmentDetailSection ? (
+        <EditorialSplitSection
+          id="academics-middle-school-assessment-detail"
+          title="Assessment – Details"
+          section={middleSchoolPage.assessmentDetailSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-career-guidance-outreach-section"
+          preserveRichText
+        />
+      ) : null}
+
       <AcademicsSupportProgramsSliderSection
         section={supportProgramsSection}
         fallbackSection={fallbackSupportProgramsSection}

@@ -234,6 +234,7 @@ export function adaptMiddleSchool(page: CmsPage): AcademicsMiddleSchoolPageData 
       overview || first || second ? { heading: heading(overview), firstBlock: first, secondBlock: second } : undefined,
     curriculumLifeSection: imageText(s.get("curriculumLifeSection")),
     assessmentSection: contactInfo(s.get("assessmentSection")),
+    assessmentDetailSection: imageText(s.get("assessmentDetailSection")),
     supportProgramsSection: s.has("supportProgramsSection")
       ? { heading: heading(s.get("supportProgramsSection")), cards: iconCards(s.get("supportProgramsSection")) }
       : undefined,
