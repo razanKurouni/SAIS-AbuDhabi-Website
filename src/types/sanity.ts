@@ -681,6 +681,7 @@ export type AcademicsPageData = {
   steamSection?: ImageTextSection;
   careerGuidanceSection?: AcademicsKindergartenFeatureSection;
   careerGuidanceDetailSection?: AcademicsKindergartenFeatureSection;
+  careerGuidanceOutreachSection?: ImageTextSection;
   skillsSection?: AcademicsSkillsSection;
   curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
   teachingCommitmentsSection?: AcademicsTeachingCommitmentsSection;

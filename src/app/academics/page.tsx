@@ -496,6 +496,18 @@ export default async function AcademicsPage() {
         />
       ) : null}
 
+      {academicsPage?.careerGuidanceOutreachSection ? (
+        <EditorialSplitSection
+          id="academics-career-guidance-outreach"
+          title="Career and Guidance Counseling – Universities"
+          section={academicsPage.careerGuidanceOutreachSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-career-guidance-outreach-section"
+          preserveRichText
+        />
+      ) : null}
+
       <AcademicsSkillsSection
         section={academicsPage?.skillsSection}
         fallbackSection={fallbackSkillsSection}

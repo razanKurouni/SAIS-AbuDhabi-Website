@@ -16723,3 +16723,8 @@ a.school-policy-card__cover:hover {
     grid-column: auto;
   }
 }
+
+/* Academics: career guidance outreach (text left, rounded image right, light band) */
+.academics-career-guidance-outreach-section.editorial-split-section {
+  background: var(--editorial-split-bg, #f4f4f4);
+}

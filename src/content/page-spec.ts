@@ -131,6 +131,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("steamSection", "STEAM"),
       it("careerGuidanceSection", "Career and Guidance Counseling"),
       it("careerGuidanceDetailSection", "Career and Guidance Counseling – Details"),
+      it("careerGuidanceOutreachSection", "Career and Guidance Counseling – Universities"),
       cards("skillsSection", "Skills", { items: "groups" }),
       txt("curriculumOverviewSection", "Curriculum Overview"),
       it("curriculumOverviewSection.firstBlock", "Curriculum Overview – Block 1"),

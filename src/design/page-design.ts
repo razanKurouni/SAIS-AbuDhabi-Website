@@ -518,6 +518,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
       "waveColor": "#216B97"
+    },
+    "careerGuidanceOutreachSection": {
+      "backgroundColor": "#f4f4f4",
+      "imagePosition": "right",
+      "textColor": "#707278",
+      "theme": "light"
     }
   },
   "admissions-application-page": {

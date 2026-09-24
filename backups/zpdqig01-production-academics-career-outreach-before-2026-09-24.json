@@ -1,0 +1,679 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "academics-page",
+  "_rev": "hGTjvdKxmFqhtnAxpWfKfs",
+  "_system": {
+    "base": {
+      "id": "academics-page",
+      "rev": "hGTjvdKxmFqhtnAxpWe2Mq"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T05:19:08Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Academics  at SAIS - UAQ"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students standing ",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students standing ",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/academics",
+  "sections": [
+    {
+      "_key": "curriculumSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "curriculum-overview",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "curriculum-overview-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Our academic program is built upon a structured daily schedule that fosters active, student-centered learning and critical thinking, supported by differentiated instruction tailored to diverse needs."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "82a81d1e66d2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fe9e6a57fd79",
+                "_type": "span",
+                "marks": [],
+                "text": "Our well-resourced library serves as a hub for research and literacy development, while hands-on STEM initiatives encourage innovation and problem-solving. Through our inclusive education framework, every learner receives the support necessary to thrive within the rigor of the American curriculum from kindergarten through grade 12."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Teaching and Learning "
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students learning with a microscope",
+        "asset": {
+          "_ref": "image-9c87593335ec4fb7f8cc9cffc8bcbffd6c53a7ee-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "curriculumSection"
+    },
+    {
+      "_key": "cultureSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "culture-requirements",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "culture-requirements-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Comprehensive career guidance and counseling services help students chart their academic and professional pathways, and our Acceptable Use and Devices policies ensure responsible, safe integration of technology in the classroom."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5277d1fa5296",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "bd131f50c5f5",
+                "_type": "span",
+                "marks": [],
+                "text": "Regular assessments including MAP, CAT4, and other benchmark tests, provide actionable insights into student progress, informing personalized instruction and upholding our commitment to academic excellence."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Guiding Every Step  of the Student Journey"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students connecting with Emirati culture",
+        "asset": {
+          "_ref": "image-e819c8583ff02d94c97bded09bd58a1e2b8848f8-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "cultureSection"
+    },
+    {
+      "_key": "steamSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "steam-integration",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "steam-integration-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Each member in our highly qualified teaching staff holds advanced degrees, nationally or internationally recognized certifications, and extensive classroom experience. We invest continuously in their growth through a robust professional development program comprising subject-area workshops, instructional coaching, technology integration training, collaborative learning communities, data-driven seminars, accreditation workshops, and peer-observation cycles; so that every educator remains at the forefront of best practices in pedagogy, curriculum design, and student support."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fb5da4f2f9d8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "5fbcab98a760",
+                "_type": "span",
+                "marks": [],
+                "text": "This sustained commitment to ongoing professional learning ensures that every classroom is led by a teacher prepared to meet the diverse needs of our students and maintain the highest standards of excellence."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "STEAM Integration"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student completing classwork",
+        "asset": {
+          "_ref": "image-a9a457fd62244296ae8bc0338282ae2d5849abed-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "steamSection"
+    },
+    {
+      "_key": "careerGuidanceSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "cgc-p1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cgc-p1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We believe that guiding students through their academic and career journeys is essential for their long-term success. Our dedicated Career and Guidance Counselor provides a comprehensive support program that focuses on students' academic, personal, and post-secondary development."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Career and Guidance Counseling"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students playing maracas in music class",
+        "asset": {
+          "_ref": "image-053e8b90a90223832bea9e42db02e401e3195d8b-2000x1393-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "careerGuidanceSection"
+    },
+    {
+      "_key": "careerGuidanceDetailSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "cgd-p1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cgd-p1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We provide regular sessions with both students and parents, ensuring transparency and support at every stage of the journey. Our counselor also assists students in registering and preparing for college entrance exams such as the SAT and helps coordinate Advanced Placement (AP) enrollment for eligible students."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cgd-p2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cgd-p2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "When it comes to university applications, the counselor takes a hands-on role supporting students in crafting personal statements, selecting appropriate universities, writing compelling college essays, and meeting all application deadlines. We also provide official recommendation letters that reflect each student's strengths and character."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students laughing together at lunch",
+        "asset": {
+          "_ref": "image-bf93e1ceb029bc4812e1a88d8d3aadf30310c5e2-1554x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "careerGuidanceDetailSection"
+    },
+    {
+      "_key": "skillsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "key-skills",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "critical-thinking",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Critical and creative thinking icon",
+                "asset": {
+                  "_ref": "image-c56fb7068a72d4c1236484f0ab5ec06b5c4a9beb-142x164-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "critical",
+              "label": "Critical and\nCreative Thinking"
+            },
+            {
+              "_key": "communication",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Communication and collaboration icon",
+                "asset": {
+                  "_ref": "image-2f0e5414f491c8783201aaf8fed841404c9bc833-155x155-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "communication",
+              "label": "Communication and Collaboration"
+            },
+            {
+              "_key": "organization",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Organization and self-management icon",
+                "asset": {
+                  "_ref": "image-d934d9741467a9788a83c29794596b794cd4a4f6-184x160-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "organization",
+              "label": "Organization and\nSelf-Management"
+            },
+            {
+              "_key": "research",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Research and problem-solving icon",
+                "asset": {
+                  "_ref": "image-20d4504d79381efcd54dcd0eecffcfd93ca555c8-159x159-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "research",
+              "label": "Research and\nProblem-Solving"
+            }
+          ],
+          "title": "Key Skills"
+        },
+        {
+          "_key": "dispositions",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "resilience",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Resilience and adaptability icon",
+                "asset": {
+                  "_ref": "image-cfc627563d14e72df706ad39660043f40f6162f3-170x167-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "resilience",
+              "label": "Resilience\nand Adaptability"
+            },
+            {
+              "_key": "empathy",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Empathy icon",
+                "asset": {
+                  "_ref": "image-b1f3f88192092de1d76eca36a2a153d1902dba62-144x161-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "empathy",
+              "label": "Empathy"
+            },
+            {
+              "_key": "curiosity",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Curiosity icon",
+                "asset": {
+                  "_ref": "image-71d686e106d9747837e173e72ea36516f3aca419-144x164-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "curiosity",
+              "label": "Curiosity"
+            },
+            {
+              "_key": "growth",
+              "_type": "entry",
+              "icon": {
+                "_type": "image",
+                "alt": "Growth mindset icon",
+                "asset": {
+                  "_ref": "image-eb59d98f4699eb9a08c435393cb802f63274703a-243x311-png",
+                  "_type": "reference"
+                }
+              },
+              "iconType": "growth",
+              "label": "Growth Mindset"
+            }
+          ],
+          "title": "Dispositions"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "skills-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "skills-intro-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Our holistic approach nurtures each student’s intellectual, emotional, and social growth through programs that build leadership, resilience, empathy, and intercultural understanding. Whether preparing students for university admissions, careers in innovation, or civic engagement, the SAIS curriculum ensures they graduate as confident, well-rounded individuals ready to thrive in the 21st century.\n"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Skills and Dispositions"
+      },
+      "slot": "skillsSection"
+    },
+    {
+      "_key": "curriculumOverviewSection-firstBlock",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "overview-curriculum-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "overview-curriculum-1-span",
+                "_type": "span",
+                "marks": [],
+                "text": "We believe that exceptional education is built upon meaningful learning experiences that inspire students to think deeply, grow confidently, and engage purposefully with the world around them. Our curriculum is designed to be dynamic, student-centered, and future-focused, ensuring that every learner is challenged academically while also supported socially and emotionally. Through active learning, inquiry-based instruction, and authentic real-world connections, students develop the key skills necessary for lifelong success, including critical and creative thinking, communication and collaboration, and organization and self-management. We encourage students to become independent learners who can analyze, innovate, communicate effectively, and take ownership of their learning while building the confidence to navigate challenges and opportunities in an ever-changing global society."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Our Curriculum"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students working in a science lab",
+        "asset": {
+          "_ref": "image-2a99ca57c9513a53fae46d8549c87a933b711d98-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "curriculumOverviewSection.firstBlock"
+    },
+    {
+      "_key": "curriculumOverviewSection-secondBlock",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "overview-curriculum-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "overview-curriculum-3-span",
+                "_type": "span",
+                "text": "……………….."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Curriculum at SAIS - UAQ"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students learning with a microscope",
+        "asset": {
+          "_ref": "image-9fa1fbad22a23faa2e98ba4f6c41a89ede97ada6-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "curriculumOverviewSection.secondBlock"
+    },
+    {
+      "_key": "teachingCommitmentsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "high-expectations",
+          "_type": "card",
+          "description": "Maintain high expectations for every student",
+          "icon": {
+            "_type": "image",
+            "alt": "High Expectations",
+            "asset": {
+              "_ref": "image-47172bf53a84a7451270e5ce960823a12299336a-327x379-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "expectations",
+          "title": "High Expectations"
+        },
+        {
+          "_key": "engagement",
+          "_type": "card",
+          "description": "Understand that meaningful learning occurs when students engage in critical thinking",
+          "icon": {
+            "_type": "image",
+            "alt": "Engagement",
+            "asset": {
+              "_ref": "image-1bccc53d9782a7143436fd90f09faae24a1f2ee0-388x388-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "engagement",
+          "title": "Engagement"
+        },
+        {
+          "_key": "achievement",
+          "_type": "card",
+          "description": "Emphasize the importance of effort and persistence in achievement",
+          "icon": {
+            "_type": "image",
+            "alt": "Achievement",
+            "asset": {
+              "_ref": "image-3ac0a961f47044f12722e388e72f124ee78c492b-301x388-png",
+              "_type": "reference"
+            }
+          },
+          "iconType": "achievement",
+          "title": "Achievement"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Our Teaching Commitments"
+      },
+      "slot": "teachingCommitmentsSection"
+    },
+    {
+      "_key": "learningSliderSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "cat4-assessment",
+          "_type": "card",
+          "description": "The Cognitive Abilities Test (CAT4) helps us understand how students learn and their academic potential. Students in Grades 3-9 take this assessment upon enrollment to identify their learning styles, enabling teachers to:\n\n•\tAdapt teaching approaches and materials\n•\tAdjust instructional pace and emphasis\n•\tImplement differentiated instruction\n\nCAT4 measures four types of reasoning:\n\n•\tVerbal Reasoning - Understanding and reasoning through words\n•\tQuantitative Reasoning - Using numerical skills for problem-solving\n•\tNon-verbal Reasoning - Problem-solving using visual information\n•\tSpatial Ability - Thinking and drawing conclusions in three dimensions",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ student during CAT4 assessment",
+            "asset": {
+              "_ref": "image-5ba3229bbfd848b805c924e31810266dae18b466-1528x1312-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "CAT4 Assessment"
+        },
+        {
+          "_key": "nwea-map-testing",
+          "_type": "card",
+          "description": "Students in Grades 3-9 participate in MAP testing three times throughout the academic year. These computer-adaptive assessments:\n\n•\tProduce accurate data about each student’s learning level\n•\tIdentify areas of strength and opportunity\n•\tMeasure overall performance in core subjects",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ students participating in MAP testing",
+            "asset": {
+              "_ref": "image-eca65b7df7b011b2efb1cb8b5b728f4ff302d4e0-1528x1312-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "NWEA MAP Testing"
+        },
+        {
+          "_key": "ibt-arabic-testing",
+          "_type": "card",
+          "description": "To benchmark Arabic language proficiency against international standards, our students participate in IBT Arabic examinations conducted by ACER. This assessment provides valuable comparative data on student performance relative to peers in the region and worldwide.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ students reading during Arabic testing",
+            "asset": {
+              "_ref": "image-6757e40617a49c6b4353a8c79dfab297e292c6b6-1528x1312-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "IBT Arabic Testing"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Understanding Student Learning"
+      },
+      "slot": "learningSliderSection"
+    },
+    {
+      "_key": "assessmentProtocolSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "formative-ongoing",
+          "_type": "card",
+          "description": "Maintain high expectations\nfor every student",
+          "icon": {
+            "_type": "image",
+            "alt": "Formative/OngoingAssessment",
+            "asset": {
+              "_ref": "image-bdec5dd062a0475b75410d92c39d37999e290a5c-196x167-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Formative/Ongoing\nAssessment"
+        },
+        {
+          "_key": "formative-quizzes",
+          "_type": "card",
+          "description": "Short-form assessments\nof understanding",
+          "icon": {
+            "_type": "image",
+            "alt": "Formative Quizzes",
+            "asset": {
+              "_ref": "image-3c3f829f8e74260b8dcd5895062afbe89a84eeaa-172x172-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Formative\nQuizzes"
+        },
+        {
+          "_key": "summative-assessment",
+          "_type": "card",
+          "description": "Quizzes, tests,\nexaminations",
+          "icon": {
+            "_type": "image",
+            "alt": "Summative Assessment",
+            "asset": {
+              "_ref": "image-4b3f6341b8fb3896a8ee92be46c6faa9b2a6446a-191x171-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Summative\nAssessment"
+        },
+        {
+          "_key": "external-assessment",
+          "_type": "card",
+          "description": "MAP, CAT4, PSAT, SAT,\nArabic IBT",
+          "icon": {
+            "_type": "image",
+            "alt": "External Assessment",
+            "asset": {
+              "_ref": "image-2e63f4dd49e94506a395360b472643c68c67b0a8-173x173-png",
+              "_type": "reference"
+            }
+          },
+          "title": "External\nAssessment"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "assessment-protocol-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "assessment-protocol-intro-span",
+                "_type": "span",
+                "text": "We implement four categories of assessment to comprehensively evaluate student progress:"
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Assessment Protocol"
+      },
+      "slot": "assessmentProtocolSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore academics at Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students standing ",
+      "asset": {
+        "_ref": "image-5b3cf96e171e7dfe02e2387d6b73593324313f03-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Academics | SAIS - UAQ"
+  },
+  "title": "Academics"
+}
