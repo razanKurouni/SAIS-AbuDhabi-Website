@@ -1,0 +1,205 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-programs-page",
+  "_rev": "LbAq1fSx0tXF42zpPPibBU",
+  "_system": {
+    "base": {
+      "id": "student-programs-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T10:39:50Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Achievements"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/achievements",
+  "sections": [
+    {
+      "_key": "excellenceIntro",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "achievements-intro-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-intro-1-span",
+                "_type": "span",
+                "text": "Excellence is more than a goal it is a continuous journey reflected in the accomplishments of our vibrant student body and dedicated staff. Our school takes pride in nurturing learners who excel in academics, sports, leadership, creativity, and innovation."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "achievements-intro-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-intro-2-span",
+                "_type": "span",
+                "text": "Throughout the academic year, our students have distinguished themselves in a wide array of local and national competitions, demonstrating critical thinking, communication, and collaborative skills. From mathematics challenges and reading contests to national-level innovation fairs and debate forums, our students consistently represent the school with pride and intellect."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Honoring Excellence in\nEvery Journey"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Honoring Excellence in Every Journey",
+        "asset": {
+          "_ref": "image-b7dbc3701fa87c6d09bec83b7da333f7f0530509-1556x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "excellenceIntro"
+    },
+    {
+      "_key": "highlightsSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "achievements-highlight-sports",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-highlight-sports-span",
+                "_type": "span",
+                "text": "In the sports arena, our teams have earned top rankings in inter-school tournaments, including a remarkable second place in the Canadian University Football Championship and active participation in the AUS Sharakah Sports Festival."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "achievements-highlight-chess",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-highlight-chess-span",
+                "_type": "span",
+                "text": "Our chess players have also made notable strides, participating in inter-school chess tournaments that celebrate strategic thinking and mental agility."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "achievements-highlight-culture",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-highlight-culture-span",
+                "_type": "span",
+                "text": "Beyond academics and sports, our students shine in cultural, creative, and leadership platforms, whether through SAIS TALKS, entrepreneurship expos, sustainability initiatives, or the widely celebrated “Made in UAE” innovation showcase."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Competitions and Platforms"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "sports",
+        "asset": {
+          "_ref": "image-84e5000b219a13ecde5f9eedb681b573724fd661-2530x1670-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "highlightsSection"
+    },
+    {
+      "_key": "communitySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "achievements-community-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-community-1-span",
+                "_type": "span",
+                "text": "The school also hosts vibrant community-building events, such as the annual Carnival, which brings together students, parents, and staff in a festive celebration of talent, culture, and creativity."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "achievements-community-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-community-2-span",
+                "_type": "span",
+                "text": "These achievements are a testament to the school's holistic approach to education where curiosity is encouraged, talents are nurtured, and every student is empowered to reach their fullest potential."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "achievements-community-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "achievements-community-3-span",
+                "_type": "span",
+                "text": "SAIS - UAQ remains committed to building a generation of confident, capable, and compassionate individuals prepared to lead and contribute meaningfully to the world."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "A Community That Celebrates Together"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "sports",
+        "asset": {
+          "_ref": "image-88e08b581ee38b3eec2fba10ce332b6ad55f6b03-1560x1268-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "communitySection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Student Programs in academics, sports, and leadership at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student Programs | SAIS - UAQ"
+  },
+  "title": "Student Programs"
+}

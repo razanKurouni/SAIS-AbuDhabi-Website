@@ -465,9 +465,8 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
   const s = bySlot(page);
   return {
     ...base(page),
-    excellenceIntro: imageText(s.get("excellenceIntro")),
+    excellenceIntro: textSection(s.get("excellenceIntro")),
     highlightsSection: imageText(s.get("highlightsSection")),
-    communitySection: imageText(s.get("communitySection")),
   };
 }
 

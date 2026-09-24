@@ -346,8 +346,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Achievements",
-        "href": "/achievements"
+        "label": "Student Programs",
+        "href": "/student-programs"
       },
       {
         "label": "Extra Curricular Activities",
@@ -369,8 +369,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Achievements",
-        "href": "/achievements"
+        "label": "Student Programs",
+        "href": "/student-programs"
       },
       {
         "label": "Extra Curricular Activities",
@@ -392,15 +392,15 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Achievements",
-        "href": "/achievements"
+        "label": "Student Programs",
+        "href": "/student-programs"
       },
       {
         "label": "Extra Curricular Activities",
         "href": "/extra-curricular-activities"
       }
     ],
-    "activeHref": "/achievements",
+    "activeHref": "/student-programs",
     "activeColor": "#216B97",
     "inactiveColor": "#d97252",
     "textColor": "#ffffff",

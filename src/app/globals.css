@@ -15012,19 +15012,8 @@ a.school-policy-card__cover:hover {
 }
 
 /* Achievements mirrors the approach panel: image on the left, copy on the right. */
-.achievements-highlights .approach-section__panel {
-  inset: 0 0 0 auto;
-  justify-content: flex-end;
-}
 
-.achievements-highlights .approach-section__shape {
-  transform: scaleX(-1);
-}
 
-/* The base layout pins the photo right, under a left-hand panel. */
-.achievements-highlights.approach-section {
-  background: #216b97;
-}
 
 /*
  * Review notes on this page: the highlights band ran edge to edge with no
@@ -15032,53 +15021,18 @@ a.school-policy-card__cover:hover {
  * grey section below, and the tour intro underneath opened on 20px. All three
  * take the 62px the intro and community sections on this page already use.
  */
-.achievements-highlights.approach-section {
-  margin-bottom: 0;
-  padding-top: 62px;
-  padding-bottom: 62px;
-}
 
 .student-programs-page .tour-intro {
   padding-top: 62px;
 }
 
-.achievements-highlights .approach-section__image {
-  width: 60% !important;
-  left: 0 !important;
-  right: auto !important;
-  margin-left: 0;
-}
 
-.achievements-highlights .approach-section__shape-fill {
-  fill: #216b97;
-}
 
-.achievements-highlights .approach-section__shape-accent {
-  stroke: #00a5b2;
-}
 
-.achievements-highlights .approach-section__content {
-  width: min(725px, 65%);
-  margin-left: 0;
-  margin-right: 12%;
-}
 
-.achievements-intro.editorial-split-section {
-  padding: clamp(46px, 5.4vw, 76px) 0 clamp(40px, 4.6vw, 62px);
-}
 
-.achievements-intro .editorial-split-section__title {
-  white-space: pre-line;
-}
 
-.achievements-intro .editorial-split-section__media,
-.achievements-community .editorial-split-section__media {
-  aspect-ratio: 1.08 / 1;
-}
 
-.achievements-community.editorial-split-section {
-  padding: clamp(46px, 5.4vw, 76px) 0 clamp(46px, 5.4vw, 76px);
-}
 
 .extra-curricular-activities-intro.academics-ap-benefits {
   padding: clamp(40px, 5vw, 64px) 0 clamp(34px, 4vw, 52px);
@@ -15194,25 +15148,6 @@ a.school-policy-card__cover:hover {
   .student-life-overview__body {
     font-size: 0.96rem;
     line-height: 1.5;
-  }
-  .achievements-highlights .approach-section__image{
-        width: 100% !important;
-
-  }
-  #achievements-highlights{
-    padding-top: 0;
-    padding-bottom: 40px;
-  }
-  #achievements-highlights.approach-section--home .approach-section__curve-mask{
-            fill: var(--sais-primary);
-  }
-  #achievements-highlights.achievements-highlights .approach-section__panel{
-        justify-content: start;
-  }
-  .achievements-highlights .approach-section__content{
-    width: 100% !important;
-    margin-right: 0 !important;
-    padding-bottom: 0 !important;
   }
  
 
@@ -16687,7 +16622,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.academics-kg-assessment-feature .intro-feature__wave,
   .intro-feature.academics-career-guidance-detail-section .intro-feature__wave,
   .intro-feature.admissions-tour-experience .intro-feature__wave,
-  .intro-feature.admissions-application-process .intro-feature__wave {
+  .intro-feature.admissions-application-process .intro-feature__wave,
+  .intro-feature.student-programs-leadership .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16695,7 +16631,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.academics-kg-assessment-feature .intro-feature__curve-mask,
   .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask,
   .intro-feature.admissions-tour-experience .intro-feature__curve-mask,
-  .intro-feature.admissions-application-process .intro-feature__curve-mask {
+  .intro-feature.admissions-application-process .intro-feature__curve-mask,
+  .intro-feature.student-programs-leadership .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -16883,4 +16820,30 @@ a.school-policy-card__cover:hover {
 
 .application-step__body li + li {
   margin-top: 4px;
+}
+
+/* Student Programs: centred intro, then the leadership panel with the image card on the right */
+.student-programs-page .intro-feature.student-programs-leadership {
+  background: #ffffff;
+  padding-top: clamp(20px, 2.4vw, 34px);
+  padding-bottom: 62px;
+}
+
+.student-programs-page .student-programs-leadership .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+}
+.student-programs-intro.student-life-overview {
+  padding: clamp(46px, 5.6vw, 66px) 0 clamp(34px, 4vw, 52px);
+}
+
+.student-programs-intro .student-life-overview__title {
+  white-space: pre-line;
+}
+
+
+
+
+@media (max-width: 767px) {
 }

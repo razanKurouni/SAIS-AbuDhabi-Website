@@ -395,10 +395,10 @@ export const PAGE_SPECS: PageSpec[] = [
   },
   {
     id: "student-programs-page",
-    route: "/achievements",
-    title: "Achievements",
+    route: "/student-programs",
+    title: "Student Programs",
     group: "Student Life",
-    slots: [it("excellenceIntro", "Excellence"), it("highlightsSection", "Highlights"), it("communitySection", "Community")],
+    slots: [txt("excellenceIntro", "Introduction"), it("highlightsSection", "Student Leadership Program")],
   },
   {
     id: "extra-curricular-activities-page",

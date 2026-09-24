@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   devIndicators: false,
   async redirects() {
     return [
-      // the page was Student Programs before it became Achievements
-      { source: "/student-programs", destination: "/achievements", permanent: true },
+      // the page was Achievements for a while; old links still land on Student Programs
+      { source: "/achievements", destination: "/student-programs", permanent: true },
     ];
   },
   turbopack: {

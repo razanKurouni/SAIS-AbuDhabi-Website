@@ -1280,16 +1280,15 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "student-programs-page": {
-    "communitySection": {
-      "backgroundColor": "#F2F2F2",
-      "imagePosition": "right",
-      "textColor": "#666B70"
-    },
     "excellenceIntro": {
       "backgroundColor": "#ffffff",
-      "imagePosition": "right",
-      "textColor": "#666B70",
-      "titleColor": "#216B97"
+      "textColor": "#216B97",
+      "titleColor": "#00A5B2"
+    },
+    "highlightsSection": {
+      "backgroundColor": "#27779D",
+      "textColor": "#ffffff",
+      "titleColor": "#5FC1C7"
     },
     "hero": {
       "imagePosition": "center",
