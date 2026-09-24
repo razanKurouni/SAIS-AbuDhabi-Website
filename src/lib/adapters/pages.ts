@@ -471,6 +471,16 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
     potentialSlider: s.has("potentialSlider")
       ? { heading: heading(s.get("potentialSlider")), slides: learningSlides(s.get("potentialSlider")) }
       : undefined,
+    sgaSection: imageText(s.get("sgaSection")),
+    sgaRoles:
+      s.has("sgaRoles") || s.has("sgaRoles.rightColumn")
+        ? {
+            leftTitle: s.get("sgaRoles")?.heading?.title,
+            rightTitle: s.get("sgaRoles.rightColumn")?.heading?.title,
+            leftColumn: termsGroups(s.get("sgaRoles")),
+            rightColumn: termsGroups(s.get("sgaRoles.rightColumn")),
+          }
+        : undefined,
   };
 }
 

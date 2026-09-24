@@ -1295,6 +1295,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#216B97",
       "titleColor": "#00A5B2"
     },
+    "sgaSection": {
+      "backgroundColor": "#2FB5BC",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
+    },
     "potentialSlider": {
       "slides": [
         { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#2FB5BC", "textColor": "#ffffff" },

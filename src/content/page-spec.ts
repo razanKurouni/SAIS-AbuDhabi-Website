@@ -403,6 +403,9 @@ export const PAGE_SPECS: PageSpec[] = [
       it("highlightsSection", "Student Leadership Program"),
       txt("potentialIntro", "Potential – Introduction"),
       cards("potentialSlider", "Potential – Slides", { items: "slides" }),
+      it("sgaSection", "Student Government Association"),
+      cards("sgaRoles", "SGA – Key Roles", { items: "leftColumn" }),
+      cards("sgaRoles.rightColumn", "SGA – Student Ministers", { path: "sgaRoles", items: "rightColumn" }),
     ],
   },
   {

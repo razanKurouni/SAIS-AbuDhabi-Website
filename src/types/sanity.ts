@@ -649,6 +649,8 @@ export type StudentProgramsPageData = {
   highlightsSection?: ImageTextSection;
   potentialIntro?: { heading?: SectionHeading; backgroundColor?: string; titleColor?: string; textColor?: string };
   potentialSlider?: AcademicsLearningSliderSection;
+  sgaSection?: ImageTextSection;
+  sgaRoles?: AdmissionsFeeTermsSection & { leftTitle?: string; rightTitle?: string };
 };
 
 export type ExtraCurricularActivitiesPageData = {

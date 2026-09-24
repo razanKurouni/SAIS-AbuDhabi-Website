@@ -1,0 +1,212 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-programs-page",
+  "_rev": "FCO364qzHDm2jW4qFl2gzY",
+  "_system": {
+    "base": {
+      "id": "student-programs-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T11:22:16Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Student Programs"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/student-programs",
+  "sections": [
+    {
+      "_key": "excellenceIntro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our Student Programs are designed to enrich the educational experience beyond the classroom. Through a variety of opportunities, students are encouraged to develop their talents, discover new interests, build meaningful relationships, and become active contributors to the school community."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Inspiring Growth, Leadership, and\nStudent Engagement"
+      },
+      "slot": "excellenceIntro"
+    },
+    {
+      "_key": "highlightsSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-lead-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-lead-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our programs support the holistic development of students by fostering leadership, responsibility, collaboration, creativity, and personal growth. Whether participating in leadership initiatives, community engagement activities, student-led projects, or future enrichment opportunities, students gain valuable experiences that help prepare them for success in school and beyond."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "sp-lead-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-lead-2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We are committed to providing engaging and purposeful programs that empower students to grow as confident learners, responsible citizens, and future leaders in an ever-changing world."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Student Leadership Program"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student presenting the Student Government activities report to classmates",
+        "asset": {
+          "_ref": "image-70f5b97a924389ad382328ff7fb7acaecc2f18ba-1600x1375-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "highlightsSection"
+    },
+    {
+      "_key": "potentialIntro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-pot-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-pot-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "By embedding student leadership throughout our systems (from morning briefings to policy discussions) we foster an environment where young voices shape the campus experience and develop the confidence to lead beyond the classroom"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Helping Students to Discover\nand Maximize Their Potential"
+      },
+      "slot": "potentialIntro"
+    },
+    {
+      "_key": "potentialSlider",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "sp-slide-enrichment",
+          "_type": "card",
+          "description": "The school environment facilitates holistic learning beyond academics. Students develop proper manners, positive behaviors, discipline, and punctuality. With appropriate education and guidance, they mature into responsible adults prepared for real-world challenges.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ kindergarten students watching a puppet show",
+            "asset": {
+              "_ref": "image-63ae15a091cd99ee551a160e607e1b8c590e10f1-1528x1312-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Curricular Enrichment"
+        },
+        {
+          "_key": "sp-slide-events",
+          "_type": "card",
+          "description": "Leading cultural celebrations, health and wellness fairs, and sustainability campaigns.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ students in traditional dress at a cultural celebration",
+            "asset": {
+              "_ref": "image-1a6c89e056848ce6aefe52b5a28d996f26f22826-790x676-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Co-curricular Events"
+        },
+        {
+          "_key": "sp-slide-community",
+          "_type": "card",
+          "description": "Organizing service projects that connect students with local partners and foster civic responsibility.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ students planting a fig tree in the school garden",
+            "asset": {
+              "_ref": "image-75dda7736d576897445a2a723b2101666bebd855-790x676-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Community Engagement"
+        },
+        {
+          "_key": "sp-slide-culture",
+          "_type": "card",
+          "description": "Initiating spirit-building activities, clubs, and assemblies to strengthen school pride and inclusion.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ students playing maracas and a drum in music class",
+            "asset": {
+              "_ref": "image-d34f241192d0998d478d76e5db4bea0dc4fae6c9-790x676-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Campus Culture"
+        }
+      ],
+      "slot": "potentialSlider"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Student Programs in academics, sports, and leadership at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student Programs | SAIS - UAQ"
+  },
+  "title": "Student Programs"
+}

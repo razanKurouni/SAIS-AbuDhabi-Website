@@ -16623,7 +16623,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.academics-career-guidance-detail-section .intro-feature__wave,
   .intro-feature.admissions-tour-experience .intro-feature__wave,
   .intro-feature.admissions-application-process .intro-feature__wave,
-  .intro-feature.student-programs-leadership .intro-feature__wave {
+  .intro-feature.student-programs-leadership .intro-feature__wave,
+  .intro-feature.student-programs-sga__panel .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16632,7 +16633,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask,
   .intro-feature.admissions-tour-experience .intro-feature__curve-mask,
   .intro-feature.admissions-application-process .intro-feature__curve-mask,
-  .intro-feature.student-programs-leadership .intro-feature__curve-mask {
+  .intro-feature.student-programs-leadership .intro-feature__curve-mask,
+  .intro-feature.student-programs-sga__panel .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -16863,4 +16865,78 @@ a.school-policy-card__cover:hover {
   font-size: var(--sais-body-text-size);
   letter-spacing: var(--sais-body-text-letter-spacing);
   line-height: var(--sais-body-text-line-height);
+}
+
+/* Student Programs: SGA panel straddling the grey/blue edge, then the roles on the blue band */
+.student-programs-sga {
+  background: #216B97;
+}
+
+.student-programs-page .intro-feature.student-programs-sga__panel {
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 42%, #216B97 42%, #216B97 100%);
+  padding-top: clamp(40px, 4.6vw, 64px);
+  padding-bottom: 0;
+}
+
+.student-programs-page .student-programs-sga__panel .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+}
+
+.student-programs-sga__panel .intro-feature__description strong {
+  display: block;
+  margin-top: 22px;
+  color: #ffffff;
+  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+  font-weight: 600;
+}
+
+.student-programs-sga__panel .intro-feature__description p:has(> strong:only-child) + p {
+  margin-top: 6px;
+}
+
+.student-programs-sga__roles.admissions-fee-terms {
+  background: transparent;
+  padding: clamp(40px, 4.6vw, 64px) 0 clamp(46px, 5.2vw, 72px);
+}
+
+.student-programs-sga__roles .admissions-fee-terms__columns {
+  margin-top: 0;
+}
+
+.student-programs-sga__roles .admissions-fee-terms__column {
+  gap: clamp(22px, 2.4vw, 32px);
+}
+
+.admissions-fee-terms__column-title {
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-size: clamp(1.15rem, 1.5vw, 1.4rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.student-programs-sga__roles .admissions-fee-terms__group-title {
+  margin-bottom: 4px;
+  color: #ffffff;
+  font-size: var(--sais-body-text-size);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.student-programs-sga__roles .admissions-fee-terms__body,
+.student-programs-sga__roles .admissions-fee-terms__body p {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .student-programs-page .intro-feature.student-programs-sga__panel {
+    background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 30%, #216B97 30%, #216B97 100%);
+  }
+
+  .student-programs-sga__roles .admissions-fee-terms__columns {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
 }

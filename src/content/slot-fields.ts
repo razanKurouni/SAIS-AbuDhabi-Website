@@ -1760,6 +1760,49 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "student-programs-page/sgaRoles": {
+    "section": [
+      "cards",
+      "heading"
+    ],
+    "heading": [
+      "title"
+    ],
+    "card": [
+      "body",
+      "title"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
+  "student-programs-page/sgaRoles.rightColumn": {
+    "section": [
+      "cards",
+      "heading"
+    ],
+    "heading": [
+      "title"
+    ],
+    "card": [
+      "body",
+      "title"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
+  "student-programs-page/sgaSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "student-staff-wellbeing-page/commitment": {
     "section": [
       "heading",

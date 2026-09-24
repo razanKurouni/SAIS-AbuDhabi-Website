@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
+import { AdmissionsFeeTermsSection } from "@/components/sections/admissions-fee-terms-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -177,6 +178,28 @@ export default async function StudentProgramsPage() {
           fallbackSection={{ heading: { title: "" }, slides: [] }}
           className="student-programs-slider"
         />
+      ) : null}
+
+      {page?.sgaSection || page?.sgaRoles ? (
+        <div className="student-programs-sga">
+          {page.sgaSection ? (
+            <IntroFeatureSection
+              section={page.sgaSection}
+              fallbackSection={page.sgaSection}
+              className="student-programs-sga__panel"
+              titleId="student-programs-sga-title"
+              panelColor={page.sgaSection.backgroundColor || "#2FB5BC"}
+              accentColor="#D97252"
+              titleColor={page.sgaSection.titleColor || "#ffffff"}
+              textColor={page.sgaSection.textColor || "#ffffff"}
+              imagePosition={page.sgaSection.imagePosition || "center"}
+              imageSide="right"
+            />
+          ) : null}
+          {page.sgaRoles ? (
+            <AdmissionsFeeTermsSection section={page.sgaRoles} className="student-programs-sga__roles" columnsOnly />
+          ) : null}
+        </div>
       ) : null}
 
       <TourIntroSection section={data?.tour} />
