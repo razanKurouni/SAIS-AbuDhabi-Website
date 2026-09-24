@@ -685,6 +685,7 @@ export type AcademicsPageData = {
   skillsSection?: AcademicsSkillsSection;
   curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
   testingExcellenceSection?: AcademicsKindergartenFeatureSection;
+  stemProgramSection?: ImageTextSection;
   teachingCommitmentsSection?: AcademicsTeachingCommitmentsSection;
   learningSliderSection?: AcademicsLearningSliderSection;
   assessmentProtocolSection?: AcademicsKindergartenAssessmentSection;

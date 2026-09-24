@@ -137,6 +137,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("curriculumOverviewSection.firstBlock", "Curriculum Overview – Block 1"),
       it("curriculumOverviewSection.secondBlock", "Curriculum Overview – Block 2"),
       it("testingExcellenceSection", "Testing and Program Excellence"),
+      it("stemProgramSection", "Our STEM Program"),
       cards("teachingCommitmentsSection", "Teaching Commitments"),
       cards("learningSliderSection", "Learning Slider", { items: "slides" }),
       cards("assessmentProtocolSection", "Assessment Protocol"),

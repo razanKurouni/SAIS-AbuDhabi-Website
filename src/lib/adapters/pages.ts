@@ -180,6 +180,7 @@ export function adaptAcademics(page: CmsPage): AcademicsPageData {
     curriculumOverviewSection:
       overview || first || second ? { heading: heading(overview), firstBlock: first, secondBlock: second } : undefined,
     testingExcellenceSection: imageText(s.get("testingExcellenceSection")),
+    stemProgramSection: imageText(s.get("stemProgramSection")),
     teachingCommitmentsSection: s.has("teachingCommitmentsSection")
       ? { heading: heading(s.get("teachingCommitmentsSection")), cards: iconCards(s.get("teachingCommitmentsSection")) }
       : undefined,

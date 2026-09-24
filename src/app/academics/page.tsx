@@ -550,6 +550,19 @@ export default async function AcademicsPage() {
         titleId="academics-testing-excellence-title"
       />
 
+      {academicsPage?.stemProgramSection ? (
+        <EditorialSplitSection
+          id="academics-stem-program"
+          title="Our STEM Program"
+          section={academicsPage.stemProgramSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-stem-program-section"
+          preserveRichText
+          showTitle
+        />
+      ) : null}
+
       <AcademicsTeachingCommitmentsSection
         section={academicsPage?.teachingCommitmentsSection}
         fallbackSection={fallbackTeachingCommitmentsSection}
