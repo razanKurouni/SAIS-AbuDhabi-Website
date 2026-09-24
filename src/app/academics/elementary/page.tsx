@@ -2,7 +2,6 @@ import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
-import { ContactInfoSection } from "@/components/sections/contact-info-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -12,7 +11,6 @@ import { getAcademicsElementaryPage, getHomepage } from "@/lib/sanity";
 import type {
   AcademicsKindergartenFeatureSection,
   AcademicsElementaryIntroSection,
-  ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   InnerNavigationItem,
   PortableTextBlock,
@@ -191,35 +189,6 @@ const fallbackAssessmentSupportSection: Required<AcademicsKindergartenFeatureSec
   textColor: "#ffffff",
 };
 
-const fallbackAssessmentStageSection: ContactInfoSectionData = {
-  heading: {
-    title: "Assessment for Every Stage of Learning",
-    description: [
-      paragraph(
-        "elementary-assessment-stage-ongoing",
-        "We use an ongoing assessment approach to provide a clear and comprehensive understanding of each student’s progress. Rather than relying solely on tests, teachers regularly assess learning through classwork, homework, projects, discussions, and short quizzes."
-      ),
-      paragraph(
-        "elementary-assessment-stage-support",
-        "This approach allows us to support each child’s development in a calm, supportive, and low-stress environment."
-      ),
-      paragraph(
-        "elementary-assessment-stage-formal",
-        "Formal assessments are scheduled on alternating weeks, with a focus on languages, as well as math and science. Assessment schedules are shared with parents through the weekly plan to support preparation at home."
-      ),
-    ],
-  },
-  image: {
-    url: "https://cdn.sanity.io/images/uwffig4f/sais-sharjah/afff5f58a744e3b8fae87f673bc800711e8fad09-1528x1252.jpg",
-    alt: "SAIS - UAQ elementary students participating in class",
-  },
-  imagePosition: "center",
-  panelColor: "#df7150",
-  waveColor: "#216B97",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
-};
-
 export default async function AcademicsElementaryPage() {
   const [data, elementaryPage] = await Promise.all([getHomepage(), getAcademicsElementaryPage()]);
   const hero = elementaryPage?.hero;
@@ -228,7 +197,6 @@ export default async function AcademicsElementaryPage() {
   const assessmentSection = elementaryPage?.assessmentSection || fallbackAssessmentSection;
   const assessmentDetailSection = elementaryPage?.assessmentDetailSection;
   const assessmentSupportSection = elementaryPage?.assessmentSupportSection;
-  const assessmentStageSection = elementaryPage?.assessmentStageSection || fallbackAssessmentStageSection;
   const innerNavigation = elementaryPage?.innerNavigation;
   const innerNavItems = resolveInnerNavItems(innerNavigation?.items);
   const introStyle: IntroStyle = {
@@ -336,13 +304,6 @@ export default async function AcademicsElementaryPage() {
         titleId="academics-elementary-assessment-support-title"
       />
 
-      <ContactInfoSection
-        section={assessmentStageSection}
-        fallbackSection={fallbackAssessmentStageSection}
-        className="academics-middle-school-assessment-section"
-        titleId="academics-elementary-assessment-stage-title"
-        flipped={false}
-      />
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Elementary" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

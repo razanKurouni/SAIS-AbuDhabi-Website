@@ -756,7 +756,6 @@ export type AcademicsElementaryPageData = {
   assessmentSection?: AcademicsKindergartenFeatureSection;
   assessmentDetailSection?: AcademicsKindergartenFeatureSection;
   assessmentSupportSection?: AcademicsKindergartenFeatureSection;
-  assessmentStageSection?: ContactInfoSection;
 };
 
 export type AcademicsMiddleSchoolPageData = {

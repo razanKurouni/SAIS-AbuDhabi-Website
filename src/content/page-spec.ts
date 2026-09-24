@@ -167,7 +167,6 @@ export const PAGE_SPECS: PageSpec[] = [
       it("assessmentSection", "Assessment"),
       it("assessmentDetailSection", "Assessment – Details"),
       it("assessmentSupportSection", "Assessment – Support"),
-      entries("assessmentStageSection", "Assessment Stage"),
     ],
   },
   {

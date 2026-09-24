@@ -179,13 +179,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#ffffff",
       "waveColor": "#00A5B2"
     },
-    "assessmentStageSection": {
-      "imagePosition": "center",
-      "panelColor": "#df7150",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#216B97"
-    },
     "curriculumSection": {
       "backgroundColor": "#00A5B2",
       "imagePosition": "center",

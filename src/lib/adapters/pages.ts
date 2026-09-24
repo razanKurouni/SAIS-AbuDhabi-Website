@@ -218,7 +218,6 @@ export function adaptElementary(page: CmsPage): AcademicsElementaryPageData {
     assessmentSection: imageText(s.get("assessmentSection")),
     assessmentDetailSection: imageText(s.get("assessmentDetailSection")),
     assessmentSupportSection: imageText(s.get("assessmentSupportSection")),
-    assessmentStageSection: contactInfo(s.get("assessmentStageSection")),
   };
 }
 
