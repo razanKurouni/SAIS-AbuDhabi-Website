@@ -205,13 +205,7 @@ export function adaptKindergarten(page: CmsPage): AcademicsKindergartenPageData 
     intro: textSection(s.get("intro")),
     excellenceSection: imageText(s.get("excellenceSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
-    assessmentSection: s.has("assessmentSection")
-      ? {
-          heading: heading(s.get("assessmentSection")),
-          cards: iconCards(s.get("assessmentSection")),
-          closingStatement: s.get("assessmentSection")?.body,
-        }
-      : undefined,
+    assessmentSection: imageText(s.get("assessmentSection")),
   };
 }
 

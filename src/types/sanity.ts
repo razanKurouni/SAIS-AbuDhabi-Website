@@ -737,7 +737,7 @@ export type AcademicsKindergartenPageData = {
   intro?: AcademicsKindergartenIntroSection;
   excellenceSection?: AcademicsKindergartenFeatureSection;
   curriculumSection?: ImageTextSection;
-  assessmentSection?: AcademicsKindergartenAssessmentSection;
+  assessmentSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type AcademicsElementaryIntroSection = {

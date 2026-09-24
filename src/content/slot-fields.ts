@@ -418,18 +418,14 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "academics-kindergarten-page/assessmentSection": {
     "section": [
-      "body",
-      "cards",
-      "heading"
+      "heading",
+      "image"
     ],
     "heading": [
       "description",
       "title"
     ],
-    "card": [
-      "icon",
-      "title"
-    ],
+    "card": [],
     "cardEntry": [],
     "entry": []
   },

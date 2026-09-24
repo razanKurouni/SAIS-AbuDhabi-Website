@@ -1,21 +1,18 @@
 import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { AcademicsKindergartenAssessmentSection } from "@/components/sections/academics-kindergarten-assessment-section";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
-import { ContactInfoSection } from "@/components/sections/contact-info-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
+import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { getAcademicsKindergartenPage, getHomepage } from "@/lib/sanity";
 import type {
-  AcademicsKindergartenAssessmentSection as AcademicsKindergartenAssessmentSectionData,
   AcademicsKindergartenFeatureSection,
   AcademicsKindergartenIntroSection,
   AcademicsLearningSliderSection as AcademicsLearningSliderSectionData,
-  ContactInfoSection as ContactInfoSectionData,
-  ImageTextSection,
   InnerNavigationItem,
   PortableTextBlock,
 } from "@/types/sanity";
@@ -132,111 +129,6 @@ const fallbackExcellenceSection: Required<AcademicsKindergartenFeatureSection> =
   textColor: "#ffffff",
 };
 
-const fallbackCurriculumSection: ImageTextSection = {
-  heading: {
-    title: "The Curriculum",
-    description: [
-      paragraph(
-        "kg-curriculum",
-        "Early Years (KG-Grade 2): The curriculum provides hands-on, inquiry-based learning through thematic units and play-based exploration. Integrated with AERO and NGSS standards, the program emphasizes foundational literacy, numeracy, science, and social-emotional development."
-      ),
-    ],
-  },
-  image: {
-    url: "/academics-kg-curriculum.png",
-    alt: "SAIS - UAQ teacher guiding a kindergarten student during outdoor learning",
-  },
-  imagePosition: "right",
-};
-
-function toCurriculumShowcaseSection(section: ImageTextSection): ContactInfoSectionData {
-  return {
-    heading: section.heading,
-    image: section.image,
-    imagePosition: section.imagePosition || "center",
-    panelColor: "#7b7b7b",
-    waveColor: "var(--sais-accent)",
-    titleColor: "#ffffff",
-    textColor: "#ffffff",
-    items: [],
-  };
-}
-
-const fallbackAssessmentSection: AcademicsKindergartenAssessmentSectionData = {
-  heading: {
-    title: "Assessment",
-    description: [
-      paragraph(
-        "kg-assessment",
-        "We use the DRDP (Desired Results Developmental Profile) assessment which is an observational and portfolio-based assessment that measures young children's learning and development. More specifically, it measures progress on the following six desired results."
-      ),
-    ],
-  },
-  cards: [
-    {
-      _key: "personally-socially-competent",
-      title: "Children Are Personally\nand Socially Competent",
-      icon: {
-        url: "/academics-kg-assessment-social.png",
-        alt: "Children are personally and socially competent icon",
-      },
-    },
-    {
-      _key: "effective-learners",
-      title: "Children Are\nEffective Learners",
-      icon: {
-        url: "/academics-kg-assessment-effective-learners.png",
-        alt: "Children are effective learners icon",
-      },
-    },
-    {
-      _key: "physical-motor-competence",
-      title: "Children Show Physical\nand Motor Competence",
-      icon: {
-        url: "/academics-kg-assessment-physical.png",
-        alt: "Children show physical and motor competence icon",
-      },
-    },
-    {
-      _key: "safe-healthy",
-      title: "Children Are Safe\nand Healthy",
-      icon: {
-        url: "/academics-kg-assessment-safe-healthy.png",
-        alt: "Children are safe and healthy icon",
-      },
-    },
-    {
-      _key: "families-support-learning",
-      title: "Families Support their Child's\nLearning and Development",
-      icon: {
-        url: "/academics-kg-assessment-family-support.png",
-        alt: "Families support their child's learning and development icon",
-      },
-    },
-    {
-      _key: "families-achieve-goals",
-      title: "Families Achieve Their Goals",
-      icon: {
-        url: "/academics-kg-assessment-goals.png",
-        alt: "Families achieve their goals icon",
-      },
-    },
-  ],
-  closingStatement: [
-    paragraph(
-      "kg-assessment-closing-levels",
-      "Teachers place each child on a specific developmental level for each measure."
-    ),
-    paragraph("kg-assessment-closing-count", "There are four main developmental levels."),
-  ],
-  backgroundColor: "var(--sais-primary)",
-  titleColor: "var(--sais-accent)",
-  textColor: "#ffffff",
-  cardTextColor: "var(--sais-primary)",
-  cardBorderColor: "var(--sais-accent)",
-  cardHoverBorderColor: "#d97252",
-};
-
 function blocksToPlainText(blocks?: PortableTextBlock[]) {
   return (
     blocks
@@ -295,8 +187,8 @@ export default async function AcademicsKindergartenPage() {
   const hero = kindergartenPage?.hero;
   const intro = kindergartenPage?.intro || fallbackIntro;
   const excellenceSection = kindergartenPage?.excellenceSection || fallbackExcellenceSection;
-  const curriculumSection = kindergartenPage?.curriculumSection || fallbackCurriculumSection;
-  const assessmentSection = kindergartenPage?.assessmentSection || fallbackAssessmentSection;
+  const curriculumSection = kindergartenPage?.curriculumSection;
+  const assessmentSection = kindergartenPage?.assessmentSection;
   const innerNavigation = kindergartenPage?.innerNavigation;
   const innerNavItems = resolveInnerNavItems(innerNavigation?.items);
   const heroTitle = hero?.heading?.title || fallbackHero.title;
@@ -363,19 +255,32 @@ export default async function AcademicsKindergartenPage() {
         fallbackSection={toExcellenceSliderSection(undefined, fallbackExcellenceSection)}
       />
 
-      <ContactInfoSection
-        section={toCurriculumShowcaseSection(curriculumSection)}
-        fallbackSection={toCurriculumShowcaseSection(fallbackCurriculumSection)}
-        className="academics-middle-school-assessment-section"
-        titleId="academics-kg-curriculum-title"
-        ariaLabel="The Curriculum"
-        flipped={false}
-      />
+      {curriculumSection ? (
+        <EditorialSplitSection
+          id="academics-kg-curriculum"
+          title="The Curriculum"
+          section={curriculumSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-kg-curriculum-section"
+          preserveRichText
+          showTitle
+        />
+      ) : null}
 
-      <AcademicsKindergartenAssessmentSection
-        section={assessmentSection}
-        fallbackSection={fallbackAssessmentSection}
-      />
+      {assessmentSection ? (
+        <IntroFeatureSection
+          className="academics-kg-assessment-feature"
+          titleId="academics-kg-assessment-title"
+          section={{ heading: assessmentSection.heading || { title: "" }, image: assessmentSection.image }}
+          fallbackSection={{ heading: { title: "" }, image: {} }}
+          panelColor={assessmentSection.panelColor || "#216B97"}
+          accentColor={assessmentSection.waveColor || "#D97252"}
+          titleColor={assessmentSection.titleColor || "#ffffff"}
+          textColor={assessmentSection.textColor || "#ffffff"}
+          imagePosition={assessmentSection.imagePosition || "center"}
+        />
+      ) : null}
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Kindergarten" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

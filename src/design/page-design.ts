@@ -299,16 +299,18 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "academics-kindergarten-page": {
     "assessmentSection": {
-      "backgroundColor": "#216B97",
-      "cardBorderColor": "#00A5B2",
-      "cardHoverBorderColor": "#d97252",
-      "cardTextColor": "#216B97",
+      "imagePosition": "center",
+      "panelColor": "#216B97",
       "textColor": "#ffffff",
-      "titleColor": "#00A5B2"
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     },
     "curriculumSection": {
+      "backgroundColor": "#ffffff",
       "imagePosition": "right",
-      "theme": "light"
+      "textColor": "#707278",
+      "theme": "light",
+      "titleColor": "#216B97"
     },
     "excellenceSection": {
       "backgroundColor": "#00A5B2",

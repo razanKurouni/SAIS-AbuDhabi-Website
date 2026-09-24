@@ -153,7 +153,7 @@ export const PAGE_SPECS: PageSpec[] = [
       txt("intro", "Introduction"),
       it("excellenceSection", "Excellence"),
       it("curriculumSection", "Curriculum"),
-      cards("assessmentSection", "Assessment"),
+      it("assessmentSection", "Assessment"),
     ],
   },
   {

@@ -1,0 +1,130 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "academics-kindergarten-page",
+  "_rev": "FCO364qzHDm2jW4qFi8MCN",
+  "_system": {
+    "base": {
+      "id": "academics-kindergarten-page",
+      "rev": "FCO364qzHDm2jW4qFi85GJ"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T06:11:00Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Kindergarten"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ kindergarten students learning through play",
+      "asset": {
+        "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ kindergarten students learning through play",
+      "asset": {
+        "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/academics/kindergarten",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "kg-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "kg-intro-span",
+                "_type": "span",
+                "marks": [],
+                "text": "The Kindergarten program provides a warm, inspiring, and child-centered environment where every child is encouraged to grow with confidence, curiosity, and joy."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "A Caring Environment for Growing Minds"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "excellenceSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "kg-excellence",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "kg-excellence-span",
+                "_type": "span",
+                "marks": [],
+                "text": "We understand that the early years are among the most important stages in a child’s development, shaping not only academic readiness, but also social skills, emotional well-being, creativity, independence, and self-confidence."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "698b8665c5a3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3ef38e879140",
+                "_type": "span",
+                "marks": [],
+                "text": "Our Kindergarten classrooms are designed to foster a sense of belonging where children feel safe, valued, and motivated to explore the world around them through meaningful experiences and positive relationships. Through a caring and supportive atmosphere, we aim to nurture happy, confident learners who develop a lifelong love of learning while building strong foundations for future success."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ kindergarten students playing music together",
+        "asset": {
+          "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "picture",
+        "asset": {
+          "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "excellenceSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Kindergarten academics at Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "Explore Kindergarten academics at Sharjah American International School.",
+      "asset": {
+        "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Kindergarten | Academics | SAIS - UAQ"
+  },
+  "title": "Kindergarten"
+}
