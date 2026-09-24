@@ -6,6 +6,7 @@ import { AdmissionsFeeTermsSection } from "@/components/sections/admissions-fee-
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
+import { TitledImagesSection } from "@/components/sections/titled-images-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { RichText } from "@/components/ui/rich-text";
@@ -201,6 +202,8 @@ export default async function StudentProgramsPage() {
           ) : null}
         </div>
       ) : null}
+
+      <TitledImagesSection items={page?.sgaTeams?.items} className="student-programs-teams" ariaLabel="Student Government teams" />
 
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

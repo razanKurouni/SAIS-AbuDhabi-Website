@@ -406,6 +406,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("sgaSection", "Student Government Association"),
       cards("sgaRoles", "SGA – Key Roles", { items: "leftColumn" }),
       cards("sgaRoles.rightColumn", "SGA – Student Ministers", { path: "sgaRoles", items: "rightColumn" }),
+      cards("sgaTeams", "SGA – Team Photos", { items: "items" }),
     ],
   },
   {

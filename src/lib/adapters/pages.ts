@@ -75,6 +75,7 @@ import {
   statementCards,
   steps,
   termsGroups,
+  titledImages,
   textSection,
   valuesSlides,
   video,
@@ -481,6 +482,7 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
             rightColumn: termsGroups(s.get("sgaRoles.rightColumn")),
           }
         : undefined,
+    sgaTeams: s.has("sgaTeams") ? { items: titledImages(s.get("sgaTeams")) } : undefined,
   };
 }
 

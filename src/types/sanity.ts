@@ -651,6 +651,7 @@ export type StudentProgramsPageData = {
   potentialSlider?: AcademicsLearningSliderSection;
   sgaSection?: ImageTextSection;
   sgaRoles?: AdmissionsFeeTermsSection & { leftTitle?: string; rightTitle?: string };
+  sgaTeams?: { items?: { _key?: string; title?: string; image?: SanityImage }[] };
 };
 
 export type ExtraCurricularActivitiesPageData = {
