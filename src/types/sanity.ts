@@ -754,6 +754,8 @@ export type AcademicsElementaryPageData = {
   intro?: AcademicsElementaryIntroSection;
   curriculumSection?: AcademicsKindergartenFeatureSection;
   assessmentSection?: AcademicsKindergartenFeatureSection;
+  assessmentDetailSection?: AcademicsKindergartenFeatureSection;
+  assessmentSupportSection?: AcademicsKindergartenFeatureSection;
   assessmentStageSection?: ContactInfoSection;
 };
 

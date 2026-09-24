@@ -1,0 +1,157 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "academics-elementary-page",
+  "_rev": "FCO364qzHDm2jW4qFiGvuL",
+  "_system": {
+    "base": {
+      "id": "academics-elementary-page",
+      "rev": "FCO364qzHDm2jW4qFiF2yr"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T06:31:34Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Elementary"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ elementary students raising their hands in class",
+      "asset": {
+        "_ref": "image-da4155f5f423576753ab72bc2887e458cc90d3bd-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ elementary students raising their hands in class",
+      "asset": {
+        "_ref": "image-da4155f5f423576753ab72bc2887e458cc90d3bd-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/academics/elementary",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "elementary-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "elementary-intro-span",
+                "_type": "span",
+                "marks": [],
+                "text": "The Elementary School offers a nurturing and engaging environment where students begin their academic journey with curiosity, confidence, and joy."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Building Strong Foundations for Deeper Learning"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "curriculumSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "elementary-curriculum-primary",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "elementary-curriculum-primary-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Elementary provides a dynamic and supportive learning environment where students are encouraged to grow academically, socially, emotionally, and personally. We believe that these foundational years play a vital role in shaping confident, responsible, and lifelong learners, which is why we focus on nurturing each child’s individual strengths, interests, and abilities. Through meaningful learning experiences and positive relationships, students develop independence, self-confidence, creativity, and strong character while learning to collaborate respectfully and engage positively within a diverse community. Our goal is to inspire students to become curious learners, critical thinkers, and active participants in their educational journey while fostering a genuine love of learning that extends beyond the classroom."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Elementary Section"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ elementary students playing chess",
+        "asset": {
+          "_ref": "image-a2fc46b31761d80383d215bd81933215ebfa0142-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "curriculumSection"
+    },
+    {
+      "_key": "assessmentSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "elementary-assessment-curriculum",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "elementary-assessment-curriculum-span",
+                "_type": "span",
+                "marks": [],
+                "text": "The curriculum is designed to provide students with strong academic foundations while promoting inquiry, creativity, collaboration, and real-world application of learning. Integrated with internationally recognized standards, the curriculum strengthens essential skills in literacy, mathematics, science, communication, and problem-solving through engaging and interdisciplinary learning experiences. Students are encouraged to think critically, explore new ideas, and make meaningful connections across subject areas through hands-on activities, project-based learning, and collaborative experiences."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "1b29c654dda4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9cd95255adab",
+                "_type": "span",
+                "marks": [],
+                "text": "Technology integration is an essential component of the curriculum, with Interactive Boards, digital learning resources, and specialized educational applications enhancing engagement, innovation, and student-centered learning. Through a balanced approach that combines academic rigor with creativity and exploration, students develop the confidence, curiosity, organization, and self-management skills necessary for future academic success and lifelong learning."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "The Curriculum"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ elementary student writing in class",
+        "asset": {
+          "_ref": "image-29b8e767a5eee7e8934cea5add1ae8179bf71d96-2606x1826-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "assessmentSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Elementary academics at Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ elementary students raising their hands in class",
+      "asset": {
+        "_ref": "image-2d02c690da715e6d3fe56ada5091b239b1b87180-1113x562-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Elementary | Academics | SAIS - UAQ"
+  },
+  "title": "Elementary"
+}

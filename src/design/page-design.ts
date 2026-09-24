@@ -164,6 +164,21 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#216B97",
       "waveColor": "#216B97"
     },
+    "assessmentDetailSection": {
+      "imagePosition": "center",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
+    },
+    "assessmentSupportSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
+    },
     "assessmentStageSection": {
       "imagePosition": "center",
       "panelColor": "#df7150",

@@ -179,6 +179,18 @@ const fallbackAssessmentSection: Required<AcademicsKindergartenFeatureSection> =
   textColor: "#ffffff",
 };
 
+const fallbackAssessmentSupportSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#216B97",
+  waveColor: "#00A5B2",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
+};
+
 const fallbackAssessmentStageSection: ContactInfoSectionData = {
   heading: {
     title: "Assessment for Every Stage of Learning",
@@ -214,6 +226,8 @@ export default async function AcademicsElementaryPage() {
   const intro = elementaryPage?.intro || fallbackIntro;
   const curriculumSection = elementaryPage?.curriculumSection || fallbackCurriculumSection;
   const assessmentSection = elementaryPage?.assessmentSection || fallbackAssessmentSection;
+  const assessmentDetailSection = elementaryPage?.assessmentDetailSection;
+  const assessmentSupportSection = elementaryPage?.assessmentSupportSection;
   const assessmentStageSection = elementaryPage?.assessmentStageSection || fallbackAssessmentStageSection;
   const innerNavigation = elementaryPage?.innerNavigation;
   const innerNavItems = resolveInnerNavItems(innerNavigation?.items);
@@ -298,6 +312,28 @@ export default async function AcademicsElementaryPage() {
       <AcademicsElementaryAssessmentSection
         section={assessmentSection}
         fallbackSection={fallbackAssessmentSection}
+      />
+
+      {assessmentDetailSection ? (
+        <IntroFeatureSection
+          className="academics-elementary-assessment-detail"
+          titleId="academics-elementary-assessment-detail-title"
+          section={{ heading: assessmentDetailSection.heading || { title: "" }, image: assessmentDetailSection.image }}
+          fallbackSection={{ heading: { title: "" }, image: {} }}
+          panelColor={assessmentDetailSection.panelColor || "#216B97"}
+          accentColor={assessmentDetailSection.waveColor || "#00A5B2"}
+          titleColor={assessmentDetailSection.titleColor || "#ffffff"}
+          textColor={assessmentDetailSection.textColor || "#ffffff"}
+          imagePosition={assessmentDetailSection.imagePosition || "center"}
+        />
+      ) : null}
+
+      <AcademicsElementaryAssessmentSection
+        section={assessmentSupportSection}
+        fallbackSection={fallbackAssessmentSupportSection}
+        className="academics-elementary-assessment-support academics-middle-school-tailored-section"
+        imageSide="right"
+        titleId="academics-elementary-assessment-support-title"
       />
 
       <ContactInfoSection

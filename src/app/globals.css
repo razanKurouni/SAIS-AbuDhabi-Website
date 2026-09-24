@@ -16745,3 +16745,18 @@ a.school-policy-card__cover:hover {
   font-size: clamp(1.35rem, 1.9vw, 1.75rem);
   font-weight: 600;
 }
+
+/* Mobile divider of the CMS-driven intro-feature sections follows their own colours */
+@media (max-width: 767px) {
+  .intro-feature.academics-elementary-assessment-detail .intro-feature__wave,
+  .intro-feature.academics-kg-assessment-feature .intro-feature__wave,
+  .intro-feature.academics-career-guidance-detail-section .intro-feature__wave {
+    stroke: var(--intro-feature-accent-color);
+  }
+
+  .intro-feature.academics-elementary-assessment-detail .intro-feature__curve-mask,
+  .intro-feature.academics-kg-assessment-feature .intro-feature__curve-mask,
+  .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask {
+    fill: var(--intro-feature-panel-color);
+  }
+}

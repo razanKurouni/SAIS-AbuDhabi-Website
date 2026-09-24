@@ -165,6 +165,8 @@ export const PAGE_SPECS: PageSpec[] = [
       txt("intro", "Introduction"),
       it("curriculumSection", "Curriculum"),
       it("assessmentSection", "Assessment"),
+      it("assessmentDetailSection", "Assessment – Details"),
+      it("assessmentSupportSection", "Assessment – Support"),
       entries("assessmentStageSection", "Assessment Stage"),
     ],
   },

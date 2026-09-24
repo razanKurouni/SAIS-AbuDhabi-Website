@@ -190,19 +190,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "entry": []
   },
-  "academics-elementary-page/assessmentSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-elementary-page/assessmentStageSection": {
+  "academics-elementary-page/assessmentDetailSection": {
     "section": [
       "heading",
       "image"
@@ -210,6 +198,31 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [
       "description",
       "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-elementary-page/assessmentSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-elementary-page/assessmentSupportSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
     ],
     "card": [],
     "cardEntry": [],
