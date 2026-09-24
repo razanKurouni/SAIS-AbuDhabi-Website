@@ -457,7 +457,7 @@ export function adaptStudentLife(page: CmsPage): StudentLifePageData {
     sgaSection: contactInfo(s.get("sgaSection")),
     studentCongressSection: imageText(s.get("studentCongressSection")),
     programsSection: imageText(s.get("programsSection")),
-    miniSgaSection: contactInfo(s.get("miniSgaSection")),
+    miniSgaSection: imageText(s.get("miniSgaSection")),
   };
 }
 

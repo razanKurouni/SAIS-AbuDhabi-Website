@@ -1261,6 +1261,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "miniSgaSection": {
       "imagePosition": "center",
+      "imageSide": "left",
       "panelColor": "#6F7175",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",

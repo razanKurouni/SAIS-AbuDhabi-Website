@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { ContactInfoSection } from "@/components/sections/contact-info-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
@@ -8,6 +9,7 @@ import { PageHero } from "@/components/sections/page-hero";
 import { getHomepage, getStudentLifePage } from "@/lib/sanity";
 import { resolveStudentSectionNavItems, studentSectionNavItems } from "@/lib/student-section-navigation";
 import type {
+  AcademicsKindergartenFeatureSection,
   ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   PortableTextBlock,
@@ -159,28 +161,14 @@ const fallbackProgramsSection: ImageTextSection = {
   textColor: "#666B70",
 };
 
-const fallbackMiniSgaSection: ContactInfoSectionData = {
-  heading: {
-    title: "Mini SGA",
-    description: [
-      paragraph(
-        "student-life-mini-sga-1",
-        "In 2025, we introduced the Mini Student Government Association (Mini SGA), a new leadership initiative for students in Grades 5 to 8. The Mini SGA is designed to develop essential skills such as communication, organization, teamwork, and responsibility at an early age. Students have the opportunity to run for positions including a president, a vice president, Ambassadors of Wellbeing, Innovation, Sustainability, Activities, Sports, Culture and Diversity, secretary, treasurer, and class representatives."
-      ),
-      paragraph(
-        "student-life-mini-sga-2",
-        "Members meet to discuss school improvement ideas, plan student-led activities, support school events, and represent the voices of their peers. This initiative not only encourages active participation in school life but also prepares students for future leadership roles within the SAIS community."
-      ),
-    ],
-  },
-  image: {
-    url: "/about-values-growth.jpg",
-    alt: "SAIS - UAQ elementary students walking through the school corridor",
-  },
-  items: [],
+const fallbackMiniSgaSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "left",
   imagePosition: "center",
-  panelColor: "#00A5B2",
-  waveColor: "#1E6F9B",
+  backgroundColor: "#ffffff",
+  panelColor: "#6F7175",
+  waveColor: "#00A5B2",
   titleColor: "#ffffff",
   textColor: "#ffffff",
 };
@@ -288,13 +276,12 @@ export default async function StudentLifePage() {
         preserveRichText
       />
 
-      <ContactInfoSection
+      <AcademicsElementaryAssessmentSection
         section={page?.miniSgaSection}
         fallbackSection={fallbackMiniSgaSection}
-        className="student-life-sga-section student-life-mini-sga"
+        className="student-life-learning-feature academics-middle-school-tailored-section"
+        imageSide="left"
         titleId="student-life-mini-sga-title"
-        ariaLabel="Comprehensive Learning"
-        flipped={false}
       />
 
       <EditorialSplitSection

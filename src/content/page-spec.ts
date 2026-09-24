@@ -389,7 +389,7 @@ export const PAGE_SPECS: PageSpec[] = [
       txt("beyondClassroomIntro", "Beyond the Classroom"),
       entries("sgaSection", "Student Government"),
       it("studentCongressSection", "Student Congress"),
-      entries("miniSgaSection", "Comprehensive Learning"),
+      it("miniSgaSection", "Comprehensive Learning"),
       it("programsSection", "Social and Ethical Foundations"),
     ],
   },

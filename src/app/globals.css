@@ -14992,9 +14992,9 @@ a.school-policy-card__cover:hover {
   padding: 62px 0;
 }
 
-/* Comprehensive Learning: grey panel bleeding to the edges, then the light band below it. */
-.student-life-mini-sga.student-life-sga-section.contact-info-section {
-  padding: 0;
+/* Comprehensive Learning: full-bleed image, grey panel, teal curve */
+.student-life-page .student-life-learning-feature {
+  margin-bottom: 0;
 }
 
 .student-life-programs.editorial-split-section {

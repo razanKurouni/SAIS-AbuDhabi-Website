@@ -637,7 +637,7 @@ export type StudentLifePageData = {
   sgaSection?: ContactInfoSection;
   studentCongressSection?: ImageTextSection;
   programsSection?: ImageTextSection;
-  miniSgaSection?: ContactInfoSection;
+  miniSgaSection?: AcademicsKindergartenFeatureSection;
   sgaShowcaseSection?: ImageTextSection;
 };
 
