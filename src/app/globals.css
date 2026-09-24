@@ -2500,6 +2500,10 @@ a.contact-info-section__item-text:hover {
   margin-top: clamp(38px, 4vw, 52px) !important;
 }
 
+.academics-high-school-ap-courses .academics-support-programs__track {
+  justify-content: center;
+}
+
 .academics-high-school-ap-courses .academics-support-programs__card.hover-icon-card {
   align-items: flex-start;
   justify-content: flex-start;
