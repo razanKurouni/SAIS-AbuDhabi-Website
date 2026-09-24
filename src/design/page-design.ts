@@ -1290,6 +1290,19 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "titleColor": "#5FC1C7"
     },
+    "potentialIntro": {
+      "backgroundColor": "#f2f2f2",
+      "textColor": "#216B97",
+      "titleColor": "#00A5B2"
+    },
+    "potentialSlider": {
+      "slides": [
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
+        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
+        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#2FB5BC", "textColor": "#ffffff" }
+      ]
+    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",

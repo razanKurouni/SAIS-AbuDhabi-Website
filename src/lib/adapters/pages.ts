@@ -467,6 +467,10 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
     ...base(page),
     excellenceIntro: textSection(s.get("excellenceIntro")),
     highlightsSection: imageText(s.get("highlightsSection")),
+    potentialIntro: textSection(s.get("potentialIntro")),
+    potentialSlider: s.has("potentialSlider")
+      ? { heading: heading(s.get("potentialSlider")), slides: learningSlides(s.get("potentialSlider")) }
+      : undefined,
   };
 }
 

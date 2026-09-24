@@ -647,6 +647,8 @@ export type StudentProgramsPageData = {
   innerNavigation?: InnerNavigation;
   excellenceIntro?: { heading?: SectionHeading; backgroundColor?: string; titleColor?: string; textColor?: string };
   highlightsSection?: ImageTextSection;
+  potentialIntro?: { heading?: SectionHeading; backgroundColor?: string; titleColor?: string; textColor?: string };
+  potentialSlider?: AcademicsLearningSliderSection;
 };
 
 export type ExtraCurricularActivitiesPageData = {

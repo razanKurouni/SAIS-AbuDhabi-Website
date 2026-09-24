@@ -16847,3 +16847,20 @@ a.school-policy-card__cover:hover {
 
 @media (max-width: 767px) {
 }
+
+/* Student Programs: potential intro on the page grey, then the slider on the same grey */
+.student-programs-potential.student-life-overview {
+  padding-bottom: clamp(34px, 4vw, 52px);
+}
+
+.student-programs-slider.academics-learning-slider {
+  background: #f2f2f2;
+  padding-top: 0;
+  padding-bottom: clamp(30px, 3.4vw, 46px);
+}
+
+.student-programs-slider .academics-learning-slider__body {
+  font-size: var(--sais-body-text-size);
+  letter-spacing: var(--sais-body-text-letter-spacing);
+  line-height: var(--sais-body-text-line-height);
+}

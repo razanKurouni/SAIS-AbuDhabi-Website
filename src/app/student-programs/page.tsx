@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -50,6 +51,9 @@ type IntroStyle = CSSProperties & {
   "--student-life-overview-text"?: string;
 };
 
+/* Content edits in the Studio should show without a rebuild, like the other section pages. */
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getStudentProgramsPage();
   return {
@@ -67,6 +71,13 @@ export default async function StudentProgramsPage() {
   const innerNavItems = resolveStudentSectionNavItems(innerNavigation.items);
   const intro = page?.excellenceIntro;
   const leadership = page?.highlightsSection;
+  const potential = page?.potentialIntro;
+  const potentialSlider = page?.potentialSlider;
+  const potentialStyle: IntroStyle = {
+    "--student-life-overview-bg": potential?.backgroundColor || "#f2f2f2",
+    "--student-life-overview-title": potential?.titleColor || "#00A5B2",
+    "--student-life-overview-text": potential?.textColor || "#216B97",
+  };
   const introStyle: IntroStyle = {
     "--student-life-overview-bg": intro?.backgroundColor || "#ffffff",
     "--student-life-overview-title": intro?.titleColor || "#00A5B2",
@@ -137,6 +148,34 @@ export default async function StudentProgramsPage() {
           textColor={leadership.textColor || "#ffffff"}
           imagePosition={leadership.imagePosition || "center"}
           imageSide="right"
+        />
+      ) : null}
+
+      {potential?.heading?.title || potential?.heading?.description?.length ? (
+        <section
+          id="student-programs-potential"
+          className="student-life-overview student-programs-intro student-programs-potential"
+          aria-labelledby="student-programs-potential-title"
+          style={potentialStyle}
+        >
+          <div className="student-life-overview__inner">
+            {potential.heading?.title ? (
+              <h2 id="student-programs-potential-title" className="student-life-overview__title">
+                {potential.heading.title}
+              </h2>
+            ) : null}
+            <div className="student-life-overview__body">
+              <RichText blocks={potential.heading?.description} className="student-life-overview__copy" />
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {potentialSlider?.slides?.length ? (
+        <AcademicsLearningSliderSection
+          section={{ ...potentialSlider, heading: { title: "" } }}
+          fallbackSection={{ heading: { title: "" }, slides: [] }}
+          className="student-programs-slider"
         />
       ) : null}
 

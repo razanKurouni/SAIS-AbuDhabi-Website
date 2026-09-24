@@ -1,0 +1,124 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-programs-page",
+  "_rev": "GFEQxgOR1eK3zOIQIFPpJV",
+  "_system": {
+    "base": {
+      "id": "student-programs-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-24T11:08:10Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Student Programs"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/student-programs",
+  "sections": [
+    {
+      "_key": "excellenceIntro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our Student Programs are designed to enrich the educational experience beyond the classroom. Through a variety of opportunities, students are encouraged to develop their talents, discover new interests, build meaningful relationships, and become active contributors to the school community."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Inspiring Growth, Leadership, and\nStudent Engagement"
+      },
+      "slot": "excellenceIntro"
+    },
+    {
+      "_key": "highlightsSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-lead-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-lead-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our programs support the holistic development of students by fostering leadership, responsibility, collaboration, creativity, and personal growth. Whether participating in leadership initiatives, community engagement activities, student-led projects, or future enrichment opportunities, students gain valuable experiences that help prepare them for success in school and beyond."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "sp-lead-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-lead-2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We are committed to providing engaging and purposeful programs that empower students to grow as confident learners, responsible citizens, and future leaders in an ever-changing world."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Student Leadership Program"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student presenting the Student Government activities report to classmates",
+        "asset": {
+          "_ref": "image-70f5b97a924389ad382328ff7fb7acaecc2f18ba-1600x1375-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "highlightsSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore Student Programs in academics, sports, and leadership at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students working together",
+      "asset": {
+        "_ref": "image-aeb2e2e6865c4326ecff66904e32a905451afb1a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student Programs | SAIS - UAQ"
+  },
+  "title": "Student Programs"
+}
