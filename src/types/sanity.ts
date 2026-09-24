@@ -679,6 +679,7 @@ export type AcademicsPageData = {
   curriculumSection?: ContactInfoSection;
   cultureSection?: ImageTextSection;
   steamSection?: ImageTextSection;
+  careerGuidanceSection?: AcademicsKindergartenFeatureSection;
   skillsSection?: AcademicsSkillsSection;
   curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
   teachingCommitmentsSection?: AcademicsTeachingCommitmentsSection;

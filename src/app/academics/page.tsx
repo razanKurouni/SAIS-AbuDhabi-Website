@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { FileCheck2, Landmark, NotebookPen, UsersRound } from "lucide-react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsCurriculumOverviewSection } from "@/components/sections/academics-curriculum-overview-section";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { AcademicsSkillsSection } from "@/components/sections/academics-skills-section";
 import { AcademicsTeachingCommitmentsSection } from "@/components/sections/academics-teaching-commitments-section";
@@ -18,6 +19,7 @@ import type {
   AcademicsSkillsSection as AcademicsSkillsSectionData,
   AcademicsTeachingCommitmentsSection as AcademicsTeachingCommitmentsSectionData,
   AcademicsKindergartenAssessmentSection as AcademicsKindergartenAssessmentSectionData,
+  AcademicsKindergartenFeatureSection,
   ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   PortableTextBlock,
@@ -387,6 +389,18 @@ const fallbackAssessmentProtocolSection: AcademicsKindergartenAssessmentSectionD
   cardHoverBorderColor: "#df7150",
 };
 
+const fallbackCareerGuidanceSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#6F7175",
+  waveColor: "#00A5B2",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
+};
+
 export default async function AcademicsPage() {
   const [data, academicsPage] = await Promise.all([getHomepage(), getAcademicsPage()]);
   const academicsHero = academicsPage?.hero;
@@ -456,6 +470,14 @@ export default async function AcademicsPage() {
         ]}
         className="academics-steam-section"
         preserveRichText
+      />
+
+      <AcademicsElementaryAssessmentSection
+        section={academicsPage?.careerGuidanceSection}
+        fallbackSection={fallbackCareerGuidanceSection}
+        className="academics-career-guidance-section academics-middle-school-tailored-section"
+        imageSide="right"
+        titleId="academics-career-guidance-title"
       />
 
       <AcademicsSkillsSection

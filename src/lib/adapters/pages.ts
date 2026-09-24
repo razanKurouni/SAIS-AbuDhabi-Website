@@ -171,6 +171,7 @@ export function adaptAcademics(page: CmsPage): AcademicsPageData {
     curriculumSection: contactInfo(s.get("curriculumSection")),
     cultureSection: imageText(s.get("cultureSection")),
     steamSection: imageText(s.get("steamSection")),
+    careerGuidanceSection: imageText(s.get("careerGuidanceSection")),
     skillsSection: s.has("skillsSection")
       ? { heading: heading(s.get("skillsSection")), groups: skillGroups(s.get("skillsSection")) }
       : undefined,

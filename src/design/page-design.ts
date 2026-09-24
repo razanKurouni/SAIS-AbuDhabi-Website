@@ -503,6 +503,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "steamSection": {
       "imagePosition": "left",
       "theme": "light"
+    },
+    "careerGuidanceSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#6F7175",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
     }
   },
   "admissions-application-page": {
