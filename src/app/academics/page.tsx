@@ -518,6 +518,18 @@ export default async function AcademicsPage() {
         fallbackSection={fallbackCurriculumOverviewSection}
       />
 
+      {academicsPage?.curriculumOverviewSection?.secondBlock ? (
+        <EditorialSplitSection
+          id="academics-curriculum-second"
+          title="Curriculum at SAIS - UAQ"
+          section={academicsPage.curriculumOverviewSection.secondBlock}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-curriculum-second-section"
+          preserveRichText
+        />
+      ) : null}
+
       <AcademicsTeachingCommitmentsSection
         section={academicsPage?.teachingCommitmentsSection}
         fallbackSection={fallbackTeachingCommitmentsSection}

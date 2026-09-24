@@ -414,7 +414,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
         "theme": "light"
       },
       "secondBlock": {
+        "backgroundColor": "#ffffff",
         "imagePosition": "left",
+        "textColor": "#707278",
         "theme": "light"
       }
     },

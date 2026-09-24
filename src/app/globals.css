@@ -16728,3 +16728,8 @@ a.school-policy-card__cover:hover {
 .academics-career-guidance-outreach-section.editorial-split-section {
   background: var(--editorial-split-bg, #f4f4f4);
 }
+
+/* Academics: curriculum second block (rounded image left, text right, white band) */
+.academics-curriculum-second-section.editorial-split-section {
+  background: var(--editorial-split-bg, #ffffff);
+}
