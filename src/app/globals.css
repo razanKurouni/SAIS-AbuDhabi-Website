@@ -16834,11 +16834,11 @@ a.school-policy-card__cover:hover {
 
 /* Applications: process panel and steps on the page grey */
 .admissions-application-page .intro-feature.admissions-application-process {
-  background: #f4f4f4;
+  background: #ffffff;
 }
 
 .admissions-application-page .application-steps {
-  background: #f4f4f4;
+  background: #ffffff;
   padding-top: clamp(56px, 6vw, 92px);
   padding-bottom: clamp(36px, 4vw, 56px);
 }
