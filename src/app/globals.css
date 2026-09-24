@@ -16989,3 +16989,25 @@ a.school-policy-card__cover:hover {
     gap: 40px;
   }
 }
+
+/* Contact: office hours note under the items; the campus name leads the address */
+.contact-info-section__note {
+  margin-top: 26px;
+  color: var(--contact-info-text-color, #ffffff);
+  font-size: var(--sais-body-text-size);
+  line-height: var(--sais-body-text-line-height);
+  letter-spacing: var(--sais-body-text-letter-spacing);
+}
+
+.contact-info-section__note p {
+  margin: 0;
+}
+
+.contact-info-section__note strong {
+  color: var(--contact-info-text-color, #ffffff);
+  font-weight: 700;
+}
+
+.contact-page .contact-info-section__item:first-child .contact-info-section__item-text > span:nth-of-type(2) {
+  font-weight: 700;
+}

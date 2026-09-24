@@ -1,0 +1,605 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-august-newsletter",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "august-school-newsletter-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "august-school-newsletter-intro-span",
+            "_type": "span",
+            "text": "Catch up on school highlights, important announcements, student achievements, and dates to remember in our August newsletter."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "august-school-newsletter-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "august-school-newsletter-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "august-school-newsletter-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "august-school-newsletter-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "august-school-newsletter-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "august-school-newsletter-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "Catch up on school highlights, important announcements, student achievements, and dates to remember in our August newsletter.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-68bc1fafac68e30d9fa115ddf5470c873c8e1d77-1920x1333-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Catch up on school highlights, important announcements, student achievements, and dates to remember in our August newsletter.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "August School Newsletter | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "august-school-newsletter"
+    },
+    "title": "August School Newsletter"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-campus-community-update",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "campus-community-update-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "campus-community-update-intro-span",
+            "_type": "span",
+            "text": "Our campus continues to grow as a welcoming community where students learn, connect, and celebrate their achievements together."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "campus-community-update-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "campus-community-update-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "campus-community-update-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "campus-community-update-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "campus-community-update-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "campus-community-update-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Our campus continues to grow as a welcoming community where students learn, connect, and celebrate their achievements together.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-9d22fbc46e96bccbdf9a62815c53324ea42dd199-1200x800-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-10T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Our campus continues to grow as a welcoming community where students learn, connect, and celebrate their achievements together.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Campus Community Update | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "campus-community-update"
+    },
+    "title": "Campus Community Update"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-july-newsletter",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "july-school-newsletter-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "july-school-newsletter-intro-span",
+            "_type": "span",
+            "text": "Read the July edition of our school newsletter for community stories, academic updates, and important information for families."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "july-school-newsletter-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "july-school-newsletter-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "july-school-newsletter-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "july-school-newsletter-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "july-school-newsletter-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "july-school-newsletter-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "Read the July edition of our school newsletter for community stories, academic updates, and important information for families.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-a5fdff9fc3ed3e4ce6677d1d2fb77551c14f08f2-979x855-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-07-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Read the July edition of our school newsletter for community stories, academic updates, and important information for families.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "July School Newsletter | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "july-school-newsletter"
+    },
+    "title": "July School Newsletter"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-june-newsletter",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "june-school-newsletter-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "june-school-newsletter-intro-span",
+            "_type": "span",
+            "text": "A celebration of student learning and school life, with news and reminders from across the SAIS - UAQ community."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "june-school-newsletter-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "june-school-newsletter-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "june-school-newsletter-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "june-school-newsletter-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "june-school-newsletter-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "june-school-newsletter-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "A celebration of student learning and school life, with news and reminders from across the SAIS - UAQ community.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-fe9e4f4a8088fafd55902a1835f27e84e2ec015b-986x855-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-06-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "A celebration of student learning and school life, with news and reminders from across the SAIS - UAQ community.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "June School Newsletter | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "june-school-newsletter"
+    },
+    "title": "June School Newsletter"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-learning-excellence",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "learning-growth-and-excellence-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "learning-growth-and-excellence-intro-span",
+            "_type": "span",
+            "text": "A closer look at how SAIS - UAQ supports academic excellence, strong values, and meaningful opportunities for every student."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "learning-growth-and-excellence-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "learning-growth-and-excellence-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "learning-growth-and-excellence-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "learning-growth-and-excellence-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "learning-growth-and-excellence-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "learning-growth-and-excellence-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "A closer look at how SAIS - UAQ supports academic excellence, strong values, and meaningful opportunities for every student.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-aeba0e3102028e65781bfa88513529d9ad3a91f3-1200x800-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-08T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "A closer look at how SAIS - UAQ supports academic excellence, strong values, and meaningful opportunities for every student.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Learning, Growth and Excellence | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "learning-growth-and-excellence"
+    },
+    "title": "Learning, Growth and Excellence"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-school-events",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "upcoming-school-events-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "upcoming-school-events-intro-span",
+            "_type": "span",
+            "text": "Explore upcoming events that bring our students, families, staff, and wider school community together throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "upcoming-school-events-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "upcoming-school-events-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "upcoming-school-events-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "upcoming-school-events-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "upcoming-school-events-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "upcoming-school-events-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Explore upcoming events that bring our students, families, staff, and wider school community together throughout the academic year.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-465542bb8467619acdf8a5936f81d64a00f7e696-1560x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-06T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Explore upcoming events that bring our students, families, staff, and wider school community together throughout the academic year.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-465542bb8467619acdf8a5936f81d64a00f7e696-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Upcoming School Events | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "upcoming-school-events"
+    },
+    "title": "Upcoming School Events"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "news-post-welcome-to-sais-dubai",
+    "_rev": "IeGaEnW61OvFIXyLpmYmav",
+    "_type": "newsPost",
+    "_updatedAt": "2026-09-21T13:56:37Z",
+    "body": [
+      {
+        "_key": "welcome-to-sais-dubai-intro",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "welcome-to-sais-dubai-intro-span",
+            "_type": "span",
+            "text": "Discover the latest updates from our vibrant school community and learn more about the educational experiences, achievements, and opportunities at SAIS - UAQ."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "welcome-to-sais-dubai-heading",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "welcome-to-sais-dubai-heading-span",
+            "_type": "span",
+            "text": "A connected school community"
+          }
+        ],
+        "style": "h2"
+      },
+      {
+        "_key": "welcome-to-sais-dubai-body",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "welcome-to-sais-dubai-body-span",
+            "_type": "span",
+            "text": "At SAIS - UAQ, every school day provides opportunities for students to explore new ideas, strengthen their skills, and contribute positively to their community. Our teachers and staff work closely with families to create a supportive environment where every learner can thrive."
+          }
+        ],
+        "style": "normal"
+      },
+      {
+        "_key": "welcome-to-sais-dubai-closing",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "welcome-to-sais-dubai-closing-span",
+            "_type": "span",
+            "text": "We look forward to sharing more stories, achievements, and important updates with our families throughout the academic year."
+          }
+        ],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Discover the latest updates from our vibrant school community and learn more about the educational experiences, achievements, and opportunities at SAIS - UAQ.",
+    "featured": true,
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus",
+      "asset": {
+        "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-12T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Discover the latest updates from our vibrant school community and learn more about the educational experiences, achievements, and opportunities at SAIS - UAQ.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3c75ac473f4524537f738e68497e7893e9b167d4-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Welcome to SAIS - UAQ | SAIS - UAQ"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "welcome-to-sais-sharjah"
+    },
+    "title": "Welcome to SAIS - UAQ"
+  }
+]

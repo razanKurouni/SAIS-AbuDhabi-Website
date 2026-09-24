@@ -382,6 +382,7 @@ export function contactInfo(section?: CmsSection | null): ContactInfoSection | u
     heading: heading(section),
     image: image(section.image),
     items: contactItems(section),
+    note: section.body?.length ? section.body : undefined,
   };
 }
 

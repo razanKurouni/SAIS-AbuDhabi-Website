@@ -898,6 +898,8 @@ export type ContactInfoSection = {
   titleColor?: string;
   textColor?: string;
   items?: ContactInfoItem[];
+  /** Rich text under the items, e.g. office hours. */
+  note?: PortableTextBlock[];
 };
 
 export type ContactPageData = {

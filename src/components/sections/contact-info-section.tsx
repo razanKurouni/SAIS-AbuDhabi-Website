@@ -197,6 +197,10 @@ export function ContactInfoSection({
                 ))}
               </div>
             ) : null}
+
+            {section?.note?.length ? (
+              <RichText blocks={section.note} className="contact-info-section__note" />
+            ) : null}
           </div>
 
           {/* mobile wave divider between panel and image */}

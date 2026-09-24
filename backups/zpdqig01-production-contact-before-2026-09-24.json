@@ -1,0 +1,89 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "contact-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Contact Us"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/contact-us",
+  "sections": [
+    {
+      "_key": "contactInfo",
+      "_type": "entriesSection",
+      "entries": [
+        {
+          "_key": "contact-address",
+          "_type": "entry",
+          "href": "https://maps.app.goo.gl/jVbwRcqpRdNSYe2h7",
+          "iconType": "location",
+          "label": "Campus Address",
+          "text": "Sharjah American International School - Sharjah Campus\nTha’alabah Bin Sa’ad St.  Near Al Ramaqia Park, Sharjah"
+        },
+        {
+          "_key": "contact-phone",
+          "_type": "entry",
+          "href": "tel:+97165380000",
+          "iconType": "phone",
+          "label": "Phone",
+          "text": "+971 6 538 0000"
+        },
+        {
+          "_key": "contact-email",
+          "_type": "entry",
+          "href": "mailto: sais@saissharjah.com",
+          "iconType": "email",
+          "label": "Email",
+          "text": " sais@saissharjah.com"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Investing in Continuous Professional Growth"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus entrance",
+        "asset": {
+          "_ref": "image-314c5ac5ed49c20abfdb3f43cd6de76f0c22f2a4-1560x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "contactInfo"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Contact Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "CONTACT US",
+      "asset": {
+        "_ref": "image-e457af5a9e8677946a94511afd944b6ac798f62e-1113x562-png",
+        "_type": "reference"
+      }
+    },
+    "title": "Contact Us | SAIS - UAQ"
+  },
+  "title": "Contact Us"
+}
