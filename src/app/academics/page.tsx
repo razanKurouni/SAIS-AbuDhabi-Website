@@ -11,6 +11,7 @@ import { ContactInfoSection } from "@/components/sections/contact-info-section";
 import { ApproachSectionBase } from "@/components/sections/approach-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
+import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { getAcademicsPage, getHomepage } from "@/lib/sanity";
 import type {
@@ -403,6 +404,7 @@ const fallbackCareerGuidanceSection: Required<AcademicsKindergartenFeatureSectio
 
 export default async function AcademicsPage() {
   const [data, academicsPage] = await Promise.all([getHomepage(), getAcademicsPage()]);
+  const careerGuidanceDetail = academicsPage?.careerGuidanceDetailSection;
   const academicsHero = academicsPage?.hero;
   const heroTitle = academicsHero?.heading?.title || fallbackHero.title;
   const heroImage = academicsHero?.image || fallbackHero.image;
@@ -479,6 +481,20 @@ export default async function AcademicsPage() {
         imageSide="right"
         titleId="academics-career-guidance-title"
       />
+
+      {careerGuidanceDetail ? (
+        <IntroFeatureSection
+          className="academics-career-guidance-detail-section"
+          titleId="academics-career-guidance-detail-title"
+          section={{ heading: careerGuidanceDetail.heading || { title: "" }, image: careerGuidanceDetail.image }}
+          fallbackSection={{ heading: { title: "" }, image: {} }}
+          panelColor={careerGuidanceDetail.panelColor || "#D97252"}
+          accentColor={careerGuidanceDetail.waveColor || "#216B97"}
+          titleColor={careerGuidanceDetail.titleColor || "#ffffff"}
+          textColor={careerGuidanceDetail.textColor || "#ffffff"}
+          imagePosition={careerGuidanceDetail.imagePosition || "center"}
+        />
+      ) : null}
 
       <AcademicsSkillsSection
         section={academicsPage?.skillsSection}

@@ -98,7 +98,7 @@ export function IntroFeatureSection({
   };
 
   return (
-    <section className={`intro-feature ${className}`.trim()} aria-labelledby={titleId} style={style}>
+    <section className={`intro-feature ${className}`.trim()} aria-labelledby={title ? titleId : undefined} style={style}>
       <Reveal
         className="intro-feature__layout"
         threshold={0.18}
@@ -125,9 +125,11 @@ export function IntroFeatureSection({
           flipped
         >
           <div className="intro-feature__content">
-            <h2 id={titleId} className="intro-feature__title">
-              {title}
-            </h2>
+            {title ? (
+              <h2 id={titleId} className="intro-feature__title">
+                {title}
+              </h2>
+            ) : null}
             <RichText blocks={description} className="intro-feature__description" />
             {showCtas ? (
               <CtaList ctas={section?.ctas} className="intro-feature__actions" withArrow={ctaArrow} />
