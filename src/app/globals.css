@@ -4410,29 +4410,9 @@ a.contact-info-section__item-text:hover {
   margin-top: 24px;
 }
 
-.admissions-book-tour-virtual-tour.intro-feature {
-  background: #f2f2f2;
-  padding-top: clamp(52px, 6vw, 82px);
-  padding-bottom: clamp(52px, 6vw, 82px);
-}
 
-.admissions-book-tour-virtual-tour .intro-feature__media {
-  padding: clamp(38px, 4vw, 60px) 0;
-}
 
-.admissions-book-tour-page .admissions-book-tour-virtual-tour .intro-feature__media {
-  padding:  0;
-}
-.admissions-book-tour-virtual-tour .intro-feature__image-shell {
-  aspect-ratio: 393 / 338;
-  box-shadow: none;
-}
 
-.admissions-book-tour-virtual-tour .intro-feature__title {
-  width: 100%;
-  max-width: none;
-  color: #ffffff;
-}
 
 /* Matches the header actions: white pill, blue rule, blue circled arrow. */
 .cta-link--with-arrow {
@@ -4454,26 +4434,8 @@ a.contact-info-section__item-text:hover {
   transition: background 280ms ease, color 280ms ease, transform 280ms ease;
 }
 
-.admissions-book-tour-virtual-tour .intro-feature__actions .cta-link {
-  --cta-link-accent: var(--sais-primary);
 
-  color: var(--sais-primary);
-  border: 1px solid var(--sais-primary);
-  background-color: #ffffff;
-  transition: background-color 280ms ease, color 280ms ease, transform 280ms ease;
-}
 
-.admissions-book-tour-virtual-tour .intro-feature__actions .cta-link:hover {
-  color: #ffffff;
-  background-color: var(--sais-primary);
-  transform: translateY(-2px);
-}
-
-.admissions-book-tour-virtual-tour .intro-feature__actions .cta-link:hover .cta-link__icon {
-  color: var(--sais-primary);
-  background: #ffffff;
-  transform: translateX(2px);
-}
 
 .intro-feature__image {
   object-fit: cover;
@@ -10281,9 +10243,6 @@ img:where(
     transform: translate(-50%, -50%) rotate(90deg);
     transform-origin: center;
   }
-  .admissions-book-tour-page .intro-feature.admissions-book-tour-virtual-tour .intro-feature__curve-mask{
-    fill: #808080;
-  }
   .intro-feature__curve-mask {
     fill: var(--sais-primary);
     top: 62%;
@@ -15859,11 +15818,6 @@ a.school-policy-card__cover:hover {
 .intro-feature.admissions-application-requirements{
   background: linear-gradient(to top, #fff 0% 50%, #F2F2F2 50% 100%);
 }
-.intro-feature.admissions-book-tour-virtual-tour{
-  background: linear-gradient(to top, #fff 0% 50%, #F2F2F2 50% 100%);
-      padding-top: 0;
-
-}
 .editorial-split-listed .editorial-split-section__inner {
   gap: clamp(32px, 5vw, 70px);
 }
@@ -16339,22 +16293,8 @@ a.school-policy-card__cover:hover {
  * (the global list reset zeroes the padding). They take the same indent as
  * the other intro-feature lists, so the markers line up with the paragraphs.
  */
-.admissions-book-tour-virtual-tour .intro-feature__description ul {
-  display: grid;
-  gap: 2px;
-  margin: 0;
-  padding-left: 18px;
-  list-style: disc;
-}
 
-.admissions-book-tour-virtual-tour .intro-feature__description li {
-  margin: 0;
-  padding-left: 4px;
-}
 
-.admissions-book-tour-virtual-tour .intro-feature__description li::marker {
-  font-size: 0.78em;
-}
 
 /* Health & safety intro: the title keeps the line break typed in the Studio and is wide enough for two lines on desktop. */
 .health-safety-intro-feature .intro-feature__title {
@@ -16724,13 +16664,15 @@ a.school-policy-card__cover:hover {
 @media (max-width: 767px) {
   .intro-feature.academics-elementary-assessment-detail .intro-feature__wave,
   .intro-feature.academics-kg-assessment-feature .intro-feature__wave,
-  .intro-feature.academics-career-guidance-detail-section .intro-feature__wave {
+  .intro-feature.academics-career-guidance-detail-section .intro-feature__wave,
+  .intro-feature.admissions-tour-experience .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
   .intro-feature.academics-elementary-assessment-detail .intro-feature__curve-mask,
   .intro-feature.academics-kg-assessment-feature .intro-feature__curve-mask,
-  .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask {
+  .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask,
+  .intro-feature.admissions-tour-experience .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -16784,5 +16726,79 @@ a.school-policy-card__cover:hover {
 @media (max-width: 767px) {
   .faq-grid-section__content--full .faq-grid-section__grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Book a Tour: teal band with centred header, experience block and the form card */
+.admissions-tour-band {
+  background: var(--admissions-tour-band-bg, #3D9CAA);
+  padding-top: clamp(44px, 5vw, 64px);
+}
+
+.admissions-tour-band__header {
+  width: min(85%, 760px);
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.admissions-tour-band__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1.3rem, 1.8vw, 1.7rem);
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: pre-line;
+}
+
+.admissions-tour-band__subtitle {
+  max-width: 560px;
+  margin: clamp(16px, 1.8vw, 24px) auto 0;
+  color: #ffffff;
+  font-size: clamp(0.82rem, 0.9vw, 0.92rem);
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.intro-feature.admissions-tour-experience {
+  background: transparent;
+  padding-top: clamp(28px, 3.4vw, 46px);
+  padding-bottom: 0;
+}
+
+.admissions-tour-experience .intro-feature__image-shell {
+  box-shadow: none;
+}
+
+.admissions-book-tour-page .admissions-tour-form {
+  background: linear-gradient(to bottom, transparent 0%, transparent 42%, #ffffff 42%, #ffffff 100%);
+  padding-top: clamp(40px, 4.6vw, 64px);
+}
+
+.admissions-tour-form--solo .admissions-tour-form__inner {
+  grid-template-columns: 1fr;
+}
+
+.admissions-book-tour-page .admissions-tour-form__card {
+  border-radius: 22px;
+  background: #6F7175;
+  padding: clamp(30px, 3.4vw, 46px) clamp(30px, 3.6vw, 52px) clamp(30px, 3.2vw, 44px);
+}
+
+.admissions-book-tour-page .admissions-tour-form__submit {
+  color: #6F7175;
+}
+
+.admissions-book-tour-page .admissions-tour-form__submit-icon {
+  background: #6F7175;
+}
+
+@media (max-width: 767px) {
+  .admissions-tour-band__header {
+    width: calc(100% - 32px);
+  }
+
+  .admissions-book-tour-page .admissions-tour-form {
+    background: linear-gradient(to bottom, transparent 0%, transparent 30%, #ffffff 30%, #ffffff 100%);
   }
 }

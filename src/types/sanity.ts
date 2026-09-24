@@ -318,8 +318,8 @@ export type AdmissionsBookTourPageData = {
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
   introSection?: ImageTextSection;
+  experienceSection?: ImageTextSection;
   formSection?: AdmissionsTourFormSection;
-  virtualTourSection?: ImageTextSection;
 };
 
 export type ApplicationStep = {

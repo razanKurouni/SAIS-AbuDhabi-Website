@@ -1,0 +1,303 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "admissions-book-tour-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Book\na Tour"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School entrance and UAE flags",
+      "asset": {
+        "_ref": "image-bf3a69902c77e8e3143c477d67efb03341b57f44-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School entrance and UAE flags",
+      "asset": {
+        "_ref": "image-bf3a69902c77e8e3143c477d67efb03341b57f44-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/admissions/book-a-tour",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "tour-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-intro-span",
+                "_type": "span",
+                "text": "We believe the best way to experience our community is to see it in action. Our campus tours offer prospective students and their families a firsthand look at our vibrant learning environment, facilities, and welcoming culture."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "tour-list-heading",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-list-heading-span",
+                "_type": "span",
+                "text": "During the tour you will:"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "tour-classrooms",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-classrooms-span",
+                "_type": "span",
+                "text": "Visit our classrooms, science labs, libraries, and sports areas"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "tour-programs",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-programs-span",
+                "_type": "span",
+                "text": "Learn about our academic programs and extracurricular activities"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "tour-faculty",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-faculty-span",
+                "_type": "span",
+                "text": "Meet faculty and administrators"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "tour-community",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-community-span",
+                "_type": "span",
+                "text": "Discover what makes SAIS a unique place to learn and grow"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "tour-availability",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-availability-span",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Tours are available by appointment throughout the week."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "tour-welcome",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-welcome-span",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "We welcome families of all grade levels and encourage you to bring any questions you may have."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "tour-hours",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-hours-label",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Tour Hours:"
+              },
+              {
+                "_key": "tour-hours-value",
+                "_type": "span",
+                "text": " Monday to Thursday; 3:00 - 4:30 PM."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Book A Campus Tour"
+      },
+      "slot": "introSection"
+    },
+    {
+      "_key": "formSection",
+      "_type": "formSection",
+      "errorMessage": "Sorry, your request could not be sent. Please try again.",
+      "recipientEmail": "razan@formulatecreative.com",
+      "slot": "formSection",
+      "submitLabel": "Submit",
+      "successMessage": "Thank you. Your tour request has been received."
+    },
+    {
+      "_key": "virtualTourSection",
+      "_type": "imageTextSection",
+      "ctas": [
+        {
+          "_key": "virtual-tour",
+          "_type": "cta",
+          "href": "#",
+          "label": "Virtual Tour"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "virtual-tour-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-intro-span",
+                "_type": "span",
+                "text": "Can’t visit in person? Take a 360° virtual tour of our campus from anywhere in the world."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "virtual-tour-list-heading",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-list-heading-span",
+                "_type": "span",
+                "text": "Our interactive virtual tour includes:"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "virtual-tour-spaces",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-spaces-span",
+                "_type": "span",
+                "text": "Panoramic views of learning spaces"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "virtual-tour-activities",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-activities-span",
+                "_type": "span",
+                "text": "Video highlights of student activities and events"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "virtual-tour-facilities",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-facilities-span",
+                "_type": "span",
+                "text": "Narrated walkthroughs of key facilities"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "virtual-tour-life",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "virtual-tour-life-span",
+                "_type": "span",
+                "text": "Insights into student life at SAIS"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          }
+        ],
+        "title": "Virtual Tour Experience"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students learning in the classroom",
+        "asset": {
+          "_ref": "image-d9229513651447c80a76f7d9cac62eaecf82b3db-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "virtualTourSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Book a campus tour and experience SAIS - UAQ first-hand.",
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School entrance and UAE flags",
+      "asset": {
+        "_ref": "image-bf3a69902c77e8e3143c477d67efb03341b57f44-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Book a Tour | SAIS - UAQ"
+  },
+  "title": "Book a Tour"
+}

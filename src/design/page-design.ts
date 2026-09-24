@@ -578,19 +578,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "introSection": {
-      "imagePosition": "left",
-      "theme": "light"
-    },
-    "virtualTourSection": {
-      "backgroundColor": "#808080",
-      "ctas": [
-        {
-          "variant": "secondary"
-        }
-      ],
-      "imagePosition": "left",
+      "backgroundColor": "#3D9CAA",
       "textColor": "#ffffff",
-      "theme": "light",
+      "titleColor": "#ffffff"
+    },
+    "experienceSection": {
+      "backgroundColor": "#27779D",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
       "titleColor": "#ffffff"
     }
   },

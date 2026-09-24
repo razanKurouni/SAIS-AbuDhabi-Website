@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
+import { Reveal } from "@/components/ui/reveal";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AdmissionsTourFormSection } from "@/components/sections/admissions-tour-form-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
@@ -66,23 +68,40 @@ export default async function AdmissionsBookTourPage() {
         ariaLabel={innerNavigation?.ariaLabel}
       />
 
-      <AdmissionsTourFormSection section={page?.formSection} introSection={page?.introSection} />
+      <section
+        className="admissions-tour-band"
+        aria-labelledby="admissions-tour-band-title"
+        style={{ "--admissions-tour-band-bg": page?.introSection?.backgroundColor || "#3D9CAA" } as CSSProperties}
+      >
+        {page?.introSection?.heading?.title || page?.introSection?.heading?.subtitle ? (
+          <Reveal className="admissions-tour-band__header" threshold={0.16}>
+            {page.introSection.heading?.title ? (
+              <h2 id="admissions-tour-band-title" className="admissions-tour-band__title">
+                {page.introSection.heading.title}
+              </h2>
+            ) : null}
+            {page.introSection.heading?.subtitle ? (
+              <p className="admissions-tour-band__subtitle">{page.introSection.heading.subtitle}</p>
+            ) : null}
+          </Reveal>
+        ) : null}
 
-      {page?.virtualTourSection ? (
-        <IntroFeatureSection
-          section={page.virtualTourSection}
-          fallbackSection={page.virtualTourSection}
-          className="admissions-book-tour-virtual-tour"
-          titleId="admissions-book-tour-virtual-tour-title"
-          panelColor={page.virtualTourSection.backgroundColor || "#808080"}
-          accentColor="#00a5b2"
-          titleColor={page.virtualTourSection.titleColor || "#ffffff"}
-          textColor={page.virtualTourSection.textColor || "#ffffff"}
-          imagePosition="center"
-          showCtas
-          ctaArrow
-        />
-      ) : null}
+        {page?.experienceSection ? (
+          <IntroFeatureSection
+            section={page.experienceSection}
+            fallbackSection={page.experienceSection}
+            className="admissions-tour-experience"
+            titleId="admissions-tour-experience-title"
+            panelColor={page.experienceSection.backgroundColor || "#27779D"}
+            accentColor="#D97252"
+            titleColor={page.experienceSection.titleColor || "#ffffff"}
+            textColor={page.experienceSection.textColor || "#ffffff"}
+            imagePosition={page.experienceSection.imagePosition || "center"}
+          />
+        ) : null}
+
+        <AdmissionsTourFormSection section={page?.formSection} />
+      </section>
     </SitePageShell>
   );
 }

@@ -45,16 +45,23 @@ export function AdmissionsTourFormSection({ section, introSection }: AdmissionsT
     }
   }
 
+  const hasCopy = Boolean(introSection?.heading?.title || introSection?.heading?.description?.length);
+
   return (
-    <section className="admissions-tour-form" aria-label={section?.ariaLabel || "Book a campus tour"}>
+    <section
+      className={`admissions-tour-form${hasCopy ? "" : " admissions-tour-form--solo"}`}
+      aria-label={section?.ariaLabel || "Book a campus tour"}
+    >
       <div className="admissions-tour-form__inner">
-        <div className="admissions-tour-form__copy">
-          <h2>{introSection?.heading?.title || "Book A Campus Tour"}</h2>
-          <RichText
-            blocks={introSection?.heading?.description}
-            className="admissions-tour-form__description"
-          />
-        </div>
+        {hasCopy ? (
+          <div className="admissions-tour-form__copy">
+            <h2>{introSection?.heading?.title}</h2>
+            <RichText
+              blocks={introSection?.heading?.description}
+              className="admissions-tour-form__description"
+            />
+          </div>
+        ) : null}
 
       <form className="admissions-tour-form__card" onSubmit={handleSubmit}>
         <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" hidden />

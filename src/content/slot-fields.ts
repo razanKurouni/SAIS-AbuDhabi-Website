@@ -802,6 +802,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "admissions-book-tour-page/experienceSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "admissions-book-tour-page/formSection": {
     "section": [
       "errorMessage",
@@ -819,21 +832,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "heading"
     ],
     "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "admissions-book-tour-page/virtualTourSection": {
-    "section": [
-      "ctas",
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
+      "subtitle",
       "title"
     ],
     "card": [],
@@ -942,27 +941,13 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "admissions-page/policySection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "admissions-page/rollingAdmissionsSection": {
     "section": [
       "heading",
       "image"
     ],
     "heading": [
-      "description",
-      "title"
+      "description"
     ],
     "card": [],
     "cardEntry": [],
