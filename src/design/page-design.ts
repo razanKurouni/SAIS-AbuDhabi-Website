@@ -229,14 +229,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#6f7175",
       "theme": "light"
     },
-    "apSupportSection": {
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#27779d",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#35b2b8"
-    },
     "careerGuidanceSection": {
       "imagePosition": "center",
       "imageSide": "left",
@@ -265,19 +257,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "backgroundColor": "#216B97",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
-    },
-    "pathwaysDetailsSection": {
-      "imagePosition": "right",
-      "theme": "light"
-    },
-    "pathwaysSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "center",
-      "imageSide": "left",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#df7150"
     },
     "pathwaysSliderSection": {
       "slides": [

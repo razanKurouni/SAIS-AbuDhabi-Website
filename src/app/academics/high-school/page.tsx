@@ -189,34 +189,6 @@ const fallbackCurriculumSection: ImageTextSection = {
   imagePosition: "right",
 };
 
-
-const fallbackPathwaysSection: Required<AcademicsKindergartenFeatureSection> = {
-  heading: {
-    title: "Shaping Confident\nFuture Pathways",
-    description: [
-      paragraph(
-        "hs-pathways-1",
-        "Our Career and Guidance program is designed to support students in making informed and confident decisions about their future."
-      ),
-      paragraph(
-        "hs-pathways-2",
-        "We provide personalized guidance, reliable resources, and meaningful opportunities that help students understand their strengths, explore career pathways, and navigate university options."
-      ),
-    ],
-  },
-  image: {
-    url: "https://cdn.sanity.io/images/uwffig4f/sais-sharjah/ca7fcf0fc83f77f9374465abfdb00fe8c4fb8a1d-1560x1252.jpg",
-    alt: "SAIS - UAQ high school students receiving career guidance",
-  },
-  imageSide: "left",
-  imagePosition: "center",
-  backgroundColor: "#ffffff",
-  panelColor: "#00A5B2",
-  waveColor: "#df7150",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
-};
-
 const fallbackPathwaysSlider: AcademicsLearningSliderSectionData = {
   heading: { title: "" },
   slides: [
@@ -230,30 +202,6 @@ const fallbackPathwaysSlider: AcademicsLearningSliderSectionData = {
       textColor: "#ffffff",
     },
   ],
-};
-
-const fallbackPathwaysDetailsSection: ImageTextSection = {
-  heading: {
-    title: "High School Pathways Details",
-    description: [
-      paragraph(
-        "hs-pathways-details-health",
-        "For those interested in health-related professions, the Health and Life Sciences Pathway focuses on biology, chemistry, and anatomy, laying the groundwork for careers in healthcare, nursing, and environmental science."
-      ),
-      paragraph(
-        "hs-pathways-details-options",
-        "Students with a creative flair may pursue the Creative Arts and Design Pathway, which nurtures talent in visual arts, digital media, design thinking, and communication. Those who are drawn to social change, culture, or public service can follow the Humanities and Social Sciences Pathway, which emphasizes global studies, psychology, history, and law. We also offer a Career Readiness and Life Skills Pathway, supporting students of determination and those seeking practical, vocational, and functional life skills that lead to employment and independence. Lastly, the Advanced Placement (AP) Pathway offers high-achieving students the chance to challenge themselves with college-level courses and exams across multiple subjects, earning university credit and academic distinction."
-      ),
-    ],
-  },
-  image: {
-    url: "https://cdn.sanity.io/images/uwffig4f/sais-sharjah/ca7fcf0fc83f77f9374465abfdb00fe8c4fb8a1d-1560x1252.jpg",
-    alt: "SAIS - UAQ high school students playing football",
-  },
-  imagePosition: "right",
-  theme: "light",
-  backgroundColor: "#ffffff",
-  textColor: "#666b70",
 };
 
 const fallbackCareerGuidanceIntroSection: SectionHeadingData = {
@@ -322,51 +270,6 @@ const fallbackApOverviewSection: ImageTextSection = {
   theme: "light",
   backgroundColor: "#ffffff",
   textColor: "#6f7175",
-};
-
-const fallbackApSupportSection: Required<AcademicsKindergartenFeatureSection> = {
-  heading: {
-    title: "AP Courses Support",
-    description: [
-      {
-        ...paragraph("hs-ap-support-lead", "AP courses are supported by:"),
-        children: [
-          {
-            _key: "hs-ap-support-lead-span",
-            _type: "span",
-            marks: ["strong"],
-            text: "AP courses are supported by:",
-          },
-        ],
-      },
-      ...[
-        "Qualified AP-certified teachers with strong subject expertise",
-        "Academic advising to help students choose the right AP pathway",
-        "Access to digital AP resources and College Board tools",
-        "SAT, TOEFL, and IELTS preparation to complement college readiness",
-        "Alignment with our University and Career Counseling Program",
-      ].map((text, index) => ({
-        ...paragraph(`hs-ap-support-${index + 1}`, text),
-        listItem: "bullet" as const,
-        level: 1,
-      })),
-      paragraph(
-        "hs-ap-support-outcome",
-        "With the combination of the American High School Diploma and AP courses and exams, SAIS graduates are well-prepared for entry into universities in the USA, UK, Europe, Canada, the UAE, and beyond."
-      ),
-    ],
-  },
-  image: {
-    url: "/academics-high-school-ap-support.png",
-    alt: "SAIS - UAQ high school student discussing future university pathways",
-  },
-  imageSide: "right",
-  imagePosition: "center",
-  backgroundColor: "#27779d",
-  panelColor: "#27779d",
-  waveColor: "#00a5b2",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
 };
 
 const fallbackApBenefitsSection: AcademicsApBenefitsSectionData = {
@@ -485,14 +388,6 @@ export default async function AcademicsHighSchoolPage() {
 
   const careerGuidanceSection = highSchoolPage?.careerGuidanceSection || fallbackCareerGuidanceSection;
 
-  const pathwaysSection = highSchoolPage?.pathwaysSection || fallbackPathwaysSection;
-  const pathwaysIntroSection: ImageTextSection = {
-    heading: pathwaysSection.heading || fallbackPathwaysSection.heading,
-    image: pathwaysSection.image || fallbackPathwaysSection.image,
-    imagePosition: "left",
-    theme: "teal",
-  };
-
   const storedPathwaysSlider = highSchoolPage?.pathwaysSliderSection || fallbackPathwaysSlider;
   /* The Career Guidance heading sits directly above this slider, so the slider
      runs without a title of its own, whatever the Studio still holds. */
@@ -500,14 +395,6 @@ export default async function AcademicsHighSchoolPage() {
     ...storedPathwaysSlider,
     heading: { ...storedPathwaysSlider.heading, title: "" },
   };
-  const pathwaysDetailsSection: ImageTextSection = {
-    ...fallbackPathwaysDetailsSection,
-    ...highSchoolPage?.pathwaysDetailsSection,
-    heading: highSchoolPage?.pathwaysDetailsSection?.heading || fallbackPathwaysDetailsSection.heading,
-    image: highSchoolPage?.pathwaysDetailsSection?.image || fallbackPathwaysDetailsSection.image,
-    imagePosition: "right",
-  };
-
   const apDiplomaSection: ImageTextSection = {
     ...fallbackApDiplomaSection,
     ...highSchoolPage?.apDiplomaSection,
@@ -523,8 +410,6 @@ export default async function AcademicsHighSchoolPage() {
     image: highSchoolPage?.apOverviewSection?.image || fallbackApOverviewSection.image,
     imagePosition: "left",
   };
-
-  const apSupportSection = highSchoolPage?.apSupportSection || fallbackApSupportSection;
 
   const apCoursesSection = highSchoolPage?.apCoursesSection || fallbackApCoursesSection;
   const apBenefitsSection = highSchoolPage?.apBenefitsSection || fallbackApBenefitsSection;
@@ -598,7 +483,7 @@ export default async function AcademicsHighSchoolPage() {
         fallbackParagraphs={[]}
         className="academics-high-school-curriculum-section"
         imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-        showTitle={false}
+        showTitle
       />
 
       <AcademicsElementaryAssessmentSection
@@ -610,35 +495,6 @@ export default async function AcademicsHighSchoolPage() {
       />
 
       
-      <EditorialSplitSection
-        id="academics-high-school-pathways-details"
-        title="High School Pathways Details"
-        section={pathwaysDetailsSection}
-        fallbackImage={fallbackPathwaysDetailsSection.image || {}}
-        fallbackParagraphs={[]}
-        className="academics-high-school-pathways-section"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
-        showTitle={false}
-      />
-
-      <IntroFeatureSection
-      
-        className="academics-elementary-curriculum-feature academics-high-school-future-pathways-feature grey"
-        titleId="academics-high-school-future-pathways-title"
-        section={pathwaysIntroSection}
-        fallbackSection={{
-          heading: fallbackPathwaysSection.heading,
-          image: fallbackPathwaysSection.image,
-          imagePosition: "left",
-          theme: "teal",
-        }}
-        panelColor={pathwaysSection.panelColor || fallbackPathwaysSection.panelColor}
-        accentColor={pathwaysSection.waveColor || fallbackPathwaysSection.waveColor}
-        titleColor={pathwaysSection.titleColor || fallbackPathwaysSection.titleColor}
-        textColor={pathwaysSection.textColor || fallbackPathwaysSection.textColor}
-        imagePosition={pathwaysSection.imagePosition || fallbackPathwaysSection.imagePosition}
-      />
-
       <section
         className="academics-high-school-career-guidance-center bg-[#f4f4f4] px-[7.5%] py-14 md:py-16"
         aria-labelledby="academics-high-school-career-guidance-intro-title"
@@ -679,17 +535,8 @@ export default async function AcademicsHighSchoolPage() {
         fallbackParagraphs={[]}
         className="academics-high-school-pathways-section"
         imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
-        showTitle={false}
+        showTitle
         preserveRichText
-      />
-
-      <AcademicsElementaryAssessmentSection
-        section={apSupportSection}
-        fallbackSection={fallbackApSupportSection}
-        className="academics-high-school-ap-support-section"
-        imageSide="right"
-        titleId="academics-high-school-ap-support-title"
-        showTitle={false}
       />
 
       <AcademicsSupportProgramsSliderSection

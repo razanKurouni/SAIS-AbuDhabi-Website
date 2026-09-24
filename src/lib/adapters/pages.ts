@@ -250,15 +250,12 @@ export function adaptHighSchool(page: CmsPage): AcademicsHighSchoolPageData {
     excellenceSection: imageText(s.get("excellenceSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
     careerGuidanceSection: imageText(s.get("careerGuidanceSection")),
-    pathwaysSection: imageText(s.get("pathwaysSection")),
     pathwaysSliderSection: s.has("pathwaysSliderSection")
       ? { heading: heading(s.get("pathwaysSliderSection")), slides: learningSlides(s.get("pathwaysSliderSection")) }
       : undefined,
-    pathwaysDetailsSection: imageText(s.get("pathwaysDetailsSection")),
     careerGuidanceIntroSection: heading(s.get("careerGuidanceIntroSection")),
     apDiplomaSection: imageText(s.get("apDiplomaSection")),
     apOverviewSection: imageText(s.get("apOverviewSection")),
-    apSupportSection: imageText(s.get("apSupportSection")),
     apCoursesSection: s.has("apCoursesSection")
       ? { heading: heading(s.get("apCoursesSection")), cards: iconCards(s.get("apCoursesSection")) }
       : undefined,

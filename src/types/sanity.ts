@@ -799,13 +799,10 @@ export type AcademicsHighSchoolPageData = {
   excellenceSection?: AcademicsKindergartenFeatureSection;
   curriculumSection?: ImageTextSection;
   careerGuidanceSection?: AcademicsKindergartenFeatureSection;
-  pathwaysSection?: AcademicsKindergartenFeatureSection;
   pathwaysSliderSection?: AcademicsLearningSliderSection;
-  pathwaysDetailsSection?: ImageTextSection;
   careerGuidanceIntroSection?: SectionHeading;
   apDiplomaSection?: ImageTextSection;
   apOverviewSection?: ImageTextSection;
-  apSupportSection?: AcademicsKindergartenFeatureSection;
   apCoursesSection?: AcademicsSupportProgramsSection;
   apBenefitsSection?: AcademicsApBenefitsSection;
 };
