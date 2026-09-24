@@ -284,12 +284,7 @@ export type AdmissionsApplicationPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  applicationProcess?: {
-    heading?: SectionHeading;
-    image?: SanityImage;
-    imageSide?: string;
-  };
-  timelinesSection?: ImageTextSection;
+  applicationProcess?: ImageTextSection;
   stepsSection?: ApplicationStepsSection;
   finalCta?: CalendarDownloadSection;
   mograHubAppBand?: MograHubAppBand;
@@ -327,6 +322,7 @@ export type ApplicationStep = {
   number?: number;
   title?: string;
   description?: string;
+  body?: PortableTextBlock[];
   backgroundColor?: string;
 };
 

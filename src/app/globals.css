@@ -4371,9 +4371,6 @@ a.contact-info-section__item-text:hover {
   letter-spacing: -0.01em;
   width: 600px;
 }
-.intro-feature.admissions-application-requirements.intro-feature__title {
-  color: #fff;
-}
 .admissions-book-tour-page .intro-feature__title {
   width: 100%;
   max-width: 100%;
@@ -10247,10 +10244,6 @@ img:where(
     fill: var(--sais-primary);
     top: 62%;
   }
-  .intro-feature.admissions-application-requirements .intro-feature__curve-mask {
-    fill: #00a5b2;
-    top: 62%;
-  }
   .intro-feature.academics-elementary-curriculum-feature .intro-feature__wave {
     fill: none;
     stroke: #d97252;
@@ -10278,10 +10271,6 @@ img:where(
   .health-safety-page .intro-feature__curve-mask,
   .admissions-page .intro-feature__curve-mask {
     fill: #707070;
-  }
-  .intro-feature.admissions-application-requirements .intro-feature__wave {
-        stroke: #d97252;
-
   }
   #admissions-fees-journey-title{
     max-width: 270px;
@@ -13141,10 +13130,46 @@ img:where(
   text-align: center;
 }
 
-.application-steps__grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(22px, 2.3vw, 34px);
+.application-steps__viewport {
+  --application-steps-gap: clamp(22px, 2.3vw, 34px);
+
+  overflow: hidden;
+  margin-top: -48px;
+  padding-top: 48px;
+}
+
+.application-steps__track {
+  display: flex;
+  gap: var(--application-steps-gap);
+  transition: transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.application-steps__track .application-step {
+  flex: 0 0 calc((100% - ((var(--application-steps-visible) - 1) * var(--application-steps-gap))) / var(--application-steps-visible));
+}
+
+.application-steps__dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: clamp(22px, 2.5vw, 32px);
+}
+
+.application-steps__dot {
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 1.5px solid #8a8f94;
+  border-radius: 999px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: background-color 220ms ease, border-color 220ms ease;
+}
+
+.application-steps__dot.is-active {
+  border-color: #d97252;
+  background: #d97252;
 }
 
 .application-step {
@@ -13198,10 +13223,6 @@ img:where(
     width: calc(100% - 32px);
   }
 
-  .application-steps__grid {
-    grid-template-columns: 1fr;
-    gap: 58px;
-  }
 
   .application-step {
     min-height: 0;
@@ -15678,9 +15699,6 @@ a.school-policy-card__cover:hover {
   .school-supplies-uniform-intro .editorial-split-section__media {
     aspect-ratio: 4 / 3;
   }
-  .admissions-application-page #admissions-application-process{
-    padding-bottom: 0px!important;
-  }
 }
 
 /* Food services: the cafeteria copy beside its image on the page grey, blue title. */
@@ -15810,13 +15828,6 @@ a.school-policy-card__cover:hover {
 .editorial-split-listed.editorial-split-section {
   background: var(--editorial-split-bg, #ffffff);
   padding: clamp(50px, 4.4vw, 62px) 0 clamp(38px, 4.4vw, 62px);
-}
-.editorial-split-listed.editorial-split-section#admissions-application-process {
-  background: #F2F2F2;
-  padding: clamp(50px, 4.4vw, 62px) 0 clamp(38px, 4.4vw, 62px);
-}
-.intro-feature.admissions-application-requirements{
-  background: linear-gradient(to top, #fff 0% 50%, #F2F2F2 50% 100%);
 }
 .editorial-split-listed .editorial-split-section__inner {
   gap: clamp(32px, 5vw, 70px);
@@ -16665,14 +16676,16 @@ a.school-policy-card__cover:hover {
   .intro-feature.academics-elementary-assessment-detail .intro-feature__wave,
   .intro-feature.academics-kg-assessment-feature .intro-feature__wave,
   .intro-feature.academics-career-guidance-detail-section .intro-feature__wave,
-  .intro-feature.admissions-tour-experience .intro-feature__wave {
+  .intro-feature.admissions-tour-experience .intro-feature__wave,
+  .intro-feature.admissions-application-process .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
   .intro-feature.academics-elementary-assessment-detail .intro-feature__curve-mask,
   .intro-feature.academics-kg-assessment-feature .intro-feature__curve-mask,
   .intro-feature.academics-career-guidance-detail-section .intro-feature__curve-mask,
-  .intro-feature.admissions-tour-experience .intro-feature__curve-mask {
+  .intro-feature.admissions-tour-experience .intro-feature__curve-mask,
+  .intro-feature.admissions-application-process .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -16801,4 +16814,63 @@ a.school-policy-card__cover:hover {
   .admissions-book-tour-page .admissions-tour-form {
     background: linear-gradient(to bottom, transparent 0%, transparent 30%, #ffffff 30%, #ffffff 100%);
   }
+}
+
+/* Intro feature with the image card on the right of the panel */
+@media (min-width: 768px) {
+  .intro-feature--image-right .intro-feature__layout {
+    flex-direction: row-reverse;
+  }
+
+  .intro-feature--image-right .intro-feature__image-shell {
+    margin-left: -50%;
+  }
+
+  .intro-feature--image-right .intro-feature__content {
+    padding-right: 30%;
+    padding-left: 10%;
+  }
+}
+
+/* Applications: process panel and steps on the page grey */
+.admissions-application-page .intro-feature.admissions-application-process {
+  background: #f4f4f4;
+}
+
+.admissions-application-page .application-steps {
+  background: #f4f4f4;
+  padding-top: clamp(56px, 6vw, 92px);
+  padding-bottom: clamp(36px, 4vw, 56px);
+}
+
+.admissions-application-page .application-step {
+  min-height: clamp(300px, 24vw, 360px);
+}
+
+.application-step__body {
+  margin-top: 24px;
+  color: #ffffff;
+  font-size: var(--sais-body-text-size);
+  line-height: var(--sais-body-text-line-height);
+  letter-spacing: var(--sais-body-text-letter-spacing);
+}
+
+.application-step__body p {
+  margin: 0;
+}
+
+.application-step__body p + p,
+.application-step__body ul {
+  margin-top: 16px;
+}
+
+.application-step__body ul {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 18px;
+  text-align: left;
+}
+
+.application-step__body li + li {
+  margin-top: 4px;
 }

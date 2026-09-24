@@ -1,0 +1,268 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "admissions-application-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Admissions\nApplication"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ kindergarten corridor",
+      "asset": {
+        "_ref": "image-5034b95d5ba94dbbcfb68491a8aa3cded5aee272-3198x2042-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ kindergarten corridor",
+      "asset": {
+        "_ref": "image-5034b95d5ba94dbbcfb68491a8aa3cded5aee272-3198x2042-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/admissions/applications",
+  "sections": [
+    {
+      "_key": "applicationProcess",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "application-process-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-process-1-span",
+                "_type": "span",
+                "text": "To proceed with the registration process, we kindly ask you to complete the online form by providing the required details."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "b168c27b4b03",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-process-1-span",
+                "_type": "span",
+                "text": "Once you have entered all the information, please ensure you click the Submit button at the end of the form. A confirmation email will automatically be sent to both parents’ email addresses, including a PDF attachment of the submitted details. We kindly request you to review the information carefully for accuracy."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "91ebde6c7c49",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-process-1-span",
+                "_type": "span",
+                "text": "To finalize the registration, please print the attached form and bring it to the school along with all the required documents listed in the confirmation email. Before beginning, please ensure you have the following documents available:"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "d360c7d36b97",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-process-1-span",
+                "_type": "span",
+                "text": "Your child’s passport and Emirates ID"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "09d15969c9eb",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-process-1-span",
+                "_type": "span",
+                "text": "Emirates ID copies for both parents"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          }
+        ],
+        "title": "Application Process"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students conducting a laboratory experiment",
+        "asset": {
+          "_ref": "image-136edaf0bc13061164ad29bc891a3952c041be47-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "applicationProcess"
+    },
+    {
+      "_key": "timelinesSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "application-timeline-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-timeline-1-span",
+                "_type": "span",
+                "text": "Our admissions requirements are designed to ensure that each student is placed at the appropriate academic level and is set up for success from the very beginning. To complete the application, parents are required to submit copies of the student’s and parents’ passports, Emirates ID cards (front and back), UAE visa pages for expatriate families, or the family book for UAE nationals. Additional required documents include recent passport-sized photographs in JPEG format, academic transcripts for the last two academic years along with the current year (for Grades 2–12), a transfer certificate, a completed medical file, and a copy of the vaccination card for kindergarten applicants."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "fdcd45391ffd",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "application-timeline-1-span",
+                "_type": "span",
+                "text": "These documents help us place each student appropriately and ensure they receive the academic and emotional support they need to succeed at SAIS."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Requirements"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ teacher working with a student in class",
+        "asset": {
+          "_ref": "image-295dba2d849593aa3bc139b6c795b7515a30d2fb-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "timelinesSection"
+    },
+    {
+      "_key": "stepsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "pre-registration",
+          "_type": "card",
+          "description": "The application process begins with the parent/guardian completing the official application form and signing the Entry Requirements and Commitment documents. Once submitted to the Registrar’s Office, our team will schedule a specific date for your child’s placement assessments and interview.",
+          "label": "1",
+          "title": "Pre-Registration"
+        },
+        {
+          "_key": "assessment-interview",
+          "_type": "card",
+          "description": "Following successful completion of all placement requirements, the registration process commences. During this stage, parents/ guardians must submit all the required documents to finalize enrollment. For comprehension information regarding registration procedures, fee structures, curriculum details, and additional school information, please contact the Registration Office.",
+          "label": "2",
+          "title": "Assessment & Interview"
+        },
+        {
+          "_key": "registration",
+          "_type": "card",
+          "description": "Once all documents are received by the school, registration with SPEA of the student is initiated by the school Registrar. Once the approval is received, the student will be placed in a specific class, and the parents are informed.",
+          "label": "3",
+          "title": "Registration"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Registration Process"
+      },
+      "slot": "stepsSection"
+    },
+    {
+      "_key": "finalCta",
+      "_type": "ctaSection",
+      "ctas": [
+        {
+          "_key": "klmub4id97",
+          "_type": "cta",
+          "href": "https://new-sais-main.vercel.app/admissions/applications",
+          "label": "Start Now"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Start the Pre-Registration Process Now"
+      },
+      "slot": "finalCta"
+    },
+    {
+      "_key": "mograHubAppBand",
+      "_type": "entriesSection",
+      "entries": [
+        {
+          "_key": "komub4id97",
+          "_type": "entry",
+          "iconType": "schoolCode",
+          "label": "School Code",
+          "text": "SAISD"
+        },
+        {
+          "_key": "kpmub4id97",
+          "_type": "entry",
+          "href": "https://play.google.com/store/apps/details?id=com.mogra.hub&hl=en",
+          "iconType": "android",
+          "label": "Google Play"
+        },
+        {
+          "_key": "kqmub4id97",
+          "_type": "entry",
+          "href": "https://apps.apple.com/ae/app/mograhub/id6736962827",
+          "iconType": "apple",
+          "label": "App Store"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "kmmub4id97",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "knmub4id97",
+                "_type": "span",
+                "text": "Attendance, timetable, homework and assignments, exam results and report cards, fee statements and school announcements — all in one app, for parents and students."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "eyebrow": "Parent & Student Mobile App",
+        "title": "Your School in Your Pocket - Download MograHUB"
+      },
+      "slot": "mograHubAppBand"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about the SAIS - UAQ application process and registration timelines.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ kindergarten corridor",
+      "asset": {
+        "_ref": "image-bf3a69902c77e8e3143c477d67efb03341b57f44-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Admissions Application | SAIS - UAQ"
+  },
+  "title": "Applications"
+}

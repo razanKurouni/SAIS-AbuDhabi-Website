@@ -1,5 +1,7 @@
-import type { CSSProperties } from "react";
-import { Reveal } from "@/components/ui/reveal";
+"use client";
+
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import type { ApplicationStepsSection as ApplicationStepsSectionData } from "@/types/sanity";
 
@@ -11,15 +13,41 @@ type StepStyle = CSSProperties & {
   "--application-step-color"?: string;
 };
 
+type TrackStyle = CSSProperties & {
+  "--application-steps-visible"?: number;
+};
+
+function useVisibleCount() {
+  const [count, setCount] = useState(3);
+  useEffect(() => {
+    const update = () => setCount(window.innerWidth <= 767 ? 1 : window.innerWidth <= 1100 ? 2 : 3);
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+  return count;
+}
+
+/** Numbered step cards; more cards than fit side by side slide one at a time with dots. */
 export function ApplicationStepsSection({ section }: ApplicationStepsSectionProps) {
   const steps = section?.steps || [];
+  const visible = useVisibleCount();
+  const [start, setStart] = useState(0);
+  const maxStart = Math.max(0, steps.length - visible);
+  const safeStart = Math.min(start, maxStart);
+  const dots = useMemo(() => Array.from({ length: maxStart + 1 }, (_, index) => index), [maxStart]);
 
   if (!steps.length) {
     return null;
   }
 
+  const trackStyle: TrackStyle = {
+    "--application-steps-visible": visible,
+    transform: `translateX(calc(-${safeStart} * ((100% - (${visible - 1} * var(--application-steps-gap))) / ${visible} + var(--application-steps-gap))))`,
+  };
+
   return (
-    <section className="application-steps" aria-labelledby="application-steps-title">
+    <section className="application-steps" aria-labelledby={section?.heading?.title ? "application-steps-title" : undefined}>
       <SectionReveal className="application-steps__inner">
         {section?.heading?.title ? (
           <h2 id="application-steps-title" className="application-steps__title">
@@ -27,23 +55,42 @@ export function ApplicationStepsSection({ section }: ApplicationStepsSectionProp
           </h2>
         ) : null}
 
-        <div className="application-steps__grid">
-          {steps.map((step, index) => (
-            <Reveal
-              as="article"
-              className="application-step"
-              delay={index * 100}
-              key={step._key || `${step.number}-${step.title}`}
-              style={{ "--application-step-color": step.backgroundColor } as StepStyle}
-            >
-              <span className="application-step__number" aria-hidden="true">
-                {step.number || index + 1}
-              </span>
-              <h3 className="application-step__title">{step.title}</h3>
-              <p className="application-step__description">{step.description}</p>
-            </Reveal>
-          ))}
+        <div className="application-steps__viewport">
+          <div className="application-steps__track" style={trackStyle}>
+            {steps.map((step, index) => (
+              <article
+                className="application-step"
+                key={step._key || `${step.number}-${step.title}`}
+                style={{ "--application-step-color": step.backgroundColor } as StepStyle}
+              >
+                <span className="application-step__number" aria-hidden="true">
+                  {step.number || index + 1}
+                </span>
+                <h3 className="application-step__title">{step.title}</h3>
+                {step.body?.length ? (
+                  <RichText blocks={step.body} className="application-step__body" />
+                ) : step.description ? (
+                  <p className="application-step__description">{step.description}</p>
+                ) : null}
+              </article>
+            ))}
+          </div>
         </div>
+
+        {dots.length > 1 ? (
+          <div className="application-steps__dots" aria-label="Application steps slider controls">
+            {dots.map((index) => (
+              <button
+                key={index}
+                type="button"
+                className={`application-steps__dot ${safeStart === index ? "is-active" : ""}`.trim()}
+                aria-label={`Show steps from ${index + 1}`}
+                aria-pressed={safeStart === index}
+                onClick={() => setStart(index)}
+              />
+            ))}
+          </div>
+        ) : null}
       </SectionReveal>
     </section>
   );

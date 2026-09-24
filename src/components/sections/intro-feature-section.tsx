@@ -18,6 +18,8 @@ type IntroFeatureSectionProps = {
   imagePosition?: string;
   showCtas?: boolean;
   ctaArrow?: boolean;
+  /** Puts the image card on the right of the panel instead of the left. */
+  imageSide?: "left" | "right";
 };
 
 type IntroFeatureStyle = CSSProperties & {
@@ -81,6 +83,7 @@ export function IntroFeatureSection({
   imagePosition = "center",
   showCtas = false,
   ctaArrow = false,
+  imageSide = "left",
 }: IntroFeatureSectionProps) {
   const baseFallback = customFallback || fallbackSection;
   const title = section?.heading?.title || baseFallback.heading.title;
@@ -98,7 +101,11 @@ export function IntroFeatureSection({
   };
 
   return (
-    <section className={`intro-feature ${className}`.trim()} aria-labelledby={title ? titleId : undefined} style={style}>
+    <section
+      className={`intro-feature ${imageSide === "right" ? "intro-feature--image-right" : ""} ${className}`.replace(/\s+/g, " ").trim()}
+      aria-labelledby={title ? titleId : undefined}
+      style={style}
+    >
       <Reveal
         className="intro-feature__layout"
         threshold={0.18}
@@ -122,7 +129,7 @@ export function IntroFeatureSection({
           fillColor={panelColor}
           accentColor={accentColor}
           strokeWidth={88}
-          flipped
+          flipped={imageSide !== "right"}
         >
           <div className="intro-feature__content">
             {title ? (

@@ -280,7 +280,6 @@ export function adaptAdmissionsApplication(page: CmsPage): AdmissionsApplication
   return {
     ...base(page),
     applicationProcess: imageText(s.get("applicationProcess")),
-    timelinesSection: imageText(s.get("timelinesSection")),
     stepsSection: s.has("stepsSection") ? { heading: heading(s.get("stepsSection")), steps: steps(s.get("stepsSection")) } : undefined,
     finalCta: download(s.get("finalCta")),
     mograHubAppBand: mograHubAppBand(s.get("mograHubAppBand")),

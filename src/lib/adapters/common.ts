@@ -245,6 +245,7 @@ export function steps(section?: CmsSection | null): ApplicationStep[] {
     number: card.label ? Number(card.label) || index + 1 : index + 1,
     title: card.title,
     description: card.description,
+    body: card.body?.length ? card.body : undefined,
   }));
 }
 

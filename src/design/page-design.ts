@@ -540,7 +540,10 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "admissions-application-page": {
     "applicationProcess": {
-      "imageSide": "right"
+      "backgroundColor": "#27779D",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#8CCFD9"
     },
     "hero": {
       "imagePosition": "center",
@@ -560,12 +563,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
         },
         {
           "backgroundColor": "#d97252"
+        },
+        {
+          "backgroundColor": "#00A5B2"
+        },
+        {
+          "backgroundColor": "#216B97"
         }
       ]
-    },
-    "timelinesSection": {
-      "imagePosition": "left",
-      "theme": "light"
     }
   },
   "admissions-book-tour-page": {

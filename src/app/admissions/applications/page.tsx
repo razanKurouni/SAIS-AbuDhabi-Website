@@ -3,7 +3,6 @@ import { SitePageShell } from "@/components/layout/site-page-shell";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { ApplicationStepsSection } from "@/components/sections/application-steps-section";
 import { AdmissionsRegistrationPopup } from "@/components/sections/admissions-registration-popup";
-import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { MograHubAppBand } from "@/components/sections/mograhub-app-band";
 import { PageHero } from "@/components/sections/page-hero";
@@ -70,33 +69,17 @@ export default async function AdmissionsApplicationPage() {
       />
 
       {page?.applicationProcess ? (
-        <EditorialSplitSection
-          id="admissions-application-process"
-          title={page.applicationProcess.heading?.title || "Application Process"}
-          section={{
-            heading: page.applicationProcess.heading ?? { title: "Application Process" },
-            image: page.applicationProcess.image,
-            imagePosition: page.applicationProcess.imageSide === "left" ? "left" : "right",
-          }}
-          fallbackImage={page.applicationProcess.image || {}}
-          fallbackParagraphs={[]}
-          className="editorial-split-listed admissions-application-process"
-          imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-          showTitle
-          preserveRichText
-        />
-      ) : null}
-
-      {page?.timelinesSection ? (
         <IntroFeatureSection
-          section={page.timelinesSection}
-          fallbackSection={page.timelinesSection}
-          className="admissions-application-requirements"
-          titleId="admissions-application-requirements-title"
-          panelColor="#00a5b2"
-          accentColor="var(--sais-coral)"
-          titleColor="#ffffff"
-          textColor="#ffffff"
+          section={page.applicationProcess}
+          fallbackSection={page.applicationProcess}
+          className="admissions-application-process"
+          titleId="admissions-application-process-title"
+          panelColor={page.applicationProcess.backgroundColor || "#27779D"}
+          accentColor="#00A5B2"
+          titleColor={page.applicationProcess.titleColor || "#8CCFD9"}
+          textColor={page.applicationProcess.textColor || "#ffffff"}
+          imagePosition={page.applicationProcess.imagePosition || "center"}
+          imageSide="right"
         />
       ) : null}
 

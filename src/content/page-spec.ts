@@ -223,7 +223,6 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Admissions",
     slots: [
       it("applicationProcess", "Application Process"),
-      it("timelinesSection", "Timelines"),
       cards("stepsSection", "Application Steps", { items: "steps" }),
       { slot: "finalCta", kind: "cta", label: "Final CTA" },
       entries("mograHubAppBand", "MograHub App Band"),
