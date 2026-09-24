@@ -625,7 +625,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "textColor": "#707278",
       "theme": "light",
-      "titleColor": "#27b2b9"
+      "titleColor": "#216B97"
     },
     "termsSection": {
       "leftColumn": [

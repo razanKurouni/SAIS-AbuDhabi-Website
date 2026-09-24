@@ -3317,6 +3317,15 @@ a.contact-info-section__item-text:hover {
   margin: 0;
 }
 
+.admissions-fees-journey__copy strong {
+  color: var(--sais-primary);
+  font-weight: 700;
+}
+
+.admissions-fees-journey__header:empty {
+  display: none;
+}
+
 .admissions-fees-journey__media {
   position: relative;
   aspect-ratio: 1.28 / 1;
