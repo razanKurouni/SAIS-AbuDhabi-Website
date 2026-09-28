@@ -46,7 +46,7 @@ export function FaqGridSection({ section, introSection }: FaqGridSectionProps) {
             {items.map((item, index) => (
               <Reveal
                 as="article"
-                className={`faq-grid-card faq-grid-card--${index % 2 === 0 ? "blue" : "teal"}`}
+                className={`faq-grid-card faq-grid-card--${index % 2 === 0 ? "teal" : "blue"}`}
                 delay={index * 70}
                 key={item._key || item.question}
               >

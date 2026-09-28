@@ -16678,10 +16678,6 @@ a.school-policy-card__cover:hover {
   align-content: start;
 }
 
-.faq-grid-section .faq-grid-card__question {
-  color: var(--sais-accent);
-}
-
 @media (max-width: 767px) {
   .faq-grid-section__content--full .faq-grid-section__grid {
     grid-template-columns: 1fr;
