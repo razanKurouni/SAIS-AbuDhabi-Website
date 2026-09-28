@@ -918,6 +918,7 @@ export type CareersRequirementColumn = {
   _key?: string;
   title?: string;
   intro?: string;
+  subtitle?: string;
   items?: string[];
 };
 

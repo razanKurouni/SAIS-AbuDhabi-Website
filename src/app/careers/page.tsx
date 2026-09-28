@@ -16,6 +16,7 @@ import type {
   ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   PortableTextBlock,
+  SanityImage,
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
@@ -63,7 +64,7 @@ const fallbackIntroDescription: PortableTextBlock[] = [
   },
 ];
 
-const fallbackIntroImage = {
+const fallbackIntroImage: SanityImage = {
   url: "/careers-work-for-sais.png",
   alt: "SAIS - UAQ staff members standing together",
 };
@@ -112,30 +113,28 @@ const fallbackCareSection: ContactInfoSectionData = {
 const fallbackRequirementsSection: CareersRequirementsSectionData = {
   columns: [
     {
-      _key: "our-commitment",
-      title: "Our Commitment",
-      intro: "Successful candidates will receive an excellent remuneration package including:",
-      items: [
-        "Competitive tax-free salary",
-        "Medical insurance",
-        "UAE working permit",
-        "Residence visa",
-        "Annual flight allowance",
-        "Tuition fee concession",
-        "Additional benefits in accordance with UAE Labour Law",
-      ],
+      _key: "leadership-roles",
+      title: "Roles",
+      subtitle: "Leadership & Administrative Roles",
+      items: ["Curriculum Coordinator", "KG Coordinator", "English HOD", "Social Worker / Counselor"],
     },
     {
-      _key: "qualifications-requirements",
-      title: "Qualifications & Requirements",
+      _key: "kg-elementary",
+      title: "Teaching Positions",
+      subtitle: "Kindergarten & Elementary",
+      items: ["KG Teacher", "Elementary Homeroom Teacher"],
+    },
+    {
+      _key: "subject-specialists",
+      subtitle: "Subject Specialists",
       items: [
-        "Certified professional teaching qualification at degree level (B.Ed., PGCE, PGDE, or equivalent in Primary Education for KG and Primary positions)",
-        "Subject teachers must hold a Bachelor's or Master's degree in the relevant subject",
-        "Minimum of 2 years of varied and demonstrable teaching experience at various school levels",
-        "Experience in American curriculum schools is advantageous but not mandatory",
-        "Proven ability to motivate and inspire students",
-        "Commitment to providing outstanding teaching and learning",
-        "Desire to work in a challenging environment with genuine career advancement opportunities",
+        "Science (General Science, Chemistry, Biology, Physics)",
+        "Middle School English",
+        "Arabic",
+        "Arabic Social Studies (SST)",
+        "Marketing / Accounting Teacher",
+        "Psychology",
+        "Spanish",
       ],
     },
   ],
@@ -264,7 +263,10 @@ export default async function CareersPage() {
           </div>
 
           {introImage.url ? (
-            <div className="careers-work__image-wrap">
+            <div
+              className="careers-work__image-wrap"
+              style={introImage.width && introImage.height ? { aspectRatio: `${introImage.width} / ${introImage.height}` } : undefined}
+            >
               <Image
                 src={introImage.url}
                 alt={introImage.alt || introTitle}
@@ -277,6 +279,11 @@ export default async function CareersPage() {
           ) : null}
         </SectionReveal>
       </section>
+
+      <CareersRequirementsSection
+        section={careersPage?.requirementsSection}
+        fallbackSection={fallbackRequirementsSection}
+      />
 
       <EditorialSplitSection
         id="careers-community"
@@ -293,11 +300,6 @@ export default async function CareersPage() {
         fallbackSection={fallbackCareSection}
         className="careers-care-section"
         titleId="careers-care-title"
-      />
-
-      <CareersRequirementsSection
-        section={careersPage?.requirementsSection}
-        fallbackSection={fallbackRequirementsSection}
       />
 
       <CareersJoinTeamSection

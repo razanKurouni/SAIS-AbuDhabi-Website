@@ -27,7 +27,12 @@ export function CareersRequirementsSection({
             delay={index * 90}
             key={column._key || `${column.title}-${index}`}
           >
-            {column.title ? <h2 className="careers-requirements__title">{column.title}</h2> : null}
+            {column.title ? (
+              <h2 className="careers-requirements__title">{column.title}</h2>
+            ) : (
+              <div className="careers-requirements__title careers-requirements__title--spacer" aria-hidden="true" />
+            )}
+            {column.subtitle ? <h3 className="careers-requirements__subtitle">{column.subtitle}</h3> : null}
             {column.intro ? <p className="careers-requirements__intro">{column.intro}</p> : null}
             {column.items?.length ? (
               <ul className="careers-requirements__list">

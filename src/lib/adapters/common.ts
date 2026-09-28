@@ -348,6 +348,7 @@ export function requirementColumns(section?: CmsSection | null): CareersRequirem
   return cards(section).map((card) => ({
     _key: card._key,
     title: card.title,
+    subtitle: card.subtitle,
     intro: card.description,
     items: (card.entries || []).map((entry) => entry.text || entry.label || "").filter(Boolean),
   }));
