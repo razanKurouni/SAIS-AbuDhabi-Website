@@ -145,11 +145,12 @@ export default async function OurCampusPage() {
       ) : null}
       <EditorialSplitSection
         id="campus-elementary-library"
-        title={fallbackElementaryLibrary.heading.title}
+        title={ourCampusPage?.elementaryLibrarySection ? "" : fallbackElementaryLibrary.heading.title}
         section={{
           ...ourCampusPage?.elementaryLibrarySection,
-          heading:
-            ourCampusPage?.elementaryLibrarySection?.heading ?? fallbackElementaryLibrary.heading,
+          heading: ourCampusPage?.elementaryLibrarySection
+            ? ourCampusPage.elementaryLibrarySection.heading
+            : fallbackElementaryLibrary.heading,
           imagePosition:
             ourCampusPage?.elementaryLibrarySection?.imagePosition ||
             fallbackElementaryLibrary.imagePosition,

@@ -56,7 +56,7 @@ export function EditorialSplitSection({
     <section
       id={id}
       className={`editorial-split-section ${imageFirst ? "is-image-left" : "is-image-right"} ${className}`.trim()}
-      aria-labelledby={id ? `${id}-title` : undefined}
+      aria-labelledby={id && resolvedTitle ? `${id}-title` : undefined}
       style={style}
     >
       <SectionReveal className="editorial-split-section__reveal">
@@ -81,7 +81,7 @@ export function EditorialSplitSection({
           ) : null}
 
           <div className="editorial-split-section__body">
-            {showTitle ? (
+            {showTitle && resolvedTitle ? (
               <h2 id={id ? `${id}-title` : undefined} className="editorial-split-section__title">
                 {resolvedTitle}
               </h2>
