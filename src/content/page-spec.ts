@@ -286,6 +286,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("facilities", "Facilities"),
       it("librarySection", "Library"),
       it("elementaryLibrarySection", "Elementary Library"),
+      cards("facilitiesGrid", "Facilities Grid", { items: "cards" }),
     ],
   },
   {

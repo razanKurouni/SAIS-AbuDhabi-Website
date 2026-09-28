@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { CampusFacilitiesGridSection } from "@/components/sections/campus-facilities-grid-section";
 import { CampusVideoSection } from "@/components/sections/campus-video-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -165,6 +166,8 @@ export default async function OurCampusPage() {
         showTitle
         preserveRichText
       />
+
+      <CampusFacilitiesGridSection section={ourCampusPage?.facilitiesGrid} />
 
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

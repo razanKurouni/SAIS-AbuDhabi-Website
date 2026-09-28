@@ -1345,6 +1345,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "our-campus-page/facilitiesGrid": {
+    "section": [
+      "cards"
+    ],
+    "heading": [],
+    "card": [
+      "description",
+      "image",
+      "title"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
   "our-campus-page/intro": {
     "section": [
       "body",

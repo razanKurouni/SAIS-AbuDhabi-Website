@@ -471,6 +471,7 @@ export type OurCampusPageData = {
   facilities?: ImageTextSection;
   librarySection?: ImageTextSection;
   elementaryLibrarySection?: ImageTextSection;
+  facilitiesGrid?: { heading?: SectionHeading; cards: FeatureCard[] };
 };
 
 export type WellbeingIconCard = {

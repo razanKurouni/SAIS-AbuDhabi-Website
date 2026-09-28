@@ -14559,6 +14559,69 @@ a.school-policy-card__cover:hover {
   color: #62676c;
 }
 
+/* Facilities grid: three image cards per row on a light band. */
+.campus-facilities-grid {
+  background: #f2f2f2;
+  padding: clamp(44px, 5vw, 62px) 0 clamp(52px, 6vw, 80px);
+}
+
+.campus-facilities-grid__inner {
+  width: min(85%, 1880px);
+  margin: 0 auto;
+}
+
+.campus-facilities-grid__title {
+  margin: 0 0 clamp(34px, 4vw, 52px);
+  color: var(--sais-accent);
+  text-align: center;
+}
+
+.campus-facilities-grid__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(40px, 4.5vw, 64px) clamp(16px, 1.6vw, 24px);
+  align-items: start;
+}
+
+.campus-facilities-grid .campus-facility-card__image {
+  aspect-ratio: 1.42 / 1;
+}
+
+.campus-facility-card__img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.campus-facilities-grid .campus-facility-card__title {
+  color: var(--sais-accent);
+  margin-bottom: 16px;
+}
+
+.campus-facilities-grid .campus-facility-card__text {
+  margin: 0;
+  color: #62676c;
+  font-size: var(--sais-body-text-size);
+  line-height: var(--sais-body-text-line-height);
+  letter-spacing: var(--sais-body-text-letter-spacing);
+}
+
+@media (max-width: 1023px) {
+  .campus-facilities-grid__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .campus-facilities-grid__inner {
+    width: calc(100% - 32px);
+  }
+
+  .campus-facilities-grid__grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+}
+
 .campus-facilities-showcase.editorial-split-section {
   padding: 62px 0;
   background: var(--sais-accent);
