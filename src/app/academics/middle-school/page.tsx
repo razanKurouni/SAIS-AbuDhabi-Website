@@ -344,7 +344,7 @@ export default async function AcademicsMiddleSchoolPage() {
         fallbackParagraphs={[]}
         className="academics-middle-school-overview-section"
         imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
-        showTitle={false}
+        showTitle
       />
 
       <IntroFeatureSection
