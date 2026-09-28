@@ -297,10 +297,10 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("commitment", "Our Commitment"),
       it("counselingSupportSection", "Counseling & Support"),
-      cards("proactiveApproach", "Proactive Approach"),
-      entries("counsellingSection", "Counselling"),
       it("selSection", "Social & Emotional Learning"),
       it("wellbeingFramework", "Wellbeing Framework"),
+      it("wellnessCampaigns", "Wellness Campaigns"),
+      it("classroomIntegration", "Classroom & Community"),
     ],
   },
   {

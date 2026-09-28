@@ -372,12 +372,10 @@ export function adaptStudentStaffWellbeing(page: CmsPage): StudentStaffWellbeing
     ...base(page),
     commitment: imageText(s.get("commitment")),
     counselingSupportSection: imageText(s.get("counselingSupportSection")),
-    proactiveApproach: s.has("proactiveApproach")
-      ? { heading: heading(s.get("proactiveApproach")), cards: iconCards(s.get("proactiveApproach")) }
-      : undefined,
-    counsellingSection: contactInfo(s.get("counsellingSection")),
     selSection: imageText(s.get("selSection")),
     wellbeingFramework: imageText(s.get("wellbeingFramework")),
+    wellnessCampaigns: imageText(s.get("wellnessCampaigns")),
+    classroomIntegration: imageText(s.get("classroomIntegration")),
   };
 }
 

@@ -501,17 +501,10 @@ export type StudentStaffWellbeingPageData = {
     imagePosition?: string;
   };
   counselingSupportSection?: ImageTextSection;
-  proactiveApproach?: {
-    heading?: SectionHeading;
-    cards?: WellbeingIconCard[];
-  };
-  counsellingSection?: ContactInfoSection;
-  selSection?: {
-    heading?: SectionHeading;
-    image?: SanityImage;
-    imagePosition?: string;
-  };
-  wellbeingFramework?: CurvedPanelSection;
+  selSection?: ImageTextSection;
+  wellbeingFramework?: ImageTextSection;
+  wellnessCampaigns?: ImageTextSection;
+  classroomIntegration?: ImageTextSection;
 };
 
 export type StudentInclusionPageData = {

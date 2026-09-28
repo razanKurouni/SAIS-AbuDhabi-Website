@@ -1,0 +1,383 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-staff-wellbeing-page",
+  "_rev": "Vnv6A4ouQqSNX98H66Vpgm",
+  "_system": {
+    "base": {
+      "id": "student-staff-wellbeing-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T07:25:26Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Student &\nStaff Wellbeing"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ building and flags",
+      "asset": {
+        "_ref": "image-c85012130fd29e62417034c8e0a8c03e81d0cd35-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ building and flags",
+      "asset": {
+        "_ref": "image-c85012130fd29e62417034c8e0a8c03e81d0cd35-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/student-staff-wellbeing",
+  "sections": [
+    {
+      "_key": "commitment",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "commitment-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "commitment-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Our comprehensive Well-Being Framework rests on four pillars (emotional, social, mental, and physical health) and is woven into every aspect of school life, from classroom routines to campus-wide initiatives. Through these layered supports and proactive initiatives, SAIS UAQ fosters an environment where every member of our community (students and staff alike) feels seen, supported, and empowered to thrive."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "subtitle": "At Sharjah American International School – UAQ Campus (SAIS UAQ), we are committed to nurturing the holistic well-being of both students and staff.",
+        "title": "Our Commitment"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students smiling in class",
+        "asset": {
+          "_ref": "image-38cc3aa2f8cd76ff8c050ed7fadda6f975e38d2f-3198x1454-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "commitment"
+    },
+    {
+      "_key": "counselingSupportSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "cs-team",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cs-team-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Licensed Counseling Team:"
+              },
+              {
+                "_key": "cs-team-t",
+                "_type": "span",
+                "marks": [],
+                "text": "We employ a full-time school counselor and assistant counselors who provide individual check-ins, small-group workshops, and crisis intervention as needed."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cs-open-door",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cs-open-door-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Open-Door Policy:"
+              },
+              {
+                "_key": "cs-open-door-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Every student and staff member may schedule drop-in sessions or refer peers, ensuring timely support for academic stress, interpersonal conflicts, or personal challenges."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "cs-outreach",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cs-outreach-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Parent & Family Outreach:"
+              },
+              {
+                "_key": "cs-outreach-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Counselors host regular webinars and one-on-one conferences to equip families with strategies for supporting well-being at home."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Dedicated Counseling &\nSupport Services"
+      },
+      "image": {
+        "_type": "picture",
+        "alt": "SAIS - UAQ student smiling while working on a craft activity",
+        "asset": {
+          "_ref": "image-237c19c32fc0b1e8bc4a79cd3fd58b232c26bf3b-1600x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "counselingSupportSection"
+    },
+    {
+      "_key": "proactiveApproach",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "events-awareness",
+          "_type": "card",
+          "description": "Events and school wide targeted awareness campaigns.",
+          "icon": {
+            "_type": "image",
+            "alt": "Events awareness icon",
+            "asset": {
+              "_ref": "image-406e4b509ea8f40a92d86f36ccc33c9230096fd9-375x379-png",
+              "_type": "reference"
+            }
+          }
+        },
+        {
+          "_key": "staff-sessions",
+          "_type": "card",
+          "description": "Wellbeing oriented sessions for staff.",
+          "icon": {
+            "_type": "image",
+            "alt": "Wellbeing sessions icon",
+            "asset": {
+              "_ref": "image-44d0ed5c99d21bebe53ab6498cd36c3c6cb11e1f-344x357-png",
+              "_type": "reference"
+            }
+          }
+        },
+        {
+          "_key": "communication-channels",
+          "_type": "card",
+          "description": "Diverse communication channels for wellbeing focused education for students, staff, and parents.",
+          "icon": {
+            "_type": "image",
+            "alt": "Communication channels icon",
+            "asset": {
+              "_ref": "image-af2b912e903b3e8e97ec2a39f2f55adbd33dc0ff-127x127-png",
+              "_type": "reference"
+            }
+          }
+        },
+        {
+          "_key": "open-door-policy",
+          "_type": "card",
+          "description": "Open door policy for wellbeing related concerns for all stakeholders.",
+          "icon": {
+            "_type": "image",
+            "alt": "Open door policy icon",
+            "asset": {
+              "_ref": "image-cf7df7456fbe96176b7dbbec9265fd819229d88c-86x127-png",
+              "_type": "reference"
+            }
+          }
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "proactive-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "proactive-intro-text",
+                "_type": "span",
+                "text": "Our team actively promotes wellbeing through:"
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "A Proactive Approach"
+      },
+      "slot": "proactiveApproach"
+    },
+    {
+      "_key": "counsellingSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "counselling-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "counselling-intro-text",
+                "_type": "span",
+                "text": "We provide comprehensive support for students and staff who have experienced difficulties:"
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "counselling-bullet-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "counselling-bullet-1-text",
+                "_type": "span",
+                "text": "Professional counseling sessions and emotional support from qualified social emotional counselors, wellbeing leads, and guidance counselors."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "counselling-bullet-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "counselling-bullet-2-text",
+                "_type": "span",
+                "text": "Group sessions and workshops for students and staff focused on different wellbeing focused themes."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          },
+          {
+            "_key": "counselling-bullet-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "counselling-bullet-3-text",
+                "_type": "span",
+                "text": "Personalized recovery pathways to restore wellbeing."
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "style": "normal"
+          }
+        ],
+        "title": "Counselling and\nSupport Services"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ counselling and support services",
+        "asset": {
+          "_ref": "image-02b09cb356d8bce39e0cdf0896f56a59fec47a81-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "counsellingSection"
+    },
+    {
+      "_key": "selSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sel-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sel-intro-text",
+                "_type": "span",
+                "text": "The Social and Emotional Learning (SEL) program supports students in developing essential life skills that promote wellbeing, resilience, and positive relationships. Through structured activities and guided experiences, students build self-awareness, emotional regulation, responsible decision-making, and social skills, enabling them to thrive both academically and personally."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Social and Emotional  Learning Program (SEL)"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ social and emotional learning support",
+        "asset": {
+          "_ref": "image-096f16de876edd10f80b91ff8c6c01dcbb02afd5-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "selSection"
+    },
+    {
+      "_key": "wellbeingFramework",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "wellbeing-framework",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "wellbeing-framework-text",
+                "_type": "span",
+                "text": "At our school, wellbeing is promoted through daily practices and structured programs, including Social and Emotional Learning (SEL) sessions, counseling support, and wellbeing initiatives.\n\nTeachers integrate regular check-ins, positive reinforcement, and inclusive strategies within their classrooms, while the school engages parents and provides early intervention when needed to ensure every student feels supported, safe, and ready to succeed."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Wellbeing Framework"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students exploring classroom learning activities",
+        "asset": {
+          "_ref": "image-044968258c448c40cb34ae16d4c9a5164cf43024-1566x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "wellbeingFramework"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about student and staff wellbeing support at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ building and flags",
+      "asset": {
+        "_ref": "image-c85012130fd29e62417034c8e0a8c03e81d0cd35-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Student & Staff Wellbeing | SAIS - UAQ"
+  },
+  "title": "Student & Staff Wellbeing"
+}

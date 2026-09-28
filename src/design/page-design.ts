@@ -1303,6 +1303,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "student-staff-wellbeing-page": {
+    "classroomIntegration": {
+      "backgroundColor": "#2FB5BC",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
+    },
     "commitment": {
       "imagePosition": "center"
     },
@@ -1311,13 +1317,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "left",
       "textColor": "#707278",
       "titleColor": "#216B97"
-    },
-    "counsellingSection": {
-      "imagePosition": "center",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#d97252"
     },
     "hero": {
       "imagePosition": "center",
@@ -1328,11 +1327,22 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "selSection": {
-      "imagePosition": "center"
+      "backgroundColor": "#2FB5BC",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
     },
     "wellbeingFramework": {
+      "backgroundColor": "#216B97",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#5FC1C7"
+    },
+    "wellnessCampaigns": {
+      "backgroundColor": "#ffffff",
       "imagePosition": "right",
-      "theme": "teal"
+      "textColor": "#707278",
+      "titleColor": "#216B97"
     }
   },
   "transportation-safety-page": {

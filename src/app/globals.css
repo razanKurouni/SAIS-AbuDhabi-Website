@@ -14773,11 +14773,19 @@ a.school-policy-card__cover:hover {
   margin-top: 26px;
 }
 
+.wellbeing-commitment__body p + p {
+  margin-top: 18px;
+}
+
+.wellbeing-commitment__body p:first-child {
+  font-weight: 700;
+}
+
 .wellbeing-commitment__body p {
   margin: 0;
   color: #ffffff;
   font-size: var(--sais-body-text-size);
-  font-weight: 500;
+  font-weight: 400;
   line-height: var(--sais-body-text-line-height);
   letter-spacing: var(--sais-body-text-letter-spacing);
 }
@@ -16724,7 +16732,10 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-tour-experience .intro-feature__wave,
   .intro-feature.admissions-application-process .intro-feature__wave,
   .intro-feature.student-programs-leadership .intro-feature__wave,
-  .intro-feature.student-programs-sga__panel .intro-feature__wave {
+  .intro-feature.student-programs-sga__panel .intro-feature__wave,
+  .intro-feature.wellbeing-sel-feature .intro-feature__wave,
+  .intro-feature.wellbeing-framework-feature .intro-feature__wave,
+  .intro-feature.wellbeing-classroom-feature .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16734,7 +16745,10 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-tour-experience .intro-feature__curve-mask,
   .intro-feature.admissions-application-process .intro-feature__curve-mask,
   .intro-feature.student-programs-leadership .intro-feature__curve-mask,
-  .intro-feature.student-programs-sga__panel .intro-feature__curve-mask {
+  .intro-feature.student-programs-sga__panel .intro-feature__curve-mask,
+  .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
+  .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
+  .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -17124,4 +17138,43 @@ a.school-policy-card__cover:hover {
   margin-bottom: 4px;
   color: var(--sais-accent);
   font-weight: 700;
+}
+
+/* Wellbeing: curved feature panels (SEL, framework, classroom integration) */
+.wellbeing-page .intro-feature.wellbeing-sel-feature,
+.wellbeing-page .intro-feature.wellbeing-classroom-feature {
+  padding: 62px 0;
+}
+
+.wellbeing-page .intro-feature.wellbeing-framework-feature {
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 42%, #ffffff 42%, #ffffff 100%);
+  padding: 62px 0;
+}
+
+.wellbeing-page .wellbeing-sel-feature .intro-feature__title,
+.wellbeing-page .wellbeing-framework-feature .intro-feature__title,
+.wellbeing-page .wellbeing-classroom-feature .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+.wellbeing-framework-feature .intro-feature__description strong,
+.wellbeing-classroom-feature .intro-feature__description strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.wellbeing-sel-feature .intro-feature__description p + p,
+.wellbeing-framework-feature .intro-feature__description p + p,
+.wellbeing-classroom-feature .intro-feature__description p + p {
+  margin-top: 18px;
+}
+
+.wellbeing-campaigns-section.editorial-split-section {
+  padding-top: 62px;
+  padding-bottom: 62px;
 }
