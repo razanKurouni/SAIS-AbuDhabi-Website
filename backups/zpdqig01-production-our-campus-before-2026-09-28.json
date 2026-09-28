@@ -1,0 +1,387 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "our-campus-page",
+  "_rev": "z2nMvYbGDG4FxTvfDSVo4F",
+  "_system": {
+    "base": {
+      "id": "our-campus-page",
+      "rev": "z2nMvYbGDG4FxTvfDSVjRY"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T06:45:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Our Campus"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ outdoor campus and play court",
+      "asset": {
+        "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/our-campus",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "body": [
+        {
+          "_key": "2c3fc1ceb58c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "51f0eb94cae3",
+              "_type": "span",
+              "marks": [],
+              "text": "Here, students benefit from experienced educators, modern learning technologies, and a broad program of arts, athletics, and service learning. From early literacy foundations to advanced coursework in the upper grades, we prepare every student to become a confident, creative problem-solver and an engaged leaderequipped to thrive in higher education and contribute positively to its community."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "campus-intro-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "campus-intro-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Our campus brings the SAIS ethos to life in a warm, inclusive environment."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Modern Spaces for Modern Learning"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "videoSection",
+      "_type": "mediaSection",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students in the library",
+        "asset": {
+          "_ref": "image-3ee50c513e9fef5eafaed863fd9e621aa53e4aa4-3198x2042-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "videoSection",
+      "video": {
+        "_type": "file",
+        "asset": {
+          "_ref": "file-1435d696c6dfbd611aa1e9761daf32ac8bbb970a-mp4",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "facilities",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "facilities-overview",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "facilities-overview-span",
+                "_type": "span",
+                "marks": [],
+                "text": "W provide modern, well-equipped facilities designed to support student learning, creativity, innovation, safety, and overall development."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "4502bf3b47d9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "0d202dceab9b",
+                "_type": "span",
+                "marks": [],
+                "text": "From advanced classrooms and science and computer labs to sports arenas, arts spaces, and recreational areas, our campus offers an engaging environment that enhances both academic and extracurricular experiences. Every facility is thoughtfully designed to promote student growth, collaboration, well-being, and active learning."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Facilities"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS students and staff meeting in a modern campus learning space",
+        "asset": {
+          "_ref": "image-eb8237adc3eef6323250c67027a7f932cf6df03f-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "facilities"
+    },
+    {
+      "_key": "librarySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "library-overview",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "library-overview-span",
+                "_type": "span",
+                "marks": [],
+                "text": "We take pride in having one central, well-resourced library that serves all grade levels. Our library houses a rich and diverse collection of books in Arabic, English, and French supporting students across all subjects and reading levels. Whether it’s for academic research or leisure reading, students are encouraged to explore a wide range of genres and topics that foster curiosity and critical thinking."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "104da3f1baa8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ddb74c5d0615",
+                "_type": "span",
+                "marks": [],
+                "text": "To extend learning beyond the classroom, every student receives access to personalized digital learning platforms such as Achieve3000 and Level Up. These tools allow students to strengthen their reading and language skills anytime, anywhere, while supporting individual learning levels, progress, and interests."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "The Library"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS students and staff in a modern campus learning space",
+        "asset": {
+          "_ref": "image-d454d2aeb0d700329b0911615a8824504183d72a-1318x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "librarySection"
+    },
+    {
+      "_key": "elementaryLibrarySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "elementary-library-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "elementary-library-intro-span",
+                "_type": "span",
+                "marks": [],
+                "text": "We take pride in having one central, well-resourced library that serves all grade levels. Our library houses a rich and diverse collection of books in Arabic, English, and French supporting students across all subjects and reading levels. Whether it’s for academic research or leisure reading, students are encouraged to explore a wide range of genres and topics that foster curiosity and critical thinking."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5786dfdc152a",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "247e2a7418f4",
+                "_type": "span",
+                "marks": [],
+                "text": "To extend learning beyond the classroom, every student receives access to personalized digital learning platforms such as Achieve3000 and Level Up. These tools allow students to strengthen their reading and language skills anytime, anywhere, while supporting individual learning levels, progress, and interests."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Elementary School Library"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ elementary students reading together",
+        "asset": {
+          "_ref": "image-34238c2237025c2cde06d46598a58e91599b162e-1556x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "elementaryLibrarySection"
+    },
+    {
+      "_key": "secondaryLibrarySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "secondary-library-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-intro-span",
+                "_type": "span",
+                "text": "A resource-rich environment tailored to support academic success, personal interests, and independent learning."
+              }
+            ]
+          },
+          {
+            "_key": "secondary-library-features",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-features-span",
+                "_type": "span",
+                "text": "Features:"
+              }
+            ]
+          },
+          {
+            "_key": "secondary-library-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-1-span",
+                "_type": "span",
+                "text": "Extensive collection of curriculum-aligned reference books and academic texts"
+              }
+            ],
+            "listItem": "bullet"
+          },
+          {
+            "_key": "secondary-library-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-2-span",
+                "_type": "span",
+                "text": "Study zones for group collaboration and independent work"
+              }
+            ],
+            "listItem": "bullet"
+          },
+          {
+            "_key": "secondary-library-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-3-span",
+                "_type": "span",
+                "text": "Library classes that teach research skills, citation formats, and digital literacy"
+              }
+            ],
+            "listItem": "bullet"
+          },
+          {
+            "_key": "secondary-library-4",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "secondary-library-4-span",
+                "_type": "span",
+                "text": "Support for inquiry-based projects and extended essays"
+              }
+            ],
+            "listItem": "bullet"
+          }
+        ],
+        "title": "Middle & High School Library"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ",
+        "asset": {
+          "_ref": "image-6a9c690adb9cb5f934669c8f99dbdca9476a4ac9-1566x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "secondaryLibrarySection"
+    },
+    {
+      "_key": "roboticsLabSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "robotics-lab-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "robotics-lab-1-span",
+                "_type": "span",
+                "text": "We have a dedicated space where students engage in hands-on learning experiences that combine engineering, programming, and innovation. Using programmable robotics kits such as LEGO EV3 and Arduino-based systems, students design, build, and code robots to perform tasks, solve challenges, and compete in school and interschool competitions."
+              }
+            ]
+          },
+          {
+            "_key": "robotics-lab-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "robotics-lab-2-span",
+                "_type": "span",
+                "text": "The lab promotes critical thinking, collaboration, and creativity, allowing students to explore concepts like automation, sensors, artificial intelligence, and mechanical systems. Through structured lessons and open-ended projects, learners apply their knowledge in real-world contexts, preparing them for future pathways in robotics, technology, and engineering fields."
+              }
+            ]
+          },
+          {
+            "_key": "robotics-lab-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "robotics-lab-3-span",
+                "_type": "span",
+                "text": "From elementary to high school, the Robotics Lab fosters curiosity, resilience, and problem-solving, empowering students to become tomorrow's innovators."
+              }
+            ]
+          }
+        ],
+        "title": "The Robotics Lab"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sais Sharjah",
+        "asset": {
+          "_ref": "image-c37d53c6231c5ca0feb06bc5f818bd86d42a647d-1556x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "roboticsLabSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore our modern campus, facilities, learning spaces, and sports environments.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ outdoor campus and play court",
+      "asset": {
+        "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Our Campus | SAIS - UAQ"
+  },
+  "title": "Our Campus"
+}
