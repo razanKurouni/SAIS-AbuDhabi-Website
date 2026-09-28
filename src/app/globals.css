@@ -5738,10 +5738,6 @@ ul {
   letter-spacing: var(--sais-body-text-letter-spacing);
 }
 
-.academics-middle-school-tailored-section .academics-elementary-assessment__title {
-  width: 400px;
-}
-
 .approach-section__button {
   --approach-button-color: var(--sais-primary);
 
@@ -6951,10 +6947,6 @@ img:where(
     margin-top: 18px;
     font-size: 0.88rem;
     line-height: 1.55;
-  }
-
-  .academics-middle-school-tailored-section .academics-elementary-assessment__title {
-    width: 100%;
   }
 }
 
