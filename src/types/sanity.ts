@@ -504,7 +504,7 @@ export type StudentStaffWellbeingPageData = {
   selSection?: ImageTextSection;
   wellbeingFramework?: ImageTextSection;
   wellnessCampaigns?: ImageTextSection;
-  classroomIntegration?: ImageTextSection;
+  classroomIntegration?: AcademicsKindergartenFeatureSection;
 };
 
 export type StudentInclusionPageData = {

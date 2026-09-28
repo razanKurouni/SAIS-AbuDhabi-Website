@@ -17178,3 +17178,23 @@ a.school-policy-card__cover:hover {
   padding-top: 62px;
   padding-bottom: 62px;
 }
+
+/* Wellbeing: classroom & community integration (full-bleed image, teal panel, navy curve) */
+.wellbeing-page .wellbeing-classroom-feature {
+  margin-bottom: 0;
+}
+
+.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__title {
+  white-space: pre-line;
+}
+
+.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__body strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__body p + p {
+  margin-top: 18px;
+}

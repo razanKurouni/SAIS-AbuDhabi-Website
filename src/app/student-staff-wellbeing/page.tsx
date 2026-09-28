@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -8,8 +9,21 @@ import { CmsImage } from "@/components/ui/cms-image";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { getHomepage, getStudentStaffWellbeingPage } from "@/lib/sanity";
+import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
+
+const fallbackClassroomSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "left",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#00A5B2",
+  waveColor: "#216B97",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
+};
 
 const fallbackMetadata: Metadata = {
   title: "Student & Staff Wellbeing | SAIS - UAQ",
@@ -140,15 +154,12 @@ export default async function StudentStaffWellbeingPage() {
         />
       ) : null}
 
-      <IntroFeatureSection
-        className="wellbeing-classroom-feature"
-        titleId="wellbeing-classroom-title"
+      <AcademicsElementaryAssessmentSection
         section={page?.classroomIntegration}
-        panelColor={page?.classroomIntegration?.backgroundColor || "#00A5B2"}
-        accentColor="#216B97"
-        titleColor={page?.classroomIntegration?.titleColor || "#ffffff"}
-        textColor={page?.classroomIntegration?.textColor || "#ffffff"}
-        imagePosition={page?.classroomIntegration?.imagePosition || "center"}
+        fallbackSection={fallbackClassroomSection}
+        className="wellbeing-classroom-feature academics-middle-school-tailored-section"
+        imageSide={page?.classroomIntegration?.imageSide || "left"}
+        titleId="wellbeing-classroom-title"
       />
 
       <TourIntroSection section={data?.tour} />

@@ -1304,10 +1304,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "student-staff-wellbeing-page": {
     "classroomIntegration": {
-      "backgroundColor": "#00A5B2",
+      "backgroundColor": "#ffffff",
       "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#00A5B2",
       "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+      "titleColor": "#ffffff",
+      "waveColor": "#216B97"
     },
     "commitment": {
       "imagePosition": "center"
