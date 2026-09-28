@@ -16654,6 +16654,7 @@ a.school-policy-card__cover:hover {
 }
 
 .admissions-withdrawal-policy__lead {
+  max-width: 964px;
   font-weight: 600;
 }
 
