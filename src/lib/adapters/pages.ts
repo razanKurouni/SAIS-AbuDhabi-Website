@@ -421,6 +421,7 @@ export function adaptSchoolPolicies(page: CmsPage): SchoolPoliciesPageData {
   return {
     ...base(page),
     intro: textSection(s.get("intro")),
+    overviewSection: imageText(s.get("overviewSection")),
     policies: policies(s.get("policies")),
   };
 }

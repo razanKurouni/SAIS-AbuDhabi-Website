@@ -1,0 +1,208 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "school-policies-page",
+  "_rev": "FCO364qzHDm2jW4qGK0PJe",
+  "_system": {
+    "base": {
+      "id": "school-policies-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T08:08:46Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "School\nPolicies"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students in library discussion",
+      "asset": {
+        "_ref": "image-fea71a4591d145cc8bc75535266a42271fd77e5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students in library discussion",
+      "asset": {
+        "_ref": "image-fea71a4591d145cc8bc75535266a42271fd77e5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/school-policies",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "school-policies-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "school-policies-intro-text",
+                "_type": "span",
+                "text": "Our school policies are designed to ensure a safe, respectful, and well-structured learning environment for all members of the school community. Aligned with the Sharjah Private Education Authority (SPEA) and international best practices, these policies provide clear expectations and guidelines that support student wellbeing, academic integrity, and effective school operations."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "A Safe and Supportive Environment"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "policies",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "acceptable-use",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-2488da57834b782e6b3474de571eb0c60c5fd2fd-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ Child Protection Policy document cover",
+            "asset": {
+              "_ref": "image-cd4edd1efba2eb049b376253286a319316570623-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download",
+          "title": "Child Protection Policy "
+        },
+        {
+          "_key": "admission",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-13fd2e841003deab0ffa4e1c5c2ea51ef624fa23-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ school policy document cover",
+            "asset": {
+              "_ref": "image-c7039de749c7737fb659b0f83cceddd016d2e708-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download",
+          "title": "Data Protection Policy"
+        },
+        {
+          "_key": "child-protection",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-ad87df8950c05b5953eb7f8185e5a16d4bbcc545-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ school policy document cover",
+            "asset": {
+              "_ref": "image-6390045371b95034d041812b8f87a4d7660e2fb9-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download",
+          "title": "General Online Safety Policy"
+        },
+        {
+          "_key": "digital-learning",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-098168bf66107b688a84f9ae90dada7f306360a4-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ school policy document cover",
+            "asset": {
+              "_ref": "image-22232057293a98884fb7073377e0290828680e57-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download",
+          "title": "Health and Safety Policy"
+        },
+        {
+          "_key": "fire-evacuation",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-8900a1f42de844b391fbf59660c2943182fa8e22-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - UAQ school policy document cover",
+            "asset": {
+              "_ref": "image-954f731014efa296d5dc42dfea0b7ff47aae5461-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download",
+          "title": "Inclusion Policy"
+        },
+        {
+          "_key": "9ac1c73ebfac",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-2e8b0727677fea4a421d0bdf849dc9ecd21faffe-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "Fire Evacuation Policy",
+            "asset": {
+              "_ref": "image-2b5444c6b7c2faa194e242b055537c42063b2f38-2480x3508-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF",
+          "title": "Fire Evacuation Policy"
+        }
+      ],
+      "slot": "policies"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Review SAIS - UAQ school policies and download policy documents.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students in library discussion",
+      "asset": {
+        "_ref": "image-fea71a4591d145cc8bc75535266a42271fd77e5e-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "School Policies | SAIS - UAQ"
+  },
+  "title": "School Policies"
+}

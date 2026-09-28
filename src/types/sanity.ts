@@ -613,6 +613,7 @@ export type SchoolPoliciesPageData = {
   intro?: {
     heading?: SectionHeading;
   };
+  overviewSection?: ImageTextSection;
   policies?: SchoolPolicyDocument[];
 };
 

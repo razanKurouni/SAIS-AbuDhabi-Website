@@ -17204,3 +17204,33 @@ a.school-policy-card__cover:hover {
 .wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__body p + p {
   margin-top: 18px;
 }
+
+/* School Policies: centered intro (teal two-line title, navy lead, grey paragraph) and image-right overview */
+.school-policies-intro.student-life-overview {
+  --student-life-overview-bg: #ffffff;
+  --student-life-overview-title: #00A5B2;
+  --student-life-overview-text: #216B97;
+  padding: 62px 0 0;
+}
+
+.school-policies-intro .student-life-overview__title {
+  white-space: pre-line;
+}
+
+.school-policies-intro .student-life-overview__copy p + p {
+  margin-top: 18px;
+  color: #707278;
+  font-weight: 400;
+}
+
+.school-policies-overview.editorial-split-section {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.school-policies-overview .editorial-split-section__rich-text strong {
+  display: inline;
+  margin: 0;
+  color: var(--sais-primary);
+  font-weight: 700;
+}

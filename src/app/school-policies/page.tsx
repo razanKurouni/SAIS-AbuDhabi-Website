@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { RichText } from "@/components/ui/rich-text";
@@ -180,15 +181,36 @@ export default async function SchoolPoliciesPage() {
       />
       <CommunityInnerNav activeHref="/school-policies" />
 
-      <section className="school-policies-content" aria-labelledby="school-policies-content-title">
-        <SectionReveal className="school-policies-content__inner" threshold={0.01}>
-          <div className="school-policies-content__header">
-            <h2 id="school-policies-content-title" className="school-policies-content__title">
-              {intro.heading?.title || fallbackIntro.heading.title}
-            </h2>
-            <RichText blocks={intro.heading?.description} className="school-policies-content__intro" />
+      <section
+        id="school-policies-intro"
+        className="student-life-overview school-policies-intro"
+        aria-labelledby="school-policies-intro-title"
+      >
+        <div className="student-life-overview__inner">
+          <h2 id="school-policies-intro-title" className="student-life-overview__title">
+            {intro.heading?.title || fallbackIntro.heading.title}
+          </h2>
+          <div className="student-life-overview__body">
+            <RichText blocks={intro.heading?.description} className="student-life-overview__copy" />
           </div>
+        </div>
+      </section>
 
+      {page?.overviewSection ? (
+        <EditorialSplitSection
+          id="school-policies-overview"
+          title="Our Policies"
+          section={page.overviewSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section wellbeing-counseling-section school-policies-overview"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+        />
+      ) : null}
+
+      <section className="school-policies-content" aria-label="Policy documents">
+        <SectionReveal className="school-policies-content__inner" threshold={0.01}>
           <div className="school-policies-grid">
             {policies.map((policy, index) => (
               <PolicyCard key={policy._key || `${policy.title}-${index}`} policy={policy} index={index} />

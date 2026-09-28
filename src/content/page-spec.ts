@@ -343,7 +343,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/school-policies",
     title: "School Policies",
     group: "Our Community",
-    slots: [txt("intro", "Introduction"), cards("policies", "Policy Documents")],
+    slots: [txt("intro", "Introduction"), it("overviewSection", "Overview"), cards("policies", "Policy Documents")],
   },
   {
     id: "health-safety-page",

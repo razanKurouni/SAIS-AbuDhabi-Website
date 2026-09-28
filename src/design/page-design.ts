@@ -1169,6 +1169,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     ]
   },
   "school-policies-page": {
+    "overviewSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "right",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
+    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",

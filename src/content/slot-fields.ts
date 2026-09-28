@@ -1542,6 +1542,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "school-policies-page/overviewSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "school-policies-page/policies": {
     "section": [
       "cards"
@@ -1569,19 +1581,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "entry": []
   },
   "school-supplies-uniform-page/uniformSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-inclusion-page/approachSection": {
     "section": [
       "heading",
       "image"
