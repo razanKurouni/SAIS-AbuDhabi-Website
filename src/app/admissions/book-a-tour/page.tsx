@@ -71,7 +71,7 @@ export default async function AdmissionsBookTourPage() {
       <section
         className="admissions-tour-band"
         aria-labelledby="admissions-tour-band-title"
-        style={{ "--admissions-tour-band-bg": page?.introSection?.backgroundColor || "#3D9CAA" } as CSSProperties}
+        style={{ "--admissions-tour-band-bg": page?.introSection?.backgroundColor || "#00a5b2" } as CSSProperties}
       >
         {page?.introSection?.heading?.title || page?.introSection?.heading?.subtitle ? (
           <Reveal className="admissions-tour-band__header" threshold={0.16}>

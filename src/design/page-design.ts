@@ -583,7 +583,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "introSection": {
-      "backgroundColor": "#3D9CAA",
+      "backgroundColor": "#00a5b2",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
     },

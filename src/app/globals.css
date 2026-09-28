@@ -16654,7 +16654,7 @@ a.school-policy-card__cover:hover {
 }
 
 .admissions-withdrawal-policy__lead {
-  max-width: 964px;
+  max-width: 940px;
   font-weight: 600;
 }
 
@@ -16686,7 +16686,7 @@ a.school-policy-card__cover:hover {
 
 /* Book a Tour: teal band with centred header, experience block and the form card */
 .admissions-tour-band {
-  background: var(--admissions-tour-band-bg, #3D9CAA);
+  background: var(--admissions-tour-band-bg, #00a5b2);
   padding-top: clamp(44px, 5vw, 64px);
 }
 
