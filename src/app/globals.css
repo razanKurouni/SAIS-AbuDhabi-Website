@@ -15766,46 +15766,8 @@ a.school-policy-card__cover:hover {
 }
 
 /* Food services: the cafeteria copy beside its image on the page grey, blue title. */
-.food-services-nutrition-page .food-services-nutrition-intro.editorial-split-section {
-  background: var(--editorial-split-bg, #f2f2f2);
-  padding: 62px 0;
-}
-
 .food-services-nutrition-page .tour-intro {
   padding-top: 62px;
-}
-
-.food-services-nutrition-intro .editorial-split-section__inner {
-  gap: clamp(34px, 5.4vw, 76px);
-}
-
-.food-services-nutrition-intro .editorial-split-section__media {
-  aspect-ratio: 1.22 / 1;
-}
-
-.food-services-nutrition-intro .editorial-split-section__title {
-  margin: 0;
-  color: var(--editorial-split-title-color, #216b97);
-  font-size: clamp(1.2rem, 1.6vw, 1.5rem);
-  font-weight: 600;
-  line-height: 1.24;
-}
-
-.food-services-nutrition-intro .editorial-split-section__body {
-  gap: 24px;
-}
-
-.food-services-nutrition-intro .editorial-split-section__body p {
-  color: var(--editorial-split-text-color, #707278);
-  font-size: clamp(0.86rem, 1vw, 0.96rem);
-  line-height: 1.62;
-  letter-spacing: var(--sais-body-text-letter-spacing);
-}
-
-@media (max-width: 767px) {
-  .food-services-nutrition-intro .editorial-split-section__media {
-    aspect-ratio: 4 / 3;
-  }
 }
 
 /* Four cards across with tighter copy — parent involvement and student life share it. */
@@ -16741,7 +16703,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.student-programs-sga__panel .intro-feature__wave,
   .intro-feature.wellbeing-sel-feature .intro-feature__wave,
   .intro-feature.wellbeing-framework-feature .intro-feature__wave,
-  .intro-feature.wellbeing-classroom-feature .intro-feature__wave {
+  .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
+  .intro-feature.food-services-hygiene-feature .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16754,7 +16717,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.student-programs-sga__panel .intro-feature__curve-mask,
   .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
-  .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask {
+  .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
+  .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -17233,4 +17197,41 @@ a.school-policy-card__cover:hover {
   margin: 0;
   color: var(--sais-primary);
   font-weight: 700;
+}
+
+/* Food Services & Nutrition: navy intro band, image-text splits, hygiene curved panel */
+.food-services-nutrition-page .wellbeing-commitment {
+  padding: 62px 0 0;
+}
+
+.food-services-nutrition-page .wellbeing-commitment__title {
+  white-space: pre-line;
+}
+
+.food-services-split.editorial-split-section {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.food-services-nutrition-page .intro-feature.food-services-hygiene-feature {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 42%, #f2f2f2 42%, #f2f2f2 100%);
+  padding: 62px 0;
+}
+
+.food-services-nutrition-page .food-services-hygiene-feature .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+.food-services-hygiene-feature .intro-feature__description strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #00A5B2;
+  font-weight: 700;
+}
+
+.food-services-hygiene-feature .intro-feature__description p + p {
+  margin-top: 18px;
 }

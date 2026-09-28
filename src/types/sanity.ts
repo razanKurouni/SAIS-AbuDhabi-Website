@@ -527,6 +527,9 @@ export type FoodServicesNutritionPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   introSection?: ImageTextSection;
+  cafeteriaSection?: ImageTextSection;
+  hygieneSection?: ImageTextSection;
+  teamSection?: ImageTextSection;
 };
 
 export type MedicalServicesPageData = {

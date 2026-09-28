@@ -757,6 +757,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "food-services-nutrition-page": {
+    "cafeteriaSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "left",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
+    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",
@@ -765,11 +771,19 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "topLineColor": "#216B97",
       "waveColor": "#d97252"
     },
+    "hygieneSection": {
+      "backgroundColor": "#216B97",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#00A5B2"
+    },
     "introSection": {
-      "backgroundColor": "#F2F2F2",
+      "imagePosition": "center"
+    },
+    "teamSection": {
+      "backgroundColor": "#ffffff",
       "imagePosition": "left",
       "textColor": "#707278",
-      "theme": "light",
       "titleColor": "#216B97"
     }
   },

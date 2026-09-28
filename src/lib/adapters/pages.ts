@@ -433,7 +433,13 @@ export function adaptHealthSafety(page: CmsPage): HealthSafetyPageData {
 
 export function adaptFoodServices(page: CmsPage): FoodServicesNutritionPageData {
   const s = bySlot(page);
-  return { ...base(page), introSection: imageText(s.get("introSection")) };
+  return {
+    ...base(page),
+    introSection: imageText(s.get("introSection")),
+    cafeteriaSection: imageText(s.get("cafeteriaSection")),
+    hygieneSection: imageText(s.get("hygieneSection")),
+    teamSection: imageText(s.get("teamSection")),
+  };
 }
 
 export function adaptMedicalServices(page: CmsPage): MedicalServicesPageData {

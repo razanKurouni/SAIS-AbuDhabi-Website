@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
+import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
+import { CmsImage } from "@/components/ui/cms-image";
+import { RichText } from "@/components/ui/rich-text";
+import { SectionReveal } from "@/components/ui/section-reveal";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { getFoodServicesNutritionPage, getHomepage } from "@/lib/sanity";
-import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
   title: "Food Services & Nutrition | SAIS - UAQ",
@@ -26,51 +29,6 @@ const fallbackHero = {
   imagePosition: "center",
   imageWidth: "58%",
 };
-
-function paragraph(_key: string, text: string): PortableTextBlock {
-  return {
-    _key,
-    _type: "block",
-    children: [{ _key: `${_key}-span`, _type: "span", text, marks: [] }],
-  };
-}
-
-function bullet(_key: string, text: string): PortableTextBlock {
-  return {
-    ...paragraph(_key, text),
-    listItem: "bullet",
-    level: 1,
-  };
-}
-
-const fallbackIntroSection: ImageTextSection = {
-  heading: {
-    title: "School Cafeteria",
-    description: [
-      paragraph(
-        "food-services-intro-1",
-        "Our air-conditioned school cafeteria is operated by a registered food and nutrition company that adheres to strict regulations established by:"
-      ),
-      bullet("food-services-khda", "Strategic Planning and Educational Affairs Authority (SPEA)"),
-      bullet("food-services-dubai-municipality", "Dubai Municipality"),
-      paragraph(
-        "food-services-intro-2",
-        "We provide students with high-quality, nutritious food options that fully comply with Islamic dietary requirements. The menu is refreshed annually, incorporating student suggestions whenever possible to ensure both nutritional excellence and student satisfaction."
-      ),
-    ],
-  },
-  image: {
-    url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ cafeteria",
-  },
-  imagePosition: "center",
-  theme: "blue",
-};
-
-const fallbackIntroParagraphs = [
-  "Our air-conditioned school cafeteria is operated by a registered food and nutrition company that adheres to strict regulations established by the Strategic Planning and Educational Affairs Authority (SPEA) and the municipality.",
-  "We provide students with high-quality, nutritious food options that fully comply with Islamic dietary requirements. The menu is refreshed annually, incorporating student suggestions whenever possible to ensure both nutritional excellence and student satisfaction.",
-];
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getFoodServicesNutritionPage();
@@ -110,16 +68,68 @@ export default async function FoodServicesNutritionPage() {
       />
       <CommunityInnerNav activeHref="/food-services-nutrition" />
 
-      <EditorialSplitSection
-        id="food-services-nutrition-intro"
-        title={fallbackIntroSection.heading.title}
-        section={page?.introSection}
-        fallbackImage={fallbackIntroSection.image || {}}
-        fallbackParagraphs={fallbackIntroParagraphs}
-        className="food-services-nutrition-intro"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-        showTitle
+      <section className="wellbeing-commitment food-services-intro-band" aria-labelledby="food-services-intro-title">
+        <div className="wellbeing-commitment__inner">
+          <SectionReveal className="wellbeing-commitment__copy">
+            <h2 id="food-services-intro-title" className="wellbeing-commitment__title">
+              {page?.introSection?.heading?.title || "Growing Strong Minds Through Good Nutrition"}
+            </h2>
+            <RichText blocks={page?.introSection?.heading?.description} className="wellbeing-commitment__body" />
+          </SectionReveal>
+
+          {page?.introSection?.image?.url ? (
+            <SectionReveal className="wellbeing-commitment__media">
+              <CmsImage
+                image={page.introSection.image}
+                fallbackLabel={page.introSection.heading?.title || "Food and nutrition"}
+                className="wellbeing-commitment__image"
+                imageClassName="object-cover"
+                sizes="(max-width: 767px) 90vw, 78vw"
+              />
+            </SectionReveal>
+          ) : null}
+        </div>
+      </section>
+
+      {page?.cafeteriaSection ? (
+        <EditorialSplitSection
+          id="food-services-cafeteria"
+          title="School Cafeteria"
+          section={page.cafeteriaSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section wellbeing-counseling-section food-services-split"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          showTitle
+          preserveRichText
+        />
+      ) : null}
+
+      <IntroFeatureSection
+        className="food-services-hygiene-feature"
+        titleId="food-services-hygiene-title"
+        section={page?.hygieneSection}
+        panelColor={page?.hygieneSection?.backgroundColor || "#216B97"}
+        accentColor="#D97252"
+        titleColor={page?.hygieneSection?.titleColor || "#00A5B2"}
+        textColor={page?.hygieneSection?.textColor || "#ffffff"}
+        imagePosition={page?.hygieneSection?.imagePosition || "center"}
+        imageSide="right"
       />
+
+      {page?.teamSection ? (
+        <EditorialSplitSection
+          id="food-services-team"
+          title="Our Qualified Team"
+          section={page.teamSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section wellbeing-counseling-section food-services-split"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          showTitle
+          preserveRichText
+        />
+      ) : null}
 
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

@@ -1,0 +1,95 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "food-services-nutrition-page",
+  "_rev": "z2nMvYbGDG4FxTvfDSdr7U",
+  "_system": {
+    "base": {
+      "id": "food-services-nutrition-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T08:35:55Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Food\nNutrition"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/food-services-nutrition",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "food-services-intro-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "food-services-intro-1-text",
+                "_type": "span",
+                "text": "We are committed to promoting healthy lifestyles through balanced, nutritious meals and responsible eating habits. Our food services follow UAE health and safety regulations and are designed to meet the dietary needs of growing students. The school canteen is regularly inspected, and all food handlers are trained and certified."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "d95872a7e26b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "food-services-intro-1-text",
+                "_type": "span",
+                "text": "We also provide nutrition awareness campaigns and healthy eating workshops throughout the year to educate students on making informed food choices. Parents are encouraged to support this approach by packing nutritious lunches when meals are brought from home."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "School Cafeteria"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ school cafeteria",
+        "asset": {
+          "_ref": "image-9ebe86f68489cd3a256f9a4704f336869ba89628-1528x1252-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "introSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about food services and nutrition at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Food Services & Nutrition | SAIS - UAQ"
+  },
+  "title": "Food Services & Nutrition"
+}

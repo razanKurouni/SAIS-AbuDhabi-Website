@@ -357,7 +357,12 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/food-services-nutrition",
     title: "Food Services & Nutrition",
     group: "Our Community",
-    slots: [it("introSection", "Introduction")],
+    slots: [
+      it("introSection", "Introduction"),
+      it("cafeteriaSection", "School Cafeteria"),
+      it("hygieneSection", "Hygiene & Safety"),
+      it("teamSection", "Qualified Team"),
+    ],
   },
   {
     id: "medical-services-page",
