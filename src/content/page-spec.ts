@@ -350,7 +350,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/health-safety",
     title: "Health & Safety",
     group: "Our Community",
-    slots: [it("introSection", "Introduction"), it("approachSection", "Our Approach")],
+    slots: [it("introSection", "Professional Care"), it("approachSection", "Medical Services")],
   },
   {
     id: "food-services-nutrition-page",

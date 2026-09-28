@@ -520,7 +520,7 @@ export type HealthSafetyPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   introSection?: ImageTextSection;
-  approachSection?: ImageTextSection;
+  approachSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type FoodServicesNutritionPageData = {

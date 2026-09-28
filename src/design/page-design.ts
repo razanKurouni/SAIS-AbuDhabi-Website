@@ -789,8 +789,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "health-safety-page": {
     "approachSection": {
-      "imagePosition": "right",
-      "theme": "teal"
+      "backgroundColor": "#ffffff",
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#00A5B2",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     },
     "hero": {
       "imagePosition": "center",
@@ -801,8 +806,10 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "introSection": {
-      "imagePosition": "left",
-      "theme": "teal"
+      "backgroundColor": "#00A5B2",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
     }
   },
   "homepage-main": {

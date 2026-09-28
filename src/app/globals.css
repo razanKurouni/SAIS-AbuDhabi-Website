@@ -10300,9 +10300,16 @@ img:where(
     fill: #00a5b2;
   }
 
-  .health-safety-page .intro-feature__curve-mask,
   .admissions-page .intro-feature__curve-mask {
     fill: #707070;
+  }
+
+  .health-safety-page .intro-feature__curve-mask {
+    fill: var(--intro-feature-panel-color);
+  }
+
+  .health-safety-page .intro-feature__wave {
+    stroke: var(--intro-feature-accent-color);
   }
   #admissions-fees-journey-title{
     max-width: 270px;
@@ -17259,4 +17266,43 @@ a.school-policy-card__cover:hover {
 
 .transportation-safety-page .transportation-enroll-feature .academics-elementary-assessment__title {
   color: var(--academics-elementary-assessment-title, #00A5B2);
+}
+
+/* Health & Safety: teal intro panel with a bullet list, then the full-bleed services panel */
+.health-safety-page .health-safety-intro-feature .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+}
+
+.health-safety-intro-feature .intro-feature__description ul,
+.health-safety-services-feature .academics-elementary-assessment__body ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.health-safety-intro-feature .intro-feature__description li,
+.health-safety-services-feature .academics-elementary-assessment__body li {
+  margin: 0;
+  padding-left: 4px;
+}
+
+.health-safety-intro-feature .intro-feature__description li::marker,
+.health-safety-services-feature .academics-elementary-assessment__body li::marker {
+  font-size: 0.78em;
+}
+
+.health-safety-intro-feature .intro-feature__description p + ul {
+  margin-top: clamp(18px, 2.2vw, 26px);
+}
+
+.health-safety-page .health-safety-services-feature {
+  margin-bottom: 0;
+}
+
+.health-safety-services-feature .academics-elementary-assessment__body {
+  margin-top: 0;
 }

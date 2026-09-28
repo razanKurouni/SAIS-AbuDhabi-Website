@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { ApproachSectionBase } from "@/components/sections/approach-section";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { getHealthSafetyPage, getHomepage } from "@/lib/sanity";
-import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
+import type { AcademicsKindergartenFeatureSection, ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
   title: "Health & Safety | SAIS - UAQ",
@@ -54,30 +54,16 @@ const fallbackIntroSection: ImageTextSection = {
   theme: "teal",
 };
 
-const fallbackApproachSection: ImageTextSection = {
-  heading: {
-    title: "Health & Safety Support",
-    description: [
-      paragraph(
-        "health-safety-approach-1",
-        "In the event that the medical concern is a minor issue, the staff will provide the appropriate care and return the student to class. In the event that the medical concern is moderate or severe the Doctor will liaise with the school leadership staff to make contact with the family and agree on the best support and treatment for the student."
-      ),
-      paragraph(
-        "health-safety-approach-2",
-        "For your child's safety and health please be sure to provide the Coordinator and teacher with any information regarding your child's medical history and any special circumstances that we should be aware and accommodate."
-      ),
-      paragraph(
-        "health-safety-approach-3",
-        "Students have regular workshops and assemblies conducted by trained health professionals to raise awareness and teach good health practices for life."
-      ),
-    ],
-  },
-  image: {
-    url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ health awareness",
-  },
-  imagePosition: "right",
-  theme: "teal",
+const fallbackApproachSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#00A5B2",
+  waveColor: "#D97252",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -96,7 +82,6 @@ export default async function HealthSafetyPage() {
   const hero = page?.hero;
   const heroTitle = hero?.heading?.title || fallbackHero.title;
   const heroImage = hero?.image || fallbackHero.image;
-  const approachSection = page?.approachSection || fallbackApproachSection;
 
   return (
     <SitePageShell
@@ -124,20 +109,19 @@ export default async function HealthSafetyPage() {
         fallbackSection={fallbackIntroSection}
         className="health-safety-intro-feature"
         titleId="health-safety-intro-title"
-        panelColor="#707174"
-        accentColor="#00A5B2"
-        titleColor="#ffffff"
-        textColor="#ffffff"
+        panelColor={page?.introSection?.backgroundColor || "#00A5B2"}
+        accentColor="#D97252"
+        titleColor={page?.introSection?.titleColor || "#ffffff"}
+        textColor={page?.introSection?.textColor || "#ffffff"}
         imagePosition={page?.introSection?.imagePosition || "center"}
       />
 
-      <ApproachSectionBase
-        id="health-safety-details"
-        className="health-safety-approach"
-        title={approachSection.heading?.title || fallbackApproachSection.heading.title}
-        content={approachSection.heading?.description}
-        image={approachSection.image}
-        imageSizes="(max-width: 767px) 100vw, 53vw"
+      <AcademicsElementaryAssessmentSection
+        section={page?.approachSection}
+        fallbackSection={fallbackApproachSection}
+        className="health-safety-services-feature academics-middle-school-tailored-section"
+        imageSide={page?.approachSection?.imageSide || "right"}
+        titleId="health-safety-services-title"
       />
 
       <TourIntroSection section={data?.tour} />

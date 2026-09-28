@@ -1,0 +1,144 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "health-safety-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Health\n& Safety"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students running safely",
+      "asset": {
+        "_ref": "image-188df84d492f5e80bcc3e0a43b308313b7f87eb2-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students running safely",
+      "asset": {
+        "_ref": "image-188df84d492f5e80bcc3e0a43b308313b7f87eb2-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/health-safety",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "health-safety-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "health-safety-intro-text",
+                "_type": "span",
+                "text": "The health, safety, and wellbeing of our students, staff, and visitors are of the highest importance. We provide a safe, inclusive, and supportive environment, both on campus and online."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "9f608572c79b",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "health-safety-intro-text",
+                "_type": "span",
+                "text": "Our school complies with all UAE safety regulations and adopts international best practices to ensure student protection. Safety protocols include regular fire drills, emergency response training, and cyber safety awareness programs. All staff are trained in health and safety procedures, and we continuously work to promote a culture of prevention, readiness, and digital responsibility across the school community."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Ensuring Safety, Wellbeing\n& Digital Responsibility"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ professional care",
+        "asset": {
+          "_ref": "image-39306c1f2576dc506f281503c741e9533f0d6506-1528x1312-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "introSection"
+    },
+    {
+      "_key": "approachSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "health-safety-approach-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "health-safety-approach-1-text",
+                "_type": "span",
+                "text": "In the event that the medical concern is a minor issue, the staff will provide the appropriate care and return the student to class. In the event that the medical concern is moderate or severe the Doctor will liaise with the school leadership staff to make contact with the family and agree on the best support and treatment for the student."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "739c349b2bf3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "health-safety-approach-1-text",
+                "_type": "span",
+                "text": "For your child’s safety and health, please be sure to provide the Coordinator and teacher with any information regarding your child’s medical history and any special circumstances that we should be aware and accommodate."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "129e3dfe5745",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "health-safety-approach-1-text",
+                "_type": "span",
+                "text": "Students have regular workshops and assemblies conducted by trained health professionals to raise awareness and teach good health practices for life."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Health & Safety Support"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ student activity",
+        "asset": {
+          "_ref": "image-4f87f4453cf02630b1c6ef2f6c2cae980a29d020-1994x1670-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "approachSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about health and safety care at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ students running safely",
+      "asset": {
+        "_ref": "image-188df84d492f5e80bcc3e0a43b308313b7f87eb2-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Health & Safety | SAIS - UAQ"
+  },
+  "title": "Health & Safety"
+}
