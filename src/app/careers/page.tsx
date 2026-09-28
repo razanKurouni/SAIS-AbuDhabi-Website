@@ -4,7 +4,6 @@ import { SitePageShell } from "@/components/layout/site-page-shell";
 import { CareersJoinTeamSection } from "@/components/sections/careers-join-team-section";
 import { CareersRequirementsSection } from "@/components/sections/careers-requirements-section";
 import { ContactInfoSection } from "@/components/sections/contact-info-section";
-import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
 import { RichText } from "@/components/ui/rich-text";
@@ -14,7 +13,6 @@ import type {
   CareersJoinTeamSection as CareersJoinTeamSectionData,
   CareersRequirementsSection as CareersRequirementsSectionData,
   ContactInfoSection as ContactInfoSectionData,
-  ImageTextSection,
   PortableTextBlock,
   SanityImage,
 } from "@/types/sanity";
@@ -69,17 +67,6 @@ const fallbackIntroImage: SanityImage = {
   alt: "SAIS - UAQ staff members standing together",
 };
 
-const fallbackEditorialImage = {
-  url: "/careers-editorial.jpg",
-  alt: "SAIS - UAQ teacher supporting a student in a learning space",
-};
-
-const fallbackEditorialParagraphs = [
-  "The SAIS educational community currently encompasses four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",
-  "The SAIS journey began with the establishment of our flagship Sharjah campus in 1997. The Dubai campus, opened in 2005, represents the second institution in our expanding network. Initially launched as a comprehensive KG-Grade 12 American curriculum school, we began with 60 students and a dedicated core faculty. The school experienced consistent enrollment growth and evolved into a vibrant, innovative learning environment delivering premier American education while honoring local customs and traditions.",
-  "The administrative leadership across all SAIS campuses maintains close professional collaboration, forming a cohesive professional learning network that supports the development of each institution and its leadership team.",
-];
-
 const fallbackCareDescription: PortableTextBlock[] = [
   {
     _key: "careers-care-body-1",
@@ -105,7 +92,7 @@ const fallbackCareSection: ContactInfoSectionData = {
     alt: "SAIS - UAQ teacher supporting students during a classroom activity",
   },
   imagePosition: "center",
-  panelColor: "#00a5b2",
+  panelColor: "#216B97",
   waveColor: "#d97252",
   textColor: "#ffffff",
 };
@@ -140,6 +127,38 @@ const fallbackRequirementsSection: CareersRequirementsSectionData = {
   ],
 };
 
+const fallbackCommitmentSection: CareersRequirementsSectionData = {
+  columns: [
+    {
+      _key: "our-commitment",
+      title: "Our Commitment",
+      intro: "Successful candidates will receive an excellent remuneration package including:",
+      items: [
+        "Competitive tax-free salary",
+        "Medical insurance",
+        "UAE working permit",
+        "Residence visa",
+        "Annual flight allowance",
+        "Tuition fee concession",
+        "Additional benefits in accordance with UAE Labour Law",
+      ],
+    },
+    {
+      _key: "qualifications",
+      title: "Qualifications & Requirements",
+      items: [
+        "Certified professional teaching qualification at degree level (B.Ed, PGCE, PGDE, or equivalent in Primary Education for KG and Primary positions).",
+        "Subject teachers must hold a Bachelor’s or Master’s degree in the relevant subject.",
+        "Minimum of 2 years of varied and demonstrable teaching experience at various school levels.",
+        "Experience in American curriculum schools is advantageous but not mandatory.",
+        "Proven ability to motivate and inspire students.",
+        "Commitment to providing outstanding teaching and learning.",
+        "Desire to work in a challenging environment with genuine career advancement opportunities.",
+      ],
+    },
+  ],
+};
+
 const fallbackJoinTeamDescription: PortableTextBlock[] = [
   {
     _key: "careers-join-team-body-1",
@@ -149,7 +168,7 @@ const fallbackJoinTeamDescription: PortableTextBlock[] = [
         _key: "careers-join-team-body-1-text",
         _type: "span",
         text:
-          "If you possess the ideal combination of skills and attitude with a drive to excel in your career, we invite you to apply by:",
+          "Email your CV and all required documents to hrrecruitment@saisuaq.com, mentioning “Umm Al Quwain Campus” in the subject line.",
       },
     ],
   },
@@ -168,8 +187,8 @@ const fallbackJoinTeamSection: CareersJoinTeamSectionData = {
         alt: "Email application icon",
       },
       label: "Emailing your CV to",
-      text: "hrrecruitment@saisdubai.com\n(specify position in the subject line)",
-      href: "mailto:hrrecruitment@saisdubai.com",
+      text: "hrrecruitment@saisuaq.com\n(specify position in the subject line)",
+      href: "mailto:hrrecruitment@saisuaq.com",
     },
     {
       _key: "teach-away",
@@ -211,16 +230,6 @@ export default async function CareersPage() {
     ? intro.heading.description
     : fallbackIntroDescription;
   const introImage = intro?.image || fallbackIntroImage;
-  const editorialSection: ImageTextSection = careersPage?.editorialSection
-    ? {
-        ...careersPage.editorialSection,
-        imagePosition: careersPage.editorialSection.imagePosition || "right",
-      }
-    : {
-        heading: { title: "SAIS Educational Community" },
-        imagePosition: "right",
-      };
-
   return (
     <SitePageShell
       data={data}
@@ -285,21 +294,18 @@ export default async function CareersPage() {
         fallbackSection={fallbackRequirementsSection}
       />
 
-      <EditorialSplitSection
-        id="careers-community"
-        title="SAIS Educational Community"
-        section={editorialSection}
-        fallbackImage={fallbackEditorialImage}
-        fallbackParagraphs={fallbackEditorialParagraphs}
-        className="careers-editorial"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-      />
-
       <ContactInfoSection
         section={careersPage?.careSection}
         fallbackSection={fallbackCareSection}
         className="careers-care-section"
         titleId="careers-care-title"
+      />
+
+      <CareersRequirementsSection
+        section={careersPage?.commitmentSection}
+        fallbackSection={fallbackCommitmentSection}
+        className="careers-requirements--two"
+        ariaLabel="Our commitment and candidate qualifications"
       />
 
       <CareersJoinTeamSection

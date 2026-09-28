@@ -1050,6 +1050,19 @@ button[aria-label="Open Next.js Dev Tools"] {
   line-height: 1.2;
 }
 
+.careers-requirements--two {
+  padding-top: clamp(48px, 5vw, 72px);
+}
+
+.careers-requirements--two .careers-requirements__inner {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(54px, 9vw, 150px);
+}
+
+.careers-requirements--two .careers-requirements__column {
+  display: block;
+}
+
 .careers-requirements__subtitle {
   margin: 22px 0 0;
   color: var(--sais-accent);

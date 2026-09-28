@@ -5,11 +5,15 @@ import type { CareersRequirementsSection as CareersRequirementsSectionData } fro
 type CareersRequirementsSectionProps = {
   section?: CareersRequirementsSectionData;
   fallbackSection: CareersRequirementsSectionData;
+  className?: string;
+  ariaLabel?: string;
 };
 
 export function CareersRequirementsSection({
   section,
   fallbackSection,
+  className = "",
+  ariaLabel = "Careers commitments and requirements",
 }: CareersRequirementsSectionProps) {
   const columns = section?.columns?.length ? section.columns : fallbackSection.columns || [];
 
@@ -18,7 +22,7 @@ export function CareersRequirementsSection({
   }
 
   return (
-    <section className="careers-requirements" aria-label="Careers commitments and requirements">
+    <section className={`careers-requirements ${className}`.trim()} aria-label={ariaLabel}>
       <SectionReveal className="careers-requirements__inner">
         {columns.map((column, index) => (
           <Reveal

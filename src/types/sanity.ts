@@ -943,9 +943,9 @@ export type CareersPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   intro?: CareersIntroSection;
-  editorialSection?: ImageTextSection;
   careSection?: ContactInfoSection;
   requirementsSection?: CareersRequirementsSection;
+  commitmentSection?: CareersRequirementsSection;
   joinTeamSection?: CareersJoinTeamSection;
 };
 

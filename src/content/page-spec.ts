@@ -437,9 +437,9 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Contact & Careers",
     slots: [
       it("intro", "Introduction"),
-      it("editorialSection", "Editorial"),
-      entries("careSection", "Professional Care"),
-      cards("requirementsSection", "Requirements", { items: "columns" }),
+      cards("requirementsSection", "Roles & Positions", { items: "columns" }),
+      entries("careSection", "Candidate Requirements"),
+      cards("commitmentSection", "Commitment & Qualifications", { items: "columns" }),
       entries("joinTeamSection", "Join Our Team", { items: "cards" }),
     ],
   },

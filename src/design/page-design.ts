@@ -675,13 +675,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   "careers-page": {
     "careSection": {
       "imagePosition": "center",
-      "panelColor": "#00a5b2",
+      "panelColor": "#216B97",
       "textColor": "#ffffff",
       "waveColor": "#d97252"
-    },
-    "editorialSection": {
-      "imagePosition": "right",
-      "theme": "light"
     },
     "hero": {
       "imagePosition": "center",

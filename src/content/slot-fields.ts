@@ -963,17 +963,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "careers-page/editorialSection": {
+  "careers-page/commitmentSection": {
     "section": [
-      "heading",
-      "image"
+      "cards"
     ],
-    "heading": [
+    "heading": [],
+    "card": [
       "description",
+      "entries",
       "title"
     ],
-    "card": [],
-    "cardEntry": [],
+    "cardEntry": [
+      "text"
+    ],
     "entry": []
   },
   "careers-page/intro": {
