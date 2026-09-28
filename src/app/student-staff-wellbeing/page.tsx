@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
@@ -140,6 +141,20 @@ export default async function StudentStaffWellbeingPage() {
           </SectionReveal>
         </div>
       </section>
+
+      {page?.counselingSupportSection ? (
+        <EditorialSplitSection
+          id="wellbeing-counseling"
+          title="Dedicated Counseling & Support Services"
+          section={page.counselingSupportSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section wellbeing-counseling-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          showTitle
+          preserveRichText
+        />
+      ) : null}
 
       <section className="wellbeing-proactive" aria-labelledby="wellbeing-proactive-title">
         <div className="wellbeing-proactive__inner">

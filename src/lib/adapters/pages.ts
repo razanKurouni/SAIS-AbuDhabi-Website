@@ -371,6 +371,7 @@ export function adaptStudentStaffWellbeing(page: CmsPage): StudentStaffWellbeing
   return {
     ...base(page),
     commitment: imageText(s.get("commitment")),
+    counselingSupportSection: imageText(s.get("counselingSupportSection")),
     proactiveApproach: s.has("proactiveApproach")
       ? { heading: heading(s.get("proactiveApproach")), cards: iconCards(s.get("proactiveApproach")) }
       : undefined,

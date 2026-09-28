@@ -500,6 +500,7 @@ export type StudentStaffWellbeingPageData = {
     image?: SanityImage;
     imagePosition?: string;
   };
+  counselingSupportSection?: ImageTextSection;
   proactiveApproach?: {
     heading?: SectionHeading;
     cards?: WellbeingIconCard[];

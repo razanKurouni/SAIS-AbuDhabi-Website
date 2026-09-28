@@ -1306,6 +1306,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "commitment": {
       "imagePosition": "center"
     },
+    "counselingSupportSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "left",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
+    },
     "counsellingSection": {
       "imagePosition": "center",
       "panelColor": "#00A5B2",

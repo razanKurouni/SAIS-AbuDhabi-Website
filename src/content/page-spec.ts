@@ -296,6 +296,7 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Our Community",
     slots: [
       it("commitment", "Our Commitment"),
+      it("counselingSupportSection", "Counseling & Support"),
       cards("proactiveApproach", "Proactive Approach"),
       entries("counsellingSection", "Counselling"),
       it("selSection", "Social & Emotional Learning"),

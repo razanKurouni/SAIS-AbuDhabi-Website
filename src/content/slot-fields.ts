@@ -1813,6 +1813,20 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "heading": [
       "description",
+      "subtitle",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "student-staff-wellbeing-page/counselingSupportSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
       "title"
     ],
     "card": [],
