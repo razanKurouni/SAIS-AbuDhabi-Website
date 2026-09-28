@@ -6948,6 +6948,10 @@ img:where(
     font-size: 0.88rem;
     line-height: 1.55;
   }
+
+  .academics-middle-school-tailored-section .academics-elementary-assessment__title {
+    width: 100%;
+  }
 }
 
 .about-mission-showcase,
