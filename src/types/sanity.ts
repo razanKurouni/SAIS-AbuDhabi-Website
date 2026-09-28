@@ -471,8 +471,6 @@ export type OurCampusPageData = {
   facilities?: ImageTextSection;
   librarySection?: ImageTextSection;
   elementaryLibrarySection?: ImageTextSection;
-  secondaryLibrarySection?: CurvedPanelSection;
-  roboticsLabSection?: ImageTextSection;
 };
 
 export type WellbeingIconCard = {

@@ -286,8 +286,6 @@ export const PAGE_SPECS: PageSpec[] = [
       it("facilities", "Facilities"),
       it("librarySection", "Library"),
       it("elementaryLibrarySection", "Elementary Library"),
-      it("secondaryLibrarySection", "Secondary Library"),
-      it("roboticsLabSection", "Robotics Lab"),
     ],
   },
   {

@@ -360,8 +360,6 @@ export function adaptOurCampus(page: CmsPage): OurCampusPageData {
     facilities: imageText(s.get("facilities")),
     librarySection: imageText(s.get("librarySection")),
     elementaryLibrarySection: imageText(s.get("elementaryLibrarySection")),
-    secondaryLibrarySection: imageText(s.get("secondaryLibrarySection")),
-    roboticsLabSection: imageText(s.get("roboticsLabSection")),
   };
 }
 

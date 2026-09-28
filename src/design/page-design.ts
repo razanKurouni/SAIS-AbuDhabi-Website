@@ -993,18 +993,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "librarySection": {
       "imagePosition": "left",
       "theme": "blue"
-    },
-    "roboticsLabSection": {
-      "backgroundColor": "#F2F2F2",
-      "imagePosition": "right",
-      "titleColor": "#00A5B2"
-    },
-    "secondaryLibrarySection": {
-      "backgroundColor": "#1E6F9B",
-      "curveColor": "#00A5B2",
-      "curveLineColor": "#D97252",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
     }
   },
   "our-community-page": {

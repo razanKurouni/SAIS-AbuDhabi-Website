@@ -15883,11 +15883,6 @@ a.school-policy-card__cover:hover {
   }
 }
 
-/* Same layout as the elementary library block, on its own background. */
-.campus-robotics-lab.editorial-split-section {
-  background: var(--editorial-split-bg, #f2f2f2);
-}
-
 /* Section headings ------------------------------------------------------- */
 /* One size for every h2 from laptop up. Section treatments set their own sizes,
    so this deliberately overrides them; phones keep the sizes each one defines. */
