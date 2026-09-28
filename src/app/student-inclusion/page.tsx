@@ -208,13 +208,21 @@ export default async function StudentInclusionPage() {
         imagePosition={page?.introSection?.imagePosition || "center"}
       />
 
-      <ApproachSectionBase
-        id="student-inclusion-approach"
-        className="student-inclusion-approach"
-        title={approachSection.heading?.title || fallbackApproachSection.heading.title}
-        content={approachSection.heading?.description}
-        image={approachSection.image}
-        imageSizes="(max-width: 767px) 100vw, 53vw"
+      {page?.approachSection ? (
+        <ApproachSectionBase
+          id="student-inclusion-approach"
+          className="student-inclusion-approach"
+          title={approachSection.heading?.title || fallbackApproachSection.heading.title}
+          content={approachSection.heading?.description}
+          image={approachSection.image}
+          imageSizes="(max-width: 767px) 100vw, 53vw"
+        />
+      ) : null}
+
+      <AcademicsSupportProgramsSliderSection
+        section={page?.supportProgramsSection}
+        fallbackSection={fallbackSupportProgramsSection}
+        className="student-inclusion-support-programs"
       />
 
       <IntroFeatureSection
@@ -229,11 +237,6 @@ export default async function StudentInclusionPage() {
         imagePosition={page?.whoWeSupportSection?.imagePosition || "center"}
       />
 
-      <AcademicsSupportProgramsSliderSection
-        section={page?.supportProgramsSection}
-        fallbackSection={fallbackSupportProgramsSection}
-        className="student-inclusion-support-programs"
-      />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
       

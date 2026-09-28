@@ -310,9 +310,9 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Our Community",
     slots: [
       it("introSection", "Introduction"),
-      it("approachSection", "Our Approach"),
-      it("whoWeSupportSection", "Who We Support"),
       cards("supportProgramsSection", "Support Programs"),
+      it("whoWeSupportSection", "Who We Support"),
+      it("approachSection", "Our Approach"),
     ],
   },
   {
