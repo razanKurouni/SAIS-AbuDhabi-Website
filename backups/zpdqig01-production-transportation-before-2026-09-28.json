@@ -1,0 +1,131 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "transportation-safety-page",
+  "_rev": "IeGaEnW61OvFIXyLpmYmav",
+  "_type": "page",
+  "_updatedAt": "2026-09-21T13:56:37Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "School Transportation\nSafety Guidelines"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ school bus transportation",
+      "asset": {
+        "_ref": "image-501bff9443681ea8a013d8acfcd44a03086eeac8-5549x3974-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ school bus transportation",
+      "asset": {
+        "_ref": "image-590243e0e4eac6f3f816e1fc0c14ca5f2c80acbc-5450x3979-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/transportation-safety-guidelines",
+  "sections": [
+    {
+      "_key": "safetyHighlight",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "6ec73b3bc09e",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "4abde7c3edc6",
+                "_type": "span",
+                "text": "Student safety and wellbeing are at the forefront of our transportation services. All school buses are equipped with live monitoring systems, internal surveillance cameras, and GPS tracking to ensure secure and efficient travel."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "title": "Student Safety on Every Journey"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Student Safety",
+        "asset": {
+          "_ref": "image-a178f6298b33ba8e6c49d2681fad4f477103e850-3198x1454-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "safetyHighlight"
+    },
+    {
+      "_key": "boardingSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "9f9f46ced801",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "a9211293f891",
+                "_type": "span",
+                "text": "To maintain safety and organization, seating assignments follow a structured route-based system. Boarding procedures are designed to minimize student conflict."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "65b1e83e88d9",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "9ae8a64fb5b3",
+                "_type": "span",
+                "text": "Each bus is staffed with a licensed driver and a trained assistant who ensure student supervision, manage attendance, and support younger children. Detailed attendance records are maintained daily, and absences are promptly reported to the school administration."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "519dffa77ea3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "f99e951e249c",
+                "_type": "span",
+                "text": "Additionally, all buses undergo regular cleaning and sanitization to uphold the highest standards of hygiene and safety."
+              }
+            ],
+            "style": "normal"
+          }
+        ]
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Boarding & Supervision Section",
+        "asset": {
+          "_ref": "image-148b86c9ccda33a511f965ce913da7b21c7a69c4-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "boardingSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about school transportation safety guidelines at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ school bus transportation",
+      "asset": {
+        "_ref": "image-54b9c3dd99cfab15298781b3cc95a404694a5f7a-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "School Transportation Safety Guidelines | SAIS - UAQ"
+  },
+  "title": "Transportation Safety Guidelines"
+}

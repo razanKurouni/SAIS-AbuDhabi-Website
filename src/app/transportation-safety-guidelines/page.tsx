@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { SafetyHighlightSection } from "@/components/sections/safety-highlight-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -8,7 +9,7 @@ import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { getHomepage, getTransportationSafetyPage } from "@/lib/sanity";
 import type {
-  ImageTextSection,
+  AcademicsKindergartenFeatureSection,
   PortableTextBlock,
   SafetyHighlightSection as SafetyHighlightSectionData,
 } from "@/types/sanity";
@@ -60,24 +61,16 @@ const fallbackSafetyHighlight: SafetyHighlightSectionData = {
   textColor: "#ffffff",
 };
 
-const fallbackBoardingParagraphs = [
-  "To maintain safety and organization, seating assignments follow a structured route-based system. Boarding procedures are designed to minimize student conflict.",
-  "Each bus is staffed with a licensed driver and a trained assistant who ensure student supervision, manage attendance, and support younger children. Detailed attendance records are maintained daily, and absences are promptly reported to the school administration.",
-  "Additionally, all buses undergo regular cleaning and sanitization to uphold the highest standards of hygiene and safety.",
-];
-
-const fallbackBoardingSection: ImageTextSection = {
-  heading: {
-    title: "Boarding & Supervision",
-    description: fallbackBoardingParagraphs.map((text, index) =>
-      paragraph(`transportation-boarding-${index + 1}`, text)
-    ),
-  },
-  image: {
-    url: "/images/academics-steam.jpg",
-    alt: "SAIS - UAQ student carrying a project kit",
-  },
-  imagePosition: "left",
+const fallbackEnrollSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#216B97",
+  waveColor: "#00A5B2",
+  titleColor: "#00A5B2",
+  textColor: "#ffffff",
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -125,14 +118,26 @@ export default async function TransportationSafetyGuidelinesPage() {
         titleId="transportation-safety-highlight-title"
       />
 
-      <EditorialSplitSection
-        id="transportation-boarding"
-        title={fallbackBoardingSection.heading.title}
-        section={page?.boardingSection}
-        fallbackImage={fallbackBoardingSection.image || {}}
-        fallbackParagraphs={fallbackBoardingParagraphs}
-        className="transportation-boarding"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
+      {page?.featuresSection ? (
+        <EditorialSplitSection
+          id="transportation-features"
+          title="Key Features of Our Service"
+          section={page.featuresSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section wellbeing-counseling-section transportation-features"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          showTitle
+          preserveRichText
+        />
+      ) : null}
+
+      <AcademicsElementaryAssessmentSection
+        section={page?.enrollSection}
+        fallbackSection={fallbackEnrollSection}
+        className="transportation-enroll-feature academics-middle-school-tailored-section"
+        imageSide={page?.enrollSection?.imageSide || "right"}
+        titleId="transportation-enroll-title"
       />
 
       <TourIntroSection section={data?.tour} />

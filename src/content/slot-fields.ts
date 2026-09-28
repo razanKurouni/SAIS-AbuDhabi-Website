@@ -1922,13 +1922,27 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "transportation-safety-page/boardingSection": {
+  "transportation-safety-page/enrollSection": {
     "section": [
       "heading",
       "image"
     ],
     "heading": [
-      "description"
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "transportation-safety-page/featuresSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
     ],
     "card": [],
     "cardEntry": [],

@@ -383,7 +383,11 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/transportation-safety-guidelines",
     title: "Transportation Safety Guidelines",
     group: "Our Community",
-    slots: [it("safetyHighlight", "Safety Highlight"), it("boardingSection", "Boarding")],
+    slots: [
+      it("safetyHighlight", "Introduction"),
+      it("featuresSection", "Key Features"),
+      it("enrollSection", "How to Enroll"),
+    ],
   },
   {
     id: "student-life-page",

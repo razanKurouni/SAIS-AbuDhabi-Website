@@ -17235,3 +17235,28 @@ a.school-policy-card__cover:hover {
 .food-services-hygiene-feature .intro-feature__description p + p {
   margin-top: 18px;
 }
+
+/* Transportation: key features split (inline teal labels) and the enroll curved panel */
+.transportation-features.editorial-split-section {
+  padding: 0 0 62px;
+}
+
+.transportation-features .editorial-split-section__rich-text strong {
+  display: inline;
+  margin: 0;
+  color: var(--sais-accent);
+  font-weight: 700;
+}
+
+.transportation-safety-page .transportation-enroll-feature {
+  margin-bottom: 0;
+}
+
+.transportation-safety-page .transportation-enroll-feature .academics-elementary-assessment__body p,
+.transportation-safety-page .transportation-enroll-feature .academics-elementary-assessment__body li {
+  white-space: pre-line;
+}
+
+.transportation-safety-page .transportation-enroll-feature .academics-elementary-assessment__title {
+  color: var(--academics-elementary-assessment-title, #00A5B2);
+}

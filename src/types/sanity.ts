@@ -558,7 +558,8 @@ export type TransportationSafetyPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   safetyHighlight?: SafetyHighlightSection;
-  boardingSection?: ImageTextSection;
+  featuresSection?: ImageTextSection;
+  enrollSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type ParentEngagementSection = {

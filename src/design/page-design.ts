@@ -1369,6 +1369,21 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "transportation-safety-page": {
+    "enrollSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#00A5B2",
+      "waveColor": "#00A5B2"
+    },
+    "featuresSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "left",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
+    },
     "guidelinesSection": {
       "backgroundColor": "#216B97",
       "cardBorderColor": "#216B97",
@@ -1384,6 +1399,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "topLineColor": "#216B97",
       "waveColor": "#d97252"
+    },
+    "safetyHighlight": {
+      "backgroundColor": "#216B97",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#00A5B2"
     }
   }
 };

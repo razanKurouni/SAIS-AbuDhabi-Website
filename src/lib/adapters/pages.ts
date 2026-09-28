@@ -454,7 +454,12 @@ export function adaptSchoolSuppliesUniform(page: CmsPage): SchoolSuppliesUniform
 
 export function adaptTransportationSafety(page: CmsPage): TransportationSafetyPageData {
   const s = bySlot(page);
-  return { ...base(page), safetyHighlight: imageText(s.get("safetyHighlight")), boardingSection: imageText(s.get("boardingSection")) };
+  return {
+    ...base(page),
+    safetyHighlight: imageText(s.get("safetyHighlight")),
+    featuresSection: imageText(s.get("featuresSection")),
+    enrollSection: imageText(s.get("enrollSection")),
+  };
 }
 
 export function adaptStudentLife(page: CmsPage): StudentLifePageData {
