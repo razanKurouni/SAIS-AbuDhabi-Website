@@ -1304,7 +1304,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "student-staff-wellbeing-page": {
     "classroomIntegration": {
-      "backgroundColor": "#2FB5BC",
+      "backgroundColor": "#00A5B2",
       "imagePosition": "center",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
@@ -1327,7 +1327,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "selSection": {
-      "backgroundColor": "#2FB5BC",
+      "backgroundColor": "#00A5B2",
       "imagePosition": "center",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
@@ -1336,7 +1336,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "backgroundColor": "#216B97",
       "imagePosition": "center",
       "textColor": "#ffffff",
-      "titleColor": "#5FC1C7"
+      "titleColor": "#00A5B2"
     },
     "wellnessCampaigns": {
       "backgroundColor": "#ffffff",

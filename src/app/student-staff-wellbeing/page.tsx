@@ -107,7 +107,7 @@ export default async function StudentStaffWellbeingPage() {
         className="wellbeing-sel-feature"
         titleId="wellbeing-sel-title"
         section={page?.selSection}
-        panelColor={page?.selSection?.backgroundColor || "#2FB5BC"}
+        panelColor={page?.selSection?.backgroundColor || "#00A5B2"}
         accentColor="#D97252"
         titleColor={page?.selSection?.titleColor || "#ffffff"}
         textColor={page?.selSection?.textColor || "#ffffff"}
@@ -121,7 +121,7 @@ export default async function StudentStaffWellbeingPage() {
         section={page?.wellbeingFramework}
         panelColor={page?.wellbeingFramework?.backgroundColor || "#216B97"}
         accentColor="#D97252"
-        titleColor={page?.wellbeingFramework?.titleColor || "#5FC1C7"}
+        titleColor={page?.wellbeingFramework?.titleColor || "#00A5B2"}
         textColor={page?.wellbeingFramework?.textColor || "#ffffff"}
         imagePosition={page?.wellbeingFramework?.imagePosition || "center"}
       />
@@ -144,7 +144,7 @@ export default async function StudentStaffWellbeingPage() {
         className="wellbeing-classroom-feature"
         titleId="wellbeing-classroom-title"
         section={page?.classroomIntegration}
-        panelColor={page?.classroomIntegration?.backgroundColor || "#2FB5BC"}
+        panelColor={page?.classroomIntegration?.backgroundColor || "#00A5B2"}
         accentColor="#216B97"
         titleColor={page?.classroomIntegration?.titleColor || "#ffffff"}
         textColor={page?.classroomIntegration?.textColor || "#ffffff"}
