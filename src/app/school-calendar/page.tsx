@@ -141,6 +141,14 @@ export default async function SchoolCalendarPage() {
                 <div className="school-calendar-table__term-title" role="rowgroup">
                   {term.title}
                 </div>
+                <div className="school-calendar-table__row school-calendar-table__row--head" role="row">
+                  <div className="school-calendar-table__cell" role="columnheader">
+                    Event
+                  </div>
+                  <div className="school-calendar-table__cell" role="columnheader">
+                    Date
+                  </div>
+                </div>
                 <div className="school-calendar-table__rows" role="rowgroup">
                   {(term.rows || []).map((row) => (
                     <div key={row._key || `${row.label}-${row.date}`} className="school-calendar-table__row" role="row">
