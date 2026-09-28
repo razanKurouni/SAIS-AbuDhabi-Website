@@ -394,15 +394,12 @@ export function adaptStudentInclusion(page: CmsPage): StudentInclusionPageData {
 
 export function adaptParentInvolvement(page: CmsPage): ParentInvolvementPageData {
   const s = bySlot(page);
-  const engagement = s.get("engagementSection");
   return {
     ...base(page),
-    engagementSection: engagement ? { heading: heading(engagement), bodyText: engagement.body } : undefined,
+    partnershipSection: imageText(s.get("partnershipSection")),
     videoSection: video(s.get("videoSection")),
-    proactiveIntroSection: imageText(s.get("proactiveIntroSection")),
-    proactiveApproach: s.has("proactiveApproach")
-      ? { heading: heading(s.get("proactiveApproach")), cards: iconCards(s.get("proactiveApproach")) }
-      : undefined,
+    programSection: imageText(s.get("programSection")),
+    communitySection: imageText(s.get("communitySection")),
   };
 }
 

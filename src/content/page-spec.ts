@@ -321,10 +321,10 @@ export const PAGE_SPECS: PageSpec[] = [
     title: "Parent Involvement",
     group: "Our Community",
     slots: [
-      txt("engagementSection", "Parent Engagement"),
+      it("partnershipSection", "Parent Partnership"),
       { slot: "videoSection", kind: "media", label: "Video" },
-      it("proactiveIntroSection", "Proactive Intro"),
-      cards("proactiveApproach", "Proactive Approach"),
+      it("programSection", "Engagement Program"),
+      it("communitySection", "Parent Community"),
     ],
   },
   {

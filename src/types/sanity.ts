@@ -573,10 +573,10 @@ export type ParentEngagementSection = {
 export type ParentInvolvementPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
-  engagementSection?: ParentEngagementSection;
+  partnershipSection?: ImageTextSection;
   videoSection?: CampusVideoSection;
-  proactiveIntroSection?: ImageTextSection;
-  proactiveApproach?: AcademicsSupportProgramsSection;
+  programSection?: AcademicsKindergartenFeatureSection;
+  communitySection?: ImageTextSection;
 };
 
 export type SchoolCalendarTermRow = {

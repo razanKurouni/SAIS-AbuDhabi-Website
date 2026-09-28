@@ -1146,10 +1146,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "parent-involvement-page": {
-    "engagementSection": {
-      "bandColor": "var(--sais-accent)",
-      "textColor": "var(--sais-primary)",
-      "titleColor": "var(--sais-primary)"
+    "communitySection": {
+      "backgroundColor": "#216B97",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
     },
     "hero": {
       "imagePosition": "center",
@@ -1159,19 +1160,20 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "topLineColor": "#216B97",
       "waveColor": "#d97252"
     },
-    "proactiveApproach": {
+    "partnershipSection": {
       "backgroundColor": "#ffffff",
-      "cardBorderColor": "#216B97",
-      "cardHoverBorderColor": "#d97252",
-      "cardTextColor": "#00A5B2",
-      "titleColor": "#1E6F9B"
-    },
-    "proactiveIntroSection": {
-      "backgroundColor": "#F2F2F2",
-      "imagePosition": "right",
+      "imagePosition": "left",
       "textColor": "#707278",
-      "theme": "light",
-      "titleColor": "#00A5B2"
+      "titleColor": "#216B97"
+    },
+    "programSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#707174",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
     }
   },
   "school-calendar-page": {

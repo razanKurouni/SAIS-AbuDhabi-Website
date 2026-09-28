@@ -16711,7 +16711,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.wellbeing-sel-feature .intro-feature__wave,
   .intro-feature.wellbeing-framework-feature .intro-feature__wave,
   .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
-  .intro-feature.food-services-hygiene-feature .intro-feature__wave {
+  .intro-feature.food-services-hygiene-feature .intro-feature__wave,
+  .intro-feature.parent-involvement-community-feature .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16725,7 +16726,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
-  .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask {
+  .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask,
+  .intro-feature.parent-involvement-community-feature .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -17305,4 +17307,45 @@ a.school-policy-card__cover:hover {
 
 .health-safety-services-feature .academics-elementary-assessment__body {
   margin-top: 0;
+}
+
+/* Parent Involvement: partnership split, plain video, grey program panel, navy community panel */
+.parent-involvement-partnership.editorial-split-section {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.parent-involvement-page .campus-video {
+  background: #ffffff;
+  padding: 0 0 62px;
+}
+
+.parent-involvement-page .parent-involvement-program-feature {
+  margin-bottom: 0;
+}
+
+.parent-involvement-page .parent-involvement-program-feature .academics-elementary-assessment__title {
+  color: var(--academics-elementary-assessment-title, #ffffff);
+  white-space: pre-line;
+}
+
+.parent-involvement-program-feature .academics-elementary-assessment__body ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.parent-involvement-program-feature .academics-elementary-assessment__body li {
+  margin: 0;
+  padding-left: 4px;
+}
+
+.parent-involvement-program-feature .academics-elementary-assessment__body li::marker {
+  font-size: 0.78em;
+}
+
+.parent-involvement-page .intro-feature.parent-involvement-community-feature {
+  padding: 62px 0;
 }

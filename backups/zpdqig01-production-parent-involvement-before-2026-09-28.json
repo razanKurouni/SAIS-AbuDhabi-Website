@@ -1,0 +1,245 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "parent-involvement-page",
+  "_rev": "cgt8kIHlhkaEnHtsIJmhLd",
+  "_system": {
+    "base": {
+      "id": "parent-involvement-page",
+      "rev": "IeGaEnW61OvFIXyLpmYmav"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T08:03:40Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Parent\nInvolvement"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Parent involvement",
+      "asset": {
+        "_ref": "image-a09a9bb6c96fcd3f438c89efe4567fc95950daf0-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Parent involvement",
+      "asset": {
+        "_ref": "image-a09a9bb6c96fcd3f438c89efe4567fc95950daf0-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/parent-involvement",
+  "sections": [
+    {
+      "_key": "engagementSection",
+      "_type": "textSection",
+      "body": [
+        {
+          "_key": "parent-involvement-engagement-body",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "parent-involvement-engagement-body-span",
+              "_type": "span",
+              "text": "We foster a dynamic relationship between home and school, where parents are encouraged to participate in meaningful ways. From observing classroom lessons to joining school celebrations, and from volunteering in events to contributing through our active Parent-Teacher Association, PTA, our families are deeply engaged in the SAIS experience."
+            }
+          ]
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "parent-involvement-engagement-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "parent-involvement-engagement-intro-span",
+                "_type": "span",
+                "text": "We believe that strong schools are built on strong partnerships with families. Parents are not just observers, they are active contributors to the school's life and culture. Their involvement plays a vital role in supporting student achievement, wellbeing, and a positive school climate."
+              }
+            ]
+          }
+        ],
+        "title": "Engaging Families\nin Every Step of Learning"
+      },
+      "slot": "engagementSection"
+    },
+    {
+      "_key": "videoSection",
+      "_type": "mediaSection",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ counselling and support services",
+        "asset": {
+          "_ref": "image-a1e613bde07e8e386b87c3c47df7c597688ba705-3132x1900-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "videoSection",
+      "video": {
+        "_type": "file",
+        "asset": {
+          "_ref": "file-aa0eb9c718badda6d5495d59aac81de7bf31d47a-mp4",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "proactiveIntroSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "parent-involvement-proactive-intro-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "parent-involvement-proactive-intro-1-span",
+                "_type": "span",
+                "text": "We are proud to maintain a VERY GOOD rating in parental engagement and community relationships, as noted in our most recent school inspection report, a reflection of our strong and consistent collaboration with families."
+              }
+            ],
+            "style": "normal"
+          },
+          {
+            "_key": "parent-involvement-proactive-intro-2",
+            "_type": "block",
+            "style": "normal"
+          }
+        ],
+        "title": "A Proactive Approach"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ students in a music lesson",
+        "asset": {
+          "_ref": "image-c2e3fa47eb0b77cac8520a8975aa84fde8f58dbe-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "proactiveIntroSection"
+    },
+    {
+      "_key": "proactiveApproach",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "parent-teacher-meetings",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Parent teacher meetings icon",
+            "asset": {
+              "_ref": "image-6cee0a6254d45f39542aafdb5d20d15811f3701b-387x387-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Parent-Teacher Conferences held twice per semester"
+        },
+        {
+          "_key": "teacher-conferences",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Teacher conferences icon",
+            "asset": {
+              "_ref": "image-daecd30357755ea0893408f14a9f8cbdec2ce315-357x387-png",
+              "_type": "reference"
+            }
+          },
+          "title": "One-on-one teacher meetings upon request"
+        },
+        {
+          "_key": "e8aac6541f14",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Icon",
+            "asset": {
+              "_ref": "image-ccb9691af54e935bb840d6cc2a6d24d19092fc08-255x277-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Lesson observation opportunities"
+        },
+        {
+          "_key": "awareness-campaigns",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Awareness campaigns icon",
+            "asset": {
+              "_ref": "image-c7990bf1d628e81260eb22d34a7ff7c6bd696e9e-406x383-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Participation in school-wide events, projects, and activities"
+        },
+        {
+          "_key": "celebrations",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Celebrations icon",
+            "asset": {
+              "_ref": "image-3aedcc9b6f1c653fa910aecb8af4f07a6a3bf507-368x387-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Celebrations of Islamic, UAE, and International Traditions"
+        },
+        {
+          "_key": "cultural-observances",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Cultural observances icon",
+            "asset": {
+              "_ref": "image-13a49b6e5c8d9f843d8b186c89b6d730db0ccdf0-300x310-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Academic exhibitions, fairs, and showcases"
+        },
+        {
+          "_key": "showcases",
+          "_type": "card",
+          "icon": {
+            "_type": "image",
+            "alt": "Showcases icon",
+            "asset": {
+              "_ref": "image-5c820578c96b3cae57990f2b273678100e7a0442-352x352-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Active Parent-Teacher Association initiatives "
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "We offer diverse opportunities for parent involvement, including:"
+      },
+      "slot": "proactiveApproach"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn how SAIS - UAQ partners with parents to support student success.",
+    "image": {
+      "_type": "image",
+      "alt": "Parent involvement",
+      "asset": {
+        "_ref": "image-a09a9bb6c96fcd3f438c89efe4567fc95950daf0-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Parent Involvement | SAIS - UAQ"
+  },
+  "title": "Parent Involvement"
+}
