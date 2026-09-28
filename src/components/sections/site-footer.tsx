@@ -38,7 +38,7 @@ const defaultContactItems: FooterContactItem[] = [
   {
     icon: "location",
     label: "Address",
-    text: "Sharjah American International School \u2013 Umm Al Quwain\nCampus Salama 2, P.O. Box 1202\nUmm Al Quwain, UAE",
+    text: "Sharjah American International School \u2013\nUmm Al Quwain Campus\nAl Salmah \u2013 Al Salamah 2\nEmirate of Umm Al Quwain",
     href: "https://maps.google.com/?cid=10238059398487815870",
   },
   {
@@ -50,8 +50,8 @@ const defaultContactItems: FooterContactItem[] = [
   {
     icon: "email",
     label: "Email",
-    text: "saisq@saisuaq.com",
-    href: "mailto:saisq@saisuaq.com",
+    text: "sais-uaq@saisuaq.com",
+    href: "mailto:sais-uaq@saisuaq.com",
   },
 ];
 
