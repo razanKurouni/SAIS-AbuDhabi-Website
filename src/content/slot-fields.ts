@@ -2161,7 +2161,8 @@ export const HERO_FIELDS: Record<string, { hero: string[]; heading: string[] }> 
   "homepage-main": {
     "hero": [
       "heading",
-      "image"
+      "image",
+      "mobileImage"
     ],
     "heading": [
       "subtitle",
