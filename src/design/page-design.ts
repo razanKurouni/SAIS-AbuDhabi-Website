@@ -42,8 +42,8 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
           "imagePosition": "center"
         },
         {
-          "buttonColor": "#31B2B6",
-          "cardColor": "#31B2B6",
+          "buttonColor": "#00A5B2",
+          "cardColor": "#00A5B2",
           "cta": {
             "variant": "primary"
           },
