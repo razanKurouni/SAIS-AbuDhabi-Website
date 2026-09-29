@@ -980,6 +980,21 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "introSection": {
       "imagePosition": "center",
       "theme": "blue"
+    },
+    "servicesSection": {
+      "backgroundColor": "#707174",
+      "imagePosition": "center",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff"
+    },
+    "staffSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#00A5B2",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     }
   },
   "news-listing-page": {

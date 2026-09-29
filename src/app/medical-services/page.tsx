@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { getHomepage, getMedicalServicesPage } from "@/lib/sanity";
-import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
+import type { AcademicsKindergartenFeatureSection, ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
   title: "Medical Services | SAIS - UAQ",
@@ -51,6 +52,18 @@ const fallbackIntroSection: ImageTextSection = {
   },
   imagePosition: "center",
   theme: "blue",
+};
+
+const fallbackStaffSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#00A5B2",
+  waveColor: "#D97252",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -101,6 +114,26 @@ export default async function MedicalServicesPage() {
         titleColor="#ffffff"
         textColor="#ffffff"
         imagePosition={page?.introSection?.imagePosition || "center"}
+      />
+
+      <AcademicsElementaryAssessmentSection
+        section={page?.staffSection}
+        fallbackSection={fallbackStaffSection}
+        className="medical-services-staff-feature academics-middle-school-tailored-section"
+        imageSide={page?.staffSection?.imageSide || "right"}
+        titleId="medical-services-staff-title"
+      />
+
+      <IntroFeatureSection
+        className="medical-services-services-feature"
+        titleId="medical-services-services-title"
+        section={page?.servicesSection}
+        fallbackSection={{ heading: { title: "" }, image: {} }}
+        panelColor={page?.servicesSection?.backgroundColor || "#707174"}
+        accentColor="#00A5B2"
+        titleColor={page?.servicesSection?.titleColor || "#ffffff"}
+        textColor={page?.servicesSection?.textColor || "#ffffff"}
+        imagePosition={page?.servicesSection?.imagePosition || "center"}
       />
 
       <TourIntroSection section={data?.tour} />

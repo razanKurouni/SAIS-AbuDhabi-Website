@@ -369,7 +369,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/medical-services",
     title: "Medical Services",
     group: "Our Community",
-    slots: [it("introSection", "Introduction")],
+    slots: [it("introSection", "Introduction"), it("staffSection", "Medical Staff"), it("servicesSection", "Medical Services")],
   },
   {
     id: "school-supplies-uniform-page",

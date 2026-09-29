@@ -441,7 +441,12 @@ export function adaptFoodServices(page: CmsPage): FoodServicesNutritionPageData 
 
 export function adaptMedicalServices(page: CmsPage): MedicalServicesPageData {
   const s = bySlot(page);
-  return { ...base(page), introSection: imageText(s.get("introSection")) };
+  return {
+    ...base(page),
+    introSection: imageText(s.get("introSection")),
+    staffSection: imageText(s.get("staffSection")),
+    servicesSection: imageText(s.get("servicesSection")),
+  };
 }
 
 export function adaptSchoolSuppliesUniform(page: CmsPage): SchoolSuppliesUniformPageData {

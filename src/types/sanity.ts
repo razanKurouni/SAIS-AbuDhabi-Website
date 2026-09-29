@@ -536,6 +536,8 @@ export type MedicalServicesPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   introSection?: ImageTextSection;
+  staffSection?: AcademicsKindergartenFeatureSection;
+  servicesSection?: ImageTextSection;
 };
 
 export type SchoolSuppliesUniformPageData = {

@@ -16712,7 +16712,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.wellbeing-framework-feature .intro-feature__wave,
   .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
   .intro-feature.food-services-hygiene-feature .intro-feature__wave,
-  .intro-feature.parent-involvement-community-feature .intro-feature__wave {
+  .intro-feature.parent-involvement-community-feature .intro-feature__wave,
+  .intro-feature.medical-services-services-feature .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
 
@@ -16727,7 +16728,8 @@ a.school-policy-card__cover:hover {
   .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
   .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask,
-  .intro-feature.parent-involvement-community-feature .intro-feature__curve-mask {
+  .intro-feature.parent-involvement-community-feature .intro-feature__curve-mask,
+  .intro-feature.medical-services-services-feature .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
 }
@@ -17347,5 +17349,43 @@ a.school-policy-card__cover:hover {
 }
 
 .parent-involvement-page .intro-feature.parent-involvement-community-feature {
+  padding: 62px 0;
+}
+
+/* Medical Services: teal full-bleed staff panel, then the grey services panel */
+.medical-services-page .medical-services-staff-feature {
+  margin-bottom: 0;
+}
+
+.medical-services-staff-feature .academics-elementary-assessment__body {
+  margin-top: 0;
+}
+
+.medical-services-staff-feature .academics-elementary-assessment__body ul,
+.medical-services-services-feature .intro-feature__description ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.medical-services-staff-feature .academics-elementary-assessment__body li,
+.medical-services-services-feature .intro-feature__description li {
+  margin: 0;
+  padding-left: 4px;
+}
+
+.medical-services-staff-feature .academics-elementary-assessment__body li::marker,
+.medical-services-services-feature .intro-feature__description li::marker {
+  font-size: 0.78em;
+}
+
+.medical-services-services-feature .intro-feature__description p + ul,
+.medical-services-services-feature .intro-feature__description ul + p {
+  margin-top: clamp(18px, 2.2vw, 26px);
+}
+
+.medical-services-page .intro-feature.medical-services-services-feature {
   padding: 62px 0;
 }

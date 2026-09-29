@@ -1,0 +1,99 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "medical-services-page",
+  "_rev": "z2nMvYbGDG4FxTvfDSeAlc",
+  "_system": {
+    "base": {
+      "id": "medical-services-page",
+      "rev": "Vnv6A4ouQqSNX98H66pAoa"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T08:40:44Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Medical\nServices"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus medical services hero",
+      "asset": {
+        "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus medical services hero",
+      "asset": {
+        "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/medical-services",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "medical-services-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "medical-services-intro-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Student health and wellbeing are at the heart of everything we do. Our dedicated Medical Team ensures that every student is cared for in a safe, supportive, and professional environment throughout the school day."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "aefdcf84b016",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "7b2b3c87fa77",
+                "_type": "span",
+                "marks": [],
+                "text": "Our qualified nurses and licensed doctor are available on campus to provide immediate care."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Committed to Student Wellness & Care"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ medical clinic care",
+        "asset": {
+          "_ref": "image-8eb5596805e281ce10d73a05fac3714175af5af3-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "introSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about medical services at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus medical services hero",
+      "asset": {
+        "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Medical Services | SAIS - UAQ"
+  },
+  "title": "Medical Services"
+}
