@@ -4,7 +4,6 @@ import { AcademicsElementaryAssessmentSection } from "@/components/sections/acad
 import { AcademicsSupportProgramsSliderSection } from "@/components/sections/academics-support-programs-slider-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
-import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { getAcademicsMiddleSchoolPage, getHomepage } from "@/lib/sanity";
 import { LearningPhasesSection } from "@/components/sections/learning-phases-section";
@@ -259,17 +258,26 @@ export default async function AcademicsMiddleSchoolPage() {
     middleSchoolPage?.tailoredInstructionSection || fallbackTailoredInstructionSection;
   const curriculumLifeSection = middleSchoolPage?.curriculumLifeSection || fallbackCurriculumLifeSection;
   const assessmentSection = middleSchoolPage?.assessmentSection || fallbackAssessmentSection;
-  const assessmentIntroSection: ImageTextSection = {
-    heading: assessmentSection.heading || fallbackAssessmentSection.heading!,
-    image: assessmentSection.image || fallbackAssessmentSection.image,
-    imagePosition: "left",
-    theme: "teal",
-  };
-  const fallbackAssessmentIntroSection: ImageTextSection = {
+  const fallbackAssessmentFeature: Required<AcademicsKindergartenFeatureSection> = {
     heading: fallbackAssessmentSection.heading!,
-    image: fallbackAssessmentSection.image,
-    imagePosition: "left",
-    theme: "teal",
+    image: fallbackAssessmentSection.image || {},
+    imageSide: "right",
+    imagePosition: "center",
+    backgroundColor: "#ffffff",
+    panelColor: "#216B97",
+    waveColor: "#00A5B2",
+    titleColor: "#00A5B2",
+    textColor: "#ffffff",
+  };
+  const assessmentFeature: AcademicsKindergartenFeatureSection = {
+    heading: assessmentSection.heading || fallbackAssessmentFeature.heading,
+    image: assessmentSection.image || fallbackAssessmentFeature.image,
+    imageSide: "right",
+    imagePosition: assessmentSection.imagePosition || "center",
+    panelColor: assessmentSection.panelColor || fallbackAssessmentFeature.panelColor,
+    waveColor: assessmentSection.waveColor || fallbackAssessmentFeature.waveColor,
+    titleColor: assessmentSection.titleColor || fallbackAssessmentFeature.titleColor,
+    textColor: assessmentSection.textColor || fallbackAssessmentFeature.textColor,
   };
   const supportProgramsSection =
     middleSchoolPage?.supportProgramsSection || fallbackSupportProgramsSection;
@@ -347,16 +355,12 @@ export default async function AcademicsMiddleSchoolPage() {
         showTitle
       />
 
-      <IntroFeatureSection
-        className="academics-elementary-curriculum-feature"
+      <AcademicsElementaryAssessmentSection
+        section={assessmentFeature}
+        fallbackSection={fallbackAssessmentFeature}
+        className="academics-middle-school-assessment-feature academics-middle-school-tailored-section"
+        imageSide="right"
         titleId="academics-middle-school-assessment-title"
-        section={assessmentIntroSection}
-        fallbackSection={fallbackAssessmentIntroSection}
-        panelColor={assessmentSection.panelColor || "#00A5B2"}
-        accentColor={assessmentSection.waveColor || fallbackAssessmentSection.waveColor}
-        titleColor={assessmentSection.titleColor || fallbackAssessmentSection.titleColor}
-        textColor={assessmentSection.textColor || fallbackAssessmentSection.textColor}
-        imagePosition={assessmentSection.imagePosition || fallbackAssessmentSection.imagePosition}
       />
 
       {middleSchoolPage?.assessmentDetailSection ? (
