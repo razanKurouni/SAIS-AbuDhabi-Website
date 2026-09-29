@@ -17427,3 +17427,21 @@ a.school-policy-card__cover:hover {
     transition: none;
   }
 }
+
+/* Tour cards (Discover a Place Where Your Child Can Thrive): the curved accent line draws itself on reveal. */
+.tour-action-card.reveal-item .sais-curved-panel__accent {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1500ms cubic-bezier(0.22, 1, 0.36, 1) calc(var(--reveal-delay, 0ms) + 250ms);
+}
+
+.tour-action-card.reveal-item.is-visible .sais-curved-panel__accent {
+  stroke-dashoffset: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tour-action-card.reveal-item .sais-curved-panel__accent {
+    stroke-dashoffset: 0;
+    transition: none;
+  }
+}
