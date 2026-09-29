@@ -17400,3 +17400,8 @@ a.school-policy-card__cover:hover {
 .student-programs-page .student-programs-leadership .intro-feature__description p {
   color: #ffffff;
 }
+
+/* Health & Safety: the tour intro opens on the same 62px the other community pages use. */
+.health-safety-page .tour-intro {
+  padding-top: 62px;
+}
