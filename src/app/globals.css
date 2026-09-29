@@ -17429,3 +17429,31 @@ a.school-policy-card__cover:hover {
 .academics-middle-school-page .academics-middle-school-assessment-feature .academics-elementary-assessment__title {
   color: var(--academics-elementary-assessment-title, #00A5B2);
 }
+
+/* Phone fixes from the mobile QA pass. */
+@media (max-width: 767px) {
+  /* High School AP courses: the centred two-card track pushed both cards
+     half off-screen at one visible card. Start from the left so the slider
+     works. */
+  .academics-high-school-ap-courses .academics-support-programs__track {
+    justify-content: flex-start;
+  }
+
+  /* Careers: the Commitment / Qualifications pair stayed side by side on
+     phones, leaving two 150px columns of bullets. Stack them. */
+  .careers-requirements--two .careers-requirements__inner {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  /* Support-program slider cards (Inclusion, Academics, Parent Involvement):
+     the card text dropped to 12px on phones. Keep it readable. */
+  .academics-support-programs__card .hover-icon-card__title {
+    font-size: 0.92rem;
+  }
+
+  .academics-support-programs__card .hover-icon-card__description {
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+}
