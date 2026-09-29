@@ -1,15 +1,15 @@
 /**
  * The mograSYS portals are per campus: SAISS is Sharjah, SAISD Dubai, SAISU Umm
- * Al Quwain, SAISA Abu Dhabi. This site is Sharjah, so a Dubai portal link is
- * always the wrong destination here.
+ * Al Quwain, SAISA Abu Dhabi. This site is Umm Al Quwain, so a Sharjah or Dubai
+ * portal link is always the wrong destination here.
  *
  * Some of these links and the mograHUB school code are stored in the Studio and
- * still point at Dubai, so they are corrected on read. Editing them in the
- * Studio still wins for every other value.
+ * may still point at another campus, so they are corrected on read. Editing them
+ * in the Studio still wins for every other value.
  */
 const PORTAL_HOSTS = ["ppnv1.mograsys.com", "oa.mograsys.com"];
 
-export const SHARJAH_SCHOOL_CODE = "SAISS";
+export const UAQ_SCHOOL_CODE = "SAISU";
 
 export function normalizePortalUrl<T extends string | undefined | null>(url: T): T {
   if (!url) {
@@ -17,7 +17,7 @@ export function normalizePortalUrl<T extends string | undefined | null>(url: T):
   }
 
   const corrected = PORTAL_HOSTS.reduce(
-    (value, host) => value.replace(new RegExp(`\\bsais[dua]\\.${host.replace(/\./g, "\\.")}`, "gi"), `saiss.${host}`),
+    (value, host) => value.replace(new RegExp(`\\bsais[sda]\\.${host.replace(/\./g, "\\.")}`, "gi"), `saisu.${host}`),
     url as string
   );
 
@@ -29,7 +29,7 @@ export function normalizeSchoolCode<T extends string | undefined | null>(code: T
     return code;
   }
 
-  return (/^sais[dua]$/i.test(code.trim()) ? SHARJAH_SCHOOL_CODE : code) as T;
+  return (/^sais[sda]$/i.test(code.trim()) ? UAQ_SCHOOL_CODE : code) as T;
 }
 
 /**

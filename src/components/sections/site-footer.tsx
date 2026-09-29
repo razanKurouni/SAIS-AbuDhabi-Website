@@ -22,8 +22,8 @@ const defaultLegalLinks: LinkField[] = [
 ];
 
 const defaultParentStudentLinks: LinkField[] = [
-  { label: "Parent Portal", href: "https://saiss.ppnv1.mograsys.com", openInNewTab: true },
-  { label: "Apply Online", href: "https://saiss.oa.mograsys.com", openInNewTab: true },
+  { label: "Parent Portal", href: "https://saisu.ppnv1.mograsys.com", openInNewTab: true },
+  { label: "Apply Online", href: "https://saisu.oa.mograsys.com", openInNewTab: true },
   { label: "Download the App", href: "/admissions/applications#mograhub-app" },
 ];
 

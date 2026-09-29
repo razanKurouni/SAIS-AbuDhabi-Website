@@ -193,7 +193,7 @@ export function SiteHeader({
         <nav className="site-header__nav" aria-label="Primary navigation">
           <HeaderAction cta={bookTourButton} fallbackLabel="Book a Tour" fallbackHref="#tour" />
           <HeaderAction cta={applyNowButton} fallbackLabel="Apply Now" fallbackHref="#apply" />
-          <IconLink href="https://saiss.ppnv1.mograsys.com" label="Parent portal" />
+          <IconLink href="https://saisu.ppnv1.mograsys.com" label="Parent portal" />
           <MenuButton icon={menuIcon} isOpen={isMenuOpen} onClick={toggleMenu} />
         </nav>
 
@@ -221,7 +221,7 @@ export function SiteHeader({
                 <HeaderAction cta={bookTourButton} fallbackLabel="Book a Tour" fallbackHref="#tour" />
                 <HeaderAction cta={applyNowButton} fallbackLabel="Apply Now" fallbackHref="#apply" />
 
-                <IconLink href="https://saiss.ppnv1.mograsys.com" label="Parent portal" />
+                <IconLink href="https://saisu.ppnv1.mograsys.com" label="Parent portal" />
                 <MenuButton
                   icon={menuIcon}
                   isOpen={isMenuOpen}
