@@ -16,7 +16,7 @@ type AboutBenefitsStyle = CSSProperties & {
 function BenefitsWave() {
   return (
     <svg className="quick-links-card__wave" viewBox="0 0 96 320" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M52 -24 C16 42 16 92 42 154 C70 220 70 274 38 344" />
+      <path pathLength={1} d="M52 -24 C16 42 16 92 42 154 C70 220 70 274 38 344" />
     </svg>
   );
 }
