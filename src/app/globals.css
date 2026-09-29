@@ -13620,6 +13620,9 @@ img:where(
   font-weight: 700;
 }
 
+/* The Studio's "accent green" text mark reads teal everywhere. */
+.rich-text-accent-green,
+.rich-text-accent-green strong,
 .admissions-withdrawal-policy__rich-text .rich-text-accent-green,
 .admissions-withdrawal-policy__rich-text .rich-text-accent-green strong {
   color: #00a5b2;
