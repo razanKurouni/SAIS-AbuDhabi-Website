@@ -12987,7 +12987,6 @@ img:where(
   body .preview-page h2,
   body .site-page h2 {
     font-size: 1.4rem;
-    line-height: 1.24;
     font-weight: 600;
   }
   body .preview-page h2 span, 
@@ -15940,13 +15939,20 @@ a.school-policy-card__cover:hover {
 }
 
 /* Section headings ------------------------------------------------------- */
-/* One size for every h2 from laptop up. Section treatments set their own sizes,
-   so this deliberately overrides them; phones keep the sizes each one defines. */
+/* One size for every h2: 28px from laptop up, 1.4rem on phones. Section
+   treatments set their own sizes, so this deliberately overrides them. */
 @media (min-width: 768px) {
   h2 {
     font-size: 28px !important;
     line-height: var(--sais-body-text-line-height) !important;
     letter-spacing: 0.02em !important;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
   }
 }
 
