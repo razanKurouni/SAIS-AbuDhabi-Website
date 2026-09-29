@@ -1,0 +1,142 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "site-settings",
+  "_rev": "FCO364qzHDm2jW4qGIpwz5",
+  "_system": {
+    "base": {
+      "id": "site-settings",
+      "rev": "FJhkRVRyfCKhzS0r5uYko2"
+    }
+  },
+  "_type": "siteSettings",
+  "_updatedAt": "2026-09-28T04:58:34Z",
+  "footer": {
+    "contactItems": [
+      {
+        "_key": "footer-address",
+        "_type": "entry",
+        "href": "https://maps.google.com/?cid=10238059398487815870",
+        "iconType": "location",
+        "label": "Address",
+        "text": "Sharjah American International School –\nUmm Al Quwain Campus\nAl Salmah – Al Salamah 2\nEmirate of Umm Al Quwain"
+      },
+      {
+        "_key": "footer-phone",
+        "_type": "entry",
+        "href": "tel:+97167665553",
+        "iconType": "phone",
+        "label": "Phone",
+        "text": "+971 6 766 5553"
+      },
+      {
+        "_key": "footer-email",
+        "_type": "entry",
+        "href": "mailto:sais-uaq@saisuaq.com",
+        "iconType": "email",
+        "label": "Email",
+        "text": "sais-uaq@saisuaq.com"
+      }
+    ],
+    "logo": {
+      "_type": "image",
+      "alt": "Sharjah American International School Umm Al Quwai logo",
+      "asset": {
+        "_ref": "image-642e14a2c71bb6e314e33c83815ccf1a940ab123-975x221-png",
+        "_type": "reference"
+      }
+    },
+    "logoText": "SAIS",
+    "socialLinks": [
+      {
+        "_key": "linkedin",
+        "_type": "cta",
+        "href": "https://www.linkedin.com/company/sharjah-american-international-school/",
+        "label": "LinkedIn",
+        "openInNewTab": true
+      },
+      {
+        "_key": "facebook",
+        "_type": "cta",
+        "href": "https://www.facebook.com/profile.php?id=100063804654073",
+        "label": "Facebook",
+        "openInNewTab": true
+      },
+      {
+        "_key": "youtube",
+        "_type": "cta",
+        "href": "https://www.youtube.com/@sharjahamericaninternation5133",
+        "label": "YouTube",
+        "openInNewTab": true
+      },
+      {
+        "_key": "instagram",
+        "_type": "cta",
+        "href": "https://www.instagram.com/saissharjahcampus/",
+        "label": "Instagram",
+        "openInNewTab": true
+      }
+    ]
+  },
+  "header": {
+    "applyNowButton": {
+      "_key": "k39mub4id9c",
+      "_type": "cta",
+      "href": "/admissions/applications",
+      "label": "Apply Now"
+    },
+    "bookTourButton": {
+      "_key": "k38mub4id9c",
+      "_type": "cta",
+      "href": "/admissions/book-a-tour",
+      "label": "Book a Tour "
+    },
+    "logo": {
+      "_type": "image",
+      "alt": "Sharjah American International School Umm Al Quwai logo",
+      "asset": {
+        "_ref": "image-615855994ab0931170ed3011795a9f5896075c25-962x218-png",
+        "_type": "reference"
+      }
+    },
+    "navigation": [
+      {
+        "_key": "about",
+        "_type": "cta",
+        "href": "/about-us#about",
+        "label": "About"
+      },
+      {
+        "_key": "academics",
+        "_type": "cta",
+        "href": "/academics",
+        "label": "Academics"
+      },
+      {
+        "_key": "admissions",
+        "_type": "cta",
+        "href": "/admissions",
+        "label": "Admissions"
+      },
+      {
+        "_key": "community",
+        "_type": "cta",
+        "href": "/our-community",
+        "label": "Community"
+      },
+      {
+        "_key": "contact",
+        "_type": "cta",
+        "href": "/contact-us",
+        "label": "Contact"
+      }
+    ],
+    "scrolledLogo": {
+      "_type": "image",
+      "alt": "Sharjah American International School Umm Al Quwai logo",
+      "asset": {
+        "_ref": "image-bdbb7378493792ddd59fc2a984978e7d89ca4038-962x218-png",
+        "_type": "reference"
+      }
+    }
+  }
+}

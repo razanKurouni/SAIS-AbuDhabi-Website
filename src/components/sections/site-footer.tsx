@@ -10,10 +10,10 @@ type SiteFooterProps = {
 };
 
 const defaultSocialLinks: LinkField[] = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school/", openInNewTab: true },
-  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=100063804654073", openInNewTab: true },
-  { label: "YouTube", href: "https://www.youtube.com/@sharjahamericaninternation5133", openInNewTab: true },
-  { label: "Instagram", href: "https://www.instagram.com/saissharjahcampus/", openInNewTab: true },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/", openInNewTab: true },
+  { label: "Facebook", href: "https://www.facebook.com/saisuaq", openInNewTab: true },
+  { label: "YouTube", href: "https://www.youtube.com/@saisuaq", openInNewTab: true },
+  { label: "Instagram", href: "https://www.instagram.com/sais.uaq/", openInNewTab: true },
 ];
 
 const defaultLegalLinks: LinkField[] = [

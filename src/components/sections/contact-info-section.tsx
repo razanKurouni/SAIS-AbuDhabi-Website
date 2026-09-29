@@ -53,8 +53,8 @@ const fallbackSection: ContactInfoSectionData &
       _key: "email",
       icon: "email",
       label: "Email",
-      text: "sais@saissharjah.com",
-      href: "mailto:sais@saissharjah.com",
+      text: "saisq@saisuaq.com",
+      href: "mailto:saisq@saisuaq.com",
     },
   ],
 };

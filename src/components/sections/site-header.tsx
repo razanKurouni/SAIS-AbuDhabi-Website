@@ -40,10 +40,10 @@ type MenuSection = {
 };
 
 const defaultSocialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school/", icon: LinkedinBrandIcon },
-  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=100063804654073", icon: FacebookBrandIcon },
-  { label: "YouTube", href: "https://www.youtube.com/@sharjahamericaninternation5133", icon: Youtube },
-  { label: "Instagram", href: "https://www.instagram.com/saissharjahcampus/", icon: Instagram },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/", icon: LinkedinBrandIcon },
+  { label: "Facebook", href: "https://www.facebook.com/saisuaq", icon: FacebookBrandIcon },
+  { label: "YouTube", href: "https://www.youtube.com/@saisuaq", icon: Youtube },
+  { label: "Instagram", href: "https://www.instagram.com/sais.uaq/", icon: Instagram },
 ];
 
 type ExpandedSections = Record<string, boolean>;

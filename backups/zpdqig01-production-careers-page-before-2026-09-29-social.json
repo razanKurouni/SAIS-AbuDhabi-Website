@@ -1,0 +1,472 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "careers-page",
+  "_rev": "Vnv6A4ouQqSNX98H66O9Se",
+  "_system": {
+    "base": {
+      "id": "careers-page",
+      "rev": "i9nydr6xWzJCLXKLCLUbRL"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-28T06:22:28Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Work At\nOur School"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ teacher supporting a student in a sensory learning space",
+      "asset": {
+        "_ref": "image-560e2b1ffab0eda5f6aa19c9d20cb8ea1173ebb1-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ teacher supporting a student in a sensory learning space",
+      "asset": {
+        "_ref": "image-560e2b1ffab0eda5f6aa19c9d20cb8ea1173ebb1-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/careers",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "b-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-1",
+                "_type": "span",
+                "marks": [],
+                "text": "Sharjah American International School – Umm Al Quwain Campus invites passionate educators and leaders to join our dynamic team for the 2025–2026 academic year. Elevate your career in a supportive, innovative environment!"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Exciting Teaching & Leadership\nOpportunities at SAIS - UAQ"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ staff members standing together",
+        "asset": {
+          "_ref": "image-7372e83b7c03dbfdd31e9fe9fe3fb16adb9b7574-3203x1555-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "requirementsSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "leadership-roles",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "leadership-roles-0",
+              "_type": "entry",
+              "text": "Curriculum Coordinator"
+            },
+            {
+              "_key": "leadership-roles-1",
+              "_type": "entry",
+              "text": "KG Coordinator"
+            },
+            {
+              "_key": "leadership-roles-2",
+              "_type": "entry",
+              "text": "English HOD"
+            },
+            {
+              "_key": "leadership-roles-3",
+              "_type": "entry",
+              "text": "Social Worker / Counselor"
+            }
+          ],
+          "subtitle": "Leadership & Administrative Roles",
+          "title": "Roles"
+        },
+        {
+          "_key": "kg-elementary",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "kg-elementary-0",
+              "_type": "entry",
+              "text": "KG Teacher"
+            },
+            {
+              "_key": "kg-elementary-1",
+              "_type": "entry",
+              "text": "Elementary Homeroom Teacher"
+            }
+          ],
+          "subtitle": "Kindergarten & Elementary",
+          "title": "Teaching Positions"
+        },
+        {
+          "_key": "subject-specialists",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "subject-specialists-0",
+              "_type": "entry",
+              "text": "Science (General Science, Chemistry, Biology, Physics)"
+            },
+            {
+              "_key": "subject-specialists-1",
+              "_type": "entry",
+              "text": "Middle School English"
+            },
+            {
+              "_key": "subject-specialists-2",
+              "_type": "entry",
+              "text": "Arabic"
+            },
+            {
+              "_key": "subject-specialists-3",
+              "_type": "entry",
+              "text": "Arabic Social Studies (SST)"
+            },
+            {
+              "_key": "subject-specialists-4",
+              "_type": "entry",
+              "text": "Marketing / Accounting Teacher"
+            },
+            {
+              "_key": "subject-specialists-5",
+              "_type": "entry",
+              "text": "Psychology"
+            },
+            {
+              "_key": "subject-specialists-6",
+              "_type": "entry",
+              "text": "Spanish"
+            }
+          ],
+          "subtitle": "Subject Specialists",
+          "title": ""
+        }
+      ],
+      "slot": "requirementsSection"
+    },
+    {
+      "_key": "careSection",
+      "_type": "entriesSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "professional-care-body-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "professional-care-body-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "PhD or Master’s degree (attested) for leadership roles"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3614644d6b75",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "professional-care-body-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Bachelor’s degree (attested) for all other positions"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "5959469042af",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "professional-care-body-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Teaching diploma"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3a6de4074f84",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "professional-care-body-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "IELTS – 7.5 for English & Homeroom Teachers; 6.5 for other\nsubjects"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "932a48071ac8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "professional-care-body-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Minimum 2 years’ teaching experience"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "3a1d638eb005",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "ba1b3ccc82b3",
+                "_type": "span",
+                "marks": [],
+                "text": "Emirati candidates are warmly encouraged to apply."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Candidate Requirements"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ teacher supporting students during a classroom activity",
+        "asset": {
+          "_ref": "image-dbea47996422dfae6eea9d44e2002f3d71c90fda-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "careSection"
+    },
+    {
+      "_key": "commitmentSection",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "our-commitment",
+          "_type": "card",
+          "description": "Successful candidates will receive an excellent remuneration package including:",
+          "entries": [
+            {
+              "_key": "our-commitment-0",
+              "_type": "entry",
+              "text": "Competitive tax-free salary"
+            },
+            {
+              "_key": "our-commitment-1",
+              "_type": "entry",
+              "text": "Medical insurance"
+            },
+            {
+              "_key": "our-commitment-2",
+              "_type": "entry",
+              "text": "UAE working permit"
+            },
+            {
+              "_key": "our-commitment-3",
+              "_type": "entry",
+              "text": "Residence visa"
+            },
+            {
+              "_key": "our-commitment-4",
+              "_type": "entry",
+              "text": "Annual flight allowance"
+            },
+            {
+              "_key": "our-commitment-5",
+              "_type": "entry",
+              "text": "Tuition fee concession"
+            },
+            {
+              "_key": "our-commitment-6",
+              "_type": "entry",
+              "text": "Additional benefits in accordance with UAE Labour Law"
+            }
+          ],
+          "title": "Our Commitment"
+        },
+        {
+          "_key": "qualifications",
+          "_type": "card",
+          "entries": [
+            {
+              "_key": "qualifications-0",
+              "_type": "entry",
+              "text": "Certified professional teaching qualification at degree level (B.Ed, PGCE, PGDE, or equivalent in Primary Education for KG and Primary positions)."
+            },
+            {
+              "_key": "qualifications-1",
+              "_type": "entry",
+              "text": "Subject teachers must hold a Bachelor’s or Master’s degree in the relevant subject."
+            },
+            {
+              "_key": "qualifications-2",
+              "_type": "entry",
+              "text": "Minimum of 2 years of varied and demonstrable teaching experience at various school levels."
+            },
+            {
+              "_key": "qualifications-3",
+              "_type": "entry",
+              "text": "Experience in American curriculum schools is advantageous but not mandatory."
+            },
+            {
+              "_key": "qualifications-4",
+              "_type": "entry",
+              "text": "Proven ability to motivate and inspire students."
+            },
+            {
+              "_key": "qualifications-5",
+              "_type": "entry",
+              "text": "Commitment to providing outstanding teaching and learning."
+            },
+            {
+              "_key": "qualifications-6",
+              "_type": "entry",
+              "text": "Desire to work in a challenging environment with genuine career advancement opportunities."
+            }
+          ],
+          "title": "Qualifications & Requirements"
+        }
+      ],
+      "slot": "commitmentSection"
+    },
+    {
+      "_key": "joinTeamSection",
+      "_type": "entriesSection",
+      "entries": [
+        {
+          "_key": "email-cv",
+          "_type": "entry",
+          "href": "mailto:hrrecruitment@saisuaq.com",
+          "icon": {
+            "_type": "image",
+            "alt": "Email application icon",
+            "asset": {
+              "_ref": "image-3696a77149d41aba5fa895b755c3723fcc4216fb-291x320-png",
+              "_type": "reference"
+            }
+          },
+          "label": "Emailing your CV to",
+          "text": "hrrecruitment@saisuaq.com\n(specify position in the subject line)"
+        },
+        {
+          "_key": "teach-away",
+          "_type": "entry",
+          "href": "https://www.teachaway.com",
+          "icon": {
+            "_type": "image",
+            "alt": "Online application icon",
+            "asset": {
+              "_ref": "image-1651fcb0c304c63941be199378a8f5322ae4acd5-365x320-png",
+              "_type": "reference"
+            }
+          },
+          "label": "Applying through",
+          "text": "www.teachaway.com"
+        },
+        {
+          "_key": "schrole",
+          "_type": "entry",
+          "href": "https://www.linkedin.com/company/sharjah-american-international-school/",
+          "icon": {
+            "_type": "image",
+            "alt": "Online application icon",
+            "asset": {
+              "_ref": "image-cdbcfb8642bccfdd5090a1c6b793ff8bdbf05cde-306x306-png",
+              "_type": "reference"
+            }
+          },
+          "label": "Explore Career Opportunities",
+          "text": "SAIS - UAQ LinkedIn Page"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "b-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-1",
+                "_type": "span",
+                "marks": [],
+                "text": "Email your CV and all required documents to hrrecruitment@saisuaq.com, mentioning “Umm Al Quwain Campus” in the subject line."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "b-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-3",
+                "_type": "span",
+                "marks": [],
+                "text": "Join us at SAIS - UAQ and help shape tomorrow’s leaders in a vibrant international setting!"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Join Our Team"
+      },
+      "slot": "joinTeamSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore career opportunities at Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ teacher supporting a student in a sensory learning space",
+      "asset": {
+        "_ref": "image-560e2b1ffab0eda5f6aa19c9d20cb8ea1173ebb1-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Careers | SAIS - UAQ"
+  },
+  "title": "Careers"
+}

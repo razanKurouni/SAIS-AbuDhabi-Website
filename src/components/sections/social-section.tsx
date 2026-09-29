@@ -13,17 +13,17 @@ type SocialSectionProps = {
 const socialPlatforms = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/saissharjahcampus/",
+    href: "https://www.instagram.com/sais.uaq/",
     Icon: Instagram,
   },
   {
     label: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=100063804654073",
+    href: "https://www.facebook.com/saisuaq",
     Icon: FacebookBrandIcon,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/company/sharjah-american-international-school/",
+    href: "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/",
     Icon: LinkedinBrandIcon,
   },
 ];
