@@ -17229,6 +17229,10 @@ a.school-policy-card__cover:hover {
   white-space: pre-line;
 }
 
+.food-services-nutrition-page .wellbeing-commitment__copy {
+  max-width: 810px;
+}
+
 .food-services-split.editorial-split-section {
   padding-top: 62px;
   padding-bottom: 62px;
