@@ -5836,14 +5836,15 @@ ul {
 
 .principal-message-section {
   --principal-panel-width: min(74vw, 1180px);
-  --principal-image-width: min(46vw, 690px);
+  --principal-image-width: min(40vw, 600px);
   --principal-image-render-width: 100%;
-  --principal-image-render-height: 120%;
+  --principal-image-render-height: 100%;
   --principal-image-offset-x: 0;
   --principal-image-offset-y: 0;
 
   position: relative;
-  min-height: 80vh;
+  /* The portrait is 7:10; the image column keeps that ratio so the photo shows head to hands. */
+  min-height: max(80vh, calc(min(40vw, 600px) / 0.7));
   overflow: hidden;
   isolation: isolate;
   background: var(--sais-gray);
@@ -5867,7 +5868,7 @@ ul {
   height: var(--principal-image-render-height) !important;
   max-width: none;
   object-fit: cover;
-  object-position: 30% top;
+  object-position: center center;
 }
 
 .principal-message-section__image--mobile {
@@ -5966,7 +5967,7 @@ ul {
     --principal-panel-width: 76vw;
     --principal-image-width: 45vw;
 
-    min-height: 560px;
+    min-height: max(560px, calc(45vw / 0.7));
   }
 
   .principal-message-section__panel {
