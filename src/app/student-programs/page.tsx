@@ -189,7 +189,7 @@ export default async function StudentProgramsPage() {
               fallbackSection={page.sgaSection}
               className="student-programs-sga__panel"
               titleId="student-programs-sga-title"
-              panelColor={page.sgaSection.backgroundColor || "#2FB5BC"}
+              panelColor={page.sgaSection.backgroundColor || "#00A5B2"}
               accentColor="#D97252"
               titleColor={page.sgaSection.titleColor || "#ffffff"}
               textColor={page.sgaSection.textColor || "#ffffff"}

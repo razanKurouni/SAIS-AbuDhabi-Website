@@ -1324,17 +1324,17 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#00A5B2"
     },
     "sgaSection": {
-      "backgroundColor": "#2FB5BC",
+      "backgroundColor": "#00A5B2",
       "imagePosition": "center",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
     },
     "potentialSlider": {
       "slides": [
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
-        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#2FB5BC", "textColor": "#ffffff" },
-        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#2FB5BC", "textColor": "#ffffff" }
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#00A5B2", "textColor": "#ffffff" },
+        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#00A5B2", "textColor": "#ffffff" },
+        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff" }
       ]
     },
     "hero": {
