@@ -221,9 +221,7 @@ export async function POST(request: Request) {
   }
 
   const isRegistration = body.formType === "admissions-registration";
-  const recipient = isRegistration
-    ? "registration@saisdubai.com"
-    : await sanity.fetch<string | null>(
+  const recipient = await sanity.fetch<string | null>(
         `*[_type == "page" && _id == $id][0].sections[slot == "formSection"][0].recipientEmail`,
         { id: pageDocumentId("admissions-book-tour-page") },
       ).catch(() => null) || fallbackRecipient;
