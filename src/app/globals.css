@@ -16654,14 +16654,17 @@ a.school-policy-card__cover:hover {
     flex: 0 0 240px;
   }
 
+  /* Anchored to the card bottom so the curve sits on the image top exactly
+     as it does on the home Quick Links cards (wave centre 15px, mask centre
+     10px below the image edge). */
   .about-benefits__card .quick-links-card__wave {
     top: auto;
-    bottom: 8px;
+    bottom: 30px;
   }
 
   .about-benefits__card .quick-links-card__curve-mask {
     top: auto;
-    bottom: 28px;
+    bottom: 20px;
   }
 }
 
@@ -17455,5 +17458,12 @@ a.school-policy-card__cover:hover {
   .academics-support-programs__card .hover-icon-card__description {
     font-size: 0.88rem;
     line-height: 1.45;
+  }
+}
+
+/* High School AP overview: keep the copy 50px clear of the photo on its left. */
+@media (min-width: 768px) {
+  .academics-high-school-page #academics-high-school-ap-overview .editorial-split-section__body {
+    padding-left: 50px;
   }
 }
