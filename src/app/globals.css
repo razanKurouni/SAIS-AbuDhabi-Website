@@ -16036,7 +16036,7 @@ a.school-policy-card__cover:hover {
 .academics-middle-school-page .learning-phases,
 .academics-middle-school-page .tour-intro {
   padding-top: 62px;
-  padding-bottom: 0;
+  padding-bottom: clamp(28px, 3vw, 44px);
 }
 
 .academics-middle-school-page #academics-middle-school-overview.editorial-split-section {
@@ -17412,6 +17412,7 @@ a.school-policy-card__cover:hover {
 
 /* Middle School: assessment as a full-bleed curved panel (navy panel, teal title and curve, photo right). */
 .academics-middle-school-page .academics-middle-school-assessment-feature {
+  margin-top: 62px;
   margin-bottom: 0;
 }
 
