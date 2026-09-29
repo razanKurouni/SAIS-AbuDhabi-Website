@@ -1315,7 +1315,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "highlightsSection": {
       "backgroundColor": "#27779D",
-      "textColor": "#00A5B2",
+      "textColor": "#ffffff",
       "titleColor": "#00A5B2"
     },
     "potentialIntro": {

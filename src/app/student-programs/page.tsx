@@ -147,7 +147,7 @@ export default async function StudentProgramsPage() {
           panelColor={leadership.backgroundColor || "#27779D"}
           accentColor="#00A5B2"
           titleColor={leadership.titleColor || "#00A5B2"}
-          textColor={leadership.textColor || "#00A5B2"}
+          textColor={leadership.textColor || "#ffffff"}
           imagePosition={leadership.imagePosition || "center"}
           imageSide="right"
         />
