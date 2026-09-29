@@ -57,6 +57,7 @@ export function SaisCurvedPanel({
         />
         <path
           className="sais-curved-panel__accent"
+          pathLength={1}
           d="M1460,-50 C1375,80 1370,220 1430,340 L1525,530 C1605,690 1545,840 1445,980"
           fill="none"
           strokeWidth={strokeWidth}

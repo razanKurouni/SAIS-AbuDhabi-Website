@@ -1,0 +1,241 @@
+/*
+ * Motion v2 — the upgraded site animation layer.
+ *
+ * Switched on by <html data-motion="v2"> in src/app/layout.tsx. To go back to
+ * the original motion, remove that attribute (or this file's import); the
+ * original rules in globals.css are untouched. The git tag `motion-v1` marks
+ * the last commit before this layer existed.
+ */
+
+html[data-motion="v2"] {
+  --m-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --m-reveal: 1000ms;
+  --m-stagger: 90ms;
+}
+
+/* 1. Page enter: each route fades in instead of popping. */
+@keyframes m-page-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+html[data-motion="v2"] main {
+  animation: m-page-enter 560ms var(--m-ease) backwards;
+}
+
+/* 2. Scroll reveals: fade + rise, with a soft blur that settles. */
+@keyframes m-unblur {
+  from { filter: blur(8px); }
+  to { filter: blur(0); }
+}
+
+html[data-motion="v2"] .reveal-item {
+  visibility: visible;
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition:
+    opacity var(--m-reveal) var(--m-ease) var(--reveal-delay, 0ms),
+    transform var(--m-reveal) var(--m-ease) var(--reveal-delay, 0ms);
+}
+
+html[data-motion="v2"] .reveal-item.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  animation: m-unblur 900ms var(--m-ease) var(--reveal-delay, 0ms) backwards;
+}
+
+/* 3. Content cascade: inside a revealed block the title, then each paragraph,
+   list and button rise in one after the other. Nested reveals handle their own. */
+@keyframes m-text-rise {
+  from { opacity: 0; transform: translate3d(0, 14px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+html[data-motion="v2"] .reveal-item.is-visible :is(h2, h3, p, ul, ol, .cta-link):not(.reveal-item .reveal-item *) {
+  animation: m-text-rise 720ms var(--m-ease) calc(var(--reveal-delay, 0ms) + 120ms) backwards;
+}
+
+html[data-motion="v2"] .reveal-item.is-visible :is(h2, h3, p, ul, ol, .cta-link):not(.reveal-item .reveal-item *):nth-child(2) {
+  animation-delay: calc(var(--reveal-delay, 0ms) + 120ms + var(--m-stagger));
+}
+
+html[data-motion="v2"] .reveal-item.is-visible :is(h2, h3, p, ul, ol, .cta-link):not(.reveal-item .reveal-item *):nth-child(3) {
+  animation-delay: calc(var(--reveal-delay, 0ms) + 120ms + var(--m-stagger) * 2);
+}
+
+html[data-motion="v2"] .reveal-item.is-visible :is(h2, h3, p, ul, ol, .cta-link):not(.reveal-item .reveal-item *):nth-child(4) {
+  animation-delay: calc(var(--reveal-delay, 0ms) + 120ms + var(--m-stagger) * 3);
+}
+
+html[data-motion="v2"] .reveal-item.is-visible :is(h2, h3, p, ul, ol, .cta-link):not(.reveal-item .reveal-item *):nth-child(n + 5) {
+  animation-delay: calc(var(--reveal-delay, 0ms) + 120ms + var(--m-stagger) * 4);
+}
+
+/* 4. Photos settle: every revealed picture eases from a slight zoom to rest. */
+@keyframes m-media-settle {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+
+html[data-motion="v2"] .reveal-item.is-visible
+  :is(
+    .editorial-split-section__media,
+    .intro-feature__media,
+    .contact-info-section__image-shell,
+    .contact-info-section__media,
+    .academics-elementary-assessment__media,
+    .wellbeing-commitment__image,
+    .wellbeing-sel__image,
+    .careers-work__image-wrap,
+    .campus-facility-card__image,
+    .faq-grid-section__media,
+    .titled-images__figure,
+    .quick-links-card__image-wrap,
+    .latest-news-card__image-wrap,
+    .about-mission-card__media,
+    .campus-video__frame,
+    .safety-highlight__media,
+    .approach-section__image-wrap,
+    .about-intro-section__media,
+    .principal-message-section__image-wrap
+  )
+  img {
+  animation: m-media-settle 1600ms var(--m-ease) var(--reveal-delay, 0ms) backwards;
+}
+
+/* 5. Curved panels draw their accent line as they appear. */
+html[data-motion="v2"] .reveal-item .sais-curved-panel__accent {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1500ms var(--m-ease) calc(var(--reveal-delay, 0ms) + 250ms);
+}
+
+html[data-motion="v2"] .reveal-item.is-visible .sais-curved-panel__accent {
+  stroke-dashoffset: 0;
+}
+
+/* 6. Hero: after the entrance, the photo drifts very slowly (Ken Burns). */
+@keyframes m-kenburns {
+  from { transform: scale(1); }
+  to { transform: scale(1.07); }
+}
+
+@keyframes m-kenburns-home {
+  from { transform: scale(1.01); }
+  to { transform: scale(1.08); }
+}
+
+html[data-motion="v2"] .page-hero__image {
+  animation:
+    sais-hero-image-enter 1.35s var(--m-ease) both,
+    m-kenburns 26s ease-in-out 1.35s infinite alternate;
+}
+
+html[data-motion="v2"] .home-hero__image {
+  animation: m-kenburns-home 26s ease-in-out infinite alternate;
+}
+
+/* 7. Hover: buttons lift with a soft shadow and nudge their arrow; cards lift
+   and their photo zooms gently. */
+html[data-motion="v2"] .cta-link {
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    opacity 220ms ease,
+    transform 320ms var(--m-ease),
+    box-shadow 320ms var(--m-ease);
+}
+
+html[data-motion="v2"] .cta-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px -14px rgba(16, 50, 75, 0.45);
+}
+
+html[data-motion="v2"] .cta-link__icon {
+  transition: transform 320ms var(--m-ease);
+}
+
+html[data-motion="v2"] .cta-link:hover .cta-link__icon {
+  transform: translateX(4px);
+}
+
+html[data-motion="v2"]
+  :is(
+    .campus-facility-card,
+    .latest-news-card,
+    .news-listing-card,
+    .school-policy-card,
+    .quick-links-card,
+    .tour-action-card,
+    .learning-phase-card,
+    .about-mission-card,
+    .titled-images__item
+  )
+  img {
+  transition: transform 900ms var(--m-ease);
+}
+
+html[data-motion="v2"]
+  :is(
+    .campus-facility-card,
+    .latest-news-card,
+    .news-listing-card,
+    .school-policy-card,
+    .quick-links-card,
+    .tour-action-card,
+    .learning-phase-card,
+    .about-mission-card,
+    .titled-images__item
+  ):hover
+  img {
+  transform: scale(1.05);
+}
+
+html[data-motion="v2"] .hover-icon-card {
+  transition:
+    transform 420ms var(--m-ease),
+    box-shadow 420ms var(--m-ease),
+    border-color 300ms ease,
+    background-color 300ms ease;
+}
+
+html[data-motion="v2"] .hover-icon-card:hover {
+  box-shadow: 0 24px 44px -26px rgba(33, 107, 151, 0.5);
+}
+
+/* 8. Smaller screens: lighter travel, no blur (cheaper to paint). */
+@media (max-width: 767px) {
+  html[data-motion="v2"] .reveal-item {
+    transform: translate3d(0, 18px, 0);
+  }
+
+  html[data-motion="v2"] .reveal-item.is-visible {
+    animation: none;
+  }
+
+  html[data-motion="v2"] .page-hero__image,
+  html[data-motion="v2"] .home-hero__image {
+    animation: sais-hero-image-enter 1.35s var(--m-ease) both;
+  }
+}
+
+/* 9. Reduced motion: everything is simply visible. */
+@media (prefers-reduced-motion: reduce) {
+  html[data-motion="v2"] main,
+  html[data-motion="v2"] .reveal-item,
+  html[data-motion="v2"] .reveal-item.is-visible,
+  html[data-motion="v2"] .reveal-item.is-visible *,
+  html[data-motion="v2"] .page-hero__image,
+  html[data-motion="v2"] .home-hero__image {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+
+  html[data-motion="v2"] .reveal-item .sais-curved-panel__accent {
+    stroke-dashoffset: 0;
+    transition: none;
+  }
+}

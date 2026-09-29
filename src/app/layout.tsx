@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { NavigationProgress } from "@/components/layout/navigation-progress";
 import { RouteScrollReset } from "@/components/layout/route-scroll-reset";
 import "./globals.css";
+import "./motion-v2.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://new-sais-main.vercel.app";
 
@@ -22,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-motion="v2">
       <body>
         <NavigationProgress />
         <RouteScrollReset />
