@@ -131,7 +131,7 @@ export function mapLegacySectionsToHomepage(sections: LegacyHomeSection[]): Home
             { label: "Parent Portal", href: "#" },
           ],
     hero: {
-      heading: hero?.title || "Empowering Students to Achieve Their Highest Potential",
+      heading: hero?.title || "Empowering Students\nto Achieve Their Highest Potential",
       subtitle: hero?.subtitle,
       description: hero?.body,
       image: firstImage(hero),

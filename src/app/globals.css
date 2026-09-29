@@ -498,6 +498,7 @@ button[aria-label="Open Next.js Dev Tools"] {
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 1px;
+  white-space: pre-line;
 }
 
 .home-hero__description {

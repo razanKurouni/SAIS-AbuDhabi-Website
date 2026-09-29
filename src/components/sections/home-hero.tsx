@@ -8,7 +8,7 @@ type HomeHeroProps = {
 };
 
 const fallbackHero = {
-  heading: "Empowering Students to Achieve Their Highest Potential",
+  heading: "Empowering Students\nto Achieve Their Highest Potential",
   description:
     "Through a rigorous American curriculum grounded in Islamic values and cultural heritage.",
   image: {
