@@ -17389,3 +17389,9 @@ a.school-policy-card__cover:hover {
 .medical-services-page .intro-feature.medical-services-services-feature {
   padding: 62px 0;
 }
+
+.student-programs-page .student-programs-leadership .intro-feature__shape-content,
+.student-programs-page .student-programs-leadership .intro-feature__description,
+.student-programs-page .student-programs-leadership .intro-feature__description p {
+  color: var(--intro-feature-text-color, #00A5B2);
+}

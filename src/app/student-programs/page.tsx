@@ -146,8 +146,8 @@ export default async function StudentProgramsPage() {
           titleId="student-programs-leadership-title"
           panelColor={leadership.backgroundColor || "#27779D"}
           accentColor="#00A5B2"
-          titleColor={leadership.titleColor || "#5FC1C7"}
-          textColor={leadership.textColor || "#ffffff"}
+          titleColor={leadership.titleColor || "#00A5B2"}
+          textColor={leadership.textColor || "#00A5B2"}
           imagePosition={leadership.imagePosition || "center"}
           imageSide="right"
         />
