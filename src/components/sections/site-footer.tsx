@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
+import { Reveal } from "@/components/ui/reveal";
 import { FacebookBrandIcon, LinkedinBrandIcon } from "@/components/ui/social-icons";
 import { normalizeHref } from "@/lib/portal-links";
 import type { FooterContactItem, LinkField, SiteFooter as SiteFooterData } from "@/types/sanity";
@@ -96,6 +97,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
 
   return (
     <footer className="site-footer">
+      <Reveal className="site-footer__reveal" threshold={0.05}>
       <div className="site-footer__main">
         <svg className="site-footer__shape" viewBox="0 0 760 436" preserveAspectRatio="none" aria-hidden="true">
           <path
@@ -103,6 +105,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
             fill="var(--sais-primary)"
           />
           <path
+            pathLength={1}
             d="M674 -24C635 38 633 103 660 160L704 249C740 324 713 394 667 461"
             fill="none"
             stroke="var(--sais-accent)"
@@ -141,7 +144,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
               <path d="M0 70 C240 112 468 112 720 70 C980 28 1196 28 1440 70 V140 H0 Z" />
             </svg>
             <svg className="site-footer__wave" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M0 70 C240 112 468 112 720 70 C980 28 1196 28 1440 70" />
+              <path pathLength={1} d="M0 70 C240 112 468 112 720 70 C980 28 1196 28 1440 70" />
             </svg>
           </div>
 
@@ -209,6 +212,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
           
         </div>
       </div>
+      </Reveal>
     </footer>
   );
 }

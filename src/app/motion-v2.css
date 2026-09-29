@@ -114,6 +114,31 @@ html[data-motion="v2"] .reveal-item.is-visible .sais-curved-panel__accent {
   stroke-dashoffset: 0;
 }
 
+/* 5b. The hero and footer curve lines draw in the same way. */
+@keyframes m-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
+html[data-motion="v2"] .page-hero__panel-wave,
+html[data-motion="v2"] .home-hero .sais-curved-panel__accent {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: m-draw 1700ms var(--m-ease) 450ms forwards;
+}
+
+html[data-motion="v2"] .reveal-item .site-footer__shape path[stroke],
+html[data-motion="v2"] .reveal-item .site-footer__wave path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1600ms var(--m-ease) 200ms;
+}
+
+html[data-motion="v2"] .reveal-item.is-visible .site-footer__shape path[stroke],
+html[data-motion="v2"] .reveal-item.is-visible .site-footer__wave path {
+  stroke-dashoffset: 0;
+}
+
 /* 6. Hero: after the entrance, the photo drifts very slowly (Ken Burns). */
 @keyframes m-kenburns {
   from { transform: scale(1); }
@@ -234,8 +259,13 @@ html[data-motion="v2"] .hover-icon-card:hover {
     filter: none;
   }
 
-  html[data-motion="v2"] .reveal-item .sais-curved-panel__accent {
+  html[data-motion="v2"] .reveal-item .sais-curved-panel__accent,
+  html[data-motion="v2"] .page-hero__panel-wave,
+  html[data-motion="v2"] .home-hero .sais-curved-panel__accent,
+  html[data-motion="v2"] .reveal-item .site-footer__shape path[stroke],
+  html[data-motion="v2"] .reveal-item .site-footer__wave path {
     stroke-dashoffset: 0;
+    animation: none;
     transition: none;
   }
 }
