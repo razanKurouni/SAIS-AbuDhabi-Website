@@ -17622,3 +17622,10 @@ a.school-policy-card__cover:hover {
     padding-top: 34px;
   }
 }
+
+/* Phones: the support-programs title carries no top padding. */
+@media (max-width: 767px) {
+  #academics-support-programs-title {
+    padding-top: 0;
+  }
+}
