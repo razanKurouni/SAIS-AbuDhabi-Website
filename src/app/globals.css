@@ -17727,3 +17727,10 @@ a.school-policy-card__cover:hover {
     padding-bottom: 48px;
   }
 }
+
+/* Careers, phones: the intro block closes on 34px before Roles. */
+@media (max-width: 767px) {
+  .careers-page .careers-work {
+    padding-bottom: 34px;
+  }
+}
