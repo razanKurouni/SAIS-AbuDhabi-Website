@@ -17546,3 +17546,10 @@ a.school-policy-card__cover:hover {
     margin-top: 20px;
   }
 }
+
+/* Middle School, phones: the Assessment details block above the support slider closes on 10px. */
+@media (max-width: 767px) {
+  .academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
+    padding-bottom: 10px;
+  }
+}
