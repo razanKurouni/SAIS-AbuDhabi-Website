@@ -17652,3 +17652,10 @@ a.school-policy-card__cover:hover {
     padding-bottom: 10px;
   }
 }
+
+/* School Policies, phones: the overview split block closes on 48px. */
+@media (max-width: 767px) {
+  .school-policies-page .school-policies-overview.academics-steam-section.editorial-split-section {
+    padding-bottom: 48px;
+  }
+}
