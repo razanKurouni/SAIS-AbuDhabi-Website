@@ -17734,3 +17734,11 @@ a.school-policy-card__cover:hover {
     padding-bottom: 34px;
   }
 }
+
+/* Careers, phones: the Roles and Commitment blocks sit on 34px each way. */
+@media (max-width: 767px) {
+  .careers-page .careers-requirements,
+  .careers-page .careers-requirements--two {
+    padding: 34px 0;
+  }
+}
