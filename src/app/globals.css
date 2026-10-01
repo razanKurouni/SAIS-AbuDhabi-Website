@@ -17629,3 +17629,25 @@ a.school-policy-card__cover:hover {
     padding-top: 0;
   }
 }
+
+/* Parent Involvement, phones: one 34px rhythm down the page. */
+@media (max-width: 767px) {
+  .parent-involvement-page .parent-involvement-partnership.editorial-split-section {
+    padding-top: 34px;
+    padding-bottom: 0;
+  }
+
+  .parent-involvement-page .campus-video {
+    padding-bottom: 24px !important;
+  }
+
+  .parent-involvement-page .parent-involvement-community-feature.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .parent-involvement-page .tour-intro {
+    padding-top: 34px;
+    padding-bottom: 10px;
+  }
+}
