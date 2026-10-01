@@ -17676,3 +17676,22 @@ a.school-policy-card__cover:hover {
     padding-top: 34px;
   }
 }
+
+/* Transportation, phones: one 34px rhythm down the page (the highlight ran
+   62/44 plus a 62px margin, the features opened on 48, the tour on 62). */
+@media (max-width: 767px) {
+  .transportation-safety-page .transportation-safety-highlight.safety-highlight {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-bottom: 0;
+  }
+
+  .transportation-safety-page .transportation-features.academics-steam-section.editorial-split-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .transportation-safety-page .tour-intro {
+    padding-top: 34px;
+  }
+}
