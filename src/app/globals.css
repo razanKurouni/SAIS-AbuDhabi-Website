@@ -17746,6 +17746,6 @@ a.school-policy-card__cover:hover {
 /* Careers, phones: the Candidate Requirements block opens on 34px. */
 @media (max-width: 767px) {
   .careers-page .contact-info-section.careers-care-section {
-    padding-top: 34px !important;
+    padding-top: 10px !important;
   }
 }
