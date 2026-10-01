@@ -17659,3 +17659,20 @@ a.school-policy-card__cover:hover {
     padding-bottom: 48px;
   }
 }
+
+/* Medical Services, phones: one 34px rhythm down the page. */
+@media (max-width: 767px) {
+  .medical-services-page .medical-services-intro-feature.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .medical-services-page .medical-services-services-feature.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .medical-services-page .tour-intro {
+    padding-top: 34px;
+  }
+}
