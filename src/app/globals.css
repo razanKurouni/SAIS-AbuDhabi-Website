@@ -17475,3 +17475,17 @@ a.school-policy-card__cover:hover {
     padding-bottom: 20px;
   }
 }
+
+/* About: the principal portrait on phones keeps its own proportions (a
+   1474x2106 portrait) instead of a fixed 255px band that cut the head. */
+@media (max-width: 767px) {
+  .principal-message-section__image-wrap {
+    height: auto;
+    aspect-ratio: 1474 / 2106;
+    overflow: hidden;
+  }
+
+  .principal-message-section__image--mobile {
+    object-position: center top;
+  }
+}
