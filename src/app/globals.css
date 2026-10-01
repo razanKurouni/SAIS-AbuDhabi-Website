@@ -17582,3 +17582,17 @@ a.school-policy-card__cover:hover {
     padding-top: 34px;
   }
 }
+
+/* Phones: every STEAM-style split block opens on 48 and closes on 0; the
+   wellness campaigns block opens on 0. Page-specific rules above still win
+   where they are more specific. */
+@media (max-width: 767px) {
+  .academics-steam-section.editorial-split-section {
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+
+  .wellbeing-campaigns-section.editorial-split-section {
+    padding-top: 0;
+  }
+}
