@@ -15951,7 +15951,10 @@ a.school-policy-card__cover:hover {
 }
 
 @media (max-width: 767px) {
-  h2 {
+  h2,
+  .site-footer__column h2,
+  .about-intro-section__lead,
+  .our-team-leadership__lead {
     font-size: 1.4rem !important;
     font-weight: 600 !important;
   }
@@ -17503,6 +17506,13 @@ a.school-policy-card__cover:hover {
 /* Academics: the STEM program block closes on 0 on phones. */
 @media (max-width: 767px) {
   .academics-page #academics-stem-program.academics-stem-program-section {
+    padding-bottom: 0;
+  }
+}
+
+/* Academics: the Assessment Protocol block closes on 0 on phones. */
+@media (max-width: 767px) {
+  .academics-page .academics-kg-assessment.academics-assessment-protocol {
     padding-bottom: 0;
   }
 }
