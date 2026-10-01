@@ -17597,3 +17597,10 @@ a.school-policy-card__cover:hover {
     padding-bottom: 48px;
   }
 }
+
+/* Wellbeing, phones: the commitment band stays navy down to 90%. */
+@media (max-width: 767px) {
+  .wellbeing-page .wellbeing-commitment {
+    background: linear-gradient(to bottom, var(--sais-primary) 0 90%, #fff 90% 100%);
+  }
+}
