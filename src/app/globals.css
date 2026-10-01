@@ -17715,3 +17715,15 @@ a.school-policy-card__cover:hover {
     padding-top: 34px;
   }
 }
+
+/* Withdrawal, phones: the intro lead reads at 16px and the split block
+   closes on 48px. */
+@media (max-width: 767px) {
+  .admissions-withdrawal-page #withdrawal-intro-title.about-intro-section__lead {
+    font-size: 16px !important;
+  }
+
+  .admissions-withdrawal-page .admissions-withdrawal-policy__split.academics-steam-section.editorial-split-section {
+    padding-bottom: 48px;
+  }
+}
