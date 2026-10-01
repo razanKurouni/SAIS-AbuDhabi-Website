@@ -17698,3 +17698,20 @@ a.school-policy-card__cover:hover {
     padding-top: 34px;
   }
 }
+
+/* Admissions, phones: one 34px rhythm down the page. */
+@media (max-width: 767px) {
+  .admissions-page .admissions-intro-feature.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 0;
+  }
+
+  .admissions-page #rolling-admissions.admissions-rolling-section.editorial-split-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .admissions-page .tour-intro {
+    padding-top: 34px;
+  }
+}
