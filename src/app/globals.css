@@ -10315,7 +10315,9 @@ img:where(
   }
   #admissions-fees-journey-title{
     max-width: 270px;
-        justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
   }
   .intro-feature__wave {
@@ -11518,9 +11520,10 @@ img:where(
 
     margin: -105px 0 clamp(-70px, -26vw, -90px);
   }
-  #academics-ap-benefits-title{
+  #academics-ap-benefits-title {
     max-width: 250px;
-    justify-self: center;
+    margin: 0 auto;
+    text-align: center;
   }
   .academics-learning-slider__dot {
     border: 1.5px solid #fff!important;
