@@ -17604,3 +17604,21 @@ a.school-policy-card__cover:hover {
     background: linear-gradient(to bottom, var(--sais-primary) 0 90%, #fff 90% 100%);
   }
 }
+
+/* Student Inclusion, phones: one 34px rhythm down the page (the three
+   blocks ran 50/50 each and the tour intro opened on 62). */
+@media (max-width: 767px) {
+  .student-inclusion-page .student-inclusion-intro-feature.intro-feature,
+  .student-inclusion-page .student-inclusion-who-we-support.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .student-inclusion-page .student-inclusion-support-programs.academics-support-programs {
+    padding: 34px 0;
+  }
+
+  .student-inclusion-page .tour-intro {
+    padding-top: 34px;
+  }
+}
