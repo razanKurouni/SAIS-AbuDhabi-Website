@@ -17516,3 +17516,22 @@ a.school-policy-card__cover:hover {
     padding-bottom: 0;
   }
 }
+
+/* Kindergarten, phones: one 34px rhythm down the page. The excellence slider
+   ran 50/84, the curriculum 44/58 and the assessment 50/50 while the learning
+   phases sat on 34/34. */
+@media (max-width: 767px) {
+  .academics-kindergarten-page .academics-kg-excellence-slider .academics-learning-slider__inner {
+    padding: 34px 0;
+  }
+
+  .academics-kindergarten-page .academics-steam-section.editorial-split-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .academics-kindergarten-page .academics-kg-assessment-feature.intro-feature {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+}
