@@ -17489,3 +17489,13 @@ a.school-policy-card__cover:hover {
     object-position: center top;
   }
 }
+
+/* About › Our Values, phones: the third pillar's photo sits a little lower so
+   the girl's head clears the grey wave over the card. */
+@media (max-width: 767px) {
+  .about-values__slide[data-slide="2"] .about-values__image,
+  .about-values__slide[data-slide="2"]:hover .about-values__image {
+    transform: translateY(32px) scale(1.16);
+    transform-origin: center;
+  }
+}

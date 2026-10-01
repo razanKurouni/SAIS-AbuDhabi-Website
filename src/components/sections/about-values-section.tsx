@@ -230,6 +230,7 @@ export function AboutValuesSection({ section }: AboutValuesSectionProps) {
             <article
               key={activeSlide._key || `${activeSlide.title}-${safeActiveIndex}`}
               className="about-values__slide"
+              data-slide={safeActiveIndex}
             >
               <div className="about-values__content">
                 {activeSlide.title ? <h3 className="about-values__slide-title">{activeSlide.title}</h3> : null}
