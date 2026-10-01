@@ -17553,3 +17553,32 @@ a.school-policy-card__cover:hover {
     padding-bottom: 10px;
   }
 }
+
+/* Our Campus, phones: one 34px rhythm down the page. */
+@media (max-width: 767px) {
+  .our-campus-page .campus-intro {
+    padding: 34px 0;
+  }
+
+  .our-campus-page .campus-video {
+    padding-bottom: 24px !important;
+  }
+
+  .our-campus-page #campus-facilities.campus-facilities-showcase.editorial-split-section {
+    padding: 34px 0;
+  }
+
+  .our-campus-page .editorial-split-listed.editorial-split-section {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .our-campus-page .campus-facilities-grid {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .our-campus-page .tour-intro {
+    padding-top: 34px;
+  }
+}
