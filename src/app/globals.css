@@ -17468,3 +17468,10 @@ a.school-policy-card__cover:hover {
     padding-left: 50px;
   }
 }
+
+/* Home: Why feature block closes on 20px on phones. */
+@media (max-width: 767px) {
+  .preview-main #home-why-feature.editorial-split-section--home-feature {
+    padding-bottom: 20px;
+  }
+}
