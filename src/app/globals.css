@@ -17535,3 +17535,14 @@ a.school-policy-card__cover:hover {
     padding-bottom: 34px;
   }
 }
+
+/* Middle School, phones: the Inclusion & Support slider closes tighter. */
+@media (max-width: 767px) {
+  .academics-middle-school-page .academics-middle-school-support-programs.academics-support-programs {
+    padding-bottom: 0;
+  }
+
+  .academics-middle-school-page .academics-middle-school-support-programs .academics-support-programs__dots {
+    margin-top: 20px;
+  }
+}
