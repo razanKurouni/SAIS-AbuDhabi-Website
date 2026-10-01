@@ -13636,10 +13636,10 @@ img:where(
   .admissions-withdrawal-policy .about-intro-section__media {
     aspect-ratio: 1 / 1;
   }
-  #campus-intro-title{
-        max-width: 270px;
-    justify-self: center;
-
+  #campus-intro-title {
+    max-width: 270px;
+    margin: 0 auto;
+    text-align: center;
   }
   #campus-facilities{
     padding: 30px 0 62px 0;
