@@ -17820,3 +17820,100 @@ a.school-policy-card__cover:hover {
     text-wrap: balance;
   }
 }
+
+/* ------------------------------------------------------------------------
+ * Mobile design review (2 Oct 2026). Every rule is scoped to the page it was
+ * raised on and applies on phones only.
+ * --------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  /* About: the school name stays on one line in the tour intro. */
+  .about-page .tour-intro__brand {
+    white-space: nowrap;
+  }
+
+  /* About: the Innovation card photo shows the boys and their robot. */
+  .about-page .about-benefits__card:nth-child(4) .quick-links-card__image-wrap {
+    height: 330px;
+    flex-basis: 330px;
+  }
+
+  .about-page .about-benefits__card:nth-child(4) .quick-links-card__image {
+    object-position: center 35%;
+  }
+
+  /* Student Programs: team photos get the site's rounded corners; the
+     slider chevrons read in navy on the white band. */
+  .student-programs-page .student-programs-teams .titled-images__media {
+    border-radius: var(--sais-image-radius, 18px);
+  }
+
+  .student-programs-page .student-programs-slider .academics-learning-slider__arrow {
+    visibility: visible;
+    opacity: 1;
+    color: var(--sais-primary);
+    border: 1.5px solid var(--sais-primary);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+  }
+
+  /* Food Services: the cafeteria photo crops from the top. The hero's phone
+     photo is a dedicated crop in Sanity. */
+  .food-services-nutrition-page #food-services-cafeteria .editorial-split-section__image {
+    object-position: center top;
+  }
+
+  /* Health & Safety: the intro photo crops from the right so the child at
+     the left edge drops out. */
+  .health-safety-page .health-safety-intro-feature .intro-feature__image {
+    object-position: right center;
+    transform: scale(1.22);
+    transform-origin: 100% 50%;
+  }
+
+  /* Wellbeing: the SEL photo crops from the right for the same reason. */
+  .wellbeing-page .wellbeing-sel-feature .intro-feature__image {
+    object-position: right center;
+  }
+
+  /* High School: the two AP course cards stack instead of sliding. */
+  .academics-high-school-page .academics-high-school-ap-courses .academics-support-programs__track {
+    flex-direction: column;
+    gap: 16px;
+    transform: none !important;
+  }
+
+  .academics-high-school-page .academics-high-school-ap-courses .academics-support-programs__card.hover-icon-card {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .academics-high-school-page .academics-high-school-ap-courses .academics-support-programs__dots {
+    display: none;
+  }
+
+  /* Transportation and Wellbeing: the headline sits above the photo, the
+     copy below it, so each reads as its own block. */
+  .transportation-safety-page .transportation-features .editorial-split-section__body,
+  .wellbeing-page #wellbeing-counseling .editorial-split-section__body {
+    display: contents;
+  }
+
+  .transportation-safety-page .transportation-features .editorial-split-section__title,
+  .wellbeing-page #wellbeing-counseling .editorial-split-section__title {
+    order: -1;
+    margin: 0 0 -8px;
+  }
+
+  .transportation-safety-page .transportation-features .editorial-split-section__media,
+  .wellbeing-page #wellbeing-counseling .editorial-split-section__media {
+    order: 0;
+  }
+
+  .transportation-safety-page .transportation-features .editorial-split-section__rich-text,
+  .wellbeing-page #wellbeing-counseling .editorial-split-section__rich-text {
+    order: 1;
+    font-size: 0.9rem;
+    line-height: 1.62;
+  }
+}

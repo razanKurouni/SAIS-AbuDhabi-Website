@@ -1,0 +1,296 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "food-services-nutrition-page",
+  "_rev": "4G6LtY1xPDAdG9I2VuVVPR",
+  "_system": {
+    "base": {
+      "id": "food-services-nutrition-page",
+      "rev": "Vnv6A4ouQqSNX98H66ofci"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-09-29T12:19:27Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Food\nNutrition"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-c6c2b13244b5db621209162fd3e335c249006fa1-12320x9748-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/food-services-nutrition",
+  "sections": [
+    {
+      "_key": "introSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "fs-lead",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-lead-s",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "At SAIS - UAQ, we recognize that proper nutrition is the cornerstone of student well-being and academic success. Our “Food and Nutrition” program is designed to nourish young minds and bodies, fostering healthy habits that support growth, concentration, and lifelong wellness."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Growing Strong Minds Through\nGood Nutrition"
+      },
+      "image": {
+        "_type": "picture",
+        "alt": "SAIS - UAQ kindergarten students smiling and waving",
+        "asset": {
+          "_ref": "image-03056cccb3323f8678aed53df4953e00276c1814-2000x909-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "introSection"
+    },
+    {
+      "_key": "cafeteriaSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "fs-caf-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-caf-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our canteen operates from two separate dining halls; one for boys and one for girls to ensure comfort and privacy for all students. Each hall provides:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fs-caf-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-caf-1-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Nutritious, Balanced Meals"
+              },
+              {
+                "_key": "fs-caf-1-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Carefully planned hot entrées featuring fresh fruits, vegetables, whole grains, and lean proteins. Menus rotate regularly to introduce variety and meet the dietary needs of different age groups."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fs-caf-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-caf-2-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Approved Light Snacks & Beverages"
+              },
+              {
+                "_key": "fs-caf-2-t",
+                "_type": "span",
+                "marks": [],
+                "text": "A selection of wholesome snacks and thirst-quenching drinks, all vetted against our strict nutrition guidelines."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fs-caf-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-caf-3-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Efficient Service During Breaks"
+              },
+              {
+                "_key": "fs-caf-3-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Friendly, timely service during morning and afternoon breaks keeps students energized and ready to learn."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "School Cafeteria"
+      },
+      "image": {
+        "_type": "picture",
+        "alt": "SAIS - UAQ teacher leading an activity with young students",
+        "asset": {
+          "_ref": "image-aca35dc0a327463c3077973085a838d8a9bfb3e8-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "cafeteriaSection"
+    },
+    {
+      "_key": "hygieneSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "fs-hyg-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-hyg-1-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Daily Sanitation:"
+              },
+              {
+                "_key": "fs-hyg-1-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Complete cleaning and disinfecting of dining areas, serving stations, and kitchen equipment after each meal period."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fs-hyg-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-hyg-2-l",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Strict Personal Hygiene:"
+              },
+              {
+                "_key": "fs-hyg-2-t",
+                "_type": "span",
+                "marks": [],
+                "text": "Canteen staff follow rigorous hand-washing protocols, wear protective attire, and undergo regular health screenings."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Commitment to\nHygiene & Safety"
+      },
+      "image": {
+        "_type": "picture",
+        "alt": "SAIS - UAQ kindergarten student on the playground slide",
+        "asset": {
+          "_ref": "image-af7fdc6887c14af3e24993d9bb90b21ea9b82519-1554x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "hygieneSection"
+    },
+    {
+      "_key": "teamSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "fs-team-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-team-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "All members of the canteen staff hold valid certifications from the Umm Al Quwain Municipality and the Ministry of Health. They participate in ongoing training on food safety, nutritional standards, and customer care to ensure every meal meets the highest quality and safety benchmarks."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "fs-team-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "fs-team-2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "By integrating balanced nutrition with impeccable hygiene practices, our Food and Nutrition page underscores the pivotal role our canteen plays in promoting a healthy, positive school experience for every student."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Our Qualified Team"
+      },
+      "image": {
+        "_type": "picture",
+        "alt": "SAIS - UAQ teacher guiding students through a hands-on activity",
+        "asset": {
+          "_ref": "image-840d3240473f342d98ac6f3a26e713d4c2f8e3ff-2000x1662-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "teamSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Learn about food services and nutrition at SAIS - UAQ.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - UAQ campus food nutrition hero",
+      "asset": {
+        "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Food Services & Nutrition | SAIS - UAQ"
+  },
+  "title": "Food Services & Nutrition"
+}
