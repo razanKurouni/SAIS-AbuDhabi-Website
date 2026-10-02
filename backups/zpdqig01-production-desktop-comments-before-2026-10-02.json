@@ -1,0 +1,1762 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "about-page",
+    "_rev": "AHF2zj5iHG2J5QSBxsePPl",
+    "_system": {
+      "base": {
+        "id": "about-page",
+        "rev": "AHF2zj5iHG2J5QSBxsZjjP"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-09-29T07:31:39Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "eyebrow": "About Us",
+        "title": "About Sharjah American International School - UAQ"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School - UAQ campus building",
+        "asset": {
+          "_ref": "image-3c361b940c4f228af9db13f2367bd77a9afec7e4-2000x1010-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School - UAQ campus building",
+        "asset": {
+          "_ref": "image-3c361b940c4f228af9db13f2367bd77a9afec7e4-2000x1010-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/about-us",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "imageTextSection",
+        "body": [
+          {
+            "_key": "tuynxb9m",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "o00htqb7",
+                "_type": "span",
+                "marks": [],
+                "text": "Building on this legacy, the Umm Al Quwain campus was inaugurated in September 2014 with an initial cohort of 200 students from Kindergarten through Grade 7. In 10 years, the UAQ campus has flourished to serve approximately 1,425 learners from KG1 to Grade 12, of whom 86% are Emiratis, 10% are other Arab expatriates, and 4% hail from non-Arab backgrounds such as Russia and Canada."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "00cy83m8",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "408wzrva",
+                "_type": "span",
+                "marks": [],
+                "text": "Today, SAIS - UAQ, under the leadership of Ms. Carole Sarkis Abboud, serves four different phases - Kindergarten, Elementary, Middle School, and High School. Our multicultural faculty represents over ten nationalities, including educators from Canada, the United States, New Zealand, South Africa, Lebanon, Syria, Jordan, Egypt, Romania, and Armenia. The campus itself features 59 classrooms, four staff rooms, a Head of Department office, dedicated art and computer labs, four science laboratories, a library, gymnasium, canteens, prayer rooms, multiple playgrounds and swimming pools, a bookstore, and a full suite of administrative and support facilities."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Sharjah American International School (SAIS) first opened its doors in Sharjah in 1997 under the vision of Dr. Aisha Al Sayyar and Dr. Nawaf Fawaz."
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ reception lobby",
+          "asset": {
+            "_ref": "image-7844f6487a398dcc369086f4fbb2cae215bc756a-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "governance",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "m6xmixm7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "rfuotny2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our curriculum is guided by the AERO (American Education Reaches Out) standards, which provide a clear and consistent framework across all subjects and grade levels. These standards help our teachers design thoughtful, engaging lessons that build essential knowledge and skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ngyu3urk",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "zgurc1qo",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Using AERO, we ensure that students are not only meeting academic benchmarks but also developing critical thinking, creativity, and real-world problem-solving abilities. Lessons are flexible and student-centered, allowing teachers to adapt instruction based on individual strengths, interests, and learning styles."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "qrl8ooct",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "zyhaq6ga",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In addition to core subjects, students can choose from a wide variety of elective and AP courses to deepen our learner's knowledge and ensure their college readiness. Whether through core classes, electives, or AP courses, our goal is to prepare students to thrive in school and in the world ahead."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Governance Board"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ teacher guiding two students in class",
+          "asset": {
+            "_ref": "image-775c64c79bc5c1f5986fedc4ea6b61eaa122b42a-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "governance"
+      },
+      {
+        "_key": "inspection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hf6rf8yv",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bdhtqj07",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our staff communicate with stakeholders through various channels to ensure students' well-being and academic success. Teachers create an inclusive environment by planning lessons that meet the needs of all learners, including students of determination and those who are gifted and talented. Student-led national and international events are regularly held at the school, helping students stay actively engaged with the wider community."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "m89uiv5v",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a3phqzjk",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS - UAQ, we are committed to preparing our students to become lifelong learners who are curious, resilient, and driven to grow. We focus on developing strong character values such as integrity, respect, and responsibility. Through academic and personal development, we encourage our students to contribute positively to their community and make a meaningful difference in the world around them."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A School of Possibilities"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ students playing maracas in music class",
+          "asset": {
+            "_ref": "image-32f2bc5236d839b0b30934c83496f0bf8e6530a6-1560x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "inspection"
+      },
+      {
+        "_key": "principalMessage",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "9t67s93x",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "xuvps4y9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "“Develop a passion for learning. If you do, you will never cease to grow.”"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fhsrpzug",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "d9eqe5jv",
+                  "_type": "span",
+                  "marks": [
+                    "accentGreen",
+                    "strong"
+                  ],
+                  "text": "Anthony J. D’Angelo"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "uzn4r18t",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6cjjejzm",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Today, the role of a school is not only to pursue academic excellence but also to motivate and empower its students to be lifelong learners, critical thinkers, and productive members of an ever-changing global society."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "v3ulr1q3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "z08ax6ur",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At Sharjah American International School, we foster a productive learning environment that accommodates students’ unique needs and empower them to thrive for excellence. This can only be possible in a holistic, student-centered environment, where teachers as facilitators of learning differentiate instruction to support diverse learning styles, identify and nurture individual talents, skills, and abilities of students, and encourage them to achieve their full potential. Teachers provide students with a platform to think critically, express, and exhibit their knowledge and skills, and positively contribute to the community."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3dfec09i",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9w69ynat",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We strongly believe in the importance of teachers, parents, and administrators collaborating and communicating openly and frequently to improve students’ performance and well-being. The consistent support of the parents has empowered us to do more and more. I pay my gratitude to them for their trust in us."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "u2cp7j6r",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "2stu31pm",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "I am confident that all our students are equipped with the essential skills to face future challenges with confidence and are poised to make a meaningful impact on tomorrow’s society."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ngn3wuzg",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7xuyyktr",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Please enjoy exploring our website. You will find important and relevant information about our school. We will also be delighted to welcome you for a tour of our spacious classrooms and extensive facilities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "2wasd61k",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "74gli017",
+                  "_type": "span",
+                  "marks": [
+                    "accentGreen",
+                    "strong"
+                  ],
+                  "text": "Carole Sarkis Abboud"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Message from Our Principal"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Ms. Carole Sarkis Abboud, Principal of SAIS - UAQ",
+          "asset": {
+            "_ref": "image-696ef9c5c5c78edf498b55aa0366bdd0852302c5-1400x2000-jpg",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "image",
+          "alt": "Ms. Carole Sarkis Abboud, Principal of SAIS - UAQ",
+          "asset": {
+            "_ref": "image-115c0b950f9f53ff253636d8f0ea9e16e2f6a662-1474x2106-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "principalMessage"
+      },
+      {
+        "_key": "boardGovernors",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "f0579c80613a",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Dr. Aysha AISayyar",
+              "asset": {
+                "_ref": "image-48758a18b361121806d1d3e82b302ac6ab46783c-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "Founder and Owner",
+            "title": "Dr. Aysha AISayyar"
+          },
+          {
+            "_key": "8172a5d10c07",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Dr. Nawaf Fawaz",
+              "asset": {
+                "_ref": "image-f8309c1915074776d405a0c3c84df4dfdb509416-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "Founder and Owner",
+            "title": "Dr. Nawaf Fawaz"
+          },
+          {
+            "_key": "50401463d273",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Fatima Fawwaz ",
+              "asset": {
+                "_ref": "image-19d33e0de617bc00f230933f99d49669e3f3e438-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "COO",
+            "title": "Ms. Fatima Fawwaz "
+          }
+        ],
+        "slot": "boardGovernors"
+      },
+      {
+        "_key": "statement",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "vision",
+            "_type": "card",
+            "description": "To be a leading American curriculum school group, recognized for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE’s identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ principal walking with students in a school corridor",
+              "asset": {
+                "_ref": "image-07224906613b202c44b75417e2c6f764ed2e2079-1552x814-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Vision"
+          },
+          {
+            "_key": "mission",
+            "_type": "card",
+            "description": "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ teacher helping two students in class",
+              "asset": {
+                "_ref": "image-aea5974fcd633d3672d1c11b51ab321ac647bf16-1552x814-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Mission"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Our Statement"
+        },
+        "slot": "statement"
+      },
+      {
+        "_key": "values",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "values-character",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-character-integrity",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Integrity icon",
+                  "asset": {
+                    "_ref": "image-a900a5864132c85c6b88a22887885ea3e7396a6b-127x142-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Integrity",
+                "text": "We act with honesty, take responsibility for our actions, and hold ourselves to high standards."
+              },
+              {
+                "_key": "values-character-respect",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Respect and equity icon",
+                  "asset": {
+                    "_ref": "image-25cf142664354cf490ad9d4149f859ba016fc6f8-113x97-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Respect and Equity",
+                "text": "By treating every individual with fairness, dignity, and consideration, we create an inclusive environment where everyone feels they belong and can succeed."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ teacher supporting a student with a tablet in class",
+              "asset": {
+                "_ref": "image-a92f371c6f994d601784b9817143e2786b6c7338-2128x1246-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 1: Character"
+          },
+          {
+            "_key": "values-community",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-community-collaboration",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Collaboration icon",
+                  "asset": {
+                    "_ref": "image-fb17e62480d1cda18d032355a7b5fe7be7d595ce-161x162-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Collaboration",
+                "text": "We work together with purpose, valuing the synergy between different cultures and perspectives, and building strong relationships across our school community."
+              },
+              {
+                "_key": "values-community-wellbeing",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Wellbeing icon",
+                  "asset": {
+                    "_ref": "image-6b0f3f40b0d9f01ef2d223489a9068a269ee62f8-105x90-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Wellbeing",
+                "text": "We prioritize the social, emotional, and physical wellbeing of our community, creating a safe and supportive environment where individuals can grow with confidence."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students smiling together on the playground",
+              "asset": {
+                "_ref": "image-e4181bc1771a48c4e025230b3cd4e1e331fd0125-1737x1246-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 2: Community"
+          },
+          {
+            "_key": "values-growth",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-growth-innovation",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Innovation icon",
+                  "asset": {
+                    "_ref": "image-4c541111408154ff1aa7d229d9fca1a79d3771be-137x153-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Innovation",
+                "text": "We embrace curiosity, creativity, and forward thinking, using technology and new ideas to enrich learning and prepare students for a changing world."
+              },
+              {
+                "_key": "values-growth-lifelong-learning",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Lifelong learning icon",
+                  "asset": {
+                    "_ref": "image-58f99ac76ddef1c63d208d08d09833dd65a49f29-125x89-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Lifelong Learning",
+                "text": "We encourage curiosity, adaptability, and continuous growth, empowering students to take ownership of their learning and future."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students working in a science lab",
+              "asset": {
+                "_ref": "image-03510ab59e9a599bbb23c83b783de1b3ecd536f4-1839x1260-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 3: Growth"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "a732f50892e5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4e3f2efdb5e7",
+                  "_type": "span",
+                  "text": "The character we build, the way we work together, and how we continue to grow."
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "1c9787ba2e58",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fa8490cfa4df",
+                  "_type": "span",
+                  "text": "We express our values through three connected pillars:"
+                }
+              ],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Values"
+        },
+        "slot": "values"
+      },
+      {
+        "_key": "khdaSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "8a7jvkma",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "21kjd0jr",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In alignment with the visionary goals of the United Arab Emirates for excellence in education, we have been accredited with distinction by Cognia, a globally recognized authority in educational quality assurance."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "pe5ucvoo",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ichfhqcn",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As we celebrate this milestone, we are reminded that this mark of distinction is a reflection of our shared pursuit of student success, innovation, and a brighter future for all. This prestigious award places us among a selected group of 60 schools worldwide that exemplify excellence in education, as determined by Cognia’s rigorous Accreditation Engagement Review process."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "International Accreditation and Global Recognition – SAIS UAQ"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ student drawing in class",
+          "asset": {
+            "_ref": "image-85efc35e1683b5e455996ef2681d49b2ba829b99-2000x1419-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "khdaSection"
+      },
+      {
+        "_key": "benefits",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "benefit-college",
+            "_type": "card",
+            "description": "Our students are well-prepared for university life by receiving admissions from leading institutions around the world. Our American curriculum, paired with international accreditation, opens doors to competitive universities, scholarship opportunities, and seamless college application processes.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students working at computers in the lab",
+              "asset": {
+                "_ref": "image-87e72fbf94af5373000c9334daa9cdc6b72e4f4c-726x888-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Global College Opportunities"
+          },
+          {
+            "_key": "benefit-transfers",
+            "_type": "card",
+            "description": "Whether moving within the UAE or abroad, our students benefit from easy transitions between international schools. Our recognized curriculum and standards ensure continuity in learning for mobile families.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students walking together in the school corridor",
+              "asset": {
+                "_ref": "image-0ee84bc6f140d2bd0f0a33ac8bab557497af3c6d-1098x888-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Smooth Transfers Between Schools"
+          },
+          {
+            "_key": "benefit-instruction",
+            "_type": "card",
+            "description": "The accreditation process supports continuous professional development for our teachers and school leaders. It ensures that our teaching methods are up to date with the most effective, research-based practices giving students a relevant and lifelong education.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ teachers performing a puppet show for young students",
+              "asset": {
+                "_ref": "image-cb20f509fd25e00cc7a28ba48fde5b60dc947312-974x888-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "High-Quality Instruction and Professional Development"
+          },
+          {
+            "_key": "benefit-innovation",
+            "_type": "card",
+            "description": "As part of the Cognia network, we have access to the latest educational tools, trends, and peer-reviewed practices. This ensures our classrooms remain dynamic, tech-integrated, and forward-thinking.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students building a robotics model",
+              "asset": {
+                "_ref": "image-c84e97c56ead96ae93a64d45bceebd123aea94f3-810x888-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Innovation and Educational Excellence"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "subtitle": "Accreditation is more than a status; it's a continuous journey toward academic excellence, student empowerment, and global readiness. Here's how it benefits our students and school community:",
+          "title": "Benefits for Our Students and Community"
+        },
+        "slot": "benefits"
+      },
+      {
+        "_key": "accreditations",
+        "_type": "cardsSection",
+        "body": [
+          {
+            "_key": "tpe-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We prepare our students for international standardized tests such as the SAT, IELTS, and AP. We also integrate advanced educational technologies, fostering 21st-century skills through the use of interactive learning tools, digital platforms, and innovation-based teaching strategies."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-memberships",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-memberships-s",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Memberships and Licenses"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-licensed",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-licensed-s",
+                "_type": "span",
+                "marks": [],
+                "text": "We are fully licensed by the UAE Ministry of Education and maintain active membership in global educational bodies that ensure the quality and recognition of our programs:"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-b1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-b1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Cognia"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-b2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-b2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "The College Board"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-b3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-b3-s",
+                "_type": "span",
+                "marks": [],
+                "text": "UAE Ministry of Education"
+              }
+            ],
+            "level": 1,
+            "listItem": "bullet",
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "tpe-closing",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tpe-closing-s",
+                "_type": "span",
+                "marks": [],
+                "text": "These affiliations ensure our students benefit from global best practices and are eligible for academic equivalency certification."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "cards": [
+          {
+            "_key": "tpe-cognia",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Cognia Accredited badge",
+              "asset": {
+                "_ref": "image-88f6dd810bc7dba78405a145a5ee272a127ffa75-336x306-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Cognia Accredited"
+          },
+          {
+            "_key": "tpe-moe",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "UAE Ministry of Education logo",
+              "asset": {
+                "_ref": "image-0eb0516788d5a08b27072813372db3226444c322-640x451-png",
+                "_type": "reference"
+              }
+            },
+            "title": "UAE Ministry of Education"
+          },
+          {
+            "_key": "tpe-college-board",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "College Board logo",
+              "asset": {
+                "_ref": "image-32b06749faaff88a2a831c0be257ea542c50156b-771x233-png",
+                "_type": "reference"
+              }
+            },
+            "title": "The College Board"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Testing and Program Excellence"
+        },
+        "slot": "accreditations"
+      },
+      {
+        "_key": "branches",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "about-branch-sharjah-campus",
+            "_type": "card",
+            "cta": {
+              "_key": "about-branch-sharjah-cta",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "SAIS Sharjah offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Sharjah campus building",
+              "asset": {
+                "_ref": "image-7a3e22286a53b34a191d6e92742d922752ffd496-1014x612-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "1997",
+            "subtitle": "Al Ramaqiya Area, Sharjah, UAE",
+            "title": "SAIS Sharjah"
+          },
+          {
+            "_key": "about-branch-dubai",
+            "_type": "card",
+            "cta": {
+              "_key": "kimub4id93",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "At SAIS Dubai delivers a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Dubai campus building",
+              "asset": {
+                "_ref": "image-4ba699df6a436ed5f5dbf4a8d578edac53e597e0-1012x612-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "2005",
+            "subtitle": "Al War 1, Dubai, UAE",
+            "title": "SAIS Dubai"
+          },
+          {
+            "_key": "about-branch-abu-dhabi",
+            "_type": "card",
+            "cta": {
+              "_key": "kkmub4id93",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "SAIS Abu Dhabi, delivering a high-quality American curriculum aligned with internationally recognised standards. Guided by the California State framework, the school provides a nurturing environment that supports academic excellence.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Abu Dhabi campus building",
+              "asset": {
+                "_ref": "image-8893df538445d720d523d5b8a8e4afda6533d4cb-1014x612-png",
+                "_type": "reference"
+              }
+            },
+            "label": "2016",
+            "subtitle": "Abu Dhabi, UAE",
+            "title": "SAIS Abu Dhabi"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Our Branches"
+        },
+        "slot": "branches"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "About Sharjah American International School",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School Campus",
+        "asset": {
+          "_ref": "image-bf3a69902c77e8e3143c477d67efb03341b57f44-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "About SAIS | SAIS - UAQ "
+    },
+    "title": "About SAIS"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-middle-school-page",
+    "_rev": "z2nMvYbGDG4FxTvfDSH86m",
+    "_system": {
+      "base": {
+        "id": "academics-middle-school-page",
+        "rev": "LbAq1fSx0tXF42zpPOTOyg"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-09-28T05:12:18Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "eyebrow": "Academics",
+        "title": "Middle School"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school students reading together",
+        "asset": {
+          "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school students reading together",
+        "asset": {
+          "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/middle-school",
+    "sections": [
+      {
+        "_key": "overviewSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "middle-school-overview",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "middle-school-overview-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our Middle School program supports students through the important transition toward High School education. Middle School students experience a subject-based learning environment that encourages academic growth, independence, critical thinking, and personal responsibility."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bf3449466d72",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fba2fd0e38a8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The learning environment is designed to meet the developmental needs of middle school learners while providing a safe, supportive, and engaging atmosphere. Through a balanced academic program, dedicated teachers, and a strong sense of community, students are encouraged to build confidence, develop their skills, and prepare successfully for high school and beyond."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Stepping Into Specialised Learning"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ middle school students reading in the library",
+          "asset": {
+            "_ref": "image-c5e1ce15376fb8084e677ac5c3dfc0e7bdec608a-1556x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "overviewSection"
+      },
+      {
+        "_key": "tailoredInstructionSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "middle-school-tailored-instruction",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "middle-school-tailored-instruction-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Transitions are carefully considered in the design of teaching and learning approaches. Teachers utilize a variety of instructional strategies tailored to students’ developmental stages and subject areas, fostering independence, critical thinking, creativity, and collaboration."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "48fcf75c78f3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1ce2353c7ae6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The curriculum is structured to provide a balanced blend of academic rigor, inquiry-based learning, and opportunities for exploration and self-discovery, ensuring that students thrive academically, socially, and emotionally throughout their educational journey."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Tailored Instruction  for Every Stage of Learning"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ middle school student playing keyboard during music class",
+          "asset": {
+            "_ref": "image-c31d0ff5a86f90bbd7bbd12237cd17aa2f02c759-1939x1670-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "tailoredInstructionSection"
+      },
+      {
+        "_key": "curriculumLifeSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "middle-school-curriculum-life-activities",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "middle-school-curriculum-life-activities-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Middle School curriculums designed to deepen students’ subject knowledge while continuing to develop critical thinking, creativity, communication, and independent learning skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "57df5b543387",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "89b609033dc6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Students engage in a balanced academic program that includes core subjects, specialist instruction, electives, and enrichment opportunities that support both academic and personal growth."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ students participating in class",
+          "asset": {
+            "_ref": "image-29bb523a8488a47b0022cdadd88b779954be4c41-1560x1268-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumLifeSection"
+      },
+      {
+        "_key": "assessmentSection",
+        "_type": "entriesSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "middle-school-assessment",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "middle-school-assessment-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In Middle School, assessment becomes more structured while continuing to focus on student development and continuous improvement. Students are assessed through quizzes, unit tests, formative assessments, projects, performance tasks, presentations, classwork, and project-based assessments."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "53cbe4282324",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c1e24c2f06e5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Assessment practices are designed to measure students’ understanding, application of knowledge, analytical thinking, and ability to communicate their learning effectively. Teachers use assessment data to identify students’ strengths, address learning gaps, and provide targeted support when needed."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ middle school students reviewing a book together",
+          "asset": {
+            "_ref": "image-d71d767deec0034ca19743ede2771a60b908154e-2602x1826-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentSection"
+      },
+      {
+        "_key": "assessmentDetailSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "msad-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "msad-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Middle School students also complete more formal assessments, including semester-based tests and final examinations where applicable. These assessments help prepare students for the academic expectations of High School."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "msad-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "msad-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In addition, students receive regular preparation for external assessments through skill-based practice, data-informed instruction, and exposure to international assessment-style questions that develop reasoning, problem-solving, and critical thinking skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ middle school football team with their coach on the pitch",
+          "asset": {
+            "_ref": "image-6151b6b81ff75214d85cc624c3cdbc07e04a5c90-1560x1268-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentDetailSection"
+      },
+      {
+        "_key": "supportProgramsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "students-of-determination",
+            "_type": "card",
+            "description": "Students with special educational needs and/or disabilities (SEND/SOD) are supported through individualized education plans (IEPs), push-in/pull-out support services, and tailored curriculum, instruction, and assessments.",
+            "icon": {
+              "_type": "image",
+              "alt": "Students of Determination",
+              "asset": {
+                "_ref": "image-50104dadb4f2b4de26be20716e95b37a8f56689d-337x343-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "determination",
+            "title": "Students of Determination"
+          },
+          {
+            "_key": "gifted-and-talented",
+            "_type": "card",
+            "description": "Students with identified gifts and/or talents are provided with enrichment and accelerated programs as comprehensively stated and elaborated on in their advanced learning plans (ALPs).",
+            "icon": {
+              "_type": "image",
+              "alt": "Gifted and Talented Students",
+              "asset": {
+                "_ref": "image-e42f72f3796c7fa2effc55595c6c26490279c506-300x343-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "gifted",
+            "title": "Gifted and Talented Students"
+          },
+          {
+            "_key": "eal-learners",
+            "_type": "card",
+            "description": "Students with additional English language needs are identified through WIDA screener and supported with tiered interventions.",
+            "icon": {
+              "_type": "image",
+              "alt": "EAL Learners",
+              "asset": {
+                "_ref": "image-69c5c3934b703ef9801f54003cb4c5327d86549c-311x343-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "eal",
+            "title": "EAL Learners"
+          },
+          {
+            "_key": "academic-counseling",
+            "_type": "card",
+            "description": "Students in all phases are provided with integrated support through counseling, pastoral care, and academic planning.",
+            "icon": {
+              "_type": "image",
+              "alt": "Academic Counseling",
+              "asset": {
+                "_ref": "image-880598a4eba8c21059c0c18bfef2ea3a82c8f8c9-287x333-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "counseling",
+            "title": "Academic Counseling"
+          },
+          {
+            "_key": "differentiation",
+            "_type": "card",
+            "description": "Internal and external assessment data as well as observational feedback are used to design targeted interventions and personalized instruction.",
+            "icon": {
+              "_type": "image",
+              "alt": "Differentiation",
+              "asset": {
+                "_ref": "image-85df85bd95ed50d5d7a2282f3ebf8c60508601ac-328x333-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "differentiation",
+            "title": "Differentiation"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Inclusion & Support Programs"
+        },
+        "slot": "supportProgramsSection"
+      },
+      {
+        "_key": "learningPhasesElementaryImage",
+        "_type": "imageTextSection",
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ elementary students participating in a music class",
+          "asset": {
+            "_ref": "image-38e79b3d4e0f2ed813acb44996c5b8bb245bcf90-1012x806-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "learningPhasesElementaryImage"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore Middle School academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ middle school students reading together",
+        "asset": {
+          "_ref": "image-25f85bf2f74e2a2e3c3f48da1ad216af10016cc6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Middle School | Academics | SAIS - UAQ"
+    },
+    "title": "Middle School"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-application-page",
+    "_rev": "hGTjvdKxmFqhtnAxpXEXiG",
+    "_system": {
+      "base": {
+        "id": "admissions-application-page",
+        "rev": "LbAq1fSx0tXF42zpPPc1pA"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-09-24T10:22:43Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Admissions\nApplication"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ kindergarten corridor",
+        "asset": {
+          "_ref": "image-5ec7635f8fab1abb6300e8a327ee2dcfa064fbda-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - UAQ kindergarten corridor",
+        "asset": {
+          "_ref": "image-5ec7635f8fab1abb6300e8a327ee2dcfa064fbda-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions/applications",
+    "sections": [
+      {
+        "_key": "applicationProcess",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "b-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We consider every application fairly and in accordance with the requirements of the United Arab Emirates Ministry of Education (MOE). Each application is reviewed based on academic records, placement assessment results, and seat availability in the requested grade level."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SAIS - UAQ reserves the right to deny or withdraw an offer of enrollment if a student continues to demonstrate significant behavioral concerns despite the school’s support and intervention measures, in accordance with MOE guidelines. Such decisions are made to ensure that all students can thrive in a safe, respectful, and productive learning environment."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Application Process"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - UAQ students conducting a laboratory experiment",
+          "asset": {
+            "_ref": "image-33a11bc03e4caead01248477122287093c3e714d-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "applicationProcess"
+      },
+      {
+        "_key": "stepsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "step-contact",
+            "_type": "card",
+            "body": [
+              {
+                "_key": "b-4",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-5",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Please call or visit our main office and speak with the receptionist to schedule an appointment for your child’s entrance exam. You may also reach our Admissions Office directly:"
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "b-6",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-7",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "E: saisq@saisuaq.com"
+                  }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "b-8",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-9",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "T: +971 6 766 553"
+                  }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "title": "Contact Us to Book an Appointment"
+          },
+          {
+            "_key": "step-form",
+            "_type": "card",
+            "description": "On the day of your appointment, complete the official registration form. All fields must be filled in accurately to ensure proper processing.",
+            "title": "Fill Out the Registration Form"
+          },
+          {
+            "_key": "step-fee",
+            "_type": "card",
+            "description": "Following successful completion of all placement requirements, the registration process commences. During this stage, parents/guardians must submit all required documentation to finalize enrollment. For comprehensive information regarding registration procedures, fee structure, curriculum details, and additional school information, please consult the 2025 School Guide.",
+            "title": "Pay the Entrance Exam Fee"
+          },
+          {
+            "_key": "step-exam",
+            "_type": "card",
+            "description": "The application process begins with the parent/guardian completing the official application form and signing the Entry Requirements and Commitment documents. Once submitted to the Registrar’s Office, our team will schedule a specific date for your child’s placement assessments and interview.",
+            "title": "Entrance Exam Notification"
+          },
+          {
+            "_key": "step-documents",
+            "_type": "card",
+            "body": [
+              {
+                "_key": "b-a",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-b",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "If your child passes the entrance exam, you are required to submit all documents (listed below) to complete the registration procedures. At that time, you must also pay 2,000 DHS to reserve a seat for your child."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "b-c",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-d",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Once these documents and payment are received, the Admissions Officer and Student Affairs Office will conduct a final review and confirm your child’s enrollment."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "title": "Submit Required Documents and Reserve a Seat"
+          }
+        ],
+        "slot": "stepsSection"
+      },
+      {
+        "_key": "finalCta",
+        "_type": "ctaSection",
+        "ctas": [
+          {
+            "_key": "klmub4id97",
+            "_type": "cta",
+            "href": "https://new-sais-main.vercel.app/admissions/applications",
+            "label": "See More"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Start the Pre-Registration Process Now"
+        },
+        "slot": "finalCta"
+      },
+      {
+        "_key": "mograHubAppBand",
+        "_type": "entriesSection",
+        "entries": [
+          {
+            "_key": "komub4id97",
+            "_type": "entry",
+            "iconType": "schoolCode",
+            "label": "School Code",
+            "text": "SAISD"
+          },
+          {
+            "_key": "kpmub4id97",
+            "_type": "entry",
+            "href": "https://play.google.com/store/apps/details?id=com.mogra.hub&hl=en",
+            "iconType": "android",
+            "label": "Google Play"
+          },
+          {
+            "_key": "kqmub4id97",
+            "_type": "entry",
+            "href": "https://apps.apple.com/ae/app/mograhub/id6736962827",
+            "iconType": "apple",
+            "label": "App Store"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kmmub4id97",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "knmub4id97",
+                  "_type": "span",
+                  "text": "Attendance, timetable, homework and assignments, exam results and report cards, fee statements and school announcements — all in one app, for parents and students."
+                }
+              ],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Parent & Student Mobile App",
+          "title": "Your School in Your Pocket - Download MograHUB"
+        },
+        "slot": "mograHubAppBand"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about the SAIS - UAQ application process and registration timelines.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ kindergarten corridor",
+        "asset": {
+          "_ref": "image-5ec7635f8fab1abb6300e8a327ee2dcfa064fbda-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Admissions Application | SAIS - UAQ"
+    },
+    "title": "Applications"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "extra-curricular-activities-page",
+    "_rev": "4G6LtY1xPDAdG9I2VuhF1V",
+    "_system": {
+      "base": {
+        "id": "extra-curricular-activities-page",
+        "rev": "Vnv6A4ouQqSNX98H5hshu8"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-09-29T12:49:12Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Extra Curricular\nActivities"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ extracurricular activities",
+        "asset": {
+          "_ref": "image-ebf267c2454c31a7f4ca49c75bceec101b6045d2-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - UAQ extracurricular activities",
+        "asset": {
+          "_ref": "image-0b6ed8b5a8988e988b846fd8076713d13280c963-11816x13210-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/extra-curricular-activities",
+    "sections": [
+      {
+        "_key": "enrichingIntro",
+        "_type": "cardsSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "extra-curricular-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "extra-curricular-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Whether pursuing athletic excellence, artistic expression, intellectual challenges, or leadership opportunities, every student is empowered to grow, connect, and thrive."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "subtitle": " Our extracurricular activities program provides students with opportunities to explore their interests, develop new talents, build confidence, and strengthen essential life skills. Through a diverse range of activities, students are encouraged to discover their passions, collaborate with peers, and become active contributors to the school community.",
+          "title": "Learning Beyond the Classroom"
+        },
+        "slot": "enrichingIntro"
+      },
+      {
+        "_key": "activitiesSlider",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "music",
+            "_type": "card",
+            "description": "Our sports programs promote physical fitness, teamwork, perseverance, and healthy competition. Students have opportunities to participate in a variety of individual and team-based activities that encourage discipline, resilience, and personal growth.\n\nThrough regular practice, friendly competitions, and school sporting events, students develop confidence, leadership skills, and a lifelong appreciation for active and healthy living.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ student playing the violin during a music lesson",
+              "asset": {
+                "_ref": "image-25a6d12ede86901806eea82da8d7760e85c17527-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Sports & Physical Wellness"
+          },
+          {
+            "_key": "sports",
+            "_type": "card",
+            "description": "The arts provide students with meaningful opportunities to express creativity, imagination, and individuality. Through visual arts, music, drama, and performance-based activities, students explore different forms of artistic expression while developing their talents.\n\nParticipation in artistic programs enhances confidence, communication skills, and cultural appreciation, allowing students to showcase their abilities through performances, exhibitions, and special events.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students during a sports training session",
+              "asset": {
+                "_ref": "image-3c6a78b0a7782a504550f655cd2e9c536d5be2fb-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Arts, Music & Performance"
+          },
+          {
+            "_key": "clubs-and-leadership",
+            "_type": "card",
+            "description": "Our academic enrichment activities encourage students to think critically, solve problems creatively, and pursue knowledge beyond the classroom curriculum. Programs such as chess, debate, puzzles, STEM challenges, and academic competitions inspire curiosity and intellectual growth.\nThese experiences help students strengthen analytical thinking, collaboration, and decision-making skills while fostering a love of learning and innovation.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students working together in a school club",
+              "asset": {
+                "_ref": "image-c52d20fa194eb29058efcff7555d2aaf59d65c5c-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Academic & Intellectual Enrichment"
+          },
+          {
+            "_key": "3131bc06405a",
+            "_type": "card",
+            "description": "Leadership opportunities empower students to take initiative, work collaboratively, and contribute positively to their school and wider community. Through student-led projects, service activities, and leadership programs, students learn the value of responsibility, integrity, and teamwork.\n\nBy engaging in meaningful community experiences, students develop empathy, communication skills, and a strong sense of citizenship, preparing them to become confident and responsible future leaders.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - UAQ students working together in a school club",
+              "asset": {
+                "_ref": "image-4eab627de732316a9ca5212ab5ed93155ed10c57-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Leadership & Community Engagement"
+          }
+        ],
+        "slot": "activitiesSlider"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore extracurricular activities at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - UAQ extracurricular activities",
+        "asset": {
+          "_ref": "image-ebf267c2454c31a7f4ca49c75bceec101b6045d2-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Extra Curricular Activities | SAIS - UAQ"
+    },
+    "title": "Extra Curricular Activities"
+  }
+]

@@ -17749,3 +17749,74 @@ a.school-policy-card__cover:hover {
     padding-top: 10px !important;
   }
 }
+
+/* ------------------------------------------------------------------------
+ * Desktop design review (2 Oct 2026). Every rule below is scoped to the page
+ * it was raised on.
+ * --------------------------------------------------------------------- */
+
+/* Middle School: the tailored-instruction title honours its Studio line break. */
+.academics-middle-school-page .academics-middle-school-tailored-section .academics-elementary-assessment__title {
+  white-space: pre-line;
+}
+
+/* About: benefit card titles honour their Studio line breaks. */
+.about-page .about-benefits__card .quick-links-card__title {
+  white-space: pre-line;
+}
+
+/* Admissions › Applications: step titles honour their Studio line breaks. */
+.admissions-application-page .application-step__title {
+  white-space: pre-line;
+}
+
+/* Contact: the panel title sits on one line. */
+.contact-page .contact-info-section__title {
+  max-width: none;
+}
+
+/* Uniform: the "On-Campus Bookstores:" label reads in teal. */
+.school-supplies-uniform-page .school-supplies-uniform-intro .editorial-split-section__body strong {
+  color: #00a5b2;
+}
+
+/* Extra-curricular: the intro copy runs as wide as the XD. */
+.extra-curricular-activities-page .extra-curricular-activities-intro .academics-ap-benefits__subtitle,
+.extra-curricular-activities-page .extra-curricular-activities-intro .academics-ap-benefits__description {
+  max-width: 780px;
+}
+
+/* No one-word last lines in the paragraphs the review flagged. */
+.student-programs-page .student-programs-leadership .intro-feature__description p,
+.student-programs-page .student-programs-slider .academics-learning-slider__content p,
+.admissions-book-tour-page .admissions-tour-experience .intro-feature__description p,
+.school-policies-page .school-policies-overview .editorial-split-section__body p,
+.medical-services-page .medical-services-staff-feature .academics-elementary-assessment__body p {
+  text-wrap: pretty;
+}
+
+@media (min-width: 768px) {
+  /* High School: the career-guidance copy stands clear of the photo and stops
+     short of the panel edge. */
+  .academics-high-school-page .academics-high-school-pathways-feature .academics-elementary-assessment__content {
+    padding-left: 56px;
+    max-width: 560px;
+  }
+
+  /* High School: the curriculum and overview copy keep 48px from the photo. */
+  .academics-high-school-page #academics-high-school-curriculum .editorial-split-section__body,
+  .academics-high-school-page #academics-high-school-overview .editorial-split-section__body {
+    padding-right: 48px;
+  }
+
+  /* Careers: the Candidate Requirements copy stands clear of the curve. */
+  .careers-page .careers-care-section .contact-info-section__body {
+    padding-left: calc(24% + 40px);
+  }
+
+  /* Withdrawal: the lead runs on three lines. */
+  .admissions-withdrawal-page #withdrawal-intro-title.about-intro-section__lead {
+    max-width: 1120px;
+    text-wrap: balance;
+  }
+}
