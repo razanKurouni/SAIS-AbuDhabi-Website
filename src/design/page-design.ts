@@ -14,7 +14,7 @@ import type { DesignOverlay } from "./apply-design";
 export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   "about-page": {
     "accreditations": {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F2F2F2",
       "lineColor": "#216B97",
       "textColor": "#6F7378",
       "titleColor": "#00A5B2"
