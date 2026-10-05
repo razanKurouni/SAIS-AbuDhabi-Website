@@ -32,6 +32,16 @@ export function HomePage({ data, instagramPosts }: HomePageProps) {
         <HomeHero hero={data?.hero} />
         <IntroFeatureSection section={data?.intro} />
         {data?.growthSection ? <AboutGovernanceSection section={data.growthSection} /> : null}
+        {data?.growthFeature ? (
+          <EditorialSplitSection
+            id="home-growth-feature"
+            title={data.growthFeature.heading?.title || "Our Community"}
+            section={data.growthFeature}
+            fallbackImage={{}}
+            fallbackParagraphs={[]}
+            className="editorial-split-section--home-feature"
+          />
+        ) : null}
         <HeroContactBand section={data?.heroContactBand} />
         <AccreditationsSection section={data?.accreditations} />
         <ApproachSection section={data?.whySection} />

@@ -1023,6 +1023,7 @@ export type HomepageData = {
   };
   intro?: ImageTextSection;
   growthSection?: ImageTextSection;
+  growthFeature?: ImageTextSection;
   whyDubai?: {
     heading: SectionHeading;
     image?: SanityImage;

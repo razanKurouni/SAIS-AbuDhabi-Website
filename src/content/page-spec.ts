@@ -81,6 +81,7 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("intro", "Intro"),
       it("growthSection", "Growth & Curriculum"),
+      it("growthFeature", "Growth – Feature"),
       { slot: "heroContactBand", kind: "cta", label: "Contact Band" },
       cards("values", "Core Values", { items: "slides" }),
       it("whySection", "Why SAIS"),

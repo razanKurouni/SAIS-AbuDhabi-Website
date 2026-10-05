@@ -103,6 +103,7 @@ export function adaptHomepage(page: CmsPage, settings: SiteSettings | null): Hom
     heroContactBand: ctaBand(s.get("heroContactBand")),
     intro: imageText(s.get("intro")),
     growthSection: imageText(s.get("growthSection")),
+    growthFeature: imageText(s.get("growthFeature")),
     ctaBand: s.has("ctaBand") ? { text: "", ...ctaBand(s.get("ctaBand")) } : undefined,
     accreditations: s.has("accreditations")
       ? { heading: requiredHeading(s.get("accreditations")), logos: logos(s.get("accreditations")).map((logo) => ({ name: logo.name || "", image: logo.image })) }

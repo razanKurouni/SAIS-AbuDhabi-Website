@@ -1189,6 +1189,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "text"
     ]
   },
+  "homepage-main/growthFeature": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "homepage-main/growthSection": {
     "section": [
       "heading",

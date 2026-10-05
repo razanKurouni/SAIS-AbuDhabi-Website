@@ -830,6 +830,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "theme": "teal"
     },
+    "growthFeature": {
+      "imagePosition": "left"
+    },
     "header": {
       "applyNowButton": {
         "variant": "secondary"
