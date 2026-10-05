@@ -46,7 +46,7 @@ import type {
 } from "@/types/sanity";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01";
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "abudhabi";
 
 export function getSanityClient(useCdn = true) {
   return createClient({

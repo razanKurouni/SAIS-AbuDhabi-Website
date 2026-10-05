@@ -5,7 +5,7 @@ import { schemaTypes } from "./sanity/schemas";
 import { PAGE_GROUPS, PAGE_SPECS, pageDocumentId } from "./src/content/page-spec";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01";
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "abudhabi";
 
 export const SITE_SETTINGS_ID = "site-settings";
 

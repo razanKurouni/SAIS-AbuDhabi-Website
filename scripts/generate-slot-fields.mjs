@@ -30,7 +30,7 @@ loadEnvFile(".env.local");
 
 const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01",
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "abudhabi",
   apiVersion: "2025-02-19",
   token: process.env.SANITY_AUTH_TOKEN,
   useCdn: false,

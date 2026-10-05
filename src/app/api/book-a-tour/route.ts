@@ -7,7 +7,7 @@ export const runtime = "nodejs";
 
 const sanity = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01",
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "abudhabi",
   apiVersion: "2023-01-01",
   useCdn: false,
 });

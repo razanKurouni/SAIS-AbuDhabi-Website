@@ -67,7 +67,7 @@ loadEnvFile(".env.local");
 loadEnvFile(".env");
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01";
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "abudhabi";
 const token =
   process.env.SANITY_AUTH_TOKEN ||
   process.env.SANITY_API_TOKEN ||

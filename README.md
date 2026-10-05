@@ -4,7 +4,7 @@ Sharjah American International School — Umm Al Quwain Campus website, built wi
 
 The site started as a copy of the Sharjah campus site
 ([razanKurouni/SAIS_Sharjah_Website](https://github.com/razanKurouni/SAIS_Sharjah_Website)) and uses its own
-Sanity project (`zpdqig01`, dataset `production`).
+Sanity project (`zpdqig01`, dataset `abudhabi`).
 
 ## Stack
 
@@ -72,7 +72,7 @@ content is always shown.
 
 ```bash
 NEXT_PUBLIC_SANITY_PROJECT_ID=zpdqig01
-NEXT_PUBLIC_SANITY_DATASET=production
+NEXT_PUBLIC_SANITY_DATASET=abudhabi
 SANITY_AUTH_TOKEN=...   # write token, only needed for scripts
 ```
 
