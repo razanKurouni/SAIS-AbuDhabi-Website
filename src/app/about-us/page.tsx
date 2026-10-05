@@ -13,6 +13,7 @@ import { AcademicsElementaryAssessmentSection } from "@/components/sections/acad
 import { AboutPrincipalMessageSection } from "@/components/sections/about-principal-message-section";
 import { AboutStatementSection } from "@/components/sections/about-statement-section";
 import { AboutValuesSection } from "@/components/sections/about-values-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { blocksFromText } from "@/lib/content";
@@ -189,6 +190,40 @@ export default async function AboutUsPage() {
 
       <AboutGovernanceSection section={aboutGovernance} />
       <AboutInspectionSection section={aboutInspection} />
+      {aboutPage?.ourStory ? (
+        <div className="about-our-story">
+          <section className="about-intro-section about-our-story__lead" aria-labelledby="about-our-story-title">
+            <div className="about-intro-section__inner">
+              <Reveal threshold={0.16}>
+                {aboutPage.ourStory.heading?.eyebrow ? (
+                  <p className="about-our-story__eyebrow">{aboutPage.ourStory.heading.eyebrow}</p>
+                ) : null}
+                <h2 id="about-our-story-title" className="about-intro-section__lead">
+                  {aboutPage.ourStory.heading?.title}
+                </h2>
+              </Reveal>
+            </div>
+          </section>
+          <EditorialSplitSection
+            id="about-our-story-journey"
+            title="Our Story"
+            section={{ ...aboutPage.ourStory, heading: { ...aboutPage.ourStory.heading, title: "" } }}
+            fallbackImage={{}}
+            fallbackParagraphs={[]}
+            className="about-our-story__row"
+          />
+          {aboutPage.ourStoryFeature ? (
+            <EditorialSplitSection
+              id="about-our-story-today"
+              title={aboutPage.ourStoryFeature.heading?.title || "Our Story Today"}
+              section={aboutPage.ourStoryFeature}
+              fallbackImage={{}}
+              fallbackParagraphs={[]}
+              className="about-our-story__row"
+            />
+          ) : null}
+        </div>
+      ) : null}
       <AboutPrincipalMessageSection section={aboutPrincipalMessage} />
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />

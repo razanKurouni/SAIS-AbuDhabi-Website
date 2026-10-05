@@ -65,6 +65,12 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "theme": "teal"
     },
+    "ourStory": {
+      "imagePosition": "right"
+    },
+    "ourStoryFeature": {
+      "imagePosition": "left"
+    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "60%",

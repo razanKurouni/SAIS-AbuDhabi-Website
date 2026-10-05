@@ -269,6 +269,8 @@ export type AboutPageData = {
   branches?: AboutBranchesSection;
   governance?: ImageTextSection;
   inspection?: ImageTextSection;
+  ourStory?: ImageTextSection;
+  ourStoryFeature?: ImageTextSection;
 };
 
 export type AdmissionsPageData = {

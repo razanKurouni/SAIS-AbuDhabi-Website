@@ -116,17 +116,42 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   "about-page/intro": {
     "section": [
       "body",
+      "ctas",
+      "image"
+    ],
+    "heading": [],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "about-page/khdaSection": {
+    "section": [
       "heading",
       "image"
     ],
     "heading": [
+      "description",
       "title"
     ],
     "card": [],
     "cardEntry": [],
     "entry": []
   },
-  "about-page/khdaSection": {
+  "about-page/ourStory": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "eyebrow",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "about-page/ourStoryFeature": {
     "section": [
       "heading",
       "image"
@@ -1319,21 +1344,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "homepage-main/whyFeature": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "homepage-main/whySection": {
     "section": [
-      "ctas",
       "heading",
       "image"
     ],

@@ -137,6 +137,8 @@ export function adaptAbout(page: CmsPage): AboutPageData {
     intro: imageText(s.get("intro")),
     governance: imageText(s.get("governance")),
     inspection: imageText(s.get("inspection")),
+    ourStory: imageText(s.get("ourStory")),
+    ourStoryFeature: imageText(s.get("ourStoryFeature")),
     principalMessage: imageText(s.get("principalMessage")),
     boardGovernors: s.has("boardGovernors")
       ? { heading: heading(s.get("boardGovernors")), members: members(s.get("boardGovernors")) }

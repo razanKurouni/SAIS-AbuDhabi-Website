@@ -104,6 +104,8 @@ export const PAGE_SPECS: PageSpec[] = [
       it("intro", "Introduction"),
       it("governance", "Governance"),
       it("inspection", "Inspection"),
+      it("ourStory", "Our Story"),
+      it("ourStoryFeature", "Our Story – Feature"),
       it("principalMessage", "Principal's Message"),
       cards("boardGovernors", "Board of Governors", { items: "members" }),
       cards("statement", "Mission & Vision"),

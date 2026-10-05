@@ -17917,3 +17917,30 @@ a.school-policy-card__cover:hover {
     line-height: 1.62;
   }
 }
+
+/* About (Abu Dhabi): Our Story, a light band with a centred lead and two
+   editorial split rows. Only the band, the eyebrow and the row rhythm are
+   styled here; the lead and the rows reuse the intro and split styles. */
+.about-page .about-our-story {
+  background: #f4f6f8;
+}
+
+.about-page .about-our-story .about-intro-section {
+  background: transparent;
+  padding-bottom: 0;
+}
+
+.about-page .about-our-story__eyebrow {
+  margin: 0 0 22px;
+  color: var(--sais-accent);
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-page .about-our-story__row.editorial-split-section {
+  padding: clamp(40px, 4.5vw, 64px) 0;
+}
+
+.about-page .about-our-story__row + .about-our-story__row {
+  padding-top: 0;
+}
