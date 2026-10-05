@@ -22,8 +22,8 @@ function pageItem(S: StructureBuilder, specId: string, title: string): ListItemB
 }
 
 export default defineConfig({
-  name: "saisUaq",
-  title: "SAIS - UAQ",
+  name: "saisAbuDhabi",
+  title: "SAIS - Abu Dhabi",
   projectId,
   dataset,
   basePath: "/studio",
