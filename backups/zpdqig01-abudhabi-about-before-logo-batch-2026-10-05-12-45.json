@@ -1,0 +1,1220 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "about-page",
+    "_rev": "716lLGM4clTjEsWT4osbZo",
+    "_system": {
+      "base": {
+        "id": "about-page",
+        "rev": "FvU2QaZpIysi0O9kMvR1Ka"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T12:44:36Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "eyebrow": "About Us",
+        "title": "About Sharjah American International School - Abu Dhabi"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School - Abu Dhabi campus building",
+        "asset": {
+          "_ref": "image-554215c25498eee86409aa6fbea62f4253566275-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School - Abu Dhabi campus building",
+        "asset": {
+          "_ref": "image-554215c25498eee86409aa6fbea62f4253566275-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/about-us",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "imageTextSection",
+        "body": [
+          {
+            "_key": "tuynxb9m",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "o00htqb7",
+                "_type": "span",
+                "marks": [],
+                "text": "SAIS-Abu Dhabi opened its doors in 2019, launching a purposeful and transformative educational mission. From day one, the school has been deeply committed to fostering academic excellence, innovation, and global citizenship in every student."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "604f60164512",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "d04fa6bc2e54",
+                "_type": "span",
+                "marks": [],
+                "text": "Our journey is inspired by the visionary leadership of Her Excellency Dr. Aysha Al Sayyar and Dr. Nawaf Fawaz, who established the first SAIS campus in Sharjah in 1997, followed by campuses in Dubai (2005) and Umm Al Quwain (2012). Their forward-thinking mission was and remains clear to nurture a generation that is academically strong, morally grounded, and future ready."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "ctas": [
+          {
+            "_key": "ba1f58235d8b",
+            "_type": "cta",
+            "href": "#",
+            "label": "Meet our Team",
+            "openInNewTab": false
+          }
+        ],
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi reception lobby",
+          "asset": {
+            "_ref": "image-3f5c93a35cd51b9bee2b0a704d350fe776f5380e-1528x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "governance",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "m6xmixm7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "rfuotny2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We have cultivated a culture of achievement. In just a few short years, we earned a “Very Good” rating from ADEK, with “Outstanding” recognition in key areas such as student responsibility and innovation skills. In 2024, we proudly received ADEK’s Outstanding MAP Progress Award, a testament to the dedication and excellence of our students, educators, and leadership team."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d1d59ee9541c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b5ab1c4e4beb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our success is driven by a collaborative community, committed senior and middle leaders, passionate teachers, and actively engaged parents. Together, we work to fulfill our school’s mission to empower every student to reach their full potential."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6e044eb316f2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e476009ebb4a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Governance Board"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi teacher guiding two students in class",
+          "asset": {
+            "_ref": "image-19a9ca15dd4d15257dd9ddc1892e320a8a19b2ce-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "governance"
+      },
+      {
+        "_key": "inspection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hf6rf8yv",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bdhtqj07",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our staff communicate with stakeholders through various channels to ensure students' well-being and academic success. Teachers create an inclusive environment by planning lessons that meet the needs of all learners, including students of determination and those who are gifted and talented. Student-led national and international events are regularly held at the school, helping students stay actively engaged with the wider community."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "m89uiv5v",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a3phqzjk",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS - Abu Dhabi, we are committed to preparing our students to become lifelong learners who are curious, resilient, and driven to grow. We focus on developing strong character values such as integrity, respect, and responsibility. Through academic and personal development, we encourage our students to contribute positively to their community and make a meaningful difference in the world around them."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A School of Possibilities"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students ",
+          "asset": {
+            "_ref": "image-04bd6d7d8428223d5e1875a2ab7fd06e3a7d7d0c-1560x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "inspection"
+      },
+      {
+        "_key": "ourStory",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "about-our-story-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-our-story-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "This journey is rooted in the visionary leadership of Her Excellency Dr. Aysha Al Sayar and Dr. Nawaf Fawaz, who established the first SAIS campus in Sharjah in 1997, followed by the Dubai campus in 2005 and the Umm Al Quwain campus in 2012. Their forward-thinking vision was clear: to build a generation that is academically strong, morally grounded, and fully prepared for the future."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "about-our-story-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-our-story-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS - Abu Dhabi, we've cultivated a culture of achievement. In a short span of time, we have made remarkable progress, culminating in earning a (Very Good) rating from ADEK, with (Outstanding) recognition in key areas such as students' responsibility and innovation skills. In 2024, we were honored to receive from ADEK the Outstanding MAP Progress Award, a reflection of the tireless efforts of our students, teachers, and leadership team."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Our Story",
+          "title": "The journey of SAIS - Abu Dhabi began in 2019, marking the start of a purposeful and transformative educational mission. From its first day, the school has been deeply committed to fostering excellence, innovation, and a sense of global citizenship among its students."
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students painting in the art room",
+          "asset": {
+            "_ref": "image-109c0016c2c5833e8717e3c5cfd48ab24a0a9594-1560x1268-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "ourStory"
+      },
+      {
+        "_key": "ourStoryFeature",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "about-our-story-feature-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-our-story-feature-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Every step forward has been powered by our dedicated senior and middle leaders, our passionate teaching staff, and our engaged and supportive parent community. Together, we remain committed to realizing our school's vision and mission, ensuring that every student is empowered to achieve their full potential."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "about-our-story-feature-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-our-story-feature-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "From environmental sustainability projects to innovative STEM and Makerspace labs, from wellbeing programs to vibrant sports and extracurricular offerings, every element of our school is designed to nurture future-ready learners."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "about-our-story-feature-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-our-story-feature-2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SAIS - Abu Dhabi is not just a school, it is a thriving learning community, a hub of innovation, and a place where success is not only achieved but sustained."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Every Step Forward"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students celebrating at the school's Oscars night",
+          "asset": {
+            "_ref": "image-e82ef23477103c9f39fd13953703b09cd22343c1-1560x1268-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "ourStoryFeature"
+      },
+      {
+        "_key": "principalMessage",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "9t67s93x",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "xuvps4y9",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dear valued students, dedicated staff, and supportive parents,"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "94d91fc6f6d6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0b967ea9e31b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "It is with great pride that I welcome you to SAIS-Abu Dhabi, a school where we nurture an enriching, inclusive environment, celebrating the uniqueness of every child and fostering a deep sense of belonging.\nAt SAIS, our philosophy goes beyond academics. We believe in building character and equipping students with practical life skills. Empowering future leaders who are ready to face challenges and excel in all areas of life is at the heart of our mission. This commitment to holistic development forms the foundation of our school’s vision."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "37cc028324d8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b84b2c4b61b0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We hold ourselves to the highest standards, expecting excellence from every member of our community. Guided by our mission and vision, we are committed to preparing students to become responsible, confident individuals. Throughout their educational journey, students are continuously encouraged to act as role models, demonstrating integrity, leadership, and respect in all aspects of school life."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "22d27a41b1c0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3ecea5f38fdb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Leadership grows through opportunity. We provide a safe, nurturing environment where students are taught to respect, value others, and engage as responsible citizens. We are proud to share that ADEK has rated us Outstanding in students’ social responsibility and innovation skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d67aceb81734",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b45fdd5b8878",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "From Pre-KG to Grade 12, we offer a high-quality American curriculum enriched with innovation and real-world application. Our programs include STEM, Artificial Intelligence (AI), Project-Based Learning (PBL), and a strong high school programs. Students benefit from a wide range of electives such as Human Anatomy, Organic Chemistry, Design & Technology, Business Studies, Programming, and AP College Board courses. As a certified SAT, AP, and IELTS centre, we ensure that students are prepared for various university pathways, the General, General+, and Advanced tracks."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ad092ed1056b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bacb312c013e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We also take great pride in preserving and promoting our heritage subjects, enabling students to develop a deep appreciation of local culture, Arabic language, and values.\nOur dedicated teachers are committed to nurturing each student’s growth academically, socially, and emotionally. We strive not only to help students meet high standards but to exceed their own expectations. Parents are key partners in this journey, and we deeply value their involvement and voice through committees like the Parent Advisory Council and National Identity Committee."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e241b33a0676",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5ec0e72c5487",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Beyond the classroom, we offer a rich After School Activities (ASA) program and a variety of extracurricular opportunities, including MUN (Model United Nations), public speaking, arts conferences, and more. Our students actively contribute to the Abu Dhabi community by completing internal and external volunteer service hours, strengthening their leadership skills and engagement.\nWe believe in education that makes a tangible, positive difference in the lives of our students and equips them with the skills they need for lifelong sustainable success.\nIt would be an honor to welcome you to our SAIS community. Together, let us continue building a future rooted in excellence, compassion, and ambition."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "276bedbd8150",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cc57bf6a883e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Sincerely,\nPrincipal Ban Al Duri\n"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Message from Our Principal"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Ms. Carole Sarkis Abboud, Principal of SAIS - Abu Dhabi",
+          "asset": {
+            "_ref": "image-48e0ea39c79215107d32381cb70192e6729cb8ab-1474x2106-png",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "image",
+          "alt": "Ms. Carole Sarkis Abboud, Principal of SAIS - Abu Dhabi",
+          "asset": {
+            "_ref": "image-48e0ea39c79215107d32381cb70192e6729cb8ab-1474x2106-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "principalMessage"
+      },
+      {
+        "_key": "boardGovernors",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "f0579c80613a",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Dr. Aysha AISayyar",
+              "asset": {
+                "_ref": "image-48758a18b361121806d1d3e82b302ac6ab46783c-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "Founder and Owner",
+            "title": "Dr. Aysha AISayyar"
+          },
+          {
+            "_key": "8172a5d10c07",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Dr. Nawaf Fawaz",
+              "asset": {
+                "_ref": "image-f8309c1915074776d405a0c3c84df4dfdb509416-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "Founder and Owner",
+            "title": "Dr. Nawaf Fawaz"
+          },
+          {
+            "_key": "50401463d273",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Fatima Fawwaz ",
+              "asset": {
+                "_ref": "image-19d33e0de617bc00f230933f99d49669e3f3e438-1010x958-jpg",
+                "_type": "reference"
+              }
+            },
+            "subtitle": "COO",
+            "title": "Ms. Fatima Fawwaz "
+          }
+        ],
+        "slot": "boardGovernors"
+      },
+      {
+        "_key": "statement",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "vision",
+            "_type": "card",
+            "description": "To be a leading American curriculum school group, recognized for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE’s identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi principal walking with students in a school corridor",
+              "asset": {
+                "_ref": "image-27bcc69e74f41c093e65cb50291d202deeb2c387-1552x814-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Vision"
+          },
+          {
+            "_key": "mission",
+            "_type": "card",
+            "description": "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi teacher helping two students in class",
+              "asset": {
+                "_ref": "image-c9f7dcd51c98b6af83d27b51b711e4bdc1c17cd3-1552x814-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Mission"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Our Statement"
+        },
+        "slot": "statement"
+      },
+      {
+        "_key": "values",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "values-character",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-character-integrity",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Integrity icon",
+                  "asset": {
+                    "_ref": "image-a900a5864132c85c6b88a22887885ea3e7396a6b-127x142-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Integrity",
+                "text": "We act with honesty, take responsibility for our actions, and hold ourselves to high standards."
+              },
+              {
+                "_key": "values-character-respect",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Respect and equity icon",
+                  "asset": {
+                    "_ref": "image-25cf142664354cf490ad9d4149f859ba016fc6f8-113x97-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Respect and Equity",
+                "text": "By treating every individual with fairness, dignity, and consideration, we create an inclusive environment where everyone feels they belong and can succeed."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi teacher supporting a student with a tablet in class",
+              "asset": {
+                "_ref": "image-0e9c2cb7f916edaa663579c011d25f3ed5f3d100-1678x1260-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 1: Character"
+          },
+          {
+            "_key": "values-community",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-community-collaboration",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Collaboration icon",
+                  "asset": {
+                    "_ref": "image-fb17e62480d1cda18d032355a7b5fe7be7d595ce-161x162-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Collaboration",
+                "text": "We work together with purpose, valuing the synergy between different cultures and perspectives, and building strong relationships across our school community."
+              },
+              {
+                "_key": "values-community-wellbeing",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Wellbeing icon",
+                  "asset": {
+                    "_ref": "image-6b0f3f40b0d9f01ef2d223489a9068a269ee62f8-105x90-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Wellbeing",
+                "text": "We prioritize the social, emotional, and physical wellbeing of our community, creating a safe and supportive environment where individuals can grow with confidence."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students smiling together on the playground",
+              "asset": {
+                "_ref": "image-ccc1925961d3443007740b79375dad957ef008f0-2220x1260-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 2: Community"
+          },
+          {
+            "_key": "values-growth",
+            "_type": "card",
+            "entries": [
+              {
+                "_key": "values-growth-innovation",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Innovation icon",
+                  "asset": {
+                    "_ref": "image-4c541111408154ff1aa7d229d9fca1a79d3771be-137x153-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Innovation",
+                "text": "We embrace curiosity, creativity, and forward thinking, using technology and new ideas to enrich learning and prepare students for a changing world."
+              },
+              {
+                "_key": "values-growth-lifelong-learning",
+                "_type": "entry",
+                "icon": {
+                  "_type": "image",
+                  "alt": "Lifelong learning icon",
+                  "asset": {
+                    "_ref": "image-58f99ac76ddef1c63d208d08d09833dd65a49f29-125x89-png",
+                    "_type": "reference"
+                  }
+                },
+                "label": "Lifelong Learning",
+                "text": "We encourage curiosity, adaptability, and continuous growth, empowering students to take ownership of their learning and future."
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working in a science lab",
+              "asset": {
+                "_ref": "image-b922099be16fba5c9115083782b4869030f7e37e-1970x1260-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Pillar 3: Growth"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "a732f50892e5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4e3f2efdb5e7",
+                  "_type": "span",
+                  "text": "The character we build, the way we work together, and how we continue to grow."
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "1c9787ba2e58",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fa8490cfa4df",
+                  "_type": "span",
+                  "text": "We express our values through three connected pillars:"
+                }
+              ],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Values"
+        },
+        "slot": "values"
+      },
+      {
+        "_key": "accreditations",
+        "_type": "cardsSection",
+        "body": [
+          {
+            "_key": "about-accred-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "about-accred-0-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Our school is proud to be supported by a distinguished network of internationally recognized accreditations, certifications, and educational partnerships that reflect our commitment to academic excellence, innovation, student wellbeing, and continuous professional growth."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "about-accred-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "about-accred-1-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Through affiliations with respected organizations and platforms such as Cognia, College Board, NCDA, Pearson Education, Apple Teacher, STEM.org, Microsoft Certified Educator, ABRSM, and other leading educational providers, we ensure that our students benefit from high-quality learning opportunities, globally aligned standards, advanced academic pathways, and a future-focused educational experience."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "about-accred-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "about-accred-2-span",
+                "_type": "span",
+                "marks": [],
+                "text": "These partnerships strengthen our curriculum, enrich teaching and learning practices, and reinforce our mission to provide a well-rounded, internationally benchmarked education for every learner."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "cards": [
+          {
+            "_key": "cognia",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Cognia Accredited badge",
+              "asset": {
+                "_ref": "image-88f6dd810bc7dba78405a145a5ee272a127ffa75-336x306-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Cognia Accredited"
+          },
+          {
+            "_key": "college-board",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "College Board AP / SAT logo",
+              "asset": {
+                "_ref": "image-fd96310c1e86730a37ded4e8bf4b1a06ab631c8a-284x140-png",
+                "_type": "reference"
+              }
+            },
+            "title": "College Board AP / SAT"
+          },
+          {
+            "_key": "nearpod",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Nearpod Certified Educator badge",
+              "asset": {
+                "_ref": "image-910ef5250e169565002b0d14dff96651cb39732a-216x216-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Nearpod Certified Educator"
+          },
+          {
+            "_key": "ixl-learning",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "IXL Learning logo",
+              "asset": {
+                "_ref": "image-f99f75efbcd04183f12f6002579171f462ae8454-284x144-png",
+                "_type": "reference"
+              }
+            },
+            "title": "IXL Learning"
+          },
+          {
+            "_key": "safeguarding",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Safeguarding Initiative during COVID-19 badge",
+              "asset": {
+                "_ref": "image-620ffd5f15fd31f0618d585666d243d981f99af6-284x281-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Safeguarding Initiative"
+          },
+          {
+            "_key": "follett",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Follett logo",
+              "asset": {
+                "_ref": "image-755faa06bec63dda789ce98f277691ff72b80b7b-284x82-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Follett"
+          },
+          {
+            "_key": "pearson-education",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Pearson Education logo",
+              "asset": {
+                "_ref": "image-4fd4f3da9b846c01eedbfddbcba3d9b0875d0089-248x146-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Pearson Education"
+          },
+          {
+            "_key": "schoolsmaster",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "SchoolsMaster – Helping Students Find Their Purpose logo",
+              "asset": {
+                "_ref": "image-32e30885b0881a1e0da89dd561beb6e777a10658-280x124-png",
+                "_type": "reference"
+              }
+            },
+            "title": "SchoolsMaster"
+          },
+          {
+            "_key": "abrsm",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "ABRSM logo",
+              "asset": {
+                "_ref": "image-bdc43af789ab63e561d3c955865a69718462f632-275x280-png",
+                "_type": "reference"
+              }
+            },
+            "title": "ABRSM"
+          },
+          {
+            "_key": "islamic-treasures",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Islamic Treasures logo",
+              "asset": {
+                "_ref": "image-d2923e8effc18448debb32f9cd28b7f232867a6b-248x248-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Islamic Treasures"
+          },
+          {
+            "_key": "alef",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Alef Education logo",
+              "asset": {
+                "_ref": "image-a7df0c9eb7be5a80a72d45145c9742899a4ab05d-248x128-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Alef Education"
+          },
+          {
+            "_key": "savvas-realize",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Savvas Realize logo",
+              "asset": {
+                "_ref": "image-626bf3e34977eb1e4619851c27a8c9221a924d0a-248x65-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Savvas Realize"
+          },
+          {
+            "_key": "raz-kids",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Raz-Kids logo",
+              "asset": {
+                "_ref": "image-0ff2fe332b583f3d317a231014722a3ecb976690-248x87-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Raz-Kids"
+          },
+          {
+            "_key": "anti-bullying",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Anti-Bullying Alliance logo",
+              "asset": {
+                "_ref": "image-5a05e56c4786e9a591304034981aeb712cdabad4-284x49-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Anti-Bullying Alliance"
+          },
+          {
+            "_key": "microsoft-mce",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Microsoft Certified Educator badge",
+              "asset": {
+                "_ref": "image-cf08fc9951f7c7a7825687027995f7e9a4a2cad6-248x248-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Microsoft Certified Educator"
+          },
+          {
+            "_key": "sam-labs",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "SAM Labs logo",
+              "asset": {
+                "_ref": "image-a775a60a8c478bee1ab59e20f4672037fb4aa5e9-284x180-png",
+                "_type": "reference"
+              }
+            },
+            "title": "SAM Labs"
+          },
+          {
+            "_key": "mcgraw-hill",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "McGraw Hill logo",
+              "asset": {
+                "_ref": "image-b308e7e6ed4cdeb022ae47c1a03261d7e3ae1cfb-180x180-png",
+                "_type": "reference"
+              }
+            },
+            "title": "McGraw Hill"
+          },
+          {
+            "_key": "bravobravo",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "BravoBravo logo",
+              "asset": {
+                "_ref": "image-b060fdd5a148272ea3c644781e6ce2cd4ff1fffc-248x205-png",
+                "_type": "reference"
+              }
+            },
+            "title": "BravoBravo"
+          },
+          {
+            "_key": "stem-org",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "STEM.org Certified Educational Instructor badge",
+              "asset": {
+                "_ref": "image-b5c0a56188f9ecb312242f53b9ed9c004e1d3bc4-212x212-png",
+                "_type": "reference"
+              }
+            },
+            "title": "STEM.org Certified Educational Instructor"
+          },
+          {
+            "_key": "pasco",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "PASCO logo",
+              "asset": {
+                "_ref": "image-7b661280bb98b78e0b51929b96be64d19ccb87a8-284x79-png",
+                "_type": "reference"
+              }
+            },
+            "title": "PASCO"
+          },
+          {
+            "_key": "pocketlab",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "PocketLab – Science. Everywhere. logo",
+              "asset": {
+                "_ref": "image-faf78bf45e3abf4f8ec9085a890cb5ddbc04f3fa-316x81-png",
+                "_type": "reference"
+              }
+            },
+            "title": "PocketLab"
+          },
+          {
+            "_key": "edmentum",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Edmentum logo",
+              "asset": {
+                "_ref": "image-1bbb2f17d839ace579e4f3858761ae44195c5f5f-284x43-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Edmentum"
+          },
+          {
+            "_key": "ncda",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "NCDA – National Career Development Association logo",
+              "asset": {
+                "_ref": "image-5fcdcc87f6eb078c42d05670f61553775c5972bc-320x51-png",
+                "_type": "reference"
+              }
+            },
+            "title": "National Career Development Association (NCDA)"
+          },
+          {
+            "_key": "achieve3000",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Achieve3000 logo",
+              "asset": {
+                "_ref": "image-788cbbe752a290aa8f82e0d2acb1148ad9bc6b7c-284x100-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Achieve3000"
+          },
+          {
+            "_key": "cengage",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Cengage logo",
+              "asset": {
+                "_ref": "image-cc804703a5bd293455f5639f40ca8f6f8bbbd34c-284x64-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Cengage"
+          },
+          {
+            "_key": "apple-teacher",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "Apple Teacher logo",
+              "asset": {
+                "_ref": "image-81dd0914dde389051ab9ae36c1ad1286b80e6da8-284x64-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Apple Teacher"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Accreditations"
+        },
+        "slot": "accreditations"
+      },
+      {
+        "_key": "adekSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "about-adek-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "about-adek-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Abu Dhabi Department of Education and Knowledge (ADEK) is the regulatory authority responsible for overseeing and enhancing the quality of education across schools in Abu Dhabi. Through its comprehensive inspection framework, ADEK evaluates schools against key standards including student achievement, teaching and assessment, curriculum quality, student wellbeing, and leadership. We are proud to share that our school has been awarded a Very Good Rating in the 2024–2025 ADEK Irtiqaa inspection, reflecting our strong commitment to academic excellence, high-quality teaching and learning, student care, and continuous school improvement."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Department of Education and Knowledge (ADEK)"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students presenting a LEGO windmill they built",
+          "asset": {
+            "_ref": "image-658132b49d75ec5c584aa4c3c4c01b0f723d0d6b-1528x1312-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "adekSection"
+      },
+      {
+        "_key": "branches",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "about-branch-dubai",
+            "_type": "card",
+            "cta": {
+              "_key": "about-branch-dubai-cta",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "SAIS Dubai delivers a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Dubai campus building",
+              "asset": {
+                "_ref": "image-4ba699df6a436ed5f5dbf4a8d578edac53e597e0-1012x612-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "2005",
+            "subtitle": "Al Warqa 1, Dubai UAE",
+            "title": "SAIS Dubai"
+          },
+          {
+            "_key": "about-branch-sharjah-campus",
+            "_type": "card",
+            "cta": {
+              "_key": "about-branch-sharjah-campus-cta",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "SAIS Sharjah offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Sharjah campus building",
+              "asset": {
+                "_ref": "image-7a3e22286a53b34a191d6e92742d922752ffd496-1014x612-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "1997",
+            "subtitle": "Al Ramaqiya Area, Sharjah, UAE",
+            "title": "SAIS Sharjah"
+          },
+          {
+            "_key": "about-branch-umm-al-quwain",
+            "_type": "card",
+            "cta": {
+              "_key": "about-branch-umm-al-quwain-cta",
+              "_type": "cta",
+              "href": "#",
+              "label": "See More"
+            },
+            "description": "SAIS Umm Al Quwain fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS Umm Al Quwain campus building",
+              "asset": {
+                "_ref": "image-31434cb8972bc2ce28b61b787724eb56a699719c-1012x612-png",
+                "_type": "reference"
+              }
+            },
+            "label": "2014",
+            "subtitle": "Al Salmah - Al Salamah 2",
+            "title": "SAIS Umm Al Quwain"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Our Branches"
+        },
+        "slot": "branches"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "About Sharjah American International School",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School Campus",
+        "asset": {
+          "_ref": "image-554215c25498eee86409aa6fbea62f4253566275-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "About SAIS | SAIS - Abu Dhabi "
+    },
+    "title": "About SAIS"
+  }
+]
