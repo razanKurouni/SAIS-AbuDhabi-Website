@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./studio.css";
 
 export const metadata: Metadata = {
-  title: "Content Studio | SAIS - UAQ",
+  title: "Content Studio | SAIS - Abu Dhabi",
   robots: { index: false, follow: false },
 };
 
