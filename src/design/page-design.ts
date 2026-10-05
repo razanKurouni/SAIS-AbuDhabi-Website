@@ -16,17 +16,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "accreditations": {
       "backgroundColor": "#ffffff",
       "lineColor": "#216B97",
-      "logos": [
-        {
-          "width": "120px"
-        },
-        {
-          "width": "150px"
-        },
-        {
-          "width": "240px"
-        }
-      ],
       "textColor": "#6F7378",
       "titleColor": "#00A5B2"
     },
