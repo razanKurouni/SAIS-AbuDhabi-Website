@@ -14,15 +14,15 @@ import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Our Campus | SAIS - UAQ",
-  description: "Explore SAIS - UAQ's modern campus, facilities, learning spaces, and sports environments.",
+  title: "Our Campus | SAIS - Abu Dhabi",
+  description: "Explore SAIS - Abu Dhabi's modern campus, facilities, learning spaces, and sports environments.",
 };
 
 const fallbackHero = {
   title: "Our\nCampus",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ campus",
+    alt: "SAIS - Abu Dhabi campus",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -69,7 +69,7 @@ const fallbackElementaryLibrary: ImageTextSection = {
   },
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - UAQ elementary students reading together",
+    alt: "SAIS - Abu Dhabi elementary students reading together",
   },
   imagePosition: "right",
   titleColor: "#00A5B2",

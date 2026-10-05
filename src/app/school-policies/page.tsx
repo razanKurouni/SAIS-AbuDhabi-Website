@@ -13,15 +13,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackMetadata: Metadata = {
-  title: "School Policies | SAIS - UAQ",
-  description: "Review SAIS - UAQ school policies and download policy documents.",
+  title: "School Policies | SAIS - Abu Dhabi",
+  description: "Review SAIS - Abu Dhabi school policies and download policy documents.",
 };
 
 const fallbackHero = {
   title: "School\nPolicies",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ school policies",
+    alt: "SAIS - Abu Dhabi school policies",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -53,7 +53,7 @@ const fallbackIntro = {
 
 const fallbackCover: SanityImage = {
   url: "/contact-campus-building.jpg",
-  alt: "SAIS - UAQ policy document",
+  alt: "SAIS - Abu Dhabi policy document",
 };
 
 const fallbackPolicies: SchoolPolicyDocument[] = [

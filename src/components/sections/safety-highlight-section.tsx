@@ -59,7 +59,7 @@ export function SafetyHighlightSection({
           <Reveal className="safety-highlight__media" threshold={0.12}>
             <Image
               src={image.url}
-              alt={image.alt || title || "SAIS - UAQ students"}
+              alt={image.alt || title || "SAIS - Abu Dhabi students"}
               fill
               sizes="(max-width: 767px) calc(100vw - 32px), 85vw"
               quality={84}

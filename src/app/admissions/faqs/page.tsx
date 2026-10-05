@@ -7,8 +7,8 @@ import { getAdmissionsFaqPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Frequently Asked Questions | SAIS - UAQ",
-  description: "Find answers to frequently asked questions about SAIS - UAQ.",
+  title: "Frequently Asked Questions | SAIS - Abu Dhabi",
+  description: "Find answers to frequently asked questions about SAIS - Abu Dhabi.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

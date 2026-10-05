@@ -12,15 +12,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { getFoodServicesNutritionPage, getHomepage } from "@/lib/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Food Services & Nutrition | SAIS - UAQ",
-  description: "Learn about food services and nutrition at SAIS - UAQ.",
+  title: "Food Services & Nutrition | SAIS - Abu Dhabi",
+  description: "Learn about food services and nutrition at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Food\nNutrition",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ food services and nutrition",
+    alt: "SAIS - Abu Dhabi food services and nutrition",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",

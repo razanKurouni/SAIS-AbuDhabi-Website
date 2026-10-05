@@ -20,7 +20,7 @@ import { LearningPhasesSection } from "@/components/sections/learning-phases-sec
 import { TourSection } from "@/components/sections/tour-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Elementary | Academics | SAIS - UAQ",
+  title: "Elementary | Academics | SAIS - Abu Dhabi",
   description: "Explore Elementary academics at Sharjah American International School.",
 };
 
@@ -98,7 +98,7 @@ const fallbackHero = {
   title: "Elementary",
   image: {
     url: "/academics-elementary-hero.png",
-    alt: "SAIS - UAQ elementary students raising their hands in class",
+    alt: "SAIS - Abu Dhabi elementary students raising their hands in class",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "var(--sais-accent)",
@@ -139,7 +139,7 @@ const fallbackCurriculumSection: Required<AcademicsKindergartenFeatureSection> =
   },
   image: {
     url: "/academics-elementary-curriculum.png",
-    alt: "SAIS - UAQ elementary students playing chess",
+    alt: "SAIS - Abu Dhabi elementary students playing chess",
   },
   imageSide: "right",
   imagePosition: "center",
@@ -156,7 +156,7 @@ const fallbackAssessmentSection: Required<AcademicsKindergartenFeatureSection> =
     description: [
       paragraph(
         "elementary-assessment-primary",
-        "In Grades 1 and 2, SAIS - UAQ is implementing an ongoing assessment model designed to provide a comprehensive and holistic view of each student's progress. This shift moves away from solely relying on periodic tests and instead focuses on continuous evaluation through observations, classwork, homework, projects, discussions, and quizzes. This approach enables teachers to better understand and support students' development throughout the year in a relaxed and stress-free environment. While multiple formative and summative assessments will take place across subjects, parents will not be informed prior to their administration, to ensure assessments reflect authentic learning and reduce performance anxiety. However, in response to parent feedback and to support home preparation, schedules will be shared in advance for Arabic and Islamic Studies assessments only."
+        "In Grades 1 and 2, SAIS - Abu Dhabi is implementing an ongoing assessment model designed to provide a comprehensive and holistic view of each student's progress. This shift moves away from solely relying on periodic tests and instead focuses on continuous evaluation through observations, classwork, homework, projects, discussions, and quizzes. This approach enables teachers to better understand and support students' development throughout the year in a relaxed and stress-free environment. While multiple formative and summative assessments will take place across subjects, parents will not be informed prior to their administration, to ensure assessments reflect authentic learning and reduce performance anxiety. However, in response to parent feedback and to support home preparation, schedules will be shared in advance for Arabic and Islamic Studies assessments only."
       ),
       paragraph(
         "elementary-assessment-scale",
@@ -166,7 +166,7 @@ const fallbackAssessmentSection: Required<AcademicsKindergartenFeatureSection> =
   },
   image: {
     url: "/academics-elementary-assessment.png",
-    alt: "SAIS - UAQ elementary student writing in class",
+    alt: "SAIS - Abu Dhabi elementary student writing in class",
   },
   imageSide: "right",
   imagePosition: "center",

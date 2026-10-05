@@ -9,15 +9,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { getHomepage, getOurCommunityPage } from "@/lib/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Our Community | SAIS - UAQ",
-  description: "Learn about the SAIS - UAQ community, campus, wellbeing, inclusion, services, and school support.",
+  title: "Our Community | SAIS - Abu Dhabi",
+  description: "Learn about the SAIS - Abu Dhabi community, campus, wellbeing, inclusion, services, and school support.",
 };
 
 const fallbackHero = {
   title: "Our\nCommunity",
   image: {
     url: "/about-statement-mission.jpg",
-    alt: "SAIS - UAQ principal speaking with students",
+    alt: "SAIS - Abu Dhabi principal speaking with students",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",

@@ -7,7 +7,7 @@ const defaults: Required<MograHubAppBandData> = {
   description:
     "Attendance, timetable, homework and assignments, exam results and report cards, fee statements and school announcements — all in one app, for parents and students.",
   schoolCodeLabel: "School Code",
-  schoolCode: "SAISU",
+  schoolCode: "SAISA",
   androidUrl: "https://play.google.com/store/apps/details?id=com.mogra.hub&hl=en",
   appleUrl: "https://apps.apple.com/ae/app/mograhub/id6736962827",
 };

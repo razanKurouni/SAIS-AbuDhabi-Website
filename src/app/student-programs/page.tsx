@@ -16,15 +16,15 @@ import type { InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import type { InnerNavigation } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Programs | SAIS - UAQ",
-  description: "Explore Student Programs in leadership, engagement and personal growth at SAIS - UAQ.",
+  title: "Student Programs | SAIS - Abu Dhabi",
+  description: "Explore Student Programs in leadership, engagement and personal growth at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Student Programs",
   image: {
     url: "/sais-hero-students.jpg",
-    alt: "SAIS - UAQ students working together",
+    alt: "SAIS - Abu Dhabi students working together",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",

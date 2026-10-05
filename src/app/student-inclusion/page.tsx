@@ -11,15 +11,15 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Inclusion | SAIS - UAQ",
-  description: "Learn about student inclusion and support programs at SAIS - UAQ.",
+  title: "Student Inclusion | SAIS - Abu Dhabi",
+  description: "Learn about student inclusion and support programs at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Student\nInclusion",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ students",
+    alt: "SAIS - Abu Dhabi students",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -49,7 +49,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/sais-building-futures.png",
-    alt: "SAIS - UAQ student reading outdoors",
+    alt: "SAIS - Abu Dhabi student reading outdoors",
   },
   imagePosition: "left",
   theme: "teal",
@@ -75,7 +75,7 @@ const fallbackApproachSection: ImageTextSection = {
   },
   image: {
     url: "/sais-building-futures.png",
-    alt: "SAIS - UAQ students learning together",
+    alt: "SAIS - Abu Dhabi students learning together",
   },
   imagePosition: "right",
   theme: "teal",
@@ -151,7 +151,7 @@ const fallbackWhoWeSupportSection: ImageTextSection = {
   },
   image: {
     url: "/images/academics-culture.jpg",
-    alt: "SAIS - UAQ teacher leading an inclusive lesson",
+    alt: "SAIS - Abu Dhabi teacher leading an inclusive lesson",
   },
   imagePosition: "left",
   theme: "teal",

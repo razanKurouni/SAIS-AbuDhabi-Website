@@ -34,14 +34,14 @@ const fallbackCards: AboutBranchCard[] = [
     buttonColor: "#27779d",
   },
   {
-    name: "SAIS - UAQ",
+    name: "SAIS - Abu Dhabi",
     established: "1997",
     location: "Al Ramaqiya Area, Sharjah, UAE",
     description:
-      "SAIS - UAQ offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+      "SAIS - Abu Dhabi offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
     image: {
       url: "/about-branch-sharjah.png",
-      alt: "SAIS - UAQ campus building",
+      alt: "SAIS - Abu Dhabi campus building",
     },
     cta: {
       label: "See More",
@@ -51,14 +51,14 @@ const fallbackCards: AboutBranchCard[] = [
     buttonColor: "#00a5b2",
   },
   {
-    name: "SAIS Umm Al Quwain",
+    name: "SAIS Abu Dhabi",
     established: "2014",
-    location: "Umm Al Quwain City, UAE",
+    location: "Abu Dhabi, UAE",
     description:
-      "SAIS Umm Al Quwain fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
+      "SAIS Abu Dhabi fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
     image: {
       url: "/about-branch-umm-al-quwain.png",
-      alt: "SAIS Umm Al Quwain campus building",
+      alt: "SAIS Abu Dhabi campus building",
     },
     cta: {
       label: "See More",

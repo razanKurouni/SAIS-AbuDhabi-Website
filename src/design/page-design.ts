@@ -1,7 +1,7 @@
 /**
  * GENERATED DESIGN TOKENS — edit freely, but keep the shape.
  *
- * These values were exported from the Sharjah site's CMS when the UAQ site was
+ * These values were exported from the Sharjah site's CMS when the Abu Dhabi site was
  * set up. They are applied on top of the Sanity content by page id, so the
  * design of every section lives in code and editors never see color fields.
  *

@@ -11,7 +11,7 @@ import { getAdmissionsPage, getHomepage } from "@/lib/sanity";
 import styles from "./admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Admissions Introduction | SAIS - UAQ",
+  title: "Admissions Introduction | SAIS - Abu Dhabi",
   description: "Explore the admissions process at Sharjah American International School.",
 };
 

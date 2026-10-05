@@ -6,9 +6,9 @@ type TourIntroSectionProps = {
   section?: HomepageData["tour"];
 };
 
-const BRAND = "SAIS - UAQ";
+const BRAND = "SAIS - Abu Dhabi";
 
-/** Wraps each "SAIS - UAQ" so a page can keep the name on one line. */
+/** Wraps each "SAIS - Abu Dhabi" so a page can keep the name on one line. */
 function withBrandKeptTogether(text: string) {
   const parts = text.split(BRAND);
   if (parts.length === 1) return text;

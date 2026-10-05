@@ -8,8 +8,8 @@ import { getAdmissionsWithdrawalPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Withdrawal Process | SAIS - UAQ",
-  description: "Learn about the student withdrawal process at SAIS - UAQ.",
+  title: "Student Withdrawal Process | SAIS - Abu Dhabi",
+  description: "Learn about the student withdrawal process at SAIS - Abu Dhabi.",
 };
 
 /** Wraps any phone number in the lead sentence so it can take the accent colour. */

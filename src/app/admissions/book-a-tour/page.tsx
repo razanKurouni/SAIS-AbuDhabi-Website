@@ -10,8 +10,8 @@ import { getAdmissionsBookTourPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Book a Tour | SAIS - UAQ",
-  description: "Book a campus tour and experience SAIS - UAQ first-hand.",
+  title: "Book a Tour | SAIS - Abu Dhabi",
+  description: "Book a campus tour and experience SAIS - Abu Dhabi first-hand.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

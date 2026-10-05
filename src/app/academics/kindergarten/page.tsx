@@ -21,7 +21,7 @@ import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Kindergarten | Academics | SAIS - UAQ",
+  title: "Kindergarten | Academics | SAIS - Abu Dhabi",
   description: "Explore Kindergarten academics at Sharjah American International School.",
 };
 
@@ -81,7 +81,7 @@ const fallbackHero = {
   title: "Kindergarten",
   image: {
     url: "/academics-kg-hero.png",
-    alt: "SAIS - UAQ kindergarten students learning through play",
+    alt: "SAIS - Abu Dhabi kindergarten students learning through play",
   },
   topLineColor: "#d97252",
   panelColor: "var(--sais-primary)",
@@ -97,7 +97,7 @@ const fallbackIntro: Required<AcademicsKindergartenIntroSection> = {
     description: [
       paragraph(
         "kg-intro",
-        "In the early years at SAIS - UAQ, our teaching and learning approaches prioritize play-based learning, exploration, and hands-on experiences to foster holistic development."
+        "In the early years at SAIS - Abu Dhabi, our teaching and learning approaches prioritize play-based learning, exploration, and hands-on experiences to foster holistic development."
       ),
     ],
   },
@@ -118,7 +118,7 @@ const fallbackExcellenceSection: Required<AcademicsKindergartenFeatureSection> =
   },
   image: {
     url: "/academics-kg-excellence.png",
-    alt: "SAIS - UAQ kindergarten students playing music together",
+    alt: "SAIS - Abu Dhabi kindergarten students playing music together",
   },
   imageSide: "right",
   imagePosition: "center",

@@ -23,8 +23,8 @@ const defaultLegalLinks: LinkField[] = [
 ];
 
 const defaultParentStudentLinks: LinkField[] = [
-  { label: "Parent Portal", href: "https://saisu.ppnv1.mograsys.com", openInNewTab: true },
-  { label: "Apply Online", href: "https://saisu.oa.mograsys.com", openInNewTab: true },
+  { label: "Parent Portal", href: "https://saisa.ppnv1.mograsys.com", openInNewTab: true },
+  { label: "Apply Online", href: "https://saisa.oa.mograsys.com", openInNewTab: true },
   { label: "Download the App", href: "/admissions/applications#mograhub-app" },
 ];
 
@@ -39,7 +39,7 @@ const defaultContactItems: FooterContactItem[] = [
   {
     icon: "location",
     label: "Address",
-    text: "Sharjah American International School \u2013\nUmm Al Quwain Campus\nAl Salmah \u2013 Al Salamah 2\nEmirate of Umm Al Quwain",
+    text: "Sharjah American International School \u2013\nAbu Dhabi Campus\nEmirate of Abu Dhabi",
     href: "https://maps.google.com/?cid=10238059398487815870",
   },
   {

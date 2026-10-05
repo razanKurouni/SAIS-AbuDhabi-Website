@@ -26,15 +26,15 @@ const fallbackClassroomSection: Required<AcademicsKindergartenFeatureSection> = 
 };
 
 const fallbackMetadata: Metadata = {
-  title: "Student & Staff Wellbeing | SAIS - UAQ",
-  description: "Learn about student and staff wellbeing support at SAIS - UAQ.",
+  title: "Student & Staff Wellbeing | SAIS - Abu Dhabi",
+  description: "Learn about student and staff wellbeing support at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Student &\nStaff Wellbeing",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ campus building",
+    alt: "SAIS - Abu Dhabi campus building",
   },
   topLineColor: "#216B97",
   panelColor: "#707174",

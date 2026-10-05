@@ -15,15 +15,15 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "School Transportation Safety Guidelines | SAIS - UAQ",
-  description: "Learn about school transportation safety guidelines at SAIS - UAQ.",
+  title: "School Transportation Safety Guidelines | SAIS - Abu Dhabi",
+  description: "Learn about school transportation safety guidelines at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "School Transportation\nSafety Guidelines",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ school transportation",
+    alt: "SAIS - Abu Dhabi school transportation",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",
@@ -53,7 +53,7 @@ const fallbackSafetyHighlight: SafetyHighlightSectionData = {
   },
   image: {
     url: "/about-intro-students.jpg",
-    alt: "SAIS - UAQ students gathered in the school yard",
+    alt: "SAIS - Abu Dhabi students gathered in the school yard",
   },
   imagePosition: "center",
   backgroundColor: "#216B97",

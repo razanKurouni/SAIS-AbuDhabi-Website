@@ -12,15 +12,15 @@ import { getHomepage, getParentInvolvementPage } from "@/lib/sanity";
 import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Parent Involvement | SAIS - UAQ",
-  description: "Learn how SAIS - UAQ partners with parents to support student success.",
+  title: "Parent Involvement | SAIS - Abu Dhabi",
+  description: "Learn how SAIS - Abu Dhabi partners with parents to support student success.",
 };
 
 const fallbackHero = {
   title: "Parent\nInvolvement",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ parent involvement",
+    alt: "SAIS - Abu Dhabi parent involvement",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",

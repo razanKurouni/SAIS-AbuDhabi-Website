@@ -226,8 +226,8 @@ export async function POST(request: Request) {
         { id: pageDocumentId("admissions-book-tour-page") },
       ).catch(() => null) || fallbackRecipient;
   const subject = isRegistration
-    ? "New SAIS - UAQ Pre-Registration Request"
-    : "New SAIS - UAQ Book a Tour Request";
+    ? "New SAIS - Abu Dhabi Pre-Registration Request"
+    : "New SAIS - Abu Dhabi Book a Tour Request";
 
   const replyTo = fields.find(({ label }) => label.toLowerCase().includes("email"))?.value;
   const rows = fields.map(({ label, value }) =>

@@ -118,7 +118,7 @@ export function mapLegacySectionsToHomepage(sections: LegacyHomeSection[]): Home
 
   return {
     seo: {
-      title: "SAIS - UAQ | School Website",
+      title: "SAIS - Abu Dhabi | School Website",
       description: "Modern responsive Next.js frontend connected to Sanity content.",
       image: firstImage(hero),
     },

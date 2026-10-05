@@ -25,7 +25,7 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "High School | Academics | SAIS - UAQ",
+  title: "High School | Academics | SAIS - Abu Dhabi",
   description: "Explore High School academics at Sharjah American International School.",
 };
 
@@ -70,7 +70,7 @@ const fallbackHero = {
   title: "High School",
   image: {
     url: "/academics-high-school-hero.jpg",
-    alt: "SAIS - UAQ high school students in a science lab",
+    alt: "SAIS - Abu Dhabi high school students in a science lab",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "var(--sais-gray)",
@@ -107,13 +107,13 @@ const fallbackOverviewSection: ImageTextSection = {
       ),
       paragraph(
         "hs-overview-2",
-        "At SAIS - UAQ, students have access to a wide range of choice and elective courses, allowing them to tailor their learning pathways to align with their interests, aspirations, and career goals. Pedagogical approaches in these grades are designed to respond to the diverse priorities and dynamics of student choice. Teachers employ a student-centered approach that encourages inquiry, critical thinking, and creativity, while also providing guidance and support to help students navigate their academic pursuits."
+        "At SAIS - Abu Dhabi, students have access to a wide range of choice and elective courses, allowing them to tailor their learning pathways to align with their interests, aspirations, and career goals. Pedagogical approaches in these grades are designed to respond to the diverse priorities and dynamics of student choice. Teachers employ a student-centered approach that encourages inquiry, critical thinking, and creativity, while also providing guidance and support to help students navigate their academic pursuits."
       ),
     ],
   },
   image: {
     url: "/academics-high-school-overview.jpg",
-    alt: "SAIS - UAQ high school students doing a science experiment",
+    alt: "SAIS - Abu Dhabi high school students doing a science experiment",
   },
   imagePosition: "right",
   theme: "light",
@@ -134,7 +134,7 @@ const fallbackExcellenceSection: Required<AcademicsKindergartenFeatureSection> =
   },
   image: {
     url: "/academics-high-school-excellence.jpg",
-    alt: "SAIS - UAQ high school student painting a model in class",
+    alt: "SAIS - Abu Dhabi high school student painting a model in class",
   },
   imageSide: "left",
   imagePosition: "center",
@@ -161,7 +161,7 @@ const fallbackCareerGuidanceSection: Required<AcademicsKindergartenFeatureSectio
   },
   image: {
     url: "/academics-high-school-career.jpg",
-    alt: "SAIS - UAQ high school student reading a college brochure",
+    alt: "SAIS - Abu Dhabi high school student reading a college brochure",
   },
   imageSide: "right",
   imagePosition: "center",
@@ -184,7 +184,7 @@ const fallbackCurriculumSection: ImageTextSection = {
   },
   image: {
     url: "/academics-high-school-curriculum.jpg",
-    alt: "SAIS - UAQ high school students raising hands in class",
+    alt: "SAIS - Abu Dhabi high school students raising hands in class",
   },
   imagePosition: "right",
 };
@@ -224,7 +224,7 @@ const fallbackApDiplomaSection: ImageTextSection = {
       paragraph("hs-ap-2", "AP classes are optional. All enrolled students must sit for the College Board AP exam and cover the cost of required resources and exams."),
     ],
   },
-  image: { url: "/academics-high-school-ap-diploma.jpg", alt: "SAIS - UAQ high school students in AP class" },
+  image: { url: "/academics-high-school-ap-diploma.jpg", alt: "SAIS - Abu Dhabi high school students in AP class" },
   imagePosition: "right",
   backgroundColor: "#ffffff",
   titleColor: "var(--sais-primary)",
@@ -264,7 +264,7 @@ const fallbackApOverviewSection: ImageTextSection = {
   },
   image: {
     url: "/academics-high-school-ap-overview.png",
-    alt: "SAIS - UAQ high school students learning with a Van de Graaff generator",
+    alt: "SAIS - Abu Dhabi high school students learning with a Van de Graaff generator",
   },
   imagePosition: "left",
   theme: "light",
@@ -275,7 +275,7 @@ const fallbackApOverviewSection: ImageTextSection = {
 const fallbackApBenefitsSection: AcademicsApBenefitsSectionData = {
   heading: {
     title: "Benefits of AP Courses",
-    subtitle: "SAIS - UAQ offers a range of AP courses to challenge and prepare students for higher education:",
+    subtitle: "SAIS - Abu Dhabi offers a range of AP courses to challenge and prepare students for higher education:",
   },
   backgroundColor: "#00A5B2",
   titleColor: "#ffffff",

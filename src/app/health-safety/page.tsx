@@ -10,15 +10,15 @@ import { getHealthSafetyPage, getHomepage } from "@/lib/sanity";
 import type { AcademicsKindergartenFeatureSection, ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Health & Safety | SAIS - UAQ",
-  description: "Learn about health and safety care at SAIS - UAQ.",
+  title: "Health & Safety | SAIS - Abu Dhabi",
+  description: "Learn about health and safety care at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Health\n& Safety",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ health and safety",
+    alt: "SAIS - Abu Dhabi health and safety",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",
@@ -48,7 +48,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ medical care",
+    alt: "SAIS - Abu Dhabi medical care",
   },
   imagePosition: "left",
   theme: "teal",

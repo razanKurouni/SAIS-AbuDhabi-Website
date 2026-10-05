@@ -1,6 +1,6 @@
-# SAIS UAQ Website
+# SAIS Abu Dhabi Website
 
-Sharjah American International School — Umm Al Quwain Campus website, built with Next.js and Sanity.
+Sharjah American International School — Abu Dhabi Campus website, built with Next.js and Sanity.
 
 The site started as a copy of the Sharjah campus site
 ([razanKurouni/SAIS_Sharjah_Website](https://github.com/razanKurouni/SAIS_Sharjah_Website)) and uses its own
@@ -79,7 +79,7 @@ SANITY_AUTH_TOKEN=...   # write token, only needed for scripts
 ### Copying content from the Sharjah site
 
 `scripts/migrate-from-sharjah.mjs` converts the Sharjah site's content (old page-specific model) into this
-model, uploads the images and files, and writes everything to the UAQ project. It is safe to re-run.
+model, uploads the images and files, and writes everything to the Abu Dhabi dataset. It is safe to re-run.
 
 ```bash
 SOURCE_SANITY_TOKEN=<read token for the Sharjah project> npm run content:migrate

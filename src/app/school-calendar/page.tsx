@@ -16,15 +16,15 @@ type TermStyle = CSSProperties & {
 };
 
 const fallbackMetadata: Metadata = {
-  title: "School Calendar | SAIS - UAQ",
-  description: "View SAIS - UAQ term dates, holidays, and key school calendar events.",
+  title: "School Calendar | SAIS - Abu Dhabi",
+  description: "View SAIS - Abu Dhabi term dates, holidays, and key school calendar events.",
 };
 
 const fallbackHero = {
   title: "School\nCalendar",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ school calendar",
+    alt: "SAIS - Abu Dhabi school calendar",
   },
   topLineColor: "#d97252",
   panelColor: "#216B97",

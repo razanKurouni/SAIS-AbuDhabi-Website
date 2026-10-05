@@ -9,8 +9,8 @@ import { getAdmissionsFeesPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Admissions Fees | SAIS - UAQ",
-  description: "Learn about tuition fees and discount policies at SAIS - UAQ.",
+  title: "Admissions Fees | SAIS - Abu Dhabi",
+  description: "Learn about tuition fees and discount policies at SAIS - Abu Dhabi.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

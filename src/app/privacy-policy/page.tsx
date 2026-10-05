@@ -4,15 +4,15 @@ import { LegalDocument } from "@/components/sections/legal-document";
 import { getHomepage } from "@/lib/sanity";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | SAIS - UAQ",
-  description: "How SAIS - UAQ collects, uses, and protects personal information submitted through its website.",
+  title: "Privacy Policy | SAIS - Abu Dhabi",
+  description: "How SAIS - Abu Dhabi collects, uses, and protects personal information submitted through its website.",
 };
 
 const sections = [
   {
     title: "1. Who we are",
     paragraphs: [
-      "Sharjah American International School – Dubai (SAIS - UAQ) operates this website. This Privacy Policy explains how we handle personal information collected through the website and applies to visitors, parents, guardians, prospective families, applicants, and other people who interact with us online.",
+      "Sharjah American International School – Abu Dhabi (SAIS - Abu Dhabi) operates this website. This Privacy Policy explains how we handle personal information collected through the website and applies to visitors, parents, guardians, prospective families, applicants, and other people who interact with us online.",
     ],
   },
   {
@@ -107,7 +107,7 @@ const sections = [
   {
     title: "14. Contact us",
     paragraphs: [
-      "For privacy questions or requests, contact SAIS - UAQ at sais_dubai@saisdubai.com, call +971 4 280 1111, or write to Sharjah American International School – Dubai Campus, P.O. Box 47755, Al Warqa 1, Dubai, UAE.",
+      "For privacy questions or requests, contact SAIS - Abu Dhabi at sais_dubai@saisdubai.com, call +971 4 280 1111, or write to Sharjah American International School – Dubai Campus, P.O. Box 47755, Al Warqa 1, Dubai, UAE.",
     ],
   },
 ];
@@ -120,7 +120,7 @@ export default async function PrivacyPolicyPage() {
       <LegalDocument
         title="Privacy Policy"
         effectiveDate="19 August 2026"
-        introduction="SAIS - UAQ respects your privacy and is committed to handling personal information responsibly and in accordance with applicable UAE data protection requirements."
+        introduction="SAIS - Abu Dhabi respects your privacy and is committed to handling personal information responsibly and in accordance with applicable UAE data protection requirements."
         sections={sections}
       />
     </SitePageShell>

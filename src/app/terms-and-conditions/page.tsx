@@ -4,21 +4,21 @@ import { LegalDocument } from "@/components/sections/legal-document";
 import { getHomepage } from "@/lib/sanity";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | SAIS - UAQ",
-  description: "Terms and conditions governing use of the SAIS - UAQ website.",
+  title: "Terms & Conditions | SAIS - Abu Dhabi",
+  description: "Terms and conditions governing use of the SAIS - Abu Dhabi website.",
 };
 
 const sections = [
   {
     title: "1. Acceptance of these terms",
     paragraphs: [
-      "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website. These terms apply to website use only and do not replace any enrolment contract, school policy, fee schedule, consent form, or other agreement issued by Sharjah American International School – Dubai (SAIS - UAQ).",
+      "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website. These terms apply to website use only and do not replace any enrolment contract, school policy, fee schedule, consent form, or other agreement issued by Sharjah American International School – Abu Dhabi (SAIS - Abu Dhabi).",
     ],
   },
   {
     title: "2. Website information",
     paragraphs: [
-      "The website provides general information about SAIS - UAQ, including its programmes, admissions, fees, activities, news, facilities, and services. We take reasonable care to keep information accurate and current, but content may change and should not be treated as a binding offer or guarantee.",
+      "The website provides general information about SAIS - Abu Dhabi, including its programmes, admissions, fees, activities, news, facilities, and services. We take reasonable care to keep information accurate and current, but content may change and should not be treated as a binding offer or guarantee.",
       "For decisions relating to admissions, fees, calendars, policies, transportation, or student services, please confirm the latest information directly with the School.",
     ],
   },
@@ -35,7 +35,7 @@ const sections = [
   {
     title: "4. Intellectual property",
     paragraphs: [
-      "Unless otherwise stated, the website design, text, photographs, videos, graphics, logos, documents, and other materials are owned by or licensed to SAIS - UAQ and are protected by applicable intellectual property laws.",
+      "Unless otherwise stated, the website design, text, photographs, videos, graphics, logos, documents, and other materials are owned by or licensed to SAIS - Abu Dhabi and are protected by applicable intellectual property laws.",
       "You may view and print reasonable extracts for personal, non-commercial use. Reproduction, modification, distribution, publication, or commercial use requires prior written permission from the School and any relevant rights holder.",
     ],
   },
@@ -49,13 +49,13 @@ const sections = [
   {
     title: "6. Fees and payments",
     paragraphs: [
-      "Any fee information displayed on the website is provided for general guidance and may be updated in accordance with applicable approvals, regulations, and School policies. The official fee schedule, payment plan, and enrolment documents issued by SAIS - UAQ will prevail if there is any inconsistency.",
+      "Any fee information displayed on the website is provided for general guidance and may be updated in accordance with applicable approvals, regulations, and School policies. The official fee schedule, payment plan, and enrolment documents issued by SAIS - Abu Dhabi will prevail if there is any inconsistency.",
     ],
   },
   {
     title: "7. Third-party websites and services",
     paragraphs: [
-      "The website may link to third-party websites or services. These links are provided for convenience and do not imply endorsement. SAIS - UAQ does not control and is not responsible for third-party content, availability, security, or privacy practices. Please review the terms and privacy notices of those services.",
+      "The website may link to third-party websites or services. These links are provided for convenience and do not imply endorsement. SAIS - Abu Dhabi does not control and is not responsible for third-party content, availability, security, or privacy practices. Please review the terms and privacy notices of those services.",
     ],
   },
   {
@@ -67,7 +67,7 @@ const sections = [
   {
     title: "9. Disclaimer and limitation of liability",
     paragraphs: [
-      "To the extent permitted by applicable law, the website and its content are provided on an “as available” basis. SAIS - UAQ excludes warranties that are not expressly stated and will not be liable for indirect, incidental, or consequential loss arising solely from use of, or inability to use, the website.",
+      "To the extent permitted by applicable law, the website and its content are provided on an “as available” basis. SAIS - Abu Dhabi excludes warranties that are not expressly stated and will not be liable for indirect, incidental, or consequential loss arising solely from use of, or inability to use, the website.",
       "Nothing in these terms excludes or limits liability where exclusion or limitation is prohibited by law.",
     ],
   },
@@ -92,7 +92,7 @@ const sections = [
   {
     title: "13. Contact us",
     paragraphs: [
-      "For questions about these terms, contact SAIS - UAQ at sais_dubai@saisdubai.com or +971 4 280 1111.",
+      "For questions about these terms, contact SAIS - Abu Dhabi at sais_dubai@saisdubai.com or +971 4 280 1111.",
     ],
   },
 ];
@@ -105,7 +105,7 @@ export default async function TermsAndConditionsPage() {
       <LegalDocument
         title="Terms & Conditions"
         effectiveDate="19 August 2026"
-        introduction="These Terms & Conditions explain the rules that apply when you visit or use the SAIS - UAQ website."
+        introduction="These Terms & Conditions explain the rules that apply when you visit or use the SAIS - Abu Dhabi website."
         sections={sections}
       />
     </SitePageShell>

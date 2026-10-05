@@ -19,7 +19,7 @@ import type {
 } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Middle School | Academics | SAIS - UAQ",
+  title: "Middle School | Academics | SAIS - Abu Dhabi",
   description: "Explore Middle School academics at Sharjah American International School.",
 };
 
@@ -91,7 +91,7 @@ const fallbackHero = {
   title: "Middle School",
   image: {
     url: "/academics-middle-school-hero.jpg",
-    alt: "SAIS - UAQ middle school students reading together",
+    alt: "SAIS - Abu Dhabi middle school students reading together",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "#d97252",
@@ -113,7 +113,7 @@ const fallbackOverviewSection: ImageTextSection = {
   },
   image: {
     url: "/academics-middle-school-overview.png",
-    alt: "SAIS - UAQ middle school students reading in the library",
+    alt: "SAIS - Abu Dhabi middle school students reading in the library",
   },
   imagePosition: "right",
   theme: "light",
@@ -128,13 +128,13 @@ const fallbackTailoredInstructionSection: Required<AcademicsKindergartenFeatureS
     description: [
       paragraph(
         "middle-school-tailored-instruction",
-        "At SAIS - UAQ, these transitions are carefully considered in the design of pedagogical approaches. Teachers utilize a variety of instructional strategies tailored to the subject area and the developmental stage of students, fostering independence, critical thinking, and collaborative skills. The curriculum is structured to provide a balanced blend of academic rigor, inquiry-based learning, and opportunities for exploration and self-discovery, ensuring that students thrive academically and socially during this transitional period."
+        "At SAIS - Abu Dhabi, these transitions are carefully considered in the design of pedagogical approaches. Teachers utilize a variety of instructional strategies tailored to the subject area and the developmental stage of students, fostering independence, critical thinking, and collaborative skills. The curriculum is structured to provide a balanced blend of academic rigor, inquiry-based learning, and opportunities for exploration and self-discovery, ensuring that students thrive academically and socially during this transitional period."
       ),
     ],
   },
   image: {
     url: "/academics-middle-school-tailored.png",
-    alt: "SAIS - UAQ middle school student playing keyboard during music class",
+    alt: "SAIS - Abu Dhabi middle school student playing keyboard during music class",
   },
   imageSide: "left",
   imagePosition: "center",
@@ -157,7 +157,7 @@ const fallbackAssessmentSection: ContactInfoSectionData = {
   },
   image: {
     url: "/academics-middle-school-assessment.png",
-    alt: "SAIS - UAQ middle school students reviewing a book together",
+    alt: "SAIS - Abu Dhabi middle school students reviewing a book together",
   },
   imagePosition: "center",
   panelColor: "#d97252",
@@ -186,7 +186,7 @@ const fallbackCurriculumLifeSection: ImageTextSection = {
   },
   image: {
     url: "https://cdn.sanity.io/images/uwffig4f/sais-sharjah/afff5f58a744e3b8fae87f673bc800711e8fad09-1528x1252.jpg",
-    alt: "SAIS - UAQ students participating in class",
+    alt: "SAIS - Abu Dhabi students participating in class",
   },
   imagePosition: "right",
   theme: "light",

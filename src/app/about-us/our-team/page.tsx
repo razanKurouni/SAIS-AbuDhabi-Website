@@ -8,7 +8,7 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Our Team | SAIS - UAQ",
+  title: "Our Team | SAIS - Abu Dhabi",
   description: "Meet the team at Sharjah American International School.",
 };
 
@@ -16,7 +16,7 @@ const fallbackHero = {
   title: "Meet\nOur Team",
   image: {
     url: "/our-team-hero.png",
-    alt: "SAIS - UAQ team members standing together",
+    alt: "SAIS - Abu Dhabi team members standing together",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "#00A5B2",

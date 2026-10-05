@@ -8,7 +8,7 @@ import { SectionReveal } from "@/components/ui/section-reveal";
 import { getContactPage, getHomepage } from "@/lib/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Contact Us | SAIS - UAQ",
+  title: "Contact Us | SAIS - Abu Dhabi",
   description: "Contact Sharjah American International School.",
 };
 
@@ -91,7 +91,7 @@ export default async function ContactUsPage() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Sharjah American International School — Umm Al Quwain Campus location"
+            title="Sharjah American International School — Abu Dhabi Campus location"
           />
         </SectionReveal>
       </section>

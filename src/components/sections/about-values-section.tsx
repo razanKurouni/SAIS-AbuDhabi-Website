@@ -51,7 +51,7 @@ const fallbackValues: ValuesSection = {
       title: "Character",
       image: {
         url: "/about-values-character.jpg",
-        alt: "SAIS - UAQ teacher supporting a student with a tablet in class",
+        alt: "SAIS - Abu Dhabi teacher supporting a student with a tablet in class",
       },
       curveColor: "#216b97",
       titleColor: "#216b97",
@@ -83,7 +83,7 @@ const fallbackValues: ValuesSection = {
       title: "Community",
       image: {
         url: "/about-values-community.jpg",
-        alt: "SAIS - UAQ students smiling together on the playground",
+        alt: "SAIS - Abu Dhabi students smiling together on the playground",
       },
       curveColor: "#d97252",
       titleColor: "#d97252",
@@ -115,7 +115,7 @@ const fallbackValues: ValuesSection = {
       title: "Growth",
       image: {
         url: "/about-values-growth.jpg",
-        alt: "SAIS - UAQ students working in a science lab",
+        alt: "SAIS - Abu Dhabi students working in a science lab",
       },
       curveColor: "#777b80",
       titleColor: "#777b80",

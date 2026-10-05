@@ -10,15 +10,15 @@ import { getHomepage, getMedicalServicesPage } from "@/lib/sanity";
 import type { AcademicsKindergartenFeatureSection, ImageTextSection, PortableTextBlock } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Medical Services | SAIS - UAQ",
-  description: "Learn about medical services at SAIS - UAQ.",
+  title: "Medical Services | SAIS - Abu Dhabi",
+  description: "Learn about medical services at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
   title: "Medical\nServices",
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ medical services",
+    alt: "SAIS - Abu Dhabi medical services",
   },
   topLineColor: "#216B97",
   panelColor: "#707174",
@@ -48,7 +48,7 @@ const fallbackIntroSection: ImageTextSection = {
   },
   image: {
     url: "/contact-campus-building.jpg",
-    alt: "SAIS - UAQ medical clinic care",
+    alt: "SAIS - Abu Dhabi medical clinic care",
   },
   imagePosition: "center",
   theme: "blue",

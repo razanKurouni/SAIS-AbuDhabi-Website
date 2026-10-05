@@ -4,8 +4,8 @@ import { getLatestInstagramPosts } from "@/lib/instagram";
 import type { Metadata } from "next";
 
 const fallbackMetadata: Metadata = {
-  title: "Sharjah American International School | SAIS - UAQ",
-  description: "Discover SAIS - UAQ, an international American curriculum school serving students from Kindergarten through Grade 12.",
+  title: "Sharjah American International School | SAIS - Abu Dhabi",
+  description: "Discover SAIS - Abu Dhabi, an international American curriculum school serving students from Kindergarten through Grade 12.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

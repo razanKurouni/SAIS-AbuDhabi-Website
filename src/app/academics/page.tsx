@@ -31,7 +31,7 @@ import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 
 const fallbackMetadata: Metadata = {
-  title: "Academics | SAIS - UAQ",
+  title: "Academics | SAIS - Abu Dhabi",
   description: "Explore academics at Sharjah American International School.",
 };
 
@@ -47,10 +47,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export const dynamic = "force-dynamic";
 
 const fallbackHero = {
-  title: "Academics\nat SAIS - UAQ",
+  title: "Academics\nat SAIS - Abu Dhabi",
   image: {
     url: "/academics-hero.jpg",
-    alt: "SAIS - UAQ students working in a science lab",
+    alt: "SAIS - Abu Dhabi students working in a science lab",
   },
   topLineColor: "var(--sais-primary)",
   panelColor: "#707174",
@@ -82,7 +82,7 @@ const fallbackCurriculumSection: ContactInfoSectionData = {
     description: [
       paragraph(
         "curriculum-overview",
-        "At SAIS - UAQ, our curriculum is driven by a commitment to academic excellence, holistic development, and global readiness. Grounded in internationally recognized American standards - including AERO Common Core and the Next Generation Science Standards - our curriculum ensures that students acquire the knowledge, skills, and dispositions necessary for lifelong learning and success in a rapidly evolving world."
+        "At SAIS - Abu Dhabi, our curriculum is driven by a commitment to academic excellence, holistic development, and global readiness. Grounded in internationally recognized American standards - including AERO Common Core and the Next Generation Science Standards - our curriculum ensures that students acquire the knowledge, skills, and dispositions necessary for lifelong learning and success in a rapidly evolving world."
       ),
       paragraph(
         "curriculum-vision",
@@ -92,7 +92,7 @@ const fallbackCurriculumSection: ContactInfoSectionData = {
   },
   image: {
     url: "/academics-curriculum.png",
-    alt: "SAIS - UAQ students learning with a microscope",
+    alt: "SAIS - Abu Dhabi students learning with a microscope",
   },
   imagePosition: "center",
   panelColor: "#00A5B2",
@@ -117,7 +117,7 @@ const fallbackCultureSection: ImageTextSection = {
   },
   image: {
     url: "/images/academics-culture.jpg",
-    alt: "SAIS - UAQ students connecting with Emirati culture",
+    alt: "SAIS - Abu Dhabi students connecting with Emirati culture",
   },
   imagePosition: "center",
 };
@@ -138,7 +138,7 @@ const fallbackSteamSection: ImageTextSection = {
   },
   image: {
     url: "/images/academics-steam.jpg",
-    alt: "SAIS - UAQ student completing classwork",
+    alt: "SAIS - Abu Dhabi student completing classwork",
   },
   imagePosition: "left",
   backgroundColor: "#ffffff",
@@ -250,7 +250,7 @@ const fallbackCurriculumOverviewSection: Omit<Required<AcademicsCurriculumOvervi
     },
     image: {
       url: "/academics-hero.jpg",
-      alt: "SAIS - UAQ students working on a STEM project",
+      alt: "SAIS - Abu Dhabi students working on a STEM project",
     },
     imagePosition: "right",
   },
@@ -294,7 +294,7 @@ const fallbackLearningSliderSection: AcademicsLearningSliderSectionData = {
         "The Cognitive Abilities Test (CAT4) helps us understand how students learn and their academic potential. Students in Grades 3-9 take this assessment upon enrollment to identify their learning styles, enabling teachers to:\n\n- Adapt teaching approaches and materials\n- Adjust instructional pace and emphasis\n- Implement differentiated instruction\n\nCAT4 measures four types of reasoning:\n\n- Verbal Reasoning - Understanding and reasoning through words\n- Quantitative Reasoning - Using numerical skills for problem-solving\n- Non-verbal Reasoning - Problem-solving using visual information\n- Spatial Ability - Thinking and drawing conclusions in three dimensions",
       image: {
         url: "/academics-learning-cat4.png",
-        alt: "SAIS - UAQ student during CAT4 assessment",
+        alt: "SAIS - Abu Dhabi student during CAT4 assessment",
       },
       backgroundColor: "#d97252",
       sideColor: "#00A5B2",
@@ -309,7 +309,7 @@ const fallbackLearningSliderSection: AcademicsLearningSliderSectionData = {
         "Students in Grades 3-9 participate in MAP testing three times throughout the academic year. These computer-adaptive assessments:\n\n- Produce accurate data about each student's learning level\n- Identify areas of strength and opportunity\n- Measure overall performance in core subjects",
       image: {
         url: "/academics-learning-map.png",
-        alt: "SAIS - UAQ students working with a teacher in a science lab",
+        alt: "SAIS - Abu Dhabi students working with a teacher in a science lab",
       },
       backgroundColor: "var(--sais-primary)",
       sideColor: "#00A5B2",
@@ -324,7 +324,7 @@ const fallbackLearningSliderSection: AcademicsLearningSliderSectionData = {
         "To benchmark Arabic language proficiency against international standards, our students participate in IBT Arabic examinations conducted by ACER. This assessment provides valuable comparative data on student performance relative to peers in the region and worldwide.",
       image: {
         url: "/academics-learning-ibt.png",
-        alt: "SAIS - UAQ students reading together",
+        alt: "SAIS - Abu Dhabi students reading together",
       },
       backgroundColor: "#d97252",
       sideColor: "#00A5B2",
@@ -339,7 +339,7 @@ const fallbackLearningSliderSection: AcademicsLearningSliderSectionData = {
         "The New Group Reading Test (NGRT) measures reading skills against national averages. This standardized assessment evaluates:\n\n- Phonics knowledge\n- Reading comprehension\n- Decoding ability\n- Vocabulary development\n- Grammatical understanding\n- Deduction and inference skills\n- Understanding of figurative and idiomatic language",
       image: {
         url: "/academics-learning-ngrt.png",
-        alt: "SAIS - UAQ students reading a book",
+        alt: "SAIS - Abu Dhabi students reading a book",
       },
       backgroundColor: "var(--sais-primary)",
       sideColor: "#00A5B2",
@@ -533,7 +533,7 @@ export default async function AcademicsPage() {
       {academicsPage?.curriculumOverviewSection?.secondBlock ? (
         <EditorialSplitSection
           id="academics-curriculum-second"
-          title="Curriculum at SAIS - UAQ"
+          title="Curriculum at SAIS - Abu Dhabi"
           section={academicsPage.curriculumOverviewSection.secondBlock}
           fallbackImage={{}}
           fallbackParagraphs={[]}

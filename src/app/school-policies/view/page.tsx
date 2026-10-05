@@ -18,7 +18,7 @@ export async function generateMetadata({
   const policyTitle = params.title?.trim() || "School Policy";
 
   return {
-    title: `${policyTitle} | SAIS - UAQ`,
+    title: `${policyTitle} | SAIS - Abu Dhabi`,
     robots: { index: false, follow: false },
   };
 }

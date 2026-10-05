@@ -51,7 +51,7 @@ const fallbackDescription: PortableTextBlock[] = [
         _key: "intro-feature-span-2",
         _type: "span",
         text:
-          "At SAIS - UAQ, we deliver a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
+          "At SAIS - Abu Dhabi, we deliver a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
       },
     ],
   },
@@ -64,7 +64,7 @@ const fallbackSection: ImageTextSection = {
   },
   image: {
     url: "/sais-building-futures.png",
-    alt: "SAIS - UAQ students during a science lab activity",
+    alt: "SAIS - Abu Dhabi students during a science lab activity",
   },
   imagePosition: "left",
   theme: "blue",
