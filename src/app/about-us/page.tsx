@@ -228,13 +228,15 @@ export default async function AboutUsPage() {
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />
       <AboutValuesSection section={aboutValues} />
-      <AcademicsElementaryAssessmentSection
-        className="about-accreditation-feature academics-middle-school-tailored-section"
-        imageSide="left"
-        titleId="about-accreditation-title"
-        section={aboutKhda}
-        fallbackSection={fallbackAccreditationFeature}
-      />
+      {aboutKhda ? (
+        <AcademicsElementaryAssessmentSection
+          className="about-accreditation-feature academics-middle-school-tailored-section"
+          imageSide="left"
+          titleId="about-accreditation-title"
+          section={aboutKhda}
+          fallbackSection={fallbackAccreditationFeature}
+        />
+      ) : null}
       <AboutBenefitsSection section={aboutPage?.benefits} />
       <AboutAccreditationsSection section={aboutAccreditations} />
       <AboutBranchesSection section={aboutBranches} />

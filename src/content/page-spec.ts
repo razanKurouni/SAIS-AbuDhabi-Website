@@ -110,7 +110,6 @@ export const PAGE_SPECS: PageSpec[] = [
       cards("boardGovernors", "Board of Governors", { items: "members" }),
       cards("statement", "Mission & Vision"),
       cards("accreditations", "Accreditations", { items: "logos" }),
-      it("khdaSection", "Inspection Rating"),
       cards("benefits", "Accreditation Benefits"),
       cards("accreditations", "Accreditations", { items: "logos" }),
       cards("branches", "Our Branches"),
