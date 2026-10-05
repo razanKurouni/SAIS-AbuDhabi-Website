@@ -1,0 +1,144 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "site-settings",
+    "_rev": "jtzXmr5sPTxAjhSjhrAqfE",
+    "_system": {
+      "base": {
+        "id": "site-settings",
+        "rev": "seeJ8sDCx2bMNJQ2P7el9X"
+      }
+    },
+    "_type": "siteSettings",
+    "_updatedAt": "2026-10-05T06:11:24Z",
+    "footer": {
+      "contactItems": [
+        {
+          "_key": "footer-address",
+          "_type": "entry",
+          "href": "https://www.google.com/maps/place/Sharjah+American+International+School/@24.3611081,54.6330765,779m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e5e37d95555aaab:0x7ed3e7b1b6e679e6!8m2!3d24.3611081!4d54.6330765!16s%2Fg%2F11dx9b922b?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D&hl=en",
+          "iconType": "location",
+          "label": "Address",
+          "text": "Sharjah American International School - Abu Dhabi Campus, \nAbu Dhabi, UAE - P.O. BOX 35590"
+        },
+        {
+          "_key": "footer-phone",
+          "_type": "entry",
+          "href": "tel:+97125861222",
+          "iconType": "phone",
+          "label": "Phone",
+          "text": "+971 2 586 1222"
+        },
+        {
+          "_key": "footer-email",
+          "_type": "entry",
+          "href": "mailto:info@saisabudhabi.com",
+          "iconType": "email",
+          "label": "Email",
+          "text": "info@saisabudhabi.com"
+        }
+      ],
+      "logo": {
+        "_type": "image",
+        "alt": "Sharjah American International School Umm Al Quwai logo",
+        "asset": {
+          "_ref": "image-35533509d01cfac6407bc9af3d85ba2e635a0bcf-962x218-png",
+          "_type": "reference"
+        }
+      },
+      "logoText": "SAIS",
+      "socialLinks": [
+        {
+          "_key": "linkedin",
+          "_type": "cta",
+          "href": "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/",
+          "label": "LinkedIn",
+          "openInNewTab": true
+        },
+        {
+          "_key": "facebook",
+          "_type": "cta",
+          "href": "https://www.facebook.com/saisuaq",
+          "label": "Facebook",
+          "openInNewTab": true
+        },
+        {
+          "_key": "youtube",
+          "_type": "cta",
+          "href": "https://www.youtube.com/@saisuaq",
+          "label": "YouTube",
+          "openInNewTab": true
+        },
+        {
+          "_key": "instagram",
+          "_type": "cta",
+          "href": "https://www.instagram.com/sais.uaq/",
+          "label": "Instagram",
+          "openInNewTab": true
+        }
+      ]
+    },
+    "header": {
+      "applyNowButton": {
+        "_key": "k39mub4id9c",
+        "_type": "cta",
+        "href": "/admissions/applications",
+        "label": "Apply Now"
+      },
+      "bookTourButton": {
+        "_key": "k38mub4id9c",
+        "_type": "cta",
+        "href": "/admissions/book-a-tour",
+        "label": "Book a Tour "
+      },
+      "logo": {
+        "_type": "image",
+        "alt": "Sharjah American International School Umm Al Quwai logo",
+        "asset": {
+          "_ref": "image-35533509d01cfac6407bc9af3d85ba2e635a0bcf-962x218-png",
+          "_type": "reference"
+        }
+      },
+      "navigation": [
+        {
+          "_key": "about",
+          "_type": "cta",
+          "href": "/about-us#about",
+          "label": "About"
+        },
+        {
+          "_key": "academics",
+          "_type": "cta",
+          "href": "/academics",
+          "label": "Academics"
+        },
+        {
+          "_key": "admissions",
+          "_type": "cta",
+          "href": "/admissions",
+          "label": "Admissions"
+        },
+        {
+          "_key": "community",
+          "_type": "cta",
+          "href": "/our-community",
+          "label": "Community"
+        },
+        {
+          "_key": "contact",
+          "_type": "cta",
+          "href": "/contact-us",
+          "label": "Contact"
+        }
+      ],
+      "scrolledLogo": {
+        "_type": "image",
+        "alt": "Sharjah American International School Umm Al Quwai logo",
+        "asset": {
+          "_ref": "image-5aaf7acb400b12344bd38c172f88a9cb38a342a9-962x218-png",
+          "_type": "reference"
+        }
+      }
+    }
+  }
+]
