@@ -1,0 +1,682 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "homepage-main",
+  "_rev": "jtzXmr5sPTxAjhSjhrCmJq",
+  "_system": {
+    "base": {
+      "id": "homepage-main",
+      "rev": "MBv2LricX5MHko5p1uofsO"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-05T06:23:59Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "subtitle": "American Curriculum, UAE Heart A leading American curriculum school group, recognized for academic excellence, innovation and strong values.",
+      "title": "Empowering Students\nto Achieve Their Highest Potential"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students gathered on campus",
+      "asset": {
+        "_ref": "image-deaa58333a0266b23d092d3688ce19451c32b950-1920x1078-png",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi kindergarten girls playing on the playground",
+      "asset": {
+        "_ref": "image-deaa58333a0266b23d092d3688ce19451c32b950-1920x1078-png",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "918af2a602ea",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "c07b638746fa",
+                "_type": "span",
+                "marks": [],
+                "text": "At SAIS Abu Dhabi emphasize a holistic development, integrating academic excellence with character education, innovation, arts, athletics, and leadership programs."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "05a79a3ba070",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "3a59e6034b48",
+                "_type": "span",
+                "marks": [],
+                "text": "Students benefit from well-equipped facilities, hands-on learning experiences, and access to advanced placement courses, STEM and Robotics initiatives, and extracurricular activities that nurture their talents and critical thinking skills."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Building Bright Futures with Purpose and Principle"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi Campus",
+        "asset": {
+          "_ref": "image-5a48df4d13beb1a5d6807376be60836802723f92-780x656-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "growthSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "home-growth-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "home-growth-0-span",
+                "_type": "span",
+                "marks": [],
+                "text": "We take great pride in its accomplished alumni, many of whom have been accepted into top-tier universities around the world and have gone on to become successful professionals, entrepreneurs, and leaders."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "d3a31c4ab850",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "1cf52f69e7af",
+                "_type": "span",
+                "marks": [],
+                "text": "Its dedicated faculty comprises qualified and passionate educators committed to student growth, continuous professional development, and fostering a supportive and inclusive learning environment."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "SAIS Growth and Curriculum"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students two students talking ",
+        "asset": {
+          "_ref": "image-4955362025e6240279b800972ee8a33c4fe0eaf3-764x626-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "growthSection"
+    },
+    {
+      "_key": "growthFeature",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "home-growth-feature-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "home-growth-feature-0-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Together, the SAIS Abu Dhabi community works to empower students to become lifelong learners, responsible global citizens, and leaders of tomorrow."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Our Community"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students smiling together in class",
+        "asset": {
+          "_ref": "image-9fd60fd62e97824c90f766067aff54955c1c0c6a-1560x1268-webp",
+          "_type": "reference"
+        }
+      },
+      "slot": "growthFeature"
+    },
+    {
+      "_key": "heroContactBand",
+      "_type": "ctaSection",
+      "ctas": [
+        {
+          "_key": "book-tour",
+          "_type": "cta",
+          "href": "/admissions/book-a-tour",
+          "label": "Book a Tour"
+        },
+        {
+          "_key": "apply-now",
+          "_type": "cta",
+          "href": "/admissions/applications",
+          "label": "Apply Now"
+        },
+        {
+          "_key": "careers",
+          "_type": "cta",
+          "href": "/careers",
+          "label": "Careers"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "For applications, school tours, or potential career opportunities, please don’t hesitate to get in touch with our team."
+      },
+      "slot": "heroContactBand"
+    },
+    {
+      "_key": "accreditations",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "cognia",
+          "_type": "card",
+          "image": {
+            "_type": "image",
+            "alt": "Cognia accredited logo",
+            "asset": {
+              "_ref": "image-88f6dd810bc7dba78405a145a5ee272a127ffa75-336x306-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Cognia Accredited"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Accreditations & Affiliations"
+      },
+      "slot": "accreditations"
+    },
+    {
+      "_key": "whySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "home-why-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "home-why-0-span",
+                "_type": "span",
+                "marks": [],
+                "text": "At SAIS-Abu Dhabi, we believe that education is more than academics, it’s about nurturing confident, capable, and compassionate individuals who are ready to thrive in a rapidly changing world."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "85f4684d8b31",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "cbaafe201cb7",
+                "_type": "span",
+                "marks": [],
+                "text": "Our journey began in 2019, and in a short time, we have become one of the most respected American curriculum schools in the region. Backed by the legacy of the Sharjah American International School (established in 1997), our Abu Dhabi campus reflects a rich tradition of academic excellence, innovation, and strong values."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Why SAIS-Abu Dhabi?"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi teacher helping a student",
+        "asset": {
+          "_ref": "image-0a1e261dcd8892666b6b16a6e38e0bf05019ff92-2126x1532-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "whySection"
+    },
+    {
+      "_key": "facts",
+      "_type": "entriesSection",
+      "entries": [
+        {
+          "_key": "start",
+          "_type": "entry",
+          "label": "Start of Classes",
+          "text": "2016"
+        },
+        {
+          "_key": "uae-nationals",
+          "_type": "entry",
+          "label": "UAE Nationals",
+          "text": "49%"
+        },
+        {
+          "_key": "professionals",
+          "_type": "entry",
+          "label": "Established",
+          "text": "100"
+        },
+        {
+          "_key": "students",
+          "_type": "entry",
+          "label": "UAE National",
+          "text": "1165"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Students Enrolled"
+      },
+      "slot": "facts"
+    },
+    {
+      "_key": "quickLinks",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "about-us",
+          "_type": "card",
+          "cta": {
+            "_key": "k1mub4id91",
+            "_type": "cta",
+            "href": "/about-us",
+            "label": "See More"
+          },
+          "description": "Discover more about SAIS - Abu Dhabi and what makes our school community such a unique, inspiring, and exceptional place to learn.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS students reading in the library",
+            "asset": {
+              "_ref": "image-f2d4c970bb48fa25b5e922ac2119ae5444ae39c6-1023x855-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "About Us"
+        },
+        {
+          "_key": "academics",
+          "_type": "card",
+          "cta": {
+            "_key": "k2mub4id91",
+            "_type": "cta",
+            "href": "/academics",
+            "label": "See More"
+          },
+          "description": "Learn more about the different stages of learning at SAIS - Abu Dhabi and our approach to student success.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS student working in a science lab",
+            "asset": {
+              "_ref": "image-7bb37afcd90265aed1bae2e999fbd26d0bfd929d-1080x855-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Academics"
+        },
+        {
+          "_key": "community",
+          "_type": "card",
+          "cta": {
+            "_key": "k3mub4id91",
+            "_type": "cta",
+            "href": "/our-community",
+            "label": "See More"
+          },
+          "description": "Learn more about the SAIS - Abu Dhabi community and discover what makes our school such a special place to learn and grow.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS students participating in class",
+            "asset": {
+              "_ref": "image-2552763718dc0fa7a9ab6108b29534242892f8a3-929x855-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Community"
+        },
+        {
+          "_key": "student-life",
+          "_type": "card",
+          "cta": {
+            "_key": "k4mub4id91",
+            "_type": "cta",
+            "href": "/student-life",
+            "label": "See More"
+          },
+          "description": "Explore student life at SAIS - Abu Dhabi and how we inspire students beyond the classroom.",
+          "image": {
+            "_type": "image",
+            "alt": "SAIS students playing football",
+            "asset": {
+              "_ref": "image-bf7201577f6e234d1901448f9063a91935412878-1080x855-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Student Life"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Quick Links"
+      },
+      "slot": "quickLinks"
+    },
+    {
+      "_key": "learningPhases",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "kindergarten",
+          "_type": "card",
+          "cta": {
+            "_key": "k6mub4id91",
+            "_type": "cta",
+            "href": "#kindergarten",
+            "label": "See More"
+          },
+          "description": "KG1 – KG2",
+          "image": {
+            "_type": "image",
+            "alt": "Kindergarten students",
+            "asset": {
+              "_ref": "image-aa8f6cf887ce2dd13eea1447f19e8db4d1ad6e52-862x646-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Kindergarten"
+        },
+        {
+          "_key": "elementary",
+          "_type": "card",
+          "cta": {
+            "_key": "k7mub4id91",
+            "_type": "cta",
+            "href": "#elementary",
+            "label": "See More"
+          },
+          "description": "Grades 1 – 4",
+          "image": {
+            "_type": "image",
+            "alt": "Elementary students ",
+            "asset": {
+              "_ref": "image-3746196dbbc6b064a1697d41b62cf76a94f700a7-862x646-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Elementary"
+        },
+        {
+          "_key": "middle-school",
+          "_type": "card",
+          "cta": {
+            "_key": "k8mub4id91",
+            "_type": "cta",
+            "href": "#middle-school",
+            "label": "See More"
+          },
+          "description": "Grades 5 – 8",
+          "image": {
+            "_type": "image",
+            "alt": "Middle school students",
+            "asset": {
+              "_ref": "image-6e4e6f598f3da8a3010e079313dbc12dd7a0c1da-862x646-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Middle School"
+        },
+        {
+          "_key": "high-school",
+          "_type": "card",
+          "cta": {
+            "_key": "k9mub4id91",
+            "_type": "cta",
+            "href": "#high-school",
+            "label": "See More"
+          },
+          "description": "Grades 9 – 12",
+          "image": {
+            "_type": "image",
+            "alt": "High school students",
+            "asset": {
+              "_ref": "image-5070d919444004bf26407ac2e12d03194c18afdd-862x646-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "High School"
+        }
+      ],
+      "cta": {
+        "_key": "k5mub4id91",
+        "_type": "cta",
+        "href": "#learning-phases",
+        "label": "See More"
+      },
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Our Learning Phases"
+      },
+      "slot": "learningPhases"
+    },
+    {
+      "_key": "tour",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "book-a-tour",
+          "_type": "card",
+          "cta": {
+            "_key": "kamub4id91",
+            "_type": "cta",
+            "href": "/admissions/book-a-tour",
+            "label": "Book Now"
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS student ",
+            "asset": {
+              "_ref": "image-01c1ffd9b05bf02902ab52243a1f54410e806752-2360x1530-jpg",
+              "_type": "reference"
+            }
+          },
+          "title": "Book a Tour"
+        },
+        {
+          "_key": "start-application",
+          "_type": "card",
+          "cta": {
+            "_key": "kbmub4id91",
+            "_type": "cta",
+            "href": "/admissions/applications",
+            "label": "Start Now"
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS high school students in class",
+            "asset": {
+              "_ref": "image-fc80993d398ecd1fbfe4f34ceb5cf1ac29d8e6f3-1158x878-png",
+              "_type": "reference"
+            }
+          },
+          "title": "Start Your Application"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "accentTitle": "Where Your Child Can Thrive",
+        "description": [
+          {
+            "_key": "tour-intro-description",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "tour-intro-description-text",
+                "_type": "span",
+                "text": "Our friendly Admissions Team is here to answer your questions and guide you every step of the way. The process starts with a simple online enquiry, followed by a school tour with our Academic Team, and then a formal application."
+              }
+            ],
+            "style": "normal"
+          }
+        ],
+        "subtitle": "We would love to welcome you to SAIS - Abu Dhabi and show you why  our students thrive in a supportive and inspiring environment.",
+        "title": "Discover a Place"
+      },
+      "slot": "tour"
+    },
+    {
+      "_key": "news",
+      "_type": "newsSection",
+      "cta": {
+        "_key": "kcmub4id91",
+        "_type": "cta",
+        "href": "/news-events",
+        "label": "See All"
+      },
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Latest News"
+      },
+      "slot": "news"
+    },
+    {
+      "_key": "instagram",
+      "_type": "gallerySection",
+      "ctas": [
+        {
+          "_key": "instagram",
+          "_type": "cta",
+          "href": "https://www.instagram.com/sais.uaq/",
+          "label": "Instagram",
+          "openInNewTab": true
+        },
+        {
+          "_key": "facebook",
+          "_type": "cta",
+          "href": "https://www.facebook.com/saisuaq",
+          "label": "Facebook",
+          "openInNewTab": true
+        },
+        {
+          "_key": "linkedin",
+          "_type": "cta",
+          "href": "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/",
+          "label": "LinkedIn",
+          "openInNewTab": true
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Follow Us"
+      },
+      "images": [
+        {
+          "_key": "kdmub4id91",
+          "_type": "image",
+          "alt": "SAIS teacher reading with students",
+          "asset": {
+            "_ref": "image-cfa3433c2f277feb2b9d08cf3fad80515bcdf8e4-1006x763-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "kemub4id91",
+          "_type": "image",
+          "alt": "SAIS teacher reading with students",
+          "asset": {
+            "_ref": "image-cfa3433c2f277feb2b9d08cf3fad80515bcdf8e4-1006x763-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "kfmub4id91",
+          "_type": "image",
+          "alt": "SAIS teacher reading with students",
+          "asset": {
+            "_ref": "image-cfa3433c2f277feb2b9d08cf3fad80515bcdf8e4-1006x763-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "kgmub4id91",
+          "_type": "image",
+          "alt": "SAIS teacher reading with students",
+          "asset": {
+            "_ref": "image-cfa3433c2f277feb2b9d08cf3fad80515bcdf8e4-1006x763-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "slot": "instagram"
+    },
+    {
+      "_key": "ctaBand",
+      "_type": "ctaSection",
+      "ctas": [
+        {
+          "_key": "cta-book-tour",
+          "_type": "cta",
+          "href": "/admissions/book-a-tour",
+          "label": "Book a Tour"
+        },
+        {
+          "_key": "cta-apply-now",
+          "_type": "cta",
+          "href": "/admissions/applications",
+          "label": "Apply Now"
+        },
+        {
+          "_key": "cta-careers",
+          "_type": "cta",
+          "href": "/careers",
+          "label": "Careers"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "For applications, school tours, or potential career opportunities, please do not hesitate to get in touch with our team."
+      },
+      "slot": "ctaBand"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Sharjah American International School homepage.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students reading in the library",
+      "asset": {
+        "_ref": "image-deaa58333a0266b23d092d3688ce19451c32b950-1920x1078-png",
+        "_type": "reference"
+      }
+    },
+    "title": "Sharjah American International School | SAIS - Abu Dhabi"
+  },
+  "title": "Homepage"
+}
