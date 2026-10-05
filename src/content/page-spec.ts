@@ -112,6 +112,7 @@ export const PAGE_SPECS: PageSpec[] = [
       cards("accreditations", "Accreditations", { items: "logos" }),
       cards("benefits", "Accreditation Benefits"),
       cards("accreditations", "Accreditations", { items: "logos" }),
+      it("adekSection", "ADEK"),
       cards("branches", "Our Branches"),
     ],
   },

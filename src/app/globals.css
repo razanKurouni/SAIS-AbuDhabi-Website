@@ -17979,3 +17979,8 @@ a.school-policy-card__cover:hover {
     justify-content: center;
   }
 }
+
+/* About (Abu Dhabi): the ADEK band's title takes the panel's accent colour. */
+.about-page .about-adek-feature .intro-feature__title {
+  color: var(--intro-feature-title-color, #00a5b2);
+}

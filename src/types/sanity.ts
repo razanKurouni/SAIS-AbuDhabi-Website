@@ -264,7 +264,7 @@ export type AboutPageData = {
   missionShowcase?: MissionShowcaseSection;
   valuesGrid?: ValuesGridSection;
   accreditations?: AboutAccreditationsSection;
-  khdaSection?: AcademicsKindergartenFeatureSection;
+  adekSection?: ImageTextSection;
   benefits?: AboutBenefitsSection;
   branches?: AboutBranchesSection;
   governance?: ImageTextSection;

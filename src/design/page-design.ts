@@ -75,14 +75,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     "intro": {
       "imagePosition": "center"
     },
-    "khdaSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "30% 35%",
-      "imageSide": "left",
-      "panelColor": "#27779D",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#D97252"
+    "adekSection": {
+      "imagePosition": "left",
+      "theme": "blue"
     },
     "benefits": {
       "backgroundColor": "#f4f4f4",

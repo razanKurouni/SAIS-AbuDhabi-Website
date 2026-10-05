@@ -1,7 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AboutAccreditationsSection } from "@/components/sections/about-accreditations-section";
 import { AboutBenefitsSection } from "@/components/sections/about-benefits-section";
@@ -9,7 +8,7 @@ import { AboutBranchesSection } from "@/components/sections/about-branches-secti
 import { AboutBoardGovernorsSection } from "@/components/sections/about-board-governors-section";
 import { AboutGovernanceSection } from "@/components/sections/about-governance-section";
 import { AboutInspectionSection } from "@/components/sections/about-inspection-section";
-import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
+import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { AboutPrincipalMessageSection } from "@/components/sections/about-principal-message-section";
 import { AboutStatementSection } from "@/components/sections/about-statement-section";
 import { AboutValuesSection } from "@/components/sections/about-values-section";
@@ -80,18 +79,6 @@ const highlights = [
   },
 ];
 
-const fallbackAccreditationFeature: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "" },
-  image: {},
-  imageSide: "left",
-  imagePosition: "30% 35%",
-  backgroundColor: "#ffffff",
-  panelColor: "#27779D",
-  waveColor: "#D97252",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
-};
-
 export default async function AboutUsPage() {
   const [data, aboutPage] = await Promise.all([getHomepage(), getAboutPage()]);
   const aboutHero = aboutPage?.hero;
@@ -101,7 +88,7 @@ export default async function AboutUsPage() {
   const aboutStatement = aboutPage?.statement;
   const aboutValues = aboutPage?.values;
   const aboutAccreditations = aboutPage?.accreditations;
-  const aboutKhda = aboutPage?.khdaSection;
+  const aboutAdek = aboutPage?.adekSection;
   const aboutBranches = aboutPage?.branches;
   const aboutGovernance = aboutPage?.governance;
   const aboutInspection = aboutPage?.inspection;
@@ -228,17 +215,16 @@ export default async function AboutUsPage() {
       <AboutBoardGovernorsSection section={aboutBoardGovernors} />
       <AboutStatementSection section={aboutStatement} />
       <AboutValuesSection section={aboutValues} />
-      {aboutKhda ? (
-        <AcademicsElementaryAssessmentSection
-          className="about-accreditation-feature academics-middle-school-tailored-section"
-          imageSide="left"
-          titleId="about-accreditation-title"
-          section={aboutKhda}
-          fallbackSection={fallbackAccreditationFeature}
-        />
-      ) : null}
       <AboutBenefitsSection section={aboutPage?.benefits} />
       <AboutAccreditationsSection section={aboutAccreditations} />
+      {aboutAdek ? (
+        <IntroFeatureSection
+          section={aboutAdek}
+          className="about-adek-feature"
+          titleId="about-adek-title"
+          imageSide="left"
+        />
+      ) : null}
       <AboutBranchesSection section={aboutBranches} />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
