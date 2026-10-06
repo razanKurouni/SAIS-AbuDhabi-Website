@@ -1,0 +1,626 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-high-school-page",
+    "_rev": "ZJvywvm96IRNj9XfbRepPo",
+    "_system": {
+      "base": {
+        "id": "academics-high-school-page",
+        "rev": "jtzXmr5sPTxAjhSjhtpayG"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T11:38:28Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "eyebrow": "Academics",
+        "title": "High School"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "High School",
+        "asset": {
+          "_ref": "image-ef9a1d883b5820423fe136d38325ef2837962a34-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "High School",
+        "asset": {
+          "_ref": "image-ef9a1d883b5820423fe136d38325ef2837962a34-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/high-school",
+    "sections": [
+      {
+        "_key": "overviewSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-overview-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-overview-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our High School program focuses on university and career readiness. Students receive individualized support to pursue pathways aligned with their future goals. A wide selection of electives and advanced courses, including AP programs, ensures that students can explore specialized interests."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-overview-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-overview-2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As an accredited AP College Board, IELTS, and SAT testing centre, we prepare students thoroughly for academic success beyond school. Daily schedules also include lab-based science, design and technology, computer-based learning, and volunteering opportunities, all aligned with graduation requirements and personal development."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Freedom to Explore,\nGuidance to Grow"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi high school students broadcasting from the school radio studio",
+          "asset": {
+            "_ref": "image-b7767baafd013644f29c080d3ca319132a13bec8-1556x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "overviewSection"
+      },
+      {
+        "_key": "curriculumSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-curriculum",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-curriculum-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The curriculum enables the students to pursue a personalized pathway. Advanced Placement (AP) courses, elective options, and career guidance prepare students for university and beyond. College and career readiness, entrepreneurship, interdisciplinary learning, and leadership programs define our high school model."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi high school students recording in the radio studio",
+          "asset": {
+            "_ref": "image-47f787cf11a6bfa4b6a8646b7bd26016308c3df3-628x530-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "careerGuidanceIntroSection",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "subtitle": "At SAIS Abu Dhabi, we believe that every student’s journey is unique and we’re here to guide that journey with purpose and clarity. Our Career and Guidance Counseling Program is designed to support students from Grade 8 to Grade 12 as they explore their interests, discover their strengths, and prepare for life beyond school.",
+          "title": "Career Guidance"
+        },
+        "slot": "careerGuidanceIntroSection"
+      },
+      {
+        "_key": "careerGuidanceSliderSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "academic-development",
+            "_type": "card",
+            "description": "Helping students set goals, manage workloads, and achieve their full academic potential.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi teacher guiding two high school students through their work",
+              "asset": {
+                "_ref": "image-dbea47996422dfae6eea9d44e2002f3d71c90fda-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Academic Development"
+          },
+          {
+            "_key": "college-career-planning",
+            "_type": "card",
+            "description": "Guiding students through every step of the higher education application process, from identifying interests and strengths to preparing competitive college applications.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi high school students walking with their teacher in the girls section",
+              "asset": {
+                "_ref": "image-4eb3456be986354f30866b04966f1de845c022a6-1528x1252-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "College & Career Planning"
+          },
+          {
+            "_key": "social-emotional-wellbeing",
+            "_type": "card",
+            "description": "Offering a safe and supportive space where students can explore their feelings, build resilience, and develop healthy relationships.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi high school students sharing a laugh in class",
+              "asset": {
+                "_ref": "image-ccc1925961d3443007740b79375dad957ef008f0-2220x1260-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Social & Emotional Well-Being"
+          },
+          {
+            "_key": "personal-growth",
+            "_type": "card",
+            "description": "Encouraging self-awareness, decision-making skills, and a strong sense of identity and purpose.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi high school student working at a sewing machine",
+              "asset": {
+                "_ref": "image-cb5ae7c81c30248b9513cb2e3f2a08725b035515-600x565-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Personal Growth"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": ""
+        },
+        "slot": "careerGuidanceSliderSection"
+      },
+      {
+        "_key": "careerGuidanceSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-career-guidance",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-career-guidance-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our high school program is dynamic and continually evolves to address the unique needs and challenges of our diverse student body. Through proactive counseling, one-on-one support, workshops, and collaborative programming, we empower students to become confident, well-rounded individuals ready to navigate life beyond high school."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Career Guidance"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Career guidance model: academic, social-emotional, and college and career development",
+          "asset": {
+            "_ref": "image-9a8c750b625d0e16071aa9c6fc00f57d7b997da7-1416x1396-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "careerGuidanceSection"
+      },
+      {
+        "_key": "pathwaysSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-pathways-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "High School Pathways function like college majors, but begin during the high school experience. Every student can benefit from selecting and following a sequence of career-related classes aligned with their interests."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-pathways-lead",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-lead-span",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "A Pathway:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-pathways-b1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-b1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Provides a sequence of courses within your area of interest"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-pathways-b2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-b2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Connects your career interests from high school to college and/or career"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-pathways-b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-b3-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Serves as an educational roadmap guiding you to relevant high school courses and post-secondary options"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-pathways-b4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-pathways-b4-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Helps you acquire knowledge and skills linked to specific post-secondary programs leading to certificates, degrees, and careers"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "High School Pathways"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi high school student painting a model in art class",
+          "asset": {
+            "_ref": "image-d9d9b39aa5b2956013f302e7552c6b3aa27aafb6-1556x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "pathwaysSection"
+      },
+      {
+        "_key": "pathwaysSliderSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "slide-science",
+            "_type": "card",
+            "description": "Our ICT and creative technology courses introduce students to modern technological skills, innovation, creativity, and digital problem-solving. These courses help students develop foundational and advanced skills related to technology, programming, design, and future-focused career fields.\n\nCourses Offered:\n•\tAI\n•\tGraphic Design\n•\tArt & Design\n•\tIntroduction to Programming\n•\tProgramming",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi high school students walking with their teacher in the girls section",
+              "asset": {
+                "_ref": "image-4eb3456be986354f30866b04966f1de845c022a6-1528x1252-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "ICT & Creative Technology"
+          },
+          {
+            "_key": "slide-arts",
+            "_type": "card",
+            "description": "These courses support students in developing communication, presentation, leadership, cultural awareness, and public speaking skills. They encourage confidence, collaboration, creativity, and global-mindedness.\n\nCourses Offered:\n\n•\tFrench\n•\tSpanish\n•\tDebate\n•\tDrama\n•\tMUN",
+            "image": {
+              "_type": "image",
+              "alt": "Visual and Performing  Arts Pathway",
+              "asset": {
+                "_ref": "image-7d83febba60538abe9ea07a0e4d01eab766499fa-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Languages, Communication  & Leadership"
+          },
+          {
+            "_key": "slide-business",
+            "_type": "card",
+            "description": "Science courses provide students with opportunities to explore scientific inquiry, research, experimentation, and analytical thinking. These subjects support students interested in medical, engineering, health, and science-related university majors and careers.\n\nCourses Offered:\n\n•\tAP Biology\n•\tAP Chemistry\n•\tForensic Science\n•\tHuman Anatomy\n•\tAP Physics",
+            "image": {
+              "_type": "image",
+              "alt": "Business Management & Finance Pathway",
+              "asset": {
+                "_ref": "image-56184531aa341d4920b5999c3c226047d23dd60d-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Advanced & Applied Sciences"
+          },
+          {
+            "_key": "c5ce9b7b4e29",
+            "_type": "card",
+            "description": "Our mandatory science courses build strong scientific foundations and prepare students for higher-level scientific learning and university requirements in various academic fields.\n\nCourses Offered:\n\n•\tAdvanced Physics\n•\tBiology\n•\tChemistry\n•\tPhysics",
+            "image": {
+              "_type": "image",
+              "alt": "Business Management & Finance Pathway",
+              "asset": {
+                "_ref": "image-8eb5596805e281ce10d73a05fac3714175af5af3-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Core Science Studies"
+          },
+          {
+            "_key": "2875ac656f35",
+            "_type": "card",
+            "description": "Humanities courses help students understand society, business, economics, human behavior, and global issues while developing analytical, leadership, and decision-making skills. These courses also strengthen financial awareness and personal responsibility.\n\nCourses Offered:\n\n•\tAccounting\n•\tMarketing\n•\tBusiness Studies\n•\tEconomics\n•\tGeography\n•\tHistory\n•\tPsychology\n•\tFinancial Literacy",
+            "image": {
+              "_type": "image",
+              "alt": "Business Management & Finance Pathway",
+              "asset": {
+                "_ref": "image-aaa1898f388cde2808419d9a7b7ca534e8af7626-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Humanities & Business Studies"
+          },
+          {
+            "_key": "f38acdb7cb78",
+            "_type": "card",
+            "description": "Mathematics courses develop logical reasoning, analytical thinking, problem-solving, and quantitative skills that are essential for university studies and future careers in business, engineering, technology, science, and finance.\n\nCourses Offered:\n\n•\tAP Pre-Calculus\n•\tAP Calculus\n•\tCalculus\n•\tBusiness Math\n•\tAlgebra II",
+            "image": {
+              "_type": "image",
+              "alt": "Business Management & Finance Pathway",
+              "asset": {
+                "_ref": "image-b5dedfcaedeaf14b86dfe1a94af8bdfe0d1f5d17-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Mathematics"
+          }
+        ],
+        "slot": "pathwaysSliderSection"
+      },
+      {
+        "_key": "apDiplomaSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-ap-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-ap-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Advanced Placement (AP) is a College Board program that allows high school students to take courses that can earn college credits and/or qualify them for advanced university classes. AP courses are weighted (1.25) provided students achieve qualifying scores on the respective College Board Exam."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-ap-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-ap-2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "AP classes are optional. All enrolled students must sit for the College Board AP exam and cover the cost of required resources and exams."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Advanced Placement (AP) College board program",
+          "title": "What is AP?"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi high school students with their teacher around a meeting table",
+          "asset": {
+            "_ref": "image-a0302b57a32e1112fde203a0ec27d08ea33d1556-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "apDiplomaSection"
+      },
+      {
+        "_key": "apBenefitsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "benefit-admission",
+            "_type": "card",
+            "description": "AP coursework signals to admissions officers that a student is capable of rigorous, college-level work, strengthening their application.",
+            "icon": {
+              "_type": "image",
+              "alt": "Stand Out",
+              "asset": {
+                "_ref": "image-259f99f56b97eab89b91649ad1983a7e7d39d45f-326x359-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Stand Out In The Admission Process"
+          },
+          {
+            "_key": "benefit-learning",
+            "_type": "card",
+            "description": "Understand that meaningful learning occurs when students engage in critical thinking.",
+            "icon": {
+              "_type": "image",
+              "alt": "Learning",
+              "asset": {
+                "_ref": "image-e24a7731f21cd42cc92d0069309577357be1748c-357x359-png",
+                "_type": "reference"
+              }
+            },
+            "title": "College-Level Learning"
+          },
+          {
+            "_key": "benefit-recognition",
+            "_type": "card",
+            "description": "Emphasize the importance of effort and persistence in achievement.",
+            "icon": {
+              "_type": "image",
+              "alt": "Global ",
+              "asset": {
+                "_ref": "image-d381c21b4a944b98388c01043653f0ca00d2003e-360x360-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Global Recognition"
+          },
+          {
+            "_key": "benefit-savings",
+            "_type": "card",
+            "description": "Most colleges and universities worldwide grant credit and/or placement for qualifying AP exam scores.",
+            "icon": {
+              "_type": "image",
+              "alt": "Savings",
+              "asset": {
+                "_ref": "image-fc8d272a9e2c391415f2c15688b8856861b98b69-320x346-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Cost Savings"
+          },
+          {
+            "_key": "benefit-advantage",
+            "_type": "card",
+            "description": "AP students typically achieve higher college GPAs.",
+            "icon": {
+              "_type": "image",
+              "alt": "Academic",
+              "asset": {
+                "_ref": "image-fb17a2440e22ac9e0c3865bef07f629854f7ca86-413x346-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Academic Advantage"
+          },
+          {
+            "_key": "benefit-scholarship",
+            "_type": "card",
+            "description": "AP participation may increase eligibility for certain scholarships.",
+            "icon": {
+              "_type": "image",
+              "alt": "Scholarship",
+              "asset": {
+                "_ref": "image-f0b1694ee73b822ce8fa97db18a5166a1c591c61-356x333-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Scholarship Opportunities"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "subtitle": "We offer a range of AP courses to challenge and prepare students for higher education:",
+          "title": "Benefits of AP Courses"
+        },
+        "slot": "apBenefitsSection"
+      },
+      {
+        "_key": "dayInLifeSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-day",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-day-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school. From engaging classroom activities to creative projects, friendships, and memorable moments, these snapshots reflect the energy, growth, and joy that define everyday school life."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Day in the Life"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi teacher high-fiving a student in class",
+          "asset": {
+            "_ref": "image-41908a06e38082b6bbf12ca9a948b290b340f2b6-540x452-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "dayInLifeSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore High School academics at Sharjah American International School. Grades 9–12 with AP courses, electives, and college preparation.",
+      "image": {
+        "_type": "image",
+        "alt": "High School",
+        "asset": {
+          "_ref": "image-ef9a1d883b5820423fe136d38325ef2837962a34-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "High School | Academics | SAIS - Abu Dhabi"
+    },
+    "title": "High School"
+  }
+]
