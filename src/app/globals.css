@@ -1634,10 +1634,8 @@ button[aria-label="Open Next.js Dev Tools"] {
   }
 
   .academics-kg-excellence-slider .academics-learning-slider__curve {
-    left: -13%;
-    width: 50%;
-    transform: skewX(-8deg) scaleX(1.12);
-    transform-origin: 50% 50%;
+    left: -6%;
+    width: 48%;
   }
 
   .academics-kg-excellence-slider .academics-learning-slider__curve-line {
@@ -18085,11 +18083,6 @@ a.school-policy-card__cover:hover {
   font-size: var(--sais-body-text-size) !important;
   font-weight: 600;
   line-height: 1.5 !important;
-}
-
-/* No ring line over the intro photo; the panel keeps its orange curve. */
-.academics-kindergarten-page .academics-kg-excellence-slider .academics-learning-slider__curve-line {
-  display: none;
 }
 
 /* The policy row's button is an outline on white. */
