@@ -18142,3 +18142,13 @@ a.school-policy-card__cover:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Elementary: the assessment detail row sits on white with the photo on the left,
+   and the day-in-the-life panel keeps the kindergarten proportions. */
+.academics-elementary-page .academics-elementary-assessment-detail.editorial-split-section {
+  background: #ffffff;
+}
+
+.academics-elementary-page .academics-elementary-assessment__title {
+  white-space: pre-line;
+}

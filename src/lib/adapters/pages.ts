@@ -210,11 +210,10 @@ export function adaptElementary(page: CmsPage): AcademicsElementaryPageData {
   const s = bySlot(page);
   return {
     ...base(page),
-    intro: textSection(s.get("intro")),
     curriculumSection: imageText(s.get("curriculumSection")),
     assessmentSection: imageText(s.get("assessmentSection")),
     assessmentDetailSection: imageText(s.get("assessmentDetailSection")),
-    assessmentSupportSection: imageText(s.get("assessmentSupportSection")),
+    dayInLifeSection: imageText(s.get("dayInLifeSection")),
   };
 }
 

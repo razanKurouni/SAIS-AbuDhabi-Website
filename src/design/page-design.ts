@@ -151,30 +151,26 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "center",
       "panelColor": "#00A5B2",
       "textColor": "#ffffff",
-      "titleColor": "#216B97",
+      "titleColor": "#ffffff",
       "waveColor": "#216B97"
     },
     "assessmentDetailSection": {
-      "imagePosition": "center",
-      "panelColor": "#216B97",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#00A5B2"
+      "imagePosition": "left"
     },
-    "assessmentSupportSection": {
+    "dayInLifeSection": {
       "imagePosition": "center",
       "imageSide": "right",
-      "panelColor": "#216B97",
+      "panelColor": "#00A5B2",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
-      "waveColor": "#00A5B2"
+      "waveColor": "#216B97"
     },
     "curriculumSection": {
       "backgroundColor": "#00A5B2",
       "imagePosition": "center",
       "panelColor": "#216B97",
       "textColor": "#ffffff",
-      "titleColor": "#00A5B2",
+      "titleColor": "#ffffff",
       "waveColor": "#00A5B2"
     },
     "hero": {
@@ -184,11 +180,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "topLineColor": "#216B97",
       "waveColor": "#d97252"
-    },
-    "intro": {
-      "backgroundColor": "#ffffff",
-      "textColor": "#00A5B2",
-      "titleColor": "#216B97"
     }
   },
   "academics-high-school-page": {

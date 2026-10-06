@@ -734,22 +734,14 @@ export type AcademicsKindergartenPageData = {
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
 };
 
-export type AcademicsElementaryIntroSection = {
-  heading?: SectionHeading;
-  titleColor?: string;
-  textColor?: string;
-  backgroundColor?: string;
-};
-
 export type AcademicsElementaryPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  intro?: AcademicsElementaryIntroSection;
   curriculumSection?: AcademicsKindergartenFeatureSection;
   assessmentSection?: AcademicsKindergartenFeatureSection;
-  assessmentDetailSection?: AcademicsKindergartenFeatureSection;
-  assessmentSupportSection?: AcademicsKindergartenFeatureSection;
+  assessmentDetailSection?: ImageTextSection;
+  dayInLifeSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type AcademicsMiddleSchoolPageData = {

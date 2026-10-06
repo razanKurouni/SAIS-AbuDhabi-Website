@@ -1,16 +1,13 @@
-import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
-import { RichText } from "@/components/ui/rich-text";
-import { SectionReveal } from "@/components/ui/section-reveal";
 import { getAcademicsElementaryPage, getHomepage } from "@/lib/sanity";
 import type {
   AcademicsKindergartenFeatureSection,
-  AcademicsElementaryIntroSection,
   ImageTextSection,
   InnerNavigationItem,
   PortableTextBlock,
@@ -61,12 +58,6 @@ const fallbackInnerNavigation = {
   ariaLabel: string;
 };
 
-type IntroStyle = CSSProperties & {
-  "--academics-kg-intro-bg"?: string;
-  "--academics-kg-intro-title"?: string;
-  "--academics-kg-intro-text"?: string;
-};
-
 function paragraph(_key: string, text: string): PortableTextBlock {
   return {
     _key,
@@ -106,21 +97,6 @@ const fallbackHero = {
   textColor: "#ffffff",
   imagePosition: "center",
   imageWidth: "60%",
-};
-
-const fallbackIntro: Required<AcademicsElementaryIntroSection> = {
-  heading: {
-    title: "Building Strong Foundations for Deeper Learning",
-    description: [
-      paragraph(
-        "elementary-intro",
-        "In Grades 3 and 4, our teaching and learning approaches evolve to build upon the foundational skills acquired in the early years while further developing critical thinking, problem-solving, and collaboration skills."
-      ),
-    ],
-  },
-  titleColor: "var(--sais-primary)",
-  textColor: "var(--sais-accent)",
-  backgroundColor: "#ffffff",
 };
 
 const fallbackCurriculumSection: Required<AcademicsKindergartenFeatureSection> = {
@@ -177,14 +153,14 @@ const fallbackAssessmentSection: Required<AcademicsKindergartenFeatureSection> =
   textColor: "#ffffff",
 };
 
-const fallbackAssessmentSupportSection: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "" },
+const fallbackDayInLifeSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "A Day in the Life" },
   image: {},
   imageSide: "right",
   imagePosition: "center",
   backgroundColor: "#ffffff",
-  panelColor: "#216B97",
-  waveColor: "#00A5B2",
+  panelColor: "#00A5B2",
+  waveColor: "#216B97",
   titleColor: "#ffffff",
   textColor: "#ffffff",
 };
@@ -192,18 +168,12 @@ const fallbackAssessmentSupportSection: Required<AcademicsKindergartenFeatureSec
 export default async function AcademicsElementaryPage() {
   const [data, elementaryPage] = await Promise.all([getHomepage(), getAcademicsElementaryPage()]);
   const hero = elementaryPage?.hero;
-  const intro = elementaryPage?.intro || fallbackIntro;
   const curriculumSection = elementaryPage?.curriculumSection || fallbackCurriculumSection;
   const assessmentSection = elementaryPage?.assessmentSection || fallbackAssessmentSection;
   const assessmentDetailSection = elementaryPage?.assessmentDetailSection;
-  const assessmentSupportSection = elementaryPage?.assessmentSupportSection;
+  const dayInLifeSection = elementaryPage?.dayInLifeSection;
   const innerNavigation = elementaryPage?.innerNavigation;
   const innerNavItems = resolveInnerNavItems(innerNavigation?.items);
-  const introStyle: IntroStyle = {
-    "--academics-kg-intro-bg": intro.backgroundColor || fallbackIntro.backgroundColor,
-    "--academics-kg-intro-title": intro.titleColor || fallbackIntro.titleColor,
-    "--academics-kg-intro-text": intro.textColor || fallbackIntro.textColor,
-  };
   const curriculumIntroSection: ImageTextSection = {
     heading: curriculumSection.heading || fallbackCurriculumSection.heading,
     image: curriculumSection.image || fallbackCurriculumSection.image,
@@ -250,21 +220,6 @@ export default async function AcademicsElementaryPage() {
         ariaLabel={innerNavigation?.ariaLabel || fallbackInnerNavigation.ariaLabel}
       />
 
-      <section
-        className="academics-kg-intro academics-elementary-intro"
-        aria-labelledby="academics-elementary-intro-title"
-        style={introStyle}
-      >
-        <SectionReveal className="academics-kg-intro__inner">
-          {intro.heading?.title ? (
-            <h2 id="academics-elementary-intro-title" className="academics-kg-intro__title">
-              {intro.heading.title}
-            </h2>
-          ) : null}
-          <RichText blocks={intro.heading?.description} className="academics-kg-intro__body" />
-        </SectionReveal>
-      </section>
-
       <IntroFeatureSection
         className="academics-elementary-curriculum-feature"
         titleId="academics-elementary-curriculum-title"
@@ -283,26 +238,31 @@ export default async function AcademicsElementaryPage() {
       />
 
       {assessmentDetailSection ? (
-        <IntroFeatureSection
-          className="academics-elementary-assessment-detail"
-          titleId="academics-elementary-assessment-detail-title"
-          section={{ heading: assessmentDetailSection.heading || { title: "" }, image: assessmentDetailSection.image }}
-          fallbackSection={{ heading: { title: "" }, image: {} }}
-          panelColor={assessmentDetailSection.panelColor || "#216B97"}
-          accentColor={assessmentDetailSection.waveColor || "#00A5B2"}
-          titleColor={assessmentDetailSection.titleColor || "#ffffff"}
-          textColor={assessmentDetailSection.textColor || "#ffffff"}
-          imagePosition={assessmentDetailSection.imagePosition || "center"}
+        <EditorialSplitSection
+          id="academics-elementary-assessment-detail"
+          title={assessmentDetailSection.heading?.title || "Assessment"}
+          section={assessmentDetailSection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-elementary-assessment-detail"
+          preserveRichText
         />
       ) : null}
 
-      <AcademicsElementaryAssessmentSection
-        section={assessmentSupportSection}
-        fallbackSection={fallbackAssessmentSupportSection}
-        className="academics-elementary-assessment-support academics-middle-school-tailored-section"
-        imageSide="right"
-        titleId="academics-elementary-assessment-support-title"
-      />
+      {dayInLifeSection ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature academics-elementary-day-feature"
+          titleId="academics-elementary-day-title"
+          section={{ heading: dayInLifeSection.heading || { title: "" }, image: dayInLifeSection.image }}
+          fallbackSection={{ heading: fallbackDayInLifeSection.heading, image: {} }}
+          panelColor={dayInLifeSection.panelColor || fallbackDayInLifeSection.panelColor}
+          accentColor={dayInLifeSection.waveColor || fallbackDayInLifeSection.waveColor}
+          titleColor={dayInLifeSection.titleColor || fallbackDayInLifeSection.titleColor}
+          textColor={dayInLifeSection.textColor || fallbackDayInLifeSection.textColor}
+          imagePosition={dayInLifeSection.imagePosition || fallbackDayInLifeSection.imagePosition}
+          imageSide="right"
+        />
+      ) : null}
 
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Elementary" />
       <TourIntroSection section={data?.tour} />
