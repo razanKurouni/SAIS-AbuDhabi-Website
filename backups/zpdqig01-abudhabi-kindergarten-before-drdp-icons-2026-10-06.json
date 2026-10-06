@@ -1,0 +1,264 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-kindergarten-page",
+    "_rev": "ZYOLiJL2xuwJLbAtcFdDy0",
+    "_system": {
+      "base": {
+        "id": "academics-kindergarten-page",
+        "rev": "jtzXmr5sPTxAjhSjhtVNy0"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T07:14:05Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Kindergarten"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/kindergarten",
+    "sections": [
+      {
+        "_key": "excellenceSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-intro-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-intro-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In Early Years, we focus on hands-on learning and learning through fun. Through carefully designed play-based and project-based activities, our youngest learners explore foundational concepts in a joyful environment. Daily activities integrate reading, social-emotional learning (SEL), STEM, and robotics, nurturing curiosity and creativity from an early age."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten students playing tambourines in music class",
+          "asset": {
+            "_ref": "image-8dada507552d977777398a935ac429e603d449b9-1566x1312-png",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "picture",
+          "asset": {
+            "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "excellenceSection"
+      },
+      {
+        "_key": "curriculumSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-curriculum-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-curriculum-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Early Years curriculum provides hands-on, inquiry-based learning through thematic units and play-based exploration. Integrated with California Common Core State Standards, the program emphasizes foundational literacy, numeracy, science, and social-emotional development."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten student high-fiving his teacher in class",
+          "asset": {
+            "_ref": "image-c3a365aae44acb525c4ab14b08fddc6a759217c3-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "arabicPolicySection",
+        "_type": "imageTextSection",
+        "ctas": [
+          {
+            "_key": "kg-arabic-cta",
+            "_type": "cta",
+            "href": "#",
+            "label": "Learn More"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-arabic-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-arabic-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Under the policy of using the Arabic language in education and in line with the directives of ADEK and the UAE Ministry of Education, Sharjah American International School has developed a structured plan for teaching Arabic Language, Islamic Education, and Social Studies at the Kindergarten stage. This policy aims to strengthen early language, social, and religious skills through age-appropriate learning experiences, promote national identity and a sense of belonging, ensure equal access to learning the official language of the country, and support cultural understanding and inclusion within the diverse community of the UAE."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Arabic Language Policy"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten student smiling at her desk",
+          "asset": {
+            "_ref": "image-dc615db6a4f0d814e039cb81435682d5be1be667-1560x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "arabicPolicySection"
+      },
+      {
+        "_key": "drdpSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "socially-competent",
+            "_type": "card",
+            "iconType": "people",
+            "title": "Children Are Personally\nand Socially Competent"
+          },
+          {
+            "_key": "effective-learners",
+            "_type": "card",
+            "iconType": "book",
+            "title": "Children Are\nEffective Learners"
+          },
+          {
+            "_key": "motor-competence",
+            "_type": "card",
+            "iconType": "activity",
+            "title": "Children Show Physical\nand Motor Competence"
+          },
+          {
+            "_key": "safe-healthy",
+            "_type": "card",
+            "iconType": "care",
+            "title": "Children Are Safe\nand Healthy"
+          },
+          {
+            "_key": "families-support",
+            "_type": "card",
+            "iconType": "family",
+            "title": "Families Support their Child’s\nLearning and Development"
+          },
+          {
+            "_key": "families-goals",
+            "_type": "card",
+            "iconType": "target",
+            "title": "Families Achieve Their Goals"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-drdp-outro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-drdp-outro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Teachers place each child on a specific developmental level for each measure.\nThere are four main developmental levels."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "We use the DRDP (Desired Results Developmental Profile) assessment in Early Years, which is an observational and portfolio-based assessment that measures young children's learning and development. More specifically, it measures progress on the following six “desired results”."
+        },
+        "slot": "drdpSection"
+      },
+      {
+        "_key": "dayInLifeSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-day-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-day-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school. From engaging classroom activities to creative projects, friendships, and memorable moments, these snapshots reflect the energy, growth, and joy that define everyday school life."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Day in the Life"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten students reading together on a beanbag",
+          "asset": {
+            "_ref": "image-0692c66340ac771ac4d74d010807d52175eae4d4-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "dayInLifeSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore Kindergarten academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "Explore Kindergarten academics at Sharjah American International School.",
+        "asset": {
+          "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "Kindergarten | Academics | SAIS - Abu Dhabi"
+    },
+    "title": "Kindergarten"
+  }
+]
