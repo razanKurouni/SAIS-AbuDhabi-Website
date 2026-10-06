@@ -307,42 +307,34 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "academics-middle-school-page": {
     "assessmentDetailSection": {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#f2f2f2",
       "imagePosition": "left",
       "textColor": "#707278",
       "theme": "light"
     },
     "assessmentSection": {
-      "backgroundColor": "#ffffff",
       "imagePosition": "center",
       "imageSide": "right",
       "panelColor": "#216B97",
       "textColor": "#ffffff",
-      "titleColor": "#00A5B2",
+      "titleColor": "#ffffff",
       "waveColor": "#00A5B2"
     },
-    "curriculumLifeSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "right",
-      "textColor": "#666b70",
-      "theme": "light"
-    },
-    "curriculumOverviewSection": {
-      "backgroundColor": "#00A5B2",
-      "firstBlock": {
-        "backgroundColor": "transparent",
-        "imagePosition": "left",
-        "textColor": "#ffffff",
-        "titleColor": "#216B97"
-      },
-      "secondBlock": {
-        "backgroundColor": "transparent",
-        "imagePosition": "right",
-        "textColor": "#ffffff",
-        "titleColor": "#216B97"
-      },
+    "curriculumSection": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#00A5B2",
       "textColor": "#ffffff",
-      "titleColor": "#216B97"
+      "titleColor": "#ffffff",
+      "waveColor": "#d97252"
+    },
+    "dayInLifeSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#d97252",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
     },
     "hero": {
       "imagePosition": "center",
@@ -364,14 +356,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "cardHoverBorderColor": "#00A5B2",
       "cardTextColor": "#216B97",
       "titleColor": "#00A5B2"
-    },
-    "tailoredInstructionSection": {
-      "imagePosition": "center",
-      "imageSide": "left",
-      "panelColor": "#d97252",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#216B97"
     }
   },
   "academics-page": {

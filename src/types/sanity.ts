@@ -749,12 +749,11 @@ export type AcademicsMiddleSchoolPageData = {
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
   overviewSection?: ImageTextSection;
-  tailoredInstructionSection?: AcademicsKindergartenFeatureSection;
-  curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
-  curriculumLifeSection?: ImageTextSection;
-  assessmentSection?: ContactInfoSection;
+  curriculumSection?: AcademicsKindergartenFeatureSection;
+  assessmentSection?: AcademicsKindergartenFeatureSection;
   assessmentDetailSection?: ImageTextSection;
   supportProgramsSection?: AcademicsSupportProgramsSection;
+  dayInLifeSection?: AcademicsKindergartenFeatureSection;
   learningPhasesElementaryImage?: SanityImage;
 };
 

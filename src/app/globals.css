@@ -18152,3 +18152,12 @@ a.school-policy-card__cover:hover {
 .academics-elementary-page .academics-elementary-assessment__title {
   white-space: pre-line;
 }
+
+/* Middle School: the assessment panel and the details row sit on the grey band. */
+.academics-middle-school-page .academics-middle-school-assessment-feature.intro-feature {
+  background: #f2f2f2;
+}
+
+.academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
+  background: #f2f2f2;
+}

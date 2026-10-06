@@ -4,6 +4,7 @@ import { AcademicsElementaryAssessmentSection } from "@/components/sections/acad
 import { AcademicsSupportProgramsSliderSection } from "@/components/sections/academics-support-programs-slider-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
+import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { getAcademicsMiddleSchoolPage, getHomepage } from "@/lib/sanity";
 import { LearningPhasesSection } from "@/components/sections/learning-phases-section";
@@ -12,7 +13,6 @@ import { TourSection } from "@/components/sections/tour-section";
 import type {
   AcademicsKindergartenFeatureSection,
   AcademicsSupportProgramsSection as AcademicsSupportProgramsSectionData,
-  ContactInfoSection as ContactInfoSectionData,
   ImageTextSection,
   InnerNavigationItem,
   PortableTextBlock,
@@ -122,76 +122,40 @@ const fallbackOverviewSection: ImageTextSection = {
   textColor: "#666b70",
 };
 
-const fallbackTailoredInstructionSection: Required<AcademicsKindergartenFeatureSection> = {
-  heading: {
-    title: "Tailored Instruction for Every Stage of Learning",
-    description: [
-      paragraph(
-        "middle-school-tailored-instruction",
-        "At SAIS - Abu Dhabi, these transitions are carefully considered in the design of pedagogical approaches. Teachers utilize a variety of instructional strategies tailored to the subject area and the developmental stage of students, fostering independence, critical thinking, and collaborative skills. The curriculum is structured to provide a balanced blend of academic rigor, inquiry-based learning, and opportunities for exploration and self-discovery, ensuring that students thrive academically and socially during this transitional period."
-      ),
-    ],
-  },
-  image: {
-    url: "/academics-middle-school-tailored.png",
-    alt: "SAIS - Abu Dhabi middle school student playing keyboard during music class",
-  },
+const fallbackCurriculumSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "The Curriculum" },
+  image: {},
   imageSide: "left",
   imagePosition: "center",
   backgroundColor: "#ffffff",
-  panelColor: "#d97252",
-  waveColor: "var(--sais-accent)",
+  panelColor: "#00A5B2",
+  waveColor: "#d97252",
   titleColor: "#ffffff",
   textColor: "#ffffff",
 };
 
-const fallbackAssessmentSection: ContactInfoSectionData = {
-  heading: {
-    title: "Assessment",
-    description: [
-      paragraph(
-        "middle-school-assessment",
-        "Assessment in Middle School follows a balanced approach that integrates formative assessment, such as observations, classwork, and ongoing feedback, with summative assessment, including quizzes, projects, and exams to evaluate student understanding. This process is aligned with international standards and supported by global benchmarking tools such as MAP Growth (NWEA) and CAT4, as well as Arabic international assessments, ensuring data-driven instruction, continuous progress monitoring, and personalized learning that supports every student's academic growth and development across all subjects."
-      ),
-    ],
-  },
-  image: {
-    url: "/academics-middle-school-assessment.png",
-    alt: "SAIS - Abu Dhabi middle school students reviewing a book together",
-  },
+const fallbackAssessmentSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "Assessment" },
+  image: {},
+  imageSide: "right",
   imagePosition: "center",
-  panelColor: "#d97252",
-  waveColor: "#216B97",
+  backgroundColor: "#f2f2f2",
+  panelColor: "#216B97",
+  waveColor: "#00A5B2",
   titleColor: "#ffffff",
   textColor: "#ffffff",
 };
 
-const fallbackCurriculumLifeSection: ImageTextSection = {
-  heading: {
-    title: "",
-    description: [
-      paragraph(
-        "middle-school-curriculum-life-activities",
-        "Beyond the classroom, we offer a variety of extracurricular activities and after-school clubs, such as chess, robotics, cooking, and more. These programs develop students’ interests, confidence, and leadership skills."
-      ),
-      paragraph(
-        "middle-school-curriculum-life-celebrations",
-        "Through local celebrations like National Day, Ramadan, and Eid, and global initiatives like Earth Day, Cancer Awareness Campaigns, and International Day, students gain a deeper appreciation of both their heritage and the wider world."
-      ),
-      paragraph(
-        "middle-school-curriculum-life-future",
-        "We don’t just prepare students for high school, we prepare them for life. We guide them to turn uncertainty into ambition, ideas into impact, and dreams into achievable goals."
-      ),
-    ],
-  },
-  image: {
-    url: "https://cdn.sanity.io/images/uwffig4f/sais-sharjah/afff5f58a744e3b8fae87f673bc800711e8fad09-1528x1252.jpg",
-    alt: "SAIS - Abu Dhabi students participating in class",
-  },
-  imagePosition: "right",
-  theme: "light",
+const fallbackDayInLifeSection: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "A Day in the Life" },
+  image: {},
+  imageSide: "right",
+  imagePosition: "center",
   backgroundColor: "#ffffff",
-  textColor: "#666b70",
+  panelColor: "#d97252",
+  waveColor: "#00A5B2",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
 };
 
 const fallbackSupportProgramsSection: AcademicsSupportProgramsSectionData = {
@@ -254,31 +218,9 @@ export default async function AcademicsMiddleSchoolPage() {
     image: middleSchoolPage?.overviewSection?.image || fallbackOverviewSection.image,
     imagePosition: "right",
   };
-  const tailoredInstructionSection =
-    middleSchoolPage?.tailoredInstructionSection || fallbackTailoredInstructionSection;
-  const curriculumLifeSection = middleSchoolPage?.curriculumLifeSection || fallbackCurriculumLifeSection;
-  const assessmentSection = middleSchoolPage?.assessmentSection || fallbackAssessmentSection;
-  const fallbackAssessmentFeature: Required<AcademicsKindergartenFeatureSection> = {
-    heading: fallbackAssessmentSection.heading!,
-    image: fallbackAssessmentSection.image || {},
-    imageSide: "right",
-    imagePosition: "center",
-    backgroundColor: "#ffffff",
-    panelColor: "#216B97",
-    waveColor: "#00A5B2",
-    titleColor: "#00A5B2",
-    textColor: "#ffffff",
-  };
-  const assessmentFeature: AcademicsKindergartenFeatureSection = {
-    heading: assessmentSection.heading || fallbackAssessmentFeature.heading,
-    image: assessmentSection.image || fallbackAssessmentFeature.image,
-    imageSide: "right",
-    imagePosition: assessmentSection.imagePosition || "center",
-    panelColor: assessmentSection.panelColor || fallbackAssessmentFeature.panelColor,
-    waveColor: assessmentSection.waveColor || fallbackAssessmentFeature.waveColor,
-    titleColor: assessmentSection.titleColor || fallbackAssessmentFeature.titleColor,
-    textColor: assessmentSection.textColor || fallbackAssessmentFeature.textColor,
-  };
+  const curriculumSection = middleSchoolPage?.curriculumSection || fallbackCurriculumSection;
+  const assessmentSection = middleSchoolPage?.assessmentSection;
+  const dayInLifeSection = middleSchoolPage?.dayInLifeSection;
   const supportProgramsSection =
     middleSchoolPage?.supportProgramsSection || fallbackSupportProgramsSection;
   const learningPhasesSection = data?.learningPhases
@@ -338,30 +280,26 @@ export default async function AcademicsMiddleSchoolPage() {
 
       <AcademicsElementaryAssessmentSection
         className="academics-middle-school-tailored-section"
-        imageSide={tailoredInstructionSection.imageSide || fallbackTailoredInstructionSection.imageSide}
-        titleId="academics-middle-school-tailored-title"
-        section={tailoredInstructionSection}
-        fallbackSection={fallbackTailoredInstructionSection}
+        imageSide={curriculumSection.imageSide || fallbackCurriculumSection.imageSide}
+        titleId="academics-middle-school-curriculum-title"
+        section={curriculumSection}
+        fallbackSection={fallbackCurriculumSection}
       />
 
-      <EditorialSplitSection
-        id="academics-middle-school-curriculum-life"
-        title="Beyond the Classroom"
-        section={curriculumLifeSection}
-        fallbackImage={fallbackCurriculumLifeSection.image || {}}
-        fallbackParagraphs={[]}
-        className="academics-middle-school-overview-section"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
-        showTitle
-      />
-
-      <AcademicsElementaryAssessmentSection
-        section={assessmentFeature}
-        fallbackSection={fallbackAssessmentFeature}
-        className="academics-middle-school-assessment-feature academics-middle-school-tailored-section"
-        imageSide="right"
-        titleId="academics-middle-school-assessment-title"
-      />
+      {assessmentSection ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature academics-middle-school-assessment-feature"
+          titleId="academics-middle-school-assessment-title"
+          section={{ heading: assessmentSection.heading || fallbackAssessmentSection.heading, image: assessmentSection.image }}
+          fallbackSection={{ heading: fallbackAssessmentSection.heading, image: {} }}
+          panelColor={assessmentSection.panelColor || fallbackAssessmentSection.panelColor}
+          accentColor={assessmentSection.waveColor || fallbackAssessmentSection.waveColor}
+          titleColor={assessmentSection.titleColor || fallbackAssessmentSection.titleColor}
+          textColor={assessmentSection.textColor || fallbackAssessmentSection.textColor}
+          imagePosition={assessmentSection.imagePosition || fallbackAssessmentSection.imagePosition}
+          imageSide="right"
+        />
+      ) : null}
 
       {middleSchoolPage?.assessmentDetailSection ? (
         <EditorialSplitSection
@@ -381,6 +319,22 @@ export default async function AcademicsMiddleSchoolPage() {
         className="academics-middle-school-support-programs"
         autoplayIntervalMs={3200}
       />
+
+      {dayInLifeSection ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature academics-middle-school-day-feature"
+          titleId="academics-middle-school-day-title"
+          section={{ heading: dayInLifeSection.heading || fallbackDayInLifeSection.heading, image: dayInLifeSection.image }}
+          fallbackSection={{ heading: fallbackDayInLifeSection.heading, image: {} }}
+          panelColor={dayInLifeSection.panelColor || fallbackDayInLifeSection.panelColor}
+          accentColor={dayInLifeSection.waveColor || fallbackDayInLifeSection.waveColor}
+          titleColor={dayInLifeSection.titleColor || fallbackDayInLifeSection.titleColor}
+          textColor={dayInLifeSection.textColor || fallbackDayInLifeSection.textColor}
+          imagePosition={dayInLifeSection.imagePosition || fallbackDayInLifeSection.imagePosition}
+          imageSide="right"
+        />
+      ) : null}
+
       <LearningPhasesSection section={learningPhasesSection} excludeTitle="Middle School" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

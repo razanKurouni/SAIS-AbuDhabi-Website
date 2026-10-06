@@ -462,7 +462,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "image"
     ],
     "heading": [
-      "description"
+      "description",
+      "title"
     ],
     "card": [],
     "cardEntry": [],
@@ -481,7 +482,20 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-middle-school-page/curriculumLifeSection": {
+  "academics-middle-school-page/curriculumSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-middle-school-page/dayInLifeSection": {
     "section": [
       "heading",
       "image"
@@ -530,19 +544,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "iconType",
       "title"
     ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-middle-school-page/tailoredInstructionSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
     "cardEntry": [],
     "entry": []
   },

@@ -219,21 +219,16 @@ export function adaptElementary(page: CmsPage): AcademicsElementaryPageData {
 
 export function adaptMiddleSchool(page: CmsPage): AcademicsMiddleSchoolPageData {
   const s = bySlot(page);
-  const overview = s.get("curriculumOverviewSection");
-  const first = imageText(s.get("curriculumOverviewSection.firstBlock"));
-  const second = imageText(s.get("curriculumOverviewSection.secondBlock"));
   return {
     ...base(page),
     overviewSection: imageText(s.get("overviewSection")),
-    tailoredInstructionSection: imageText(s.get("tailoredInstructionSection")),
-    curriculumOverviewSection:
-      overview || first || second ? { heading: heading(overview), firstBlock: first, secondBlock: second } : undefined,
-    curriculumLifeSection: imageText(s.get("curriculumLifeSection")),
-    assessmentSection: contactInfo(s.get("assessmentSection")),
+    curriculumSection: imageText(s.get("curriculumSection")),
+    assessmentSection: imageText(s.get("assessmentSection")),
     assessmentDetailSection: imageText(s.get("assessmentDetailSection")),
     supportProgramsSection: s.has("supportProgramsSection")
       ? { heading: heading(s.get("supportProgramsSection")), cards: iconCards(s.get("supportProgramsSection")) }
       : undefined,
+    dayInLifeSection: imageText(s.get("dayInLifeSection")),
     learningPhasesElementaryImage: image(s.get("learningPhasesElementaryImage")?.image),
   };
 }
