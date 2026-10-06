@@ -1,8 +1,9 @@
-import { Goal, Medal, UsersRound } from "lucide-react";
+import { BrainCog, ClipboardCheck, Globe2, Goal, Medal, Network, PersonStanding, ShieldCheck, UsersRound } from "lucide-react";
 import type { ComponentType } from "react";
 import { HoverIconCard } from "@/components/ui/hover-icon-card";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { Reveal } from "@/components/ui/reveal";
+import { RichText } from "@/components/ui/rich-text";
 import type { AcademicsTeachingCommitmentsSection as AcademicsTeachingCommitmentsSectionData } from "@/types/sanity";
 
 type AcademicsTeachingCommitmentsSectionProps = {
@@ -19,6 +20,12 @@ const iconMap: Record<string, ComponentType<IconProps>> = {
   expectations: Goal,
   engagement: UsersRound,
   achievement: Medal,
+  standards: ClipboardCheck,
+  pbl: BrainCog,
+  udl: PersonStanding,
+  identity: ShieldCheck,
+  social: Globe2,
+  connections: Network,
 };
 
 export function AcademicsTeachingCommitmentsSection({
@@ -65,6 +72,10 @@ export function AcademicsTeachingCommitmentsSection({
               );
             })}
           </div>
+        ) : null}
+
+        {heading?.description?.length ? (
+          <RichText blocks={heading.description} className="academics-teaching__outro" />
         ) : null}
       </SectionReveal>
     </section>

@@ -389,22 +389,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#707278",
       "titleColor": "#216B97"
     },
-    "cultureSection": {
-      "imagePosition": "center",
-      "theme": "dark"
-    },
-    "curriculumOverviewSection": {
-      "firstBlock": {
-        "imagePosition": "right",
-        "theme": "light"
-      },
-      "secondBlock": {
-        "backgroundColor": "#ffffff",
-        "imagePosition": "left",
-        "textColor": "#707278",
-        "theme": "light"
-      }
-    },
     "curriculumSection": {
       "imagePosition": "center",
       "panelColor": "#00A5B2",
@@ -451,81 +435,19 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
         }
       ]
     },
-    "skillsSection": {
-      "groups": [
-        {
-          "items": [
-            {
-              "theme": "teal"
-            },
-            {
-              "theme": "teal"
-            },
-            {
-              "theme": "teal"
-            },
-            {
-              "theme": "teal"
-            }
-          ]
-        },
-        {
-          "items": [
-            {
-              "theme": "orange"
-            },
-            {
-              "theme": "orange"
-            },
-            {
-              "theme": "orange"
-            },
-            {
-              "theme": "orange"
-            }
-          ]
-        }
-      ]
-    },
     "steamSection": {
       "imagePosition": "left",
       "theme": "light"
     },
-    "careerGuidanceSection": {
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#6F7175",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#00A5B2"
+    "inclusionSection": {
+      "imagePosition": "right"
     },
-    "careerGuidanceDetailSection": {
+    "inclusionFeatureSection": {
       "imagePosition": "center",
-      "panelColor": "#D97252",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#216B97"
-    },
-    "careerGuidanceOutreachSection": {
-      "backgroundColor": "#f4f4f4",
-      "imagePosition": "right",
-      "textColor": "#707278",
-      "theme": "light"
-    },
-    "testingExcellenceSection": {
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#6F7175",
+      "panelColor": "#216B97",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
       "waveColor": "#D97252"
-    },
-    "stemProgramSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "theme": "light",
-      "titleColor": "#00A5B2"
     }
   },
   "admissions-application-page": {

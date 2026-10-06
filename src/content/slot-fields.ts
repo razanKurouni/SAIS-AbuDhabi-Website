@@ -556,83 +556,32 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-page/careerGuidanceDetailSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/careerGuidanceOutreachSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/careerGuidanceSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/cultureSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/curriculumOverviewSection.firstBlock": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/curriculumOverviewSection.secondBlock": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "academics-page/curriculumSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-page/inclusionFeatureSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-page/inclusionSection": {
     "section": [
       "heading",
       "image"
@@ -661,26 +610,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-page/skillsSection": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [
-      "entries",
-      "title"
-    ],
-    "cardEntry": [
-      "icon",
-      "iconType",
-      "label"
-    ],
-    "entry": []
-  },
   "academics-page/steamSection": {
     "section": [
       "heading",
@@ -694,16 +623,15 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-page/stemProgramSection": {
+  "academics-page/supportProgramsSection": {
     "section": [
-      "heading",
-      "image"
+      "cards"
     ],
-    "heading": [
+    "heading": [],
+    "card": [
       "description",
       "title"
     ],
-    "card": [],
     "cardEntry": [],
     "entry": []
   },
@@ -713,27 +641,14 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "heading"
     ],
     "heading": [
+      "description",
       "title"
     ],
     "card": [
       "description",
-      "icon",
       "iconType",
       "title"
     ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-page/testingExcellenceSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
     "cardEntry": [],
     "entry": []
   },
@@ -788,7 +703,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [],
     "card": [
       "body",
-      "description",
       "title"
     ],
     "cardEntry": [],
@@ -939,7 +853,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "image"
     ],
     "heading": [
-      "description"
+      "description",
+      "title"
     ],
     "card": [],
     "cardEntry": [],
@@ -1408,8 +1323,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "image"
     ],
     "heading": [
-      "description",
-      "title"
+      "description"
     ],
     "card": [],
     "cardEntry": [],
@@ -1430,7 +1344,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "our-campus-page/intro": {
     "section": [
-      "body",
       "heading"
     ],
     "heading": [
@@ -1505,6 +1418,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "card": [
       "description",
       "image",
+      "label",
       "subtitle",
       "title"
     ],
@@ -1604,18 +1518,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [
       "description",
       "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "school-policies-page/overviewSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description"
     ],
     "card": [],
     "cardEntry": [],

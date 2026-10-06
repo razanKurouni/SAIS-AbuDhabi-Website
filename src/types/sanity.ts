@@ -675,17 +675,12 @@ export type AcademicsPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   curriculumSection?: ContactInfoSection;
-  cultureSection?: ImageTextSection;
-  steamSection?: ImageTextSection;
-  careerGuidanceSection?: AcademicsKindergartenFeatureSection;
-  careerGuidanceDetailSection?: AcademicsKindergartenFeatureSection;
-  careerGuidanceOutreachSection?: ImageTextSection;
-  skillsSection?: AcademicsSkillsSection;
-  curriculumOverviewSection?: AcademicsCurriculumOverviewSection;
-  testingExcellenceSection?: AcademicsKindergartenFeatureSection;
-  stemProgramSection?: ImageTextSection;
   teachingCommitmentsSection?: AcademicsTeachingCommitmentsSection;
   learningSliderSection?: AcademicsLearningSliderSection;
+  steamSection?: ImageTextSection;
+  inclusionSection?: ImageTextSection;
+  inclusionFeatureSection?: AcademicsKindergartenFeatureSection;
+  supportProgramsSection?: AcademicsSupportProgramsSection;
   assessmentProtocolSection?: AcademicsKindergartenAssessmentSection;
   calendarDownload?: CalendarDownloadSection;
 };
@@ -857,7 +852,7 @@ export type AcademicsTeachingCommitmentCard = {
   title?: string;
   description?: string;
   icon?: SanityImage;
-  iconType?: "expectations" | "engagement" | "achievement";
+  iconType?: string;
 };
 
 export type AcademicsTeachingCommitmentsSection = {

@@ -71,7 +71,6 @@ import {
   policies,
   requirementColumns,
   requiredHeading,
-  skillGroups,
   statementCards,
   steps,
   termsGroups,
@@ -167,26 +166,17 @@ export function adaptOurTeam(page: CmsPage): OurTeamPageData {
 
 export function adaptAcademics(page: CmsPage): AcademicsPageData {
   const s = bySlot(page);
-  const overview = s.get("curriculumOverviewSection");
-  const first = imageText(s.get("curriculumOverviewSection.firstBlock"));
-  const second = imageText(s.get("curriculumOverviewSection.secondBlock"));
   return {
     ...base(page),
     curriculumSection: contactInfo(s.get("curriculumSection")),
-    cultureSection: imageText(s.get("cultureSection")),
-    steamSection: imageText(s.get("steamSection")),
-    careerGuidanceSection: imageText(s.get("careerGuidanceSection")),
-    careerGuidanceDetailSection: imageText(s.get("careerGuidanceDetailSection")),
-    careerGuidanceOutreachSection: imageText(s.get("careerGuidanceOutreachSection")),
-    skillsSection: s.has("skillsSection")
-      ? { heading: heading(s.get("skillsSection")), groups: skillGroups(s.get("skillsSection")) }
-      : undefined,
-    curriculumOverviewSection:
-      overview || first || second ? { heading: heading(overview), firstBlock: first, secondBlock: second } : undefined,
-    testingExcellenceSection: imageText(s.get("testingExcellenceSection")),
-    stemProgramSection: imageText(s.get("stemProgramSection")),
     teachingCommitmentsSection: s.has("teachingCommitmentsSection")
       ? { heading: heading(s.get("teachingCommitmentsSection")), cards: iconCards(s.get("teachingCommitmentsSection")) }
+      : undefined,
+    steamSection: imageText(s.get("steamSection")),
+    inclusionSection: imageText(s.get("inclusionSection")),
+    inclusionFeatureSection: imageText(s.get("inclusionFeatureSection")),
+    supportProgramsSection: s.has("supportProgramsSection")
+      ? { heading: heading(s.get("supportProgramsSection")), cards: iconCards(s.get("supportProgramsSection")) }
       : undefined,
     learningSliderSection: s.has("learningSliderSection")
       ? { heading: heading(s.get("learningSliderSection")), slides: learningSlides(s.get("learningSliderSection")) }
