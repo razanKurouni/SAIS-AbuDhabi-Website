@@ -18262,3 +18262,19 @@ a.school-policy-card__cover:hover {
   font-size: clamp(0.9rem, 0.95vw, 1rem);
   line-height: 1.5;
 }
+
+/* High School: one 62px step between every block. The intro-feature panels sit at
+   the very edge of their sections, so the sections around them carry the gap. */
+.academics-high-school-page .academics-high-school-career-guidance-center {
+  padding-bottom: 46px !important;
+}
+
+.academics-high-school-page .academics-high-school-ap-feature.intro-feature {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.academics-high-school-page .academics-high-school-day-feature.intro-feature {
+  padding-top: 0;
+  padding-bottom: 0;
+}
