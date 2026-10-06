@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
     root: process.cwd(),
   },
   images: {
+    // Pictures are resized by Sanity's CDN instead of Vercel's optimizer,
+    // whose free-plan allowance ran out and started returning 402s.
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
     qualities: [75, 82, 84],
     remotePatterns: [
       {
