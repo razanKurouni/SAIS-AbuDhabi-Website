@@ -727,10 +727,11 @@ export type AcademicsKindergartenPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  intro?: AcademicsKindergartenIntroSection;
   excellenceSection?: AcademicsKindergartenFeatureSection;
-  curriculumSection?: ImageTextSection;
-  assessmentSection?: AcademicsKindergartenFeatureSection;
+  curriculumSection?: AcademicsKindergartenFeatureSection;
+  arabicPolicySection?: ImageTextSection;
+  drdpSection?: AcademicsTeachingCommitmentsSection;
+  dayInLifeSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type AcademicsElementaryIntroSection = {

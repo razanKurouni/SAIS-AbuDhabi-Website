@@ -275,19 +275,27 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "academics-kindergarten-page": {
-    "assessmentSection": {
+    "arabicPolicySection": {
+      "ctas": [
+        {
+          "variant": "secondary"
+        }
+      ],
+      "imagePosition": "left"
+    },
+    "curriculumSection": {
+      "imagePosition": "center",
+      "panelColor": "#6F7175",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
+    },
+    "dayInLifeSection": {
       "imagePosition": "center",
       "panelColor": "#216B97",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
-      "waveColor": "#D97252"
-    },
-    "curriculumSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "right",
-      "textColor": "#707278",
-      "theme": "light",
-      "titleColor": "#216B97"
+      "waveColor": "#00A5B2"
     },
     "excellenceSection": {
       "backgroundColor": "#00A5B2",
@@ -304,11 +312,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "topLineColor": "#d97252",
       "waveColor": "#00A5B2"
-    },
-    "intro": {
-      "backgroundColor": "#ffffff",
-      "textColor": "#216B97",
-      "titleColor": "#00A5B2"
     }
   },
   "academics-middle-school-page": {

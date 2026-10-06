@@ -1,17 +1,15 @@
-import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
+import { AcademicsTeachingCommitmentsSection } from "@/components/sections/academics-teaching-commitments-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
-import { RichText } from "@/components/ui/rich-text";
-import { SectionReveal } from "@/components/ui/section-reveal";
 import { getAcademicsKindergartenPage, getHomepage } from "@/lib/sanity";
 import type {
   AcademicsKindergartenFeatureSection,
-  AcademicsKindergartenIntroSection,
+  AcademicsTeachingCommitmentsSection as AcademicsTeachingCommitmentsSectionData,
   AcademicsLearningSliderSection as AcademicsLearningSliderSectionData,
   InnerNavigationItem,
   PortableTextBlock,
@@ -62,12 +60,6 @@ const fallbackInnerNavigation = {
   ariaLabel: string;
 };
 
-type IntroStyle = CSSProperties & {
-  "--academics-kg-intro-bg"?: string;
-  "--academics-kg-intro-title"?: string;
-  "--academics-kg-intro-text"?: string;
-};
-
 function paragraph(_key: string, text: string): PortableTextBlock {
   return {
     _key,
@@ -91,20 +83,8 @@ const fallbackHero = {
   imageWidth: "60%",
 };
 
-const fallbackIntro: Required<AcademicsKindergartenIntroSection> = {
-  heading: {
-    title: "Building Success Through Collaboration",
-    description: [
-      paragraph(
-        "kg-intro",
-        "In the early years at SAIS - Abu Dhabi, our teaching and learning approaches prioritize play-based learning, exploration, and hands-on experiences to foster holistic development."
-      ),
-    ],
-  },
-  titleColor: "var(--sais-accent)",
-  textColor: "var(--sais-primary)",
-  backgroundColor: "#ffffff",
-};
+
+const fallbackDrdpSection: AcademicsTeachingCommitmentsSectionData = { heading: { title: "" }, cards: [] };
 
 const fallbackExcellenceSection: Required<AcademicsKindergartenFeatureSection> = {
   heading: {
@@ -185,20 +165,16 @@ function toExcellenceSliderSection(
 export default async function AcademicsKindergartenPage() {
   const [data, kindergartenPage] = await Promise.all([getHomepage(), getAcademicsKindergartenPage()]);
   const hero = kindergartenPage?.hero;
-  const intro = kindergartenPage?.intro || fallbackIntro;
   const excellenceSection = kindergartenPage?.excellenceSection || fallbackExcellenceSection;
   const curriculumSection = kindergartenPage?.curriculumSection;
-  const assessmentSection = kindergartenPage?.assessmentSection;
+  const arabicPolicySection = kindergartenPage?.arabicPolicySection;
+  const drdpSection = kindergartenPage?.drdpSection;
+  const dayInLifeSection = kindergartenPage?.dayInLifeSection;
   const innerNavigation = kindergartenPage?.innerNavigation;
   const innerNavItems = resolveInnerNavItems(innerNavigation?.items);
   const heroTitle = hero?.heading?.title || fallbackHero.title;
   const heroEyebrow = hero?.heading?.eyebrow || fallbackHero.eyebrow;
   const heroImage = hero?.image || fallbackHero.image;
-  const introStyle: IntroStyle = {
-    "--academics-kg-intro-bg": intro.backgroundColor || fallbackIntro.backgroundColor,
-    "--academics-kg-intro-title": intro.titleColor || fallbackIntro.titleColor,
-    "--academics-kg-intro-text": intro.textColor || fallbackIntro.textColor,
-  };
   const excellenceSliderSection = toExcellenceSliderSection(excellenceSection, fallbackExcellenceSection);
 
   return (
@@ -234,21 +210,6 @@ export default async function AcademicsKindergartenPage() {
         ariaLabel={innerNavigation?.ariaLabel || fallbackInnerNavigation.ariaLabel}
       />
 
-      <section
-        className="academics-kg-intro"
-        aria-labelledby="academics-kg-intro-title"
-        style={introStyle}
-      >
-        <SectionReveal className="academics-kg-intro__inner">
-          {intro.heading?.title ? (
-            <h2 id="academics-kg-intro-title" className="academics-kg-intro__title">
-              {intro.heading.title}
-            </h2>
-          ) : null}
-          <RichText blocks={intro.heading?.description} className="academics-kg-intro__body" />
-        </SectionReveal>
-      </section>
-
       <AcademicsLearningSliderSection
         className="academics-kg-excellence-slider"
         section={excellenceSliderSection}
@@ -256,29 +217,50 @@ export default async function AcademicsKindergartenPage() {
       />
 
       {curriculumSection ? (
-        <EditorialSplitSection
-          id="academics-kg-curriculum"
-          title="The Curriculum"
-          section={curriculumSection}
-          fallbackImage={{}}
-          fallbackParagraphs={[]}
-          className="academics-steam-section academics-kg-curriculum-section"
-          preserveRichText
-          showTitle
+        <IntroFeatureSection
+          className="academics-kg-curriculum-feature"
+          titleId="academics-kg-curriculum-title"
+          section={{ heading: curriculumSection.heading || { title: "" }, image: curriculumSection.image }}
+          fallbackSection={{ heading: { title: "The Curriculum" }, image: {} }}
+          panelColor={curriculumSection.panelColor || "#6F7175"}
+          accentColor={curriculumSection.waveColor || "#00A5B2"}
+          titleColor={curriculumSection.titleColor || "#ffffff"}
+          textColor={curriculumSection.textColor || "#ffffff"}
+          imagePosition={curriculumSection.imagePosition || "center"}
+          imageSide="right"
         />
       ) : null}
 
-      {assessmentSection ? (
+      {arabicPolicySection ? (
+        <EditorialSplitSection
+          id="academics-kg-arabic-policy"
+          title={arabicPolicySection.heading?.title || "Arabic Language Policy"}
+          section={arabicPolicySection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-kg-arabic-policy-section"
+          preserveRichText
+          showTitle
+          showCtas
+        />
+      ) : null}
+
+      {drdpSection ? (
+        <AcademicsTeachingCommitmentsSection section={drdpSection} fallbackSection={fallbackDrdpSection} />
+      ) : null}
+
+      {dayInLifeSection ? (
         <IntroFeatureSection
-          className="academics-kg-assessment-feature"
-          titleId="academics-kg-assessment-title"
-          section={{ heading: assessmentSection.heading || { title: "" }, image: assessmentSection.image }}
+          className="academics-kg-day-feature"
+          titleId="academics-kg-day-title"
+          section={{ heading: dayInLifeSection.heading || { title: "" }, image: dayInLifeSection.image }}
           fallbackSection={{ heading: { title: "" }, image: {} }}
-          panelColor={assessmentSection.panelColor || "#216B97"}
-          accentColor={assessmentSection.waveColor || "#D97252"}
-          titleColor={assessmentSection.titleColor || "#ffffff"}
-          textColor={assessmentSection.textColor || "#ffffff"}
-          imagePosition={assessmentSection.imagePosition || "center"}
+          panelColor={dayInLifeSection.panelColor || "#216B97"}
+          accentColor={dayInLifeSection.waveColor || "#00A5B2"}
+          titleColor={dayInLifeSection.titleColor || "#ffffff"}
+          textColor={dayInLifeSection.textColor || "#ffffff"}
+          imagePosition={dayInLifeSection.imagePosition || "center"}
+          imageSide="right"
         />
       ) : null}
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Kindergarten" />

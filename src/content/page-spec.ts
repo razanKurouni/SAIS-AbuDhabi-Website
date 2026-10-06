@@ -146,10 +146,11 @@ export const PAGE_SPECS: PageSpec[] = [
     title: "Kindergarten",
     group: "Academics",
     slots: [
-      txt("intro", "Introduction"),
-      it("excellenceSection", "Excellence"),
+      it("excellenceSection", "Intro Panel"),
       it("curriculumSection", "Curriculum"),
-      it("assessmentSection", "Assessment"),
+      it("arabicPolicySection", "Arabic Language Policy"),
+      cards("drdpSection", "DRDP Assessment"),
+      it("dayInLifeSection", "A Day in the Life"),
     ],
   },
   {

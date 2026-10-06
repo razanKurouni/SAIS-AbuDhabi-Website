@@ -1,0 +1,450 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-kindergarten-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "academics-kindergarten-page",
+        "rev": "FCO364qzHDm2jW4qFi85GJ"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Kindergarten"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/kindergarten",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Kindergarten program provides a warm, inspiring, and child-centered environment where every child is encouraged to grow with confidence, curiosity, and joy."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Caring Environment for Growing Minds"
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "excellenceSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-excellence",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-excellence-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We understand that the early years are among the most important stages in a child’s development, shaping not only academic readiness, but also social skills, emotional well-being, creativity, independence, and self-confidence."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "698b8665c5a3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3ef38e879140",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our Kindergarten classrooms are designed to foster a sense of belonging where children feel safe, valued, and motivated to explore the world around them through meaningful experiences and positive relationships. Through a caring and supportive atmosphere, we aim to nurture happy, confident learners who develop a lifelong love of learning while building strong foundations for future success."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten students playing music together",
+          "asset": {
+            "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "picture",
+          "asset": {
+            "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "excellenceSection"
+      },
+      {
+        "_key": "curriculumSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kgc-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kgc-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Kindergarten curriculum at SAIS - Abu Dhabi is designed to provide engaging, hands-on, and developmentally appropriate learning experiences that encourage exploration, discovery, creativity, and active participation. Integrated with AERO, NGSS standards, and MOE curriculum for subjects taught in Arabic."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "kgc-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kgc-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our curriculum focuses on building strong foundations in literacy and numeracy in both English and Arabic while also promoting communication, critical thinking, problem-solving, and social-emotional development. Learning takes place through inquiry-based activities, thematic units, imaginative and guided play, collaborative experiences, and real-world connections that make learning meaningful and enjoyable for young children."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten student smiling on the playground slide",
+          "asset": {
+            "_ref": "image-af7fdc6887c14af3e24993d9bb90b21ea9b82519-1554x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "assessmentSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kga-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kga-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Assessment in KG is conducted through continuous observation and evaluation of the child's development across the main developmental areas. Teachers assess students' progress in communication and language, physical development, personal and social skills, cognitive development, and creativity."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "kga-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kga-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Assessment is integrated into daily classroom activities, play-based learning, and interactions to ensure a holistic understanding of each child's growth, strengths, and areas for further support."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten teacher guiding students through a hands-on activity",
+          "asset": {
+            "_ref": "image-8cf23e98976050614d2a652bcafcc4497c9a3d29-1554x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore Kindergarten academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "Explore Kindergarten academics at Sharjah American International School.",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Kindergarten | Academics | SAIS - Abu Dhabi"
+    },
+    "title": "Kindergarten"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "drafts.academics-kindergarten-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "academics-kindergarten-page",
+        "rev": "FCO364qzHDm2jW4qFiAW8y"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Kindergarten"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/kindergarten",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Kindergarten program provides a warm, inspiring, and child-centered environment where every child is encouraged to grow with confidence, curiosity, and joy."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Caring Environment for Growing Minds"
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "excellenceSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kg-excellence",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kg-excellence-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We understand that the early years are among the most important stages in a child’s development, shaping not only academic readiness, but also social skills, emotional well-being, creativity, independence, and self-confidence."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "698b8665c5a3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3ef38e879140",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our Kindergarten classrooms are designed to foster a sense of belonging where children feel safe, valued, and motivated to explore the world around them through meaningful experiences and positive relationships. Through a caring and supportive atmosphere, we aim to nurture happy, confident learners who develop a lifelong love of learning while building strong foundations for future success."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten students playing music together",
+          "asset": {
+            "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "picture",
+          "asset": {
+            "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "excellenceSection"
+      },
+      {
+        "_key": "curriculumSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kgc-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kgc-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Kindergarten curriculum at SAIS - Abu Dhabi is designed to provide engaging, hands-on, and developmentally appropriate learning experiences that encourage exploration, discovery, creativity, and active participation. Integrated with AERO, NGSS standards, and MOE curriculum for subjects taught in Arabic."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "kgc-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kgc-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our curriculum focuses on building strong foundations in literacy and numeracy in both English and Arabic while also promoting communication, critical thinking, problem-solving, and social-emotional development. Learning takes place through inquiry-based activities, thematic units, imaginative and guided play, collaborative experiences, and real-world connections that make learning meaningful and enjoyable for young children."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten student smiling on the playground slide",
+          "asset": {
+            "_ref": "image-af7fdc6887c14af3e24993d9bb90b21ea9b82519-1554x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "assessmentSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kga-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kga-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Assessment in KG is conducted through continuous observation and evaluation of the child's development across the main developmental areas. Teachers assess students' progress in communication and language, physical development, personal and social skills, cognitive development, and creativity."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "kga-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "kga-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Assessment is integrated into daily classroom activities, play-based learning, and interactions to ensure a holistic understanding of each child's growth, strengths, and areas for further support."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten teacher guiding students through a hands-on activity",
+          "asset": {
+            "_ref": "image-8cf23e98976050614d2a652bcafcc4497c9a3d29-1554x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore Kindergarten academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "Explore Kindergarten academics at Sharjah American International School.",
+        "asset": {
+          "_ref": "image-4799810630334d4d4b9426cd34fe87fbb27ef9fa-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Kindergarten | Academics | SAIS - Abu Dhabi"
+    },
+    "title": "Kindergarten"
+  }
+]

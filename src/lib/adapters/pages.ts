@@ -196,10 +196,13 @@ export function adaptKindergarten(page: CmsPage): AcademicsKindergartenPageData 
   const s = bySlot(page);
   return {
     ...base(page),
-    intro: textSection(s.get("intro")),
     excellenceSection: imageText(s.get("excellenceSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
-    assessmentSection: imageText(s.get("assessmentSection")),
+    arabicPolicySection: imageText(s.get("arabicPolicySection")),
+    drdpSection: s.has("drdpSection")
+      ? { heading: heading(s.get("drdpSection")), cards: iconCards(s.get("drdpSection")) }
+      : undefined,
+    dayInLifeSection: imageText(s.get("dayInLifeSection")),
   };
 }
 

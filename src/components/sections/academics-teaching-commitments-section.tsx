@@ -1,4 +1,4 @@
-import { BrainCog, ClipboardCheck, Globe2, Goal, Medal, Network, PersonStanding, ShieldCheck, UsersRound } from "lucide-react";
+import { Activity, BookOpenText, BrainCog, ClipboardCheck, Globe2, Goal, HeartHandshake, Medal, Network, PersonStanding, ShieldCheck, Target, Users, UsersRound } from "lucide-react";
 import type { ComponentType } from "react";
 import { HoverIconCard } from "@/components/ui/hover-icon-card";
 import { SectionReveal } from "@/components/ui/section-reveal";
@@ -26,6 +26,12 @@ const iconMap: Record<string, ComponentType<IconProps>> = {
   identity: ShieldCheck,
   social: Globe2,
   connections: Network,
+  people: UsersRound,
+  book: BookOpenText,
+  activity: Activity,
+  care: HeartHandshake,
+  family: Users,
+  target: Target,
 };
 
 export function AcademicsTeachingCommitmentsSection({

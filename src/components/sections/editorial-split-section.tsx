@@ -3,6 +3,7 @@ import type { CSSProperties } from "react";
 import { blocksFromText } from "@/lib/content";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { RichText } from "@/components/ui/rich-text";
+import { CtaList } from "@/components/ui/cta-list";
 import type { ImageTextSection, SanityImage } from "@/types/sanity";
 
 type EditorialSplitSectionProps = {
@@ -15,6 +16,8 @@ type EditorialSplitSectionProps = {
   imageSizes?: string;
   showTitle?: boolean;
   preserveRichText?: boolean;
+  /** Renders the section's buttons under the copy. */
+  showCtas?: boolean;
 };
 
 type EditorialSplitStyle = CSSProperties & {
@@ -34,6 +37,7 @@ export function EditorialSplitSection({
   imageSizes = "(max-width: 767px) calc(100vw - 32px), 42vw",
   showTitle = false,
   preserveRichText = false,
+  showCtas = false,
 }: EditorialSplitSectionProps) {
   const image = section?.image || fallbackImage;
   const bodyBlocks = section?.heading?.description?.length
@@ -91,6 +95,9 @@ export function EditorialSplitSection({
             ) : (
               <RichText blocks={bodyBlocks} className="editorial-split-section__copy" />
             )}
+            {showCtas && section?.ctas?.length ? (
+              <CtaList ctas={section.ctas} className="editorial-split-section__actions" withArrow />
+            ) : null}
           </div>
         </div>
       </SectionReveal>
