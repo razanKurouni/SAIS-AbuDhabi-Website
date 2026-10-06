@@ -267,23 +267,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-high-school-page/apCoursesSection": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "subtitle",
-      "title"
-    ],
-    "card": [
-      "description",
-      "icon",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
   "academics-high-school-page/apDiplomaSection": {
     "section": [
       "heading",
@@ -291,19 +274,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "heading": [
       "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "academics-high-school-page/apOverviewSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
+      "eyebrow",
       "title"
     ],
     "card": [],
@@ -315,7 +286,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "heading"
     ],
     "heading": [
-      "description",
       "subtitle",
       "title"
     ],
@@ -336,6 +306,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "academics-high-school-page/careerGuidanceSliderSection": {
+    "section": [
+      "cards"
+    ],
+    "heading": [],
+    "card": [
+      "description",
+      "image",
+      "title"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
   "academics-high-school-page/curriculumSection": {
     "section": [
       "heading",
@@ -349,7 +332,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "academics-high-school-page/excellenceSection": {
+  "academics-high-school-page/dayInLifeSection": {
     "section": [
       "heading",
       "image"
@@ -363,6 +346,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "entry": []
   },
   "academics-high-school-page/overviewSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-high-school-page/pathwaysSection": {
     "section": [
       "heading",
       "image"

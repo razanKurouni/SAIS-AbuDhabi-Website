@@ -184,47 +184,49 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "academics-high-school-page": {
     "apBenefitsSection": {
-      "backgroundColor": "#00A5B2",
-      "cardIconColor": "#d97252",
-      "cardTextColor": "#666b70",
-      "cardTitleColor": "#216B97",
-      "subtitleColor": "#ffffff",
-      "titleColor": "#ffffff"
-    },
-    "apCoursesSection": {
-      "backgroundColor": "#f4f4f4",
+      "backgroundColor": "#f2f2f2",
       "cardBorderColor": "#216B97",
-      "cardHoverBorderColor": "#00A5B2",
+      "cardHoverBorderColor": "#d97252",
       "cardTextColor": "#216B97",
-      "titleColor": "#00A5B2"
-    },
-    "apDiplomaSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "right",
-      "textColor": "#666b70",
+      "subtitleColor": "#00A5B2",
       "titleColor": "#216B97"
     },
-    "apOverviewSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#6f7175",
-      "theme": "light"
-    },
-    "careerGuidanceSection": {
+    "apDiplomaSection": {
       "imagePosition": "center",
       "imageSide": "left",
-      "panelColor": "#6F7175",
+      "panelColor": "#00A5B2",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
       "waveColor": "#216B97"
     },
-    "excellenceSection": {
+    "careerGuidanceSection": {
+      "backgroundColor": "#f2f2f2",
+      "imagePosition": "right",
+      "textColor": "#6f7175",
+      "titleColor": "#00A5B2"
+    },
+    "careerGuidanceSliderSection": {
+      "slides": [
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" }
+      ]
+    },
+    "curriculumSection": {
       "imagePosition": "center",
       "imageSide": "left",
       "panelColor": "#00A5B2",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
       "waveColor": "#d97252"
+    },
+    "dayInLifeSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#6F7175",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#00A5B2"
     },
     "hero": {
       "imagePosition": "center",
@@ -236,32 +238,24 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "overviewSection": {
       "backgroundColor": "#216B97",
+      "imagePosition": "right",
       "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+      "titleColor": "#00A5B2"
+    },
+    "pathwaysSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "right",
+      "textColor": "#6f7175",
+      "titleColor": "#216B97"
     },
     "pathwaysSliderSection": {
       "slides": [
-        {
-          "backgroundColor": "#216B97",
-          "imagePosition": "center",
-          "ringColor": "#d97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff"
-        },
-        {
-          "backgroundColor": "#D97252",
-          "imagePosition": "center",
-          "ringColor": "#216B97 ",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff"
-        },
-        {
-          "backgroundColor": "#216B97 ",
-          "imagePosition": "center",
-          "ringColor": "#D97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff"
-        }
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#6F7175", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" }
       ]
     }
   },

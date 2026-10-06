@@ -781,15 +781,15 @@ export type AcademicsHighSchoolPageData = {
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
   overviewSection?: ImageTextSection;
-  excellenceSection?: AcademicsKindergartenFeatureSection;
-  curriculumSection?: ImageTextSection;
-  careerGuidanceSection?: AcademicsKindergartenFeatureSection;
-  pathwaysSliderSection?: AcademicsLearningSliderSection;
+  curriculumSection?: AcademicsKindergartenFeatureSection;
   careerGuidanceIntroSection?: SectionHeading;
-  apDiplomaSection?: ImageTextSection;
-  apOverviewSection?: ImageTextSection;
-  apCoursesSection?: AcademicsSupportProgramsSection;
-  apBenefitsSection?: AcademicsApBenefitsSection;
+  careerGuidanceSliderSection?: AcademicsLearningSliderSection;
+  careerGuidanceSection?: ImageTextSection;
+  pathwaysSection?: ImageTextSection;
+  pathwaysSliderSection?: AcademicsLearningSliderSection;
+  apDiplomaSection?: AcademicsKindergartenFeatureSection;
+  apBenefitsSection?: AcademicsSupportProgramsSection;
+  dayInLifeSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type AcademicsSkillItem = {

@@ -238,21 +238,21 @@ export function adaptHighSchool(page: CmsPage): AcademicsHighSchoolPageData {
   return {
     ...base(page),
     overviewSection: imageText(s.get("overviewSection")),
-    excellenceSection: imageText(s.get("excellenceSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
+    careerGuidanceIntroSection: heading(s.get("careerGuidanceIntroSection")),
+    careerGuidanceSliderSection: s.has("careerGuidanceSliderSection")
+      ? { heading: heading(s.get("careerGuidanceSliderSection")), slides: learningSlides(s.get("careerGuidanceSliderSection")) }
+      : undefined,
     careerGuidanceSection: imageText(s.get("careerGuidanceSection")),
+    pathwaysSection: imageText(s.get("pathwaysSection")),
     pathwaysSliderSection: s.has("pathwaysSliderSection")
       ? { heading: heading(s.get("pathwaysSliderSection")), slides: learningSlides(s.get("pathwaysSliderSection")) }
       : undefined,
-    careerGuidanceIntroSection: heading(s.get("careerGuidanceIntroSection")),
     apDiplomaSection: imageText(s.get("apDiplomaSection")),
-    apOverviewSection: imageText(s.get("apOverviewSection")),
-    apCoursesSection: s.has("apCoursesSection")
-      ? { heading: heading(s.get("apCoursesSection")), cards: iconCards(s.get("apCoursesSection")) }
-      : undefined,
     apBenefitsSection: s.has("apBenefitsSection")
       ? { heading: heading(s.get("apBenefitsSection")), cards: iconCards(s.get("apBenefitsSection")) }
       : undefined,
+    dayInLifeSection: imageText(s.get("dayInLifeSection")),
   };
 }
 

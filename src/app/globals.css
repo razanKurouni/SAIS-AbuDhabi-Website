@@ -18161,3 +18161,57 @@ a.school-policy-card__cover:hover {
 .academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
   background: #f2f2f2;
 }
+
+/* High School: the AP block (centred title + What is AP? panel) opens on white and closes on the grey band,
+   the benefits slider and the career guidance split sit on that grey, and the day panel keeps the KG proportions. */
+.academics-high-school-page .academics-high-school-ap-program-heading {
+  padding: 62px 7.5% 0;
+  text-align: center;
+}
+
+.academics-high-school-page .academics-high-school-ap-program-heading__title {
+  margin: 0 auto;
+  max-width: 900px;
+  color: #00A5B2;
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.academics-high-school-page .academics-high-school-ap-feature.intro-feature {
+  background: linear-gradient(to top, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100%);
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider.academics-support-programs {
+  padding-top: 0;
+  padding-bottom: 62px;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__title {
+  text-align: center;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+  text-align: center;
+  font-weight: 700;
+  color: #00A5B2;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__header {
+  display: block;
+}
+
+.academics-high-school-page .academics-high-school-career-guidance-section.editorial-split-section {
+  background: #f2f2f2;
+}
+
+.academics-high-school-page .academics-high-school-career-guidance-section .editorial-split-section__image {
+  object-fit: contain;
+}
+
+.academics-high-school-page .academics-high-school-overview-section .editorial-split-section__title {
+  white-space: pre-line;
+}
