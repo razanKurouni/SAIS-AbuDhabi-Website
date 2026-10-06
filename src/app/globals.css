@@ -18215,3 +18215,50 @@ a.school-policy-card__cover:hover {
 .academics-high-school-page .academics-high-school-overview-section .editorial-split-section__title {
   white-space: pre-line;
 }
+
+/* High School, AP benefits slider: centred heading without the rule or arrows, and the taller
+   square cards of the design with the large orange icon, navy title and grey copy. */
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__title {
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: #216B97;
+  font-size: clamp(1.4rem, 1.8vw, 1.75rem);
+  font-weight: 600;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__subtitle {
+  margin-top: 22px;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__arrows {
+  display: none;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__viewport {
+  margin-top: clamp(34px, 3.6vw, 48px);
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__card.hover-icon-card {
+  min-height: clamp(300px, 24vw, 350px);
+  gap: 22px;
+  padding: clamp(32px, 3.2vw, 44px) 24px 32px;
+  border-radius: 14px;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__card .hover-icon-card__icon {
+  width: clamp(100px, 8.5vw, 130px);
+  height: clamp(100px, 8.5vw, 130px);
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__card .hover-icon-card__title {
+  max-width: none;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__card .hover-icon-card__description {
+  max-width: 300px;
+  color: #6f7175;
+  font-size: clamp(0.9rem, 0.95vw, 1rem);
+  line-height: 1.5;
+}
