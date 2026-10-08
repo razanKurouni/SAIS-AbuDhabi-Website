@@ -3,7 +3,7 @@ import type { MograHubAppBand as MograHubAppBandData } from "@/types/sanity";
 
 const defaults: Required<MograHubAppBandData> = {
   eyebrow: "Parent & Student Mobile App",
-  title: "Your school in your pocket — download mograHUB",
+  title: "Your School in Your Pocket — Download mograHUB",
   description:
     "Attendance, timetable, homework and assignments, exam results and report cards, fee statements and school announcements — all in one app, for parents and students.",
   schoolCodeLabel: "School Code",
