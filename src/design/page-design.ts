@@ -424,10 +424,10 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   },
   "admissions-application-page": {
     "applicationProcess": {
-      "backgroundColor": "#27779D",
+      "backgroundColor": "#00A5B2",
       "imagePosition": "center",
       "textColor": "#ffffff",
-      "titleColor": "#8CCFD9"
+      "titleColor": "#ffffff"
     },
     "hero": {
       "imagePosition": "center",

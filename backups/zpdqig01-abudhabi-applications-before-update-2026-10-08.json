@@ -1,0 +1,263 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-application-page",
+    "_rev": "4pklB2lERURekwcJkuDsn3",
+    "_system": {
+      "base": {
+        "id": "admissions-application-page",
+        "rev": "4pklB2lERURekwcJkuDg93"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T05:07:16Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Admissions\nApplication"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten corridor",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten corridor",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions/applications",
+    "sections": [
+      {
+        "_key": "stepsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "step-contact",
+            "_type": "card",
+            "body": [
+              {
+                "_key": "b-4",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-5",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "The application process begins with the parent/guardian completing the official application form and signing the Entry Requirements and Commitment documents."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "08dff8806aaf",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "s-5",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Once submitted to the Registrar’s Office, our team will schedule a specific date for your child’s placement assessments and interview."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "title": "Pre-Registration"
+          },
+          {
+            "_key": "step-form",
+            "_type": "card",
+            "body": [
+              {
+                "_key": "aa5529477d80",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "2c6cdecadbd9",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Following successful completion of all placement requirements, the registration process commences. During this stage, parents/guardians must submit all required documentation to finalize enrollment."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "d4da0596ea46",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "2c6cdecadbd9",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "For comprehensive information regarding registration procedures, fee structure, curriculum details, and additional school information, please consult the 2025 School Guide."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "title": "Assessment & Interview"
+          },
+          {
+            "_key": "step-fee",
+            "_type": "card",
+            "body": [
+              {
+                "_key": "e26c347bb38d",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "d19fa2d5c84f",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "Following successful completion of all placement requirements, the registration process commences. During this stage, parents/guardians must submit all required documentation to finalize enrollment."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              },
+              {
+                "_key": "dc868977e559",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "d19fa2d5c84f",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "For comprehensive information regarding registration procedures, fee structure, curriculum details, and additional school information, please consult the 2025 School Guide."
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "title": "Registration"
+          }
+        ],
+        "slot": "stepsSection"
+      },
+      {
+        "_key": "finalCta",
+        "_type": "ctaSection",
+        "ctas": [
+          {
+            "_key": "klmub4id97",
+            "_type": "cta",
+            "href": "https://new-sais-main.vercel.app/admissions/applications",
+            "label": "See More"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Start the Pre-Registration Process Now"
+        },
+        "slot": "finalCta"
+      },
+      {
+        "_key": "applicationProcess",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "b-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "When applying, please provide the following documents:\n\n•\tOriginal Emirates ID cards (parents and child)\n•\tPrevious school academic records\n•\tParents’ passport copies with visa pages\n•\tChild’s vaccination records\n•\tChild’s birth certificate\n•\tEight passport-sized photographs\n•\tChild’s passport with visa page"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Required Documentation"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students conducting a laboratory experiment",
+          "asset": {
+            "_ref": "image-fc710075a6b49f2d167244e4c0f0736c5453185b-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "applicationProcess"
+      },
+      {
+        "_key": "mograHubAppBand",
+        "_type": "entriesSection",
+        "entries": [
+          {
+            "_key": "komub4id97",
+            "_type": "entry",
+            "iconType": "schoolCode",
+            "label": "School Code",
+            "text": "SAISD"
+          },
+          {
+            "_key": "kpmub4id97",
+            "_type": "entry",
+            "href": "https://play.google.com/store/apps/details?id=com.mogra.hub&hl=en",
+            "iconType": "android",
+            "label": "Google Play"
+          },
+          {
+            "_key": "kqmub4id97",
+            "_type": "entry",
+            "href": "https://apps.apple.com/ae/app/mograhub/id6736962827",
+            "iconType": "apple",
+            "label": "App Store"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "kmmub4id97",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "knmub4id97",
+                  "_type": "span",
+                  "text": "Attendance, timetable, homework and assignments, exam results and report cards, fee statements and school announcements — all in one app, for parents and students."
+                }
+              ],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Parent & Student Mobile App",
+          "title": "Your School in Your Pocket - Download MograHUB"
+        },
+        "slot": "mograHubAppBand"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about the SAIS - Abu Dhabi application process and registration timelines.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi kindergarten corridor",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Admissions Application | SAIS - Abu Dhabi"
+    },
+    "title": "Applications"
+  }
+]

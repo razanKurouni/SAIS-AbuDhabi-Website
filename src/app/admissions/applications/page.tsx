@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { ApplicationStepsSection } from "@/components/sections/application-steps-section";
+import { CampusVideoSection } from "@/components/sections/campus-video-section";
 import { AdmissionsRegistrationPopup } from "@/components/sections/admissions-registration-popup";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { MograHubAppBand } from "@/components/sections/mograhub-app-band";
@@ -68,26 +69,28 @@ export default async function AdmissionsApplicationPage() {
         ariaLabel={innerNavigation?.ariaLabel}
       />
 
-      {page?.applicationProcess ? (
-        <IntroFeatureSection
-          section={page.applicationProcess}
-          fallbackSection={page.applicationProcess}
-          className="admissions-application-process"
-          titleId="admissions-application-process-title"
-          panelColor={page.applicationProcess.backgroundColor || "#27779D"}
-          accentColor="#00A5B2"
-          titleColor={page.applicationProcess.titleColor || "#8CCFD9"}
-          textColor={page.applicationProcess.textColor || "#ffffff"}
-          imagePosition={page.applicationProcess.imagePosition || "center"}
-          imageSide="right"
-        />
-      ) : null}
+      <CampusVideoSection section={page?.videoSection} />
 
       {page?.stepsSection ? (
         <ApplicationStepsSection section={page.stepsSection} />
       ) : null}
 
       {page?.finalCta ? <AdmissionsRegistrationPopup section={page.finalCta} /> : null}
+
+      {page?.applicationProcess ? (
+        <IntroFeatureSection
+          section={page.applicationProcess}
+          fallbackSection={page.applicationProcess}
+          className="admissions-application-process"
+          titleId="admissions-application-process-title"
+          panelColor={page.applicationProcess.backgroundColor || "#00A5B2"}
+          accentColor="#d97252"
+          titleColor={page.applicationProcess.titleColor || "#ffffff"}
+          textColor={page.applicationProcess.textColor || "#ffffff"}
+          imagePosition={page.applicationProcess.imagePosition || "center"}
+          imageSide="left"
+        />
+      ) : null}
 
       <MograHubAppBand section={page?.mograHubAppBand} />
     </SitePageShell>

@@ -214,9 +214,10 @@ export const PAGE_SPECS: PageSpec[] = [
     title: "Applications",
     group: "Admissions",
     slots: [
-      it("applicationProcess", "Application Process"),
-      cards("stepsSection", "Application Steps", { items: "steps" }),
-      { slot: "finalCta", kind: "cta", label: "Final CTA" },
+      { slot: "videoSection", kind: "media", label: "Campus Video" },
+      cards("stepsSection", "Application Process", { items: "steps" }),
+      { slot: "finalCta", kind: "cta", label: "Pre-Registration CTA" },
+      it("applicationProcess", "Required Documentation"),
       entries("mograHubAppBand", "MograHub App Band"),
     ],
   },

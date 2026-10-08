@@ -285,6 +285,7 @@ export type AdmissionsApplicationPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
+  videoSection?: CampusVideoSection;
   applicationProcess?: ImageTextSection;
   stepsSection?: ApplicationStepsSection;
   finalCta?: CalendarDownloadSection;

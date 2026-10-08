@@ -18286,3 +18286,53 @@ a.school-policy-card__cover:hover {
   font-size: clamp(1.5rem, 2vw, 1.9rem);
   font-weight: 600;
 }
+
+/* Applications: the campus video opens the page on white, the steps title sits left in teal. */
+.admissions-application-page .campus-video {
+  background: #ffffff;
+  padding: 62px 0 0;
+}
+
+.admissions-application-page .application-steps__title {
+  color: #00A5B2;
+  text-align: left;
+}
+
+/* Applications: tighter steps between the video, the steps, the CTA band and the documentation panel,
+   and a real bullet list inside the panel. */
+.admissions-application-page .application-steps {
+  padding-top: 62px;
+  padding-bottom: 24px;
+}
+
+.admissions-application-page .intro-feature.admissions-application-process {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.admissions-application-page .mograhub-band {
+  padding-top: 62px;
+}
+
+.admissions-application-process .intro-feature__description ul {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.admissions-application-process .intro-feature__description li {
+  margin: 0;
+  padding-left: 4px;
+}
+
+.admissions-application-page .admissions-registration-cta.calendar-download-section {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .admissions-application-page .intro-feature.admissions-application-process {
+    margin-top: -48px;
+  }
+}

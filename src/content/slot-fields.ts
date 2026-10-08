@@ -701,13 +701,25 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "admissions-application-page/stepsSection": {
     "section": [
-      "cards"
+      "cards",
+      "heading"
     ],
-    "heading": [],
+    "heading": [
+      "title"
+    ],
     "card": [
       "body",
       "title"
     ],
+    "cardEntry": [],
+    "entry": []
+  },
+  "admissions-application-page/videoSection": {
+    "section": [
+      "image"
+    ],
+    "heading": [],
+    "card": [],
     "cardEntry": [],
     "entry": []
   },

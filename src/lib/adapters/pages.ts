@@ -269,6 +269,7 @@ export function adaptAdmissionsApplication(page: CmsPage): AdmissionsApplication
   const s = bySlot(page);
   return {
     ...base(page),
+    videoSection: video(s.get("videoSection")),
     applicationProcess: imageText(s.get("applicationProcess")),
     stepsSection: s.has("stepsSection") ? { heading: heading(s.get("stepsSection")), steps: steps(s.get("stepsSection")) } : undefined,
     finalCta: download(s.get("finalCta")),
