@@ -473,9 +473,12 @@ export type OurCampusPageData = {
   };
   videoSection?: CampusVideoSection;
   facilities?: ImageTextSection;
+  sectionsFeature?: AcademicsKindergartenFeatureSection;
+  classroomSection?: AcademicsKindergartenFeatureSection;
   librarySection?: ImageTextSection;
-  elementaryLibrarySection?: ImageTextSection;
-  facilitiesGrid?: { heading?: SectionHeading; cards: FeatureCard[] };
+  makerspaceSection?: AcademicsKindergartenFeatureSection;
+  gymSection?: ImageTextSection;
+  poolSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type WellbeingIconCard = {

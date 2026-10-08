@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { CampusFacilitiesGridSection } from "@/components/sections/campus-facilities-grid-section";
 import { CampusVideoSection } from "@/components/sections/campus-video-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { PageHero } from "@/components/sections/page-hero";
@@ -8,7 +7,7 @@ import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { getHomepage, getOurCampusPage } from "@/lib/sanity";
-import type { ImageTextSection, PortableTextBlock } from "@/types/sanity";
+import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
@@ -32,50 +31,32 @@ const fallbackHero = {
   imageWidth: "58%",
 };
 
-function paragraph(_key: string, text: string, strong = false): PortableTextBlock {
-  return {
-    _key,
-    _type: "block",
-    children: [{ _key: `${_key}-span`, _type: "span", text, marks: strong ? ["strong"] : [] }],
-  };
-}
-
-function bullet(_key: string, text: string): PortableTextBlock {
-  return {
-    _key,
-    _type: "block",
-    listItem: "bullet",
-    children: [{ _key: `${_key}-span`, _type: "span", text }],
-  };
-}
-
-const fallbackElementaryLibrary: ImageTextSection = {
-  heading: {
-    title: "Elementary School Library",
-    description: [
-      paragraph(
-        "elementary-library-intro",
-        "A welcoming and engaging space designed to spark curiosity and build a strong foundation in reading."
-      ),
-      paragraph("elementary-library-offers", "The Library offers:", true),
-      bullet("elementary-library-1", "Age-appropriate fiction and non-fiction books"),
-      bullet("elementary-library-2", "Interactive storytelling sessions and read-alouds"),
-      bullet("elementary-library-3", "Visual aids, early learning games, and leveled readers"),
-      bullet(
-        "elementary-library-4",
-        "Weekly library lessons integrated into the curriculum to develop reading habits and research basics"
-      ),
-    ],
-  },
-  image: {
-    url: "/about-intro-students.jpg",
-    alt: "SAIS - Abu Dhabi elementary students reading together",
-  },
-  imagePosition: "right",
-  titleColor: "#00A5B2",
+/* The navy feature panels of this page share one look; the design overlay carries the colours. */
+const featureFallback: Required<AcademicsKindergartenFeatureSection> = {
+  heading: { title: "" },
+  image: {},
+  imageSide: "left",
+  imagePosition: "center",
+  backgroundColor: "#ffffff",
+  panelColor: "#216B97",
+  waveColor: "#D97252",
+  titleColor: "#ffffff",
+  textColor: "#ffffff",
 };
 
-/* The slider takes plain text and turns "• " lines into a list, so keep the bullets as bullets. */
+function featureProps(section: AcademicsKindergartenFeatureSection) {
+  return {
+    section: { heading: section.heading || featureFallback.heading, image: section.image },
+    fallbackSection: { heading: featureFallback.heading, image: {} },
+    panelColor: section.panelColor || featureFallback.panelColor,
+    accentColor: section.waveColor || featureFallback.waveColor,
+    titleColor: section.titleColor || featureFallback.titleColor,
+    textColor: section.textColor || featureFallback.textColor,
+    imagePosition: section.imagePosition || featureFallback.imagePosition,
+    imageSide: section.imageSide || featureFallback.imageSide,
+  };
+}
+
 export async function generateMetadata(): Promise<Metadata> {
   const ourCampusPage = await getOurCampusPage();
 
@@ -92,6 +73,12 @@ export default async function OurCampusPage() {
   const hero = ourCampusPage?.hero;
   const heroTitle = hero?.heading?.title || fallbackHero.title;
   const heroImage = hero?.image || fallbackHero.image;
+  const sectionsFeature = ourCampusPage?.sectionsFeature;
+  const classroom = ourCampusPage?.classroomSection;
+  const library = ourCampusPage?.librarySection;
+  const makerspace = ourCampusPage?.makerspaceSection;
+  const gym = ourCampusPage?.gymSection;
+  const pool = ourCampusPage?.poolSection;
 
   return (
     <SitePageShell data={data} mainClassName="site-page__main our-campus-page__main" pageClassName="our-campus-page">
@@ -129,45 +116,70 @@ export default async function OurCampusPage() {
           fallbackImage={ourCampusPage.facilities.image}
           fallbackParagraphs={[]}
           className="campus-facilities-showcase"
-          showTitle
+          showTitle={Boolean(ourCampusPage.facilities.heading?.title)}
           preserveRichText
         />
       ) : null}
-      {ourCampusPage?.librarySection?.image ? (
+
+      {sectionsFeature ? (
         <IntroFeatureSection
-          section={ourCampusPage.librarySection}
-          className="campus-library-feature"
-          titleId="campus-library-title"
-          panelColor="var(--sais-primary)"
-          accentColor="var(--sais-coral)"
-          titleColor="var(--sais-body-text-color-on-dark)"
-          textColor="var(--sais-body-text-color-on-dark)"
+          className="academics-kg-day-feature campus-feature campus-sections-feature"
+          titleId="campus-sections-title"
+          {...featureProps(sectionsFeature)}
         />
       ) : null}
-      <EditorialSplitSection
-        id="campus-elementary-library"
-        title={ourCampusPage?.elementaryLibrarySection ? "" : fallbackElementaryLibrary.heading.title}
-        section={{
-          ...ourCampusPage?.elementaryLibrarySection,
-          heading: ourCampusPage?.elementaryLibrarySection
-            ? ourCampusPage.elementaryLibrarySection.heading
-            : fallbackElementaryLibrary.heading,
-          imagePosition:
-            ourCampusPage?.elementaryLibrarySection?.imagePosition ||
-            fallbackElementaryLibrary.imagePosition,
-          titleColor:
-            ourCampusPage?.elementaryLibrarySection?.titleColor ||
-            fallbackElementaryLibrary.titleColor,
-        }}
-        fallbackImage={fallbackElementaryLibrary.image || {}}
-        fallbackParagraphs={[]}
-        className="editorial-split-listed"
-        imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-        showTitle
-        preserveRichText
-      />
 
-      <CampusFacilitiesGridSection section={ourCampusPage?.facilitiesGrid} />
+      {classroom ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature campus-feature campus-classroom-feature"
+          titleId="campus-classroom-title"
+          {...featureProps(classroom)}
+        />
+      ) : null}
+
+      {library ? (
+        <EditorialSplitSection
+          id="campus-library"
+          title={library.heading?.title || "The Library"}
+          section={{ ...library, imagePosition: "right" }}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="campus-split-section campus-library-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+          showTitle
+        />
+      ) : null}
+
+      {makerspace ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature campus-feature campus-makerspace-feature"
+          titleId="campus-makerspace-title"
+          {...featureProps(makerspace)}
+        />
+      ) : null}
+
+      {gym ? (
+        <EditorialSplitSection
+          id="campus-gym"
+          title={gym.heading?.title || "Gym"}
+          section={{ ...gym, imagePosition: "right" }}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="campus-split-section campus-gym-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+          showTitle
+        />
+      ) : null}
+
+      {pool ? (
+        <IntroFeatureSection
+          className="academics-kg-day-feature campus-feature campus-pool-feature"
+          titleId="campus-pool-title"
+          {...featureProps(pool)}
+        />
+      ) : null}
 
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

@@ -772,15 +772,24 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "our-campus-page": {
-    "elementaryLibrarySection": {
-      "imagePosition": "right",
-      "titleColor": "#00A5B2"
+    "classroomSection": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     },
     "facilities": {
       "imagePosition": "right",
       "textColor": "#FFFFFF",
       "theme": "teal",
       "titleColor": "#FFFFFF"
+    },
+    "gymSection": {
+      "backgroundColor": "#f2f2f2",
+      "imagePosition": "right",
+      "titleColor": "#00A5B2"
     },
     "hero": {
       "imagePosition": "center",
@@ -791,8 +800,33 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "librarySection": {
-      "imagePosition": "left",
-      "theme": "blue"
+      "backgroundColor": "#ffffff",
+      "imagePosition": "right",
+      "titleColor": "#00A5B2"
+    },
+    "makerspaceSection": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
+    },
+    "poolSection": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
+    },
+    "sectionsFeature": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#D97252"
     }
   },
   "our-community-page": {

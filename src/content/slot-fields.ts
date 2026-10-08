@@ -1342,13 +1342,14 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "our-campus-page/elementaryLibrarySection": {
+  "our-campus-page/classroomSection": {
     "section": [
       "heading",
       "image"
     ],
     "heading": [
-      "description"
+      "description",
+      "title"
     ],
     "card": [],
     "cardEntry": [],
@@ -1366,16 +1367,16 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "our-campus-page/facilitiesGrid": {
+  "our-campus-page/gymSection": {
     "section": [
-      "cards"
+      "heading",
+      "image"
     ],
-    "heading": [],
-    "card": [
+    "heading": [
       "description",
-      "image",
       "title"
     ],
+    "card": [],
     "cardEntry": [],
     "entry": []
   },
@@ -1399,6 +1400,44 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [
       "description",
       "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "our-campus-page/makerspaceSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "our-campus-page/poolSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "our-campus-page/sectionsFeature": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
     ],
     "card": [],
     "cardEntry": [],
