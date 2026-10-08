@@ -1,0 +1,1797 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "food-services-nutrition-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "food-services-nutrition-page",
+        "rev": "Vnv6A4ouQqSNX98H66ofci"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Food\nNutrition"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus food nutrition hero",
+        "asset": {
+          "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus food nutrition hero",
+        "asset": {
+          "_ref": "image-862055fa4ea26866665f22f30b4de406b90468c3-2400x1667-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/food-services-nutrition",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "fs-lead",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-lead-s",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "At SAIS - Abu Dhabi, we recognize that proper nutrition is the cornerstone of student well-being and academic success. Our “Food and Nutrition” program is designed to nourish young minds and bodies, fostering healthy habits that support growth, concentration, and lifelong wellness."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Growing Strong Minds Through\nGood Nutrition"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi kindergarten students smiling and waving",
+          "asset": {
+            "_ref": "image-03056cccb3323f8678aed53df4953e00276c1814-2000x909-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "cafeteriaSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "fs-caf-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-caf-intro-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our canteen operates from two separate dining halls; one for boys and one for girls to ensure comfort and privacy for all students. Each hall provides:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fs-caf-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-caf-1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Nutritious, Balanced Meals"
+                },
+                {
+                  "_key": "fs-caf-1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Carefully planned hot entrées featuring fresh fruits, vegetables, whole grains, and lean proteins. Menus rotate regularly to introduce variety and meet the dietary needs of different age groups."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fs-caf-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-caf-2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Approved Light Snacks & Beverages"
+                },
+                {
+                  "_key": "fs-caf-2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A selection of wholesome snacks and thirst-quenching drinks, all vetted against our strict nutrition guidelines."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fs-caf-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-caf-3-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Efficient Service During Breaks"
+                },
+                {
+                  "_key": "fs-caf-3-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Friendly, timely service during morning and afternoon breaks keeps students energized and ready to learn."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "School Cafeteria"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi teacher leading an activity with young students",
+          "asset": {
+            "_ref": "image-aca35dc0a327463c3077973085a838d8a9bfb3e8-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "cafeteriaSection"
+      },
+      {
+        "_key": "hygieneSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "fs-hyg-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-hyg-1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Daily Sanitation:"
+                },
+                {
+                  "_key": "fs-hyg-1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Complete cleaning and disinfecting of dining areas, serving stations, and kitchen equipment after each meal period."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fs-hyg-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-hyg-2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Strict Personal Hygiene:"
+                },
+                {
+                  "_key": "fs-hyg-2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Canteen staff follow rigorous hand-washing protocols, wear protective attire, and undergo regular health screenings."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Commitment to\nHygiene & Safety"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi kindergarten student on the playground slide",
+          "asset": {
+            "_ref": "image-af7fdc6887c14af3e24993d9bb90b21ea9b82519-1554x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "hygieneSection"
+      },
+      {
+        "_key": "teamSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "fs-team-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-team-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "All members of the canteen staff hold valid certifications from the Abu Dhabi Municipality and the Ministry of Health. They participate in ongoing training on food safety, nutritional standards, and customer care to ensure every meal meets the highest quality and safety benchmarks."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fs-team-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "fs-team-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "By integrating balanced nutrition with impeccable hygiene practices, our Food and Nutrition page underscores the pivotal role our canteen plays in promoting a healthy, positive school experience for every student."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Qualified Team"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi teacher guiding students through a hands-on activity",
+          "asset": {
+            "_ref": "image-840d3240473f342d98ac6f3a26e713d4c2f8e3ff-2000x1662-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "teamSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about food services and nutrition at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus food nutrition hero",
+        "asset": {
+          "_ref": "image-3c71a7120199896507a45065df92dde3e465a2c8-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Food Services & Nutrition | SAIS - Abu Dhabi"
+    },
+    "title": "Food Services & Nutrition"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "health-safety-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "health-safety-page",
+        "rev": "Vnv6A4ouQqSNX98H67LZey"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Health\n& Safety"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students running safely",
+        "asset": {
+          "_ref": "image-025b8112ee1ac600d8313ddf88ef8cc21fda6ced-1113x562-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students waving in the school garden",
+        "asset": {
+          "_ref": "image-e2f1d7d71ecca0a13aabc88f21635b24b770050a-1052x731-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/health-safety",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-i1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-i1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At Sharjah American International School – Abu Dhabi Campus (SAIS - Abu Dhabi), the health and safety comprehensive on-site medical service staffed by:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-i2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-i2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A licensed doctor"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-i3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-i3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Three qualified registered nurses"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-i4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-i4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Three fully equipped clinics strategically located across campus"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Professional Care,\nEvery School Day"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi kindergarten students playing on ride-on toys",
+          "asset": {
+            "_ref": "image-ae68c8059ebdda8fe156649dccde235be42cee6e-764x656-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "approachSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "hs-a1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Whether class is in session or during extracurricular activities, our medical team provides:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Routine health screenings, vaccinations, and check-ups"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Immediate first-aid and treatment for sports-related injuries"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Management of acute illnesses and chronic conditions"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a5-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Coordination of specialist referrals and follow-up care"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a6-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Each clinic also serves as a hub for preventive health education; offering age-appropriate workshops and one-on-one guidance on balanced nutrition, personal hygiene, stress management, and injury prevention."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "hs-a7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "hs-a7-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "By embedding these services directly within the school environment, SAIS - Abu Dhabi fosters close, trusting relationships between students and healthcare professionals. This hands-on, holistic approach not only promotes better health outcomes but also supports every student’s emotional well-being and academic success."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students playing maracas in music class",
+          "asset": {
+            "_ref": "image-e712efbaa61131229ac4ce8f2696fce7e8a845de-1243x835-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "approachSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about health and safety care at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students running safely",
+        "asset": {
+          "_ref": "image-025b8112ee1ac600d8313ddf88ef8cc21fda6ced-1113x562-png",
+          "_type": "reference"
+        }
+      },
+      "title": "Health & Safety | SAIS - Abu Dhabi"
+    },
+    "title": "Health & Safety"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "medical-services-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "medical-services-page",
+        "rev": "Vnv6A4ouQqSNX98H66pAoa"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Medical\nServices"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus medical services hero",
+        "asset": {
+          "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus medical services hero",
+        "asset": {
+          "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/medical-services",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "medical-services-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "medical-services-intro-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Student health and wellbeing are at the heart of everything we do. Our dedicated Medical Team ensures that every student is cared for in a safe, supportive, and professional environment throughout the school day."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "aefdcf84b016",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7b2b3c87fa77",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our qualified nurses and licensed doctor are available on campus to provide immediate care."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Committed to Student Wellness & Care"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi medical clinic care",
+          "asset": {
+            "_ref": "image-8eb5596805e281ce10d73a05fac3714175af5af3-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "staffSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "ms-s1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-s1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS - Abu Dhabi, the health and safety comprehensive on-site medical service staffed by:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-s2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-s2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A licensed doctor"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-s3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-s3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Three qualified registered nurses"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-s4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-s4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Three fully equipped clinics strategically located across campus"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi student enjoying a craft activity in class",
+          "asset": {
+            "_ref": "image-6024a75f24aff9563aa42b538be37ff4cfd81105-2000x1618-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "staffSection"
+      },
+      {
+        "_key": "servicesSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "ms-v1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Whether class is in session or during extracurricular activities, our medical team provides:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Routine health screenings, vaccinations, and check-ups"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Immediate first-aid and treatment for sports-related injuries"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Management of acute illnesses and chronic conditions"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v5-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Coordination of specialist referrals and follow-up care"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v6-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Each clinic also serves as a hub for preventive health education; offering age-appropriate workshops and one-on-one guidance on balanced nutrition, personal hygiene, stress management, and injury prevention."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ms-v7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ms-v7-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "By embedding these services directly within the school environment, SAIS - Abu Dhabi fosters close, trusting relationships between students and healthcare professionals. This hands-on, holistic approach not only promotes better health outcomes but also supports every student’s emotional well-being and academic success."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi student raising his hand in class",
+          "asset": {
+            "_ref": "image-d230aa79cc718eb5b470dd431145d8f0656c33e3-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "servicesSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about medical services at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi campus medical services hero",
+        "asset": {
+          "_ref": "image-10f3468d5488b6e1188d3b467b5dde3f7e10456b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Medical Services | SAIS - Abu Dhabi"
+    },
+    "title": "Medical Services"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "our-community-page",
+    "_rev": "Et8wctIqY4P5sylMEr4KaG",
+    "_system": {
+      "base": {
+        "id": "our-community-page",
+        "rev": "8JE7HbcNmOYB2R9J7u621a"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T13:12:38Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Our\nCommunity"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi community hero",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi community hero",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/our-community",
+    "sections": [
+      {
+        "_key": "supportSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "support-paragraph-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "support-paragraph-1-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We believe that a thriving school community is built on the principles of care, collaboration, and mutual respect. Our diverse network of students, families, and staff forms a cohesive environment where everyone is valued and supported."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "74d876e3494b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "support-paragraph-1-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Through consistent communication, inclusive practices, and shared goals, we foster a culture that promotes academic excellence, social responsibility, and personal development. From parent partnerships to student-led initiatives, student government association, and school-wide events, our collaborative spirit ensures that every member of the SAIS community plays an important role in shaping a positive and enriching school experience. we foster meaningful relationships that empower our learners and strengthen our school spirit."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Community of Care and Collaboration"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Supporting every student",
+          "asset": {
+            "_ref": "image-b7ebe3dd32948232cbd819269f4bc846080fd105-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "supportSection"
+      },
+      {
+        "_key": "linksSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "our-campus",
+            "_type": "card",
+            "cta": {
+              "_key": "k2hmub4id99",
+              "_type": "cta",
+              "href": "/our-campus",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi campus",
+              "asset": {
+                "_ref": "image-00ec727b2ad8974aa18daafe4c354d0eb0163014-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Our Campus"
+          },
+          {
+            "_key": "student-staff-wellbeing",
+            "_type": "card",
+            "cta": {
+              "_key": "k2imub4id99",
+              "_type": "cta",
+              "href": "/student-staff-wellbeing",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "Student and staff wellbeing",
+              "asset": {
+                "_ref": "image-f3fd09d0556e8f055df86d2fc3ac4656ca8bce58-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Student & Staff Wellbeing"
+          },
+          {
+            "_key": "parent-involvement",
+            "_type": "card",
+            "cta": {
+              "_key": "k2kmub4id99",
+              "_type": "cta",
+              "href": "/parent-involvement",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "Parent involvement",
+              "asset": {
+                "_ref": "image-41d850f11c68cee3701ce9ba00d8b1b768ce5b25-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Parent Involvement"
+          },
+          {
+            "_key": "school-calendar",
+            "_type": "card",
+            "cta": {
+              "_key": "k2lmub4id99",
+              "_type": "cta",
+              "href": "/school-calendar",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "School calendar",
+              "asset": {
+                "_ref": "image-423975bc524e2bd4a4a3bdbd57331b58df07e901-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "School Calendar"
+          },
+          {
+            "_key": "student-inclusion",
+            "_type": "card",
+            "cta": {
+              "_key": "k2jmub4id99",
+              "_type": "cta",
+              "href": "/student-inclusion",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "School Reports",
+              "asset": {
+                "_ref": "image-a2629fc4914325583cbb2d14006cae9f57073a73-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "School Reports"
+          },
+          {
+            "_key": "school-policies",
+            "_type": "card",
+            "cta": {
+              "_key": "k2mmub4id99",
+              "_type": "cta",
+              "href": "/school-policies",
+              "label": "See More"
+            },
+            "image": {
+              "_type": "image",
+              "alt": "School policies",
+              "asset": {
+                "_ref": "image-b0d2c6ada2799dd0bafde647cdd60a5555377dd6-992x806-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "School Policies"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Learn About Our Community"
+        },
+        "slot": "linksSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about the SAIS - Abu Dhabi community, campus, wellbeing, inclusion, services, and school support.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi community hero",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Our Community | SAIS - Abu Dhabi"
+    },
+    "title": "Our Community"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "school-supplies-uniform-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "school-supplies-uniform-page",
+        "rev": "FCO364qzHDm2jW4qGKJynl"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "School Supplies\n& Uniform"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students in school uniform",
+        "asset": {
+          "_ref": "image-c482d2339f1592de357acd28baf3449418b918d6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students running on the field in PE uniform",
+        "asset": {
+          "_ref": "image-abaffdad56f96c2209fdc609c43497fafdd0d31d-2104x1461-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/school-supplies-uniform",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "school-supplies-intro-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "school-supplies-intro-1-text",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "On-Campus Bookstores:"
+                },
+                {
+                  "_key": "e0e15ba3629e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\nAll required items, extbooks, notebooks, art materials, stationery, lab gear, etc, are stocked by grade level in our on-campus bookstore for convenient, one-stop shopping."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "School Supplies"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "School supplies and uniform",
+          "asset": {
+            "_ref": "image-ff77288dad6a0103a80338d7788ffb53bdde682d-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "uniformSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "school-uniform-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "school-uniform-1-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To promote a focused learning environment and unity,\nSAIS Abu Dhabi students must wear the following:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d62c517a3129",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "447d87aa317e",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Formal Uniform"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "7ace5c4969d7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "967738edd9e4",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Boys:"
+                },
+                {
+                  "_key": "67574e30a9a4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " White collared shirt with SAIS logo; beige trousers; navy cardigan with SAIS logo; black flat-soled shoes."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "da8e3c810c31",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9976383f4fd8",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Girls:"
+                },
+                {
+                  "_key": "7e20dcfc3aa8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " White collared shirt with SAIS logo; beige trousers/skirt (below the knee); navy cardigan with SAIS logo; black flat-soled shoes."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "1c08671f4100",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ddf858ac3a6d",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "PE Uniform"
+                },
+                {
+                  "_key": "03892f206c3e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\nWhite SAIS T-shirt and navy/blue athletic pants for all students.\nHigh school students wear PE uniform only during PE class sessions"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Uniform Guidelines"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students wearing school uniform",
+          "asset": {
+            "_ref": "image-621082d86b1bc33f4804598195d273104e73c6eb-2064x1670-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "uniformSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about school supplies and uniform at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students in school uniform",
+        "asset": {
+          "_ref": "image-c482d2339f1592de357acd28baf3449418b918d6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "School Supplies & Uniform | SAIS - Abu Dhabi"
+    },
+    "title": "School Supplies & Uniform"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "student-inclusion-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "student-inclusion-page",
+        "rev": "z2nMvYbGDG4FxTvfDSZcYO"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Student\nInclusion"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students learning in class",
+        "asset": {
+          "_ref": "image-4ff7f51b7f4f639d10a1916ff8adcf6d05d46d2c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students learning in class",
+        "asset": {
+          "_ref": "image-4ff7f51b7f4f639d10a1916ff8adcf6d05d46d2c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/student-inclusion",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "student-inclusion-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "student-inclusion-intro-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Inclusion is not just a policy, it’s a core value that defines our educational philosophy."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6e8ab1490b68",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ccf92e5dfb04",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We are committed to creating a welcoming, respectful, and supportive environment where every student, including students of determination (students with special needs), is embraced, empowered, and actively included in the learning journey."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Building a Culture of Inclusion & Belonging"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi student reading outdoors",
+          "asset": {
+            "_ref": "image-916d88437597ebef280441b76ce21a4dccd8456b-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "supportProgramsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "students-of-determination",
+            "_type": "card",
+            "description": "We implement a comprehensive Learning Support Program focused on improving literacy and numeracy skills for students who need additional academic assistance. Through Individualized Education Plans (IEPs) and differentiated instruction, we ensure that learning is tailored to suit each child’s needs, interests, and pace.",
+            "icon": {
+              "_type": "image",
+              "alt": "Students of determination icon",
+              "asset": {
+                "_ref": "image-eac9888784cb08a0031ac0b95b0198c2914fc7b4-337x343-jpg",
+                "_type": "reference"
+              }
+            },
+            "iconType": "determination",
+            "title": "Personalized Support Programs"
+          },
+          {
+            "_key": "gifted-talented",
+            "_type": "card",
+            "description": "Our dedicated learning support teachers and specialists in children’s well-being work hand-in-hand with classroom teachers to provide targeted interventions and emotional support. Continuous professional development ensures that our educators are equipped with inclusive teaching strategies that foster success for all learners.",
+            "icon": {
+              "_type": "image",
+              "alt": "Gifted and talented students icon",
+              "asset": {
+                "_ref": "image-b860085751c7f41238c9ca78891efbe363bab393-300x343-jpg",
+                "_type": "reference"
+              }
+            },
+            "iconType": "gifted",
+            "title": "Skilled and Caring Educators"
+          },
+          {
+            "_key": "eal-learners",
+            "_type": "card",
+            "description": "We follow a multi-tiered system of support, where students’ progress is regularly monitored, and interventions become more intensive based on the level of need. This ensures early identification and continuous growth for every learner.",
+            "icon": {
+              "_type": "image",
+              "alt": "EAL learners icon",
+              "asset": {
+                "_ref": "image-50a82b9984e4fc8448fc8b860f205b519d5477b8-311x343-jpg",
+                "_type": "reference"
+              }
+            },
+            "iconType": "eal",
+            "title": "Multi-Tiered Intervention Model"
+          },
+          {
+            "_key": "counselling-support",
+            "_type": "card",
+            "description": "Students of determination are not separated, they learn alongside their peers in mainstream classrooms, contributing to and benefiting from shared experiences. This builds empathy, acceptance, and a sense of community.",
+            "icon": {
+              "_type": "image",
+              "alt": "Counselling and Support Services",
+              "asset": {
+                "_ref": "image-b833d8735074a6683d716a8552d1fad27efe4f5a-287x333-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "counseling",
+            "title": "Inclusive Classrooms"
+          },
+          {
+            "_key": "c3b276c5582c",
+            "_type": "card",
+            "description": "Our inclusive practices are fully aligned with the UAE’s National Policy for Empowering People of Determination. We believe that all students have the right to quality education and meaningful participation, regardless of ability.",
+            "icon": {
+              "_type": "image",
+              "alt": "Differentiation",
+              "asset": {
+                "_ref": "image-5d2caa17f0c1f0053c1b731ec72dacba9152a069-328x333-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Aligned with UAE National Policy"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Inclusion & Support Programs"
+        },
+        "slot": "supportProgramsSection"
+      },
+      {
+        "_key": "whoWeSupportSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "who-we-support-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "who-we-support-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We see each student as an individual with unique potential. We go beyond just accommodating students of determination, we empower them. Inclusion here means every voice matters, every effort is celebrated, and every student belongs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Promise"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi teacher leading an inclusive lesson",
+          "asset": {
+            "_ref": "image-62a531b41d60c926c00b0270bac823b143ccc912-1600x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "whoWeSupportSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about student inclusion and support programs at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students learning in class",
+        "asset": {
+          "_ref": "image-4ff7f51b7f4f639d10a1916ff8adcf6d05d46d2c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Student Inclusion | SAIS - Abu Dhabi"
+    },
+    "title": "Student Inclusion"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "transportation-safety-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "transportation-safety-page",
+        "rev": "Vnv6A4ouQqSNX98H67BHyq"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "School Transportation\nSafety Guidelines"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi school bus transportation",
+        "asset": {
+          "_ref": "image-29172d143399dbb61e820885c94aa4107cf60f64-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi school bus transportation",
+        "asset": {
+          "_ref": "image-29172d143399dbb61e820885c94aa4107cf60f64-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/transportation-safety-guidelines",
+    "sections": [
+      {
+        "_key": "safetyHighlight",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "tr-lead",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-lead-s",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "We understand that a safe, reliable journey to and from school is essential for both students’ peace of mind and parents’ confidence. Our school transportation service is designed to deliver the highest standards of comfort, security, and efficiency."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Student Transportation Protocols"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students running on the school track",
+          "asset": {
+            "_ref": "image-1a32aca1d29d97c331d7b9de1cd7152c57378169-2000x909-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "safetyHighlight"
+      },
+      {
+        "_key": "featuresSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "tr-f1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-f1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Modern, Well-Maintained Fleet:"
+                },
+                {
+                  "_key": "tr-f1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " All vehicles undergo daily inspections and routine maintenance to ensure peak performance and reliability."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-f2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-f2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Qualified Drivers & Escorts:"
+                },
+                {
+                  "_key": "tr-f2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Each bus is operated by a licensed driver with extensive experience in student transport, assisted by a trained attendant who supervises boarding and disembarking."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-f3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-f3-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Safe Pick-Up & Drop-Off Points:"
+                },
+                {
+                  "_key": "tr-f3-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " We establish designated stops throughout Abu Dhabi and surrounding neighborhoods, each supervised by school staff to guarantee orderly and secure transitions."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-f4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-f4-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Strict Safety Protocols:"
+                },
+                {
+                  "_key": "tr-f4-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " From mandatory seat belts to regular vehicle sanitization, our protocols comply with all UAE health and safety regulations. We conduct regular emergency drills to ensure students and staff are prepared for any situation."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Key Features of Our Service"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi school reception lobby",
+          "asset": {
+            "_ref": "image-8d702ffaf92b30579f702b9fa96ace204be1e9fc-1528x1376-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "featuresSection"
+      },
+      {
+        "_key": "enrollSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "tr-e1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-e1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To register your child for our transportation service or to learn more about available routes and fees, please:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-e2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-e2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "T: +971 6 766 5553 Ext 110"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-e3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-e3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "E: saisq@saisuaq.com\n(please include “Transportation” in the subject line)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-e4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-e4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We’re here to answer your questions and customize a route that best supports your family’s needs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tr-e5",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tr-e5-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SAIS - Abu Dhabi isn’t just a school. It’s a place where students feel at home. Within our diverse and supportive community, every child is valued, every voice is heard, and every success is celebrated. Here, learning is a shared journey, and growth happens together, like a family."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "How to Enroll"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students walking down the school entrance steps",
+          "asset": {
+            "_ref": "image-35899607a72ce7abbff8cfcf2f08669152b1bb3c-2201x1670-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "enrollSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about school transportation safety guidelines at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi school bus transportation",
+        "asset": {
+          "_ref": "image-29172d143399dbb61e820885c94aa4107cf60f64-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "School Transportation Safety Guidelines | SAIS - Abu Dhabi"
+    },
+    "title": "Transportation Safety Guidelines"
+  }
+]

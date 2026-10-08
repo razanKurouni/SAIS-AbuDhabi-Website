@@ -511,46 +511,6 @@ export type StudentStaffWellbeingPageData = {
   classroomIntegration?: AcademicsKindergartenFeatureSection;
 };
 
-export type StudentInclusionPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  introSection?: ImageTextSection;
-  approachSection?: ImageTextSection;
-  whoWeSupportSection?: ImageTextSection;
-  supportProgramsSection?: AcademicsSupportProgramsSection;
-};
-
-export type HealthSafetyPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  introSection?: ImageTextSection;
-  approachSection?: AcademicsKindergartenFeatureSection;
-};
-
-export type FoodServicesNutritionPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  introSection?: ImageTextSection;
-  cafeteriaSection?: ImageTextSection;
-  hygieneSection?: ImageTextSection;
-  teamSection?: ImageTextSection;
-};
-
-export type MedicalServicesPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  introSection?: ImageTextSection;
-  staffSection?: AcademicsKindergartenFeatureSection;
-  servicesSection?: ImageTextSection;
-};
-
-export type SchoolSuppliesUniformPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  introSection?: ImageTextSection;
-  uniformSection?: ImageTextSection;
-};
-
 export type SafetyHighlightSection = {
   heading?: SectionHeading;
   image?: SanityImage;
@@ -558,14 +518,6 @@ export type SafetyHighlightSection = {
   backgroundColor?: string;
   titleColor?: string;
   textColor?: string;
-};
-
-export type TransportationSafetyPageData = {
-  seo?: Seo;
-  hero?: PageHeroContent;
-  safetyHighlight?: SafetyHighlightSection;
-  featuresSection?: ImageTextSection;
-  enrollSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type ParentEngagementSection = {
@@ -596,6 +548,14 @@ export type SchoolCalendarTerm = {
   title?: string;
   color?: string;
   rows?: SchoolCalendarTermRow[];
+};
+
+export type SchoolReportsPageData = {
+  seo?: Seo;
+  hero?: PageHeroContent;
+  intro?: {
+    heading?: SectionHeading;
+  };
 };
 
 export type SchoolCalendarPageData = {

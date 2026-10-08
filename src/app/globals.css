@@ -1386,7 +1386,7 @@ button[aria-label="Open Next.js Dev Tools"] {
 }
 
 .community-inner-nav .inner-page-nav__list {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .community-inner-nav .inner-page-nav__link {
@@ -14034,6 +14034,13 @@ img:where(
       #FFFFFF 50%,
       #F2F2F2 50%,
       #F2F2F2 100%);
+}
+
+/* Our Community: the panel title takes the teal of the design. */
+.our-community-page .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
 }
 
 .campus-intro {

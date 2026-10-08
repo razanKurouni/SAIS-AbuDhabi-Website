@@ -1573,6 +1573,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "school-reports-page/intro": {
+    "section": [
+      "heading"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "school-supplies-uniform-page/introSection": {
     "section": [
       "heading",
@@ -2122,6 +2134,15 @@ export const HERO_FIELDS: Record<string, { hero: string[]; heading: string[] }> 
       "heading",
       "image",
       "mobileImage"
+    ],
+    "heading": [
+      "title"
+    ]
+  },
+  "school-reports-page": {
+    "hero": [
+      "heading",
+      "image"
     ],
     "heading": [
       "title"

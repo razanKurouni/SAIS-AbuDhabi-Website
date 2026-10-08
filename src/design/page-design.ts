@@ -602,62 +602,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     }
   },
-  "food-services-nutrition-page": {
-    "cafeteriaSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "titleColor": "#216B97"
-    },
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "topLineColor": "#216B97",
-      "waveColor": "#d97252"
-    },
-    "hygieneSection": {
-      "backgroundColor": "#216B97",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#00A5B2"
-    },
-    "introSection": {
-      "imagePosition": "center"
-    },
-    "teamSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "titleColor": "#216B97"
-    }
-  },
-  "health-safety-page": {
-    "approachSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#D97252"
-    },
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#216B97",
-      "textColor": "#ffffff",
-      "topLineColor": "#d97252",
-      "waveColor": "#00A5B2"
-    },
-    "introSection": {
-      "backgroundColor": "#00A5B2",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
-    }
-  },
   "homepage-main": {
     "ctaBand": {
       "ctas": [
@@ -817,35 +761,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "theme": "teal"
     }
   },
-  "medical-services-page": {
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#707174",
-      "textColor": "#ffffff",
-      "topLineColor": "#216B97",
-      "waveColor": "#00A5B2"
-    },
-    "introSection": {
-      "imagePosition": "center",
-      "theme": "blue"
-    },
-    "servicesSection": {
-      "backgroundColor": "#707174",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
-    },
-    "staffSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#D97252"
-    }
-  },
   "news-listing-page": {
     "hero": {
       "imagePosition": "center",
@@ -961,7 +876,8 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "supportSection": {
       "imagePosition": "left",
-      "theme": "blue"
+      "theme": "blue",
+      "titleColor": "#00A5B2"
     }
   },
   "our-team-page": {
@@ -1055,6 +971,16 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       }
     ]
   },
+  "school-reports-page": {
+    "hero": {
+      "imagePosition": "center",
+      "imageWidth": "58%",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "topLineColor": "#d97252",
+      "waveColor": "#00A5B2"
+    }
+  },
   "school-policies-page": {
     "overviewSection": {
       "backgroundColor": "#ffffff",
@@ -1069,56 +995,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "topLineColor": "#216B97",
       "waveColor": "#d97252"
-    }
-  },
-  "school-supplies-uniform-page": {
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#216B97",
-      "textColor": "#ffffff",
-      "topLineColor": "#d97252",
-      "waveColor": "#00A5B2"
-    },
-    "introSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "theme": "light",
-      "titleColor": "#216B97"
-    },
-    "uniformSection": {
-      "imagePosition": "right",
-      "theme": "teal"
-    }
-  },
-  "student-inclusion-page": {
-    "approachSection": {
-      "imagePosition": "right",
-      "theme": "teal"
-    },
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#216B97",
-      "textColor": "#ffffff",
-      "topLineColor": "#d97252",
-      "waveColor": "#00A5B2"
-    },
-    "introSection": {
-      "imagePosition": "left",
-      "theme": "teal"
-    },
-    "supportProgramsSection": {
-      "backgroundColor": "#f2f2f2",
-      "cardBorderColor": "#216B97",
-      "cardHoverBorderColor": "#00A5B2",
-      "cardTextColor": "#216B97",
-      "titleColor": "#00A5B2"
-    },
-    "whoWeSupportSection": {
-      "imagePosition": "left",
-      "theme": "teal"
     }
   },
   "student-life-page": {
@@ -1232,45 +1108,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "textColor": "#707278",
       "titleColor": "#216B97"
-    }
-  },
-  "transportation-safety-page": {
-    "enrollSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#216B97",
-      "textColor": "#ffffff",
-      "titleColor": "#00A5B2",
-      "waveColor": "#00A5B2"
-    },
-    "featuresSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "titleColor": "#216B97"
-    },
-    "guidelinesSection": {
-      "backgroundColor": "#216B97",
-      "cardBorderColor": "#216B97",
-      "cardHoverBorderColor": "#d97252",
-      "cardTextColor": "#216B97",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
-    },
-    "hero": {
-      "imagePosition": "center",
-      "imageWidth": "58%",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "topLineColor": "#216B97",
-      "waveColor": "#d97252"
-    },
-    "safetyHighlight": {
-      "backgroundColor": "#216B97",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#00A5B2"
     }
   }
 };

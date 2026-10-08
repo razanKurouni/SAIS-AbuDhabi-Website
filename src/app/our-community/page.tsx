@@ -65,7 +65,11 @@ export default async function OurCommunityPage() {
       />
       <CommunityInnerNav activeHref="/our-community" />
 
-      <IntroFeatureSection section={ourCommunityPage?.supportSection} titleId="our-community-support-title" />
+      <IntroFeatureSection
+        section={ourCommunityPage?.supportSection}
+        titleId="our-community-support-title"
+        titleColor={ourCommunityPage?.supportSection?.titleColor || "#00A5B2"}
+      />
       <LearningPhasesSection section={ourCommunityPage?.linksSection} />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

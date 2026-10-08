@@ -8,6 +8,13 @@ const nextConfig: NextConfig = {
       { source: "/achievements", destination: "/student-programs", permanent: true },
       // the FAQ page became Register Your Interest
       { source: "/admissions/faqs", destination: "/admissions/register-your-interest", permanent: true },
+      // community sub-pages that were removed; old links land on Our Community
+      { source: "/student-inclusion", destination: "/our-community", permanent: true },
+      { source: "/health-safety", destination: "/our-community", permanent: true },
+      { source: "/food-services-nutrition", destination: "/our-community", permanent: true },
+      { source: "/medical-services", destination: "/our-community", permanent: true },
+      { source: "/school-supplies-uniform", destination: "/our-community", permanent: true },
+      { source: "/transportation-safety-guidelines", destination: "/our-community", permanent: true },
     ];
   },
   turbopack: {

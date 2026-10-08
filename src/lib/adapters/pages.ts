@@ -22,10 +22,7 @@ import type {
   CmsPage,
   ContactPageData,
   ExtraCurricularActivitiesPageData,
-  FoodServicesNutritionPageData,
-  HealthSafetyPageData,
   HomepageData,
-  MedicalServicesPageData,
   NewsListingPageData,
   OurCampusPageData,
   OurCommunityPageData,
@@ -33,13 +30,11 @@ import type {
   ParentInvolvementPageData,
   SchoolCalendarPageData,
   SchoolPoliciesPageData,
-  SchoolSuppliesUniformPageData,
+  SchoolReportsPageData,
   SiteSettings,
-  StudentInclusionPageData,
   StudentLifePageData,
   StudentProgramsPageData,
   StudentStaffWellbeingPageData,
-  TransportationSafetyPageData,
 } from "@/types/sanity";
 import { INNER_NAVIGATION } from "@/design/inner-navigation";
 import { REGISTER_INTEREST_FORM_ARIA_LABEL, REGISTER_INTEREST_FORM_FIELDS } from "@/design/forms";
@@ -373,19 +368,6 @@ export function adaptStudentStaffWellbeing(page: CmsPage): StudentStaffWellbeing
   };
 }
 
-export function adaptStudentInclusion(page: CmsPage): StudentInclusionPageData {
-  const s = bySlot(page);
-  return {
-    ...base(page),
-    introSection: imageText(s.get("introSection")),
-    approachSection: imageText(s.get("approachSection")),
-    whoWeSupportSection: imageText(s.get("whoWeSupportSection")),
-    supportProgramsSection: s.has("supportProgramsSection")
-      ? { heading: heading(s.get("supportProgramsSection")), cards: iconCards(s.get("supportProgramsSection")) }
-      : undefined,
-  };
-}
-
 export function adaptParentInvolvement(page: CmsPage): ParentInvolvementPageData {
   const s = bySlot(page);
   return {
@@ -407,6 +389,11 @@ export function adaptSchoolCalendar(page: CmsPage): SchoolCalendarPageData {
   };
 }
 
+export function adaptSchoolReports(page: CmsPage): SchoolReportsPageData {
+  const s = bySlot(page);
+  return { ...base(page), intro: textSection(s.get("intro")) };
+}
+
 export function adaptSchoolPolicies(page: CmsPage): SchoolPoliciesPageData {
   const s = bySlot(page);
   return {
@@ -414,47 +401,6 @@ export function adaptSchoolPolicies(page: CmsPage): SchoolPoliciesPageData {
     intro: textSection(s.get("intro")),
     overviewSection: imageText(s.get("overviewSection")),
     policies: policies(s.get("policies")),
-  };
-}
-
-export function adaptHealthSafety(page: CmsPage): HealthSafetyPageData {
-  const s = bySlot(page);
-  return { ...base(page), introSection: imageText(s.get("introSection")), approachSection: imageText(s.get("approachSection")) };
-}
-
-export function adaptFoodServices(page: CmsPage): FoodServicesNutritionPageData {
-  const s = bySlot(page);
-  return {
-    ...base(page),
-    introSection: imageText(s.get("introSection")),
-    cafeteriaSection: imageText(s.get("cafeteriaSection")),
-    hygieneSection: imageText(s.get("hygieneSection")),
-    teamSection: imageText(s.get("teamSection")),
-  };
-}
-
-export function adaptMedicalServices(page: CmsPage): MedicalServicesPageData {
-  const s = bySlot(page);
-  return {
-    ...base(page),
-    introSection: imageText(s.get("introSection")),
-    staffSection: imageText(s.get("staffSection")),
-    servicesSection: imageText(s.get("servicesSection")),
-  };
-}
-
-export function adaptSchoolSuppliesUniform(page: CmsPage): SchoolSuppliesUniformPageData {
-  const s = bySlot(page);
-  return { ...base(page), introSection: imageText(s.get("introSection")), uniformSection: imageText(s.get("uniformSection")) };
-}
-
-export function adaptTransportationSafety(page: CmsPage): TransportationSafetyPageData {
-  const s = bySlot(page);
-  return {
-    ...base(page),
-    safetyHighlight: imageText(s.get("safetyHighlight")),
-    featuresSection: imageText(s.get("featuresSection")),
-    enrollSection: imageText(s.get("enrollSection")),
   };
 }
 

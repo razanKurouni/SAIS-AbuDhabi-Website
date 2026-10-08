@@ -24,10 +24,7 @@ import type {
   CmsPage,
   ContactPageData,
   ExtraCurricularActivitiesPageData,
-  FoodServicesNutritionPageData,
-  HealthSafetyPageData,
   HomepageData,
-  MedicalServicesPageData,
   NewsListingPageData,
   NewsPost,
   OurCampusPageData,
@@ -36,13 +33,11 @@ import type {
   ParentInvolvementPageData,
   SchoolCalendarPageData,
   SchoolPoliciesPageData,
-  SchoolSuppliesUniformPageData,
+  SchoolReportsPageData,
   SiteSettings,
-  StudentInclusionPageData,
   StudentLifePageData,
   StudentProgramsPageData,
   StudentStaffWellbeingPageData,
-  TransportationSafetyPageData,
 } from "@/types/sanity";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "zpdqig01";
@@ -176,23 +171,13 @@ export const getOurCommunityPage = (): Promise<OurCommunityPageData | null> => a
 export const getOurCampusPage = (): Promise<OurCampusPageData | null> => adaptedPage("our-campus-page", adapt.adaptOurCampus);
 export const getStudentStaffWellbeingPage = (): Promise<StudentStaffWellbeingPageData | null> =>
   adaptedPage("student-staff-wellbeing-page", adapt.adaptStudentStaffWellbeing);
-export const getStudentInclusionPage = (): Promise<StudentInclusionPageData | null> =>
-  adaptedPage("student-inclusion-page", adapt.adaptStudentInclusion);
 export const getParentInvolvementPage = (): Promise<ParentInvolvementPageData | null> =>
   adaptedPage("parent-involvement-page", adapt.adaptParentInvolvement);
 export const getSchoolCalendarPage = (): Promise<SchoolCalendarPageData | null> =>
   adaptedPage("school-calendar-page", adapt.adaptSchoolCalendar);
+export const getSchoolReportsPage = (): Promise<SchoolReportsPageData | null> => adaptedPage("school-reports-page", adapt.adaptSchoolReports);
 export const getSchoolPoliciesPage = (): Promise<SchoolPoliciesPageData | null> =>
   adaptedPage("school-policies-page", adapt.adaptSchoolPolicies);
-export const getHealthSafetyPage = (): Promise<HealthSafetyPageData | null> => adaptedPage("health-safety-page", adapt.adaptHealthSafety);
-export const getFoodServicesNutritionPage = (): Promise<FoodServicesNutritionPageData | null> =>
-  adaptedPage("food-services-nutrition-page", adapt.adaptFoodServices);
-export const getMedicalServicesPage = (): Promise<MedicalServicesPageData | null> =>
-  adaptedPage("medical-services-page", adapt.adaptMedicalServices);
-export const getSchoolSuppliesUniformPage = (): Promise<SchoolSuppliesUniformPageData | null> =>
-  adaptedPage("school-supplies-uniform-page", adapt.adaptSchoolSuppliesUniform);
-export const getTransportationSafetyPage = (): Promise<TransportationSafetyPageData | null> =>
-  adaptedPage("transportation-safety-page", adapt.adaptTransportationSafety);
 
 export const getStudentLifePage = (): Promise<StudentLifePageData | null> => adaptedPage("student-life-page", adapt.adaptStudentLife);
 export const getStudentProgramsPage = (): Promise<StudentProgramsPageData | null> =>
