@@ -656,8 +656,8 @@ export type ExtraCurricularActivitiesPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  enrichingIntro?: AcademicsApBenefitsSection;
-  activitiesSlider?: AcademicsLearningSliderSection;
+  enrichingSection?: AcademicsKindergartenFeatureSection;
+  tourIntro?: SectionHeading;
 };
 
 export type CalendarDownloadSection = {

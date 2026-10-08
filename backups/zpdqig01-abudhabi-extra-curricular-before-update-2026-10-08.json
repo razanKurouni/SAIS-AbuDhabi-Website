@@ -1,0 +1,143 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "extra-curricular-activities-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "extra-curricular-activities-page",
+        "rev": "Vnv6A4ouQqSNX98H5hshu8"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Extra Curricular\nActivities"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-ebf267c2454c31a7f4ca49c75bceec101b6045d2-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-0b6ed8b5a8988e988b846fd8076713d13280c963-11816x13210-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/extra-curricular-activities",
+    "sections": [
+      {
+        "_key": "enrichingIntro",
+        "_type": "cardsSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "extra-curricular-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "extra-curricular-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Through a diverse range of activities, students are encouraged to discover their passions, collaborate with peers, and become active contributors to the school community. Whether pursuing athletic excellence, artistic expression, intellectual challenges, or leadership opportunities, every student is empowered to grow, connect, and thrive."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "subtitle": "Our extracurricular activities program provides students with opportunities to explore their interests, develop new talents, build confidence, and strengthen essential life skills.",
+          "title": "Learning Beyond the Classroom"
+        },
+        "slot": "enrichingIntro"
+      },
+      {
+        "_key": "activitiesSlider",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "music",
+            "_type": "card",
+            "description": "Our sports programs promote physical fitness, teamwork, perseverance, and healthy competition. Students have opportunities to participate in a variety of individual and team-based activities that encourage discipline, resilience, and personal growth.\n\nThrough regular practice, friendly competitions, and school sporting events, students develop confidence, leadership skills, and a lifelong appreciation for active and healthy living.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi student playing the violin during a music lesson",
+              "asset": {
+                "_ref": "image-25a6d12ede86901806eea82da8d7760e85c17527-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Sports & Physical Wellness"
+          },
+          {
+            "_key": "sports",
+            "_type": "card",
+            "description": "The arts provide students with meaningful opportunities to express creativity, imagination, and individuality. Through visual arts, music, drama, and performance-based activities, students explore different forms of artistic expression while developing their talents.\n\nParticipation in artistic programs enhances confidence, communication skills, and cultural appreciation, allowing students to showcase their abilities through performances, exhibitions, and special events.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students during a sports training session",
+              "asset": {
+                "_ref": "image-3c6a78b0a7782a504550f655cd2e9c536d5be2fb-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Arts, Music & Performance"
+          },
+          {
+            "_key": "clubs-and-leadership",
+            "_type": "card",
+            "description": "Our academic enrichment activities encourage students to think critically, solve problems creatively, and pursue knowledge beyond the classroom curriculum. Programs such as chess, debate, puzzles, STEM challenges, and academic competitions inspire curiosity and intellectual growth.\n\nThese experiences help students strengthen analytical thinking, collaboration, and decision-making skills while fostering a love of learning and innovation.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working together in a school club",
+              "asset": {
+                "_ref": "image-c52d20fa194eb29058efcff7555d2aaf59d65c5c-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Academic & Intellectual Enrichment"
+          },
+          {
+            "_key": "3131bc06405a",
+            "_type": "card",
+            "description": "Leadership opportunities empower students to take initiative, work collaboratively, and contribute positively to their school and wider community. Through student-led projects, service activities, and leadership programs, students learn the value of responsibility, integrity, and teamwork.\n\nBy engaging in meaningful community experiences, students develop empathy, communication skills, and a strong sense of citizenship, preparing them to become confident and responsible future leaders.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working together in a school club",
+              "asset": {
+                "_ref": "image-4eab627de732316a9ca5212ab5ed93155ed10c57-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Leadership & Community Engagement"
+          }
+        ],
+        "slot": "activitiesSlider"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore extracurricular activities at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-ebf267c2454c31a7f4ca49c75bceec101b6045d2-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Extra Curricular Activities | SAIS - Abu Dhabi"
+    },
+    "title": "Extra Curricular Activities"
+  }
+]

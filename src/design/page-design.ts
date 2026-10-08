@@ -585,47 +585,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "extra-curricular-activities-page": {
-    "activitiesSlider": {
-      "slides": [
-        {
-          "backgroundColor": "#216B97",
-          "imagePosition": "center",
-          "ringColor": "#D97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff",
-          "titleColor": "#ffffff"
-        },
-        {
-          "backgroundColor": "#216B97",
-          "imagePosition": "center",
-          "ringColor": "#D97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff",
-          "titleColor": "#ffffff"
-        },
-        {
-          "backgroundColor": "#216B97",
-          "imagePosition": "center",
-          "ringColor": "#D97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff",
-          "titleColor": "#ffffff"
-        },
-        {
-          "backgroundColor": "#216B97",
-          "imagePosition": "center",
-          "ringColor": "#D97252",
-          "sideColor": "#00A5B2",
-          "textColor": "#ffffff",
-          "titleColor": "#ffffff"
-        }
-      ]
-    },
-    "enrichingIntro": {
-      "backgroundColor": "#ffffff",
-      "subtitleColor": "#00A5B2",
-      "textColor": "#666B70",
-      "titleColor": "#216B97"
+    "enrichingSection": {
+      "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#00A5B2",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#6F7175"
     },
     "hero": {
       "imagePosition": "center",

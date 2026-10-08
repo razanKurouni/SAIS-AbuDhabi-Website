@@ -412,7 +412,10 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/extra-curricular-activities",
     title: "Extra Curricular Activities",
     group: "Student Life",
-    slots: [cards("enrichingIntro", "Enriching Intro"), cards("activitiesSlider", "Activities Slider", { items: "slides" })],
+    slots: [
+      it("enrichingSection", "Enriching Every Student Journey"),
+      { slot: "tourIntro", kind: "heading", label: "Tour – Heading" },
+    ],
   },
   {
     id: "news-listing-page",

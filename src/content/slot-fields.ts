@@ -1005,26 +1005,25 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "text"
     ]
   },
-  "extra-curricular-activities-page/activitiesSlider": {
+  "extra-curricular-activities-page/enrichingSection": {
     "section": [
-      "cards"
+      "heading",
+      "image"
     ],
-    "heading": [],
-    "card": [
+    "heading": [
       "description",
-      "image",
       "title"
     ],
+    "card": [],
     "cardEntry": [],
     "entry": []
   },
-  "extra-curricular-activities-page/enrichingIntro": {
+  "extra-curricular-activities-page/tourIntro": {
     "section": [
       "heading"
     ],
     "heading": [
-      "description",
-      "subtitle",
+      "accentTitle",
       "title"
     ],
     "card": [],

@@ -485,12 +485,8 @@ export function adaptExtraCurricular(page: CmsPage): ExtraCurricularActivitiesPa
   const s = bySlot(page);
   return {
     ...base(page),
-    enrichingIntro: s.has("enrichingIntro")
-      ? { heading: heading(s.get("enrichingIntro")), cards: iconCards(s.get("enrichingIntro")) }
-      : undefined,
-    activitiesSlider: s.has("activitiesSlider")
-      ? { heading: heading(s.get("activitiesSlider")), slides: learningSlides(s.get("activitiesSlider")) }
-      : undefined,
+    enrichingSection: imageText(s.get("enrichingSection")),
+    tourIntro: heading(s.get("tourIntro")),
   };
 }
 

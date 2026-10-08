@@ -15167,21 +15167,20 @@ a.school-policy-card__cover:hover {
 
 
 
-.extra-curricular-activities-intro.academics-ap-benefits {
-  padding: clamp(40px, 5vw, 64px) 0 clamp(34px, 4vw, 52px);
+/* Extra-curricular: one teal panel with the grey wave, photo left, then the tour block. */
+.extra-curricular-activities-page .intro-feature.extra-curricular-activities-feature {
+  padding-top: 62px;
+  padding-bottom: 0;
 }
 
-.extra-curricular-activities-intro .academics-ap-benefits__title {
-  font-weight: 700;
+.extra-curricular-activities-page .extra-curricular-activities-feature .intro-feature__title {
+  color: var(--intro-feature-title-color);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
 }
 
-.extra-curricular-activities-intro .academics-ap-benefits__subtitle {
-  max-width: 640px;
-}
-
-.extra-curricular-activities-slider.academics-learning-slider {
-  background: #fff;
-  padding: clamp(18px, 3vw, 38px) 0 35px;
+.extra-curricular-activities-page .tour-intro {
+  padding-top: 62px;
 }
 
 .student-life-programs.editorial-split-section {
@@ -16472,22 +16471,12 @@ a.school-policy-card__cover:hover {
 }
 
 @media (max-width: 767px) {
-  .extra-curricular-activities-page .extra-curricular-activities-intro.academics-ap-benefits {
+  .extra-curricular-activities-page .intro-feature.extra-curricular-activities-feature {
     padding-top: 48px;
-    /* the slider's blue stage starts at the section edge, so this is the gap from the last line to the band */
-    padding-bottom: 50px;
-  }
-
-  .extra-curricular-activities-page .extra-curricular-activities-slider.academics-learning-slider {
-    padding-top: 0;
   }
 
   .extra-curricular-activities-page .tour-intro {
-    padding-top: 13px;
-  }
-
-  .extra-curricular-activities-page .extra-curricular-activities-intro .academics-ap-benefits__title {
-    font-weight: 600;
+    padding-top: 48px;
   }
 }
 
@@ -16728,6 +16717,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-application-process .intro-feature__wave,
   .intro-feature.student-programs-leadership .intro-feature__wave,
   .intro-feature.student-programs-house-captains .intro-feature__wave,
+  .intro-feature.extra-curricular-activities-feature .intro-feature__wave,
   .intro-feature.wellbeing-sel-feature .intro-feature__wave,
   .intro-feature.wellbeing-framework-feature .intro-feature__wave,
   .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
@@ -16744,6 +16734,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-application-process .intro-feature__curve-mask,
   .intro-feature.student-programs-leadership .intro-feature__curve-mask,
   .intro-feature.student-programs-house-captains .intro-feature__curve-mask,
+  .intro-feature.extra-curricular-activities-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
@@ -17716,12 +17707,6 @@ a.school-policy-card__cover:hover {
 /* Uniform: the "On-Campus Bookstores:" label reads in teal. */
 .school-supplies-uniform-page .school-supplies-uniform-intro .editorial-split-section__body strong {
   color: #00a5b2;
-}
-
-/* Extra-curricular: the intro copy runs as wide as the XD. */
-.extra-curricular-activities-page .extra-curricular-activities-intro .academics-ap-benefits__subtitle,
-.extra-curricular-activities-page .extra-curricular-activities-intro .academics-ap-benefits__description {
-  max-width: 780px;
 }
 
 /* No one-word last lines in the paragraphs the review flagged. */
