@@ -18301,13 +18301,19 @@ a.school-policy-card__cover:hover {
 /* Applications: tighter steps between the video, the steps, the CTA band and the documentation panel,
    and a real bullet list inside the panel. */
 .admissions-application-page .application-steps {
-  padding-top: 62px;
-  padding-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 .admissions-application-page .intro-feature.admissions-application-process {
-  padding-top: 0;
+  padding-top: 70px;
   padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .admissions-application-page .intro-feature.admissions-application-process {
+    padding-top: 34px;
+  }
 }
 
 .admissions-application-page .mograhub-band {
@@ -18329,10 +18335,4 @@ a.school-policy-card__cover:hover {
 
 .admissions-application-page .admissions-registration-cta.calendar-download-section {
   margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .admissions-application-page .intro-feature.admissions-application-process {
-    margin-top: -48px;
-  }
 }
