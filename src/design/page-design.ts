@@ -1191,34 +1191,27 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "student-programs-page": {
-    "excellenceIntro": {
-      "backgroundColor": "#ffffff",
-      "textColor": "#216B97",
-      "titleColor": "#00A5B2"
-    },
     "highlightsSection": {
-      "backgroundColor": "#27779D",
-      "textColor": "#ffffff",
-      "titleColor": "#00A5B2"
-    },
-    "potentialIntro": {
-      "backgroundColor": "#f2f2f2",
-      "textColor": "#216B97",
-      "titleColor": "#00A5B2"
-    },
-    "sgaSection": {
-      "backgroundColor": "#00A5B2",
       "imagePosition": "center",
+      "imageSide": "left",
+      "panelColor": "#216B97",
+      "textColor": "#ffffff",
+      "titleColor": "#00A5B2",
+      "waveColor": "#00A5B2"
+    },
+    "objectivesSection": {
+      "backgroundColor": "#6F7175",
+      "imagePosition": "right",
       "textColor": "#ffffff",
       "titleColor": "#ffffff"
     },
-    "potentialSlider": {
-      "slides": [
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#00A5B2", "textColor": "#ffffff" },
-        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff" },
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#D97252", "sideColor": "#00A5B2", "textColor": "#ffffff" },
-        { "backgroundColor": "#D97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff" }
-      ]
+    "houseCaptainsSection": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#00A5B2",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#216B97"
     },
     "hero": {
       "imagePosition": "center",

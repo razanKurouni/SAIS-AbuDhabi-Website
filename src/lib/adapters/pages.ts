@@ -74,7 +74,6 @@ import {
   statementCards,
   steps,
   termsGroups,
-  titledImages,
   textSection,
   valuesSlides,
   video,
@@ -475,23 +474,10 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
   const s = bySlot(page);
   return {
     ...base(page),
-    excellenceIntro: textSection(s.get("excellenceIntro")),
     highlightsSection: imageText(s.get("highlightsSection")),
-    potentialIntro: textSection(s.get("potentialIntro")),
-    potentialSlider: s.has("potentialSlider")
-      ? { heading: heading(s.get("potentialSlider")), slides: learningSlides(s.get("potentialSlider")) }
-      : undefined,
-    sgaSection: imageText(s.get("sgaSection")),
-    sgaRoles:
-      s.has("sgaRoles") || s.has("sgaRoles.rightColumn")
-        ? {
-            leftTitle: s.get("sgaRoles")?.heading?.title,
-            rightTitle: s.get("sgaRoles.rightColumn")?.heading?.title,
-            leftColumn: termsGroups(s.get("sgaRoles")),
-            rightColumn: termsGroups(s.get("sgaRoles.rightColumn")),
-          }
-        : undefined,
-    sgaTeams: s.has("sgaTeams") ? { items: titledImages(s.get("sgaTeams")) } : undefined,
+    objectivesSection: imageText(s.get("objectivesSection")),
+    houseCaptainsSection: imageText(s.get("houseCaptainsSection")),
+    tourIntro: heading(s.get("tourIntro")),
   };
 }
 

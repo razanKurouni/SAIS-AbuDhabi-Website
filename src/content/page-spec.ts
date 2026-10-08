@@ -401,14 +401,10 @@ export const PAGE_SPECS: PageSpec[] = [
     title: "Student Programs",
     group: "Student Life",
     slots: [
-      txt("excellenceIntro", "Introduction"),
       it("highlightsSection", "Student Leadership Program"),
-      txt("potentialIntro", "Potential – Introduction"),
-      cards("potentialSlider", "Potential – Slides", { items: "slides" }),
-      it("sgaSection", "Student Government Association"),
-      cards("sgaRoles", "SGA – Key Roles", { items: "leftColumn" }),
-      cards("sgaRoles.rightColumn", "SGA – Student Ministers", { path: "sgaRoles", items: "rightColumn" }),
-      cards("sgaTeams", "SGA – Team Photos", { items: "items" }),
+      it("objectivesSection", "Objectives of the Program"),
+      it("houseCaptainsSection", "SAIS House Captain System"),
+      { slot: "tourIntro", kind: "heading", label: "Tour – Heading" },
     ],
   },
   {

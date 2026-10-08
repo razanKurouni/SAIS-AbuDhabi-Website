@@ -16447,11 +16447,6 @@ a.school-policy-card__cover:hover {
  * intro title at the size the other section titles use. This page only.
  */
 @media (max-width: 767px) {
-  .student-programs-page #achievements-intro.editorial-split-section {
-    padding-top: 48px;
-    padding-bottom: 44px;
-  }
-
   .student-programs-page .tour-intro {
     padding-top: 48px;
   }
@@ -16732,7 +16727,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-tour-experience .intro-feature__wave,
   .intro-feature.admissions-application-process .intro-feature__wave,
   .intro-feature.student-programs-leadership .intro-feature__wave,
-  .intro-feature.student-programs-sga__panel .intro-feature__wave,
+  .intro-feature.student-programs-house-captains .intro-feature__wave,
   .intro-feature.wellbeing-sel-feature .intro-feature__wave,
   .intro-feature.wellbeing-framework-feature .intro-feature__wave,
   .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
@@ -16748,7 +16743,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.admissions-tour-experience .intro-feature__curve-mask,
   .intro-feature.admissions-application-process .intro-feature__curve-mask,
   .intro-feature.student-programs-leadership .intro-feature__curve-mask,
-  .intro-feature.student-programs-sga__panel .intro-feature__curve-mask,
+  .intro-feature.student-programs-house-captains .intro-feature__curve-mask,
   .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
@@ -16941,120 +16936,69 @@ a.school-policy-card__cover:hover {
   margin-top: 4px;
 }
 
-/* Student Programs: centred intro, then the leadership panel with the image card on the right */
+/* Student Programs: the navy leadership panel straddles the white/grey edge, the objectives split sits on the
+   grey band in white, and the teal House Captain panel straddles the grey/white edge above the tour block. */
 .student-programs-page .intro-feature.student-programs-leadership {
-  background: #ffffff;
-  padding-top: clamp(20px, 2.4vw, 34px);
-  padding-bottom: 62px;
-}
-
-.student-programs-page .student-programs-leadership .intro-feature__title {
-  color: var(--intro-feature-title-color);
-  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
-  font-weight: 600;
-}
-.student-programs-intro.student-life-overview {
-  padding: clamp(46px, 5.6vw, 66px) 0 clamp(34px, 4vw, 52px);
-}
-
-.student-programs-intro .student-life-overview__title {
-  white-space: pre-line;
-}
-
-
-
-
-@media (max-width: 767px) {
-}
-
-/* Student Programs: potential intro on the page grey, then the slider on the same grey */
-.student-programs-potential.student-life-overview {
-  padding-bottom: clamp(34px, 4vw, 52px);
-}
-
-.student-programs-slider.academics-learning-slider {
-  background: #f2f2f2;
-  padding-top: 0;
-  padding-bottom: clamp(30px, 3.4vw, 46px);
-}
-
-.student-programs-slider .academics-learning-slider__body {
-  font-size: var(--sais-body-text-size);
-  letter-spacing: var(--sais-body-text-letter-spacing);
-  line-height: var(--sais-body-text-line-height);
-}
-
-/* Student Programs: SGA panel straddling the grey/blue edge, then the roles on the blue band */
-.student-programs-sga {
-  background: #216B97;
-}
-
-.student-programs-page .intro-feature.student-programs-sga__panel {
-  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 42%, #216B97 42%, #216B97 100%);
-  padding-top: clamp(40px, 4.6vw, 64px);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 52%, #6F7175 52%, #6F7175 100%);
+  padding-top: 62px;
   padding-bottom: 0;
 }
 
-.student-programs-page .student-programs-sga__panel .intro-feature__title {
+.student-programs-page .student-programs-leadership .intro-feature__title,
+.student-programs-page .student-programs-house-captains .intro-feature__title {
   color: var(--intro-feature-title-color);
   font-size: clamp(1.35rem, 1.9vw, 1.7rem);
   font-weight: 600;
 }
 
-.student-programs-sga__panel .intro-feature__description strong {
-  display: block;
-  margin-top: 22px;
-  color: #ffffff;
-  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+.student-programs-page .student-programs-objectives-section.editorial-split-section {
+  background: var(--editorial-split-bg, #6F7175);
+  padding: 62px 0;
+}
+
+.student-programs-page .student-programs-objectives-section .editorial-split-section__title {
+  margin-bottom: 0;
+  color: var(--editorial-split-title-color, #ffffff);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
   font-weight: 600;
+  white-space: pre-line;
 }
 
-.student-programs-sga__panel .intro-feature__description p:has(> strong:only-child) + p {
-  margin-top: 6px;
+.student-programs-page .student-programs-objectives-section .editorial-split-section__body {
+  gap: 14px;
 }
 
-.student-programs-sga__roles.admissions-fee-terms {
-  background: transparent;
-  padding: clamp(40px, 4.6vw, 64px) 0 clamp(46px, 5.2vw, 72px);
+.student-programs-page .intro-feature.student-programs-house-captains {
+  background: linear-gradient(to bottom, #6F7175 0%, #6F7175 55%, #ffffff 55%, #ffffff 100%);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.student-programs-sga__roles .admissions-fee-terms__columns {
-  margin-top: 0;
+.student-programs-house-captains .intro-feature__description ul {
+  display: grid;
+  gap: 6px;
+  margin: 16px 0 0;
+  padding-left: 18px;
+  list-style: disc;
 }
 
-.student-programs-sga__roles .admissions-fee-terms__column {
-  gap: clamp(22px, 2.4vw, 32px);
-}
-
-.admissions-fee-terms__column-title {
-  margin: 0 0 10px;
-  color: #ffffff;
-  font-size: clamp(1.15rem, 1.5vw, 1.4rem);
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.student-programs-sga__roles .admissions-fee-terms__group-title {
-  margin-bottom: 4px;
-  color: #ffffff;
-  font-size: var(--sais-body-text-size);
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.student-programs-sga__roles .admissions-fee-terms__body,
-.student-programs-sga__roles .admissions-fee-terms__body p {
-  color: #ffffff;
+.student-programs-house-captains .intro-feature__description li {
+  margin: 0;
+  padding-left: 4px;
 }
 
 @media (max-width: 767px) {
-  .student-programs-page .intro-feature.student-programs-sga__panel {
-    background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 30%, #216B97 30%, #216B97 100%);
+  .student-programs-page .intro-feature.student-programs-leadership {
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #6F7175 40%, #6F7175 100%);
+    padding-top: 48px;
   }
 
-  .student-programs-sga__roles .admissions-fee-terms__columns {
-    grid-template-columns: 1fr;
-    gap: 34px;
+  .student-programs-page .student-programs-objectives-section.editorial-split-section {
+    padding: 48px 0;
+  }
+
+  .student-programs-page .intro-feature.student-programs-house-captains {
+    background: linear-gradient(to bottom, #6F7175 0%, #6F7175 60%, #ffffff 60%, #ffffff 100%);
   }
 }
 
@@ -17417,11 +17361,6 @@ a.school-policy-card__cover:hover {
 
 .medical-services-page .intro-feature.medical-services-services-feature {
   padding: 62px 0;
-}
-
-.student-programs-page .student-programs-leadership .intro-feature__description,
-.student-programs-page .student-programs-leadership .intro-feature__description p {
-  color: #ffffff;
 }
 
 /* Health & Safety: the tour intro opens on the same 62px the other community pages use. */
@@ -17787,7 +17726,7 @@ a.school-policy-card__cover:hover {
 
 /* No one-word last lines in the paragraphs the review flagged. */
 .student-programs-page .student-programs-leadership .intro-feature__description p,
-.student-programs-page .student-programs-slider .academics-learning-slider__content p,
+.student-programs-page .student-programs-house-captains .intro-feature__description p,
 .admissions-book-tour-page .admissions-tour-experience .intro-feature__description p,
 .school-policies-page .school-policies-overview .editorial-split-section__body p,
 .medical-services-page .medical-services-staff-feature .academics-elementary-assessment__body p {
@@ -17840,21 +17779,6 @@ a.school-policy-card__cover:hover {
     object-position: center 35%;
   }
 
-  /* Student Programs: team photos get the site's rounded corners; the
-     slider chevrons read in navy on the white band. */
-  .student-programs-page .student-programs-teams .titled-images__media {
-    border-radius: var(--sais-image-radius, 18px);
-  }
-
-  .student-programs-page .student-programs-slider .academics-learning-slider__arrow {
-    visibility: visible;
-    opacity: 1;
-    color: var(--sais-primary);
-    border: 1.5px solid var(--sais-primary);
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-  }
 
   /* Food Services: the cafeteria photo crops from the top. The hero's phone
      photo is a dedicated crop in Sanity. */

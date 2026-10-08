@@ -646,13 +646,10 @@ export type StudentProgramsPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  excellenceIntro?: { heading?: SectionHeading; backgroundColor?: string; titleColor?: string; textColor?: string };
-  highlightsSection?: ImageTextSection;
-  potentialIntro?: { heading?: SectionHeading; backgroundColor?: string; titleColor?: string; textColor?: string };
-  potentialSlider?: AcademicsLearningSliderSection;
-  sgaSection?: ImageTextSection;
-  sgaRoles?: AdmissionsFeeTermsSection & { leftTitle?: string; rightTitle?: string };
-  sgaTeams?: { items?: { _key?: string; title?: string; image?: SanityImage }[] };
+  highlightsSection?: AcademicsKindergartenFeatureSection;
+  objectivesSection?: ImageTextSection;
+  houseCaptainsSection?: AcademicsKindergartenFeatureSection;
+  tourIntro?: SectionHeading;
 };
 
 export type ExtraCurricularActivitiesPageData = {

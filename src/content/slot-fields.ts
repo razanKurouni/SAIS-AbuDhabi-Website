@@ -1683,18 +1683,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-programs-page/excellenceIntro": {
-    "section": [
-      "heading"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "student-programs-page/highlightsSection": {
     "section": [
       "heading",
@@ -1708,62 +1696,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-programs-page/potentialIntro": {
-    "section": [
-      "heading"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-programs-page/potentialSlider": {
-    "section": [
-      "cards"
-    ],
-    "heading": [],
-    "card": [
-      "description",
-      "image",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-programs-page/sgaRoles": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "title"
-    ],
-    "card": [
-      "body",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-programs-page/sgaRoles.rightColumn": {
-    "section": [
-      "cards",
-      "heading"
-    ],
-    "heading": [
-      "title"
-    ],
-    "card": [
-      "body",
-      "title"
-    ],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-programs-page/sgaSection": {
+  "student-programs-page/houseCaptainsSection": {
     "section": [
       "heading",
       "image"
@@ -1776,15 +1709,28 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-programs-page/sgaTeams": {
+  "student-programs-page/objectivesSection": {
     "section": [
-      "cards"
+      "heading",
+      "image"
     ],
-    "heading": [],
-    "card": [
-      "image",
+    "heading": [
+      "description",
       "title"
     ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "student-programs-page/tourIntro": {
+    "section": [
+      "heading"
+    ],
+    "heading": [
+      "accentTitle",
+      "title"
+    ],
+    "card": [],
     "cardEntry": [],
     "entry": []
   },
