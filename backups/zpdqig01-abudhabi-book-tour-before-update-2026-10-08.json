@@ -1,0 +1,120 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-book-tour-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "admissions-book-tour-page",
+        "rev": "FCO364qzHDm2jW4qFjylpl"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Book\na Tour"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions/book-a-tour",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "subtitle": "We are delighted to invite parents and guardians to experience our warm, inspiring learning environment firsthand.",
+          "title": "Step Inside Our Inspiring\nLearning Environment"
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "experienceSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "bt-exp-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bt-exp-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "During your visit, you will explore our classrooms and specialised learning spaces, designed to inspire curiosity and support hands-on learning across science, technology and the arts. You can visit our library and digital learning centres, tour our sports facilities including outdoor courts, shaded play areas and indoor fitness suite, and learn how we promote healthy, balanced nutrition in our cafeteria. You’ll also have the opportunity to meet our experienced teachers, SEL team and on-site medical professionals, gaining a genuine insight into life at our school."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bt-exp-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bt-exp-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Use the form below to book your campus tour, we look forward to welcoming you."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Experience SAIS - Abu Dhabi First-Hand"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi student smiling while working on a craft activity",
+          "asset": {
+            "_ref": "image-f0d855540e37b1de507975e5139b48e2f2b82a79-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "experienceSection"
+      },
+      {
+        "_key": "formSection",
+        "_type": "formSection",
+        "errorMessage": "Sorry, your request could not be sent. Please try again.",
+        "recipientEmail": "razan@formulatecreative.com",
+        "slot": "formSection",
+        "submitLabel": "Submit",
+        "successMessage": "Thank you. Your tour request has been received."
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Book a campus tour and experience SAIS - Abu Dhabi first-hand.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Book a Tour | SAIS - Abu Dhabi"
+    },
+    "title": "Book a Tour"
+  }
+]

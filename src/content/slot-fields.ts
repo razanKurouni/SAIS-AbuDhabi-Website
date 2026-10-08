@@ -723,19 +723,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "admissions-book-tour-page/experienceSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "admissions-book-tour-page/formSection": {
     "section": [
       "errorMessage",
@@ -753,7 +740,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "heading"
     ],
     "heading": [
-      "subtitle",
+      "description",
       "title"
     ],
     "card": [],

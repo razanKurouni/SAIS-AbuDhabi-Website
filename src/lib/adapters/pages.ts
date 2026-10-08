@@ -282,7 +282,6 @@ export function adaptAdmissionsBookTour(page: CmsPage): AdmissionsBookTourPageDa
   return {
     ...base(page),
     introSection: imageText(s.get("introSection")),
-    experienceSection: imageText(s.get("experienceSection")),
     formSection: form(s.get("formSection")),
   };
 }

@@ -467,15 +467,9 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "introSection": {
-      "backgroundColor": "#00a5b2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
-    },
-    "experienceSection": {
-      "backgroundColor": "#27779D",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
     }
   },
   "admissions-faq-page": {

@@ -18336,3 +18336,17 @@ a.school-policy-card__cover:hover {
 .admissions-application-page .admissions-registration-cta.calendar-download-section {
   margin-bottom: 0;
 }
+
+/* Book a Tour: copy beside the navy form card on white, closing line in navy. */
+.admissions-book-tour-page .admissions-tour-form {
+  background: #ffffff;
+  padding: 62px 0 clamp(64px, 8vw, 104px);
+}
+
+.admissions-book-tour-page .admissions-tour-form__card {
+  background: #216B97;
+}
+
+.admissions-book-tour-page .admissions-tour-form__description strong {
+  color: #216B97;
+}

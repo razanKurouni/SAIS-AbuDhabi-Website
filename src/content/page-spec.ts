@@ -228,7 +228,6 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Admissions",
     slots: [
       it("introSection", "Introduction"),
-      it("experienceSection", "Experience Block"),
       { slot: "formSection", kind: "form", label: "Tour Form" },
     ],
   },
