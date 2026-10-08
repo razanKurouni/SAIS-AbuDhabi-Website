@@ -535,12 +535,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "theme": "blue"
     },
     "policySection": {
-      "imagePosition": "center",
-      "theme": "teal"
-    },
-    "rollingAdmissionsSection": {
+      "backgroundColor": "#ffffff",
       "imagePosition": "right",
-      "theme": "light"
+      "textColor": "#6f7175",
+      "theme": "light",
+      "titleColor": "#216B97"
     }
   },
   "admissions-withdrawal-page": {

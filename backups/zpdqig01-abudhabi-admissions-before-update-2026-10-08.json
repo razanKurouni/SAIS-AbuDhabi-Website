@@ -1,0 +1,120 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-page",
+    "_rev": "seeJ8sDCx2bMNJQ2PAy7jv",
+    "_system": {
+      "base": {
+        "id": "admissions-page",
+        "rev": "seeJ8sDCx2bMNJQ2P7SXBn"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T04:57:42Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Admissions"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-430de1b1e5d1311d7c3b867a6d275afb11bcf371-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-430de1b1e5d1311d7c3b867a6d275afb11bcf371-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "welcome-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "welcome-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS Abu Dhabi, our admissions process is designed to be welcoming, transparent, and student-centered.\n\nWe are committed to enrolling students who demonstrate a readiness to thrive in our academically rigorous and values-driven learning environment."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Learning at SAIS Building Strong Foundations for Lifelong Success"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students learning together",
+          "asset": {
+            "_ref": "image-b7ebe3dd32948232cbd819269f4bc846080fd105-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "rollingAdmissionsSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "rolling-admissions-availability",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "rolling-admissions-availability-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SAIS Abu Dhabi offers rolling admissions throughout the year, subject to seat availability, and accepts students from diverse nationalities and academic backgrounds.\n\nOur admissions team provides personalized support to families throughout the application process, ensuring a smooth transition into the SAIS community. We invite prospective parents and students to visit our campus, meet our faculty, and discover how SAIS fosters academic excellence, character development, and global citizenship from KG through Grade 12."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Admissions Policy"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi teacher supporting a student in class",
+          "asset": {
+            "_ref": "image-190561a8b747d03618487541aa7302c29097a4e6-1556x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "rollingAdmissionsSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore the admissions process at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-430de1b1e5d1311d7c3b867a6d275afb11bcf371-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Admissions Introduction | SAIS - Abu Dhabi"
+    },
+    "title": "Admissions"
+  }
+]

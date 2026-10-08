@@ -206,7 +206,6 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("introSection", "Introduction"),
       it("policySection", "Admissions Policy"),
-      it("rollingAdmissionsSection", "Rolling Admissions"),
     ],
   },
   {

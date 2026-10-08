@@ -279,7 +279,6 @@ export type AdmissionsPageData = {
   innerNavigation?: InnerNavigation;
   introSection?: ImageTextSection;
   policySection?: ImageTextSection;
-  rollingAdmissionsSection?: ImageTextSection;
 };
 
 export type AdmissionsApplicationPageData = {

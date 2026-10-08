@@ -850,7 +850,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "admissions-page/rollingAdmissionsSection": {
+  "admissions-page/policySection": {
     "section": [
       "heading",
       "image"

@@ -262,7 +262,6 @@ export function adaptAdmissions(page: CmsPage): AdmissionsPageData {
     ...base(page),
     introSection: imageText(s.get("introSection")),
     policySection: imageText(s.get("policySection")),
-    rollingAdmissionsSection: imageText(s.get("rollingAdmissionsSection")),
   };
 }
 

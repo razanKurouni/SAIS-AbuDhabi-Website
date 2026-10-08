@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { ApproachSectionBase } from "@/components/sections/approach-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
@@ -42,7 +41,6 @@ export default async function AdmissionsPage() {
     return items;
   }, []);
   const policySection = page?.policySection;
-  const rollingAdmissionsSection = page?.rollingAdmissionsSection;
 
   return (
     <SitePageShell
@@ -89,28 +87,17 @@ export default async function AdmissionsPage() {
         />
       ) : null}
 
-      {rollingAdmissionsSection ? (
+      {policySection ? (
         <EditorialSplitSection
-          id="rolling-admissions"
-          className="admissions-rolling-section"
-          title={rollingAdmissionsSection.heading?.title}
-          section={{ ...rollingAdmissionsSection, imagePosition: "right" }}
-          fallbackImage={rollingAdmissionsSection.image || {}}
+          id="admissions-policy"
+          className="admissions-policy-section"
+          title={policySection.heading?.title || "Admissions Policy"}
+          section={{ ...policySection, imagePosition: "right" }}
+          fallbackImage={policySection.image || {}}
           fallbackParagraphs={[]}
           imageSizes="(max-width: 767px) 100vw, 47vw"
           preserveRichText
-        />
-      ) : null}
-
-      {policySection ? (
-        <ApproachSectionBase
-          id="admissions-policy"
-          className="admissions-policy-section"
-          title={policySection.heading?.title}
-          lead={policySection.heading?.title}
-          content={policySection.heading?.description}
-          image={policySection.image}
-          imageSizes="(max-width: 767px) 100vw, 53vw"
+          showTitle
         />
       ) : null}
 

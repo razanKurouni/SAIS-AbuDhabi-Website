@@ -16146,7 +16146,7 @@ a.school-policy-card__cover:hover {
   padding-bottom: 0;
 }
 
-.admissions-page #rolling-admissions.editorial-split-section {
+.admissions-page #admissions-policy.editorial-split-section {
   padding-top: 62px;
   padding-bottom: 62px;
 }
@@ -17704,7 +17704,7 @@ a.school-policy-card__cover:hover {
     padding-bottom: 0;
   }
 
-  .admissions-page #rolling-admissions.admissions-rolling-section.editorial-split-section {
+  .admissions-page #admissions-policy.admissions-policy-section.editorial-split-section {
     padding-top: 34px;
     padding-bottom: 34px;
   }
@@ -18277,4 +18277,12 @@ a.school-policy-card__cover:hover {
 .academics-high-school-page .academics-high-school-day-feature.intro-feature {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+/* Admissions: the policy title is the large navy heading of the design. */
+.admissions-page .admissions-policy-section .editorial-split-section__title {
+  margin-bottom: 18px;
+  color: #216B97;
+  font-size: clamp(1.5rem, 2vw, 1.9rem);
+  font-weight: 600;
 }
