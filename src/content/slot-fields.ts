@@ -1501,15 +1501,19 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "parent-involvement-page/communitySection": {
+  "parent-involvement-page/goalsSection": {
     "section": [
-      "heading",
-      "image"
+      "cards",
+      "heading"
     ],
     "heading": [
-      "description"
+      "title"
     ],
-    "card": [],
+    "card": [
+      "description",
+      "image",
+      "title"
+    ],
     "cardEntry": [],
     "entry": []
   },
@@ -1522,28 +1526,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "description",
       "title"
     ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "parent-involvement-page/programSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "parent-involvement-page/videoSection": {
-    "section": [
-      "image"
-    ],
-    "heading": [],
     "card": [],
     "cardEntry": [],
     "entry": []

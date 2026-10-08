@@ -307,9 +307,7 @@ export const PAGE_SPECS: PageSpec[] = [
     group: "Our Community",
     slots: [
       it("partnershipSection", "Parent Partnership"),
-      { slot: "videoSection", kind: "media", label: "Video" },
-      it("programSection", "Engagement Program"),
-      it("communitySection", "Parent Community"),
+      cards("goalsSection", "Goals of the Policy"),
     ],
   },
   {

@@ -1,0 +1,237 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "parent-involvement-page",
+    "_rev": "seeJ8sDCx2bMNJQ2PAubtL",
+    "_system": {
+      "base": {
+        "id": "parent-involvement-page",
+        "rev": "seeJ8sDCx2bMNJQ2P7SXBn"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T04:43:32Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Parent\nInvolvement"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Parent involvement",
+        "asset": {
+          "_ref": "image-dae55ef5b1ad805b1d76a83fa0cc33960f7469b7-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Parent involvement",
+        "asset": {
+          "_ref": "image-dae55ef5b1ad805b1d76a83fa0cc33960f7469b7-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/parent-involvement",
+    "sections": [
+      {
+        "_key": "partnershipSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "pp-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pp-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our vision is to cultivate an environment where parents feel valued, welcomed, and integral to the educational process. SAIS-Abu Dhabi strives to empower parents to participate actively in their children’s education through various meaningful and accessible opportunities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Parent Partnership"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students playing carrom together",
+          "asset": {
+            "_ref": "image-ad8a3c79f286b32e291e979ff320f6da97df784f-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "partnershipSection"
+      },
+      {
+        "_key": "videoSection",
+        "_type": "mediaSection",
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi counselling and support services",
+          "asset": {
+            "_ref": "image-e354bba98d709f12d9e365b14b38825e9e1286be-1599x1021-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "videoSection",
+        "video": {
+          "_type": "file",
+          "asset": {
+            "_ref": "file-505f5062f15f30a2bc44c2002b6b8f45b472b992-mp4",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "programSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "pe-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pe-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Share their skills and experiences in guest talks, career panels, or club mentorship."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "pe-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pe-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Participate in planning and running charity drives, cultural celebrations, and wellness campaigns."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "pe-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pe-3-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Volunteer in classrooms, libraries, and special events to strengthen school resources."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "pe-4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pe-4-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Collaborate with educators to shape policies and initiatives that reflect community needs."
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Parent Engagement\nProgram Empowers Parents To:"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi student solving a problem on the classroom smart board",
+          "asset": {
+            "_ref": "image-deab839b65d249ff24c4f6e728f02e6c5fda120a-1004x835-webp",
+            "_type": "reference"
+          }
+        },
+        "slot": "programSection"
+      },
+      {
+        "_key": "communitySection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "pc-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pc-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our parent community plays an essential role in enriching campus life: they serve on advisory committees, mentor student clubs, support fundraising efforts, and assist in organizing cultural and academic events. Their hands-on involvement not only strengthens the bond between home and school but also provides students with real-world role models and a broader network of support."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "pc-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "pc-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We are proud to see our parent community become partners in learning. By working together, we ensure that every student feels supported both in and out of the classroom and that our campus truly operates as an extended family dedicated to shaping tomorrow’s leaders."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students planting in the school garden",
+          "asset": {
+            "_ref": "image-b2f00061cd747d134ba8283affb8aa022a2a421e-640x545-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "communitySection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn how SAIS - Abu Dhabi partners with parents to support student success.",
+      "image": {
+        "_type": "image",
+        "alt": "Parent involvement",
+        "asset": {
+          "_ref": "image-dae55ef5b1ad805b1d76a83fa0cc33960f7469b7-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Parent Involvement | SAIS - Abu Dhabi"
+    },
+    "title": "Parent Involvement"
+  }
+]

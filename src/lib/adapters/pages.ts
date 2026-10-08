@@ -58,6 +58,7 @@ import {
   image,
   imageText,
   joinTeamCards,
+  goalCards,
   learningSlides,
   logos,
   members,
@@ -375,9 +376,9 @@ export function adaptParentInvolvement(page: CmsPage): ParentInvolvementPageData
   return {
     ...base(page),
     partnershipSection: imageText(s.get("partnershipSection")),
-    videoSection: video(s.get("videoSection")),
-    programSection: imageText(s.get("programSection")),
-    communitySection: imageText(s.get("communitySection")),
+    goalsSection: s.has("goalsSection")
+      ? { heading: heading(s.get("goalsSection")), cards: goalCards(s.get("goalsSection")) }
+      : undefined,
   };
 }
 

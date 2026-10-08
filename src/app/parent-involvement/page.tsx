@@ -1,15 +1,20 @@
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
-import { CampusVideoSection } from "@/components/sections/campus-video-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
-import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
+import { Reveal } from "@/components/ui/reveal";
+import { SectionReveal } from "@/components/ui/section-reveal";
 import { getHomepage, getParentInvolvementPage } from "@/lib/sanity";
-import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
+
+type GoalCardStyle = CSSProperties & {
+  "--parent-goal-title"?: string;
+  "--parent-goal-curve"?: string;
+};
 
 const fallbackMetadata: Metadata = {
   title: "Parent Involvement | SAIS - Abu Dhabi",
@@ -30,18 +35,6 @@ const fallbackHero = {
   imageWidth: "58%",
 };
 
-const fallbackProgramSection: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "" },
-  image: {},
-  imageSide: "right",
-  imagePosition: "center",
-  backgroundColor: "#ffffff",
-  panelColor: "#707174",
-  waveColor: "#00A5B2",
-  titleColor: "#ffffff",
-  textColor: "#ffffff",
-};
-
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getParentInvolvementPage();
 
@@ -58,6 +51,7 @@ export default async function ParentInvolvementPage() {
   const hero = page?.hero;
   const heroTitle = hero?.heading?.title || fallbackHero.title;
   const heroImage = hero?.image || fallbackHero.image;
+  const goals = page?.goalsSection;
 
   return (
     <SitePageShell
@@ -94,27 +88,48 @@ export default async function ParentInvolvementPage() {
         />
       ) : null}
 
-      <CampusVideoSection section={page?.videoSection} />
-
-      <AcademicsElementaryAssessmentSection
-        section={page?.programSection}
-        fallbackSection={fallbackProgramSection}
-        className="parent-involvement-program-feature academics-middle-school-tailored-section"
-        imageSide={page?.programSection?.imageSide || "right"}
-        titleId="parent-involvement-program-title"
-      />
-
-      <IntroFeatureSection
-        className="parent-involvement-community-feature"
-        titleId="parent-involvement-community-title"
-        section={page?.communitySection}
-        fallbackSection={{ heading: { title: "" }, image: {} }}
-        panelColor={page?.communitySection?.backgroundColor || "#216B97"}
-        accentColor="#D97252"
-        titleColor={page?.communitySection?.titleColor || "#ffffff"}
-        textColor={page?.communitySection?.textColor || "#ffffff"}
-        imagePosition={page?.communitySection?.imagePosition || "center"}
-      />
+      {goals?.cards?.length ? (
+        <section className="parent-goals" aria-labelledby="parent-goals-title">
+          <div className="parent-goals__inner">
+            <SectionReveal className="parent-goals__header">
+              <h2 id="parent-goals-title" className="parent-goals__title">
+                {goals.heading?.title || "Goals to be Achieved through the Policy"}
+              </h2>
+            </SectionReveal>
+            <div className="parent-goals__grid">
+              {goals.cards.map((card, index) => (
+                <Reveal
+                  key={card._key || index}
+                  className="parent-goal-card"
+                  delay={100 + index * 120}
+                  threshold={0.12}
+                  style={{ "--parent-goal-title": card.titleColor, "--parent-goal-curve": card.curveColor } as GoalCardStyle}
+                >
+                  <div className="parent-goal-card__body">
+                    {card.title ? <h3 className="parent-goal-card__title">{card.title}</h3> : null}
+                    {card.description ? <p className="parent-goal-card__text">{card.description}</p> : null}
+                  </div>
+                  <div className="parent-goal-card__media" aria-hidden={card.image?.alt ? undefined : true}>
+                    {card.image?.url ? (
+                      <Image
+                        src={card.image.url}
+                        alt={card.image.alt || ""}
+                        fill
+                        sizes="(max-width: 767px) 42vw, 20vw"
+                        className="parent-goal-card__image"
+                      />
+                    ) : null}
+                    <svg className="parent-goal-card__curve" viewBox="0 0 96 320" preserveAspectRatio="none" aria-hidden="true">
+                      <path className="parent-goal-card__curve-mask" d="M0 -32 H52 C16 42 16 92 42 154 C70 220 70 274 38 352 H0 Z" />
+                      <path className="parent-goal-card__curve-line" d="M52 -24 C16 42 16 92 42 154 C70 220 70 274 38 344" />
+                    </svg>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

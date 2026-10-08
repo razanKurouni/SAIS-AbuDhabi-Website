@@ -9,6 +9,7 @@ import type {
   AboutBranchCard,
   AcademicsKindergartenAssessmentCard,
   AcademicsLearningSlide,
+  ParentGoalCard,
   AcademicsSkillGroup,
   AcademicsSupportProgramCard,
   AccreditationLogo,
@@ -334,6 +335,15 @@ export function skillGroups(section?: CmsSection | null): AcademicsSkillGroup[] 
       icon: image(entry.icon),
       iconType: entry.iconType as AcademicsSkillGroup["items"] extends Array<infer Item> ? Item extends { iconType?: infer T } ? T : never : never,
     })),
+  }));
+}
+
+export function goalCards(section?: CmsSection | null): ParentGoalCard[] {
+  return cards(section).map((card) => ({
+    _key: card._key,
+    title: card.title,
+    description: card.description,
+    image: image(card.image),
   }));
 }
 

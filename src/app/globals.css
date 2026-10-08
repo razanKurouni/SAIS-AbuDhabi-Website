@@ -16786,7 +16786,6 @@ a.school-policy-card__cover:hover {
   .intro-feature.campus-feature .intro-feature__wave,
   .intro-feature.wellbeing-counselling-feature .intro-feature__wave,
   .intro-feature.food-services-hygiene-feature .intro-feature__wave,
-  .intro-feature.parent-involvement-community-feature .intro-feature__wave,
   .intro-feature.medical-services-services-feature .intro-feature__wave {
     stroke: var(--intro-feature-accent-color);
   }
@@ -16802,7 +16801,6 @@ a.school-policy-card__cover:hover {
   .intro-feature.campus-feature .intro-feature__curve-mask,
   .intro-feature.wellbeing-counselling-feature .intro-feature__curve-mask,
   .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask,
-  .intro-feature.parent-involvement-community-feature .intro-feature__curve-mask,
   .intro-feature.medical-services-services-feature .intro-feature__curve-mask {
     fill: var(--intro-feature-panel-color);
   }
@@ -17358,9 +17356,130 @@ a.school-policy-card__cover:hover {
   padding-bottom: 62px;
 }
 
-.parent-involvement-page .campus-video {
+.parent-involvement-page .parent-involvement-partnership.editorial-split-section {
+  background: var(--editorial-split-bg, #f2f2f2);
+}
+
+/* Parent Involvement: the navy "Goals" band with four white cards, copy left and the photo on the
+   right behind a curved divider in the card's colour. */
+.parent-goals {
+  background: var(--sais-primary);
+  color: #ffffff;
+  padding: 62px 0;
+}
+
+.parent-goals__inner {
+  width: 85%;
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.parent-goals__header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+  padding-bottom: 22px;
+}
+
+.parent-goals__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.parent-goals__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(22px, 2.4vw, 34px);
+  margin-top: clamp(34px, 4vw, 48px);
+}
+
+.parent-goal-card {
+  --parent-goal-title: var(--sais-accent);
+  --parent-goal-curve: var(--sais-accent);
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 48%;
+  min-height: clamp(220px, 20vw, 300px);
+  overflow: hidden;
+  border-radius: var(--sais-image-radius, 18px);
   background: #ffffff;
-  padding: 0 0 62px;
+  color: #707174;
+}
+
+.parent-goal-card__body {
+  padding: clamp(24px, 2.6vw, 36px) clamp(8px, 1vw, 16px) clamp(24px, 2.6vw, 36px) clamp(22px, 2.4vw, 34px);
+}
+
+.parent-goal-card__title {
+  margin: 0 0 12px;
+  color: var(--parent-goal-title);
+  font-size: clamp(1.2rem, 1.6vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.16;
+  white-space: pre-line;
+}
+
+.parent-goal-card__text {
+  margin: 0;
+  color: #707174;
+  font-size: var(--sais-body-text-size);
+  line-height: var(--sais-body-text-line-height);
+  letter-spacing: var(--sais-body-text-letter-spacing);
+}
+
+.parent-goal-card__media {
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+  background: #d8e7ef;
+}
+
+.parent-goal-card__image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.parent-goal-card__curve {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 24%;
+  height: 100%;
+}
+
+.parent-goal-card__curve-mask {
+  fill: #ffffff;
+}
+
+.parent-goal-card__curve-line {
+  fill: none;
+  stroke: var(--parent-goal-curve);
+  stroke-width: 14;
+  stroke-linecap: round;
+}
+
+@media (max-width: 1100px) {
+  .parent-goals__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .parent-goals {
+    padding: 48px 0;
+  }
+
+  .parent-goals__inner {
+    width: calc(100% - 32px);
+  }
+
+  .parent-goal-card {
+    grid-template-columns: minmax(0, 1fr) 42%;
+    min-height: 240px;
+  }
 }
 
 .parent-involvement-page .parent-involvement-program-feature {

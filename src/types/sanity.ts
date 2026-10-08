@@ -530,13 +530,20 @@ export type ParentEngagementSection = {
   textColor?: string;
 };
 
+export type ParentGoalCard = {
+  _key?: string;
+  title?: string;
+  description?: string;
+  image?: SanityImage;
+  titleColor?: string;
+  curveColor?: string;
+};
+
 export type ParentInvolvementPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   partnershipSection?: ImageTextSection;
-  videoSection?: CampusVideoSection;
-  programSection?: AcademicsKindergartenFeatureSection;
-  communitySection?: ImageTextSection;
+  goalsSection?: { heading?: SectionHeading; cards?: ParentGoalCard[] };
 };
 
 export type SchoolCalendarTermRow = {

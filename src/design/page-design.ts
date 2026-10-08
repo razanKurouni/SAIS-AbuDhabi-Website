@@ -960,11 +960,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "parent-involvement-page": {
-    "communitySection": {
-      "backgroundColor": "#216B97",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
+    "goalsSection": {
+      "cards": [
+        { "curveColor": "#00A5B2", "titleColor": "#00A5B2" },
+        { "curveColor": "#00A5B2", "titleColor": "#D97252" },
+        { "curveColor": "#00A5B2", "titleColor": "#00A5B2" },
+        { "curveColor": "#00A5B2", "titleColor": "#707174" }
+      ]
     },
     "hero": {
       "imagePosition": "center",
@@ -975,19 +977,10 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#d97252"
     },
     "partnershipSection": {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#f2f2f2",
       "imagePosition": "left",
       "textColor": "#707278",
       "titleColor": "#216B97"
-    },
-    "programSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "center",
-      "imageSide": "right",
-      "panelColor": "#707174",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#00A5B2"
     }
   },
   "school-calendar-page": {
