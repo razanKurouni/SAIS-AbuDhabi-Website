@@ -232,13 +232,13 @@ export const PAGE_SPECS: PageSpec[] = [
     ],
   },
   {
-    id: "admissions-faq-page",
-    route: "/admissions/faqs",
-    title: "FAQs",
+    id: "admissions-register-interest-page",
+    route: "/admissions/register-your-interest",
+    title: "Register Your Interest",
     group: "Admissions",
     slots: [
-      entries("introSection", "Introduction"),
-      cards("faqSection", "Questions", { items: "items" }),
+      it("introSection", "Introduction"),
+      { slot: "formSection", kind: "form", label: "Registration Form" },
     ],
   },
   {

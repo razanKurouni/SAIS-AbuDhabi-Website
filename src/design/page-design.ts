@@ -472,21 +472,19 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#216B97"
     }
   },
-  "admissions-faq-page": {
+  "admissions-register-interest-page": {
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",
-      "panelColor": "#707174",
+      "panelColor": "#216B97",
       "textColor": "#ffffff",
-      "topLineColor": "#216B97",
+      "topLineColor": "#d97252",
       "waveColor": "#00A5B2"
     },
     "introSection": {
-      "imagePosition": "center",
-      "panelColor": "#00A5B2",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff",
-      "waveColor": "#d97252"
+      "backgroundColor": "#ffffff",
+      "textColor": "#707278",
+      "titleColor": "#216B97"
     }
   },
   "admissions-fees-page": {

@@ -221,19 +221,26 @@ export async function POST(request: Request) {
   }
 
   const isRegistration = body.formType === "admissions-registration";
+  const isInterest = body.source === "register-interest";
   const recipient = await sanity.fetch<string | null>(
         `*[_type == "page" && _id == $id][0].sections[slot == "formSection"][0].recipientEmail`,
-        { id: pageDocumentId("admissions-book-tour-page") },
+        { id: pageDocumentId(isInterest ? "admissions-register-interest-page" : "admissions-book-tour-page") },
       ).catch(() => null) || fallbackRecipient;
   const subject = isRegistration
     ? "New SAIS - Abu Dhabi Pre-Registration Request"
-    : "New SAIS - Abu Dhabi Book a Tour Request";
+    : isInterest
+      ? "New SAIS - Abu Dhabi Register Your Interest Request"
+      : "New SAIS - Abu Dhabi Book a Tour Request";
 
   const replyTo = fields.find(({ label }) => label.toLowerCase().includes("email"))?.value;
   const rows = fields.map(({ label, value }) =>
     `<tr><th style="padding:10px;text-align:left;border-bottom:1px solid #ddd">${escapeHtml(label)}</th><td style="padding:10px;border-bottom:1px solid #ddd">${escapeHtml(value).replace(/\n/g, "<br>")}</td></tr>`,
   ).join("");
-  const heading = isRegistration ? "New Pre-Registration Request" : "New Book a Tour Request";
+  const heading = isRegistration
+    ? "New Pre-Registration Request"
+    : isInterest
+      ? "New Register Your Interest Request"
+      : "New Book a Tour Request";
   const html = `<h1>${heading}</h1><table style="border-collapse:collapse;width:100%">${rows}</table>`;
 
   try {

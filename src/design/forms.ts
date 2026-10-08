@@ -51,3 +51,17 @@ export const BOOK_TOUR_FORM_FIELDS: AdmissionsTourFormField[] = [
     "required": true
   }
 ];
+
+export const REGISTER_INTEREST_FORM_ARIA_LABEL = "Register your interest";
+
+export const REGISTER_INTEREST_FORM_FIELDS: AdmissionsTourFormField[] = [
+  { label: "Name:", name: "name", type: "text", required: true },
+  { label: "Surname", name: "surname", type: "text", required: true },
+  { label: "Phone Number:", name: "phone", type: "tel", required: true },
+  { label: "Email", name: "email", type: "email", required: true },
+  { label: "Father Mobile Number:", name: "fatherMobile", type: "tel", required: false },
+  { label: "Mother Mobile Number:", name: "motherMobile", type: "tel", required: false },
+  { label: "Preferred Visit Date:", name: "preferredVisitDate", type: "date", required: false },
+  { label: "Preferred Visit Time:", name: "preferredTime", type: "time", required: false },
+  { label: "Message", name: "message", type: "textarea", required: false },
+];

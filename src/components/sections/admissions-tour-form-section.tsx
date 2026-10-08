@@ -11,9 +11,11 @@ import type {
 type AdmissionsTourFormSectionProps = {
   section?: AdmissionsTourFormSectionData;
   introSection?: ImageTextSection;
+  /** Which form this is, so the mail goes to that page's recipient with the right subject. */
+  source?: "book-a-tour" | "register-interest";
 };
 
-export function AdmissionsTourFormSection({ section, introSection }: AdmissionsTourFormSectionProps) {
+export function AdmissionsTourFormSection({ section, introSection, source = "book-a-tour" }: AdmissionsTourFormSectionProps) {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const fields = section?.fields || [];
 
@@ -33,7 +35,7 @@ export function AdmissionsTourFormSection({ section, introSection }: AdmissionsT
       const response = await fetch("/api/book-a-tour", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ fields: submittedFields, website: formData.get("website") }),
+        body: JSON.stringify({ fields: submittedFields, website: formData.get("website"), source }),
       });
 
       if (!response.ok) throw new Error("Submission failed");

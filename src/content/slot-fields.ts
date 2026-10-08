@@ -862,6 +862,30 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "admissions-register-interest-page/formSection": {
+    "section": [
+      "errorMessage",
+      "recipientEmail",
+      "submitLabel",
+      "successMessage"
+    ],
+    "heading": [],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "admissions-register-interest-page/introSection": {
+    "section": [
+      "heading"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "admissions-withdrawal-page/intro": {
     "section": [
       "body",
@@ -2001,6 +2025,16 @@ export const HERO_FIELDS: Record<string, { hero: string[]; heading: string[] }> 
     ]
   },
   "admissions-page": {
+    "hero": [
+      "heading",
+      "image",
+      "mobileImage"
+    ],
+    "heading": [
+      "title"
+    ]
+  },
+  "admissions-register-interest-page": {
     "hero": [
       "heading",
       "image",

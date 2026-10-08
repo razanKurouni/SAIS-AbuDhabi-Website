@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     return [
       // the page was Achievements for a while; old links still land on Student Programs
       { source: "/achievements", destination: "/student-programs", permanent: true },
+      // the FAQ page became Register Your Interest
+      { source: "/admissions/faqs", destination: "/admissions/register-your-interest", permanent: true },
     ];
   },
   turbopack: {

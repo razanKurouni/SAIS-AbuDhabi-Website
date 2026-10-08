@@ -449,10 +449,13 @@ export function video(section?: CmsSection | null): CampusVideoSection | undefin
   };
 }
 
-export function form(section?: CmsSection | null): AdmissionsTourFormSection | undefined {
+export function form(
+  section?: CmsSection | null,
+  options?: { fields?: AdmissionsTourFormSection["fields"]; ariaLabel?: string },
+): AdmissionsTourFormSection | undefined {
   return {
-    ariaLabel: BOOK_TOUR_FORM_ARIA_LABEL,
-    fields: BOOK_TOUR_FORM_FIELDS,
+    ariaLabel: options?.ariaLabel || BOOK_TOUR_FORM_ARIA_LABEL,
+    fields: options?.fields || BOOK_TOUR_FORM_FIELDS,
     recipientEmail: section?.recipientEmail,
     submitLabel: section?.submitLabel,
     successMessage: section?.successMessage,

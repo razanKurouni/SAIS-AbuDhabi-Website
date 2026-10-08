@@ -144,8 +144,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",
@@ -179,8 +179,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",
@@ -199,7 +199,7 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
     "topLineColor": "#ffffff",
     "ariaLabel": "Admissions navigation"
   },
-  "admissions-faq-page": {
+  "admissions-register-interest-page": {
     "items": [
       {
         "label": "Introduction",
@@ -214,8 +214,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",
@@ -226,7 +226,7 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/withdrawal"
       }
     ],
-    "activeHref": "/admissions/faqs",
+    "activeHref": "/admissions/register-your-interest",
     "activeColor": "#216B97",
     "inactiveColor": "#00A5B2",
     "textColor": "#ffffff",
@@ -249,8 +249,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",
@@ -284,8 +284,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",
@@ -319,8 +319,8 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/admissions/book-a-tour"
       },
       {
-        "label": "FAQ's",
-        "href": "/admissions/faqs"
+        "label": "Register Your Interest",
+        "href": "/admissions/register-your-interest"
       },
       {
         "label": "Fees",

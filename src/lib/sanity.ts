@@ -16,7 +16,7 @@ import type {
   AcademicsPageData,
   AdmissionsApplicationPageData,
   AdmissionsBookTourPageData,
-  AdmissionsFaqPageData,
+  AdmissionsRegisterInterestPageData,
   AdmissionsFeesPageData,
   AdmissionsPageData,
   AdmissionsWithdrawalPageData,
@@ -163,8 +163,8 @@ export const getAdmissionsApplicationPage = (): Promise<AdmissionsApplicationPag
   adaptedPage("admissions-application-page", adapt.adaptAdmissionsApplication);
 export const getAdmissionsBookTourPage = (): Promise<AdmissionsBookTourPageData | null> =>
   adaptedPage("admissions-book-tour-page", adapt.adaptAdmissionsBookTour);
-export const getAdmissionsFaqPage = (): Promise<AdmissionsFaqPageData | null> =>
-  adaptedPage("admissions-faq-page", adapt.adaptAdmissionsFaq, false);
+export const getAdmissionsRegisterInterestPage = (): Promise<AdmissionsRegisterInterestPageData | null> =>
+  adaptedPage("admissions-register-interest-page", adapt.adaptAdmissionsRegisterInterest);
 export const getAdmissionsFeesPage = (): Promise<AdmissionsFeesPageData | null> =>
   adaptedPage("admissions-fees-page", adapt.adaptAdmissionsFees);
 export const getAdmissionsWithdrawalPage = (): Promise<AdmissionsWithdrawalPageData | null> =>

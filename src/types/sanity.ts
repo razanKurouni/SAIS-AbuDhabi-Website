@@ -343,12 +343,12 @@ export type FaqSection = {
   items?: FaqItem[];
 };
 
-export type AdmissionsFaqPageData = {
+export type AdmissionsRegisterInterestPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  introSection?: ContactInfoSection;
-  faqSection?: FaqSection;
+  introSection?: ImageTextSection;
+  formSection?: AdmissionsTourFormSection;
 };
 
 export type AdmissionsFeesPageData = {

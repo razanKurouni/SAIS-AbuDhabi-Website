@@ -447,7 +447,7 @@ function buildMenuSections(links: LinkField[]): MenuSection[] {
         { label: "Admissions Intro", href: "/admissions" },
         { label: "Applications", href: "/admissions/applications" },
         { label: "Book A Tour", href: "/admissions/book-a-tour" },
-        { label: "FAQ's", href: "/admissions/faqs" },
+        { label: "Register Your Interest", href: "/admissions/register-your-interest" },
         { label: "Fees", href: "/admissions/fees" },
         { label: "Withdrawal", href: "/admissions/withdrawal" },
       ],

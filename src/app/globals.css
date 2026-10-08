@@ -18350,3 +18350,13 @@ a.school-policy-card__cover:hover {
 .admissions-book-tour-page .admissions-tour-form__description strong {
   color: #216B97;
 }
+
+/* Register Your Interest: copy beside the navy form card on white, the thank-you line in teal. */
+.admissions-register-interest-page .admissions-tour-form {
+  background: #ffffff;
+  padding: 62px 0 clamp(64px, 8vw, 104px);
+}
+
+.admissions-register-interest-page .admissions-tour-form__card {
+  background: #216B97;
+}

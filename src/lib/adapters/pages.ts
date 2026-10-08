@@ -14,7 +14,7 @@ import type {
   AcademicsPageData,
   AdmissionsApplicationPageData,
   AdmissionsBookTourPageData,
-  AdmissionsFaqPageData,
+  AdmissionsRegisterInterestPageData,
   AdmissionsFeesPageData,
   AdmissionsPageData,
   AdmissionsWithdrawalPageData,
@@ -42,6 +42,7 @@ import type {
   TransportationSafetyPageData,
 } from "@/types/sanity";
 import { INNER_NAVIGATION } from "@/design/inner-navigation";
+import { REGISTER_INTEREST_FORM_ARIA_LABEL, REGISTER_INTEREST_FORM_FIELDS } from "@/design/forms";
 import { specIdFromDocumentId } from "@/content/page-spec";
 import {
   branchCards,
@@ -51,7 +52,6 @@ import {
   contactInfo,
   ctaBand,
   download,
-  faqItems,
   featureCards,
   feeLabels,
   feeRows,
@@ -286,13 +286,15 @@ export function adaptAdmissionsBookTour(page: CmsPage): AdmissionsBookTourPageDa
   };
 }
 
-export function adaptAdmissionsFaq(page: CmsPage): AdmissionsFaqPageData {
+export function adaptAdmissionsRegisterInterest(page: CmsPage): AdmissionsRegisterInterestPageData {
   const s = bySlot(page);
-  const faq = (slot: string) => (s.has(slot) ? { heading: heading(s.get(slot)), items: faqItems(s.get(slot)) } : undefined);
   return {
     ...base(page),
-    introSection: contactInfo(s.get("introSection")),
-    faqSection: faq("faqSection"),
+    introSection: imageText(s.get("introSection")),
+    formSection: form(s.get("formSection"), {
+      fields: REGISTER_INTEREST_FORM_FIELDS,
+      ariaLabel: REGISTER_INTEREST_FORM_ARIA_LABEL,
+    }),
   };
 }
 

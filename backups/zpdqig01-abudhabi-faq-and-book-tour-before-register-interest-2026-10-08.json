@@ -1,0 +1,346 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-book-tour-page",
+    "_rev": "jtzXmr5sPTxAjhSjhy4d8Q",
+    "_system": {
+      "base": {
+        "id": "admissions-book-tour-page",
+        "rev": "FCO364qzHDm2jW4qFjylpl"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-08T06:36:43Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Book\na Tour"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions/book-a-tour",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "tour-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At Sharjah American International School, we believe the best way to experience our community is to see it in action. Our campus tours offer prospective students and their families a firsthand look at our vibrant learning environment, facilities, and welcoming culture."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "During the tour, you will:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-b1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-b1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Visit our classrooms, science labs, Makerspace, libraries, and sports areas"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-b2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-b2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Learn about our academic programs and extracurricular activities"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-b3-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Meet faculty and administrators"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-b4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-b4-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Discover what makes SAIS a unique place to learn and grow"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "tour-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "tour-3-span",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Tours are available by appointment throughout the week. We welcome families of all grade levels and encourage you to bring any questions you may have."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Book A Campus Tour"
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "formSection",
+        "_type": "formSection",
+        "errorMessage": "Sorry, your request could not be sent. Please try again.",
+        "recipientEmail": "razan@formulatecreative.com",
+        "slot": "formSection",
+        "submitLabel": "Submit",
+        "successMessage": "Thank you. Your tour request has been received."
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Book a campus tour and experience SAIS - Abu Dhabi first-hand.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School entrance and UAE flags",
+        "asset": {
+          "_ref": "image-6b51a1f75b18154607700a6531d2323c0e772312-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Book a Tour | SAIS - Abu Dhabi"
+    },
+    "title": "Book a Tour"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "admissions-faq-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "admissions-faq-page",
+        "rev": "IeGaEnW61OvFIXyLpmYmav"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Frequently Asked Questions"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3ed95b4d59df6eb0dfa9624465f1cecfe4296b7c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3ed95b4d59df6eb0dfa9624465f1cecfe4296b7c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/admissions/faqs",
+    "sections": [
+      {
+        "_key": "introSection",
+        "_type": "entriesSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "b-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Welcome to our FAQ section, designed to provide parents and students with clear, helpful information about our school’s policies, academics, admissions, attendance, and extra-curricular activities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We are committed to transparency and open communication, and this page aims to answer common questions and guide you through everything you need to know about school life. If you require further assistance, our team is always ready to support you."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Answers to Common Questions"
+        },
+        "slot": "introSection"
+      },
+      {
+        "_key": "faqSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "curriculum",
+            "_type": "card",
+            "description": "Our school follows an American curriculum aligned with internationally recognized standards. We focus on academic excellence, critical thinking, and global readiness.",
+            "title": "What curriculum does the school follow?"
+          },
+          {
+            "_key": "assessment",
+            "_type": "card",
+            "description": "Students are evaluated through quizzes, projects, class participation, exams, and continuous assessments throughout the semester.",
+            "title": "How are students assessed?"
+          },
+          {
+            "_key": "grade-levels",
+            "_type": "card",
+            "description": "We offer education from Kindergarten through Grade 12.",
+            "title": "What grade levels do you offer?"
+          },
+          {
+            "_key": "progress",
+            "_type": "card",
+            "description": "Parents can access grades, attendance, and teacher feedback through the school portal.",
+            "title": "How can parents monitor student progress?"
+          },
+          {
+            "_key": "school-hours",
+            "_type": "card",
+            "description": "School hours vary by grade level. Detailed timings are shared with parents at the beginning of each academic year and are available on the parent portal.",
+            "title": "What are the school hours?"
+          },
+          {
+            "_key": "report-cards",
+            "_type": "card",
+            "description": "Report cards are issued at the end of each semester and are available through the parent portal.",
+            "title": "When are report cards issued?"
+          },
+          {
+            "_key": "apply",
+            "_type": "card",
+            "description": "Parents can apply online through the Admissions section of our website. Required documents must be uploaded during the application process.",
+            "title": "How can I apply for admission?"
+          },
+          {
+            "_key": "attendance",
+            "_type": "card",
+            "description": "Regular attendance is essential. Students with attendance below the required percentage may receive a warning notice.",
+            "title": "What is the attendance policy?"
+          },
+          {
+            "_key": "documents",
+            "_type": "card",
+            "description": "Required documents typically include previous school reports, passport copies, Emirates ID copies, vaccination records, and passport-sized photos.",
+            "title": "What documents are required for registration?"
+          },
+          {
+            "_key": "absence",
+            "_type": "card",
+            "description": "Parents must notify the school via email or through the parent portal on the same day of absence.",
+            "title": "How do I report my child’s absence?"
+          },
+          {
+            "_key": "entrance-assessment",
+            "_type": "card",
+            "description": "Yes, students may be required to complete an age-appropriate assessment to determine placement.",
+            "title": "Is there an entrance assessment?"
+          }
+        ],
+        "slot": "faqSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Find answers to frequently asked questions about SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus",
+        "asset": {
+          "_ref": "image-3ed95b4d59df6eb0dfa9624465f1cecfe4296b7c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Frequently Asked Questions | SAIS - Abu Dhabi"
+    },
+    "title": "FAQs"
+  }
+]

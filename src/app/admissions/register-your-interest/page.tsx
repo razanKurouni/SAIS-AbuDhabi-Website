@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { FaqGridSection } from "@/components/sections/faq-grid-section";
+import { AdmissionsTourFormSection } from "@/components/sections/admissions-tour-form-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
-import { getAdmissionsFaqPage, getHomepage } from "@/lib/sanity";
+import { getAdmissionsRegisterInterestPage, getHomepage } from "@/lib/sanity";
 import styles from "../admissions.module.css";
 
 const fallbackMetadata: Metadata = {
-  title: "Frequently Asked Questions | SAIS - Abu Dhabi",
-  description: "Find answers to frequently asked questions about SAIS - Abu Dhabi.",
+  title: "Register Your Interest | SAIS - Abu Dhabi",
+  description: "Register your interest in joining SAIS - Abu Dhabi.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = await getAdmissionsFaqPage();
+  const page = await getAdmissionsRegisterInterestPage();
 
   return {
     title: page?.seo?.title || fallbackMetadata.title,
@@ -22,8 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export const dynamic = "force-dynamic";
 
-export default async function AdmissionsFaqPage() {
-  const [data, page] = await Promise.all([getHomepage(), getAdmissionsFaqPage()]);
+export default async function AdmissionsRegisterInterestPage() {
+  const [data, page] = await Promise.all([getHomepage(), getAdmissionsRegisterInterestPage()]);
   const hero = page?.hero;
   const innerNavigation = page?.innerNavigation;
   const innerNavItems = (innerNavigation?.items || []).reduce<InnerPageNavItem[]>((items, item) => {
@@ -36,14 +36,14 @@ export default async function AdmissionsFaqPage() {
   return (
     <SitePageShell
       data={data}
-      mainClassName={`site-page__main admissions-faq-page__main ${styles.pageMain}`}
-      pageClassName="admissions-faq-page"
+      mainClassName={`site-page__main admissions-register-interest-page__main ${styles.pageMain}`}
+      pageClassName="admissions-register-interest-page"
     >
       <PageHero
-        className="admissions-faq-hero"
+        className="admissions-register-interest-hero"
         title={hero?.heading?.title || ""}
         image={hero?.image}
-        titleId="admissions-faq-hero-title"
+        titleId="admissions-register-interest-hero-title"
         priority
         topLineColor={hero?.topLineColor}
         panelColor={hero?.panelColor}
@@ -65,7 +65,7 @@ export default async function AdmissionsFaqPage() {
         ariaLabel={innerNavigation?.ariaLabel}
       />
 
-      <FaqGridSection section={page?.faqSection} introSection={page?.introSection} />
+      <AdmissionsTourFormSection section={page?.formSection} introSection={page?.introSection} source="register-interest" />
     </SitePageShell>
   );
 }
