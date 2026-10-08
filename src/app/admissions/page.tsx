@@ -4,7 +4,6 @@ import { EditorialSplitSection } from "@/components/sections/editorial-split-sec
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { PageHero } from "@/components/sections/page-hero";
-import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
 import { getAdmissionsPage, getHomepage } from "@/lib/sanity";
 import styles from "./admissions.module.css";
@@ -101,7 +100,6 @@ export default async function AdmissionsPage() {
         />
       ) : null}
 
-      <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />
     </SitePageShell>
   );
