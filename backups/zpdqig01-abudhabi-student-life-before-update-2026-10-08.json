@@ -1,0 +1,253 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "student-life-page",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "student-life-page",
+        "rev": "FCO364qzHDm2jW4qFkaoeU"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Student\nLife"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/student-life",
+    "sections": [
+      {
+        "_key": "beyondClassroomIntro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "student-life-beyond-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "student-life-beyond-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Student life forms the essential foundation for personal and academic development. During this formative period, young people encounter diverse situations that prepare them for future challenges. They develop crucial skills in respect and self-discipline while building relationships with peers and educators."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Foundation for Growth and Development"
+        },
+        "slot": "beyondClassroomIntro"
+      },
+      {
+        "_key": "sgaSection",
+        "_type": "entriesSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "e005c052a9bc",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8b13229c6e61",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "School life represents a joyful time when students can explore, form friendships, acquire skills, and embrace experiences without the weight of adult responsibilities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cf662aa75d04",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3ddc1d1b42e3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Within the school environment, students learn the importance of punctuality, adherence to rules, and fulfillment of responsibilities while gaining knowledge and developing new capabilities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Character Formation"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Student Government Association",
+          "asset": {
+            "_ref": "image-807d09df4f384fd2a07be02adbc02f6a4e34d2b3-1560x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "sgaSection"
+      },
+      {
+        "_key": "studentCongressSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "student-life-congress-mission-label",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "student-life-congress-mission-label-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The guidance received during student life transforms young people into well-rounded individuals. Teachers and parents provide direction, helping students distinguish between beneficial and detrimental choices."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a5392ae73d33",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "db1fe7981620",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "This golden period of development is when children’s minds, comparable to clay are most receptive to positive molding and influence."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Guided Development"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi student presenting to the Student Congress",
+          "asset": {
+            "_ref": "image-a73b0cb6da5b94c790650aa5f6bf160d06988e5e-1560x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "studentCongressSection"
+      },
+      {
+        "_key": "miniSgaSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sl-cl-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-cl-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The school environment facilitates holistic learning beyond academics. Students develop proper manners, positive behaviors, discipline, and punctuality. With appropriate education and guidance, they mature into responsible adults prepared for real-world challenges."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Comprehensive Learning"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi student smiling with a paint palette in art class",
+          "asset": {
+            "_ref": "image-f28d4c12f6a43492ef30f507b6454ca068664b3c-1920x1670-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "miniSgaSection"
+      },
+      {
+        "_key": "programsSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sl-se-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-se-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Student life establishes the groundwork for both character development and knowledge acquisition. It teaches children about consistency, obedience, sincerity, and perseverance."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "sl-se-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-se-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Through social interactions, students enhance their interpersonal skills while learning to respect diversity while maintaining their own values and principles."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Building Social and Ethical Foundations"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi high school students reading a book together in the library",
+          "asset": {
+            "_ref": "image-e64aadc581cc4dbcc9c5636c1d44814a0be7a1a8-1560x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "programsSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore student life, programs, and extracurricular opportunities at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-2126fe5c21bb8be4864d62664aba1b334eda8b5e-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Student Life | SAIS - Abu Dhabi"
+    },
+    "title": "Student Life"
+  }
+]

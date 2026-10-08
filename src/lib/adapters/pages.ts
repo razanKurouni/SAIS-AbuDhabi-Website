@@ -464,10 +464,10 @@ export function adaptStudentLife(page: CmsPage): StudentLifePageData {
   return {
     ...base(page),
     beyondClassroomIntro: textSection(s.get("beyondClassroomIntro")),
-    sgaSection: contactInfo(s.get("sgaSection")),
-    studentCongressSection: imageText(s.get("studentCongressSection")),
-    programsSection: imageText(s.get("programsSection")),
-    miniSgaSection: imageText(s.get("miniSgaSection")),
+    lifeFeature: imageText(s.get("lifeFeature")),
+    committeesSection: s.has("committeesSection")
+      ? { heading: heading(s.get("committeesSection")), slides: learningSlides(s.get("committeesSection")) }
+      : undefined,
   };
 }
 

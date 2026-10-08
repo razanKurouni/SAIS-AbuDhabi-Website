@@ -18455,3 +18455,50 @@ a.school-policy-card__cover:hover {
   white-space: pre-line;
   font-size: clamp(1.08rem, 1.3vw, 1.3rem);
 }
+
+/* Student Life: the committees slider heading is navy over its rule; the slider sits flush under it. */
+.student-life-page .student-life-committees .academics-learning-slider__title {
+  color: #216B97;
+  font-weight: 600;
+}
+
+.student-life-page .student-life-committees.academics-learning-slider {
+  padding: 62px 0 20px;
+}
+
+.student-life-page .student-life-feature.intro-feature {
+  padding-top: 62px;
+  padding-bottom: 0;
+}
+
+.student-life-page .student-life-overview {
+  padding-bottom: 0;
+}
+
+.student-life-page .student-life-committees .academics-learning-slider__content h3 {
+  white-space: pre-line;
+}
+
+/* Student Life, phones: the committee slides are longer than the fixed stage, so it grows with its content. */
+@media (max-width: 767px) {
+  .student-life-page .student-life-committees .academics-learning-slider__stage {
+    height: auto;
+    min-height: clamp(720px, 88vw, 1040px);
+    overflow: hidden;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__inner {
+    height: auto;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .student-life-page .student-life-committees .academics-learning-slider__dots {
+    margin-top: 24px !important;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__inner {
+    padding-bottom: 56px;
+  }
+}

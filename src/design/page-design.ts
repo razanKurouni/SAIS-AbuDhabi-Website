@@ -1162,6 +1162,17 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#216B97",
       "titleColor": "#00A5B2"
     },
+    "committeesSection": {
+      "slides": [
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" }
+      ]
+    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",
@@ -1170,24 +1181,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "topLineColor": "#d97252",
       "waveColor": "#00A5B2"
     },
-    "miniSgaSection": {
+    "lifeFeature": {
       "imagePosition": "center",
       "imageSide": "left",
-      "panelColor": "#6F7175",
+      "panelColor": "#216B97",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
-      "waveColor": "#00A5B2"
-    },
-    "programsSection": {
-      "backgroundColor": "#f2f2f2",
-      "imagePosition": "right",
-      "textColor": "#666B70",
-      "titleColor": "#216B97"
-    },
-    "studentCongressSection": {
-      "backgroundColor": "#F2F2F2",
-      "imagePosition": "right",
-      "textColor": "#666B70"
+      "waveColor": "#d97252"
     }
   },
   "student-programs-page": {

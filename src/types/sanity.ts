@@ -638,11 +638,8 @@ export type StudentLifePageData = {
     accentColor?: string;
     textColor?: string;
   };
-  sgaSection?: ContactInfoSection;
-  studentCongressSection?: ImageTextSection;
-  programsSection?: ImageTextSection;
-  miniSgaSection?: AcademicsKindergartenFeatureSection;
-  sgaShowcaseSection?: ImageTextSection;
+  lifeFeature?: AcademicsKindergartenFeatureSection;
+  committeesSection?: AcademicsLearningSliderSection;
 };
 
 export type StudentProgramsPageData = {

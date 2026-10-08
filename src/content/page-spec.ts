@@ -390,11 +390,9 @@ export const PAGE_SPECS: PageSpec[] = [
     title: "Student Life",
     group: "Student Life",
     slots: [
-      txt("beyondClassroomIntro", "Beyond the Classroom"),
-      entries("sgaSection", "Student Government"),
-      it("studentCongressSection", "Student Congress"),
-      it("miniSgaSection", "Comprehensive Learning"),
-      it("programsSection", "Social and Ethical Foundations"),
+      txt("beyondClassroomIntro", "Introduction"),
+      it("lifeFeature", "Beyond the Classroom"),
+      cards("committeesSection", "Students Committees", { items: "slides" }),
     ],
   },
   {

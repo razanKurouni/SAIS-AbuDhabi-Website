@@ -1655,53 +1655,29 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-life-page/miniSgaSection": {
+  "student-life-page/committeesSection": {
     "section": [
-      "heading",
-      "image"
+      "cards",
+      "heading"
     ],
     "heading": [
-      "description",
       "title"
     ],
-    "card": [],
+    "card": [
+      "description",
+      "image",
+      "title"
+    ],
     "cardEntry": [],
     "entry": []
   },
-  "student-life-page/programsSection": {
+  "student-life-page/lifeFeature": {
     "section": [
       "heading",
       "image"
     ],
     "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-life-page/sgaSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-life-page/studentCongressSection": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
+      "description"
     ],
     "card": [],
     "cardEntry": [],
