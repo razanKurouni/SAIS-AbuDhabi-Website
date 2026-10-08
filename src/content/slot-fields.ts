@@ -800,7 +800,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "image"
     ],
     "heading": [
-      "description"
+      "description",
+      "title"
     ],
     "card": [],
     "cardEntry": [],
@@ -888,14 +889,25 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "admissions-withdrawal-page/intro": {
     "section": [
-      "body",
-      "heading",
-      "image"
+      "heading"
     ],
     "heading": [
       "title"
     ],
     "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "admissions-withdrawal-page/stepsSection": {
+    "section": [
+      "cards"
+    ],
+    "heading": [],
+    "card": [
+      "body",
+      "label",
+      "title"
+    ],
     "cardEntry": [],
     "entry": []
   },

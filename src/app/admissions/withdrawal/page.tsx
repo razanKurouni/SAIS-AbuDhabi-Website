@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
-import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
+import { ApplicationStepsSection } from "@/components/sections/application-steps-section";
 import { PageHero } from "@/components/sections/page-hero";
 import { Reveal } from "@/components/ui/reveal";
 import { getAdmissionsWithdrawalPage, getHomepage } from "@/lib/sanity";
@@ -81,27 +81,18 @@ export default async function AdmissionsWithdrawalPage() {
         ariaLabel={innerNavigation?.ariaLabel}
       />
 
-      {intro ? (
+      {intro?.title ? (
         <section id="withdrawal-policy" className="admissions-withdrawal-policy" aria-labelledby="withdrawal-intro-title">
-          {intro.heading?.title ? (
-            <Reveal threshold={0.16} className="admissions-withdrawal-policy__lead-wrap">
-              <h2 id="withdrawal-intro-title" className="about-intro-section__lead admissions-withdrawal-policy__lead">
-                {highlightPhone(intro.heading.title)}
-              </h2>
-            </Reveal>
-          ) : null}
-
-          <EditorialSplitSection
-            id="withdrawal-policy-details"
-            title="Withdrawal process"
-            section={{ heading: { title: "", description: intro.body }, image: intro.image, imagePosition: "left" }}
-            fallbackImage={{}}
-            fallbackParagraphs={[]}
-            className="academics-steam-section admissions-withdrawal-policy__split"
-            preserveRichText
-          />
+          <Reveal threshold={0.16} className="admissions-withdrawal-policy__lead-wrap">
+            <h2 id="withdrawal-intro-title" className="about-intro-section__lead admissions-withdrawal-policy__lead">
+              {highlightPhone(intro.title)}
+            </h2>
+          </Reveal>
         </section>
       ) : null}
+
+      {page?.stepsSection ? <ApplicationStepsSection section={page.stepsSection} columns={2} /> : null}
+
     </SitePageShell>
   );
 }

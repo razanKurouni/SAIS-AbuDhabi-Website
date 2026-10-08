@@ -18416,3 +18416,42 @@ a.school-policy-card__cover:hover {
     grid-row: 1 / 3;
   }
 }
+
+/* Steps laid out as a wrapping grid (no slider): the withdrawal page's four cards in two columns. */
+.application-steps__track--grid {
+  display: grid;
+  grid-template-columns: repeat(var(--application-steps-columns, 2), minmax(0, 1fr));
+  gap: clamp(60px, 5vw, 80px) var(--application-steps-gap);
+  transform: none;
+}
+
+.application-steps__track--grid .application-step {
+  flex: none;
+  min-height: clamp(300px, 26vw, 360px);
+}
+
+@media (max-width: 767px) {
+  .application-steps__track--grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+}
+
+.admissions-withdrawal-page .admissions-withdrawal-policy {
+  padding: 62px 0 0;
+}
+
+.admissions-withdrawal-page .application-steps {
+  padding-top: 20px;
+  padding-bottom: 62px;
+}
+
+.admissions-withdrawal-page .application-steps__viewport {
+  margin-top: 0;
+  padding-top: 48px;
+}
+
+.admissions-withdrawal-page .application-step__title {
+  white-space: pre-line;
+  font-size: clamp(1.08rem, 1.3vw, 1.3rem);
+}

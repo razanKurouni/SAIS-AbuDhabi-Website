@@ -543,8 +543,13 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "topLineColor": "#d97252",
       "waveColor": "#00A5B2"
     },
-    "intro": {
-      "imagePosition": "center"
+    "stepsSection": {
+      "steps": [
+        { "backgroundColor": "#00A5B2" },
+        { "backgroundColor": "#216B97" },
+        { "backgroundColor": "#6F7175" },
+        { "backgroundColor": "#d97252" }
+      ]
     }
   },
   "careers-page": {

@@ -317,7 +317,11 @@ export function adaptAdmissionsFees(page: CmsPage): AdmissionsFeesPageData {
 
 export function adaptAdmissionsWithdrawal(page: CmsPage): AdmissionsWithdrawalPageData {
   const s = bySlot(page);
-  return { ...base(page), intro: imageText(s.get("intro")) };
+  return {
+    ...base(page),
+    intro: heading(s.get("intro")),
+    stepsSection: s.has("stepsSection") ? { heading: heading(s.get("stepsSection")), steps: steps(s.get("stepsSection")) } : undefined,
+  };
 }
 
 export function adaptNewsListing(page: CmsPage): NewsListingPageData {

@@ -7,6 +7,8 @@ import type { ApplicationStepsSection as ApplicationStepsSectionData } from "@/t
 
 type ApplicationStepsSectionProps = {
   section?: ApplicationStepsSectionData;
+  /** Lay the cards out in a wrapping grid of this many columns instead of the slider. */
+  columns?: number;
 };
 
 type StepStyle = CSSProperties & {
@@ -15,6 +17,7 @@ type StepStyle = CSSProperties & {
 
 type TrackStyle = CSSProperties & {
   "--application-steps-visible"?: number;
+  "--application-steps-columns"?: number;
 };
 
 function useVisibleCount() {
@@ -29,11 +32,13 @@ function useVisibleCount() {
 }
 
 /** Numbered step cards; more cards than fit side by side slide one at a time with dots. */
-export function ApplicationStepsSection({ section }: ApplicationStepsSectionProps) {
+export function ApplicationStepsSection({ section, columns }: ApplicationStepsSectionProps) {
   const steps = section?.steps || [];
-  const visible = useVisibleCount();
+  const visibleInSlider = useVisibleCount();
+  const isGrid = Boolean(columns);
+  const visible = isGrid ? steps.length || 1 : visibleInSlider;
   const [start, setStart] = useState(0);
-  const maxStart = Math.max(0, steps.length - visible);
+  const maxStart = isGrid ? 0 : Math.max(0, steps.length - visible);
   const safeStart = Math.min(start, maxStart);
   const dots = useMemo(() => Array.from({ length: maxStart + 1 }, (_, index) => index), [maxStart]);
 
@@ -41,10 +46,12 @@ export function ApplicationStepsSection({ section }: ApplicationStepsSectionProp
     return null;
   }
 
-  const trackStyle: TrackStyle = {
-    "--application-steps-visible": visible,
-    transform: `translateX(calc(-${safeStart} * ((100% - (${visible - 1} * var(--application-steps-gap))) / ${visible} + var(--application-steps-gap))))`,
-  };
+  const trackStyle: TrackStyle = isGrid
+    ? { "--application-steps-visible": visible, "--application-steps-columns": columns }
+    : {
+        "--application-steps-visible": visible,
+        transform: `translateX(calc(-${safeStart} * ((100% - (${visible - 1} * var(--application-steps-gap))) / ${visible} + var(--application-steps-gap))))`,
+      };
 
   return (
     <section className="application-steps" aria-labelledby={section?.heading?.title ? "application-steps-title" : undefined}>
@@ -56,7 +63,7 @@ export function ApplicationStepsSection({ section }: ApplicationStepsSectionProp
         ) : null}
 
         <div className="application-steps__viewport">
-          <div className="application-steps__track" style={trackStyle}>
+          <div className={`application-steps__track ${isGrid ? "application-steps__track--grid" : ""}`.trim()} style={trackStyle}>
             {steps.map((step, index) => (
               <article
                 className="application-step"

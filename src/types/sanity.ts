@@ -400,7 +400,8 @@ export type AdmissionsWithdrawalPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   innerNavigation?: InnerNavigation;
-  intro?: AboutIntroSection;
+  intro?: SectionHeading;
+  stepsSection?: ApplicationStepsSection;
 };
 
 export type NewsPost = {

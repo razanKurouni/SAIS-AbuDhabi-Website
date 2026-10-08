@@ -258,7 +258,10 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/admissions/withdrawal",
     title: "Withdrawal",
     group: "Admissions",
-    slots: [it("intro", "Withdrawal Policy")],
+    slots: [
+      { slot: "intro", kind: "heading", label: "Introduction" },
+      cards("stepsSection", "Withdrawal Steps", { items: "steps" }),
+    ],
   },
   {
     id: "our-community-page",
