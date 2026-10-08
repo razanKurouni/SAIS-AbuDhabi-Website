@@ -1099,23 +1099,16 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "student-staff-wellbeing-page": {
-    "classroomIntegration": {
-      "backgroundColor": "#ffffff",
+    "commitment": {
+      "imagePosition": "center"
+    },
+    "counselingSupportSection": {
       "imagePosition": "center",
       "imageSide": "left",
       "panelColor": "#00A5B2",
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
-      "waveColor": "#216B97"
-    },
-    "commitment": {
-      "imagePosition": "center"
-    },
-    "counselingSupportSection": {
-      "backgroundColor": "#ffffff",
-      "imagePosition": "left",
-      "textColor": "#707278",
-      "titleColor": "#216B97"
+      "waveColor": "#D97252"
     },
     "hero": {
       "imagePosition": "center",
@@ -1126,22 +1119,18 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "waveColor": "#00A5B2"
     },
     "selSection": {
-      "backgroundColor": "#00A5B2",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#ffffff"
-    },
-    "wellbeingFramework": {
-      "backgroundColor": "#216B97",
-      "imagePosition": "center",
-      "textColor": "#ffffff",
-      "titleColor": "#00A5B2"
-    },
-    "wellnessCampaigns": {
       "backgroundColor": "#ffffff",
       "imagePosition": "right",
       "textColor": "#707278",
       "titleColor": "#216B97"
+    },
+    "wellbeingFramework": {
+      "imagePosition": "center",
+      "imageSide": "right",
+      "panelColor": "#00A5B2",
+      "textColor": "#ffffff",
+      "titleColor": "#ffffff",
+      "waveColor": "#216B97"
     }
   }
 };

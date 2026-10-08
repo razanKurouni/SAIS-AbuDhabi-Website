@@ -1784,19 +1784,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
-  "student-staff-wellbeing-page/classroomIntegration": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
   "student-staff-wellbeing-page/commitment": {
     "section": [
       "heading",
@@ -1823,6 +1810,22 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "student-staff-wellbeing-page/proactiveSection": {
+    "section": [
+      "cards",
+      "heading"
+    ],
+    "heading": [
+      "description",
+      "title"
+    ],
+    "card": [
+      "description",
+      "icon"
+    ],
+    "cardEntry": [],
+    "entry": []
+  },
   "student-staff-wellbeing-page/selSection": {
     "section": [
       "heading",
@@ -1837,19 +1840,6 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "entry": []
   },
   "student-staff-wellbeing-page/wellbeingFramework": {
-    "section": [
-      "heading",
-      "image"
-    ],
-    "heading": [
-      "description",
-      "title"
-    ],
-    "card": [],
-    "cardEntry": [],
-    "entry": []
-  },
-  "student-staff-wellbeing-page/wellnessCampaigns": {
     "section": [
       "heading",
       "image"

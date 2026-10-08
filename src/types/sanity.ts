@@ -507,11 +507,10 @@ export type StudentStaffWellbeingPageData = {
     image?: SanityImage;
     imagePosition?: string;
   };
-  counselingSupportSection?: ImageTextSection;
+  proactiveSection?: AcademicsTeachingCommitmentsSection;
+  counselingSupportSection?: AcademicsKindergartenFeatureSection;
   selSection?: ImageTextSection;
-  wellbeingFramework?: ImageTextSection;
-  wellnessCampaigns?: ImageTextSection;
-  classroomIntegration?: AcademicsKindergartenFeatureSection;
+  wellbeingFramework?: AcademicsKindergartenFeatureSection;
 };
 
 export type SafetyHighlightSection = {

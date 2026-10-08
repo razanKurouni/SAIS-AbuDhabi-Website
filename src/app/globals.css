@@ -14911,11 +14911,6 @@ a.school-policy-card__cover:hover {
   padding: 62px 0 0;
 }
 
-/* The counselling feature sits flush between the two around it. */
-.wellbeing-page .wellbeing-counselling-feature.intro-feature {
-  padding: 0;
-}
-
 .wellbeing-page .tour-intro {
   padding-top: 62px;
 }
@@ -16786,9 +16781,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.student-programs-house-captains .intro-feature__wave,
   .intro-feature.extra-curricular-activities-feature .intro-feature__wave,
   .intro-feature.campus-feature .intro-feature__wave,
-  .intro-feature.wellbeing-sel-feature .intro-feature__wave,
-  .intro-feature.wellbeing-framework-feature .intro-feature__wave,
-  .intro-feature.wellbeing-classroom-feature .intro-feature__wave,
+  .intro-feature.wellbeing-counselling-feature .intro-feature__wave,
   .intro-feature.food-services-hygiene-feature .intro-feature__wave,
   .intro-feature.parent-involvement-community-feature .intro-feature__wave,
   .intro-feature.medical-services-services-feature .intro-feature__wave {
@@ -16804,9 +16797,7 @@ a.school-policy-card__cover:hover {
   .intro-feature.student-programs-house-captains .intro-feature__curve-mask,
   .intro-feature.extra-curricular-activities-feature .intro-feature__curve-mask,
   .intro-feature.campus-feature .intro-feature__curve-mask,
-  .intro-feature.wellbeing-sel-feature .intro-feature__curve-mask,
-  .intro-feature.wellbeing-framework-feature .intro-feature__curve-mask,
-  .intro-feature.wellbeing-classroom-feature .intro-feature__curve-mask,
+  .intro-feature.wellbeing-counselling-feature .intro-feature__curve-mask,
   .intro-feature.food-services-hygiene-feature .intro-feature__curve-mask,
   .intro-feature.parent-involvement-community-feature .intro-feature__curve-mask,
   .intro-feature.medical-services-services-feature .intro-feature__curve-mask {
@@ -17150,62 +17141,76 @@ a.school-policy-card__cover:hover {
   font-weight: 700;
 }
 
-/* Wellbeing: curved feature panels (SEL, framework, classroom integration) */
-.wellbeing-page .intro-feature.wellbeing-sel-feature,
-.wellbeing-page .intro-feature.wellbeing-classroom-feature {
-  padding: 62px 0;
+/* Wellbeing: the teal counselling panel with its bullet list, the SEL split on white with the navy
+   title, and the full-bleed teal framework band with the navy curve. */
+.wellbeing-page .intro-feature.wellbeing-counselling-feature {
+  padding: 62px 0 0;
 }
 
-.wellbeing-page .intro-feature.wellbeing-framework-feature {
-  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 42%, #ffffff 42%, #ffffff 100%);
-  padding: 62px 0;
-}
-
-.wellbeing-page .wellbeing-sel-feature .intro-feature__title,
-.wellbeing-page .wellbeing-framework-feature .intro-feature__title,
-.wellbeing-page .wellbeing-classroom-feature .intro-feature__title {
+.wellbeing-page .wellbeing-counselling-feature .intro-feature__title {
   color: var(--intro-feature-title-color);
   font-size: clamp(1.35rem, 1.9vw, 1.7rem);
   font-weight: 600;
   white-space: pre-line;
 }
 
-.wellbeing-framework-feature .intro-feature__description strong,
-.wellbeing-classroom-feature .intro-feature__description strong {
-  display: block;
-  margin-bottom: 2px;
-  color: #ffffff;
-  font-weight: 700;
+.wellbeing-counselling-feature .intro-feature__description ul {
+  display: grid;
+  gap: 6px;
+  margin: 16px 0 0;
+  padding-left: 18px;
+  list-style: disc;
 }
 
-.wellbeing-sel-feature .intro-feature__description p + p,
-.wellbeing-framework-feature .intro-feature__description p + p,
-.wellbeing-classroom-feature .intro-feature__description p + p {
-  margin-top: 18px;
+.wellbeing-counselling-feature .intro-feature__description li {
+  margin: 0;
+  padding-left: 4px;
 }
 
-.wellbeing-campaigns-section.editorial-split-section {
-  padding-top: 62px;
-  padding-bottom: 62px;
+.wellbeing-page .wellbeing-sel-section.editorial-split-section {
+  background: var(--editorial-split-bg, #ffffff);
+  padding: 62px 0;
 }
 
-/* Wellbeing: classroom & community integration (full-bleed image, teal panel, navy curve) */
-.wellbeing-page .wellbeing-classroom-feature {
+.wellbeing-page .wellbeing-sel-section .editorial-split-section__title {
   margin-bottom: 0;
-}
-
-.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__title {
+  color: var(--editorial-split-title-color, #216B97);
+  font-size: clamp(1.35rem, 1.9vw, 1.7rem);
+  font-weight: 600;
   white-space: pre-line;
 }
 
-.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__body strong {
+.wellbeing-page .wellbeing-sel-section .editorial-split-section__body {
+  gap: 14px;
+}
+
+@media (max-width: 767px) {
+  .wellbeing-page .intro-feature.wellbeing-counselling-feature {
+    padding-top: 48px;
+  }
+
+  .wellbeing-page .wellbeing-sel-section.editorial-split-section {
+    padding: 48px 0;
+  }
+}
+
+/* Wellbeing: framework band (full-bleed image, teal panel, navy curve) */
+.wellbeing-page .wellbeing-framework-section {
+  margin-bottom: 0;
+}
+
+.wellbeing-page .wellbeing-framework-section .academics-elementary-assessment__title {
+  white-space: pre-line;
+}
+
+.wellbeing-page .wellbeing-framework-section .academics-elementary-assessment__body strong {
   display: block;
   margin-bottom: 2px;
   color: #ffffff;
   font-weight: 700;
 }
 
-.wellbeing-page .wellbeing-classroom-feature .academics-elementary-assessment__body p + p {
+.wellbeing-page .wellbeing-framework-section .academics-elementary-assessment__body p + p {
   margin-top: 18px;
 }
 
