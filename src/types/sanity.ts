@@ -364,6 +364,7 @@ export type AdmissionsFeeStructureRow = {
   _key?: string;
   gradeYear?: string;
   tuitionFee?: string;
+  bus?: string;
   books?: string;
   uniform?: string;
   total?: string;
@@ -374,6 +375,7 @@ export type AdmissionsFeeStructureSection = {
   labels?: {
     gradeYear?: string;
     tuitionFee?: string;
+    bus?: string;
     books?: string;
     uniform?: string;
     total?: string;

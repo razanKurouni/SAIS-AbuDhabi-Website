@@ -268,6 +268,7 @@ export function feeRows(section?: CmsSection | null): AdmissionsFeeStructureRow[
     _key: card._key,
     gradeYear: card.title,
     tuitionFee: entryValue(card.entries, "tuitionFee"),
+    bus: entryValue(card.entries, "bus"),
     books: entryValue(card.entries, "books"),
     uniform: entryValue(card.entries, "uniform"),
     total: entryValue(card.entries, "total"),
@@ -279,6 +280,7 @@ export function feeLabels(section?: CmsSection | null) {
   return {
     gradeYear: entryValue(list, "gradeYear"),
     tuitionFee: entryValue(list, "tuitionFee"),
+    bus: entryValue(list, "bus"),
     books: entryValue(list, "books"),
     uniform: entryValue(list, "uniform"),
     total: entryValue(list, "total"),

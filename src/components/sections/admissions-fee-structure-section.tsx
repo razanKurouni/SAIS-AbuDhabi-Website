@@ -15,10 +15,14 @@ export function AdmissionsFeeStructureSection({ section }: AdmissionsFeeStructur
   const labels = {
     gradeYear: section?.labels?.gradeYear || "Grade/Year",
     tuitionFee: section?.labels?.tuitionFee || "Tuition Fee",
+    bus: section?.labels?.bus || "Bus (AED)",
     books: section?.labels?.books || "Books (AED)",
     uniform: section?.labels?.uniform || "Uniform (AED)",
     total: section?.labels?.total || "Total (AED)",
   };
+  /* The bus and total columns only show when at least one row carries a value. */
+  const hasBus = rows.some((row) => row.bus);
+  const hasTotal = rows.some((row) => row.total);
 
   return (
     <section className="admissions-fee-structure" aria-labelledby="admissions-fee-structure-title">
@@ -34,14 +38,15 @@ export function AdmissionsFeeStructureSection({ section }: AdmissionsFeeStructur
         </header>
 
         <div className="admissions-fee-structure__table-wrap">
-          <table className="admissions-fee-structure__table">
+          <table className={`admissions-fee-structure__table ${hasTotal ? "has-total" : ""}`.trim()}>
             <thead>
               <tr>
                 <th scope="col">{labels.gradeYear}</th>
                 <th scope="col">{labels.tuitionFee}</th>
+                {hasBus ? <th scope="col">{labels.bus}</th> : null}
                 <th scope="col">{labels.books}</th>
                 <th scope="col">{labels.uniform}</th>
-                <th scope="col">{labels.total}</th>
+                {hasTotal ? <th scope="col">{labels.total}</th> : null}
               </tr>
             </thead>
             <tbody>
@@ -51,10 +56,11 @@ export function AdmissionsFeeStructureSection({ section }: AdmissionsFeeStructur
                   style={{ "--fee-row-delay": `${140 + index * 65}ms` } as CSSProperties}
                 >
                   <th scope="row">{row.gradeYear}</th>
-                  <td>{row.tuitionFee}</td>
+                  <td className="admissions-fee-structure__tuition">{row.tuitionFee}</td>
+                  {hasBus ? <td>{row.bus}</td> : null}
                   <td>{row.books}</td>
                   <td>{row.uniform}</td>
-                  <td>{row.total}</td>
+                  {hasTotal ? <td>{row.total}</td> : null}
                 </tr>
               ))}
             </tbody>

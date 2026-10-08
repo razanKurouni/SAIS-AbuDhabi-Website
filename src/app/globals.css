@@ -3470,7 +3470,8 @@ a.contact-info-section__item-text:hover {
   font-weight: 700;
 }
 
-.admissions-fee-structure__table tbody td:last-child {
+.admissions-fee-structure__table.has-total tbody td:last-child,
+.admissions-fee-structure__table tbody .admissions-fee-structure__tuition {
   color: #00a5b2;
   font-weight: 700;
 }
@@ -18359,4 +18360,59 @@ a.school-policy-card__cover:hover {
 
 .admissions-register-interest-page .admissions-tour-form__card {
   background: #216B97;
+}
+
+/* Fees: the table sits on white, the terms on the page grey, with the grade column centred like the design. */
+.admissions-fees-page .admissions-fee-structure {
+  background: #ffffff;
+}
+
+.admissions-fees-page .admissions-fee-terms {
+  background: #f2f2f2;
+}
+
+.admissions-fees-page .admissions-fee-structure__table th:first-child,
+.admissions-fees-page .admissions-fee-structure__table td:first-child {
+  text-align: center;
+}
+
+/* Fees: the journey title heads the copy column, left-aligned and navy, as in the design. */
+.admissions-fees-page .admissions-fees-journey__header {
+  max-width: none;
+  margin: 0 0 clamp(18px, 2vw, 26px);
+  text-align: left;
+}
+
+.admissions-fees-page .admissions-fees-journey__title {
+  color: #216B97;
+}
+
+@media (min-width: 768px) {
+  .admissions-fees-page .admissions-fees-journey__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 1fr);
+    column-gap: clamp(44px, 7vw, 105px);
+    align-items: center;
+  }
+
+  .admissions-fees-page .admissions-fees-journey__content {
+    display: contents;
+  }
+
+  .admissions-fees-page .admissions-fees-journey__header {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+  }
+
+  .admissions-fees-page .admissions-fees-journey__copy {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .admissions-fees-page .admissions-fees-journey__media {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
 }
