@@ -4357,6 +4357,9 @@ a.contact-info-section__item-text:hover {
 .academics-high-school-page .intro-feature.academics-high-school-excellence-feature .intro-feature__layout.reveal-item{
   padding-bottom: 40px;
 }
+.academics-high-school-page .academics-learning-slider.academics-high-school-pathways-slider.academics-high-school-career-guidance-slider{
+  margin-bottom: 30px;
+}
 .intro-feature__media {
   position: relative;
   z-index: 2;
