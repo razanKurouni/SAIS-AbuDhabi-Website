@@ -347,11 +347,12 @@ export function adaptOurCampus(page: CmsPage): OurCampusPageData {
     intro: textSection(s.get("intro")),
     videoSection: video(s.get("videoSection")),
     facilities: imageText(s.get("facilities")),
+    sectionsFeature: imageText(s.get("sectionsFeature")),
+    classroomSection: imageText(s.get("classroomSection")),
     librarySection: imageText(s.get("librarySection")),
-    elementaryLibrarySection: imageText(s.get("elementaryLibrarySection")),
-    facilitiesGrid: s.has("facilitiesGrid")
-      ? { heading: heading(s.get("facilitiesGrid")), cards: featureCards(s.get("facilitiesGrid")) }
-      : undefined,
+    makerspaceSection: imageText(s.get("makerspaceSection")),
+    gymSection: imageText(s.get("gymSection")),
+    poolSection: imageText(s.get("poolSection")),
   };
 }
 
@@ -360,11 +361,12 @@ export function adaptStudentStaffWellbeing(page: CmsPage): StudentStaffWellbeing
   return {
     ...base(page),
     commitment: imageText(s.get("commitment")),
+    proactiveSection: s.has("proactiveSection")
+      ? { heading: heading(s.get("proactiveSection")), cards: iconCards(s.get("proactiveSection")) }
+      : undefined,
     counselingSupportSection: imageText(s.get("counselingSupportSection")),
     selSection: imageText(s.get("selSection")),
     wellbeingFramework: imageText(s.get("wellbeingFramework")),
-    wellnessCampaigns: imageText(s.get("wellnessCampaigns")),
-    classroomIntegration: imageText(s.get("classroomIntegration")),
   };
 }
 

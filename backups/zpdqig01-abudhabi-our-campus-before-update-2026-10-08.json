@@ -1,0 +1,611 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "drafts.our-campus-page",
+    "_rev": "5b55958a-27f5-44a7-96a8-1bd3b1b01d19",
+    "_system": {
+      "base": {
+        "id": "our-campus-page",
+        "rev": "OrHjyBWECvhHtHVOEGqATk"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T04:35:02Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Our Campus"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "picture",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/our-campus",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "campus-intro-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "campus-intro-1-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our state-of-the-art facilities were created with our student’s best interests in mind, we took into account student academic needs and extra-curricular needs and created a safe and welcoming learning environment for all students."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Modern Spaces for Modern Learning"
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "videoSection",
+        "_type": "mediaSection",
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students in the library ",
+          "asset": {
+            "_ref": "image-3ee50c513e9fef5eafaed863fd9e621aa53e4aa4-3198x2042-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "videoSection",
+        "video": {
+          "_type": "file",
+          "asset": {
+            "_ref": "file-4137b8772375460cec2f2f8df37e6d32314744ef-mp4",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "facilities",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "facilities-overview",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "facilities-overview-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our school is divided into separate sections for our KG department, elementary department, Middle and High School Boys Section, and Middle and High School Girls Section.\n\nTo meet our student’s academic needs in our KG Department, they have homeroom classes and benefit in their section from their own Music room, Literacy room, and STEAM room which classes use on a daily rotational basis. To meet our student’s academic needs in our Elementary Department, they have homeroom classes and also have a Literacy Room dedicated to their own use, a STEAM room, and an Art room."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS students and staff meeting in a modern campus learning space",
+          "asset": {
+            "_ref": "image-9af1bd1ab4add8ebb5861ce72747bbecb8bc9857-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "facilities"
+      },
+      {
+        "_key": "librarySection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "library-overview",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "library-overview-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In our Middle and High School Boys and Girls Sections, students have subject and homeroom classrooms. We also have a large secondary library where students are able to go to conduct research, check out reading material, etc. Students also benefit from having an Islamic room, French room, Art room, Music room, and Arabic language rooms.\n\nTaking into account the extended extra-curricular activities that we offer our students here at SAIS-Abu Dhabi, our facilities are a highlight for many of our students. We have both girls and a boy’s indoor gym for physical education classes.\n\nOur campus also offers volleyball courts, basketball courts, soccer fields, and two swimming pools."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS students and staff in a modern campus learning space",
+          "asset": {
+            "_ref": "image-5ce3f1a36a530f2a0adf572b6af923f8f57d42f8-1318x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "librarySection"
+      },
+      {
+        "_key": "elementaryLibrarySection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-library-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-library-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In addition to our growing physical collection, the library promotes a love of reading through engaging programs like book fairs, themed reading weeks, storytelling sessions, and reading challenges throughout the year."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4051a2f029e2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7d463bacb6b0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our goal is to create a culture where reading is both meaningful and enjoyable, helping students build strong literacy skills and a lifelong love for books. Stay tuned for upcoming library events and reading initiatives through our school updates."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary students reading together",
+          "asset": {
+            "_ref": "image-34238c2237025c2cde06d46598a58e91599b162e-1556x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "elementaryLibrarySection"
+      },
+      {
+        "_key": "facilitiesGrid",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "sports-arena",
+            "_type": "card",
+            "description": "The sports arena includes a soccer field, basketball court, and spacious outdoor sports facilities designed to support a wide range of athletic and recreational activities. These facilities provide students with a safe and energetic environment where they can develop teamwork, leadership, sportsmanship, and physical fitness while participating in school competitions, training sessions, and daily physical activities. The sports arena plays an important role in promoting healthy lifestyles, student engagement, and school spirit through organized sports and recreational programs.",
+            "image": {
+              "_type": "picture",
+              "alt": "SAIS - Abu Dhabi outdoor running track and sports field",
+              "asset": {
+                "_ref": "image-a7ecff02113e664954aa9f5068de826314c0c2c3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Sports Arena"
+          },
+          {
+            "_key": "indoor-gymnasium",
+            "_type": "card",
+            "description": "Our fully equipped indoor gymnasium offers a comfortable and safe space for sports activities, fitness programs, assemblies, and school events throughout the academic year. The gym supports students’ physical wellbeing and encourages teamwork, confidence, discipline, and school spirit through a variety of indoor athletic and extracurricular activities. The facility also provides students with opportunities to participate in organized sports, fitness challenges, and community events in a professional and supportive environment.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students playing volleyball in the SAIS - Abu Dhabi gymnasium",
+              "asset": {
+                "_ref": "image-ba28d2393a4c3d3ad380b715e57947518b40e9c3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Indoor Gymnasium"
+          },
+          {
+            "_key": "computer-labs",
+            "_type": "card",
+            "description": "We have two modern computer labs equipped with advanced technology, high-speed internet access, and up-to-date educational software to support digital learning across all grade levels. The labs provide students with a safe, interactive, and engaging environment where they can strengthen their computer literacy, research, coding, and problem-solving skills while preparing for the demands of the modern world. Students also utilize the labs for project-based learning, presentations, online assessments, and collaborative educational activities that enhance creativity and digital confidence.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students working in the SAIS - Abu Dhabi computer lab",
+              "asset": {
+                "_ref": "image-99d35517f91a0086723d37e49d9bdd814a3aecf3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Computer Labs"
+          },
+          {
+            "_key": "robotics-lab",
+            "_type": "card",
+            "description": "Our Robotics Lab provides students with exciting hands-on opportunities to explore robotics, engineering, coding, and innovation through practical learning experiences. Equipped with modern robotics tools and technology, the lab encourages creativity, teamwork, critical thinking, and design skills while inspiring students to become future innovators and problem-solvers in STEM-related fields. Through guided projects and interactive challenges, students are encouraged to apply their knowledge in meaningful and engaging ways that strengthen both technical and collaborative skills.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students building a robot in the SAIS - Abu Dhabi robotics lab",
+              "asset": {
+                "_ref": "image-9fa837ba8fadadaa4da2bb167056c89eddb00057-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Robotics Lab"
+          },
+          {
+            "_key": "science-laboratories",
+            "_type": "card",
+            "description": "A suite of fully equipped Biology, Chemistry, and Physics laboratories designed to enhance inquiry-based and experiential learning. These modern and safe learning spaces allow students to conduct experiments, apply scientific concepts, and develop analytical and investigative skills through engaging hands-on activities that bring science to life inside and outside the classroom. The laboratories are designed to support curiosity, scientific exploration, and deeper understanding while maintaining high standards of safety and supervision.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students conducting an experiment in a SAIS - Abu Dhabi science laboratory",
+              "asset": {
+                "_ref": "image-e6a1226f01f37d9671efce73ffdae27c21d5a22e-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Science Laboratories"
+          },
+          {
+            "_key": "swimming-pool",
+            "_type": "card",
+            "description": "Our campus swimming pool provides students with a safe, clean, and well-maintained environment for swimming instruction, physical education lessons, and recreational activities. The facility supports students’ physical development, water confidence, discipline, and overall wellbeing while promoting healthy and active lifestyles in a supervised setting. Swimming activities also help students improve coordination, endurance, and teamwork while encouraging confidence and personal achievement through physical activity.",
+            "image": {
+              "_type": "picture",
+              "alt": "SAIS - Abu Dhabi campus swimming pool",
+              "asset": {
+                "_ref": "image-f8870a103b3166a883c53a532586e4abb2516f3c-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Swimming Pool"
+          }
+        ],
+        "slot": "facilitiesGrid"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore our modern campus, facilities, learning spaces, and sports environments.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Our Campus | SAIS - Abu Dhabi"
+    },
+    "title": "Our Campus"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "our-campus-page",
+    "_rev": "OrHjyBWECvhHtHVOEGqATk",
+    "_system": {
+      "base": {
+        "id": "our-campus-page",
+        "rev": "Et8wctIqY4P5sylMEr4SDy"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-05T13:15:50Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Our Campus"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "picture",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/our-campus",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "campus-intro-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "campus-intro-1-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our state-of-the-art facilities were created with our student’s best interests in mind, we took into account student academic needs and extra-curricular needs and created a safe and welcoming learning environment for all students."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Modern Spaces for Modern Learning"
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "videoSection",
+        "_type": "mediaSection",
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students in the library ",
+          "asset": {
+            "_ref": "image-3ee50c513e9fef5eafaed863fd9e621aa53e4aa4-3198x2042-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "videoSection",
+        "video": {
+          "_type": "file",
+          "asset": {
+            "_ref": "file-4137b8772375460cec2f2f8df37e6d32314744ef-mp4",
+            "_type": "reference"
+          }
+        }
+      },
+      {
+        "_key": "facilities",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "facilities-overview",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "facilities-overview-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our school is divided into separate sections for our KG department, elementary department, Middle and High School Boys Section, and Middle and High School Girls Section.\n\nTo meet our student’s academic needs in our KG Department, they have homeroom classes and benefit in their section from their own Music room, Literacy room, and STEAM room which classes use on a daily rotational basis. To meet our student’s academic needs in our Elementary Department, they have homeroom classes and also have a Literacy Room dedicated to their own use, a STEAM room, and an Art room."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS students and staff meeting in a modern campus learning space",
+          "asset": {
+            "_ref": "image-9af1bd1ab4add8ebb5861ce72747bbecb8bc9857-1528x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "facilities"
+      },
+      {
+        "_key": "librarySection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "library-overview",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "library-overview-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We take pride in having one central, well-resourced library that serves all grade levels. Our library houses a rich and diverse collection of books in Arabic, English, and French supporting students across all subjects and reading levels. Whether it’s for academic research or leisure reading, students are encouraged to explore a wide range of genres and topics that foster curiosity and critical thinking."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "104da3f1baa8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ddb74c5d0615",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To extend learning beyond the classroom, every student receives access to personalized digital learning platforms such as Achieve3000 and Level Up. These tools allow students to strengthen their reading and language skills anytime, anywhere, while supporting individual learning levels, progress, and interests."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Library"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS students and staff in a modern campus learning space",
+          "asset": {
+            "_ref": "image-d454d2aeb0d700329b0911615a8824504183d72a-1318x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "librarySection"
+      },
+      {
+        "_key": "elementaryLibrarySection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-library-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-library-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In addition to our growing physical collection, the library promotes a love of reading through engaging programs like book fairs, themed reading weeks, storytelling sessions, and reading challenges throughout the year."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4051a2f029e2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7d463bacb6b0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our goal is to create a culture where reading is both meaningful and enjoyable, helping students build strong literacy skills and a lifelong love for books. Stay tuned for upcoming library events and reading initiatives through our school updates."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary students reading together",
+          "asset": {
+            "_ref": "image-34238c2237025c2cde06d46598a58e91599b162e-1556x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "elementaryLibrarySection"
+      },
+      {
+        "_key": "facilitiesGrid",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "sports-arena",
+            "_type": "card",
+            "description": "The sports arena includes a soccer field, basketball court, and spacious outdoor sports facilities designed to support a wide range of athletic and recreational activities. These facilities provide students with a safe and energetic environment where they can develop teamwork, leadership, sportsmanship, and physical fitness while participating in school competitions, training sessions, and daily physical activities. The sports arena plays an important role in promoting healthy lifestyles, student engagement, and school spirit through organized sports and recreational programs.",
+            "image": {
+              "_type": "picture",
+              "alt": "SAIS - Abu Dhabi outdoor running track and sports field",
+              "asset": {
+                "_ref": "image-a7ecff02113e664954aa9f5068de826314c0c2c3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Sports Arena"
+          },
+          {
+            "_key": "indoor-gymnasium",
+            "_type": "card",
+            "description": "Our fully equipped indoor gymnasium offers a comfortable and safe space for sports activities, fitness programs, assemblies, and school events throughout the academic year. The gym supports students’ physical wellbeing and encourages teamwork, confidence, discipline, and school spirit through a variety of indoor athletic and extracurricular activities. The facility also provides students with opportunities to participate in organized sports, fitness challenges, and community events in a professional and supportive environment.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students playing volleyball in the SAIS - Abu Dhabi gymnasium",
+              "asset": {
+                "_ref": "image-ba28d2393a4c3d3ad380b715e57947518b40e9c3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Indoor Gymnasium"
+          },
+          {
+            "_key": "computer-labs",
+            "_type": "card",
+            "description": "We have two modern computer labs equipped with advanced technology, high-speed internet access, and up-to-date educational software to support digital learning across all grade levels. The labs provide students with a safe, interactive, and engaging environment where they can strengthen their computer literacy, research, coding, and problem-solving skills while preparing for the demands of the modern world. Students also utilize the labs for project-based learning, presentations, online assessments, and collaborative educational activities that enhance creativity and digital confidence.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students working in the SAIS - Abu Dhabi computer lab",
+              "asset": {
+                "_ref": "image-99d35517f91a0086723d37e49d9bdd814a3aecf3-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Computer Labs"
+          },
+          {
+            "_key": "robotics-lab",
+            "_type": "card",
+            "description": "Our Robotics Lab provides students with exciting hands-on opportunities to explore robotics, engineering, coding, and innovation through practical learning experiences. Equipped with modern robotics tools and technology, the lab encourages creativity, teamwork, critical thinking, and design skills while inspiring students to become future innovators and problem-solvers in STEM-related fields. Through guided projects and interactive challenges, students are encouraged to apply their knowledge in meaningful and engaging ways that strengthen both technical and collaborative skills.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students building a robot in the SAIS - Abu Dhabi robotics lab",
+              "asset": {
+                "_ref": "image-9fa837ba8fadadaa4da2bb167056c89eddb00057-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Robotics Lab"
+          },
+          {
+            "_key": "science-laboratories",
+            "_type": "card",
+            "description": "A suite of fully equipped Biology, Chemistry, and Physics laboratories designed to enhance inquiry-based and experiential learning. These modern and safe learning spaces allow students to conduct experiments, apply scientific concepts, and develop analytical and investigative skills through engaging hands-on activities that bring science to life inside and outside the classroom. The laboratories are designed to support curiosity, scientific exploration, and deeper understanding while maintaining high standards of safety and supervision.",
+            "image": {
+              "_type": "picture",
+              "alt": "Students conducting an experiment in a SAIS - Abu Dhabi science laboratory",
+              "asset": {
+                "_ref": "image-e6a1226f01f37d9671efce73ffdae27c21d5a22e-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Science Laboratories"
+          },
+          {
+            "_key": "swimming-pool",
+            "_type": "card",
+            "description": "Our campus swimming pool provides students with a safe, clean, and well-maintained environment for swimming instruction, physical education lessons, and recreational activities. The facility supports students’ physical development, water confidence, discipline, and overall wellbeing while promoting healthy and active lifestyles in a supervised setting. Swimming activities also help students improve coordination, endurance, and teamwork while encouraging confidence and personal achievement through physical activity.",
+            "image": {
+              "_type": "picture",
+              "alt": "SAIS - Abu Dhabi campus swimming pool",
+              "asset": {
+                "_ref": "image-f8870a103b3166a883c53a532586e4abb2516f3c-1040x748-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Swimming Pool"
+          }
+        ],
+        "slot": "facilitiesGrid"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore our modern campus, facilities, learning spaces, and sports environments.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Our Campus | SAIS - Abu Dhabi"
+    },
+    "title": "Our Campus"
+  }
+]

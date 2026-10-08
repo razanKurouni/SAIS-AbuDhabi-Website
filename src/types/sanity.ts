@@ -473,9 +473,12 @@ export type OurCampusPageData = {
   };
   videoSection?: CampusVideoSection;
   facilities?: ImageTextSection;
+  sectionsFeature?: AcademicsKindergartenFeatureSection;
+  classroomSection?: AcademicsKindergartenFeatureSection;
   librarySection?: ImageTextSection;
-  elementaryLibrarySection?: ImageTextSection;
-  facilitiesGrid?: { heading?: SectionHeading; cards: FeatureCard[] };
+  makerspaceSection?: AcademicsKindergartenFeatureSection;
+  gymSection?: ImageTextSection;
+  poolSection?: AcademicsKindergartenFeatureSection;
 };
 
 export type WellbeingIconCard = {
@@ -504,11 +507,10 @@ export type StudentStaffWellbeingPageData = {
     image?: SanityImage;
     imagePosition?: string;
   };
-  counselingSupportSection?: ImageTextSection;
+  proactiveSection?: AcademicsTeachingCommitmentsSection;
+  counselingSupportSection?: AcademicsKindergartenFeatureSection;
   selSection?: ImageTextSection;
-  wellbeingFramework?: ImageTextSection;
-  wellnessCampaigns?: ImageTextSection;
-  classroomIntegration?: AcademicsKindergartenFeatureSection;
+  wellbeingFramework?: AcademicsKindergartenFeatureSection;
 };
 
 export type SafetyHighlightSection = {

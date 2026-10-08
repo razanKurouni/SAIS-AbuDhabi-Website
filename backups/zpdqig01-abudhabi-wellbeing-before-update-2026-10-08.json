@@ -1,0 +1,476 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "student-staff-wellbeing-page",
+    "_rev": "jtzXmr5sPTxAjhSjhtBlXA",
+    "_system": {
+      "base": {
+        "id": "student-staff-wellbeing-page",
+        "rev": "716lLGM4clTjEsWT4sxrZy"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T04:41:18Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Student &\nStaff Wellbeing"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi building and flags",
+        "asset": {
+          "_ref": "image-2afaa899d8143c9279b3f5ebad13fa7625ced84c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi teacher high-fiving a student",
+        "asset": {
+          "_ref": "image-2afaa899d8143c9279b3f5ebad13fa7625ced84c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/student-staff-wellbeing",
+    "sections": [
+      {
+        "_key": "commitment",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "wc-lead",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wc-lead-s",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "At SAIS-Abu Dhabi ensuring the wellbeing of our entire community remains a cornerstone of our educational philosophy. This commitment has taken on even greater significance in challenging times. We are dedicated to supporting the academic, mental, social, emotional, and physical wellbeing of all students and staff members."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Commitment"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students smiling in class",
+          "asset": {
+            "_ref": "image-43122afda509b36b356bd3ffd5efc18afb0ff1dd-3198x1454-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "commitment"
+      },
+      {
+        "_key": "counselingSupportSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "cs-team",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cs-team-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Licensed Counseling Team:"
+                },
+                {
+                  "_key": "cs-team-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We employ a full-time school counselor and assistant counselors who provide individual check-ins, small-group workshops, and crisis intervention as needed."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cs-open-door",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cs-open-door-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Open-Door Policy:"
+                },
+                {
+                  "_key": "cs-open-door-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Every student and staff member may schedule drop-in sessions or refer peers, ensuring timely support for academic stress, interpersonal conflicts, or personal challenges."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cs-outreach",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cs-outreach-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Parent & Family Outreach:"
+                },
+                {
+                  "_key": "cs-outreach-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Counselors host regular webinars and one-on-one conferences to equip families with strategies for supporting well-being at home."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Dedicated Counseling &\nSupport Services"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi student smiling while working on a craft activity",
+          "asset": {
+            "_ref": "image-237c19c32fc0b1e8bc4a79cd3fd58b232c26bf3b-1600x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "counselingSupportSection"
+      },
+      {
+        "_key": "selSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sel-p1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sel-p1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Curriculum Integration: Our SEL curriculum runs from Kindergarten through Grade 12, with age-appropriate competencies, self-awareness, self-management, social awareness, relationship skills, and responsible decision-making taught through homeroom lessons, art, and PE sessions."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "sel-p2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sel-p2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "SEL Coaches: Trained staff lead fortnightly classroom circles, role-play activities, and reflective journaling to help students practice empathy, resilience, and effective communication."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Social & Emotional Learning (SEL) Program"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi teacher guiding two students through a hands-on SEL activity",
+          "asset": {
+            "_ref": "image-840d3240473f342d98ac6f3a26e713d4c2f8e3ff-2000x1662-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "selSection"
+      },
+      {
+        "_key": "wellbeingFramework",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "wf-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wf-1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Mindfulness & Restorative Practices:"
+                },
+                {
+                  "_key": "wf-1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Daily “mindful minutes” and monthly restorative circles give students and teachers tools to regulate emotions and resolve conflicts constructively."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wf-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wf-2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Professional Development:"
+                },
+                {
+                  "_key": "wf-2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Faculty participate in ongoing workshops on SEL facilitation techniques, stress-management strategies, and inclusive classroom practices."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wf-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wf-3-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Peer-Support Networks:"
+                },
+                {
+                  "_key": "wf-3-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Student wellbeing ambassadors collaborate with counselors to organize “buddy check-ins” and peer-led wellness clubs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Well-Being Framework & Approaches"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students exploring classroom learning activities",
+          "asset": {
+            "_ref": "image-044968258c448c40cb34ae16d4c9a5164cf43024-1566x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "wellbeingFramework"
+      },
+      {
+        "_key": "wellnessCampaigns",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "wcam-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wcam-1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Healthy Lifestyle Week:"
+                },
+                {
+                  "_key": "wcam-1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A dedicated week each term featuring myriad activities."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wcam-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wcam-2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Annual Sports Day & Fitness Clubs:"
+                },
+                {
+                  "_key": "wcam-2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "From track relays to yoga and dance clubs, we promote daily physical activity as a cornerstone of mental and physical health."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wcam-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wcam-3-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Mental Health Awareness Days:"
+                },
+                {
+                  "_key": "wcam-3-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Quarterly events with guest speakers, stress-relief stations (e.g., art-therapy corners, relaxation tents), and student-led panels."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Campus-Wide Wellness Campaigns"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi students playing volleyball on the school court",
+          "asset": {
+            "_ref": "image-9993febffae2b03a066fa7dfdc9554c1db298bc9-1600x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "wellnessCampaigns"
+      },
+      {
+        "_key": "classroomIntegration",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "wci-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wci-1-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Speaking Corner:"
+                },
+                {
+                  "_key": "wci-1-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Each section features a dedicated Speaking Corner (part of our SEL program) where students can share thoughts, practice communication skills, and seek peer or counselor support."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wci-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wci-2-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Collaborative Planning:"
+                },
+                {
+                  "_key": "wci-2-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Teachers and counselors co-design lesson plans that infuse academic topics with social-emotional check-points and opportunities for cooperative learning."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "wci-3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "wci-3-l",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Feedback Loops:"
+                },
+                {
+                  "_key": "wci-3-t",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Regular surveys of students and staff inform ongoing refinements to our Well-Being Framework, ensuring it remains responsive to community needs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Classroom & Community\nIntegration"
+        },
+        "image": {
+          "_type": "picture",
+          "alt": "SAIS - Abu Dhabi teacher guiding a student on a tablet in class",
+          "asset": {
+            "_ref": "image-28b37e720e971a49e37ee1aa9a65c8dd576bd51d-2000x1505-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "classroomIntegration"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Learn about student and staff wellbeing support at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi building and flags",
+        "asset": {
+          "_ref": "image-2afaa899d8143c9279b3f5ebad13fa7625ced84c-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Student & Staff Wellbeing | SAIS - Abu Dhabi"
+    },
+    "title": "Student & Staff Wellbeing"
+  }
+]
