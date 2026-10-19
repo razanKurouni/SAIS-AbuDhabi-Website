@@ -4,6 +4,7 @@ import { SitePageShell } from "@/components/layout/site-page-shell";
 import { CareersJoinTeamSection } from "@/components/sections/careers-join-team-section";
 import { CareersRequirementsSection } from "@/components/sections/careers-requirements-section";
 import { ContactInfoSection } from "@/components/sections/contact-info-section";
+import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
 import { RichText } from "@/components/ui/rich-text";
@@ -288,6 +289,19 @@ export default async function CareersPage() {
           ) : null}
         </SectionReveal>
       </section>
+
+      {careersPage?.safeguardingSection ? (
+        <EditorialSplitSection
+          id="careers-safeguarding"
+          title="Working at SAIS - Abu Dhabi"
+          section={{ ...careersPage.safeguardingSection, imagePosition: "right" }}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="careers-safeguarding-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+        />
+      ) : null}
 
       <CareersRequirementsSection
         section={careersPage?.requirementsSection}

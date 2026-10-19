@@ -991,6 +991,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "entry": []
   },
+  "careers-page/safeguardingSection": {
+    "section": [
+      "heading",
+      "image"
+    ],
+    "heading": [
+      "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "contact-page/contactInfo": {
     "section": [
       "body",

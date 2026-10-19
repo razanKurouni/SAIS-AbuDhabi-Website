@@ -18718,3 +18718,15 @@ a.school-policy-card__cover:hover {
     color: var(--sais-accent);
   }
 }
+
+/* Careers: the safeguarding text and photo under "Join Our Journey" (design spacing and photo shape). */
+@media (min-width: 768px) {
+  .careers-page .careers-safeguarding-section.editorial-split-section {
+    padding-top: 68px;
+  }
+
+  .careers-page .careers-safeguarding-section .editorial-split-section__media {
+    aspect-ratio: 1.22 / 1;
+    height: auto;
+  }
+}

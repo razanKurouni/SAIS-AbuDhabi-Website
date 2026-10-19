@@ -553,6 +553,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "careers-page": {
+    "safeguardingSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "right",
+      "textColor": "#707278"
+    },
     "careSection": {
       "imagePosition": "center",
       "panelColor": "#216B97",
