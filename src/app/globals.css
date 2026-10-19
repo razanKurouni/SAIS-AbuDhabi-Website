@@ -17199,7 +17199,7 @@ a.school-policy-card__cover:hover {
 
 /* School Policies: centered intro (teal two-line title, navy lead, grey paragraph) and image-right overview */
 .school-policies-intro.student-life-overview {
-  --student-life-overview-bg: #ffffff;
+  --student-life-overview-bg: #f2f2f2;
   --student-life-overview-title: #00A5B2;
   --student-life-overview-text: #216B97;
   padding: 62px 0 0;
