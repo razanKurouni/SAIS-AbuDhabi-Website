@@ -441,7 +441,11 @@ export function adaptExtraCurricular(page: CmsPage): ExtraCurricularActivitiesPa
 
 export function adaptContact(page: CmsPage): ContactPageData {
   const s = bySlot(page);
-  return { ...base(page), contactInfo: contactInfo(s.get("contactInfo")) };
+  return {
+    ...base(page),
+    contactInfo: contactInfo(s.get("contactInfo")),
+    mapEmbedUrl: s.get("map")?.entries?.find((entry) => entry.href)?.href,
+  };
 }
 
 export function adaptCareers(page: CmsPage): CareersPageData {

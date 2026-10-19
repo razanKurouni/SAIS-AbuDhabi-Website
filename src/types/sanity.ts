@@ -860,6 +860,8 @@ export type ContactPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
   contactInfo?: ContactInfoSection;
+  /** Google Maps embed link (or the whole <iframe> code copied from Google Maps). */
+  mapEmbedUrl?: string;
 };
 
 export type CareersIntroSection = {

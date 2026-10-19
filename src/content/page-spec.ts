@@ -380,7 +380,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/contact-us",
     title: "Contact Us",
     group: "Contact & Careers",
-    slots: [entries("contactInfo", "Contact Information")],
+    slots: [entries("contactInfo", "Contact Information"), entries("map", "Campus Map")],
   },
   {
     id: "careers-page",

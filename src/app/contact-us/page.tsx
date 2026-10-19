@@ -28,7 +28,13 @@ const contactInnerNavItems = [
 ];
 
 const MAP_EMBED_SRC =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.7873680416133!2d55.5862808!3d25.5016975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5fbd959cca1d1%3A0x8e14e4c7843736be!2sSAIS%20Umm%20Al%20Quwain!5e1!3m2!1sen!2sae!4v1790255839786!5m2!1sen!2sae";
+  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d796.2500547808039!2d54.6330314!3d24.3607139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e37d95555aaab%3A0x7ed3e7b1b6e679e6!2sSharjah%20American%20International%20School!5e1!3m2!1sen!2sae!4v1792407647768!5m2!1sen!2sae";
+
+/** The map link from Sanity: either the embed link itself or the whole <iframe> code from Google Maps. */
+function mapEmbedSrc(value?: string) {
+  const src = value?.match(/src=["']([^"']+)["']/)?.[1] || value?.trim();
+  return src?.startsWith("https://www.google.com/maps/embed") ? src.replace(/&amp;/g, "&") : MAP_EMBED_SRC;
+}
 
 export async function generateMetadata(): Promise<Metadata> {
   const contactPage = await getContactPage();
@@ -86,7 +92,7 @@ export default async function ContactUsPage() {
       <section className="contact-map" aria-label="Campus location map">
         <SectionReveal>
           <iframe
-            src={MAP_EMBED_SRC}
+            src={mapEmbedSrc(contactPage?.mapEmbedUrl)}
             className="contact-map__iframe"
             allowFullScreen
             loading="lazy"

@@ -1005,6 +1005,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "text"
     ]
   },
+  "contact-page/map": {
+    "section": [
+      "entries"
+    ],
+    "heading": [],
+    "card": [],
+    "cardEntry": [],
+    "entry": [
+      "href",
+      "label"
+    ]
+  },
   "extra-curricular-activities-page/enrichingSection": {
     "section": [
       "heading",

@@ -1,0 +1,135 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "contact-page",
+  "_rev": "Vg79dvfFaVcVnGKgOJLbWb",
+  "_system": {
+    "base": {
+      "id": "contact-page",
+      "rev": "hY9036caaD2DnGNK61AyQT"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-08T04:43:58Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Contact Us"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "Sharjah American International School campus building",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/contact-us",
+  "sections": [
+    {
+      "_key": "contactInfo",
+      "_type": "entriesSection",
+      "body": [
+        {
+          "_key": "b-2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s-3",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Office Hours:"
+            },
+            {
+              "_key": "s-4",
+              "_type": "span",
+              "marks": [],
+              "text": "\nSunday – Thursday | 7:30 AM – 4:30 PM\nFriday | 7:30 AM – 11:30 AM"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "entries": [
+        {
+          "_key": "contact-address",
+          "_type": "entry",
+          "href": "https://maps.app.goo.gl/A1Q7hUVqYEAtcckX8",
+          "iconType": "location",
+          "label": "Campus Address",
+          "text": "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE - P.O. BOX 35590"
+        },
+        {
+          "_key": "contact-phone",
+          "_type": "entry",
+          "href": "tel:+97125861222",
+          "iconType": "phone",
+          "label": "Phone",
+          "text": "+971 2 586 1222"
+        },
+        {
+          "_key": "contact-email",
+          "_type": "entry",
+          "href": "mailto:info@saisabudhabi.com",
+          "iconType": "email",
+          "label": "Email",
+          "text": "info@saisabudhabi.com"
+        }
+      ],
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "b-0",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-1",
+                "_type": "span",
+                "marks": [],
+                "text": "Whether you’re a parent, student, or visitor, feel free to reach out with your questions, feedback, or inquiries. Our team is here to support you."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "We’d Love to Hear From You"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School – Abu Dhabi campus building",
+        "asset": {
+          "_ref": "image-309925526e91ab841e974829c9901bb22f108124-1528x1312-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "contactInfo"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Contact Sharjah American International School.",
+    "image": {
+      "_type": "image",
+      "alt": "CONTACT US",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Contact Us | SAIS - Abu Dhabi"
+  },
+  "title": "Contact Us"
+}
