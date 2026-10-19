@@ -7,10 +7,15 @@ import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { getHomepage, getOurCampusPage } from "@/lib/sanity";
-import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
+import type {
+  AcademicsKindergartenFeatureSection,
+  AcademicsLearningSliderSection as AcademicsLearningSliderSectionData,
+  PortableTextBlock,
+} from "@/types/sanity";
 import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
+import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 
 const fallbackMetadata: Metadata = {
   title: "Our Campus | SAIS - Abu Dhabi",
@@ -54,6 +59,35 @@ function featureProps(section: AcademicsKindergartenFeatureSection) {
     textColor: section.textColor || featureFallback.textColor,
     imagePosition: section.imagePosition || featureFallback.imagePosition,
     imageSide: section.imageSide || featureFallback.imageSide,
+  };
+}
+
+function blocksToPlainText(blocks?: PortableTextBlock[]) {
+  return (
+    blocks
+      ?.map((block) => block.children?.map((child) => child.text || "").join("") || "")
+      .filter(Boolean)
+      .join("\n\n") || ""
+  );
+}
+
+/* The Classroom panel uses the Kindergarten "excellence" slider look: teal side, navy panel, orange curve. */
+function classroomSlider(section: AcademicsKindergartenFeatureSection): AcademicsLearningSliderSectionData {
+  return {
+    slides: [
+      {
+        _key: "campus-classroom",
+        title: section.heading?.title,
+        body: blocksToPlainText(section.heading?.description),
+        image: section.image,
+        backgroundColor: section.panelColor || featureFallback.panelColor,
+        sideColor: "var(--sais-accent)",
+        ringColor: section.waveColor || featureFallback.waveColor,
+        titleColor: section.titleColor || featureFallback.titleColor,
+        textColor: section.textColor || featureFallback.textColor,
+        imagePosition: section.imagePosition || featureFallback.imagePosition,
+      },
+    ],
   };
 }
 
@@ -130,10 +164,10 @@ export default async function OurCampusPage() {
       ) : null}
 
       {classroom ? (
-        <IntroFeatureSection
-          className="academics-kg-day-feature campus-feature campus-classroom-feature"
-          titleId="campus-classroom-title"
-          {...featureProps(classroom)}
+        <AcademicsLearningSliderSection
+          className="academics-kg-excellence-slider campus-classroom-slider"
+          section={classroomSlider(classroom)}
+          fallbackSection={classroomSlider(classroom)}
         />
       ) : null}
 

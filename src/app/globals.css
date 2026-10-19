@@ -14715,11 +14715,6 @@ a.school-policy-card__cover:hover {
   padding-top: 0;
 }
 
-.our-campus-page .campus-classroom-feature.intro-feature {
-  background: linear-gradient(to bottom, var(--sais-accent) 0 48%, #ffffff 48% 100%);
-  padding-top: 62px;
-}
-
 .our-campus-page .campus-makerspace-feature.intro-feature {
   background: linear-gradient(to bottom, #ffffff 0 48%, #f2f2f2 48% 100%);
 }
@@ -14752,10 +14747,6 @@ a.school-policy-card__cover:hover {
   .our-campus-page .campus-sections-feature.intro-feature {
     background: linear-gradient(to bottom, var(--sais-accent) 0 40%, #ffffff 40% 100%);
     padding-top: 0;
-  }
-
-  .our-campus-page .campus-classroom-feature.intro-feature {
-    background: linear-gradient(to bottom, var(--sais-accent) 0 40%, #ffffff 40% 100%);
   }
 
   .our-campus-page .campus-makerspace-feature.intro-feature {
@@ -18681,5 +18672,20 @@ a.school-policy-card__cover:hover {
   .our-campus-page .campus-sections-feature .intro-feature__content {
     padding-right: 6%;
     padding-left: 32%;
+  }
+}
+
+/* Our Campus: the Classroom panel in the Kindergarten "excellence" slider look. */
+.our-campus-page .campus-classroom-slider .academics-learning-slider__content {
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .our-campus-page .campus-classroom-slider .academics-learning-slider__content {
+    padding-left: 30px;
+  }
+
+  .our-campus-page .campus-classroom-slider .academics-learning-slider__media {
+    aspect-ratio: 1.19 / 1;
   }
 }
