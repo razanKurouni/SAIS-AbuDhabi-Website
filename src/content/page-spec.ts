@@ -280,6 +280,7 @@ export const PAGE_SPECS: PageSpec[] = [
       { slot: "videoSection", kind: "media", label: "Campus Video" },
       it("facilities", "Facilities"),
       it("sectionsFeature", "School Sections"),
+      it("outdoorSection", "Outdoor Area and Playground"),
       it("classroomSection", "Classroom"),
       it("librarySection", "The Library"),
       it("makerspaceSection", "Makerspace"),

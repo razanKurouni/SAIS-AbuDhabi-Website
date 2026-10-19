@@ -18666,6 +18666,18 @@ a.school-policy-card__cover:hover {
   }
 }
 
+/* Our Campus: Outdoor Area and Playground, under the school sections panel. */
+@media (min-width: 768px) {
+  .our-campus-page .campus-outdoor-section.editorial-split-section {
+    padding-top: 108px;
+  }
+
+  .our-campus-page .campus-outdoor-section .editorial-split-section__media {
+    aspect-ratio: 1.19 / 1;
+    height: auto;
+  }
+}
+
 /* Our Campus: the Classroom and Pool panels in the Kindergarten "excellence" slider look. */
 .our-campus-page .campus-feature-slider .academics-learning-slider__content {
   gap: 25px;

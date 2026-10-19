@@ -804,6 +804,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "imagePosition": "right",
       "titleColor": "#00A5B2"
     },
+    "outdoorSection": {
+      "backgroundColor": "#ffffff",
+      "imagePosition": "right",
+      "titleColor": "#00A5B2"
+    },
     "makerspaceSection": {
       "imagePosition": "center",
       "imageSide": "left",

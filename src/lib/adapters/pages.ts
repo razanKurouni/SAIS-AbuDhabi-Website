@@ -349,6 +349,7 @@ export function adaptOurCampus(page: CmsPage): OurCampusPageData {
     videoSection: video(s.get("videoSection")),
     facilities: imageText(s.get("facilities")),
     sectionsFeature: imageText(s.get("sectionsFeature")),
+    outdoorSection: imageText(s.get("outdoorSection")),
     classroomSection: imageText(s.get("classroomSection")),
     librarySection: imageText(s.get("librarySection")),
     makerspaceSection: imageText(s.get("makerspaceSection")),

@@ -108,6 +108,7 @@ export default async function OurCampusPage() {
   const heroTitle = hero?.heading?.title || fallbackHero.title;
   const heroImage = hero?.image || fallbackHero.image;
   const sectionsFeature = ourCampusPage?.sectionsFeature;
+  const outdoor = ourCampusPage?.outdoorSection;
   const classroom = ourCampusPage?.classroomSection;
   const library = ourCampusPage?.librarySection;
   const makerspace = ourCampusPage?.makerspaceSection;
@@ -160,6 +161,20 @@ export default async function OurCampusPage() {
           className="academics-kg-day-feature campus-feature campus-sections-feature"
           titleId="campus-sections-title"
           {...featureProps(sectionsFeature)}
+        />
+      ) : null}
+
+      {outdoor ? (
+        <EditorialSplitSection
+          id="campus-outdoor"
+          title={outdoor.heading?.title || "Outdoor Area and Playground"}
+          section={{ ...outdoor, imagePosition: "right" }}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="campus-split-section campus-outdoor-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+          showTitle
         />
       ) : null}
 

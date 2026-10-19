@@ -474,6 +474,7 @@ export type OurCampusPageData = {
   videoSection?: CampusVideoSection;
   facilities?: ImageTextSection;
   sectionsFeature?: AcademicsKindergartenFeatureSection;
+  outdoorSection?: ImageTextSection;
   classroomSection?: AcademicsKindergartenFeatureSection;
   librarySection?: ImageTextSection;
   makerspaceSection?: AcademicsKindergartenFeatureSection;
