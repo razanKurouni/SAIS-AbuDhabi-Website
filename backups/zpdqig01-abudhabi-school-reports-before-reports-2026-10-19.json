@@ -1,0 +1,55 @@
+{
+  "_createdAt": "2026-10-08T08:04:40Z",
+  "_id": "school-reports-page",
+  "_rev": "716lLGM4clTjEsWT54WcGm",
+  "_type": "page",
+  "_updatedAt": "2026-10-08T08:04:40Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "School Reports"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students presenting in class",
+      "asset": {
+        "_ref": "image-a2629fc4914325583cbb2d14006cae9f57073a73-992x806-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/school-reports",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sr-intro",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sr-intro-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our school reports and inspection outcomes will be published here. Please check back soon or contact the school office for the latest reports."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "School Reports"
+      },
+      "slot": "intro"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "School reports and inspection outcomes for SAIS - Abu Dhabi.",
+    "title": "School Reports | SAIS - Abu Dhabi"
+  },
+  "title": "School Reports"
+}

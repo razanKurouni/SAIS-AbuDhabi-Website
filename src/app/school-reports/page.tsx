@@ -4,6 +4,7 @@ import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { PageHero } from "@/components/sections/page-hero";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 import { TourSection } from "@/components/sections/tour-section";
+import { SchoolDocumentCard } from "@/components/sections/school-document-card";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { getHomepage, getSchoolReportsPage } from "@/lib/sanity";
@@ -28,6 +29,9 @@ const fallbackHero = {
   imageWidth: "58%",
 };
 
+/* Covers come from Sanity; without one the card shows its plain cover panel. */
+const fallbackCover: SanityImage = {};
+
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getSchoolReportsPage();
 
@@ -44,6 +48,7 @@ export default async function SchoolReportsPage() {
   const hero = page?.hero;
   const heroImage: SanityImage = hero?.image || fallbackHero.image;
   const intro = page?.intro;
+  const reports = page?.reports || [];
 
   return (
     <SitePageShell
@@ -66,15 +71,37 @@ export default async function SchoolReportsPage() {
       />
       <CommunityInnerNav activeHref="/school-reports" />
 
+      {/* Intro and report cards share the School Policies look: one grey band, document covers below. */}
       {intro?.heading?.title || intro?.heading?.description?.length ? (
-        /* Same intro layout as the School Calendar page until the School Reports design arrives. */
-        <section className="school-calendar-content" aria-labelledby="school-reports-content-title">
-          <SectionReveal className="school-calendar-content__inner">
-            <div className="school-calendar-content__header">
-              <h2 id="school-reports-content-title" className="school-calendar-content__title">
-                {intro.heading?.title || fallbackHero.title}
-              </h2>
-              <RichText blocks={intro.heading?.description} className="school-calendar-content__intro" />
+        <section
+          id="school-reports-intro"
+          className="student-life-overview school-policies-intro school-reports-intro"
+          aria-labelledby="school-reports-intro-title"
+        >
+          <div className="student-life-overview__inner">
+            <h2 id="school-reports-intro-title" className="student-life-overview__title">
+              {intro.heading?.title || fallbackHero.title}
+            </h2>
+            <div className="student-life-overview__body">
+              <RichText blocks={intro.heading?.description} className="student-life-overview__copy" />
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {reports.length ? (
+        <section className="school-policies-content school-reports-content" aria-label="Report documents">
+          <SectionReveal className="school-policies-content__inner" threshold={0.01}>
+            <div className="school-policies-grid school-reports-grid">
+              {reports.map((report, index) => (
+                <SchoolDocumentCard
+                  key={report._key || `${report.title}-${index}`}
+                  document={report}
+                  index={index}
+                  fallbackCover={fallbackCover}
+                  fallbackTitle="School Report"
+                />
+              ))}
             </div>
           </SectionReveal>
         </section>

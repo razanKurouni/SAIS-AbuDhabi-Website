@@ -18692,3 +18692,29 @@ a.school-policy-card__cover:hover {
     aspect-ratio: 1.19 / 1;
   }
 }
+
+/* School Reports: the School Policies cards, three to a row, with teal titles (design). */
+@media (min-width: 768px) {
+  .school-reports-grid.school-policies-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2vw;
+    width: min(100%, 62vw);
+    margin: 0 auto;
+  }
+
+  .school-reports-grid .school-policy-card__title {
+    color: var(--sais-accent);
+    font-size: clamp(1.15rem, 1.57vw, 1.75rem);
+  }
+
+  .school-reports-grid .school-policy-card__download {
+    font-size: clamp(1rem, 1.24vw, 1.38rem);
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 767px) {
+  .school-reports-grid .school-policy-card__title {
+    color: var(--sais-accent);
+  }
+}

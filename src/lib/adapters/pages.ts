@@ -395,7 +395,7 @@ export function adaptSchoolCalendar(page: CmsPage): SchoolCalendarPageData {
 
 export function adaptSchoolReports(page: CmsPage): SchoolReportsPageData {
   const s = bySlot(page);
-  return { ...base(page), intro: textSection(s.get("intro")) };
+  return { ...base(page), intro: textSection(s.get("intro")), reports: policies(s.get("reports")) };
 }
 
 export function adaptSchoolPolicies(page: CmsPage): SchoolPoliciesPageData {

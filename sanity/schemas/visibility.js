@@ -18,7 +18,8 @@ const isObject = (value) => Boolean(value) && typeof value === "object" && !Arra
 function hasValue(value) {
   if (value === null || value === undefined || value === "") return false;
   if (Array.isArray(value)) return value.length > 0;
-  if (isObject(value)) return Object.keys(value).some((key) => !key.startsWith("_") && hasValue(value[key]));
+  // An uploaded file or image is a reference ({ asset: { _ref } }) and counts as a value.
+  if (isObject(value)) return Boolean(value._ref) || Object.keys(value).some((key) => !key.startsWith("_") && hasValue(value[key]));
   return true;
 }
 

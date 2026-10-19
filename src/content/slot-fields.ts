@@ -434,6 +434,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "title"
     ],
     "card": [
+      "icon",
       "iconType",
       "title"
     ],
@@ -443,7 +444,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   "academics-kindergarten-page/excellenceSection": {
     "section": [
       "heading",
-      "image"
+      "image",
+      "mobileImage"
     ],
     "heading": [
       "description"
@@ -608,6 +610,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "card": [
       "description",
+      "image",
       "title"
     ],
     "cardEntry": [],
@@ -633,6 +636,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [],
     "card": [
       "description",
+      "icon",
       "title"
     ],
     "cardEntry": [],
@@ -649,6 +653,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "card": [
       "description",
+      "icon",
       "iconType",
       "title"
     ],
@@ -716,7 +721,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "admissions-application-page/videoSection": {
     "section": [
-      "image"
+      "image",
+      "video"
     ],
     "heading": [],
     "card": [],
@@ -1470,7 +1476,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "our-campus-page/videoSection": {
     "section": [
-      "image"
+      "image",
+      "video"
     ],
     "heading": [],
     "card": [],
@@ -1558,6 +1565,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   "school-calendar-page/calendarDownload": {
     "section": [
       "ctas",
+      "file",
       "heading"
     ],
     "heading": [
@@ -1612,6 +1620,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "heading": [],
     "card": [
+      "file",
       "image",
       "label",
       "title"
@@ -1628,6 +1637,20 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "title"
     ],
     "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "school-reports-page/reports": {
+    "section": [
+      "cards"
+    ],
+    "heading": [],
+    "card": [
+      "file",
+      "image",
+      "label",
+      "title"
+    ],
     "cardEntry": [],
     "entry": []
   },
@@ -2119,7 +2142,8 @@ export const HERO_FIELDS: Record<string, { hero: string[]; heading: string[] }> 
   "our-campus-page": {
     "hero": [
       "heading",
-      "image"
+      "image",
+      "mobileImage"
     ],
     "heading": [
       "title"

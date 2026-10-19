@@ -7,8 +7,9 @@
  *
  *   npm run content:slot-fields
  *
- * Re-run it after content has been added to a field that was hidden, or edit
- * the generated file by hand to expose a field for a slot.
+ * Re-run it after content has been added to a field that was hidden. Fields
+ * the website uses before they have content go in ALWAYS_SHOWN below, so a
+ * re-run keeps them.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -36,11 +37,18 @@ const client = createClient({
   useCdn: false,
 });
 
+/** Fields the website renders that may still be empty in the dataset: "<page id>/<slot>" → level → fields. */
+const ALWAYS_SHOWN = {
+  "our-campus-page/outdoorSection": { heading: ["description"] },
+  "school-reports-page/reports": { card: ["file", "image"] },
+};
+
 const isObject = (value) => Boolean(value) && typeof value === "object" && !Array.isArray(value);
 const hasContent = (value) => {
   if (value === null || value === undefined || value === "") return false;
   if (Array.isArray(value)) return value.length > 0;
-  if (isObject(value)) return Object.keys(value).some((key) => !key.startsWith("_") && hasContent(value[key]));
+  // An uploaded file or image is a reference ({ asset: { _ref } }) and counts as content.
+  if (isObject(value)) return Boolean(value._ref) || Object.keys(value).some((key) => !key.startsWith("_") && hasContent(value[key]));
   return true;
 };
 const contentKeys = (value) =>
@@ -78,6 +86,11 @@ for (const page of pages) {
     }
     for (const item of section.entries || []) add(entry.entry, contentKeys(item));
   }
+}
+
+for (const [slot, levels] of Object.entries(ALWAYS_SHOWN)) {
+  if (!slots[slot]) continue;
+  for (const [level, fields] of Object.entries(levels)) add(slots[slot][level], fields);
 }
 
 const output = Object.fromEntries(

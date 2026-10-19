@@ -566,6 +566,7 @@ export type SchoolReportsPageData = {
   intro?: {
     heading?: SectionHeading;
   };
+  reports?: SchoolPolicyDocument[];
 };
 
 export type SchoolCalendarPageData = {

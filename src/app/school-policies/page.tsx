@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
@@ -6,11 +5,11 @@ import { PageHero } from "@/components/sections/page-hero";
 import { CommunityInnerNav } from "@/components/sections/community-inner-nav";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
-import { Reveal } from "@/components/ui/reveal";
 import { getHomepage, getSchoolPoliciesPage } from "@/lib/sanity";
 import type { PortableTextBlock, SanityImage, SchoolPolicyDocument } from "@/types/sanity";
 import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
+import { SchoolDocumentCard } from "@/components/sections/school-document-card";
 
 const fallbackMetadata: Metadata = {
   title: "School Policies | SAIS - Abu Dhabi",
@@ -65,81 +64,6 @@ const fallbackPolicies: SchoolPolicyDocument[] = [
   { _key: "gifted-talented", title: "Gifted & Talented Policy\n2025-2026" },
   { _key: "inclusion-education", title: "Inclusion Education\nPolicy 2025-2026" },
 ];
-
-function getPolicyViewerUrl(documentUrl: string, title: string) {
-  const cleanUrl = documentUrl.split(/[?#]/)[0].toLowerCase();
-
-  if (cleanUrl.endsWith(".pdf")) {
-    return `/api/policy-viewer?url=${encodeURIComponent(documentUrl)}`;
-  }
-
-  if (/\.(doc|docx|xls|xlsx|ppt|pptx)$/.test(cleanUrl)) {
-    return `/school-policies/view?url=${encodeURIComponent(documentUrl)}&title=${encodeURIComponent(title)}`;
-  }
-
-  return documentUrl;
-}
-
-function PolicyCard({ policy, index }: { policy: SchoolPolicyDocument; index: number }) {
-  const cover = policy.coverImage || fallbackCover;
-  const title = policy.title || "School Policy";
-  const downloadLabel = policy.downloadLabel || "Download PDF";
-  const documentUrl = policy.documentUrl || null;
-  const viewerUrl = documentUrl ? getPolicyViewerUrl(documentUrl, title) : null;
-
-  return (
-    <Reveal
-      as="article"
-      className="school-policy-card academics-card-reveal"
-      delay={100 + index * 110}
-      threshold={0.1}
-    >
-      {documentUrl ? (
-        <a
-          href={viewerUrl || documentUrl || "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="school-policy-card__cover"
-          aria-label={`Open ${title}`}
-        >
-          {cover.url ? (
-            <Image
-              src={cover.url}
-              alt={cover.alt || title}
-              fill
-              sizes="(max-width: 767px) 72vw, 21vw"
-              className="school-policy-card__image"
-            />
-          ) : null}
-        </a>
-      ) : (
-        <div className="school-policy-card__cover" aria-label={title}>
-          {cover.url ? (
-            <Image
-              src={cover.url}
-              alt={cover.alt || title}
-              fill
-              sizes="(max-width: 767px) 72vw, 21vw"
-              className="school-policy-card__image"
-            />
-          ) : null}
-        </div>
-      )}
-
-      <h3 className="school-policy-card__title">{title}</h3>
-
-      {documentUrl ? (
-        <a href={documentUrl} download className="school-policy-card__download">
-          {downloadLabel}
-        </a>
-      ) : (
-        <span className="school-policy-card__download school-policy-card__download--disabled">
-          {downloadLabel}
-        </span>
-      )}
-    </Reveal>
-  );
-}
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getSchoolPoliciesPage();
@@ -213,7 +137,13 @@ export default async function SchoolPoliciesPage() {
         <SectionReveal className="school-policies-content__inner" threshold={0.01}>
           <div className="school-policies-grid">
             {policies.map((policy, index) => (
-              <PolicyCard key={policy._key || `${policy.title}-${index}`} policy={policy} index={index} />
+              <SchoolDocumentCard
+                key={policy._key || `${policy.title}-${index}`}
+                document={policy}
+                index={index}
+                fallbackCover={fallbackCover}
+                fallbackTitle="School Policy"
+              />
             ))}
           </div>
         </SectionReveal>

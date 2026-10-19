@@ -327,7 +327,7 @@ export const PAGE_SPECS: PageSpec[] = [
     route: "/school-reports",
     title: "School Reports",
     group: "Our Community",
-    slots: [txt("intro", "Introduction")],
+    slots: [txt("intro", "Introduction"), cards("reports", "Report Documents")],
   },
   {
     id: "school-policies-page",
