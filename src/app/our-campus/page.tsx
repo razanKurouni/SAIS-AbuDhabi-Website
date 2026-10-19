@@ -71,12 +71,12 @@ function blocksToPlainText(blocks?: PortableTextBlock[]) {
   );
 }
 
-/* The Classroom panel uses the Kindergarten "excellence" slider look: teal side, navy panel, orange curve. */
-function classroomSlider(section: AcademicsKindergartenFeatureSection): AcademicsLearningSliderSectionData {
+/* The Classroom and Pool panels use the Kindergarten "excellence" slider look: teal side, navy panel, orange curve. */
+function featureSlider(key: string, section: AcademicsKindergartenFeatureSection): AcademicsLearningSliderSectionData {
   return {
     slides: [
       {
-        _key: "campus-classroom",
+        _key: key,
         title: section.heading?.title,
         body: blocksToPlainText(section.heading?.description),
         image: section.image,
@@ -165,9 +165,9 @@ export default async function OurCampusPage() {
 
       {classroom ? (
         <AcademicsLearningSliderSection
-          className="academics-kg-excellence-slider campus-classroom-slider"
-          section={classroomSlider(classroom)}
-          fallbackSection={classroomSlider(classroom)}
+          className="academics-kg-excellence-slider campus-feature-slider campus-classroom-slider"
+          section={featureSlider("campus-classroom", classroom)}
+          fallbackSection={featureSlider("campus-classroom", classroom)}
         />
       ) : null}
 
@@ -208,10 +208,10 @@ export default async function OurCampusPage() {
       ) : null}
 
       {pool ? (
-        <IntroFeatureSection
-          className="academics-kg-day-feature campus-feature campus-pool-feature"
-          titleId="campus-pool-title"
-          {...featureProps(pool)}
+        <AcademicsLearningSliderSection
+          className="academics-kg-excellence-slider campus-feature-slider campus-pool-slider"
+          section={featureSlider("campus-pool", pool)}
+          fallbackSection={featureSlider("campus-pool", pool)}
         />
       ) : null}
 

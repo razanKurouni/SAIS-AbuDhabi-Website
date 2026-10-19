@@ -14719,11 +14719,6 @@ a.school-policy-card__cover:hover {
   background: linear-gradient(to bottom, #ffffff 0 48%, #f2f2f2 48% 100%);
 }
 
-.our-campus-page .campus-pool-feature.intro-feature {
-  background: var(--sais-accent);
-  padding: 62px 0;
-}
-
 .our-campus-page .campus-split-section.editorial-split-section {
   background: var(--editorial-split-bg, #ffffff);
   padding: 62px 0;
@@ -14751,10 +14746,6 @@ a.school-policy-card__cover:hover {
 
   .our-campus-page .campus-makerspace-feature.intro-feature {
     background: linear-gradient(to bottom, #ffffff 0 40%, #f2f2f2 40% 100%);
-  }
-
-  .our-campus-page .campus-pool-feature.intro-feature {
-    padding: 48px 0;
   }
 
   .our-campus-page .campus-split-section.editorial-split-section {
@@ -18675,17 +18666,17 @@ a.school-policy-card__cover:hover {
   }
 }
 
-/* Our Campus: the Classroom panel in the Kindergarten "excellence" slider look. */
-.our-campus-page .campus-classroom-slider .academics-learning-slider__content {
+/* Our Campus: the Classroom and Pool panels in the Kindergarten "excellence" slider look. */
+.our-campus-page .campus-feature-slider .academics-learning-slider__content {
   gap: 25px;
 }
 
 @media (min-width: 768px) {
-  .our-campus-page .campus-classroom-slider .academics-learning-slider__content {
+  .our-campus-page .campus-feature-slider .academics-learning-slider__content {
     padding-left: 30px;
   }
 
-  .our-campus-page .campus-classroom-slider .academics-learning-slider__media {
+  .our-campus-page .campus-feature-slider .academics-learning-slider__media {
     aspect-ratio: 1.19 / 1;
   }
 }
