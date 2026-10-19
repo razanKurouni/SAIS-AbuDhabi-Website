@@ -106,7 +106,7 @@ export default async function OurCampusPage() {
         </SectionReveal>
       </section>
 
-      <CampusVideoSection section={ourCampusPage?.videoSection} />
+      <CampusVideoSection section={ourCampusPage?.videoSection} coverPlay />
 
       {ourCampusPage?.facilities?.image ? (
         <EditorialSplitSection
