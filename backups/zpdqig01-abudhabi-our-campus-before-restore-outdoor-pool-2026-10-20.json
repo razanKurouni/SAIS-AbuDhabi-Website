@@ -1,0 +1,382 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "our-campus-page",
+  "_rev": "I5AE00kQ4E4Y0v1TGpPFvs",
+  "_system": {
+    "base": {
+      "id": "our-campus-page",
+      "rev": "VKcgAAYtGc6cZIwV2aFe3e"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-19T13:10:24Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "Our Campus"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "picture",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/our-campus",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "campus-intro-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "campus-intro-1-text",
+                "_type": "span",
+                "marks": [],
+                "text": "Our state-of-the-art facilities were created with our student’s best interests in mind, we took into account student academic needs and extra-curricular needs and created a safe and welcoming learning environment for all students."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Modern Spaces for Modern Learning"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "videoSection",
+      "_type": "mediaSection",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students in the library ",
+        "asset": {
+          "_ref": "image-35dcc3398647dea7481c07b4a94bc71443f667e8-1566x950-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "videoSection",
+      "video": {
+        "_type": "file",
+        "asset": {
+          "_ref": "file-f8de99e1a287c37c6e4189b73ea6e91d2b6e2884-mp4",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "facilities",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "facilities-overview",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "facilities-overview-span",
+                "_type": "span",
+                "marks": [],
+                "text": "Our school is divided into separate sections for our KG department, elementary department, Middle and High School Boys Section, and Middle and High School Girls Section.\n\nTo meet our student’s academic needs in our KG Department, they have homeroom classes and benefit in their section from their own Music room, Literacy room, and STEAM room which classes use on a daily rotational basis. To meet our student’s academic needs in our Elementary Department, they have homeroom classes and also have a Literacy Room dedicated to their own use, a STEAM room, and an Art room."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ]
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS students and staff meeting in a modern campus learning space",
+        "asset": {
+          "_ref": "image-9af1bd1ab4add8ebb5861ce72747bbecb8bc9857-1528x1252-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "facilities"
+    },
+    {
+      "_key": "sectionsFeature",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sectionsFeature-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sectionsFeature-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "In our Middle and High School Boys and Girls Sections, students have subject and homeroom classrooms. We also have a large secondary library where students are able to go to conduct research, check out reading material, etc. Students also benefit from having an Islamic room, French room, Art room, Music room, and Arabic language rooms."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "sectionsFeature-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sectionsFeature-2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Taking into account the extended extra-curricular activities that we offer our students here at SAIS-Abu Dhabi, our facilities are a highlight for many of our students. We have both girls and a boy’s indoor gym for physical education classes."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "sectionsFeature-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sectionsFeature-3-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our campus also offers volleyball courts, basketball courts, soccer fields, and two swimming pools."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": ""
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi girls playing basketball on the school court",
+        "asset": {
+          "_ref": "image-19a9ca15dd4d15257dd9ddc1892e320a8a19b2ce-1554x1312-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "sectionsFeature"
+    },
+    {
+      "_key": "classroomSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "classroomSection-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "classroomSection-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our classrooms are purposefully designed to provide a structured, inclusive, and stimulating learning environment that supports both academic achievement and student wellbeing. Each student is provided with an individual desk, and seating arrangements are carefully organised to promote attentiveness, comfort, and positive engagement in learning. Classrooms are fully equipped with the resources and technology necessary to support diverse learning needs and ensure that students can access information through a range of approaches, including verbal instruction, written materials, listening activities, and interactive experiences. Facilities include interactive screens, whiteboards, student lockers, and well-organised learning spaces. In addition, desks are arranged to facilitate collaborative group work, fostering teamwork, communication, and active participation as essential components of the learning process."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Classroom"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi teacher guiding students at their desks",
+        "asset": {
+          "_ref": "image-69933a192b5709c7177a24daab2becb0f8bca10c-288x243-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "classroomSection"
+    },
+    {
+      "_key": "librarySection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "librarySection-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "librarySection-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our school library is a vibrant, multi-purpose space at the heart of student learning and creativity. It features a carefully curated collection of diverse books, selected to inspire a love of reading across all age groups and support academic growth in every subject area."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "librarySection-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "librarySection-2-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Equipped with a dedicated research computer center, the library also serves as a hub for inquiry-based learning and digital exploration. Beyond books and research, the space hosts a variety of engaging activities from reading events and storytelling sessions to workshops, meetings, and school assemblies."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          },
+          {
+            "_key": "librarySection-3",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "librarySection-3-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Adding to its dynamic role, the library also houses the school’s radio station corner, where students develop their communication skills and broadcast school news and announcements. Whether for quiet study, collaborative projects, or creative events, our library is a welcoming and essential part of the school community."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "The Library"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students reading together in the library",
+        "asset": {
+          "_ref": "image-b3903b2d7a697fef0748cd19298ec9fe586d96d6-293x242-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "librarySection"
+    },
+    {
+      "_key": "makerspaceSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "makerspaceSection-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "makerspaceSection-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our Makerspace is a dynamic innovation hub where students develop creativity, critical thinking, and problem-solving skills through hands-on, project-based learning (PBL). It provides an inspiring environment in which students can plan, sketch, prototype, programme, and create while transforming their ideas into practical solutions. Equipped with a wide range of advanced tools and technologies, including laser cutters, wood-cutting machines, 3D printers, LEGO® Education SPIKE™ Prime kits, WhaleBot robotics tools, and other STEAM resources, the Makerspace enables students to actively engage in Design and Technology, STEAM, robotics, engineering, programming, and Artificial Intelligence (AI) through meaningful and innovative learning experiences. Through experimentation, design challenges, coding activities, and collaborative projects, students strengthen their creativity, technical knowledge, and innovation skills while preparing for the opportunities and challenges of a rapidly evolving world."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Makerspace"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students working in the Makerspace",
+        "asset": {
+          "_ref": "image-04bd6d7d8428223d5e1875a2ab7fd06e3a7d7d0c-1560x1252-png",
+          "_type": "reference"
+        }
+      },
+      "slot": "makerspaceSection"
+    },
+    {
+      "_key": "gymSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "gymSection-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "gymSection-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our school’s gym facilities provide students with a safe, well-equipped, and inclusive environment that promotes physical fitness, teamwork, and overall wellbeing. The school has two dedicated gym areas, one for boys and one for girls, ensuring that all students can participate in physical education and sports activities comfortably and confidently. Both gyms are equipped to support a range of activities, including football, volleyball, basketball, and padel, offering students opportunities to develop their physical skills, coordination, teamwork, and sportsmanship. These spaces are designed to encourage active lifestyles while ensuring that students learn, train, and play in a secure and well-supervised setting."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Gym"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students training on the football pitch",
+        "asset": {
+          "_ref": "image-628bcf9fe2936f1c5588b814c1ee6476c9a161e3-410x345-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "gymSection"
+    },
+    {
+      "_key": "poolSection",
+      "_type": "imageTextSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "poolSection-1",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "poolSection-1-s",
+                "_type": "span",
+                "marks": [],
+                "text": "Our swimming pool offers a safe and well-maintained environment where students develop essential swimming skills, water safety awareness, and overall fitness. Lessons are delivered by qualified and trained swimming instructors, ensuring high-quality coaching and close supervision at all times. Through structured activities, students build confidence in the water while improving technique, coordination, and overall wellbeing. The pool supports an active and healthy lifestyle within a secure and carefully monitored setting."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "Swimming Pool"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi covered swimming pool",
+        "asset": {
+          "_ref": "image-33a119ef708e750e2b3c8bae8534021a89f5d673-410x344-jpg",
+          "_type": "reference"
+        }
+      },
+      "slot": "poolSection"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Explore our modern campus, facilities, learning spaces, and sports environments.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi outdoor campus and play court",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "Our Campus | SAIS - Abu Dhabi"
+  },
+  "title": "Our Campus"
+}
