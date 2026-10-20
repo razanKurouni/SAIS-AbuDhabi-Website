@@ -76,6 +76,17 @@ const fallbackBeyondClassroomIntro = {
   textColor: "#216B97",
 };
 
+export async function generateMetadata(): Promise<Metadata> {
+  const page = await getStudentLifePage();
+
+  return {
+    title: page?.seo?.title || fallbackMetadata.title,
+    description: page?.seo?.description || fallbackMetadata.description,
+  };
+}
+
+export const dynamic = "force-dynamic";
+
 export default async function StudentLifePage() {
   const [data, page] = await Promise.all([getHomepage(), getStudentLifePage()]);
   const hero = page?.hero;
