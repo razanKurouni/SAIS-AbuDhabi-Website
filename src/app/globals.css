@@ -18730,3 +18730,17 @@ a.school-policy-card__cover:hover {
     height: auto;
   }
 }
+
+/* Phones: the curve under an intro-feature text box continues the box colour on every
+   section (it fell back to the brand blue, or a page-wide colour, on sections with another
+   panel colour). Middle School "A Day in the Life" is orange, so its line takes the section
+   accent instead of the default orange. */
+@media (max-width: 767px) {
+  .intro-feature .intro-feature__mobile-divider .intro-feature__curve-mask {
+    fill: var(--intro-feature-panel-color, var(--sais-primary));
+  }
+
+  .intro-feature.academics-middle-school-day-feature .intro-feature__mobile-divider .intro-feature__wave {
+    stroke: var(--intro-feature-accent-color);
+  }
+}
