@@ -18784,12 +18784,21 @@ a.school-policy-card__cover:hover {
     padding-top: 24px;
   }
 
+  .academics-high-school-page .academics-high-school-day-feature.intro-feature {
+    padding-top: 62px;
+  }
+
   .academics-kindergarten-page .learning-phases {
     padding-top: 24px;
   }
 
   .academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
     padding-top: 24px;
+  }
+
+  /* Sits on the grey band now, so its old 40px margin showed as a white strip under the teal band. */
+  .academics-middle-school-page .academics-middle-school-assessment-feature {
+    margin-top: 0;
   }
 
   .academics-middle-school-page .academics-middle-school-day-feature.intro-feature {
@@ -18807,6 +18816,11 @@ a.school-policy-card__cover:hover {
   .admissions-application-page .application-steps {
     padding-top: 80px;
     padding-bottom: 30px;
+  }
+
+  /* A box never sits right on a background change: white space before the next colour. */
+  .admissions-application-page .intro-feature.admissions-application-process {
+    padding-bottom: 62px;
   }
 
   .admissions-fees-page .admissions-fees-journey {
@@ -18844,5 +18858,27 @@ a.school-policy-card__cover:hover {
   .our-team-page .our-team-leadership__cards {
     margin-right: calc((100vw - 100%) / -2);
     padding-right: calc((100vw - 100%) / 2);
+  }
+}
+
+/*
+ * Phones: the same edges as on desktop. A box never sits right on a background change, and two
+ * coloured bands meet directly instead of leaving a white strip between them.
+ */
+@media (max-width: 767px) {
+  .academics-high-school-page .academics-learning-slider.academics-high-school-pathways-slider.academics-high-school-career-guidance-slider {
+    margin-bottom: 0;
+  }
+
+  .academics-high-school-page .academics-high-school-day-feature.intro-feature {
+    padding-top: 50px;
+  }
+
+  .academics-middle-school-page .academics-middle-school-assessment-feature {
+    margin-top: 0;
+  }
+
+  .admissions-application-page .intro-feature.admissions-application-process {
+    padding-bottom: 50px;
   }
 }
