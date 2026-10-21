@@ -18744,3 +18744,105 @@ a.school-policy-card__cover:hover {
     stroke: var(--intro-feature-accent-color);
   }
 }
+
+/*
+ * Desktop section rhythm. Where two content sections share a background the visible gap
+ * between them is 80px (62px when a small call-to-action bar follows the content it belongs
+ * to), instead of the doubled 110-180px some pages had. Each rule is scoped to its page, so
+ * the same section on other pages keeps its spacing.
+ */
+@media (min-width: 768px) {
+  .about-page #about.about-intro-section {
+    padding-top: 10px;
+  }
+
+  .academics-page .academics-inclusion-feature-section.intro-feature {
+    padding-top: 18px;
+  }
+
+  .academics-page .learning-phases {
+    padding-top: 18px;
+  }
+
+  .academics-page .accreditations-section {
+    padding-top: 18px;
+  }
+
+  .academics-page .tour-intro {
+    padding-top: 10px;
+  }
+
+  .academics-elementary-page .academics-elementary-assessment-detail.editorial-split-section {
+    padding-bottom: 80px;
+  }
+
+  .academics-elementary-page .academics-elementary-day-feature.intro-feature {
+    padding-top: 0;
+  }
+
+  .academics-elementary-page .learning-phases {
+    padding-top: 24px;
+  }
+
+  .academics-kindergarten-page .learning-phases {
+    padding-top: 24px;
+  }
+
+  .academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
+    padding-top: 24px;
+  }
+
+  .academics-middle-school-page .academics-middle-school-day-feature.intro-feature {
+    padding-top: 37px;
+  }
+
+  .academics-middle-school-page .learning-phases {
+    padding-top: 24px;
+  }
+
+  .academics-middle-school-page .tour-intro {
+    padding-top: 28px;
+  }
+
+  .admissions-application-page .application-steps {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .admissions-fees-page .admissions-fees-journey {
+    padding-bottom: 80px;
+  }
+
+  .admissions-fees-page .admissions-fee-structure {
+    padding-top: 0;
+  }
+
+  /* Careers sets every contact-info section's padding with !important. */
+  .careers-page .careers-care-section.contact-info-section {
+    padding-top: 20px !important;
+  }
+
+  .careers-page .careers-requirements.careers-requirements--two {
+    padding-top: 8px;
+  }
+
+  .school-calendar-page .school-calendar-content {
+    padding-bottom: 18px;
+  }
+
+  .wellbeing-page .wellbeing-counselling-feature.intro-feature {
+    padding-top: 18px;
+  }
+}
+
+/*
+ * Our Team: the leadership cards run off the right edge of the screen. The bleed now matches
+ * the real side gutter (the inner column is 85% wide), so on 1280-1400px laptops the last card
+ * no longer stops short of the edge as if it had been cut.
+ */
+@media (min-width: 961px) {
+  .our-team-page .our-team-leadership__cards {
+    margin-right: calc((100vw - 100%) / -2);
+    padding-right: calc((100vw - 100%) / 2);
+  }
+}
