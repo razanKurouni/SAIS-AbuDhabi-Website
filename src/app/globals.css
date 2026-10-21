@@ -18881,4 +18881,14 @@ a.school-policy-card__cover:hover {
   .admissions-application-page .intro-feature.admissions-application-process {
     padding-bottom: 50px;
   }
+
+  /* Homepage: the contact box follows the "Together..." text it belongs to, 40px below it
+     instead of 110px. The band's phone padding is set with !important further up. */
+  .preview-page #home-growth-feature.editorial-split-section--home-feature {
+    padding-bottom: 0;
+  }
+
+  .preview-page .hero-contact-band {
+    padding-top: 34px !important;
+  }
 }
