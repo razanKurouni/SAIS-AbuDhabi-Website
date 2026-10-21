@@ -85,6 +85,7 @@ export function QuickLinksCards({ cards = [] }: QuickLinksCardsProps) {
                   alt={card.image.alt || card.title}
                   fill
                   quality={82}
+                  loading="eager"
                   sizes="(max-width: 767px) 92vw, (max-width: 1200px) 42vw, 520px"
                   className="quick-links-card__image"
                 />
