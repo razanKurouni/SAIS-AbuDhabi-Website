@@ -1,0 +1,525 @@
+[
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-cultural-day-2026",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_system": {
+      "base": {
+        "id": "news-post-cultural-day-2026",
+        "rev": "i07s2R4XwQ30MiRemw0FCZ"
+      }
+    },
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-d",
+            "_type": "span",
+            "marks": [],
+            "text": "Cultural Day at SAIS - Abu Dhabi brought the whole school together to celebrate the heritage of the United Arab Emirates. Students in traditional dress performed folk dances, recited poetry and presented displays on Emirati crafts, food and hospitality."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-f",
+            "_type": "span",
+            "marks": [],
+            "text": "The event was led by the Student Minister of Culture & Knowledge Development and supported by teachers from the Arabic, Islamic Education and Social Studies departments. Parents joined the celebration and enjoyed a showcase of student work in every classroom."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-g",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-h",
+            "_type": "span",
+            "marks": [],
+            "text": "Celebrations like this one reflect our commitment to honouring local traditions while nurturing globally minded learners."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Students dressed in traditional attire, performed folk dances and shared Emirati traditions during our vibrant Cultural Day celebration.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students in traditional dress at a cultural celebration",
+      "asset": {
+        "_ref": "image-3c66e1502b740e805b7809976c1533633e02202e-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-04T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Students dressed in traditional attire, performed folk dances and shared Emirati traditions during our vibrant Cultural Day celebration.",
+      "title": "Cultural Day Celebrates the Heritage of the UAE | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "cultural-day-celebration"
+    },
+    "title": "Cultural Day Celebrates the Heritage of the UAE"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-football-team-tournament",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-o",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-p",
+            "_type": "span",
+            "marks": [],
+            "text": "Congratulations to the SAIS - Abu Dhabi Middle School football team, who reached the final of the inter-school tournament after an unbeaten group stage. The team finished as runners-up following a closely contested final."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-q",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-r",
+            "_type": "span",
+            "marks": [],
+            "text": "Coach and players trained on our outdoor courts throughout the term, and their discipline and sportsmanship were praised by the tournament organisers."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-s",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-t",
+            "_type": "span",
+            "marks": [],
+            "text": "Sports at SAIS - Abu Dhabi build teamwork, resilience and school pride. We look forward to cheering the team on in the next competition."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Our Middle School football team showed teamwork and determination on the pitch, finishing runners-up in the inter-school tournament.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi middle school football team with their coach on the pitch",
+      "asset": {
+        "_ref": "image-6151b6b81ff75214d85cc624c3cdbc07e04a5c90-1560x1268-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-21T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Our Middle School football team showed teamwork and determination on the pitch, finishing runners-up in the inter-school tournament.",
+      "title": "Middle School Football Team Reaches Tournament Final | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "football-team-inter-school-tournament"
+    },
+    "title": "Middle School Football Team Reaches Tournament Final"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-june-newsletter-2026",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-16",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-17",
+            "_type": "span",
+            "marks": [],
+            "text": "As the academic year draws to a close, the June newsletter looks back on a year of achievements across academics, sports and student leadership at SAIS - Abu Dhabi, and celebrates our graduating class."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-18",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-19",
+            "_type": "span",
+            "marks": [],
+            "text": "It also includes the summer reading list, end-of-year report card dates, re-registration reminders and the key dates for the start of the next academic year."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-1a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-1b",
+            "_type": "span",
+            "marks": [],
+            "text": "We wish all our families a restful and enjoyable summer break."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "The end-of-year newsletter celebrates student achievements, graduation, summer reading and important dates for the next academic year.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi high school students reading a book together in the library",
+      "asset": {
+        "_ref": "image-e64aadc581cc4dbcc9c5636c1d44814a0be7a1a8-1560x1252-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-06-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "The end-of-year newsletter celebrates student achievements, graduation, summer reading and important dates for the next academic year.",
+      "title": "June 2026 Newsletter | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "june-newsletter-2026"
+    },
+    "title": "June 2026 Newsletter"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-puppet-show-kg",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-u",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-v",
+            "_type": "span",
+            "marks": [],
+            "text": "The Kindergarten hall was transformed into a theatre for the annual puppet show, where SAIS - Abu Dhabi teachers performed favourite stories for KG1 and KG2 students. The children joined in with songs, answered questions from the puppets and retold the stories in class afterwards."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-w",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-x",
+            "_type": "span",
+            "marks": [],
+            "text": "Storytelling and dramatic play are central to our Kindergarten curriculum, supporting early literacy in English and Arabic, listening skills and imagination."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-y",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-z",
+            "_type": "span",
+            "marks": [],
+            "text": "Thank you to our Kindergarten team for a morning full of laughter and learning."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Our youngest learners enjoyed a puppet show performed by their teachers, celebrating storytelling, language and imagination.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi kindergarten students watching a puppet show",
+      "asset": {
+        "_ref": "image-63ae15a091cd99ee551a160e607e1b8c590e10f1-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-14T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Our youngest learners enjoyed a puppet show performed by their teachers, celebrating storytelling, language and imagination.",
+      "title": "Kindergarten Puppet Show Brings Stories to Life | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "kindergarten-puppet-show"
+    },
+    "title": "Kindergarten Puppet Show Brings Stories to Life"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-school-garden-planting",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-i",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-j",
+            "_type": "span",
+            "marks": [],
+            "text": "Led by the Student Minister of Environment, students from Elementary and Middle School spent a morning planting fig trees, herbs and flowering plants in the SAIS - Abu Dhabi school garden. Each plant now carries a label with a QR code linking to information researched by the students themselves."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-k",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-l",
+            "_type": "span",
+            "marks": [],
+            "text": "The planting day is part of a wider sustainability campaign that includes recycling drives, water-saving initiatives and eco-awareness assemblies throughout the year."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-m",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-n",
+            "_type": "span",
+            "marks": [],
+            "text": "Service projects like this one connect our students with their community and foster the civic responsibility that sits at the heart of student life at SAIS - Abu Dhabi."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "As part of our sustainability campaign, students planted fig trees and herbs in the school garden, learning about civic responsibility and the environment.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students planting a fig tree in the school garden",
+      "asset": {
+        "_ref": "image-75dda7736d576897445a2a723b2101666bebd855-790x676-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-28T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "As part of our sustainability campaign, students planted fig trees and herbs in the school garden, learning about civic responsibility and the environment.",
+      "title": "Community Engagement: Students Plant the School Garden | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "school-garden-planting-day"
+    },
+    "title": "Community Engagement: Students Plant the School Garden"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-september-newsletter-2026",
+    "_rev": "jtzXmr5sPTxAjhSjhrGJnY",
+    "_system": {
+      "base": {
+        "id": "news-post-september-newsletter-2026",
+        "rev": "seeJ8sDCx2bMNJQ2P7SXBn"
+      }
+    },
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T06:45:27Z",
+    "body": [
+      {
+        "_key": "b-10",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-11",
+            "_type": "span",
+            "marks": [],
+            "text": "Welcome back to a new academic year at SAIS - Abu Dhabi. The September newsletter covers the first-term calendar, the Student Government election timeline, uniform and school supplies reminders, and the dates of our upcoming parent orientation sessions."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-12",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-13",
+            "_type": "span",
+            "marks": [],
+            "text": "Inside you will also find a message from the Principal, an introduction to the Senior Leadership Team and a preview of the clubs and activities on offer this term."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-14",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-15",
+            "_type": "span",
+            "marks": [],
+            "text": "Families can access the full newsletter and all school announcements through the MograHub app."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "Welcome back! Read the September newsletter for the new academic year calendar, Student Government elections, uniform reminders and upcoming events.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi campus building",
+      "asset": {
+        "_ref": "image-554215c25498eee86409aa6fbea62f4253566275-2226x1124-png",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Welcome back! Read the September newsletter for the new academic year calendar, Student Government elections, uniform reminders and upcoming events.",
+      "title": "September 2026 Newsletter | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "september-newsletter-2026"
+    },
+    "title": "September 2026 Newsletter"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-stem-lab-showcase",
+    "_rev": "seeJ8sDCx2bMNJQ2P7SXBn",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-05T05:11:23Z",
+    "body": [
+      {
+        "_key": "b-6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-7",
+            "_type": "span",
+            "marks": [],
+            "text": "The science labs at SAIS - Abu Dhabi were buzzing with activity as students across grade levels presented their STEM projects to teachers, parents and classmates. Highlights included electrostatics demonstrations, environmental investigations and 3D-modelled prototypes designed in our ICT classes."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-9",
+            "_type": "span",
+            "marks": [],
+            "text": "STEM at SAIS - Abu Dhabi is a mindset embedded across the curriculum rather than a single club. Students are encouraged to explore, build, test and innovate, connecting scientific principles with real-world applications."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-b",
+            "_type": "span",
+            "marks": [],
+            "text": "We thank our science and technology teachers for guiding every project, and congratulate the students on the curiosity and creativity they brought to the showcase."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "From electrostatics experiments to robotics prototypes, our students demonstrated hands-on STEM learning during the annual lab showcase.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students experimenting with a Van de Graaff generator in the science lab",
+      "asset": {
+        "_ref": "image-504c6e8aa512a3073ae36e8eaa655e4bf01eca55-1528x1252-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-11T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "From electrostatics experiments to robotics prototypes, our students demonstrated hands-on STEM learning during the annual lab showcase.",
+      "title": "STEM Lab Showcase: Students Bring Science to Life | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "stem-lab-showcase"
+    },
+    "title": "STEM Lab Showcase: Students Bring Science to Life"
+  }
+]
