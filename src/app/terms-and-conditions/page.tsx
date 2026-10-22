@@ -86,13 +86,13 @@ const sections = [
   {
     title: "12. Governing law and jurisdiction",
     paragraphs: [
-      "These Terms & Conditions are governed by the laws applicable in the United Arab Emirates and the Emirate of Dubai. The courts of Dubai will have jurisdiction, subject to any mandatory legal requirements that apply.",
+      "These Terms & Conditions are governed by the laws applicable in the United Arab Emirates and the Emirate of Abu Dhabi. The courts of Abu Dhabi will have jurisdiction, subject to any mandatory legal requirements that apply.",
     ],
   },
   {
     title: "13. Contact us",
     paragraphs: [
-      "For questions about these terms, contact SAIS - Abu Dhabi at sais_dubai@saisdubai.com or +971 4 280 1111.",
+      "For questions about these terms, contact SAIS - Abu Dhabi at info@saisabudhabi.com or +971 2 586 1222.",
     ],
   },
 ];
@@ -104,7 +104,7 @@ export default async function TermsAndConditionsPage() {
     <SitePageShell data={data} pageClassName="legal-page" mainClassName="site-page__main legal-page__main">
       <LegalDocument
         title="Terms & Conditions"
-        effectiveDate="19 August 2026"
+        effectiveDate="22 October 2026"
         introduction="These Terms & Conditions explain the rules that apply when you visit or use the SAIS - Abu Dhabi website."
         sections={sections}
       />

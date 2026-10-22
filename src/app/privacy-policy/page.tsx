@@ -107,7 +107,7 @@ const sections = [
   {
     title: "14. Contact us",
     paragraphs: [
-      "For privacy questions or requests, contact SAIS - Abu Dhabi at sais_dubai@saisdubai.com, call +971 4 280 1111, or write to Sharjah American International School – Dubai Campus, P.O. Box 47755, Al Warqa 1, Dubai, UAE.",
+      "For privacy questions or requests, contact SAIS - Abu Dhabi at info@saisabudhabi.com, call +971 2 586 1222, or write to Sharjah American International School – Abu Dhabi Campus, P.O. Box 35590, Abu Dhabi, UAE.",
     ],
   },
 ];
@@ -119,7 +119,7 @@ export default async function PrivacyPolicyPage() {
     <SitePageShell data={data} pageClassName="legal-page" mainClassName="site-page__main legal-page__main">
       <LegalDocument
         title="Privacy Policy"
-        effectiveDate="19 August 2026"
+        effectiveDate="22 October 2026"
         introduction="SAIS - Abu Dhabi respects your privacy and is committed to handling personal information responsibly and in accordance with applicable UAE data protection requirements."
         sections={sections}
       />
