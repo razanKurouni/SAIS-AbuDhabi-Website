@@ -18300,6 +18300,16 @@ a.school-policy-card__cover:hover {
   object-fit: contain;
 }
 
+/* The Career Guidance diagram has a transparent background: no grey box behind it, no zoom on hover. */
+.academics-high-school-page .academics-high-school-career-guidance-section .editorial-split-section__media {
+  background: transparent;
+}
+
+.academics-high-school-page .academics-high-school-career-guidance-section .editorial-split-section__image:hover {
+  filter: none;
+  transform: none;
+}
+
 .academics-high-school-page .academics-high-school-overview-section .editorial-split-section__title {
   white-space: pre-line;
 }
