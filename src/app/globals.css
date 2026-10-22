@@ -18902,3 +18902,58 @@ a.school-policy-card__cover:hover {
     padding-top: 34px !important;
   }
 }
+
+/*
+ * Homepage on phones: Quick Links opens and closes on the same 34px as the other sections, and
+ * in each card the photo sits a fixed distance under the "See More" button (44px, 64px on wide
+ * phones) instead of at a fixed height, so long and short texts get the same breathing room.
+ * The photo, wave and white curve are anchored to the card's bottom with the sizes they had.
+ */
+@media (max-width: 767px) {
+  .preview-page .quick-links {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .preview-page .quick-links-card {
+    min-height: 0;
+  }
+
+  .preview-page .quick-links-card__copy {
+    min-height: 0;
+    padding-bottom: 356px;
+  }
+
+  .preview-page .quick-links-card__image-wrap {
+    top: auto;
+    height: 292px;
+  }
+
+  .preview-page .quick-links-card__wave {
+    top: auto;
+    bottom: 60px;
+  }
+
+  .preview-page .quick-links-card__curve-mask {
+    top: auto;
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 540px) {
+  .preview-page .quick-links-card__copy {
+    padding-bottom: 274px;
+  }
+
+  .preview-page .quick-links-card__image-wrap {
+    height: 230px;
+  }
+
+  .preview-page .quick-links-card__wave {
+    bottom: 20px;
+  }
+
+  .preview-page .quick-links-card__curve-mask {
+    bottom: 10px;
+  }
+}
