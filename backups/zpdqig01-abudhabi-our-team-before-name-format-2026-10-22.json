@@ -1,0 +1,178 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "our-team-page",
+    "_rev": "p85xohhT9NQCm13C01Zn6A",
+    "_system": {
+      "base": {
+        "id": "our-team-page",
+        "rev": "Et8wctIqY4P5sylMEr3zKU"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-22T06:45:41Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Meet Our Team"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi team members standing together",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi senior leadership team",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/about-us/our-team",
+    "sections": [
+      {
+        "_key": "leadershipSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "carole-aboud",
+            "_type": "card",
+            "description": "She holds a Master’s Degree in Education and a Bachelor’s in Chemistry, with over 20 years of experience in education and leadership. She is Principal of Sharjah American International School Abu Dhabi (SAIS Abu Dhabi), where she led the school’s ADEK rating improvement from “Acceptable” to “Very Good.” She is committed to innovation, inclusion, and continuous school improvement.",
+            "image": {
+              "_type": "image",
+              "alt": "Carole Aboud",
+              "asset": {
+                "_ref": "image-b5fd09c3bb0525bae8621ee556108777719613eb-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "20",
+            "subtitle": "School Principal",
+            "title": "Ms. Ban Al Duri"
+          },
+          {
+            "_key": "mona-serhal",
+            "_type": "card",
+            "description": "With fifteen years of experience across UK, Australian, Canadian, and IB curricula  and the past twelve in senior leadership Mr. Rumball bring a distinctive blend of academic rigor and pedagogical expertise, holding a BA in Criminology and a Master’s in Teaching. Mr Rumball’s practice is grounded in the conviction that personalized learning, data-driven initiatives, and strong relationships are the keys to student success",
+            "image": {
+              "_type": "image",
+              "alt": "Mona Serhal",
+              "asset": {
+                "_ref": "image-fccff2e968240e9365b29efab8ef86e8e8ebccb1-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "15",
+            "subtitle": "Vice Principal",
+            "title": "MR. Tylor Rumball"
+          },
+          {
+            "_key": "hanna-halabi",
+            "_type": "card",
+            "description": "With over 22 years of experience in education and leadership, she holds a Master’s degree in Educational Leadership and Management and has extensive expertise in school improvement, curriculum development, safeguarding, and strategic leadership. She is committed to creating safe, inclusive learning environments that promote academic excellence and support the UAE’s vision for educational success.",
+            "image": {
+              "_type": "image",
+              "alt": "MS. DJAMILLA",
+              "asset": {
+                "_ref": "image-8f367de7f72681b6c797c45e9dfcf2d4b15f996f-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "22",
+            "subtitle": "Job Title?",
+            "title": "MS. DJAMILLA"
+          },
+          {
+            "_key": "nasser-hamad",
+            "_type": "card",
+            "description": "With over 25 years of experience in mathematics education and more than 8 years in school leadership in the UAE, she brings extensive expertise in teaching, educational leadership, and curriculum development. Holding a Ph.D. in Applied Mathematics, a Master’s in Applied Mathematics and Educational Leadership, and an MOE School Leadership License, she is committed to inspiring excellence, fostering innovation, and empowering students and educators to achieve their full potential.",
+            "image": {
+              "_type": "image",
+              "alt": "MS. NIGHAt",
+              "asset": {
+                "_ref": "image-c8add7ffc079b6b1e828aa4d4943defdfefacba3-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "25",
+            "subtitle": "---",
+            "title": "MS. Nighat"
+          },
+          {
+            "_key": "a4b04283c8bf",
+            "_type": "card",
+            "description": "xxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxx xxxxx xxxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxx xxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxxxx xxxxx xxxxxxxxx.",
+            "image": {
+              "_type": "image",
+              "alt": "MS. NIGHAt",
+              "asset": {
+                "_ref": "image-d1cb49ee4604f58671d1f779761ff423c7aeed52-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "xx",
+            "subtitle": "---",
+            "title": "MS. BRANLYN"
+          },
+          {
+            "_key": "fc333b8843c0",
+            "_type": "card",
+            "description": "xxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxx xxxxx xxxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxx xxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxxxx xxxxx xxxxxxxxx.",
+            "image": {
+              "_type": "image",
+              "alt": "MS. NIGHAt",
+              "asset": {
+                "_ref": "image-618f4030cdd388853d2f2701b83d3ffae6739353-992x1368-png",
+                "_type": "reference"
+              }
+            },
+            "label": "xx",
+            "subtitle": "---",
+            "title": "MS. MARWA"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "leadership-description",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "leadership-description-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We committed to delivering high-quality education across all grade levels. Our Senior Leadership Team (SLT) provides strategic direction and fosters a culture of excellence and innovation."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Senior Leadership Team",
+          "title": "Our academic team is a diverse group of passionate educators and experienced leaders."
+        },
+        "slot": "leadershipSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Meet the team at Sharjah American International School Sharjah.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi team members standing together",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "Our Team | SAIS - Abu Dhabi"
+    },
+    "title": "Our Team"
+  }
+]
