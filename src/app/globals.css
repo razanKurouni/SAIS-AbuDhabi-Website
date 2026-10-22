@@ -18957,3 +18957,27 @@ a.school-policy-card__cover:hover {
     bottom: 10px;
   }
 }
+
+/*
+ * Middle School on phones: one 50px step between sections that share a background (it was 98,
+ * 112 and 90px), and the Inclusion & Support Programs title no longer sits on the edge of the
+ * grey band above it (the band now closes on 50px and the title opens on 40px).
+ */
+@media (max-width: 767px) {
+  .academics-middle-school-page .academics-middle-school-assessment-detail-section.editorial-split-section {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+
+  .academics-middle-school-page .academics-middle-school-support-programs.academics-support-programs {
+    padding-top: 40px;
+  }
+
+  .academics-middle-school-page .learning-phases {
+    padding-top: 0;
+  }
+
+  .academics-middle-school-page .tour-intro {
+    padding-top: 22px;
+  }
+}
