@@ -530,7 +530,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "backgroundColor": "#ffffff",
       "ctas": [
         {
-          "variant": "secondary"
+          "variant": "primary"
         }
       ],
       "imagePosition": "right",

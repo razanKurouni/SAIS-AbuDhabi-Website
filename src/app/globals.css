@@ -19094,3 +19094,9 @@ a.school-policy-card__cover:hover {
     line-height: 1.2;
   }
 }
+
+/* Admissions Policy: the white Apply Now button sits on white, so it takes the blue outline of the
+   site's other white buttons (Learning Phases "See More"). */
+#admissions-policy .cta-link--primary {
+  border: 1px solid var(--sais-primary);
+}
