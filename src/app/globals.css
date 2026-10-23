@@ -19011,14 +19011,15 @@ a.school-policy-card__cover:hover {
 }
 
 /*
- * Academics, testing slider: slides move sideways like a carousel (the next one comes in from
- * the right, the previous one from the left) instead of rising from the bottom.
+ * Image-and-text sliders (Academics, Kindergarten, High School, Our Campus, Student Life): slides
+ * move sideways like a carousel (the next one comes in from the right, the previous one from the
+ * left) instead of rising from the bottom.
  */
-.academics-page .academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner {
+.academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner {
   animation-name: academics-learning-slide-from-right;
 }
 
-.academics-page .academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner[data-direction="prev"] {
+.academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner[data-direction="prev"] {
   animation-name: academics-learning-slide-from-left;
 }
 
