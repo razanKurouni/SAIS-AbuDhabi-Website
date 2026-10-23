@@ -19000,3 +19000,12 @@ a.school-policy-card__cover:hover {
     gap: 30px;
   }
 }
+
+/*
+ * Academics, teaching commitments: the cards centred their content, so a card with a shorter text
+ * dropped its icon and title lower than its neighbours. Content now starts at the top of every
+ * card, so icons and titles line up across each row.
+ */
+.academics-page .academics-teaching__card {
+  justify-content: flex-start;
+}
