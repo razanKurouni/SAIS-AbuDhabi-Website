@@ -303,14 +303,15 @@ export default async function AcademicsHighSchoolPage() {
       {careerGuidanceSection ? (
         <EditorialSplitSection
           id="academics-high-school-career-guidance"
-          title={careerGuidanceSection.heading?.title || "Guidance for Life Beyond High School"}
+          title="Guidance for Life Beyond High School"
           section={{ ...fallbackCareerGuidanceSection, ...careerGuidanceSection, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}
           className="academics-high-school-career-guidance-section"
           imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
           preserveRichText
-          showTitle
+          // As in the design the section shows no title unless the Studio gives it one; screen readers still get one.
+          showTitle={Boolean(careerGuidanceSection.heading?.title)}
         />
       ) : null}
 
