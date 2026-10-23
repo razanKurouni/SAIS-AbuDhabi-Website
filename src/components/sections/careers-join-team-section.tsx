@@ -4,6 +4,21 @@ import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import type { CareersJoinTeamSection as CareersJoinTeamSectionData } from "@/types/sanity";
 
+/** An email address that has to wrap breaks before its "@" ("hrrecruitment" / "@saisabudhabi.com"), not mid-word. */
+function withEmailBreak(text: string) {
+  if (!text.includes("@")) return text;
+  return text.split("@").flatMap((part, index) => (index === 0 ? [part] : [<wbr key={index} />, `@${part}`]));
+}
+
+/** Each line of a card's text wraps on its own, so it can balance without leaving one word alone. */
+function cardLines(text?: string) {
+  return text?.split("\n").map((line, index) => (
+    <span key={index} className="careers-join-team__card-line">
+      {withEmailBreak(line)}
+    </span>
+  ));
+}
+
 type CareersJoinTeamSectionProps = {
   section?: CareersJoinTeamSectionData;
   fallbackSection: CareersJoinTeamSectionData;
@@ -44,7 +59,7 @@ export function CareersJoinTeamSection({
                   href={card.href}
                   icon={card.icon}
                   title={card.label}
-                  description={card.text}
+                  description={cardLines(card.text)}
                   className="careers-join-team__card"
                   iconSizes="96px"
                 />
