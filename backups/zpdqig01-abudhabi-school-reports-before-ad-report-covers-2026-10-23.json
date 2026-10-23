@@ -1,0 +1,126 @@
+[
+  {
+    "_createdAt": "2026-10-08T08:04:40Z",
+    "_id": "school-reports-page",
+    "_rev": "qUnwt94px45wLcmGDkXdjP",
+    "_system": {
+      "base": {
+        "id": "school-reports-page",
+        "rev": "CxyzJCkIIAk9kzZkATMRdJ"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-23T11:52:14Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "School Reports"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students presenting in class",
+        "asset": {
+          "_ref": "image-3c191b34705eba6915fd3d12ed1c912e4290d734-1113x562-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "picture",
+        "asset": {
+          "_ref": "image-3c191b34705eba6915fd3d12ed1c912e4290d734-1113x562-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/school-reports",
+    "sections": [
+      {
+        "_key": "intro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sr-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sr-intro-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We are proud to share that our school has been awarded a Very Good Rating in the 2024–2025 ADEK Irtiqaa inspection, reflecting our strong commitment to academic excellence, high-quality teaching and learning, student care, and continuous school improvement."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Shared Commitment to Our School Community"
+        },
+        "slot": "intro"
+      },
+      {
+        "_key": "reports",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "irtiqaa-inspection-reports",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working in the Makerspace",
+              "asset": {
+                "_ref": "image-1596f467f478d9244dbe12fa74b266c1eb0c24cc-744x1054-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "Download PDF",
+            "title": "Irtiqa’a Inspection\nReports:"
+          },
+          {
+            "_key": "national-identity-mark-report",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working in the Makerspace",
+              "asset": {
+                "_ref": "image-1596f467f478d9244dbe12fa74b266c1eb0c24cc-744x1054-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "Download PDF",
+            "title": "National Identity\nMark ADEK Report:"
+          },
+          {
+            "_key": "annual-report",
+            "_type": "card",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working in the Makerspace",
+              "asset": {
+                "_ref": "image-1596f467f478d9244dbe12fa74b266c1eb0c24cc-744x1054-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "Download PDF",
+            "title": "Annual\nReport:"
+          }
+        ],
+        "slot": "reports"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "School reports and inspection outcomes for SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "picture",
+        "asset": {
+          "_ref": "image-3c191b34705eba6915fd3d12ed1c912e4290d734-1113x562-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "School Reports | SAIS - Abu Dhabi"
+    },
+    "title": "School Reports"
+  }
+]
