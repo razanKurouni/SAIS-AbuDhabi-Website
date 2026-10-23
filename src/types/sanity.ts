@@ -749,6 +749,7 @@ export type AcademicsHighSchoolPageData = {
   innerNavigation?: InnerNavigation;
   overviewSection?: ImageTextSection;
   curriculumSection?: AcademicsKindergartenFeatureSection;
+  counsellingSection?: ImageTextSection;
   careerGuidanceIntroSection?: SectionHeading;
   careerGuidanceSliderSection?: AcademicsLearningSliderSection;
   careerGuidanceSection?: ImageTextSection;

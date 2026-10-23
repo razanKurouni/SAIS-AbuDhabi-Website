@@ -200,6 +200,7 @@ export default async function AcademicsHighSchoolPage() {
     imagePosition: "right",
   };
   const curriculumSection = highSchoolPage?.curriculumSection;
+  const counsellingSection = highSchoolPage?.counsellingSection;
   const careerGuidanceSlider = highSchoolPage?.careerGuidanceSliderSection;
   const careerGuidanceSection = highSchoolPage?.careerGuidanceSection;
   const pathwaysSection = highSchoolPage?.pathwaysSection;
@@ -262,8 +263,22 @@ export default async function AcademicsHighSchoolPage() {
         />
       ) : null}
 
+      {counsellingSection ? (
+        <EditorialSplitSection
+          id="academics-high-school-counselling"
+          title={counsellingSection.heading?.title || "Career and Guidance Counselling"}
+          section={{ ...counsellingSection, imagePosition: "right" }}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-high-school-counselling-section"
+          imageSizes="(max-width: 767px) calc(100vw - 32px), 44vw"
+          preserveRichText
+          showTitle
+        />
+      ) : null}
+
       <section
-        className="academics-high-school-career-guidance-center bg-[#f4f4f4] px-[7.5%] py-14 md:py-16"
+        className="academics-high-school-career-guidance-center bg-white px-[7.5%] py-14 md:py-16"
         aria-labelledby="academics-high-school-career-guidance-intro-title"
       >
         <SectionHeading

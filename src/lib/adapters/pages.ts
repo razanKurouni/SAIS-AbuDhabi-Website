@@ -234,6 +234,7 @@ export function adaptHighSchool(page: CmsPage): AcademicsHighSchoolPageData {
     ...base(page),
     overviewSection: imageText(s.get("overviewSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
+    counsellingSection: imageText(s.get("counsellingSection")),
     careerGuidanceIntroSection: heading(s.get("careerGuidanceIntroSection")),
     careerGuidanceSliderSection: s.has("careerGuidanceSliderSection")
       ? { heading: heading(s.get("careerGuidanceSliderSection")), slides: learningSlides(s.get("careerGuidanceSliderSection")) }

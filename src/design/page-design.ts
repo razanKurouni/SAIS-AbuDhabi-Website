@@ -199,8 +199,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "titleColor": "#ffffff",
       "waveColor": "#216B97"
     },
-    "careerGuidanceSection": {
+    "counsellingSection": {
       "backgroundColor": "#f2f2f2",
+      "imagePosition": "right",
+      "textColor": "#6f7175",
+      "titleColor": "#216B97"
+    },
+    "careerGuidanceSection": {
+      "backgroundColor": "#ffffff",
       "imagePosition": "right",
       "textColor": "#6f7175",
       "titleColor": "#00A5B2"

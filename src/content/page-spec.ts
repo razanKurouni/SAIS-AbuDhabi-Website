@@ -188,6 +188,7 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("overviewSection", "Overview"),
       it("curriculumSection", "The Curriculum"),
+      it("counsellingSection", "Career and Guidance Counselling"),
       { slot: "careerGuidanceIntroSection", kind: "heading", label: "Career Guidance – Intro" },
       cards("careerGuidanceSliderSection", "Career Guidance – Slider", { items: "slides" }),
       it("careerGuidanceSection", "Career Guidance"),
