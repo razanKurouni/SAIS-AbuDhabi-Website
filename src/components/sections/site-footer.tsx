@@ -10,11 +10,12 @@ type SiteFooterProps = {
   footer?: SiteFooterData;
 };
 
+// Abu Dhabi only has a Facebook page so far; the other icons stay, without a link, until its accounts exist.
 const defaultSocialLinks: LinkField[] = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/", openInNewTab: true },
-  { label: "Facebook", href: "https://www.facebook.com/saisuaq", openInNewTab: true },
-  { label: "YouTube", href: "https://www.youtube.com/@saisuaq", openInNewTab: true },
-  { label: "Instagram", href: "https://www.instagram.com/sais.uaq/", openInNewTab: true },
+  { label: "LinkedIn", href: "", openInNewTab: true },
+  { label: "Facebook", href: "https://www.facebook.com/12Saisabudhabi", openInNewTab: true },
+  { label: "YouTube", href: "", openInNewTab: true },
+  { label: "Instagram", href: "", openInNewTab: true },
 ];
 
 const defaultLegalLinks: LinkField[] = [
@@ -152,13 +153,15 @@ export function SiteFooter({ footer }: SiteFooterProps) {
             <div className="site-footer__social" aria-label="Social media links">
               {socialIcons.map((Icon, index) => {
                 const link = findSocialLink(socialLinks, defaultSocialLinks[index].label, defaultSocialLinks[index]);
+                // "#" is the Studio's placeholder for an account the campus doesn't have yet.
+                const href = normalizeHref(link.href && !link.href.startsWith("#") ? link.href : defaultSocialLinks[index].href) || undefined;
 
                 return (
                   <a
                     key={link.label}
-                    href={normalizeHref(link.href) || "#"}
-                    target={link.openInNewTab ? "_blank" : undefined}
-                    rel={link.openInNewTab ? "noreferrer" : undefined}
+                    href={href}
+                    target={href && link.openInNewTab ? "_blank" : undefined}
+                    rel={href && link.openInNewTab ? "noreferrer" : undefined}
                     aria-label={link.label}
                     className="site-footer__social-link"
                   >

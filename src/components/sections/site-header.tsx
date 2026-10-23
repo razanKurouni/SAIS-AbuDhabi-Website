@@ -39,11 +39,12 @@ type MenuSection = {
   items?: Array<{ label: string; href?: string }>;
 };
 
+// Abu Dhabi only has a Facebook page so far; the other icons stay, without a link, until its accounts exist.
 const defaultSocialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/sharjah-american-international-school-umm-al-quwain/", icon: LinkedinBrandIcon },
-  { label: "Facebook", href: "https://www.facebook.com/saisuaq", icon: FacebookBrandIcon },
-  { label: "YouTube", href: "https://www.youtube.com/@saisuaq", icon: Youtube },
-  { label: "Instagram", href: "https://www.instagram.com/sais.uaq/", icon: Instagram },
+  { label: "LinkedIn", href: "", icon: LinkedinBrandIcon },
+  { label: "Facebook", href: "https://www.facebook.com/12Saisabudhabi", icon: FacebookBrandIcon },
+  { label: "YouTube", href: "", icon: Youtube },
+  { label: "Instagram", href: "", icon: Instagram },
 ];
 
 type ExpandedSections = Record<string, boolean>;
@@ -62,7 +63,8 @@ export function SiteHeader({
   // The drawer's icons keep their order; each takes the Studio's URL for that network when one is set.
   const socialLinks = defaultSocialLinks.map((item) => {
     const configured = configuredSocialLinks?.find((link) => link.label?.toLowerCase().includes(item.label.toLowerCase()));
-    return configured?.href ? { ...item, href: configured.href } : item;
+    // "#" is the Studio's placeholder for an account the campus doesn't have yet.
+    return configured?.href && !configured.href.startsWith("#") ? { ...item, href: configured.href } : item;
   });
   const isSolid = variant === "solid";
   const isScrolled = useScrollThreshold(18);
@@ -345,18 +347,24 @@ export function SiteHeader({
 
             <div className="sais-menu-drawer__footer">
               <div className="sais-menu-drawer__socials">
-                {socialLinks.map(({ label, href, icon: Icon }) => (
-                  <Link
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={label}
-                    className="sais-menu-social"
-                  >
-                    <Icon size={20} strokeWidth={2.15} />
-                  </Link>
-                ))}
+                {socialLinks.map(({ label, href, icon: Icon }) =>
+                  href ? (
+                    <Link
+                      key={label}
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={label}
+                      className="sais-menu-social"
+                    >
+                      <Icon size={20} strokeWidth={2.15} />
+                    </Link>
+                  ) : (
+                    <a key={label} aria-label={label} className="sais-menu-social">
+                      <Icon size={20} strokeWidth={2.15} />
+                    </a>
+                  ),
+                )}
               </div>
             </div>
           </div>

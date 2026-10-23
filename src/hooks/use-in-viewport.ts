@@ -29,6 +29,13 @@ export function useInViewport<TElement extends Element>({
       return () => window.cancelAnimationFrame(frameId);
     }
 
+    // A block taller than the screen only shows `threshold` of itself once it is mostly scrolled through, so its
+    // heading stayed hidden while the content below it was already on screen. It reveals once it fills that share
+    // of the screen instead.
+    const height = node.getBoundingClientRect().height;
+    const effectiveThreshold =
+      height > window.innerHeight ? Math.min(threshold, (threshold * window.innerHeight) / height) : threshold;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         const nextIsInViewport = entry.isIntersecting;
@@ -39,7 +46,7 @@ export function useInViewport<TElement extends Element>({
           observer.disconnect();
         }
       },
-      { rootMargin, threshold },
+      { rootMargin, threshold: effectiveThreshold },
     );
 
     observer.observe(node);

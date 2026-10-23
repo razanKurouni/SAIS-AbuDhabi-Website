@@ -19330,3 +19330,37 @@ a.school-policy-card__cover:hover {
     padding-top: 64px;
   }
 }
+
+/* Social icons for accounts the campus doesn't have yet: they stay in place but aren't links, so they don't react like one. */
+.social-feed__link:not([href]),
+.site-footer__social-link:not([href]),
+.sais-menu-social:not([href]) {
+  cursor: default;
+}
+
+.social-feed__link:not([href]):hover {
+  border-color: var(--sais-accent);
+  color: var(--sais-primary);
+  transform: none;
+}
+
+.site-footer__social-link:not([href]):hover {
+  color: var(--sais-primary);
+}
+
+.social-feed__link:not([href]):hover::before,
+.site-footer__social-link:not([href]):hover::before {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.social-feed__link:not([href]):hover svg,
+.site-footer__social-link:not([href]):hover svg {
+  transform: none;
+}
+
+.sais-menu-social:not([href]):hover {
+  border-color: rgba(var(--sais-accent-rgb), 0.82);
+  background: transparent;
+  transform: none;
+}

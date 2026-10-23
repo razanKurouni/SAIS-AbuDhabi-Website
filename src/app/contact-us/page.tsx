@@ -28,7 +28,7 @@ const contactInnerNavItems = [
 ];
 
 const MAP_EMBED_SRC =
-  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d796.2500547808039!2d54.6330314!3d24.3607139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e37d95555aaab%3A0x7ed3e7b1b6e679e6!2sSharjah%20American%20International%20School!5e1!3m2!1sen!2sae!4v1792407647768!5m2!1sen!2sae";
+  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1600!2d54.6330314!3d24.3607139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e37d95555aaab%3A0x7ed3e7b1b6e679e6!2sSharjah%20American%20International%20School!5e1!3m2!1sen!2sae!4v1792407647768!5m2!1sen!2sae";
 
 /** The map link from Sanity: either the embed link itself or the whole <iframe> code from Google Maps. */
 function mapEmbedSrc(value?: string) {
