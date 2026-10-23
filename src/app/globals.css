@@ -19256,3 +19256,45 @@ a.school-policy-card__cover:hover {
     padding-bottom: 34px;
   }
 }
+
+/*
+ * Student Life, phones: the committees slider has no heading, so its band stays white like on
+ * desktop (a 50px white step after the football photo instead of an empty orange strip), and each
+ * slide's name sits above its photo, under the arrows, so it shows as soon as the slide does.
+ */
+@media (max-width: 767px) {
+  .student-life-page .student-life-committees.academics-learning-slider {
+    background: #ffffff;
+    padding-top: 50px;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__inner {
+    padding-top: 60px;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__content {
+    display: contents;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__content h3 {
+    order: -1;
+    width: calc(100% - 48px);
+    margin: 0 0 18px;
+    justify-self: center;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__body {
+    width: calc(100% - 48px);
+    margin-top: 22px;
+    justify-self: center;
+  }
+
+  /* The white dots go back inside the orange band, like the site's other sliders on phones. */
+  .student-life-page .student-life-committees .academics-learning-slider__inner {
+    padding-bottom: 96px;
+  }
+
+  .student-life-page .student-life-committees .academics-learning-slider__dots {
+    margin-top: -80px !important;
+  }
+}
