@@ -18634,11 +18634,11 @@ a.school-policy-card__cover:hover {
 }
 
 /* Our Campus, per the design: a narrower intro, the video on the design's 1566:950 frame with
-   the band starting at 40%, more room around the facilities split, and the sections panel
-   with a square image and a wider text column. */
+   the band starting at 40%, and the sections panel with a square image and a wider text column.
+   Between sections the page keeps one 62px step, as Theo asked (it was 96, 108, 89 and 113). */
 @media (min-width: 768px) {
   .our-campus-page .campus-intro {
-    padding-bottom: 90px;
+    padding-bottom: 56px;
   }
 
   .our-campus-page .campus-intro__body {
@@ -18654,7 +18654,7 @@ a.school-policy-card__cover:hover {
   }
 
   .our-campus-page #campus-facilities.campus-facilities-showcase.editorial-split-section {
-    padding: 108px 0 84px;
+    padding: 62px 0 57px;
   }
 
   .our-campus-page .campus-sections-feature .intro-feature__media {
@@ -18679,7 +18679,21 @@ a.school-policy-card__cover:hover {
 /* Our Campus: Outdoor Area and Playground, under the school sections panel. */
 @media (min-width: 768px) {
   .our-campus-page .campus-outdoor-section.editorial-split-section {
-    padding-top: 108px;
+    padding-top: 57px;
+  }
+
+  /* One 62px step from the Library text to the Makerspace panel (it was 130). */
+  .our-campus-page #campus-library.campus-split-section.editorial-split-section {
+    padding-bottom: 56px;
+  }
+
+  .our-campus-page .campus-makerspace-feature.intro-feature {
+    padding-top: 0;
+  }
+
+  /* Our Community: 62px from the intro panel to "Learn About Our Community" (it was 117). */
+  .our-community-page .intro-feature {
+    padding-bottom: 0;
   }
 
   .our-campus-page .campus-outdoor-section .editorial-split-section__media {
