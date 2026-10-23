@@ -18284,7 +18284,7 @@ a.school-policy-card__cover:hover {
 }
 
 .academics-high-school-page .academics-high-school-career-guidance-section.editorial-split-section {
-  background: #ffffff;
+  background: #f2f2f2;
 }
 
 /* The guidance text opens with a bold navy lead sentence, as in the Pathways section. */
@@ -19396,7 +19396,7 @@ a.school-policy-card__cover:hover {
 
 /* High School, from the design: under "What We Offer" the page turns light grey and carries on into the
    Career and Guidance Counselling section (navy title, photo on the right); the support heading and slider
-   that follow sit on white. */
+   that follow sit on white, and the guidance diagram below them on light grey again. */
 .academics-high-school-page .academics-high-school-excellence-feature.intro-feature {
   background: linear-gradient(to top, #f2f2f2 0%, #f2f2f2 50%, #216B97 50%, #216B97 100%);
 }
