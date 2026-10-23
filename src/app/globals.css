@@ -17927,11 +17927,6 @@ a.school-policy-card__cover:hover {
  * raised on and applies on phones only.
  * --------------------------------------------------------------------- */
 @media (max-width: 767px) {
-  /* About: the school name stays on one line in the tour intro. */
-  .about-page .tour-intro__brand {
-    white-space: nowrap;
-  }
-
   /* About: the Innovation card photo shows the boys and their robot. */
   .about-page .about-benefits__card:nth-child(4) .quick-links-card__image-wrap {
     height: 330px;

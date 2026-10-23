@@ -6,7 +6,8 @@ const PARAM = "find";
 const HEADER_OFFSET = 130;
 
 function normalize(text: string | null | undefined) {
-  return (text ?? "").replace(/\s+/g, " ").trim().toLowerCase();
+  // Headings keep the campus name together with a word joiner (src/lib/campus-name.ts); the search index doesn't.
+  return (text ?? "").replace(/\u2060/g, "").replace(/\s+/g, " ").trim().toLowerCase();
 }
 
 /**

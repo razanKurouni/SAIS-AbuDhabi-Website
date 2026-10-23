@@ -1,5 +1,6 @@
 import { getImageProps } from "next/image";
 import type { CSSProperties } from "react";
+import { keepCampusNameTogether } from "@/lib/campus-name";
 import type { SanityImage } from "@/types/sanity";
 
 type PageHeroProps = {
@@ -27,12 +28,6 @@ type PageHeroStyle = CSSProperties & {
   "--page-hero-image-position"?: string;
   "--page-hero-image-width"?: string;
 };
-
-/** "Abu Dhabi" (with the dash before it) never splits across lines: "... SAIS - Abu" / "Dhabi" becomes "... SAIS" / "- Abu Dhabi". */
-function keepCampusNameTogether(title: string) {
-  // A word joiner after the dash stops the browser breaking there (a hyphen allows a break after it).
-  return title.replace(/ - Abu Dhabi/g, " -\u2060\u00a0Abu\u00a0Dhabi");
-}
 
 export function PageHero({
   title,

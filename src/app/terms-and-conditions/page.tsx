@@ -12,7 +12,7 @@ const sections = [
   {
     title: "1. Acceptance of these terms",
     paragraphs: [
-      "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website. These terms apply to website use only and do not replace any enrolment contract, school policy, fee schedule, consent form, or other agreement issued by Sharjah American International School – Abu Dhabi (SAIS - Abu Dhabi).",
+      "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website. These terms apply to website use only and do not replace any enrolment contract, school policy, fee schedule, consent form, or other agreement issued by Sharjah American International School - Abu Dhabi (SAIS - Abu Dhabi).",
     ],
   },
   {

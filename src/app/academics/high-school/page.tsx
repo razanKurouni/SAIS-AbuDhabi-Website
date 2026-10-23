@@ -136,7 +136,7 @@ const fallbackDayInLifeSection = feature("A Day in the Life", { imageSide: "righ
 const fallbackCareerGuidanceIntroSection: SectionHeadingData = {
   title: "Career Guidance",
   subtitle:
-    "At SAIS Abu Dhabi, we believe that every student’s journey is unique and we’re here to guide that journey with purpose and clarity.",
+    "At SAIS - Abu Dhabi, we believe that every student’s journey is unique and we’re here to guide that journey with purpose and clarity.",
 };
 
 const fallbackSlider: AcademicsLearningSliderSectionData = { heading: { title: "" }, slides: [] };

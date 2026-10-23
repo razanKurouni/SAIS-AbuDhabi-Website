@@ -7,6 +7,7 @@ import { PAGE_DESIGN } from "@/design/page-design";
 import { mapLegacySectionsToHomepage } from "@/lib/content";
 import * as adapt from "@/lib/adapters/pages";
 import { pageDocumentId } from "@/content/page-spec";
+import { keepCampusNamesTogether } from "@/lib/campus-name";
 import type {
   AboutPageData,
   AcademicsElementaryPageData,
@@ -65,7 +66,7 @@ export function getSanityClient(useCdn = false) {
 export async function getPage(specId: string, useCdn = false): Promise<CmsPage | null> {
   try {
     const client = getSanityClient(useCdn);
-    return await client.fetch<CmsPage | null>(pageQuery, { id: pageDocumentId(specId) });
+    return keepCampusNamesTogether(await client.fetch<CmsPage | null>(pageQuery, { id: pageDocumentId(specId) }));
   } catch {
     return null;
   }
@@ -74,7 +75,7 @@ export async function getPage(specId: string, useCdn = false): Promise<CmsPage |
 export async function getSiteSettings(): Promise<SiteSettings | null> {
   try {
     const client = getSanityClient();
-    return await client.fetch<SiteSettings | null>(siteSettingsQuery, { id: SITE_SETTINGS_ID });
+    return keepCampusNamesTogether(await client.fetch<SiteSettings | null>(siteSettingsQuery, { id: SITE_SETTINGS_ID }));
   } catch {
     return null;
   }
@@ -83,7 +84,7 @@ export async function getSiteSettings(): Promise<SiteSettings | null> {
 export async function getNewsPosts(): Promise<NewsPost[]> {
   try {
     const client = getSanityClient();
-    return (await client.fetch<NewsPost[]>(newsPostsQuery)) || [];
+    return keepCampusNamesTogether((await client.fetch<NewsPost[]>(newsPostsQuery)) || []);
   } catch {
     return [];
   }
@@ -92,7 +93,7 @@ export async function getNewsPosts(): Promise<NewsPost[]> {
 export async function getNewsPostBySlug(slug: string): Promise<NewsPost | null> {
   try {
     const client = getSanityClient();
-    return await client.fetch<NewsPost | null>(newsPostBySlugQuery, { slug });
+    return keepCampusNamesTogether(await client.fetch<NewsPost | null>(newsPostBySlugQuery, { slug }));
   } catch {
     return null;
   }

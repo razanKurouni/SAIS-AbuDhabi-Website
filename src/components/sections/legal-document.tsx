@@ -1,3 +1,5 @@
+import { keepCampusNameTogether } from "@/lib/campus-name";
+
 type LegalSection = {
   title: string;
   paragraphs?: string[];
@@ -22,15 +24,15 @@ export function LegalDocument({ title, effectiveDate, introduction, sections }: 
       </header>
 
       <div className="legal-document__content">
-        <p className="legal-document__introduction">{introduction}</p>
+        <p className="legal-document__introduction">{keepCampusNameTogether(introduction)}</p>
 
         {sections.map((section) => (
           <section key={section.title} className="legal-document__section">
             <h2>{section.title}</h2>
-            {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            {section.paragraphs?.map((paragraph) => <p key={paragraph}>{keepCampusNameTogether(paragraph)}</p>)}
             {section.items?.length ? (
               <ul>
-                {section.items.map((item) => <li key={item}>{item}</li>)}
+                {section.items.map((item) => <li key={item}>{keepCampusNameTogether(item)}</li>)}
               </ul>
             ) : null}
           </section>

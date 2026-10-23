@@ -12,7 +12,7 @@ const sections = [
   {
     title: "1. Who we are",
     paragraphs: [
-      "Sharjah American International School – Abu Dhabi (SAIS - Abu Dhabi) operates this website. This Privacy Policy explains how we handle personal information collected through the website and applies to visitors, parents, guardians, prospective families, applicants, and other people who interact with us online.",
+      "Sharjah American International School - Abu Dhabi (SAIS - Abu Dhabi) operates this website. This Privacy Policy explains how we handle personal information collected through the website and applies to visitors, parents, guardians, prospective families, applicants, and other people who interact with us online.",
     ],
   },
   {
@@ -107,7 +107,7 @@ const sections = [
   {
     title: "14. Contact us",
     paragraphs: [
-      "For privacy questions or requests, contact SAIS - Abu Dhabi at info@saisabudhabi.com, call +971 2 586 1222, or write to Sharjah American International School – Abu Dhabi Campus, P.O. Box 35590, Abu Dhabi, UAE.",
+      "For privacy questions or requests, contact SAIS - Abu Dhabi at info@saisabudhabi.com, call +971 2 586 1222, or write to Sharjah American International School - Abu Dhabi Campus, P.O. Box 35590, Abu Dhabi, UAE.",
     ],
   },
 ];
