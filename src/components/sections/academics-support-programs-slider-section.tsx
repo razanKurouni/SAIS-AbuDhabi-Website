@@ -86,6 +86,17 @@ const namedIconMap = {
 
 export type FallbackIconName = keyof typeof namedIconMap;
 
+/** A description that opens with a label ending in a colon ("Individualized Support Plans (IEP): ...") shows the label in bold. */
+function withBoldLeadIn(description?: string) {
+  const match = description?.match(/^([^:.]{3,80}:)\s+([\s\S]+)$/);
+  if (!match) return description;
+  return (
+    <>
+      <strong>{match[1]}</strong> {match[2]}
+    </>
+  );
+}
+
 function getVisibleCount({ desktop = 3, tablet = 2, mobile = 1 }: VisibleCounts = {}) {
   if (typeof window === "undefined") {
     return desktop;
@@ -222,7 +233,7 @@ export function AcademicsSupportProgramsSliderSection({
                       icon={card.icon}
                       fallbackIcon={FallbackIcon}
                       title={card.title}
-                      description={card.description}
+                      description={withBoldLeadIn(card.description)}
                       iconSizes="96px"
                     />
                   );
