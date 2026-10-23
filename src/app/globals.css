@@ -19248,3 +19248,11 @@ a.school-policy-card__cover:hover {
     transform-origin: 100% 30%;
   }
 }
+
+/* Parent Involvement, phones: the Parent Partnership text closed on the edge of its grey band
+   (bottom padding 0, from when a video followed it); it now closes on the same 34px it opens on. */
+@media (max-width: 767px) {
+  .parent-involvement-page .parent-involvement-partnership.editorial-split-section {
+    padding-bottom: 34px;
+  }
+}
