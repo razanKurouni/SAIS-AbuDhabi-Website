@@ -18981,3 +18981,22 @@ a.school-policy-card__cover:hover {
     padding-top: 22px;
   }
 }
+
+/*
+ * Desktop: one gutter between the text and the photo of every text-and-photo section. The
+ * default was 30px, so sections without their own rule (About Us "Our Story", the Our Campus
+ * rooms, Student Programs, Careers, ...) had their text running up to the photo while the rest of
+ * the site used about 75px. Sections that set their own gap keep it; phones and tablets (single
+ * column) are unchanged.
+ */
+@media (min-width: 921px) {
+  .editorial-split-section__inner {
+    gap: clamp(42px, 5.2vw, 78px);
+  }
+
+  /* These two already space their text from the photo with padding of their own. */
+  #about-inspection .editorial-split-section__inner,
+  #academics-high-school-overview .editorial-split-section__inner {
+    gap: 30px;
+  }
+}
