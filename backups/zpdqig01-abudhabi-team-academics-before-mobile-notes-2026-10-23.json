@@ -1,0 +1,744 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-page",
+    "_rev": "oqLjzGTAiRGSKQTYWm6WbW",
+    "_system": {
+      "base": {
+        "id": "academics-page",
+        "rev": "seeJ8sDCx2bMNJQ2PBDgsV"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-23T06:13:33Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Academics at SAIS - Abu Dhabi"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students standing ",
+        "asset": {
+          "_ref": "image-df8f938c70c1bf06bba3b0418b373e82284a6fa4-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students standing ",
+        "asset": {
+          "_ref": "image-df8f938c70c1bf06bba3b0418b373e82284a6fa4-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics",
+    "sections": [
+      {
+        "_key": "curriculumSection",
+        "_type": "entriesSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "acad-intro-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-intro-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We deliver a robust American curriculum grounded in the AERO Common Core Plus to California Common Core State Standards and NGSS. Our approach fosters academic excellence, innovation, and global citizenship through engaging, inclusive, and UAE culturally-based learning experiences."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Rigorous American Education with Global Perspectives"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students learning with a microscope",
+          "asset": {
+            "_ref": "image-6af58bdf82a1343eeb95eacec413cf5ddfa1b855-1560x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "teachingCommitmentsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "rigorous-standards",
+            "_type": "card",
+            "description": "The AERO Common Core Plus provides a strong foundation in English Language Arts and Mathematics, emphasizing critical thinking, problem-solving, and real-world application. The NGSS promotes inquiry-based, hands-on science education that prepares students to explore and address global challenges.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-a69ebc669f3508b28ab0137930c2875961412e92-345x344-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Rigorous Academic\nStandards"
+          },
+          {
+            "_key": "project-based-learning",
+            "_type": "card",
+            "description": "PBL is not an add-on, it is embedded across all subjects and grade levels. Students participate in meaningful, interdisciplinary projects that encourage collaboration, creativity, and authentic learning tied to real-world issues.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-73ea06b716c21da0bec607ea513ad022d48f985e-255x329-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Embedded Project-Based\nLearning (PBL)"
+          },
+          {
+            "_key": "universal-design",
+            "_type": "card",
+            "description": "UDL is embedded throughout our teaching and assessment practices. This ensures all students, regardless of learning needs, can access the curriculum through differentiated content, methods, and outcomes.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-1ebef28131146b726b2cf104fd64b0a223e5ccb5-277x341-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Inclusive Instruction through\nUniversal Design for Learning (UDL)"
+          },
+          {
+            "_key": "national-identity",
+            "_type": "card",
+            "description": "The AERO Common Core Plus provides a strong foundation in English Language Arts and Mathematics, emphasizing critical thinking, problem-solving, and real-world application. The NGSS promotes inquiry-based, hands-on science education that prepares students to explore and address global challenges.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-089712ab7812869b014434b7eb1c6c20c5dc42d3-254x315-png",
+                "_type": "reference"
+              }
+            },
+            "title": "UAE National Identity\nand ADEK Alignment"
+          },
+          {
+            "_key": "social-studies",
+            "_type": "card",
+            "description": "Our Social Studies program emphasizes historical thinking, civic responsibility, and geographic literacy. Students explore diverse cultures and global perspectives while also engaging with UAE history, heritage, and contemporary issues to foster both international-mindedness and national identity.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-fbc485f0c67691a9aefa16bc35964eedf65d50a3-285x299-png",
+                "_type": "reference"
+              }
+            },
+            "iconType": "social",
+            "title": "Social Studies with a Global\nand Local Lens"
+          },
+          {
+            "_key": "cross-curricular",
+            "_type": "card",
+            "description": "Through intentional integration, students make connections between subjects, deepening their understanding and applying knowledge in innovative ways.",
+            "icon": {
+              "_type": "picture",
+              "asset": {
+                "_ref": "image-a42ccd6232ef543287d8606ba785d7e18bc8cd66-300x329-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Cross-Curricular\nConnections"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "acad-features-outro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-features-outro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We nurture curious, compassionate, and capable students who are prepared to succeed in American and international university systems while remaining grounded in the culture and values of the UAE."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Key features of our curriculum include:"
+        },
+        "slot": "teachingCommitmentsSection"
+      },
+      {
+        "_key": "learningSliderSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "cat4-assessment",
+            "_type": "card",
+            "description": "The Cognitive Abilities Test (CAT4) helps us understand how students learn and their academic potential. Students in Grades 3-9 take this assessment upon enrollment to identify their learning styles, enabling teachers to:\n\n•\tAdapt teaching approaches and materials\n•\tAdjust instructional pace and emphasis\n•\tImplement differentiated instruction\n\nCAT4 measures four types of reasoning:\n\n•\tVerbal Reasoning - Understanding and reasoning through words\n•\tQuantitative Reasoning - Using numerical skills for problem-solving\n•\tNon-verbal Reasoning - Problem-solving using visual information\n•\tSpatial Ability - Thinking and drawing conclusions in three dimensions",
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-5ba3229bbfd848b805c924e31810266dae18b466-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "CAT4 Assessment"
+          },
+          {
+            "_key": "nwea-map-testing",
+            "_type": "card",
+            "description": "Students in Grades 3-9 participate in MAP testing three times throughout the academic year. These computer-adaptive assessments:\n\n•\tProduce accurate data about each student’s learning level\n•\tIdentify areas of strength and opportunity\n•\tMeasure overall performance in core subjects",
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-fc587671e7d831d2d7511d26e0ecd1bf9053dba7-772x662-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "NWEA MAP Testing"
+          },
+          {
+            "_key": "ibt-arabic-testing",
+            "_type": "card",
+            "description": "To benchmark Arabic language proficiency against international standards, our students participate in IBT Arabic examinations conducted by ACER. This assessment provides valuable comparative data on student performance relative to peers in the region and worldwide.",
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-f0cf8b007796852a3e313f4555dfb0a4091b8610-772x662-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "IBT Arabic Testing"
+          },
+          {
+            "_key": "ngrt-testing",
+            "_type": "card",
+            "description": "The New Group Reading Test (NGRT) measures reading skills against national averages. This standardized assessment evaluates:\n\n•\tPhonics knowledge\n•\tReading comprehension\n•\tDecoding ability\n•\tVocabulary development\n•\tGrammatical understanding\n•\tDeduction and inference skills\n•\tUnderstanding of figurative and idiomatic language",
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-6dc25f40e9bbb6814516946eb93c2607d4d4dd1c-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "NGRT Testing"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "Understanding Student Learning"
+        },
+        "slot": "learningSliderSection"
+      },
+      {
+        "_key": "steamSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "acad-steam-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-steam-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We challenge our students to investigate the wonders of the many scientific fields. Our collaborative approach to S.T.E.A.M. provides students with a unique opportunity to engage in Science, Art, Math, engineering, and technology. We provide students with the tools to experiment with robotic technology while learning about construction and programming."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "STEAM"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi student working at a drill press in the STEAM workshop",
+          "asset": {
+            "_ref": "image-d6258905c025a1514e1e92e36f091262ff260584-1560x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "steamSection"
+      },
+      {
+        "_key": "inclusionSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "acad-inclusion-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-inclusion-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At Sharjah American International School – Abu Dhabi (SAIS), we are fully committed to ensuring that every student receives the support, opportunities, and encouragement needed to thrive academically, socially, and emotionally. We believe that every learner is unique and deserves access to a high-quality education that recognizes and nurtures their individual strengths and needs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "acad-inclusion-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-inclusion-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Inclusion Department works collaboratively with students, families, teachers, and external specialists to provide personalized support and targeted interventions. Through evidence-based practices, individualized planning, classroom accommodations, and continuous progress monitoring, we strive to remove barriers to learning and promote student success."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Inclusion and Support"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi kindergarten students learning together in class",
+          "asset": {
+            "_ref": "image-46f454f3da99dfbf19c46217043d6c6b66dfa261-1560x1252-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "inclusionSection"
+      },
+      {
+        "_key": "inclusionFeatureSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "acad-inclusion-feature-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-inclusion-feature-0-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our services support students with Additional Learning Needs (ALN), gifted and talented learners, English Language Learners (ELL), students requiring Arabic Language Support, and those who may benefit from social, emotional, or behavioral support. Arabic Language Support is provided through targeted interventions designed to strengthen students' Arabic language proficiency, enhance their access to the curriculum, and build confidence in their communication skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "acad-inclusion-feature-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "acad-inclusion-feature-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Guided by the values of respect, equity, and excellence, we aim to create a learning environment where all students feel valued, empowered, and equipped to reach their full potential."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi inclusion team members with the school's staff",
+          "asset": {
+            "_ref": "image-2008df0e095200293c35a9f75750f0f27ed22351-1560x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "inclusionFeatureSection"
+      },
+      {
+        "_key": "supportProgramsSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "inclusion-support",
+            "_type": "card",
+            "description": "Framework.Individualized Support Plans (IEP/ILP/ALP/ BSP/ LSP): Personalized plans are developed in collaboration with parents and teachers to ensure measurable progress and targeted goals",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-a5ab6f89cc23be2bf6332fe4ef3c78febb76b3a1-418x418-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Inclusion and Support"
+          },
+          {
+            "_key": "parent-awareness",
+            "_type": "card",
+            "description": "The school conducts regular awareness sessions, workshops, and collaborative meetings to empower parents and strengthen meaningful school–family partnerships that support students’ academic and social-emotional growth.",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-61b4b2dd92d9e297dc0aeae5096ce925c7cd7921-405x405-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Parent Awareness\n& Partnership"
+          },
+          {
+            "_key": "social-studies",
+            "_type": "card",
+            "description": "Our Social Studies program emphasizes historical thinking, civic responsibility, and geographic literacy. Students explore diverse cultures and global perspectives while also engaging with UAE history, heritage, and contemporary issues to foster both international-mindedness and national identity.",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-7821f9d7890290d945f7eea51817ba7950586211-412x412-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Social Studies\nwith a Global and Local Lens"
+          },
+          {
+            "_key": "wellbeing",
+            "_type": "card",
+            "description": "The school conducts regular awareness sessions, workshops, and collaborative meetings to empower parents and strengthen meaningful school–family partnerships that support students’ academic and social-emotional growth.",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-4d38e3b690debe8c7a87010739468f91a63adafd-407x407-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Wellbeing &\nSocial-Emotional Support"
+          },
+          {
+            "_key": "student-support",
+            "_type": "card",
+            "description": "Students are supported through a collaborative approach involving the school counsellor, social worker, and supervisors. This team provides social-emotional guidance, behavioral support, pastoral care, and individualized follow-up to ensure students’ wellbeing and academic success.",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-ae65e99c5e42b89be88bc91fd31e68e180a7f5a4-436x436-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Student Support\nServices"
+          },
+          {
+            "_key": "individual-education-planning",
+            "_type": "card",
+            "description": "Framework Individualized Support Plans (IEP/ILP/ALP/ BSP/ LSP): Personalized plans are developed in collaboration with parents and teachers to ensure measurable progress and targeted goals",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-11290a3358605caccf2bcd3be7c400fc029876d3-413x413-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Individual\nEducation Planning"
+          },
+          {
+            "_key": "ell-support",
+            "_type": "card",
+            "description": "Students with additional English language needs are identified through placement assessments and supported through targeted language intervention programs. Support includes small-group instruction, in-class support, differentiated tasks, and ongoing progress monitoring to ensure language development across all subjects.",
+            "icon": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-abe1425c62e1c6a35fa46c7188df779d6e20cf61-492x492-png",
+                "_type": "reference"
+              }
+            },
+            "title": "ELL Support (English Language Learners)\nEnglish Language Learning (ELL) Support:"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": ""
+        },
+        "slot": "supportProgramsSection"
+      },
+      {
+        "_key": "assessmentProtocolSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "formative-ongoing",
+            "_type": "card",
+            "description": "Maintain high expectations\nfor every student",
+            "icon": {
+              "_type": "image",
+              "alt": "Formative/OngoingAssessment",
+              "asset": {
+                "_ref": "image-bdec5dd062a0475b75410d92c39d37999e290a5c-196x167-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Formative/Ongoing\nAssessment"
+          },
+          {
+            "_key": "formative-quizzes",
+            "_type": "card",
+            "description": "Short-form assessments\nof understanding",
+            "icon": {
+              "_type": "image",
+              "alt": "Formative Quizzes",
+              "asset": {
+                "_ref": "image-3c3f829f8e74260b8dcd5895062afbe89a84eeaa-172x172-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Formative\nQuizzes"
+          },
+          {
+            "_key": "summative-assessment",
+            "_type": "card",
+            "description": "Quizzes, tests,\nexaminations",
+            "icon": {
+              "_type": "image",
+              "alt": "Summative Assessment",
+              "asset": {
+                "_ref": "image-4b3f6341b8fb3896a8ee92be46c6faa9b2a6446a-191x171-png",
+                "_type": "reference"
+              }
+            },
+            "title": "Summative\nAssessment"
+          },
+          {
+            "_key": "external-assessment",
+            "_type": "card",
+            "description": "MAP, CAT4, PSAT, SAT,\nArabic IBT",
+            "icon": {
+              "_type": "image",
+              "alt": "External Assessment",
+              "asset": {
+                "_ref": "image-2e63f4dd49e94506a395360b472643c68c67b0a8-173x173-png",
+                "_type": "reference"
+              }
+            },
+            "title": "External\nAssessment"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "assessment-protocol-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "assessment-protocol-intro-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We implement four categories of assessment to comprehensively evaluate student progress:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment Protocol"
+        },
+        "slot": "assessmentProtocolSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students standing ",
+        "asset": {
+          "_ref": "image-df8f938c70c1bf06bba3b0418b373e82284a6fa4-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Academics | SAIS - Abu Dhabi"
+    },
+    "title": "Academics"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "our-team-page",
+    "_rev": "jd1HSkjgmepAgPsGJoFdbF",
+    "_system": {
+      "base": {
+        "id": "our-team-page",
+        "rev": "oqLjzGTAiRGSKQTYWjAxkM"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-22T13:34:00Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Meet Our Team"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi team members standing together",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi senior leadership team",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/about-us/our-team",
+    "sections": [
+      {
+        "_key": "leadershipSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "carole-aboud",
+            "_type": "card",
+            "description": "She holds a Master’s Degree in Education and a Bachelor’s in Chemistry, with over 20 years of experience in education and leadership. She is Principal of Sharjah American International School Abu Dhabi (SAIS Abu Dhabi), where she led the school’s ADEK rating improvement from “Acceptable” to “Very Good.” She is committed to innovation, inclusion, and continuous school improvement.",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Ban Al Duri",
+              "asset": {
+                "_ref": "image-2be8341901c3a8ac10303e830673d60a32fa7602-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "20",
+            "subtitle": "School Principal",
+            "title": "Ms. Ban Al Duri"
+          },
+          {
+            "_key": "mona-serhal",
+            "_type": "card",
+            "description": "With fifteen years of experience across UK, Australian, Canadian, and IB curricula  and the past twelve in senior leadership Mr. Rumball bring a distinctive blend of academic rigor and pedagogical expertise, holding a BA in Criminology and a Master’s in Teaching. Mr Rumball’s practice is grounded in the conviction that personalized learning, data-driven initiatives, and strong relationships are the keys to student success",
+            "image": {
+              "_type": "image",
+              "alt": "Mr. Tylor Rumball",
+              "asset": {
+                "_ref": "image-6e5802bf271e9cd76ca9b571fa90c1a86f7e7e3d-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "15",
+            "subtitle": "Vice Principal",
+            "title": "Mr. Tylor Rumball"
+          },
+          {
+            "_key": "hanna-halabi",
+            "_type": "card",
+            "description": "With over 22 years of experience in education and leadership, she holds a Master’s degree in Educational Leadership and Management and has extensive expertise in school improvement, curriculum development, safeguarding, and strategic leadership. She is committed to creating safe, inclusive learning environments that promote academic excellence and support the UAE’s vision for educational success.",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Djamilla",
+              "asset": {
+                "_ref": "image-bc26e50e016e2ef64dbf6e164a03ed5d396061c3-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "22",
+            "subtitle": "Job Title?",
+            "title": "Ms. Djamilla"
+          },
+          {
+            "_key": "nasser-hamad",
+            "_type": "card",
+            "description": "With over 25 years of experience in mathematics education and more than 8 years in school leadership in the UAE, she brings extensive expertise in teaching, educational leadership, and curriculum development. Holding a Ph.D. in Applied Mathematics, a Master’s in Applied Mathematics and Educational Leadership, and an MOE School Leadership License, she is committed to inspiring excellence, fostering innovation, and empowering students and educators to achieve their full potential.",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Nighat",
+              "asset": {
+                "_ref": "image-25431355bb0e7c0a89cc5fb8c858f27371bc30ee-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "25",
+            "subtitle": "---",
+            "title": "Ms. Nighat"
+          },
+          {
+            "_key": "a4b04283c8bf",
+            "_type": "card",
+            "description": "xxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxx xxxxx xxxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxx xxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxxxx xxxxx xxxxxxxxx.",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Branlyn",
+              "asset": {
+                "_ref": "image-6efa8935d1c19adb1d5b32c1ec776456b569af8d-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "xx",
+            "subtitle": "---",
+            "title": "Ms. Branlyn"
+          },
+          {
+            "_key": "fc333b8843c0",
+            "_type": "card",
+            "description": "xxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxx xxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxx xxxx xxxxx xxxxxxx xx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxx xxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxx xxxxx xxxxxxxxxx xxxxxxxxxxxxxxxx xxxxx xxxxxxxxx.",
+            "image": {
+              "_type": "image",
+              "alt": "Ms. Marwa",
+              "asset": {
+                "_ref": "image-1b04641b9b9141ec3ffc12fa5d6e1eca1169606f-992x1368-jpg",
+                "_type": "reference"
+              }
+            },
+            "label": "xx",
+            "subtitle": "---",
+            "title": "Ms. Marwa"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "leadership-description",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "leadership-description-text",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We committed to delivering high-quality education across all grade levels. Our Senior Leadership Team (SLT) provides strategic direction and fosters a culture of excellence and innovation."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "eyebrow": "Senior Leadership Team",
+          "title": "Our academic team is a diverse group of passionate educators and experienced leaders."
+        },
+        "slot": "leadershipSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Meet the team at Sharjah American International School Sharjah.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi team members standing together",
+        "asset": {
+          "_ref": "image-08ad8e5d24af076105375f58ea9d15686e9252a3-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "Our Team | SAIS - Abu Dhabi"
+    },
+    "title": "Our Team"
+  }
+]

@@ -28,6 +28,12 @@ type PageHeroStyle = CSSProperties & {
   "--page-hero-image-width"?: string;
 };
 
+/** "Abu Dhabi" (with the dash before it) never splits across lines: "... SAIS - Abu" / "Dhabi" becomes "... SAIS" / "- Abu Dhabi". */
+function keepCampusNameTogether(title: string) {
+  // A word joiner after the dash stops the browser breaking there (a hyphen allows a break after it).
+  return title.replace(/ - Abu Dhabi/g, " -\u2060\u00a0Abu\u00a0Dhabi");
+}
+
 export function PageHero({
   title,
   image,
@@ -114,7 +120,7 @@ export function PageHero({
       <div className="page-hero__copy">
         {eyebrow ? <p className="page-hero__eyebrow">{eyebrow}</p> : null}
         <h1 id={titleId} className="page-hero__title">
-          {title}
+          {keepCampusNameTogether(title)}
         </h1>
       </div>
 

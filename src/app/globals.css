@@ -19124,3 +19124,40 @@ a.school-policy-card__cover:hover {
     transform-origin: 100% 0;
   }
 }
+
+/*
+ * Phones (Theo's notes): no white keyline between a page hero photo and the page bar under it;
+ * About Us shows the girl larger and both girls in the ADEK photo; Our Team's leadership cards
+ * scroll with a gap between them; on Academics two headings break where the editor put a line
+ * break; the homepage Student Life card frames the girl from head to ball.
+ */
+@media (max-width: 767px) {
+  .inner-page-nav {
+    border-top-width: 0;
+  }
+
+  .about-page .about-intro-section__media .about-intro-section__image,
+  .about-page .about-intro-section__media:hover .about-intro-section__image {
+    transform: scale(1.35);
+    transform-origin: 42% 40%;
+  }
+
+  .about-page .about-adek-feature .intro-feature__image {
+    object-position: 20% center;
+  }
+
+  .academics-page .academics-teaching__title,
+  .academics-page .academics-learning-slider__title {
+    white-space: pre-line;
+  }
+
+  .preview-page .quick-links-card--student-life .quick-links-card__image {
+    object-position: center 20%;
+  }
+}
+
+@media (max-width: 640px) {
+  .our-team-page .our-team-leadership__cards {
+    gap: 16px;
+  }
+}
