@@ -528,6 +528,11 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     },
     "policySection": {
       "backgroundColor": "#ffffff",
+      "ctas": [
+        {
+          "variant": "secondary"
+        }
+      ],
       "imagePosition": "right",
       "textColor": "#6f7175",
       "theme": "light",

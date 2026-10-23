@@ -858,6 +858,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "admissions-page/policySection": {
     "section": [
+      "ctas",
       "heading",
       "image"
     ],

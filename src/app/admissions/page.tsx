@@ -96,6 +96,7 @@ export default async function AdmissionsPage() {
           imageSizes="(max-width: 767px) 100vw, 47vw"
           preserveRichText
           showTitle
+          showCtas
         />
       ) : null}
 
