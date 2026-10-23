@@ -19100,3 +19100,27 @@ a.school-policy-card__cover:hover {
 #admissions-policy .cta-link--primary {
   border: 1px solid var(--sais-primary);
 }
+
+/*
+ * Homepage on phones, photo framing (Theo's notes): the robotics photo shows the student on the
+ * right; About Us centres the boy; Academics shows the book with both faces; Community zooms in
+ * from the top right so the three boys sit lower and further left, clear of the wave.
+ */
+@media (max-width: 767px) {
+  .preview-page .intro-feature .intro-feature__image {
+    object-position: right center;
+  }
+
+  .preview-page .quick-links-card--about-us .quick-links-card__image {
+    object-position: center 50%;
+  }
+
+  .preview-page .quick-links-card--academics .quick-links-card__image {
+    object-position: center 35%;
+  }
+
+  .preview-page .quick-links-card--our-community .quick-links-card__image {
+    transform: scale(1.2);
+    transform-origin: 100% 0;
+  }
+}

@@ -51,12 +51,14 @@ export function QuickLinksCards({ cards = [] }: QuickLinksCardsProps) {
       {cards.map((card, index) => {
         const theme = card.theme || themeFallbacks[index % themeFallbacks.length];
         const href = getQuickLinkHref(card);
+        // Names the card after its page (about-us, academics, ...) so styles can target one card.
+        const page = href.replace(/^\/+|\/+$/g, "").replace(/[^a-z0-9]+/gi, "-").toLowerCase() || "link";
 
         return (
           <Reveal
             as="article"
             key={`${card.title}-${index}`}
-            className={`quick-links-card quick-links-card--${theme} academics-card-reveal`}
+            className={`quick-links-card quick-links-card--${theme} quick-links-card--${page} academics-card-reveal`}
             delay={100 + index * 120}
             threshold={0.12}
           >
