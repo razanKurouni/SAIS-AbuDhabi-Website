@@ -19163,8 +19163,9 @@ a.school-policy-card__cover:hover {
 }
 
 /*
- * Phones, more of Theo's notes. Parent Involvement goal cards: the photo goes on top with the
- * S-curve running across its foot (the side-by-side curve was squeezed to a sliver). Academics,
+ * Phones, more of Theo's notes. Parent Involvement goal cards: laid out like the homepage Quick
+ * Links cards, text on top and the photo below with the same teal wave across its top (the
+ * side-by-side curve was squeezed to a sliver). Academics,
  * Elementary and Kindergarten: one 50px step where sections of the same colour meet (they were
  * 112-120px). Campus videos keep their 16:9 frame instead of a near-square one. Kindergarten
  * "The Curriculum" shows both faces of the high-five photo; Elementary's assessment photo is
@@ -19177,7 +19178,7 @@ a.school-policy-card__cover:hover {
 .parent-goal-card__mobile-curve-line {
   fill: none;
   stroke: var(--parent-goal-curve);
-  stroke-width: 10px;
+  stroke-width: 18px;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
 }
@@ -19189,8 +19190,7 @@ a.school-policy-card__cover:hover {
   }
 
   .parent-goal-card__media {
-    order: -1;
-    height: 210px;
+    height: 250px;
     min-height: 0;
   }
 
@@ -19200,16 +19200,16 @@ a.school-policy-card__cover:hover {
 
   .parent-goal-card__mobile-curve {
     position: absolute;
+    top: -1px;
     right: 0;
-    bottom: -1px;
     left: 0;
     display: block;
     width: 100%;
-    height: 46px;
+    height: 70px;
   }
 
   .parent-goal-card__body {
-    padding: 14px 22px 26px;
+    padding: 26px 22px 6px;
   }
 
   .academics-page .academics-inclusion-section.editorial-split-section {
