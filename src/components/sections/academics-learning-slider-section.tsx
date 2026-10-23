@@ -62,20 +62,23 @@ export function AcademicsLearningSliderSection({
   const heading = section?.heading || fallbackSection.heading;
   const slides = section?.slides?.length ? section.slides : fallbackSection.slides || [];
   const [activeIndex, setActiveIndex] = useState(0);
+  const [direction, setDirection] = useState<"next" | "prev">("next");
   const [isHovered, setIsHovered] = useState(false);
   const slideCount = slides.length;
   const safeActiveIndex = slideCount > 0 ? activeIndex % slideCount : 0;
   const activeSlide = slides[safeActiveIndex];
 
   const goToSlide = useCallback((index: number) => {
+    setDirection(index < safeActiveIndex ? "prev" : "next");
     setActiveIndex(index);
-  }, []);
+  }, [safeActiveIndex]);
 
   const goToPrevious = useCallback(() => {
     if (slideCount <= 1) {
       return;
     }
 
+    setDirection("prev");
     setActiveIndex((currentIndex) => (currentIndex - 1 + slideCount) % slideCount);
   }, [slideCount]);
 
@@ -84,6 +87,7 @@ export function AcademicsLearningSliderSection({
       return;
     }
 
+    setDirection("next");
     setActiveIndex((currentIndex) => (currentIndex + 1) % slideCount);
   }, [slideCount]);
 
@@ -153,6 +157,7 @@ export function AcademicsLearningSliderSection({
           <div
             key={activeSlide._key || `${activeSlide.title}-${safeActiveIndex}`}
             className="academics-learning-slider__inner"
+            data-direction={direction}
           >
             <div className="academics-learning-slider__media">
               {activeSlide.image?.url ? (

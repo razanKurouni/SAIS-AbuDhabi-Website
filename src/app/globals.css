@@ -19009,3 +19009,39 @@ a.school-policy-card__cover:hover {
 .academics-page .academics-teaching__card {
   justify-content: flex-start;
 }
+
+/*
+ * Academics, testing slider: slides move sideways like a carousel (the next one comes in from
+ * the right, the previous one from the left) instead of rising from the bottom.
+ */
+.academics-page .academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner {
+  animation-name: academics-learning-slide-from-right;
+}
+
+.academics-page .academics-learning-slider:not(.academics-learning-slider--animation-paused) .academics-learning-slider__inner[data-direction="prev"] {
+  animation-name: academics-learning-slide-from-left;
+}
+
+@keyframes academics-learning-slide-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(64px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes academics-learning-slide-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-64px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
