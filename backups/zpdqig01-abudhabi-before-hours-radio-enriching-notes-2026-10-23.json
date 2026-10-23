@@ -1,0 +1,478 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "contact-page",
+    "_rev": "fJtztduZgx6UNJBZ4QRnwc",
+    "_system": {
+      "base": {
+        "id": "contact-page",
+        "rev": "hY9036caaD2DnGNK61AyQT"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-23T12:42:19Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Contact Us"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus building",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "Sharjah American International School campus building",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/contact-us",
+    "sections": [
+      {
+        "_key": "contactInfo",
+        "_type": "entriesSection",
+        "body": [
+          {
+            "_key": "b-2",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "s-3",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Office Hours:"
+              },
+              {
+                "_key": "s-4",
+                "_type": "span",
+                "marks": [],
+                "text": "\nSunday – Thursday | 7:30 AM – 4:30 PM\nFriday | 7:30 AM – 11:30 AM"
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "entries": [
+          {
+            "_key": "contact-address",
+            "_type": "entry",
+            "href": "https://maps.app.goo.gl/A1Q7hUVqYEAtcckX8",
+            "iconType": "location",
+            "label": "Campus Address",
+            "text": "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE - P.O. Box 35590"
+          },
+          {
+            "_key": "contact-phone",
+            "_type": "entry",
+            "href": "tel:+97125861222",
+            "iconType": "phone",
+            "label": "Phone",
+            "text": "+971 2 586 1222"
+          },
+          {
+            "_key": "contact-email",
+            "_type": "entry",
+            "href": "mailto:info@saisabudhabi.com",
+            "iconType": "email",
+            "label": "Email",
+            "text": "info@saisabudhabi.com"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "b-0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "s-1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Whether you’re a parent, student, or visitor, feel free to reach out with your questions, feedback, or inquiries. Our team is here to support you."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "We’d Love to Hear From You"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "Sharjah American International School - Abu Dhabi campus building",
+          "asset": {
+            "_ref": "image-309925526e91ab841e974829c9901bb22f108124-1528x1312-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "contactInfo"
+      },
+      {
+        "_key": "map",
+        "_type": "entriesSection",
+        "entries": [
+          {
+            "_key": "map-embed",
+            "_type": "entry",
+            "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1600!2d54.6330314!3d24.3607139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e37d95555aaab%3A0x7ed3e7b1b6e679e6!2sSharjah%20American%20International%20School!5e1!3m2!1sen!2sae!4v1792407647768!5m2!1sen!2sae",
+            "label": "Google Maps embed link"
+          }
+        ],
+        "slot": "map"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Contact Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "CONTACT US",
+        "asset": {
+          "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Contact Us | SAIS - Abu Dhabi"
+    },
+    "title": "Contact Us"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "extra-curricular-activities-page",
+    "_rev": "fJtztduZgx6UNJBZ4QRnwc",
+    "_system": {
+      "base": {
+        "id": "extra-curricular-activities-page",
+        "rev": "mYtwGoTdVXqNh3yvJLAKhf"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-23T12:42:19Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Extracurricular\nActivities"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-ae6d08b3f30a508a43016384fcf556f874829d68-5768x3816-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-ae6d08b3f30a508a43016384fcf556f874829d68-5768x3816-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/extra-curricular-activities",
+    "sections": [
+      {
+        "_key": "enrichingSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "eca-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "eca-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our After-School Activities programme offers students the opportunity to explore their interests, develop new skills, and gain valuable experiences in a variety of fields beyond the classroom. Led by dedicated staff and conducted under school supervision, these activities encourage creativity, teamwork, leadership, and personal growth in a safe and engaging environment. A wide range of activities is announced at the beginning of each academic year, allowing students to choose those that best match their interests and talents."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Enriching Every Student Journey"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students playing basketball during after-school activities",
+          "asset": {
+            "_ref": "image-19a9ca15dd4d15257dd9ddc1892e320a8a19b2ce-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "enrichingSection"
+      },
+      {
+        "_key": "tourIntro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "accentTitle": "Apply now.",
+          "title": "Your future starts here."
+        },
+        "slot": "tourIntro"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore extracurricular activities at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi extracurricular activities",
+        "asset": {
+          "_ref": "image-ae6d08b3f30a508a43016384fcf556f874829d68-5768x3816-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Extracurricular Activities | SAIS - Abu Dhabi"
+    },
+    "title": "Extracurricular Activities"
+  },
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "student-life-page",
+    "_rev": "fJtztduZgx6UNJBZ4QRnwc",
+    "_system": {
+      "base": {
+        "id": "student-life-page",
+        "rev": "CxyzJCkIIAk9kzZkAT4uP2"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-23T12:42:19Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Student\nLife"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/student-life",
+    "sections": [
+      {
+        "_key": "beyondClassroomIntro",
+        "_type": "textSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sl-intro",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-intro-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "From the Sustainability Club and Power Club, where students engage in STEAM and robotics, to TED Talks, public speaking forums, and Arabic Story Writing Competitions, students develop creativity, confidence, critical thinking, and communication skills."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Students at SAIS - Abu Dhabi are encouraged to explore their passions through a wide range of enriching opportunities."
+        },
+        "slot": "beyondClassroomIntro"
+      },
+      {
+        "_key": "lifeFeature",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "sl-feature-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-feature-1-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Beyond the classroom, students participate in volunteering initiatives and student committees, where they grow their talents, develop leadership skills, and make meaningful contributions to the school and wider community."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "sl-feature-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "sl-feature-2-s",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At SAIS - Abu Dhabi, student life extends beyond academics, it’s where talents are nurtured, leaders are inspired, and every student is empowered to make a positive impact"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": ""
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi students on the football pitch",
+          "asset": {
+            "_ref": "image-818063da214bda6d578049b33951032c08706a2d-1560x1252-jpg",
+            "_type": "reference"
+          }
+        },
+        "slot": "lifeFeature"
+      },
+      {
+        "_key": "committeesSection",
+        "_type": "cardsSection",
+        "cards": [
+          {
+            "_key": "senior",
+            "_type": "card",
+            "description": "Serves as the official student representative body, providing students with opportunities to contribute to school improvement, organise events, and communicate students perspectives to school leadership.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi senior students walking with their teachers",
+              "asset": {
+                "_ref": "image-a207d898b7e7ffb22d76ee6d813c40e231a1889e-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Senior Committee"
+          },
+          {
+            "_key": "national-identity",
+            "_type": "card",
+            "description": "Promotes UAE heritage, culture, traditions, and national identity.\n\nObjectives:\n•\tCelebrate UAE National Day\n•\tPromote Emirati culture\n•\tSupport national initiatives\n•\tDevelop global citizenship",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi Emirati heritage majlis corner",
+              "asset": {
+                "_ref": "image-9382ff2c8f746b11df8e0949bca236fee7ec19bd-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "National Identity Committee"
+          },
+          {
+            "_key": "happiness",
+            "_type": "card",
+            "description": "The Happiness Committee is dedicated to promoting positive mental health, kindness, inclusion, and wellbeing across the school community. Through a range of initiatives, the committee fosters a supportive and welcoming environment, encourages healthy lifestyles, celebrates student achievements, and strengthens a positive school culture where every student feels valued and supported.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students smiling together in class",
+              "asset": {
+                "_ref": "image-a347ea3c10f46f80d385a15925d39d1d6cb6332f-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Happiness Committee"
+          },
+          {
+            "_key": "radio-station",
+            "_type": "card",
+            "description": "The Radio Station Committee gives students the opportunity to develop their communication, confidence, and presentation skills by preparing and delivering school announcements. Members work as a team to share important news, celebrate achievements, and keep the school community informed through engaging broadcasts.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students broadcasting from the school radio studio",
+              "asset": {
+                "_ref": "image-8e9f311b21e912d4b66142465b32b2fcc3ab8534-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Radio Station\n& Social Media Committee"
+          },
+          {
+            "_key": "red-crescent",
+            "_type": "card",
+            "description": "Develops compassion, volunteerism, and humanitarian responsibility through charitable initiatives in partnership with the Emirates Red Crescent.\n\nObjectives:\n•\tPromote volunteer work\n•\tSupport local communities\n•\tOrganise fundraising\n•\tParticipate in humanitarian campaigns",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students walking with their teacher in the girls section",
+              "asset": {
+                "_ref": "image-6ee1561378ba6e3d41d7d5f1eb76b32c0986345f-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Red Crescent Committee"
+          },
+          {
+            "_key": "sustainability",
+            "_type": "card",
+            "description": "The Sustainability Committee promotes environmental awareness and encourages sustainable practices throughout the school community. Through projects and campaigns, the committee works to reduce waste, encourage recycling, promote the conservation of natural resources, and support the UAE’s sustainability goals by inspiring students to make environmentally responsible choices.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students working on sustainability projects in class",
+              "asset": {
+                "_ref": "image-83c92b8366632d9b6ddb1efd72ec0116d58fe820-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Sustainability\nCommittee"
+          },
+          {
+            "_key": "social-media",
+            "_type": "card",
+            "description": "The Social Media Committee empowers students to capture the vibrant life of the school by filming events, creating engaging photo and video content, and sharing memorable moments across the school’s social media platforms.\n\nThrough creativity and teamwork, members help showcase the school’s achievements, activities, and community spirit.",
+            "image": {
+              "_type": "image",
+              "alt": "SAIS - Abu Dhabi students recording in the radio studio",
+              "asset": {
+                "_ref": "image-9df47956ec61e3235f59874844b9ad282b898067-1528x1312-jpg",
+                "_type": "reference"
+              }
+            },
+            "title": "Social Media Committee"
+          }
+        ],
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "SAIS Students Committees"
+        },
+        "slot": "committeesSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore student life, programmes, and extracurricular opportunities at SAIS - Abu Dhabi.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi students enjoying student life",
+        "asset": {
+          "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+          "_type": "reference"
+        }
+      },
+      "title": "Student Life | SAIS - Abu Dhabi"
+    },
+    "title": "Student Life"
+  }
+]

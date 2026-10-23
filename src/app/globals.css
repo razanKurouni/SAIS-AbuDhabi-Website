@@ -17103,10 +17103,6 @@ a.school-policy-card__cover:hover {
   font-weight: 700;
 }
 
-.contact-page .contact-info-section__item:first-child .contact-info-section__item-text > span:nth-of-type(2) {
-  font-weight: 700;
-}
-
 /* Wellbeing: counseling & support (image left, navy title, teal labels) */
 .wellbeing-counseling-section.editorial-split-section {
   background: var(--editorial-split-bg, #ffffff);

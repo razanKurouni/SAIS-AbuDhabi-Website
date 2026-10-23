@@ -149,7 +149,7 @@ export function mapLegacySectionsToHomepage(sections: LegacyHomeSection[]): Home
       ctas: intro?.ctas?.map((label) => asCta(label, "#", "secondary")),
     },
     ctaBand: {
-      text: "For applications, school tours, or general inquiries, please contact our admissions team.",
+      text: "For applications, school tours, or general enquiries, please contact our admissions team.",
       ctas: [asCta("Apply Now"), asCta("Book a Tour", "#", "secondary"), asCta("Contact Us", "#", "ghost")],
     },
     accreditations: {
