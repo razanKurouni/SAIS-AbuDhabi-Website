@@ -123,6 +123,11 @@ export default async function ParentInvolvementPage() {
                       <path className="parent-goal-card__curve-mask" d="M0 -32 H52 C16 42 16 92 42 154 C70 220 70 274 38 352 H0 Z" />
                       <path className="parent-goal-card__curve-line" d="M52 -24 C16 42 16 92 42 154 C70 220 70 274 38 344" />
                     </svg>
+                    {/* Phones stack the photo above the text; the same S-curve then runs across its foot. */}
+                    <svg className="parent-goal-card__mobile-curve" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true">
+                      <path className="parent-goal-card__curve-mask" d="M-4 64 V36 C90 4 190 2 270 26 C330 44 370 42 404 20 V64 Z" />
+                      <path className="parent-goal-card__mobile-curve-line" d="M-4 36 C90 4 190 2 270 26 C330 44 370 42 404 20" />
+                    </svg>
                   </div>
                 </Reveal>
               ))}

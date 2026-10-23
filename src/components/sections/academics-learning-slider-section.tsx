@@ -3,6 +3,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
+import { useSwipe } from "@/hooks/use-swipe";
 import type { CSSProperties } from "react";
 import { Reveal } from "@/components/ui/reveal";
 import type { AcademicsLearningSliderSection as AcademicsLearningSliderSectionData } from "@/types/sanity";
@@ -91,6 +92,8 @@ export function AcademicsLearningSliderSection({
     setActiveIndex((currentIndex) => (currentIndex + 1) % slideCount);
   }, [slideCount]);
 
+  const swipe = useSwipe(goToPrevious, goToNext);
+
   useEffect(() => {
     if (disableAnimation || slideCount <= 1 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
@@ -123,6 +126,7 @@ export function AcademicsLearningSliderSection({
       style={style}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      {...swipe}
     >
       {heading?.title ? (
         <Reveal className="academics-learning-slider__header">

@@ -19161,3 +19161,90 @@ a.school-policy-card__cover:hover {
     gap: 16px;
   }
 }
+
+/*
+ * Phones, more of Theo's notes. Parent Involvement goal cards: the photo goes on top with the
+ * S-curve running across its foot (the side-by-side curve was squeezed to a sliver). Academics,
+ * Elementary and Kindergarten: one 50px step where sections of the same colour meet (they were
+ * 112-120px). Campus videos keep their 16:9 frame instead of a near-square one. Kindergarten
+ * "The Curriculum" shows both faces of the high-five photo; Elementary's assessment photo is
+ * framed on the girl.
+ */
+.parent-goal-card__mobile-curve {
+  display: none;
+}
+
+.parent-goal-card__mobile-curve-line {
+  fill: none;
+  stroke: var(--parent-goal-curve);
+  stroke-width: 10px;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+@media (max-width: 767px) {
+  .parent-goal-card {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .parent-goal-card__media {
+    order: -1;
+    height: 210px;
+    min-height: 0;
+  }
+
+  .parent-goal-card__curve {
+    display: none;
+  }
+
+  .parent-goal-card__mobile-curve {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 46px;
+  }
+
+  .parent-goal-card__body {
+    padding: 14px 22px 26px;
+  }
+
+  .academics-page .academics-inclusion-section.editorial-split-section {
+    padding-bottom: 0;
+  }
+
+  .academics-page .academics-overview-support-programs.academics-support-programs {
+    padding-top: 0;
+  }
+
+  .academics-page .academics-assessment-protocol.academics-kg-assessment {
+    padding-top: 0;
+  }
+
+  /* The slider's arrows sit 20px into its section, so the panel above closes on 30. */
+  .academics-page .academics-inclusion-feature-section.intro-feature {
+    padding-bottom: 30px;
+  }
+
+  .academics-elementary-page .learning-phases,
+  .academics-kindergarten-page .learning-phases {
+    padding-top: 0;
+  }
+
+  .campus-video__frame,
+  .our-campus-page .campus-video__frame {
+    aspect-ratio: 16 / 9;
+  }
+
+  .academics-kindergarten-page .academics-kg-curriculum-feature .intro-feature__image-shell {
+    min-height: 300px;
+  }
+
+  .academics-elementary-page .academics-elementary-assessment__image {
+    transform: scale(1.25);
+    transform-origin: 100% 30%;
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "_createdAt": "2026-09-21T10:49:43Z",
+    "_id": "academics-elementary-page",
+    "_rev": "wP4YwZttsvc1urcFULC2Q1",
+    "_system": {
+      "base": {
+        "id": "academics-elementary-page",
+        "rev": "jtzXmr5sPTxAjhSjhtbULo"
+      }
+    },
+    "_type": "page",
+    "_updatedAt": "2026-10-06T08:40:41Z",
+    "hero": {
+      "heading": {
+        "_type": "sectionHeading",
+        "title": "Elementary"
+      },
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi elementary students raising their hands in class",
+        "asset": {
+          "_ref": "image-0cb851e9c7dbbb32bf3b4d804bc3bf2a14515c21-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "mobileImage": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi elementary students raising their hands in class",
+        "asset": {
+          "_ref": "image-0cb851e9c7dbbb32bf3b4d804bc3bf2a14515c21-2226x1124-png",
+          "_type": "reference"
+        }
+      }
+    },
+    "route": "/academics/elementary",
+    "sections": [
+      {
+        "_key": "curriculumSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-curriculum",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-curriculum-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The elementary curriculum engages students engage in a comprehensive curriculum driven by project-based learning (PBL) and the scientific method in Math, English, and Science. They benefit from weekly sessions in swimming, Physical Education (PE), and gymnastics to support their physical development. The curriculum is enriched with Music, Art, drama, and French using in addition to Arabic plays, and Qur’an recitation to strengthen cultural identity and creativity. Students are introduced to AI and STEM foundations, developing 21st-century skills at an early age."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "The Curriculum"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary teacher guiding students through a hands-on building activity",
+          "asset": {
+            "_ref": "image-6fd4d0ca333ae589359e25b358b814a743f8e209-1560x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "curriculumSection"
+      },
+      {
+        "_key": "assessmentSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-assessment",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-assessment-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In Grades 1 and 2, SAIS-Abu Dhabi is implementing an ongoing assessment model designed to provide a comprehensive and holistic view of each student’s progress. This shift moves away from solely relying on periodic tests and instead focuses on continuous evaluation through observations, classwork, homework, projects, discussions, and quizzes. This approach enables teachers to better understand and support students’ development throughout the year in a relaxed and stress-free environment."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment for Every\nStage of Learning"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary student wearing safety goggles in a STEM workshop",
+          "asset": {
+            "_ref": "image-7aeff3e1a7206213fa1b51c95529dc259f9a8788-1942x1826-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentSection"
+      },
+      {
+        "_key": "assessmentDetailSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-assessment-detail-1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-assessment-detail-1-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "While multiple formative and summative assessments will take place across subjects, parents will not be informed prior to their administration, to ensure assessments reflect authentic learning and reduce performance anxiety. However, in response to parent feedback and to support home preparation, schedules will be shared in advance for Arabic and Islamic Studies assessments only."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "elementary-assessment-detail-2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-assessment-detail-2-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We continue using our proficiency scale for grades 1 and 2 to better reflect the progress and achievements of our students. We do convert these proficiency scales into percentages for our internal data analyses."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Assessment Details"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary students reading with their teacher in the library corner",
+          "asset": {
+            "_ref": "image-13deb8a083f068ea965183dfcfbb6f7040d3fcd8-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "assessmentDetailSection"
+      },
+      {
+        "_key": "dayInLifeSection",
+        "_type": "imageTextSection",
+        "heading": {
+          "_type": "sectionHeading",
+          "description": [
+            {
+              "_key": "elementary-day",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "elementary-day-span",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school. From engaging classroom activities to creative projects, friendships, and memorable moments, these snapshots reflect the energy, growth, and joy that define everyday school life."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "A Day in the Life"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "SAIS - Abu Dhabi elementary students sharing a moment in class",
+          "asset": {
+            "_ref": "image-90099cf7350daa6250070636b5033d466d0d16bd-1554x1312-png",
+            "_type": "reference"
+          }
+        },
+        "slot": "dayInLifeSection"
+      }
+    ],
+    "seo": {
+      "_type": "seo",
+      "description": "Explore Elementary academics at Sharjah American International School.",
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi elementary students raising their hands in class",
+        "asset": {
+          "_ref": "image-0cb851e9c7dbbb32bf3b4d804bc3bf2a14515c21-2226x1124-png",
+          "_type": "reference"
+        }
+      },
+      "title": "Elementary | Academics | SAIS - Abu Dhabi"
+    },
+    "title": "Elementary"
+  }
+]

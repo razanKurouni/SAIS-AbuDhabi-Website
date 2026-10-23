@@ -19,6 +19,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useSwipe } from "@/hooks/use-swipe";
 import type { CSSProperties } from "react";
 import { HoverIconCard } from "@/components/ui/hover-icon-card";
 import { Reveal } from "@/components/ui/reveal";
@@ -120,6 +121,7 @@ export function AcademicsSupportProgramsSliderSection({
 
   const goToPrev = useCallback(() => setActiveStart((s) => (s <= 0 ? maxStart : s - 1)), [maxStart]);
   const goToNext = useCallback(() => setActiveStart((s) => (s >= maxStart ? 0 : s + 1)), [maxStart]);
+  const swipe = useSwipe(goToPrev, goToNext);
 
   useEffect(() => {
     if (maxStart <= 0 || isHovered || (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) return;
@@ -203,7 +205,7 @@ export function AcademicsSupportProgramsSliderSection({
               </div>
             ) : null}
 
-            <div className="academics-support-programs__viewport">
+            <div className="academics-support-programs__viewport" {...swipe}>
               <div className="academics-support-programs__track" style={trackStyle}>
                 {cards.map((card, index) => {
                   const namedIcon = fallbackIconNames?.[index]
