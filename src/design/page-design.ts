@@ -972,7 +972,7 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
   "parent-involvement-page": {
     "goalsSection": {
       "cards": [
-        { "curveColor": "#00A5B2", "titleColor": "#00A5B2" },
+        { "curveColor": "#00A5B2", "titleColor": "#216B97" },
         { "curveColor": "#00A5B2", "titleColor": "#D97252" },
         { "curveColor": "#00A5B2", "titleColor": "#00A5B2" },
         { "curveColor": "#00A5B2", "titleColor": "#707174" }
