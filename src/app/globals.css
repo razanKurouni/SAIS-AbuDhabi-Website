@@ -19298,3 +19298,35 @@ a.school-policy-card__cover:hover {
     margin-top: -80px !important;
   }
 }
+
+/*
+ * Phones: every slider shows its arrows. They appeared only on mouse hover (image-and-text
+ * sliders, Our Team) or were switched off (Our Team on small phones, High School AP benefits),
+ * and a phone has no hover.
+ */
+@media (max-width: 767px) {
+  .academics-learning-slider .academics-learning-slider__arrow {
+    opacity: 1;
+  }
+
+  .our-team-page .our-team-leadership__controls {
+    display: flex;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .academics-high-school-page .academics-high-school-ap-benefits-slider .academics-support-programs__arrows {
+    display: flex;
+  }
+
+  /* High School's two image sliders have no heading for the arrows to sit beside, so they sat
+     above the slider on the previous section; they now sit at the top of the slide band. */
+  .academics-high-school-page .academics-learning-slider__arrow {
+    top: 10px;
+  }
+
+  .academics-high-school-page .academics-learning-slider__inner {
+    padding-top: 64px;
+  }
+}
