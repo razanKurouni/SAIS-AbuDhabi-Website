@@ -19046,3 +19046,37 @@ a.school-policy-card__cover:hover {
     transform: translateX(0);
   }
 }
+
+/*
+ * Book a Tour / Start Your Application cards: the photos are framed from the bottom, so the
+ * empty space above the children is what gets cropped (they were framed from the top).
+ */
+.tour-action-card__image img {
+  object-position: center bottom;
+}
+
+/*
+ * Community pages (Our Community, Our Campus, Wellbeing, Parent Involvement, Calendar, Reports,
+ * Policies): their seven-tab page bar was a thin 34px strip with small text. It now has the same
+ * borders as the bar on every other page and, on desktop, the same 66px height and text size.
+ */
+.community-inner-nav {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+/* Tablets show these pages' bar as a dropdown; it gets the 58px height of the tabs other pages show there. */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .community-inner-nav .inner-page-nav__dropdown-trigger {
+    min-height: 58px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .community-inner-nav .inner-page-nav__link {
+    min-height: 58px;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
