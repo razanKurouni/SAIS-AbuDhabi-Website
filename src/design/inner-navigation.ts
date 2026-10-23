@@ -346,11 +346,11 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programs",
+        "label": "Student Programmes",
         "href": "/student-programs"
       },
       {
-        "label": "Extra Curricular Activities",
+        "label": "Extracurricular Activities",
         "href": "/extra-curricular-activities"
       }
     ],
@@ -369,11 +369,11 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programs",
+        "label": "Student Programmes",
         "href": "/student-programs"
       },
       {
-        "label": "Extra Curricular Activities",
+        "label": "Extracurricular Activities",
         "href": "/extra-curricular-activities"
       }
     ],
@@ -392,11 +392,11 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programs",
+        "label": "Student Programmes",
         "href": "/student-programs"
       },
       {
-        "label": "Extra Curricular Activities",
+        "label": "Extracurricular Activities",
         "href": "/extra-curricular-activities"
       }
     ],

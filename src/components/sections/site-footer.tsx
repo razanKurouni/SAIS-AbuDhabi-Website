@@ -91,7 +91,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
   const quickLinks = footer?.quickLinks?.length ? footer.quickLinks : defaultQuickLinks;
   const quickLinksTitle = footer?.quickLinksTitle || "Quick Links";
   const contactItems = footer?.contactItems?.length ? footer.contactItems : defaultContactItems;
-  const copyrightText = footer?.copyrightText || "© 2026 Sharjah American International School Campus";
+  const copyrightText = footer?.copyrightText || "© 2026 Sharjah American International School - Abu Dhabi Campus";
   const creditLabel = footer?.creditLabel || "Site by";
   const creditName = footer?.creditName || "Formulate";
   const creditUrl = footer?.creditUrl || "https://www.formulatecreative.com/";

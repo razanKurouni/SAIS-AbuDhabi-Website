@@ -103,7 +103,7 @@ const fallbackValues: ValuesSection = {
         {
           title: "Wellbeing",
           description:
-            "We prioritize the social, emotional, and physical wellbeing of our community, creating a safe and supportive environment where individuals can grow with confidence.",
+            "We prioritise the social, emotional, and physical wellbeing of our community, creating a safe and supportive environment where individuals can grow with confidence.",
           icon: {
             url: "/about-values-icon-wellbeing.png",
             alt: "Wellbeing icon",

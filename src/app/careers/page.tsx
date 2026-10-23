@@ -104,7 +104,7 @@ const fallbackRequirementsSection: CareersRequirementsSectionData = {
       _key: "leadership-roles",
       title: "Roles",
       subtitle: "Leadership & Administrative Roles",
-      items: ["Curriculum Coordinator", "KG Coordinator", "English HOD", "Social Worker / Counselor"],
+      items: ["Curriculum Coordinator", "KG Coordinator", "English HOD", "Social Worker / Counsellor"],
     },
     {
       _key: "kg-elementary",

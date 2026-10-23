@@ -100,7 +100,7 @@ const fallbackOverviewSection: ImageTextSection = {
     description: [
       paragraph(
         "hs-overview-1",
-        "Our High School program focuses on university and career readiness. Students receive individualized support to pursue pathways aligned with their future goals."
+        "Our High School programme focuses on university and career readiness. Students receive individualised support to pursue pathways aligned with their future goals."
       ),
     ],
   },
@@ -142,7 +142,7 @@ const fallbackCareerGuidanceIntroSection: SectionHeadingData = {
 const fallbackSlider: AcademicsLearningSliderSectionData = { heading: { title: "" }, slides: [] };
 
 const fallbackCareerGuidanceSection: ImageTextSection = {
-  heading: { title: "Career Guidance" },
+  heading: { title: "Guidance for Life Beyond High School" },
   image: {},
   imagePosition: "right",
   backgroundColor: "#f2f2f2",
@@ -207,7 +207,7 @@ export default async function AcademicsHighSchoolPage() {
   const apDiplomaSection = highSchoolPage?.apDiplomaSection;
   const apBenefitsSection = highSchoolPage?.apBenefitsSection;
   const dayInLifeSection = highSchoolPage?.dayInLifeSection;
-  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "Advanced Placement (AP) College board program";
+  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "Advanced Placement (AP) College Board programme";
 
   return (
     <SitePageShell
@@ -288,7 +288,7 @@ export default async function AcademicsHighSchoolPage() {
       {careerGuidanceSection ? (
         <EditorialSplitSection
           id="academics-high-school-career-guidance"
-          title={careerGuidanceSection.heading?.title || "Career Guidance"}
+          title={careerGuidanceSection.heading?.title || "Guidance for Life Beyond High School"}
           section={{ ...fallbackCareerGuidanceSection, ...careerGuidanceSection, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}

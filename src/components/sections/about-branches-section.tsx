@@ -55,7 +55,7 @@ const fallbackCards: AboutBranchCard[] = [
     established: "2014",
     location: "Abu Dhabi, UAE",
     description:
-      "SAIS - Abu Dhabi fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
+      "SAIS - Abu Dhabi fosters a close-knit and supportive community where personalised learning is a priority. The campus emphasises strong relationships, ensuring every student is guided towards academic and personal development.",
     image: {
       url: "/about-branch-umm-al-quwain.png",
       alt: "SAIS - Abu Dhabi campus building",

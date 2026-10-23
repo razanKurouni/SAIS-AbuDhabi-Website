@@ -109,7 +109,7 @@ const fallbackCurriculumSection: Required<AcademicsKindergartenFeatureSection> =
       ),
       paragraph(
         "elementary-curriculum-upper",
-        "Upper Elementary (Grades 3-5): The curriculum engages the students in interdisciplinary learning, and a noticeable emphasis is placed on collaboration, curiosity, and real-world applications. Technology integration becomes an integral part of the curriculum."
+        "Upper Elementary (Grades 3–5): The curriculum engages the students in interdisciplinary learning, and a noticeable emphasis is placed on collaboration, curiosity, and real-world applications. Technology integration becomes an integral part of the curriculum."
       ),
     ],
   },

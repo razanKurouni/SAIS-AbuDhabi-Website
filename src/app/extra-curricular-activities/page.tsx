@@ -10,12 +10,12 @@ import { resolveStudentSectionNavItems, studentSectionNavItems } from "@/lib/stu
 import type { AcademicsKindergartenFeatureSection } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Extra Curricular Activities | SAIS - Abu Dhabi",
+  title: "Extracurricular Activities | SAIS - Abu Dhabi",
   description: "Explore extracurricular activities at Sharjah American International School.",
 };
 
 const fallbackHero = {
-  title: "Extra Curricular\nActivities",
+  title: "Extracurricular\nActivities",
   image: {
     url: "/about-values-community.jpg",
     alt: "SAIS - Abu Dhabi students participating in extracurricular activities",

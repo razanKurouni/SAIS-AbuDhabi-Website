@@ -14,7 +14,7 @@ const fallbackCards: MissionShowcaseCard[] = [
   },
   {
     title: "Support",
-    description: "Providing individualized support and removing barriers to learning, ensuring that every student has access to high-quality education and opportunities for growth and development.",
+    description: "Providing individualised support and removing barriers to learning, ensuring that every student has access to high-quality education and opportunities for growth and development.",
     image: { url: "/images/about-mission/support.jpg", alt: "Teacher supporting young SAIS - Abu Dhabi students in class" },
     color: "#00a5b2",
   },
@@ -26,7 +26,7 @@ const fallbackCards: MissionShowcaseCard[] = [
   },
   {
     title: "Cultivate",
-    description: "Cultivating well-being, leadership, and community service to prepare students for lifelong success.",
+    description: "Cultivating wellbeing, leadership, and community service to prepare students for lifelong success.",
     image: { url: "/images/about-mission/cultivate.jpg", alt: "SAIS - Abu Dhabi student learning to play the violin" },
     color: "#df7150",
   },
@@ -46,7 +46,7 @@ export function AboutMissionShowcaseSection({ section }: Props) {
         <div className="about-mission-showcase__layout">
           <Reveal className="about-mission-showcase__statement" threshold={0.12}>
             <Image src="/sais-tab-icon.png" alt="SAIS 1997" width={205} height={218} />
-            <p>{section?.statement || "Our mission is to foster a culture of inclusion that recognizes and values the diversity of all students."}</p>
+            <p>{section?.statement || "Our mission is to foster a culture of inclusion that recognises and values the diversity of all students."}</p>
           </Reveal>
 
           <div className="about-mission-showcase__cards">

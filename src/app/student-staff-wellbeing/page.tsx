@@ -166,7 +166,7 @@ export default async function StudentStaffWellbeingPage() {
       {sel ? (
         <EditorialSplitSection
           id="wellbeing-sel"
-          title={sel.heading?.title || "Social and Emotional Learning Program (SEL)"}
+          title={sel.heading?.title || "Social and Emotional Learning Programme (SEL)"}
           section={{ ...sel, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}

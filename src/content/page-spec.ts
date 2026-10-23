@@ -135,7 +135,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("steamSection", "STEAM"),
       it("inclusionSection", "Inclusion and Support"),
       it("inclusionFeatureSection", "Inclusion and Support – Services"),
-      cards("supportProgramsSection", "Support Programs"),
+      cards("supportProgramsSection", "Support Programmes"),
       cards("assessmentProtocolSection", "Assessment Protocol"),
       { slot: "calendarDownload", kind: "cta", label: "Calendar Download" },
     ],
@@ -175,7 +175,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("curriculumSection", "The Curriculum"),
       it("assessmentSection", "Assessment"),
       it("assessmentDetailSection", "Assessment – Details"),
-      cards("supportProgramsSection", "Inclusion & Support Programs"),
+      cards("supportProgramsSection", "Inclusion & Support Programmes"),
       it("dayInLifeSection", "A Day in the Life"),
       { slot: "learningPhasesElementaryImage", kind: "image", label: "Learning Phases – Elementary Image" },
     ],
@@ -350,11 +350,11 @@ export const PAGE_SPECS: PageSpec[] = [
   {
     id: "student-programs-page",
     route: "/student-programs",
-    title: "Student Programs",
+    title: "Student Programmes",
     group: "Student Life",
     slots: [
-      it("highlightsSection", "Student Leadership Program"),
-      it("objectivesSection", "Objectives of the Program"),
+      it("highlightsSection", "Student Leadership Programme"),
+      it("objectivesSection", "Objectives of the Programme"),
       it("houseCaptainsSection", "SAIS House Captain System"),
       { slot: "tourIntro", kind: "heading", label: "Tour – Heading" },
     ],
@@ -362,7 +362,7 @@ export const PAGE_SPECS: PageSpec[] = [
   {
     id: "extra-curricular-activities-page",
     route: "/extra-curricular-activities",
-    title: "Extra Curricular Activities",
+    title: "Extracurricular Activities",
     group: "Student Life",
     slots: [
       it("enrichingSection", "Enriching Every Student Journey"),

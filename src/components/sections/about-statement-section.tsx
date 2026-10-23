@@ -11,7 +11,7 @@ const fallbackCards: StatementCard[] = [
   {
     title: "Vision",
     description:
-      "To be a leading American curriculum school group, recognized for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE's identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
+      "To be a leading American curriculum school group, recognised for academic excellence, innovation and strong values, preparing confident individuals who embody the UAE's identity, contribute meaningfully to society, and thrive within an evolving global landscape.",
     image: {
       url: "/about-statement-vision.jpg",
       alt: "Teacher supporting a student in a SAIS - Abu Dhabi classroom",
@@ -22,7 +22,7 @@ const fallbackCards: StatementCard[] = [
   {
     title: "Mission",
     description:
-      "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
+      "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalised support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
     image: {
       url: "/about-statement-mission.jpg",
       alt: "SAIS - Abu Dhabi principal speaking with students on campus",
