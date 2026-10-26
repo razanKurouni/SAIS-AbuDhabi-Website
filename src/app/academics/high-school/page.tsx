@@ -100,7 +100,7 @@ const fallbackOverviewSection: ImageTextSection = {
     description: [
       paragraph(
         "hs-overview-1",
-        "Our High School programme focuses on university and career readiness. Students receive individualised support to pursue pathways aligned with their future goals."
+        "Our High School program focuses on university and career readiness. Students receive individualized support to pursue pathways aligned with their future goals."
       ),
     ],
   },
@@ -208,7 +208,7 @@ export default async function AcademicsHighSchoolPage() {
   const apDiplomaSection = highSchoolPage?.apDiplomaSection;
   const apBenefitsSection = highSchoolPage?.apBenefitsSection;
   const dayInLifeSection = highSchoolPage?.dayInLifeSection;
-  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "Advanced Placement (AP) College Board programme";
+  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "Advanced Placement (AP) College Board program";
 
   return (
     <SitePageShell
@@ -266,7 +266,7 @@ export default async function AcademicsHighSchoolPage() {
       {counsellingSection ? (
         <EditorialSplitSection
           id="academics-high-school-counselling"
-          title={counsellingSection.heading?.title || "Career and Guidance Counselling"}
+          title={counsellingSection.heading?.title || "Career and Guidance Counseling"}
           section={{ ...counsellingSection, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}

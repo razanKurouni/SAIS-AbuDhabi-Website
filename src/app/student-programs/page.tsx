@@ -12,12 +12,12 @@ import type { InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import type { AcademicsKindergartenFeatureSection, InnerNavigation } from "@/types/sanity";
 
 const fallbackMetadata: Metadata = {
-  title: "Student Programmes | SAIS - Abu Dhabi",
-  description: "Explore Student Programmes in leadership, engagement and personal growth at SAIS - Abu Dhabi.",
+  title: "Student Programs | SAIS - Abu Dhabi",
+  description: "Explore Student Programs in leadership, engagement and personal growth at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
-  title: "Student Programmes",
+  title: "Student Programs",
   image: {
     url: "/sais-hero-students.jpg",
     alt: "SAIS - Abu Dhabi students working together",
@@ -44,7 +44,7 @@ const fallbackInnerNavigation: InnerNavigation = {
 };
 
 const fallbackLeadership: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "Student Leadership Programme" },
+  heading: { title: "Student Leadership Program" },
   image: {},
   imageSide: "left",
   imagePosition: "center",
@@ -154,7 +154,7 @@ export default async function StudentProgramsPage() {
       {objectives ? (
         <EditorialSplitSection
           id="student-programs-objectives"
-          title={objectives.heading?.title || "Objectives of the Students Leadership Programme"}
+          title={objectives.heading?.title || "Objectives of the Student Leadership Program"}
           section={{ ...objectives, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}

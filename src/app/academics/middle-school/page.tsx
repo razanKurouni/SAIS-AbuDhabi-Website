@@ -103,11 +103,11 @@ const fallbackHero = {
 
 const fallbackOverviewSection: ImageTextSection = {
   heading: {
-    title: "Stepping Into Specialised Learning",
+    title: "Stepping Into Specialized Learning",
     description: [
       paragraph(
         "middle-school-overview",
-        "As students transition into Grades 5 through 8, significant changes occur in their academic environment. They move from a homeroom setting to subject-based instruction, allowing for greater depth and specialisation in each subject area. Additionally, students transition from co-educational to segregated classes, facilitating a focused learning environment that addresses the unique needs of learners at this stage of development."
+        "As students transition into Grades 5 through 8, significant changes occur in their academic environment. They move from a homeroom setting to subject-based instruction, allowing for greater depth and specialization in each subject area. Additionally, students transition from co-educational to segregated classes, facilitating a focused learning environment that addresses the unique needs of learners at this stage of development."
       ),
     ],
   },
@@ -160,7 +160,7 @@ const fallbackDayInLifeSection: Required<AcademicsKindergartenFeatureSection> = 
 
 const fallbackSupportProgramsSection: AcademicsSupportProgramsSectionData = {
   heading: {
-    title: "Inclusion & Support Programmes",
+    title: "Inclusion & Support Programs",
   },
   backgroundColor: "#ffffff",
   titleColor: "#00A5B2",
@@ -172,14 +172,14 @@ const fallbackSupportProgramsSection: AcademicsSupportProgramsSectionData = {
       _key: "students-of-determination",
       title: "Students of Determination",
       description:
-        "Students with special educational needs and/or disabilities (SEND/SOD) are supported through individualised education plans (IEPs), push-in/pull-out support services, and tailored curriculum, instruction, and assessments.",
+        "Students with special educational needs and/or disabilities (SEND/SOD) are supported through individualized education plans (IEPs), push-in/pull-out support services, and tailored curriculum, instruction, and assessments.",
       iconType: "determination",
     },
     {
       _key: "gifted-and-talented",
       title: "Gifted and Talented Students",
       description:
-        "Students with identified gifts and/or talents are provided with enrichment and accelerated programmes as comprehensively stated and elaborated on in their advanced learning plans (ALPs).",
+        "Students with identified gifts and/or talents are provided with enrichment and accelerated programs as comprehensively stated and elaborated on in their advanced learning plans (ALPs).",
       iconType: "gifted",
     },
     {
@@ -191,16 +191,16 @@ const fallbackSupportProgramsSection: AcademicsSupportProgramsSectionData = {
     },
     {
       _key: "academic-counseling",
-      title: "Academic Counselling",
+      title: "Academic Counseling",
       description:
-        "Students in all phases are provided with integrated support through counselling, pastoral care, and academic planning.",
+        "Students in all phases are provided with integrated support through counseling, pastoral care, and academic planning.",
       iconType: "counseling",
     },
     {
       _key: "differentiation",
       title: "Differentiation",
       description:
-        "Internal and external assessment data as well as observational feedback are used to design targeted interventions and personalised instruction.",
+        "Internal and external assessment data as well as observational feedback are used to design targeted interventions and personalized instruction.",
       iconType: "differentiation",
     },
   ],
@@ -269,7 +269,7 @@ export default async function AcademicsMiddleSchoolPage() {
 
       <EditorialSplitSection
         id="academics-middle-school-overview"
-        title="Stepping Into Specialised Learning"
+        title="Stepping Into Specialized Learning"
         section={overviewSection}
         fallbackImage={fallbackOverviewSection.image || {}}
         fallbackParagraphs={[]}

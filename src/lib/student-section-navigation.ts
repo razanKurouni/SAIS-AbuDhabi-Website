@@ -3,7 +3,7 @@ import type { InnerNavigationItem } from "@/types/sanity";
 
 export const studentSectionNavItems: InnerPageNavItem[] = [
   { label: "Student Life", href: "/student-life" },
-  { label: "Student Programmes", href: "/student-programs" },
+  { label: "Student Programs", href: "/student-programs" },
   { label: "Extracurricular Activities", href: "/extra-curricular-activities" },
 ];
 

@@ -92,7 +92,7 @@ const fallbackExcellenceSection: Required<AcademicsKindergartenFeatureSection> =
     description: [
       paragraph(
         "kg-excellence",
-        "Teachers utilise a combination of structured activities and child-directed learning opportunities to cater to individual learning styles and needs. Our curriculum emphasises foundational skills such as literacy, numeracy, and social-emotional development, integrating them into engaging and developmentally appropriate learning experiences. Through a blend of structured lessons, interactive activities, and creative expression, students in KG-Grade 2 develop essential skills, knowledge, and attitudes that form the building blocks for future learning success."
+        "Teachers utilize a combination of structured activities and child-directed learning opportunities to cater to individual learning styles and needs. Our curriculum emphasizes foundational skills such as literacy, numeracy, and social-emotional development, integrating them into engaging and developmentally appropriate learning experiences. Through a blend of structured lessons, interactive activities, and creative expression, students in KG-Grade 2 develop essential skills, knowledge, and attitudes that form the building blocks for future learning success."
       ),
     ],
   },

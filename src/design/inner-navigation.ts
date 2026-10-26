@@ -346,7 +346,7 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programmes",
+        "label": "Student Programs",
         "href": "/student-programs"
       },
       {
@@ -369,7 +369,7 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programmes",
+        "label": "Student Programs",
         "href": "/student-programs"
       },
       {
@@ -392,7 +392,7 @@ export const INNER_NAVIGATION: Record<string, InnerNavigation> = {
         "href": "/student-life"
       },
       {
-        "label": "Student Programmes",
+        "label": "Student Programs",
         "href": "/student-programs"
       },
       {

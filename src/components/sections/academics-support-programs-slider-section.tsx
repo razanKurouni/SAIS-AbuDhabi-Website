@@ -86,7 +86,7 @@ const namedIconMap = {
 
 export type FallbackIconName = keyof typeof namedIconMap;
 
-/** A description that opens with a label ending in a colon ("Individualised Support Plans (IEP): ...") shows the label in bold. */
+/** A description that opens with a label ending in a colon ("Individualized Support Plans (IEP): ...") shows the label in bold. */
 function withBoldLeadIn(description?: string) {
   const match = description?.match(/^([^:.]{3,80}:)\s+([\s\S]+)$/);
   if (!match) return description;
@@ -242,7 +242,7 @@ export function AcademicsSupportProgramsSliderSection({
             </div>
 
             {dots.length > 1 ? (
-              <div className="academics-support-programs__dots" aria-label="Support programmes slider controls">
+              <div className="academics-support-programs__dots" aria-label="Support programs slider controls">
                 {dots.map((startIndex) => (
                   <button
                     key={startIndex}

@@ -195,7 +195,7 @@ export function SiteHeader({
         <nav className="site-header__nav" aria-label="Primary navigation">
           <HeaderAction cta={bookTourButton} fallbackLabel="Book a Tour" fallbackHref="#tour" />
           <HeaderAction cta={applyNowButton} fallbackLabel="Apply Now" fallbackHref="#apply" />
-          <IconLink href="https://saisa.ppnv1.mograsys.com" label="Parent / Student Portal" />
+          <IconLink href="https://saisa.ppnv1.mograsys.com" label="Parent/Student Portal" />
           <MenuButton icon={menuIcon} isOpen={isMenuOpen} onClick={toggleMenu} />
         </nav>
 
@@ -223,7 +223,7 @@ export function SiteHeader({
                 <HeaderAction cta={bookTourButton} fallbackLabel="Book a Tour" fallbackHref="#tour" />
                 <HeaderAction cta={applyNowButton} fallbackLabel="Apply Now" fallbackHref="#apply" />
 
-                <IconLink href="https://saisa.ppnv1.mograsys.com" label="Parent / Student Portal" />
+                <IconLink href="https://saisa.ppnv1.mograsys.com" label="Parent/Student Portal" />
                 <MenuButton
                   icon={menuIcon}
                   isOpen={isMenuOpen}
@@ -439,7 +439,7 @@ function buildMenuSections(links: LinkField[]): MenuSection[] {
       href: "/student-life",
       items: [
         { label: "Student Life", href: "/student-life" },
-        { label: "Student Programmes", href: "/student-programs" },
+        { label: "Student Programs", href: "/student-programs" },
         { label: "Extracurricular Activities", href: "/extra-curricular-activities" },
       ],
     },

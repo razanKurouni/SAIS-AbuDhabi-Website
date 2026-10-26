@@ -16,7 +16,7 @@ import { TourSection } from "@/components/sections/tour-section";
 import { TourIntroSection } from "@/components/sections/tour-intro-section";
 
 const fallbackCounselling: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "Counselling and Support Services" },
+  heading: { title: "Counseling and Support Services" },
   image: {},
   imageSide: "left",
   imagePosition: "center",
@@ -166,7 +166,7 @@ export default async function StudentStaffWellbeingPage() {
       {sel ? (
         <EditorialSplitSection
           id="wellbeing-sel"
-          title={sel.heading?.title || "Social and Emotional Learning Programme (SEL)"}
+          title={sel.heading?.title || "Social and Emotional Learning Program (SEL)"}
           section={{ ...sel, imagePosition: "right" }}
           fallbackImage={{}}
           fallbackParagraphs={[]}
