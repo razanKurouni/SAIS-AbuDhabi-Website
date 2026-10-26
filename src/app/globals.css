@@ -19432,3 +19432,31 @@ a.school-policy-card__cover:hover {
     --learning-slide-ring: #216B97 !important;
   }
 }
+
+/* Phones: three photos that sat wrongly in their cards. */
+@media (max-width: 767px) {
+  /* The 430px minimum height of the tablet layout made the text panel taller than its colour on large phones,
+     leaving a white strip under the curve before the photo (Academics curriculum, iPhone Pro Max size). */
+  .contact-info-section__panel,
+  .academics-curriculum-section .contact-info-section__panel {
+    min-height: 0;
+  }
+
+  /* High School "What We Offer": the card's 40px bottom padding showed as white under the photo. */
+  .academics-high-school-page .intro-feature.academics-high-school-excellence-feature .intro-feature__layout.reveal-item {
+    padding-bottom: 0;
+  }
+
+  /* Academics inclusion: a wide group photo; in the tall phone frame the students at both ends were cut, so
+     the frame takes the photo's own proportions and shows everyone. */
+  .academics-page .academics-inclusion-feature-section .intro-feature__media {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1560 / 1312;
+  }
+
+  .academics-page .academics-inclusion-feature-section .intro-feature__image-shell {
+    height: 100%;
+    min-height: 0;
+  }
+}
