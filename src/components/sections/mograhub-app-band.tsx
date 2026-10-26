@@ -72,11 +72,11 @@ export function MograHubAppBand({ section }: { section?: MograHubAppBandData }) 
           <div className="mograhub-band__store-links">
             <a href={content.androidUrl} target="_blank" rel="noreferrer">
               <GooglePlayMark />
-              <span><small>GET IT ON</small>Google Play</span>
+              <span><small>GET IT ON</small>{" "}Google Play</span>
             </a>
             <a href={content.appleUrl} target="_blank" rel="noreferrer">
               <AppleMark />
-              <span><small>Download on the</small>App Store</span>
+              <span><small>Download on the</small>{" "}App Store</span>
             </a>
           </div>
         </div>

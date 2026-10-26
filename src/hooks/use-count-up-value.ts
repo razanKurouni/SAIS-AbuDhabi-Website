@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { useInViewport } from "@/hooks/use-in-viewport";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 
@@ -30,6 +30,8 @@ function parseMetricValue(value: string): ParsedMetricValue | null {
   };
 }
 
+const subscribeToNothing = () => () => {};
+
 function formatMetricValue(parsedValue: ParsedMetricValue, currentValue: number) {
   const formattedValue =
     parsedValue.decimals > 0
@@ -44,7 +46,9 @@ export function useCountUpValue(value: string, duration = 1650) {
   const parsedValue = useMemo(() => parseMetricValue(value), [value]);
   const { ref, isInViewport } = useInViewport<HTMLParagraphElement>({ once: true, threshold: 0.7 });
   const [animatedDisplayValue, setAnimatedDisplayValue] = useState<string | null>(null);
-  const shouldAnimate = Boolean(parsedValue && !prefersReducedMotion);
+  // Server HTML keeps the real figure (crawlers, no-JS readers); the count starts from 0 once hydrated.
+  const isHydrated = useSyncExternalStore(subscribeToNothing, () => true, () => false);
+  const shouldAnimate = Boolean(parsedValue && !prefersReducedMotion && isHydrated);
   const displayValue =
     shouldAnimate && parsedValue
       ? animatedDisplayValue ?? formatMetricValue(parsedValue, 0)

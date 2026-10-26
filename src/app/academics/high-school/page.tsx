@@ -208,7 +208,7 @@ export default async function AcademicsHighSchoolPage() {
   const apDiplomaSection = highSchoolPage?.apDiplomaSection;
   const apBenefitsSection = highSchoolPage?.apBenefitsSection;
   const dayInLifeSection = highSchoolPage?.dayInLifeSection;
-  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "Advanced Placement (AP) College Board program";
+  const apProgramTitle = apDiplomaSection?.heading?.eyebrow || "College Board Advanced Placement (AP) Program";
 
   return (
     <SitePageShell

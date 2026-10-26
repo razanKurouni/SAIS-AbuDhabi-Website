@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const fallbackMetadata: Metadata = {
   title: "Sharjah American International School | SAIS - Abu Dhabi",
-  description: "Discover SAIS - Abu Dhabi, an international American curriculum school serving students from Kindergarten through Grade 12.",
+  description: "Discover SAIS - Abu Dhabi, an international American-curriculum school serving students from Kindergarten through Grade 12.",
 };
 
 export async function generateMetadata(): Promise<Metadata> {

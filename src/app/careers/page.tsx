@@ -121,7 +121,7 @@ const fallbackCommitmentSection: CareersRequirementsSectionData = {
         "Certified professional teaching qualification at degree level (B.Ed, PGCE, PGDE, or equivalent in Primary Education for KG and Primary positions).",
         "Subject teachers must hold a Bachelor’s or Master’s degree in the relevant subject.",
         "Minimum of 2 years of varied and demonstrable teaching experience at various school levels.",
-        "Experience in American curriculum schools is advantageous but not mandatory.",
+        "Experience in American-curriculum schools is advantageous but not mandatory.",
         "Proven ability to motivate and inspire students.",
         "Commitment to providing outstanding teaching and learning.",
         "Desire to work in a challenging environment with genuine career advancement opportunities.",
