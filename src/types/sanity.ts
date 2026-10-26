@@ -904,7 +904,6 @@ export type CareersPageData = {
   intro?: CareersIntroSection;
   safeguardingSection?: ImageTextSection;
   careSection?: ContactInfoSection;
-  requirementsSection?: CareersRequirementsSection;
   commitmentSection?: CareersRequirementsSection;
   joinTeamSection?: CareersJoinTeamSection;
 };

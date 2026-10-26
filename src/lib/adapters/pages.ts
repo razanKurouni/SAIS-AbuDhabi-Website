@@ -457,7 +457,6 @@ export function adaptCareers(page: CmsPage): CareersPageData {
     intro: imageText(s.get("intro")),
     safeguardingSection: imageText(s.get("safeguardingSection")),
     careSection: contactInfo(s.get("careSection")),
-    requirementsSection: s.has("requirementsSection") ? { columns: requirementColumns(s.get("requirementsSection")) } : undefined,
     commitmentSection: s.has("commitmentSection") ? { columns: requirementColumns(s.get("commitmentSection")) } : undefined,
     joinTeamSection: s.has("joinTeamSection")
       ? { heading: heading(s.get("joinTeamSection")), cards: joinTeamCards(s.get("joinTeamSection")) }

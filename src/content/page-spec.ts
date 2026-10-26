@@ -392,7 +392,6 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("intro", "Introduction"),
       it("safeguardingSection", "Safeguarding & Applications"),
-      cards("requirementsSection", "Roles & Positions", { items: "columns" }),
       entries("careSection", "Candidate Requirements"),
       cards("commitmentSection", "Commitment & Qualifications", { items: "columns" }),
       entries("joinTeamSection", "Join Our Team", { items: "cards" }),

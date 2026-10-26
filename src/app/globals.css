@@ -19527,3 +19527,17 @@ a.school-policy-card__cover:hover {
     border-left: 0;
   }
 }
+
+/* Careers: with the Roles section gone, "Working at SAIS - Abu Dhabi" sits right above the care panel; the
+   panel opens with the page's usual step (62 on larger screens, 50 on phones) instead of the tight 50/16. */
+@media (min-width: 768px) {
+  .careers-page .careers-care-section.contact-info-section {
+    padding-top: 32px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .careers-page .contact-info-section.careers-care-section {
+    padding-top: 44px !important;
+  }
+}

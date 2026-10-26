@@ -98,36 +98,6 @@ const fallbackCareSection: ContactInfoSectionData = {
   textColor: "#ffffff",
 };
 
-const fallbackRequirementsSection: CareersRequirementsSectionData = {
-  columns: [
-    {
-      _key: "leadership-roles",
-      title: "Roles",
-      subtitle: "Leadership & Administrative Roles",
-      items: ["Curriculum Coordinator", "KG Coordinator", "English HOD", "Social Worker / Counsellor"],
-    },
-    {
-      _key: "kg-elementary",
-      title: "Teaching Positions",
-      subtitle: "Kindergarten & Elementary",
-      items: ["KG Teacher", "Elementary Homeroom Teacher"],
-    },
-    {
-      _key: "subject-specialists",
-      subtitle: "Subject Specialists",
-      items: [
-        "Science (General Science, Chemistry, Biology, Physics)",
-        "Middle School English",
-        "Arabic",
-        "Arabic Social Studies (SST)",
-        "Marketing / Accounting Teacher",
-        "Psychology",
-        "Spanish",
-      ],
-    },
-  ],
-};
-
 const fallbackCommitmentSection: CareersRequirementsSectionData = {
   columns: [
     {
@@ -302,11 +272,6 @@ export default async function CareersPage() {
           preserveRichText
         />
       ) : null}
-
-      <CareersRequirementsSection
-        section={careersPage?.requirementsSection}
-        fallbackSection={fallbackRequirementsSection}
-      />
 
       <ContactInfoSection
         section={careersPage?.careSection}
