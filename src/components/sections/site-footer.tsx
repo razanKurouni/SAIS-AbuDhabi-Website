@@ -4,6 +4,7 @@ import { Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { FacebookBrandIcon, LinkedinBrandIcon } from "@/components/ui/social-icons";
 import { normalizeHref } from "@/lib/portal-links";
+import { keepCampusNameTogether } from "@/lib/campus-name";
 import type { FooterContactItem, LinkField, SiteFooter as SiteFooterData } from "@/types/sanity";
 
 type SiteFooterProps = {
@@ -191,7 +192,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
 
       <div className="site-footer__bottom">
         <div className="site-footer__bottom-inner">
-          <p>{copyrightText}</p>
+          <p>{keepCampusNameTogether(copyrightText)}</p>
 
           <nav className="site-footer__legal" aria-label="Legal links">
             {legalLinks.map((link) => (

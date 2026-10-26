@@ -19460,3 +19460,70 @@ a.school-policy-card__cover:hover {
     min-height: 0;
   }
 }
+
+/* Phones: spacing between sections, hero photos framed below the wave, and one text size in the footer bar. */
+@media (max-width: 767px) {
+  /* Our Campus: Library → Makerspace was 102px; the Library section's own 54 is the step. */
+  .our-campus-page .campus-makerspace-feature.intro-feature {
+    padding-top: 0;
+  }
+
+  /* Wellbeing: the proactive cards → Counselling and Support Services was 110px; now 62. */
+  .wellbeing-page .wellbeing-counselling-feature.intro-feature {
+    padding-top: 0;
+  }
+
+  /* Fees: the journey photo → "Our Fee Structure" was 110px; now 62. */
+  .admissions-fees-page .admissions-fee-structure {
+    padding-top: 0;
+  }
+
+  /* Applications: the video sat 4px under the page menu (a phone rule zeroes the top padding of every
+     campus video); it now has the 38px the Admissions pages use. */
+  .admissions-application-page .campus-video {
+    padding-top: 38px !important;
+  }
+
+  /* Admissions Policy: 20px from the title to the text, as under the other titles (was 38). */
+  .admissions-page .admissions-policy-section .editorial-split-section__title {
+    margin-bottom: 0;
+  }
+
+  /* Hero photos: the wave covers the top 7–85px of the photo, where most heads were. Each photo is enlarged
+     from its top edge just enough to bring the heads below the wave, and anchored horizontally so the people
+     at the sides stay in frame. (The image itself carries the entrance animation, so the frame is scaled.) */
+  .page-hero__media picture {
+    position: absolute;
+    inset: 0;
+    display: block;
+    transform: scale(var(--hero-photo-scale, 1));
+    transform-origin: var(--hero-photo-origin, 50%) 0;
+  }
+
+  .academics-hero { --hero-photo-scale: 1.3; --hero-photo-origin: 45%; }
+  .academics-kindergarten-hero { --hero-photo-scale: 1.2; --hero-photo-origin: 20%; }
+  .academics-elementary-hero { --hero-photo-scale: 1.35; --hero-photo-origin: 40%; }
+  .academics-middle-school-hero { --hero-photo-scale: 1.45; --hero-photo-origin: 35%; }
+  .academics-high-school-hero { --hero-photo-scale: 1.25; --hero-photo-origin: 50%; }
+  .admissions-hero { --hero-photo-scale: 1.3; --hero-photo-origin: 50%; }
+  .admissions-withdrawal-hero { --hero-photo-scale: 1.3; --hero-photo-origin: 40%; }
+  .wellbeing-hero { --hero-photo-scale: 1.3; --hero-photo-origin: 70%; }
+  .student-life-hero { --hero-photo-scale: 1.7; --hero-photo-origin: 25%; }
+  .careers-hero { --hero-photo-scale: 1.3; --hero-photo-origin: 50%; }
+
+  /* Footer bar: copyright, legal links and credit all at 16px (they were 13.8 and 10.4). The credit takes its
+     own line under the links, without the divider it has beside them on wider screens. */
+  .site-footer__bottom-inner p,
+  .site-footer__bottom-inner a,
+  .site-footer__credit,
+  .site-footer__legal a {
+    font-size: 16px !important;
+  }
+
+  .site-footer__credit {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+}
