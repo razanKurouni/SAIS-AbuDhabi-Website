@@ -19423,3 +19423,12 @@ a.school-policy-card__cover:hover {
   max-width: 700px;
   font-weight: 600;
 }
+
+/* Academics, phones only: every "Understanding Student Learning" slide is orange (on larger screens they
+   alternate orange and navy), with the navy ring the orange slides use. */
+@media (max-width: 767px) {
+  .academics-page .academics-learning-slider {
+    --learning-slide-bg: #d97252 !important;
+    --learning-slide-ring: #216B97 !important;
+  }
+}
