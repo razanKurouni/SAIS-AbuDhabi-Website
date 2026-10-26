@@ -19541,3 +19541,17 @@ a.school-policy-card__cover:hover {
     padding-top: 44px !important;
   }
 }
+
+/* Homepage, from tablets up: the contact band sits on the same 85% as the sections around it (its own side
+   padding made it 17px narrower each side), and the "Discover a Place" text runs on two balanced lines. */
+@media (min-width: 768px) {
+  .preview-page .hero-contact-band {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .preview-page .tour-intro__description {
+    max-width: 1000px;
+    text-wrap: balance;
+  }
+}
