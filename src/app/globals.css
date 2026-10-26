@@ -19555,3 +19555,21 @@ a.school-policy-card__cover:hover {
     text-wrap: balance;
   }
 }
+
+/* Withdrawal: every step card reads centered, like its title. The lists drop their bullets and left alignment
+   and read as short centered paragraphs, starting the same 24px under the title as plain text does. */
+.admissions-withdrawal-page .application-step__body ul {
+  display: block;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.admissions-withdrawal-page .application-step__body > ul:first-child {
+  margin-top: 0;
+}
+
+.admissions-withdrawal-page .application-step__body li + li {
+  margin-top: 14px;
+}
