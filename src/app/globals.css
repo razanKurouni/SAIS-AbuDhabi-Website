@@ -19573,3 +19573,20 @@ a.school-policy-card__cover:hover {
 .admissions-withdrawal-page .application-step__body li + li {
   margin-top: 14px;
 }
+
+/* Academics overview, from tablets up: the support slider's arrows sit just above the cards (24px, so a card
+   lifted on hover still clears them) instead of being raised 50px toward the panel above, and the section
+   drops its top padding: the inclusion panel to the cards is ~118px instead of ~176px. */
+@media (min-width: 768px) {
+  .academics-page .academics-overview-support-programs.academics-support-programs {
+    padding-top: 0;
+  }
+
+  .academics-page .academics-overview-support-programs .academics-support-programs__arrows {
+    transform: none;
+  }
+
+  .academics-page .academics-overview-support-programs .academics-support-programs__viewport {
+    margin-top: 24px !important;
+  }
+}
