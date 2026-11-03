@@ -87,6 +87,27 @@ function hasMicrosoftGraphConfig() {
   );
 }
 
+/**
+ * Microsoft's own reason for a failed request (for example "invalid_client: AADSTS7000215: Invalid
+ * client secret provided" or "ErrorAccessDenied: Access is denied"), for the server log. These
+ * messages never contain the secret or the token.
+ */
+async function microsoftErrorDetail(response: Response) {
+  try {
+    const data = (await response.json()) as {
+      error?: string | { code?: string; message?: string };
+      error_description?: string;
+    };
+    const detail =
+      typeof data.error === "string"
+        ? `${data.error}: ${(data.error_description || "").split(/\r?\n/)[0]}`
+        : `${data.error?.code || ""}: ${data.error?.message || ""}`;
+    return ` (${detail.slice(0, 300)})`;
+  } catch {
+    return "";
+  }
+}
+
 async function sendWithMicrosoftGraph({
   recipient,
   replyTo,
@@ -121,7 +142,9 @@ async function sendWithMicrosoftGraph({
   );
 
   if (!tokenResponse.ok) {
-    throw new Error(`Microsoft token request failed with status ${tokenResponse.status}`);
+    throw new Error(
+      `Microsoft token request failed with status ${tokenResponse.status}${await microsoftErrorDetail(tokenResponse)}`,
+    );
   }
 
   const tokenData = await tokenResponse.json() as { access_token?: string };
@@ -152,7 +175,9 @@ async function sendWithMicrosoftGraph({
   );
 
   if (!messageResponse.ok) {
-    throw new Error(`Microsoft Graph sendMail failed with status ${messageResponse.status}`);
+    throw new Error(
+      `Microsoft Graph sendMail failed with status ${messageResponse.status}${await microsoftErrorDetail(messageResponse)}`,
+    );
   }
   return true;
 }
