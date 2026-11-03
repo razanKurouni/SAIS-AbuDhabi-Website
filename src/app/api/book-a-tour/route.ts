@@ -121,10 +121,11 @@ async function sendWithMicrosoftGraph({
 }) {
   if (!hasMicrosoftGraphConfig()) return false;
 
-  const tenantId = process.env.MS_TENANT_ID as string;
-  const clientId = process.env.MS_CLIENT_ID as string;
-  const clientSecret = process.env.MS_CLIENT_SECRET as string;
-  const sender = process.env.MS_SENDER_EMAIL as string;
+  // Trimmed: a space or line break pasted along with a value makes Microsoft reject it.
+  const tenantId = (process.env.MS_TENANT_ID as string).trim();
+  const clientId = (process.env.MS_CLIENT_ID as string).trim();
+  const clientSecret = (process.env.MS_CLIENT_SECRET as string).trim();
+  const sender = (process.env.MS_SENDER_EMAIL as string).trim();
   const tokenBody = new URLSearchParams({
     client_id: clientId,
     client_secret: clientSecret,
