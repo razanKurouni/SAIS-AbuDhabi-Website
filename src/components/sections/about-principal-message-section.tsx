@@ -9,30 +9,30 @@ type AboutPrincipalMessageSectionProps = {
 };
 
 const fallbackParagraphs = [
-  "Dear Students, Parents, Colleagues and Community Partners,",
-  "It is my pleasure to welcome you to the official website of Sharjah American International School.",
-  "SAIS - Abu Dhabi cultivates an environment where dedicated educators collaborate seamlessly with parents and stakeholders to support and challenge our students in becoming innovative individuals and effective team players who excel in their pursuits.",
-  "Our institution delivers a comprehensive American curriculum founded on well-defined, internationally recognized American Education Standards. We thoughtfully integrate relevant international benchmarking and enrichment programs to guide our curriculum, instruction, assessment protocols, and extracurricular offerings.",
-  "We envision SAIS - Abu Dhabi as a dynamic, interactive learning community that serves not only our students but all members of our educational family. Life-long learning stands as a cornerstone of our guiding statement and is meaningfully implemented throughout our academic programs, events, and activities.",
-  "We diligently foster a community that inspires a passion for learning - where students confidently embark on challenging journeys to realize their aspirations or explore opportunities as innovators and future entrepreneurs.",
-  "Our community embraces and nurtures cultural diversity and multiculturalism with intention and care. We take pride in our diverse learning environment where all members work harmoniously, collaboratively, and respectfully to achieve common objectives and support individual needs.",
-  "SAIS - Abu Dhabi maintains a distinguished record of success and achievement, widely acknowledged for preparing our students for careers that have yet to emerge. Our graduates consistently gain admission to leading colleges and universities both within the UAE and internationally.",
-  "While we emphasize rigorous academic standards, we equally value nurturing the unique interests, talents, and capabilities of our students through specialized academic and enrichment programs. The depth of our curriculum, the commitment of our faculty, and the accomplishments of our students serve as compelling evidence of our standing among the premier American-curriculum private schools in Dubai. Through active parental involvement and strong community connections, SAIS - Abu Dhabi exemplifies holistic educational excellence.",
-  "SAIS - Abu Dhabi offers a comprehensive education with student services centered on academic achievement, social development, and self-reliance. We actively encourage students to participate in school events, activities, and competitions, becoming engaged members of our broader school community.",
-  "I extend a warm welcome to all visitors to our website who seek to learn more about our school community and services. We trust that the information provided will assist you in developing a comprehensive understanding of the quality educational experience we offer.",
-  "Regards,",
-  "Mohammed Sultan",
-  "School Principal",
+  "Dear valued students, dedicated staff, and supportive parents,",
+  "It is with great pride that I welcome you to SAIS - Abu Dhabi, a school where we nurture an enriching, inclusive environment, celebrating the uniqueness of every child and fostering a deep sense of belonging.",
+  "At SAIS, our philosophy goes beyond academics. We believe in building character and equipping students with practical life skills. Empowering future leaders who are ready to face challenges and excel in all areas of life is at the heart of our mission. This commitment to holistic development forms the foundation of our school’s vision.",
+  "We hold ourselves to the highest standards, expecting excellence from every member of our community. Guided by our mission and vision, we are committed to preparing students to become responsible, confident individuals. Throughout their educational journey, students are continuously encouraged to act as role models, demonstrating integrity, leadership, and respect in all aspects of school life.",
+  "Leadership grows through opportunity. We provide a safe, nurturing environment where students are taught to respect and value others and to engage as responsible citizens. We are proud to share that ADEK has rated us Outstanding in students’ social responsibility and innovation skills.",
+  "From Pre-KG to Grade 12, we offer a high-quality American curriculum enriched with innovation and real-world application. Our programs include STEM, Artificial Intelligence (AI), Project-Based Learning (PBL), and a strong high school program. Students benefit from a wide range of electives such as Human Anatomy, Organic Chemistry, Design & Technology, Business Studies, Programming, and AP College Board courses. As a certified SAT, AP, and IELTS center, we ensure that students are prepared for various university pathways: the General, General+, and Advanced tracks.",
+  "We also take great pride in preserving and promoting our heritage subjects, enabling students to develop a deep appreciation of local culture, Arabic language, and values.",
+  "Our dedicated teachers are committed to nurturing each student’s growth academically, socially, and emotionally. We strive not only to help students meet high standards but to exceed their own expectations. Parents are key partners in this journey, and we deeply value their involvement and voice through committees like the Parent Advisory Council and National Identity Committee.",
+  "Beyond the classroom, we offer a rich After-School Activities (ASA) program and a variety of extracurricular opportunities, including MUN (Model United Nations), public speaking, arts conferences, and more. Our students actively contribute to the Abu Dhabi community by completing internal and external volunteer service hours, strengthening their leadership skills and engagement.",
+  "We believe in education that makes a tangible, positive difference in the lives of our students and equips them with the skills they need for lifelong sustainable success.",
+  "It would be an honor to welcome you to our SAIS community. Together, let us continue building a future rooted in excellence, compassion, and ambition.",
+  "Sincerely,",
+  "Ms. Ban Al Duri",
+  "Principal",
 ];
 
 const fallbackImage = {
-  url: "/principal-message-mohammed-sultan.JPG",
-  alt: "Mohammed Sultan, School Principal",
+  url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/48e0ea39c79215107d32381cb70192e6729cb8ab-1474x2106.png",
+  alt: "Ms. Ban Al Duri, Principal of SAIS - Abu Dhabi",
 };
 
 const mobilePrincipalImage = {
-  url: "/principal-message-mobile-sultan.jpg",
-  alt: "Mohammed Sultan, School Principal",
+  url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/48e0ea39c79215107d32381cb70192e6729cb8ab-1474x2106.png",
+  alt: "Ms. Ban Al Duri, Principal of SAIS - Abu Dhabi",
 };
 
 export function AboutPrincipalMessageSection({ section }: AboutPrincipalMessageSectionProps) {

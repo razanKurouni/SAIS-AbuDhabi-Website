@@ -42,19 +42,19 @@ const defaultContactItems: FooterContactItem[] = [
     icon: "location",
     label: "Address",
     text: "Sharjah American International School \u2013\nAbu Dhabi Campus\nEmirate of Abu Dhabi",
-    href: "https://maps.google.com/?cid=10238059398487815870",
+    href: "https://www.google.com/maps/place/Sharjah+American+International+School/@24.3611081,54.6330765,779m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e5e37d95555aaab:0x7ed3e7b1b6e679e6!8m2!3d24.3611081!4d54.6330765!16s%2Fg%2F11dx9b922b?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D&hl=en",
   },
   {
     icon: "phone",
     label: "Phone",
-    text: "+971 6 766 5553",
-    href: "tel:+97167665553",
+    text: "+971 2 586 1222",
+    href: "tel:+97125861222",
   },
   {
     icon: "email",
     label: "Email",
-    text: "sais-uaq@saisuaq.com",
-    href: "mailto:sais-uaq@saisuaq.com",
+    text: "info@saisabudhabi.com",
+    href: "mailto:info@saisabudhabi.com",
   },
 ];
 

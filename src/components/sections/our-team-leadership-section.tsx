@@ -15,14 +15,12 @@ type OurTeamLeadershipSectionProps = {
 };
 
 const fallbackMembers: BoardGovernorMember[] = [
-  { name: "Mohammed Sultan", role: "School Principal", cardColor: "#27779d" },
-  { name: "Mr. Bachir Zarzour", role: "Vice Principal", cardColor: "#27779d" },
-  { name: "Mr. Meisam Hasanpour", role: "Assistant Principal", cardColor: "#27779d" },
-  {
-    name: "Donna Reeves",
-    role: "Curriculum Coordinator and Head of Performing Arts",
-    cardColor: "#27779d",
-  },
+  { name: "Ms. Ban Al Duri", role: "School Principal", cardColor: "#27779d" },
+  { name: "Mr. Tylor Rumball", role: "Vice Principal", cardColor: "#27779d" },
+  { name: "Ms. Djamilla", role: "", cardColor: "#27779d" },
+  { name: "Ms. Nighat", role: "", cardColor: "#27779d" },
+  { name: "Ms. Branlyn", role: "", cardColor: "#27779d" },
+  { name: "Ms. Marwa", role: "", cardColor: "#27779d" },
 ];
 
 const teamCardColor = "#27779d";

@@ -139,7 +139,7 @@ const fallbackJoinTeamDescription: PortableTextBlock[] = [
         _key: "careers-join-team-body-1-text",
         _type: "span",
         text:
-          "Email your CV and all required documents to hrrecruitment@saisuaq.com, mentioning “Abu Dhabi Campus” in the subject line.",
+          "If you possess the ideal combination of skills and attitude with a drive to excel in your career, we invite you to apply by:",
       },
     ],
   },
@@ -158,8 +158,8 @@ const fallbackJoinTeamSection: CareersJoinTeamSectionData = {
         alt: "Email application icon",
       },
       label: "Emailing your CV to",
-      text: "hrrecruitment@saisuaq.com\n(specify position in the subject line)",
-      href: "mailto:hrrecruitment@saisuaq.com",
+      text: "hrrecruitment@saisabudhabi.com\n(specify position in the subject line)",
+      href: "mailto:hrrecruitment@saisabudhabi.com",
     },
     {
       _key: "teach-away",

@@ -54,7 +54,8 @@ const fallbackIntro = {
   },
   body: [
     "The SAIS educational community currently encompasses four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",
-    "The SAIS journey began with the establishment of our flagship Sharjah campus in 1997. The Dubai campus, opened in 2005, represents the second institution in our expanding network. Initially launched as a comprehensive KG-Grade 12 American-curriculum school, we began with 60 students and a dedicated core faculty. The school experienced consistent enrollment growth and evolved into a vibrant, innovative learning environment delivering premier American education while honoring local customs and traditions.",
+    "SAIS - Abu Dhabi opened its doors in 2019, launching a purposeful and transformative educational mission. From day one, the school has been deeply committed to fostering academic excellence, innovation, and global citizenship in every student.",
+    "Our journey is inspired by the visionary leadership of Her Excellency Dr. Aysha Al Sayyar and Dr. Nawaf Fawaz, who established the first SAIS campus in Sharjah in 1997, followed by campuses in Dubai (2005) and Umm Al Quwain (2012). Their forward-thinking mission was and remains clear: to nurture a generation that is academically strong, morally grounded, and future-ready.",
     "The administrative leadership across all SAIS campuses maintains close professional collaboration, forming a cohesive professional learning network that supports the development of each institution and its leadership team.",
   ],
 };
@@ -74,7 +75,7 @@ const highlights = [
     text: "A school culture rooted in respect, tradition, care, and responsible citizenship.",
   },
   {
-    label: "Dubai Campus",
+    label: "Abu Dhabi Campus",
     text: "A welcoming community for students and families across every stage of school life.",
   },
 ];

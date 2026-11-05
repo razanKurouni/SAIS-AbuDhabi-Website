@@ -6,7 +6,7 @@ type AboutInspectionSectionProps = {
 };
 
 const fallbackParagraphs = [
-  "SAIS - Abu Dhabi takes part in the annual review and inspection that the Strategic Planning and Educational Affairs Authority (SPEA) runs for private schools in the Emirate. Ahead of it the school assesses its own student learning outcomes and the measures around them, and the findings, together with the authority's report and recommendations, set the improvement cycle for the year: reflection, planning, action, and monitoring."
+  "SAIS - Abu Dhabi takes part in the annual review and inspection that the Abu Dhabi Department of Education and Knowledge (ADEK) runs for private schools in the Emirate. Ahead of it the school assesses its own student learning outcomes and the measures around them, and the findings, together with the authority's report and recommendations, set the improvement cycle for the year: reflection, planning, action, and monitoring."
 ];
 
 const fallbackImage = {

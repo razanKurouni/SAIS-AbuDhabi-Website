@@ -39,7 +39,7 @@ const fallbackDescription: PortableTextBlock[] = [
         _key: "intro-feature-span-1",
         _type: "span",
         text:
-          "Sharjah American International School (SAIS) - Dubai is a distinguished member of the SAIS group of schools founded and led by Dr. Aysha Sayyar and Dr. Nawaf Fawaz. The SAIS educational network spans four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",
+          "Sharjah American International School (SAIS) - Abu Dhabi is a distinguished member of the SAIS group of schools founded and led by Dr. Aysha Al Sayyar and Dr. Nawaf Fawaz. The SAIS educational network spans four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",
       },
     ],
   },

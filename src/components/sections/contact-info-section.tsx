@@ -39,22 +39,22 @@ const fallbackSection: ContactInfoSectionData &
       _key: "address",
       icon: "location",
       label: "Campus Address",
-      text: "Sharjah American International School\nSharjah Campus\nTha\u2019alabah Bin Sa\u2019ad St.\nNear Al Ramaqia Park, Sharjah",
-      href: "https://maps.app.goo.gl/jVbwRcqpRdNSYe2h7",
+      text: "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE - P.O. Box 35590",
+      href: "https://maps.app.goo.gl/A1Q7hUVqYEAtcckX8",
     },
     {
       _key: "phone",
       icon: "phone",
       label: "Phone",
-      text: "+971 6 538 0000",
-      href: "tel:+97165380000",
+      text: "+971 2 586 1222",
+      href: "tel:+97125861222",
     },
     {
       _key: "email",
       icon: "email",
       label: "Email",
-      text: "saisq@saisuaq.com",
-      href: "mailto:saisq@saisuaq.com",
+      text: "info@saisabudhabi.com",
+      href: "mailto:info@saisabudhabi.com",
     },
   ],
 };
@@ -128,7 +128,7 @@ export function ContactInfoSection({
       ? customFallback.items || []
       : fallbackSection.items;
   // Ensure location items always have the campus map link if none is set in CMS
-  const MAP_HREF = "https://maps.app.goo.gl/jVbwRcqpRdNSYe2h7";
+  const MAP_HREF = "https://maps.app.goo.gl/A1Q7hUVqYEAtcckX8";
   const items = rawItems.map((item) =>
     item.icon === "location" && !item.href ? { ...item, href: MAP_HREF } : item
   );
