@@ -57,15 +57,15 @@ const fallbackIntroDescription: PortableTextBlock[] = [
         _key: "careers-intro-span-1",
         _type: "span",
         text:
-          "Sharjah American International School Campus, delivers premium education that equips students to meet contemporary global challenges. With over 23 years as an education provider in the UAE, we remain dedicated to pursuing excellence and leadership in educational practice.",
+          "We offer a premium education that prepares young children and students to meet the challenges of today’s world. With more than 23 years as an education provider, we are committed to the pursuit of excellence and leadership in our educational practice.",
       },
     ],
   },
 ];
 
 const fallbackIntroImage: SanityImage = {
-  url: "/careers-work-for-sais.png",
-  alt: "SAIS - Abu Dhabi staff members standing together",
+  url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/8aaad3f917cbf3cf205245346d8702bd9796e82c-3136x1550.jpg",
+  alt: "SAIS - Abu Dhabi teacher guiding two students during a science experiment",
 };
 
 const fallbackCareDescription: PortableTextBlock[] = [

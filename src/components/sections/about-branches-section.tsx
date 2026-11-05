@@ -17,14 +17,14 @@ type BranchCardStyle = CSSProperties & {
 
 const fallbackCards: AboutBranchCard[] = [
   {
-    name: "SAIS - Abu Dhabi",
-    established: "2016",
-    location: "Abu Dhabi, UAE",
+    name: "SAIS Dubai",
+    established: "2005",
+    location: "Al Warqa 1, Dubai, UAE",
     description:
-      "SAIS - Abu Dhabi, delivering a high-quality American curriculum aligned with internationally recognized standards. Guided by the California State framework, the school provides a nurturing environment that supports academic excellence.",
+      "SAIS Dubai delivers a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
     image: {
-      url: "/about-branch-abu-dhabi.png",
-      alt: "SAIS - Abu Dhabi campus building",
+      url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/4ba699df6a436ed5f5dbf4a8d578edac53e597e0-1012x612.jpg",
+      alt: "SAIS Dubai campus building",
     },
     cta: {
       label: "See More",
@@ -34,14 +34,14 @@ const fallbackCards: AboutBranchCard[] = [
     buttonColor: "#27779d",
   },
   {
-    name: "SAIS - Abu Dhabi",
+    name: "SAIS Sharjah",
     established: "1997",
     location: "Al Ramaqiya Area, Sharjah, UAE",
     description:
-      "SAIS - Abu Dhabi offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+      "SAIS Sharjah offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
     image: {
-      url: "/about-branch-sharjah.png",
-      alt: "SAIS - Abu Dhabi campus building",
+      url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/34b9d5bb395b410a45678ec5d416045ce96163e4-1012x612.png",
+      alt: "SAIS Sharjah campus building",
     },
     cta: {
       label: "See More",
@@ -51,14 +51,14 @@ const fallbackCards: AboutBranchCard[] = [
     buttonColor: "#00a5b2",
   },
   {
-    name: "SAIS - Abu Dhabi",
+    name: "SAIS Umm Al Quwain",
     established: "2014",
-    location: "Abu Dhabi, UAE",
+    location: "Al Salmah - Al Salamah 2",
     description:
-      "SAIS - Abu Dhabi fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
+      "SAIS Umm Al Quwain fosters a close-knit and supportive community where personalized learning is a priority. The campus emphasizes strong relationships, ensuring every student is guided toward academic and personal development.",
     image: {
-      url: "/about-branch-umm-al-quwain.png",
-      alt: "SAIS - Abu Dhabi campus building",
+      url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/31434cb8972bc2ce28b61b787724eb56a699719c-1012x612.png",
+      alt: "SAIS Umm Al Quwain campus building",
     },
     cta: {
       label: "See More",

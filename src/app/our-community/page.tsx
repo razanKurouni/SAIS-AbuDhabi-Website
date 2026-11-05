@@ -16,8 +16,8 @@ const fallbackMetadata: Metadata = {
 const fallbackHero = {
   title: "Our\nCommunity",
   image: {
-    url: "/about-statement-mission.jpg",
-    alt: "SAIS - Abu Dhabi principal speaking with students",
+    url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124.jpg",
+    alt: "SAIS - Abu Dhabi community hero",
   },
   topLineColor: "#216B97",
   panelColor: "#00A5B2",

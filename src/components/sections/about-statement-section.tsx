@@ -24,8 +24,8 @@ const fallbackCards: StatementCard[] = [
     description:
       "We will achieve our vision by combining academic excellence with meaningful real-world experiences, and personalized support. We will help every student discover their potential to succeed in higher education, future careers, and the communities they will shape.",
     image: {
-      url: "/about-statement-mission.jpg",
-      alt: "SAIS - Abu Dhabi principal speaking with students on campus",
+      url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/c9f7dcd51c98b6af83d27b51b711e4bdc1c17cd3-1552x814.png",
+      alt: "SAIS - Abu Dhabi teacher helping two students in class",
     },
     cardColor: "#00a5b2",
     imagePosition: "center",
