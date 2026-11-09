@@ -1,0 +1,751 @@
+[
+ {
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "academics-kindergarten-page",
+  "_rev": "kQmRpMF0cYh1F1H4NhncFm",
+  "_system": {
+   "base": {
+    "id": "academics-kindergarten-page",
+    "rev": "jtzXmr5sPTxAjhSjhtVNy0"
+   }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-26T10:12:29Z",
+  "hero": {
+   "heading": {
+    "_type": "sectionHeading",
+    "title": "Kindergarten"
+   },
+   "image": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+    "asset": {
+     "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+     "_type": "reference"
+    }
+   },
+   "mobileImage": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi kindergarten students learning through play",
+    "asset": {
+     "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+     "_type": "reference"
+    }
+   }
+  },
+  "route": "/academics/kindergarten",
+  "sections": [
+   {
+    "_key": "excellenceSection",
+    "_type": "imageTextSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "kg-intro-0",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "kg-intro-0-span",
+         "_type": "span",
+         "marks": [],
+         "text": "In Early Years, we focus on hands-on learning and learning through fun. Through carefully designed play-based and project-based activities, our youngest learners explore foundational concepts in a joyful environment. Daily activities integrate reading, social-emotional learning (SEL), STEM, and robotics, nurturing curiosity and creativity from an early age."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": ""
+    },
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi kindergarten students playing tambourines in music class",
+     "asset": {
+      "_ref": "image-8dada507552d977777398a935ac429e603d449b9-1566x1312-png",
+      "_type": "reference"
+     }
+    },
+    "mobileImage": {
+     "_type": "picture",
+     "asset": {
+      "_ref": "image-09c22bbac87f2c4579be7914b67e90ee5030898a-1566x1312-jpg",
+      "_type": "reference"
+     }
+    },
+    "slot": "excellenceSection"
+   },
+   {
+    "_key": "curriculumSection",
+    "_type": "imageTextSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "kg-curriculum-0",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "kg-curriculum-0-span",
+         "_type": "span",
+         "marks": [],
+         "text": "The Early Years curriculum provides hands-on, inquiry-based learning through thematic units and play-based exploration. Integrated with California Common Core State Standards, the program emphasizes foundational literacy, numeracy, science, and social-emotional development."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "The Curriculum"
+    },
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi kindergarten student high-fiving his teacher in class",
+     "asset": {
+      "_ref": "image-c3a365aae44acb525c4ab14b08fddc6a759217c3-1554x1312-png",
+      "_type": "reference"
+     }
+    },
+    "slot": "curriculumSection"
+   },
+   {
+    "_key": "arabicPolicySection",
+    "_type": "imageTextSection",
+    "ctas": [
+     {
+      "_key": "kg-arabic-cta",
+      "_type": "cta",
+      "href": "/academics",
+      "label": "Learn More"
+     }
+    ],
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "kg-arabic-0",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "kg-arabic-0-span",
+         "_type": "span",
+         "marks": [],
+         "text": "Under the policy of using the Arabic language in education and in line with the directives of ADEK and the UAE Ministry of Education, Sharjah American International School has developed a structured plan for teaching Arabic Language, Islamic Education, and Social Studies at the Kindergarten stage. This policy aims to strengthen early language, social, and religious skills through age-appropriate learning experiences, promote national identity and a sense of belonging, ensure equal access to learning the official language of the country, and support cultural understanding and inclusion within the diverse community of the UAE."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "Arabic Language Policy"
+    },
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi kindergarten student smiling at her desk",
+     "asset": {
+      "_ref": "image-dc615db6a4f0d814e039cb81435682d5be1be667-1560x1252-png",
+      "_type": "reference"
+     }
+    },
+    "slot": "arabicPolicySection"
+   },
+   {
+    "_key": "drdpSection",
+    "_type": "cardsSection",
+    "cards": [
+     {
+      "_key": "socially-competent",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-aedb7178b29b1c6aa5fd68133860c358cfe7459a-256x256-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "people",
+      "title": "Children Are Personally\nand Socially Competent"
+     },
+     {
+      "_key": "effective-learners",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-b11e47b426b92a6fd8969bf2faecb12ebda9625e-281x281-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "book",
+      "title": "Children Are\nEffective Learners"
+     },
+     {
+      "_key": "motor-competence",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-ae4a76a835bc9c69b7f861209320ba3968cc5837-312x312-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "activity",
+      "title": "Children Show Physical\nand Motor Competence"
+     },
+     {
+      "_key": "safe-healthy",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-5b64a89568aecd996fc11415dec567a5bcd8c02a-307x307-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "care",
+      "title": "Children Are Safe\nand Healthy"
+     },
+     {
+      "_key": "families-support",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-b93dbadcde04b8d7854856a8b49f038b45952955-266x266-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "family",
+      "title": "Families Support Their Child’s\nLearning and Development"
+     },
+     {
+      "_key": "families-goals",
+      "_type": "card",
+      "icon": {
+       "_type": "image",
+       "asset": {
+        "_ref": "image-bd3900705adb275adb44859a7ccd324e9ed2c02f-261x261-png",
+        "_type": "reference"
+       }
+      },
+      "iconType": "target",
+      "title": "Families Achieve Their Goals"
+     }
+    ],
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "kg-drdp-outro",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "kg-drdp-outro-span",
+         "_type": "span",
+         "marks": [],
+         "text": "Teachers place each child on a specific developmental level for each measure.\nThere are four main developmental levels."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "We use the DRDP (Desired Results Developmental Profile) assessment in Early Years, which is an observational and portfolio-based assessment that measures young children’s learning and development. More specifically, it measures progress on the following six “desired results”:"
+    },
+    "slot": "drdpSection"
+   },
+   {
+    "_key": "dayInLifeSection",
+    "_type": "imageTextSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "kg-day-0",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "kg-day-0-span",
+         "_type": "span",
+         "marks": [],
+         "text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school. From engaging classroom activities to creative projects, friendships, and memorable moments, these snapshots reflect the energy, growth, and joy that define everyday school life."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "A Day in the Life"
+    },
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi kindergarten students reading together on a beanbag",
+     "asset": {
+      "_ref": "image-0692c66340ac771ac4d74d010807d52175eae4d4-1554x1312-png",
+      "_type": "reference"
+     }
+    },
+    "slot": "dayInLifeSection"
+   }
+  ],
+  "seo": {
+   "_type": "seo",
+   "description": "Explore Kindergarten academics at Sharjah American International School.",
+   "image": {
+    "_type": "image",
+    "alt": "Explore Kindergarten academics at Sharjah American International School.",
+    "asset": {
+     "_ref": "image-48553c75b3aa389a6e90092ebf8ff5fcc9708155-2226x1124-png",
+     "_type": "reference"
+    }
+   },
+   "title": "Kindergarten | Academics | SAIS - Abu Dhabi"
+  },
+  "title": "Kindergarten"
+ },
+ {
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "student-life-page",
+  "_rev": "kQmRpMF0cYh1F1H4NhncFm",
+  "_system": {
+   "base": {
+    "id": "student-life-page",
+    "rev": "CxyzJCkIIAk9kzZkAT4uP2"
+   }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-26T10:12:29Z",
+  "hero": {
+   "heading": {
+    "_type": "sectionHeading",
+    "title": "Student\nLife"
+   },
+   "image": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi students enjoying student life",
+    "asset": {
+     "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+     "_type": "reference"
+    }
+   },
+   "mobileImage": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi students enjoying student life",
+    "asset": {
+     "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+     "_type": "reference"
+    }
+   }
+  },
+  "route": "/student-life",
+  "sections": [
+   {
+    "_key": "beyondClassroomIntro",
+    "_type": "textSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "sl-intro",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sl-intro-s",
+         "_type": "span",
+         "marks": [],
+         "text": "From the Sustainability Club and Power Club, where students engage in STEAM and robotics, to TED Talks, public speaking forums, and Arabic Story Writing Competitions, students develop creativity, confidence, critical thinking, and communication skills."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "Students at SAIS - Abu Dhabi are encouraged to explore their passions through a wide range of enriching opportunities."
+    },
+    "slot": "beyondClassroomIntro"
+   },
+   {
+    "_key": "lifeFeature",
+    "_type": "imageTextSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "sl-feature-1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sl-feature-1-s",
+         "_type": "span",
+         "marks": [],
+         "text": "Beyond the classroom, students participate in volunteering initiatives and student committees, where they grow their talents, develop leadership skills, and make meaningful contributions to the school and wider community."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "sl-feature-2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sl-feature-2-s",
+         "_type": "span",
+         "marks": [],
+         "text": "At SAIS - Abu Dhabi, student life extends beyond academics; it’s where talents are nurtured, leaders are inspired, and every student is empowered to make a positive impact."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": ""
+    },
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi students on the football pitch",
+     "asset": {
+      "_ref": "image-818063da214bda6d578049b33951032c08706a2d-1560x1252-jpg",
+      "_type": "reference"
+     }
+    },
+    "slot": "lifeFeature"
+   },
+   {
+    "_key": "committeesSection",
+    "_type": "cardsSection",
+    "cards": [
+     {
+      "_key": "senior",
+      "_type": "card",
+      "description": "Serves as the official student representative body, providing students with opportunities to contribute to school improvement, organize events, and communicate students’ perspectives to school leadership.",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi senior students walking with their teachers",
+       "asset": {
+        "_ref": "image-a207d898b7e7ffb22d76ee6d813c40e231a1889e-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Senior Committee"
+     },
+     {
+      "_key": "national-identity",
+      "_type": "card",
+      "description": "Promotes UAE heritage, culture, traditions, and national identity.\n\nObjectives:\n•\tCelebrate UAE National Day\n•\tPromote Emirati culture\n•\tSupport national initiatives\n•\tDevelop global citizenship",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi Emirati heritage majlis corner",
+       "asset": {
+        "_ref": "image-9382ff2c8f746b11df8e0949bca236fee7ec19bd-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "National Identity Committee"
+     },
+     {
+      "_key": "happiness",
+      "_type": "card",
+      "description": "The Happiness Committee is dedicated to promoting positive mental health, kindness, inclusion, and wellbeing across the school community. Through a range of initiatives, the committee fosters a supportive and welcoming environment, encourages healthy lifestyles, celebrates student achievements, and strengthens a positive school culture where every student feels valued and supported.",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi students smiling together in class",
+       "asset": {
+        "_ref": "image-a347ea3c10f46f80d385a15925d39d1d6cb6332f-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Happiness Committee"
+     },
+     {
+      "_key": "radio-station",
+      "_type": "card",
+      "description": "The Radio Station Committee gives students the opportunity to develop their communication, confidence, and presentation skills by preparing and delivering school announcements. Members work as a team to share important news, celebrate achievements, and keep the school community informed through engaging broadcasts.",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi students broadcasting from the school radio studio",
+       "asset": {
+        "_ref": "image-8e9f311b21e912d4b66142465b32b2fcc3ab8534-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Radio Station\nCommittee"
+     },
+     {
+      "_key": "red-crescent",
+      "_type": "card",
+      "description": "Develops compassion, volunteerism, and humanitarian responsibility through charitable initiatives in partnership with the Emirates Red Crescent.\n\nObjectives:\n•\tPromote volunteer work\n•\tSupport local communities\n•\tOrganize fundraising\n•\tParticipate in humanitarian campaigns",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi students walking with their teacher in the girls section",
+       "asset": {
+        "_ref": "image-6ee1561378ba6e3d41d7d5f1eb76b32c0986345f-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Red Crescent Committee"
+     },
+     {
+      "_key": "sustainability",
+      "_type": "card",
+      "description": "The Sustainability Committee promotes environmental awareness and encourages sustainable practices throughout the school community. Through projects and campaigns, the committee works to reduce waste, encourage recycling, promote the conservation of natural resources, and support the UAE’s sustainability goals by inspiring students to make environmentally responsible choices.",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi students working on sustainability projects in class",
+       "asset": {
+        "_ref": "image-83c92b8366632d9b6ddb1efd72ec0116d58fe820-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Sustainability\nCommittee"
+     },
+     {
+      "_key": "social-media",
+      "_type": "card",
+      "description": "The Social Media Committee empowers students to capture the vibrant life of the school by filming events, creating engaging photo and video content, and sharing memorable moments across the school’s social media platforms.\n\nThrough creativity and teamwork, members help showcase the school’s achievements, activities, and community spirit.",
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi students recording in the radio studio",
+       "asset": {
+        "_ref": "image-9df47956ec61e3235f59874844b9ad282b898067-1528x1312-jpg",
+        "_type": "reference"
+       }
+      },
+      "title": "Social Media Committee"
+     }
+    ],
+    "heading": {
+     "_type": "sectionHeading",
+     "title": "SAIS Student Committees"
+    },
+    "slot": "committeesSection"
+   }
+  ],
+  "seo": {
+   "_type": "seo",
+   "description": "Explore student life, programs, and extracurricular opportunities at SAIS - Abu Dhabi.",
+   "image": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi students enjoying student life",
+    "asset": {
+     "_ref": "image-9ff071badce98742e2ff683d002fd2f36f037eb6-2226x1124-jpg",
+     "_type": "reference"
+    }
+   },
+   "title": "Student Life | SAIS - Abu Dhabi"
+  },
+  "title": "Student Life"
+ },
+ {
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "school-policies-page",
+  "_rev": "S86gR5QGZEOYFS7xG4fj3u",
+  "_system": {
+   "base": {
+    "id": "school-policies-page",
+    "rev": "seeJ8sDCx2bMNJQ2PAv1rf"
+   }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-10-23T12:27:20Z",
+  "hero": {
+   "heading": {
+    "_type": "sectionHeading",
+    "title": "School\nPolicies"
+   },
+   "image": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi students in library discussion",
+    "asset": {
+     "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+     "_type": "reference"
+    }
+   },
+   "mobileImage": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi teacher walking with students in the corridor",
+    "asset": {
+     "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+     "_type": "reference"
+    }
+   }
+  },
+  "route": "/school-policies",
+  "sections": [
+   {
+    "_key": "intro",
+    "_type": "textSection",
+    "heading": {
+     "_type": "sectionHeading",
+     "description": [
+      {
+       "_key": "sp-lead",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sp-lead-s",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Our school policies are carefully developed in alignment with ADEK requirements to ensure the highest standards of safety, wellbeing, and operational excellence for both students and staff. They provide a clear framework that guides our daily practice, supports a positive and inclusive school culture, and ensures consistency across all areas of school life. These policies reflect our commitment to safeguarding, accountability, and continuous improvement, while promoting a secure and supportive environment where every member of the school community can thrive."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ],
+     "title": "A Safe and Supportive Environment"
+    },
+    "slot": "intro"
+   },
+   {
+    "_key": "policies",
+    "_type": "cardsSection",
+    "cards": [
+     {
+      "_key": "acceptable-use",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-2488da57834b782e6b3474de571eb0c60c5fd2fd-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi Child Protection and Safeguarding Policy document cover",
+       "asset": {
+        "_ref": "image-cb5518e5115df4e0dec04629e9e8d5304a91ee1d-1414x2000-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "Safeguarding Policy"
+     },
+     {
+      "_key": "admission",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-13fd2e841003deab0ffa4e1c5c2ea51ef624fa23-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi school policy document cover",
+       "asset": {
+        "_ref": "image-c7039de749c7737fb659b0f83cceddd016d2e708-2480x3508-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "Data Protection Policy"
+     },
+     {
+      "_key": "child-protection",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-ad87df8950c05b5953eb7f8185e5a16d4bbcc545-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi school policy document cover",
+       "asset": {
+        "_ref": "image-6390045371b95034d041812b8f87a4d7660e2fb9-2480x3508-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "General Online Safety Policy"
+     },
+     {
+      "_key": "digital-learning",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-098168bf66107b688a84f9ae90dada7f306360a4-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi school policy document cover",
+       "asset": {
+        "_ref": "image-22232057293a98884fb7073377e0290828680e57-2480x3508-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "Health and Safety Policy"
+     },
+     {
+      "_key": "fire-evacuation",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-8900a1f42de844b391fbf59660c2943182fa8e22-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "SAIS - Abu Dhabi school policy document cover",
+       "asset": {
+        "_ref": "image-954f731014efa296d5dc42dfea0b7ff47aae5461-2480x3508-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "Inclusion Policy"
+     },
+     {
+      "_key": "9ac1c73ebfac",
+      "_type": "card",
+      "file": {
+       "_type": "file",
+       "asset": {
+        "_ref": "file-2e8b0727677fea4a421d0bdf849dc9ecd21faffe-pdf",
+        "_type": "reference"
+       }
+      },
+      "image": {
+       "_type": "image",
+       "alt": "Fire Evacuation Policy",
+       "asset": {
+        "_ref": "image-2b5444c6b7c2faa194e242b055537c42063b2f38-2480x3508-jpg",
+        "_type": "reference"
+       }
+      },
+      "label": "Download PDF (English)",
+      "title": "Fire Evacuation Policy"
+     }
+    ],
+    "slot": "policies"
+   }
+  ],
+  "seo": {
+   "_type": "seo",
+   "description": "Review SAIS - Abu Dhabi school policies and download policy documents.",
+   "image": {
+    "_type": "image",
+    "alt": "SAIS - Abu Dhabi students in library discussion",
+    "asset": {
+     "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+     "_type": "reference"
+    }
+   },
+   "title": "School Policies | SAIS - Abu Dhabi"
+  },
+  "title": "School Policies"
+ }
+]
