@@ -167,6 +167,7 @@ export function adaptAcademics(page: CmsPage): AcademicsPageData {
     teachingCommitmentsSection: s.has("teachingCommitmentsSection")
       ? { heading: heading(s.get("teachingCommitmentsSection")), cards: iconCards(s.get("teachingCommitmentsSection")) }
       : undefined,
+    arabicPolicySection: imageText(s.get("arabicPolicySection")),
     steamSection: imageText(s.get("steamSection")),
     inclusionSection: imageText(s.get("inclusionSection")),
     inclusionFeatureSection: imageText(s.get("inclusionFeatureSection")),
@@ -193,7 +194,6 @@ export function adaptKindergarten(page: CmsPage): AcademicsKindergartenPageData 
     ...base(page),
     excellenceSection: imageText(s.get("excellenceSection")),
     curriculumSection: imageText(s.get("curriculumSection")),
-    arabicPolicySection: imageText(s.get("arabicPolicySection")),
     drdpSection: s.has("drdpSection")
       ? { heading: heading(s.get("drdpSection")), cards: iconCards(s.get("drdpSection")) }
       : undefined,
@@ -415,9 +415,6 @@ export function adaptStudentLife(page: CmsPage): StudentLifePageData {
     ...base(page),
     beyondClassroomIntro: textSection(s.get("beyondClassroomIntro")),
     lifeFeature: imageText(s.get("lifeFeature")),
-    committeesSection: s.has("committeesSection")
-      ? { heading: heading(s.get("committeesSection")), slides: learningSlides(s.get("committeesSection")) }
-      : undefined,
   };
 }
 
@@ -428,6 +425,9 @@ export function adaptStudentPrograms(page: CmsPage): StudentProgramsPageData {
     highlightsSection: imageText(s.get("highlightsSection")),
     objectivesSection: imageText(s.get("objectivesSection")),
     houseCaptainsSection: imageText(s.get("houseCaptainsSection")),
+    committeesSection: s.has("committeesSection")
+      ? { heading: heading(s.get("committeesSection")), slides: learningSlides(s.get("committeesSection")) }
+      : undefined,
     tourIntro: heading(s.get("tourIntro")),
   };
 }

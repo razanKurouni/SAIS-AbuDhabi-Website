@@ -266,14 +266,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "academics-kindergarten-page": {
-    "arabicPolicySection": {
-      "ctas": [
-        {
-          "variant": "secondary"
-        }
-      ],
-      "imagePosition": "left"
-    },
     "curriculumSection": {
       "imagePosition": "center",
       "panelColor": "#6F7175",
@@ -359,6 +351,14 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
     }
   },
   "academics-page": {
+    "arabicPolicySection": {
+      "ctas": [
+        {
+          "variant": "secondary"
+        }
+      ],
+      "imagePosition": "left"
+    },
     "assessmentProtocolSection": {
       "backgroundColor": "#FFFFFF",
       "cardBorderColor": "#216B97",
@@ -1052,17 +1052,6 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#216B97",
       "titleColor": "#00A5B2"
     },
-    "committeesSection": {
-      "slides": [
-        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
-        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" }
-      ]
-    },
     "hero": {
       "imagePosition": "center",
       "imageWidth": "58%",
@@ -1102,6 +1091,17 @@ export const PAGE_DESIGN: Record<string, DesignOverlay> = {
       "textColor": "#ffffff",
       "titleColor": "#ffffff",
       "waveColor": "#216B97"
+    },
+    "committeesSection": {
+      "slides": [
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#216B97", "imagePosition": "center", "ringColor": "#d97252", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" },
+        { "backgroundColor": "#d97252", "imagePosition": "center", "ringColor": "#216B97", "sideColor": "#00A5B2", "textColor": "#ffffff", "titleColor": "#ffffff" }
+      ]
     },
     "hero": {
       "imagePosition": "center",

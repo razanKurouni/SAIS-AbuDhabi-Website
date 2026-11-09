@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
@@ -105,6 +106,7 @@ export default async function StudentProgramsPage() {
   const leadership = page?.highlightsSection;
   const objectives = page?.objectivesSection;
   const houseCaptains = page?.houseCaptainsSection;
+  const committees = page?.committeesSection;
   /* The tour block is shared site-wide; this page only swaps the heading line. */
   const tour =
     data?.tour && page?.tourIntro?.title
@@ -170,6 +172,14 @@ export default async function StudentProgramsPage() {
           className="academics-kg-day-feature student-programs-house-captains"
           titleId="student-programs-house-captains-title"
           {...featureProps(houseCaptains, fallbackHouseCaptains)}
+        />
+      ) : null}
+
+      {committees ? (
+        <AcademicsLearningSliderSection
+          section={committees}
+          fallbackSection={{ heading: { title: "" }, slides: [] }}
+          className="student-programs-committees"
         />
       ) : null}
 

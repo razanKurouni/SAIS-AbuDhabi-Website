@@ -118,9 +118,7 @@ const fallbackCommitmentSection: CareersRequirementsSectionData = {
       _key: "qualifications",
       title: "Qualifications & Requirements",
       items: [
-        "Certified professional teaching qualification at degree level (B.Ed, PGCE, PGDE, or equivalent in Primary Education for KG and Primary positions).",
-        "Subject teachers must hold a Bachelor’s or Master’s degree in the relevant subject.",
-        "Minimum of 2 years of varied and demonstrable teaching experience at various school levels.",
+        "We strictly adhere to ADEK’s policies and regulations regarding the recruitment and appointment of teachers and academic staff. Please refer to the latest updated ADEK policy on appointment requirements for further details.",
         "Experience in American-curriculum schools is advantageous but not mandatory.",
         "Proven ability to motivate and inspire students.",
         "Commitment to providing outstanding teaching and learning.",

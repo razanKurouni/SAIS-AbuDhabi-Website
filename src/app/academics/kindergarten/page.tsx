@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { AcademicsTeachingCommitmentsSection } from "@/components/sections/academics-teaching-commitments-section";
-import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
@@ -167,7 +166,6 @@ export default async function AcademicsKindergartenPage() {
   const hero = kindergartenPage?.hero;
   const excellenceSection = kindergartenPage?.excellenceSection || fallbackExcellenceSection;
   const curriculumSection = kindergartenPage?.curriculumSection;
-  const arabicPolicySection = kindergartenPage?.arabicPolicySection;
   const drdpSection = kindergartenPage?.drdpSection;
   const dayInLifeSection = kindergartenPage?.dayInLifeSection;
   const innerNavigation = kindergartenPage?.innerNavigation;
@@ -228,20 +226,6 @@ export default async function AcademicsKindergartenPage() {
           textColor={curriculumSection.textColor || "#ffffff"}
           imagePosition={curriculumSection.imagePosition || "center"}
           imageSide="right"
-        />
-      ) : null}
-
-      {arabicPolicySection ? (
-        <EditorialSplitSection
-          id="academics-kg-arabic-policy"
-          title={arabicPolicySection.heading?.title || "Arabic Language Policy"}
-          section={arabicPolicySection}
-          fallbackImage={{}}
-          fallbackParagraphs={[]}
-          className="academics-steam-section academics-kg-arabic-policy-section"
-          preserveRichText
-          showTitle
-          showCtas
         />
       ) : null}
 

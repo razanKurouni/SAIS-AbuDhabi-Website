@@ -131,6 +131,7 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       entries("curriculumSection", "Curriculum"),
       cards("teachingCommitmentsSection", "Key Features"),
+      it("arabicPolicySection", "Arabic Language Policy"),
       cards("learningSliderSection", "Learning Slider", { items: "slides" }),
       it("steamSection", "STEAM"),
       it("inclusionSection", "Inclusion and Support"),
@@ -148,7 +149,6 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       it("excellenceSection", "Intro Panel"),
       it("curriculumSection", "Curriculum"),
-      it("arabicPolicySection", "Arabic Language Policy"),
       cards("drdpSection", "DRDP Assessment"),
       it("dayInLifeSection", "A Day in the Life"),
     ],
@@ -345,7 +345,6 @@ export const PAGE_SPECS: PageSpec[] = [
     slots: [
       txt("beyondClassroomIntro", "Introduction"),
       it("lifeFeature", "Beyond the Classroom"),
-      cards("committeesSection", "Students Committees", { items: "slides" }),
     ],
   },
   {
@@ -357,6 +356,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("highlightsSection", "Student Leadership Program"),
       it("objectivesSection", "Objectives of the Program"),
       it("houseCaptainsSection", "SAIS House Captain System"),
+      cards("committeesSection", "Student Committees", { items: "slides" }),
       { slot: "tourIntro", kind: "heading", label: "Tour – Heading" },
     ],
   },

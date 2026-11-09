@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
-import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
 import { PageHero } from "@/components/sections/page-hero";
@@ -94,7 +93,6 @@ export default async function StudentLifePage() {
   const innerNavItems = resolveStudentSectionNavItems(innerNavigation?.items);
   const beyondIntro = page?.beyondClassroomIntro || fallbackBeyondClassroomIntro;
   const lifeFeature = page?.lifeFeature;
-  const committees = page?.committeesSection;
 
   return (
     <SitePageShell data={data} mainClassName="site-page__main student-life-page__main" pageClassName="student-life-page">
@@ -166,14 +164,6 @@ export default async function StudentLifePage() {
           textColor={lifeFeature.textColor || "#ffffff"}
           imagePosition={lifeFeature.imagePosition || "center"}
           imageSide={lifeFeature.imageSide || "left"}
-        />
-      ) : null}
-
-      {committees ? (
-        <AcademicsLearningSliderSection
-          section={committees}
-          fallbackSection={{ heading: { title: "" }, slides: [] }}
-          className="student-life-committees"
         />
       ) : null}
 

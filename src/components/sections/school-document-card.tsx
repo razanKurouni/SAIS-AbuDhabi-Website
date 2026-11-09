@@ -35,7 +35,7 @@ export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTit
     <Reveal
       as="article"
       className="school-policy-card academics-card-reveal"
-      delay={100 + index * 110}
+      delay={100 + (index % 4) * 110}
       threshold={0.1}
     >
       {documentUrl ? (

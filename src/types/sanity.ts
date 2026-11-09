@@ -610,7 +610,6 @@ export type StudentLifePageData = {
     textColor?: string;
   };
   lifeFeature?: AcademicsKindergartenFeatureSection;
-  committeesSection?: AcademicsLearningSliderSection;
 };
 
 export type StudentProgramsPageData = {
@@ -620,6 +619,7 @@ export type StudentProgramsPageData = {
   highlightsSection?: AcademicsKindergartenFeatureSection;
   objectivesSection?: ImageTextSection;
   houseCaptainsSection?: AcademicsKindergartenFeatureSection;
+  committeesSection?: AcademicsLearningSliderSection;
   tourIntro?: SectionHeading;
 };
 
@@ -643,6 +643,7 @@ export type AcademicsPageData = {
   hero?: PageHeroContent;
   curriculumSection?: ContactInfoSection;
   teachingCommitmentsSection?: AcademicsTeachingCommitmentsSection;
+  arabicPolicySection?: ImageTextSection;
   learningSliderSection?: AcademicsLearningSliderSection;
   steamSection?: ImageTextSection;
   inclusionSection?: ImageTextSection;
@@ -696,7 +697,6 @@ export type AcademicsKindergartenPageData = {
   innerNavigation?: InnerNavigation;
   excellenceSection?: AcademicsKindergartenFeatureSection;
   curriculumSection?: AcademicsKindergartenFeatureSection;
-  arabicPolicySection?: ImageTextSection;
   drdpSection?: AcademicsTeachingCommitmentsSection;
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
 };

@@ -312,6 +312,20 @@ export default async function AcademicsPage() {
         fallbackSection={fallbackTeachingCommitmentsSection}
       />
 
+      {academicsPage?.arabicPolicySection ? (
+        <EditorialSplitSection
+          id="academics-arabic-policy"
+          title={academicsPage.arabicPolicySection.heading?.title || "Arabic Language Policy"}
+          section={academicsPage.arabicPolicySection}
+          fallbackImage={{}}
+          fallbackParagraphs={[]}
+          className="academics-steam-section academics-arabic-policy-section"
+          preserveRichText
+          showTitle
+          showCtas
+        />
+      ) : null}
+
       <AcademicsLearningSliderSection
         section={academicsPage?.learningSliderSection}
         fallbackSection={fallbackLearningSliderSection}

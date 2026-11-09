@@ -19,7 +19,6 @@ const fallbackMembers: BoardGovernorMember[] = [
   { name: "Mr. Tylor Rumball", role: "Vice Principal", cardColor: "#27779d" },
   { name: "Ms. Djamilla", role: "", cardColor: "#27779d" },
   { name: "Ms. Nighat", role: "", cardColor: "#27779d" },
-  { name: "Ms. Branlyn", role: "", cardColor: "#27779d" },
   { name: "Ms. Marwa", role: "", cardColor: "#27779d" },
 ];
 
@@ -178,7 +177,7 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
           onScroll={updateActiveIndex}
         >
           {members.map((member, index) => {
-            const fallback = fallbackMembers[index] || fallbackMembers[0];
+            const fallback: BoardGovernorMember = section?.members?.length ? {} : (fallbackMembers[index] ?? {});
             const image = member.image?.url ? member.image : fallback.image;
             const hasHoverContent = Boolean(member.yearsOfExperience || member.hoverBio);
             const memberKey = member._key || `${member.name}-${index}`;
