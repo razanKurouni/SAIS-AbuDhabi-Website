@@ -322,6 +322,8 @@ export function policies(section?: CmsSection | null): SchoolPolicyDocument[] {
     documentUrl: card.file?.url || null,
     documentFilename: card.file?.filename || null,
     downloadLabel: card.label,
+    secondDocumentUrl: card.secondFile?.url || null,
+    secondDownloadLabel: card.secondLabel,
   }));
 }
 

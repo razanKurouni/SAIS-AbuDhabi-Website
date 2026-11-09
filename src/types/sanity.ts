@@ -586,6 +586,9 @@ export type SchoolPolicyDocument = {
   documentUrl?: string | null;
   documentFilename?: string | null;
   downloadLabel?: string;
+  /** The same document in another language (e.g. Arabic), shown as a second button. */
+  secondDocumentUrl?: string | null;
+  secondDownloadLabel?: string;
 };
 
 export type SchoolPoliciesPageData = {
@@ -1075,6 +1078,9 @@ export type CmsCard = {
   iconType?: string;
   cta?: Cta;
   file?: CmsFile;
+  /** Another version of the same document (e.g. Arabic), with its own button text. */
+  secondFile?: CmsFile;
+  secondLabel?: string;
   entries?: CmsEntry[];
 };
 

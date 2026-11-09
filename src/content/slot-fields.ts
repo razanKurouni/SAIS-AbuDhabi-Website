@@ -1634,6 +1634,8 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
       "file",
       "image",
       "label",
+      "secondFile",
+      "secondLabel",
       "title"
     ],
     "cardEntry": [],

@@ -74,6 +74,8 @@ export const cardProjection = `{
   iconType,
   cta ${ctaProjection},
   file ${fileProjection},
+  secondFile ${fileProjection},
+  secondLabel,
   entries[] ${entryProjection}
 }`;
 

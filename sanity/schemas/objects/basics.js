@@ -170,6 +170,18 @@ export const card = {
     { name: "cta", title: "Button", type: "cta" },
     { name: "file", title: "File", type: "file", description: "Downloadable document, when the card links to one." },
     {
+      name: "secondFile",
+      title: "Second File",
+      type: "file",
+      description: "Another version of the same document, for example the Arabic version.",
+    },
+    {
+      name: "secondLabel",
+      title: "Second File Button",
+      type: "string",
+      description: "Button text for the second file, for example: Download PDF (Arabic).",
+    },
+    {
       name: "entries",
       title: "Entries",
       type: "array",

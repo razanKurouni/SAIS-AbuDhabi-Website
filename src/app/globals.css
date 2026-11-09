@@ -14299,6 +14299,21 @@ a.school-policy-card__cover:hover {
   opacity: 0.55;
 }
 
+/* A policy with two language versions: one button per version, stacked where the single button sits. */
+.school-policy-card__downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: clamp(24px, 2.5vw, 34px);
+}
+
+.school-policy-card__downloads .school-policy-card__download {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .policy-document-viewer {
   min-height: 100vh;
   background: #eef3f6;

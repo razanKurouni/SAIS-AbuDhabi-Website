@@ -50,10 +50,8 @@ const fallbackIntro = {
   },
 };
 
-const fallbackCover: SanityImage = {
-  url: "/contact-campus-building.jpg",
-  alt: "SAIS - Abu Dhabi policy document",
-};
+/* No stand-in photo: a policy without a cover shows the card's plain cover panel until its cover is designed. */
+const fallbackCover: SanityImage = {};
 
 const fallbackPolicies: SchoolPolicyDocument[] = [
   { _key: "acceptable-use", title: "Acceptable Use of Devices\nPolicy 2025-2026" },

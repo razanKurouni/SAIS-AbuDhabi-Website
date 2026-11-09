@@ -30,6 +30,9 @@ export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTit
   const downloadLabel = document.downloadLabel || "Download PDF";
   const documentUrl = document.documentUrl || null;
   const viewerUrl = documentUrl ? getDocumentViewerUrl(documentUrl, title) : null;
+  /* A second version of the same document (e.g. Arabic) gets its own labelled button. */
+  const secondUrl = documentUrl ? document.secondDocumentUrl || null : null;
+  const secondLabel = document.secondDownloadLabel || "Download PDF";
 
   return (
     <Reveal
@@ -72,7 +75,16 @@ export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTit
 
       <h3 className="school-policy-card__title">{title}</h3>
 
-      {documentUrl ? (
+      {documentUrl && secondUrl ? (
+        <div className="school-policy-card__downloads">
+          <a href={documentUrl} download className="school-policy-card__download">
+            {downloadLabel}
+          </a>
+          <a href={secondUrl} download className="school-policy-card__download">
+            {secondLabel}
+          </a>
+        </div>
+      ) : documentUrl ? (
         <a href={documentUrl} download className="school-policy-card__download">
           {downloadLabel}
         </a>
