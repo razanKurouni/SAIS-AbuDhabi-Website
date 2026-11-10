@@ -1,0 +1,590 @@
+{
+  "_createdAt": "2026-09-21T10:49:43Z",
+  "_id": "school-policies-page",
+  "_rev": "EGpPe2mc1pKh23gTanuPVd",
+  "_system": {
+    "base": {
+      "id": "school-policies-page",
+      "rev": "seeJ8sDCx2bMNJQ2PAv1rf"
+    }
+  },
+  "_type": "page",
+  "_updatedAt": "2026-11-10T12:26:45Z",
+  "hero": {
+    "heading": {
+      "_type": "sectionHeading",
+      "title": "School\nPolicies"
+    },
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students in library discussion",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "mobileImage": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi teacher walking with students in the corridor",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    }
+  },
+  "route": "/school-policies",
+  "sections": [
+    {
+      "_key": "intro",
+      "_type": "textSection",
+      "heading": {
+        "_type": "sectionHeading",
+        "description": [
+          {
+            "_key": "sp-lead",
+            "_type": "block",
+            "children": [
+              {
+                "_key": "sp-lead-s",
+                "_type": "span",
+                "marks": [
+                  "strong"
+                ],
+                "text": "Our school policies are carefully developed in alignment with ADEK requirements to ensure the highest standards of safety, wellbeing, and operational excellence for both students and staff. They provide a clear framework that guides our daily practice, supports a positive and inclusive school culture, and ensures consistency across all areas of school life. These policies reflect our commitment to safeguarding, accountability, and continuous improvement, while promoting a secure and supportive environment where every member of the school community can thrive."
+              }
+            ],
+            "markDefs": [],
+            "style": "normal"
+          }
+        ],
+        "title": "A Safe and Supportive Environment"
+      },
+      "slot": "intro"
+    },
+    {
+      "_key": "policies",
+      "_type": "cardsSection",
+      "cards": [
+        {
+          "_key": "extracurricular-activities-and-events-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-87ea619f4cbb52a17d34074026f39e17e5abdaf1-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Extracurricular Activities and Events Policy document cover",
+            "asset": {
+              "_ref": "image-8b3e45f1e36b67adcc582e962761eb543a923505-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Extracurricular Activities and Events Policy"
+        },
+        {
+          "_key": "safeguarding-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-3b4c4f9121f043e266cf54421622dc0c0695d6d4-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Safeguarding Policy (English) document cover",
+            "asset": {
+              "_ref": "image-9fcc6a613a14dbffc2df2c001cedd8ae9d7dd067-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Safeguarding Policy (English)"
+        },
+        {
+          "_key": "safeguarding-policy-ar",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-87782f81bff2c12a46a50ed4cd421067fd4acca4-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Safeguarding Policy (Arabic) document cover",
+            "asset": {
+              "_ref": "image-c3da7975566eb411773d6e77f4490b35cf03b4b2-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (Arabic)",
+          "title": "Safeguarding Policy (Arabic)"
+        },
+        {
+          "_key": "health-and-safety",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-262bbd295962e8aa07865a05bc38f4cd3e37ddba-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Health and Safety (English) document cover",
+            "asset": {
+              "_ref": "image-1a2178a26fd4512aea1bd810c6df0514ad255c04-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Health and Safety (English)"
+        },
+        {
+          "_key": "health-and-safety-ar",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-1bd1a8944c329901f39fded0a323d6fadd266d02-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Health and Safety (Arabic) document cover",
+            "asset": {
+              "_ref": "image-64e952bbd40c38135381a5ec22140a7efae044a9-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (Arabic)",
+          "title": "Health and Safety (Arabic)"
+        },
+        {
+          "_key": "healthy-eating-and-food-safety-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-f90d4a1348094ebc139b3afb7b358d577e9e86b6-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Healthy Eating and Food Safety Policy document cover",
+            "asset": {
+              "_ref": "image-956630d809b3e709fb000835614b03ab8a385766-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Healthy Eating and Food Safety Policy"
+        },
+        {
+          "_key": "school-bag-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-590a8826db757959becf3fe25b305421f5103754-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi School Bag Policy document cover",
+            "asset": {
+              "_ref": "image-39114169b47ee26597cfa7818fd6b2a71f0467ae-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "School Bag Policy"
+        },
+        {
+          "_key": "student-behaviour-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-ebac29ca20b43473aabf02555716bde6ff0c6608-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Student Behaviour Policy document cover",
+            "asset": {
+              "_ref": "image-c7f2731e6093f41aaa348e7d5d2e9526a31fb6fd-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Student Behaviour Policy"
+        },
+        {
+          "_key": "student-protection-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-5bbb27d0130e79975efac59e8253cdf30a5addbe-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Student Protection Policy document cover",
+            "asset": {
+              "_ref": "image-4db5332bbda6bfb416de5b97647890d9fefc6e3a-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Student Protection Policy"
+        },
+        {
+          "_key": "governance-board-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-00a51cd2b1f2562ff05a74b49777a19c50c62484-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Governance Board Policy document cover",
+            "asset": {
+              "_ref": "image-ca376390acc20873380ea361e0b9138ef567e25e-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Governance Board Policy"
+        },
+        {
+          "_key": "educational-risk-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-0a027de48bed61a5fc27cceacca5c3910482245d-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Educational Risk Policy document cover",
+            "asset": {
+              "_ref": "image-664872aeae5d4df3dbc5198697faf7026b24f3f4-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Educational Risk Policy"
+        },
+        {
+          "_key": "code-of-conduct",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-32796ab87274d52af5e8d9bc3f8e9c5302e37da2-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Code of Conduct document cover",
+            "asset": {
+              "_ref": "image-2c3a7f1f3845609fd797b8c1d08bb3bdf2510cb5-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Code of Conduct"
+        },
+        {
+          "_key": "cultural-consideration-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-6c911cbe5fb4935c892383ecef3525b5a954ee20-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Cultural Consideration Policy document cover",
+            "asset": {
+              "_ref": "image-74f912b865488982c529a00404531e5bd7826783-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Cultural Consideration Policy"
+        },
+        {
+          "_key": "inclusion-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-ba3d36dfb59fd7193ce6778924ebf3dfeb386408-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Inclusion Policy (English) document cover",
+            "asset": {
+              "_ref": "image-132d47296fb43ff00a1ca9c5fab04d622c9da467-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Inclusion Policy (English)"
+        },
+        {
+          "_key": "inclusion-policy-ar",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-4187cce7720ecc76176d5128f31da0b87ffd75bb-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Inclusion Policy (Arabic) document cover",
+            "asset": {
+              "_ref": "image-984342a5c1e27c6e855e83286771deaf3bab364b-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (Arabic)",
+          "title": "Inclusion Policy (Arabic)"
+        },
+        {
+          "_key": "physical-literacy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-e325916cf489a7794edb2aca9a4c85c51ab476b5-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Physical Literacy document cover",
+            "asset": {
+              "_ref": "image-f0b25900fdb94971f1aa4636d4a578c10c57ce2c-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Physical Literacy"
+        },
+        {
+          "_key": "gifted-and-talented-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-37af9ba3349eda59a65e5bac46213ef58c01fae1-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Gifted and Talented Policy document cover",
+            "asset": {
+              "_ref": "image-8401eed9948ca9756850e0f8b95fd133dd082510-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Gifted and Talented Policy"
+        },
+        {
+          "_key": "mobile-phone-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-35c65286c7f8403c7585b69130d2c22d67348de9-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Mobile Phone Policy document cover",
+            "asset": {
+              "_ref": "image-86257189b9cf219fb679f38021da1217148ac494-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Mobile Phone Policy"
+        },
+        {
+          "_key": "attendance-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-25d7301ad2be7f665f24ec5f775ba02e59d00458-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Attendance Policy document cover",
+            "asset": {
+              "_ref": "image-96d0fae9d3dc160b5ed7653b7391005a98d0bab9-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Attendance Policy"
+        },
+        {
+          "_key": "transportation-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-e7cebb686743fea12215762250341eaab2b08715-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Transportation Policy document cover",
+            "asset": {
+              "_ref": "image-7d4c1db17d251b5a544a74bc4c0f71a4396a5217-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Transportation Policy"
+        },
+        {
+          "_key": "traffic-control-management-plan",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-78ec924ce7701e38401cdc0a4f3c0ade567fd0a2-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Traffic Control Management Plan document cover",
+            "asset": {
+              "_ref": "image-37c7588bb4a60ab934fc5ac43d963c248094fb37-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Traffic Control Management Plan"
+        },
+        {
+          "_key": "assessment-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-cb3b28456fd04d37bd5e65fc61aab6f6a0e9b11d-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Assessment Policy document cover",
+            "asset": {
+              "_ref": "image-d6d87de51e691cd69d4ef8168246a5ce0eecfcbf-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Assessment Policy"
+        },
+        {
+          "_key": "uniform-policy",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-2f5091bf1ece8700caa038919c46d1e1f3e43daa-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Uniform Policy document cover",
+            "asset": {
+              "_ref": "image-e7b5577855c618629304bddc31920e3b924ccb5f-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Uniform Policy"
+        },
+        {
+          "_key": "drug-prevention-and-awareness-guide",
+          "_type": "card",
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-3383a93472c16e51b146c5893e50c8884e4c6e8d-pdf",
+              "_type": "reference"
+            }
+          },
+          "image": {
+            "_type": "image",
+            "alt": "SAIS - Abu Dhabi Drug Prevention and Awareness Guide document cover",
+            "asset": {
+              "_ref": "image-06308a3bf4e647999e3deb534c840e326bbf86b0-1414x2000-jpg",
+              "_type": "reference"
+            }
+          },
+          "label": "Download PDF (English)",
+          "title": "Drug Prevention and Awareness Guide"
+        }
+      ],
+      "slot": "policies"
+    }
+  ],
+  "seo": {
+    "_type": "seo",
+    "description": "Review SAIS - Abu Dhabi school policies and download policy documents.",
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students in library discussion",
+      "asset": {
+        "_ref": "image-8b4c1c7a25ceb855a5d1329a2b493c44349ab95b-2226x1124-jpg",
+        "_type": "reference"
+      }
+    },
+    "title": "School Policies | SAIS - Abu Dhabi"
+  },
+  "title": "School Policies"
+}
