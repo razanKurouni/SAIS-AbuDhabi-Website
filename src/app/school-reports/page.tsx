@@ -100,6 +100,7 @@ export default async function SchoolReportsPage() {
                   index={index}
                   fallbackCover={fallbackCover}
                   fallbackTitle="School Report"
+                  openInNewTab
                 />
               ))}
             </div>

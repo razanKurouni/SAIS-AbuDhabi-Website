@@ -7,6 +7,8 @@ type SchoolDocumentCardProps = {
   index: number;
   fallbackCover: SanityImage;
   fallbackTitle: string;
+  /* School Reports: the download buttons open the file in a new tab instead of downloading in place. */
+  openInNewTab?: boolean;
 };
 
 function getDocumentViewerUrl(documentUrl: string, title: string) {
@@ -24,7 +26,7 @@ function getDocumentViewerUrl(documentUrl: string, title: string) {
 }
 
 /** A document cover with its title and download link (School Policies, School Reports). */
-export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTitle }: SchoolDocumentCardProps) {
+export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTitle, openInNewTab = false }: SchoolDocumentCardProps) {
   const cover = document.coverImage || fallbackCover;
   const title = document.title || fallbackTitle;
   const downloadLabel = document.downloadLabel || "Download PDF";
@@ -33,6 +35,9 @@ export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTit
   /* A second version of the same document (e.g. Arabic) gets its own labelled button. */
   const secondUrl = documentUrl ? document.secondDocumentUrl || null : null;
   const secondLabel = document.secondDownloadLabel || "Download PDF";
+  const linkProps = openInNewTab
+    ? { target: "_blank", rel: "noopener noreferrer" }
+    : { download: true };
 
   return (
     <Reveal
@@ -77,15 +82,15 @@ export function SchoolDocumentCard({ document, index, fallbackCover, fallbackTit
 
       {documentUrl && secondUrl ? (
         <div className="school-policy-card__downloads">
-          <a href={documentUrl} download className="school-policy-card__download">
+          <a href={documentUrl} {...linkProps} className="school-policy-card__download">
             {downloadLabel}
           </a>
-          <a href={secondUrl} download className="school-policy-card__download">
+          <a href={secondUrl} {...linkProps} className="school-policy-card__download">
             {secondLabel}
           </a>
         </div>
       ) : documentUrl ? (
-        <a href={documentUrl} download className="school-policy-card__download">
+        <a href={documentUrl} {...linkProps} className="school-policy-card__download">
           {downloadLabel}
         </a>
       ) : (
