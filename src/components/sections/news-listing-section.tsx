@@ -160,42 +160,18 @@ export function NewsListingSection({
   newslettersHeading = "Newsletters",
   buttonLabel = "See More",
 }: NewsListingSectionProps) {
-  const featured = newsPosts.find((post) => post.featured) || newsPosts[0];
-  const remainingNews = newsPosts.filter((post) => post._id !== featured?._id);
+  const orderedNews = [...newsPosts.filter((post) => post.featured), ...newsPosts.filter((post) => !post.featured)];
 
   return (
     <div className="news-listing">
-      <section className="news-listing__section" aria-labelledby="news-listing-heading">
-        <SectionReveal className="news-listing__inner">
-          <h2 id="news-listing-heading" className="news-listing__heading">{newsHeading}</h2>
-
-          {featured ? (
-            <article className="news-listing-featured">
-              <Link className="news-listing-featured__media" href={`/news-events/${featured.slug}`} tabIndex={-1}>
-                {featured.image?.url ? (
-                  <Image
-                    src={featured.image.url}
-                    alt={featured.image.alt || featured.title || "Featured news"}
-                    fill
-                    priority
-                    sizes="(max-width: 767px) calc(100vw - 32px), 42vw"
-                    className="news-listing-featured__image"
-                  />
-                ) : null}
-              </Link>
-              <div className="news-listing-featured__body">
-                <h3><Link href={`/news-events/${featured.slug}`}>{featured.title}</Link></h3>
-                {featured.excerpt ? <p>{featured.excerpt}</p> : null}
-                <NewsButton post={featured} label={buttonLabel} />
-              </div>
-            </article>
-          ) : null}
-
-          {remainingNews.length ? (
-            <NewsCardsCollection posts={remainingNews} buttonLabel={buttonLabel} label={newsHeading} />
-          ) : null}
-        </SectionReveal>
-      </section>
+      {newsPosts.length ? (
+        <section className="news-listing__section news-listing__section--newsletters" aria-labelledby="news-listing-heading">
+          <SectionReveal className="news-listing__inner">
+            <h2 id="news-listing-heading" className="news-listing__heading">{newsHeading}</h2>
+            <NewsCardsCollection posts={orderedNews} buttonLabel={buttonLabel} label={newsHeading} />
+          </SectionReveal>
+        </section>
+      ) : null}
 
       {newsletterPosts.length ? (
         <section className="news-listing__section news-listing__section--newsletters" aria-labelledby="newsletter-listing-heading">
