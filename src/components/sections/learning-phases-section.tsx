@@ -28,7 +28,8 @@ export function LearningPhasesSection({ section, excludeHref, excludeTitle }: Le
   }
 
   const title = section.heading?.title || "Our Learning Phases";
-  const cta = section.cta;
+  /* The design overlay always adds a cta variant; only show the button when Sanity gives it a link or label. */
+  const cta = section.cta?.href || section.cta?.label ? section.cta : undefined;
   const cards = section.cards.filter((card) => {
     if (excludeTitle && card.title?.toLowerCase() === excludeTitle.toLowerCase()) return false;
     if (excludeHref && card.cta?.href === excludeHref) return false;

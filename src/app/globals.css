@@ -10057,7 +10057,8 @@ img:where(
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .latest-news-card:last-child {
+  /* Only the card left alone on the last row is narrowed; with two posts both share the row at full column width. */
+  .latest-news-card:last-child:nth-child(odd) {
     max-width: calc(50% - 20px);
   }
 
