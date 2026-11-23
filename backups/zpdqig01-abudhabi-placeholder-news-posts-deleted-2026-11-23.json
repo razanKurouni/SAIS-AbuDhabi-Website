@@ -1,0 +1,525 @@
+[
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-cultural-day-2026",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_system": {
+      "base": {
+        "id": "news-post-cultural-day-2026",
+        "rev": "i07s2R4XwQ30MiRemw0FCZ"
+      }
+    },
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-c",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-d",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxxx Xxx xx XXXX - Xxx Xxxxx xxxxxxx xxx xxxxx xxxxxx xxxxxxxx xx xxxxxxxxx xxx xxxxxxxx xx xxx Xxxxxx Xxxx Xxxxxxxx. Xxxxxxxx xx xxxxxxxxxxx xxxxx xxxxxxxxx xxxx xxxxxx, xxxxxxx xxxxxx xxx xxxxxxxxx xxxxxxxx xx Xxxxxxx xxxxxx, xxxx xxx xxxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-f",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxx xxxxx xxx xxx xx xxx Xxxxxxx Xxxxxxxx xx Xxxxxxx & Xxxxxxxxx Xxxxxxxxxxx xxx xxxxxxxxx xx xxxxxxxx xxxx xxx Xxxxxx, Xxxxxxx Xxxxxxxxx xxx Xxxxxx Xxxxxxx xxxxxxxxxxx. Xxxxxxx xxxxxx xxx xxxxxxxxxxx xxx xxxxxxx x xxxxxxxx xx xxxxxxx xxxx xx xxxxx xxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-g",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-h",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxxxxxxx xxxx xxxx xxx xxxxxxx xxx xxxxxxxxxx xx xxxxxxxxx xxxxx xxxxxxxxxx xxxxx xxxxxxxxx xxxxxxxx xxxxxx xxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Xxxxxxxx xxxxxxx xx xxxxxxxxxxx xxxxxx, xxxxxxxxx xxxx xxxxxx xxx xxxxxx Xxxxxxx xxxxxxxxxx xxxxxx xxx xxxxxxx Xxxxxxxx Xxx xxxxxxxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students in traditional dress at a cultural celebration",
+      "asset": {
+        "_ref": "image-3c66e1502b740e805b7809976c1533633e02202e-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-04T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxxxxxxx xxxxxxx xx xxxxxxxxxxx xxxxxx, xxxxxxxxx xxxx xxxxxx xxx xxxxxx Xxxxxxx xxxxxxxxxx xxxxxx xxx xxxxxxx Xxxxxxxx Xxx xxxxxxxxxxx.",
+      "title": "Xxxxxxxx Xxx Xxxxxxxxxx xxx Xxxxxxxx xx xxx XXX | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "cultural-day-celebration"
+    },
+    "title": "Xxxxxxxx Xxx Xxxxxxxxxx xxx Xxxxxxxx xx xxx XXX"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-football-team-tournament",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-o",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-p",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxxxxxxxxxx xx xxx XXXX - Xxx Xxxxx Xxxxxx Xxxxxx xxxxxxxx xxxx, xxx xxxxxxx xxx xxxxx xx xxx xxxxx-xxxxxx xxxxxxxxxx xxxxx xx xxxxxxxx xxxxx xxxxx. Xxx xxxx xxxxxxxx xx xxxxxxx-xx xxxxxxxxx x xxxxxxx xxxxxxxxx xxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-q",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-r",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxx xxx xxxxxxx xxxxxxx xx xxx xxxxxxx xxxxxx xxxxxxxxxx xxx xxxx, xxx xxxxx xxxxxxxxxx xxx xxxxxxxxxxxxx xxxx xxxxxxx xx xxx xxxxxxxxxx xxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-s",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-t",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxx xx XXXX - Xxx Xxxxx xxxxx xxxxxxxx, xxxxxxxxxx xxx xxxxxx xxxxx. Xx xxxx xxxxxxx xx xxxxxxxx xxx xxxx xx xx xxx xxxx xxxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Xxx Xxxxxx Xxxxxx xxxxxxxx xxxx xxxxxx xxxxxxxx xxx xxxxxxxxxxxxx xx xxx xxxxx, xxxxxxxxx xxxxxxx-xx xx xxx xxxxx-xxxxxx xxxxxxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi middle school football team with their coach on the pitch",
+      "asset": {
+        "_ref": "image-6151b6b81ff75214d85cc624c3cdbc07e04a5c90-1560x1268-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-21T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxx Xxxxxx Xxxxxx xxxxxxxx xxxx xxxxxx xxxxxxxx xxx xxxxxxxxxxxxx xx xxx xxxxx, xxxxxxxxx xxxxxxx-xx xx xxx xxxxx-xxxxxx xxxxxxxxxx.",
+      "title": "Xxxxxx Xxxxxx Xxxxxxxx Xxxx Xxxxxxx Xxxxxxxxxx Xxxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "football-team-inter-school-tournament"
+    },
+    "title": "Xxxxxx Xxxxxx Xxxxxxxx Xxxx Xxxxxxx Xxxxxxxxxx Xxxxx"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-june-newsletter-2026",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-16",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-17",
+            "_type": "span",
+            "marks": [],
+            "text": "Xx xxx xxxxxxxx xxxx xxxxx xx x xxxxx, xxx Xxxx xxxxxxxxxx xxxxx xxxx xx x xxxx xx xxxxxxxxxxxx xxxxxx xxxxxxxxx, xxxxxx xxx xxxxxxx xxxxxxxxxx xx XXXX - Xxx Xxxxx, xxx xxxxxxxxxx xxx xxxxxxxxxx xxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-18",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-19",
+            "_type": "span",
+            "marks": [],
+            "text": "Xx xxxx xxxxxxxx xxx xxxxxx xxxxxxx xxxx, xxx-xx-xxxx xxxxxx xxxx xxxxx, xx-xxxxxxxxxxxx xxxxxxxxx xxx xxx xxx xxxxx xxx xxx xxxxx xx xxx xxxx xxxxxxxx xxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-1a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-1b",
+            "_type": "span",
+            "marks": [],
+            "text": "Xx xxxx xxx xxx xxxxxxxx x xxxxxxx xxx xxxxxxxxx xxxxxx xxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "Xxx xxx-xx-xxxx xxxxxxxxxx xxxxxxxxxx xxxxxxx xxxxxxxxxxxx, xxxxxxxxxx, xxxxxx xxxxxxx xxx xxxxxxxxx xxxxx xxx xxx xxxx xxxxxxxx xxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi high school students reading a book together in the library",
+      "asset": {
+        "_ref": "image-e64aadc581cc4dbcc9c5636c1d44814a0be7a1a8-1560x1252-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-06-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxx xxx-xx-xxxx xxxxxxxxxx xxxxxxxxxx xxxxxxx xxxxxxxxxxxx, xxxxxxxxxx, xxxxxx xxxxxxx xxx xxxxxxxxx xxxxx xxx xxx xxxx xxxxxxxx xxxx.",
+      "title": "Xxxx xxxx Xxxxxxxxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "june-newsletter-2026"
+    },
+    "title": "Xxxx xxxx Xxxxxxxxxx"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-puppet-show-kg",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-u",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-v",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxx Xxxxxxxxxxxx xxxx xxx xxxxxxxxxxx xxxx x xxxxxxx xxx xxx xxxxxx xxxxxx xxxx, xxxxx XXXX - Xxx Xxxxx xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxx xxx XXx xxx XXx xxxxxxxx. Xxx xxxxxxxx xxxxxx xx xxxx xxxxx, xxxxxxxx xxxxxxxxx xxxx xxx xxxxxxx xxx xxxxxx xxx xxxxxxx xx xxxxx xxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-w",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-x",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxxxxxxx xxx xxxxxxxx xxxx xxx xxxxxxx xx xxx Xxxxxxxxxxxx xxxxxxxxxx, xxxxxxxxxx xxxxx xxxxxxxx xx Xxxxxxx xxx Xxxxxx, xxxxxxxxx xxxxxx xxx xxxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-y",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-z",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxx xxx xx xxx Xxxxxxxxxxxx xxxx xxx x xxxxxxx xxxx xx xxxxxxxx xxx xxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Xxx xxxxxxxx xxxxxxxx xxxxxxx x xxxxxx xxxx xxxxxxxxx xx xxxxx xxxxxxxx, xxxxxxxxxxx xxxxxxxxxxxx, xxxxxxxx xxx xxxxxxxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi kindergarten students watching a puppet show",
+      "asset": {
+        "_ref": "image-63ae15a091cd99ee551a160e607e1b8c590e10f1-1528x1312-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-14T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxx xxxxxxxx xxxxxxxx xxxxxxx x xxxxxx xxxx xxxxxxxxx xx xxxxx xxxxxxxx, xxxxxxxxxxx xxxxxxxxxxxx, xxxxxxxx xxx xxxxxxxxxxx.",
+      "title": "Xxxxxxxxxxxx Xxxxxx Xxxx Xxxxxx Xxxxxxx xx Xxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "kindergarten-puppet-show"
+    },
+    "title": "Xxxxxxxxxxxx Xxxxxx Xxxx Xxxxxx Xxxxxxx xx Xxxx"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-school-garden-planting",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-i",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-j",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxx xx xxx Xxxxxxx Xxxxxxxx xx Xxxxxxxxxxx, xxxxxxxx xxxx Xxxxxxxxxx xxx Xxxxxx Xxxxxx xxxxx x xxxxxxx xxxxxxxx xxx xxxxx, xxxxx xxx xxxxxxxxx xxxxxx xx xxx XXXX - Xxx Xxxxx xxxxxx xxxxxx. Xxxx xxxxx xxx xxxxxxx x xxxxx xxxx x XX xxxx xxxxxxx xx xxxxxxxxxxx xxxxxxxxxx xx xxx xxxxxxxx xxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-k",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-l",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxx xxxxxxxx xxx xx xxxx xx x xxxxx xxxxxxxxxxxxxx xxxxxxxx xxxx xxxxxxxx xxxxxxxxx xxxxxx, xxxxx-xxxxxx xxxxxxxxxxx xxx xxx-xxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxx xxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-m",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-n",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxx xxxxxxxx xxxx xxxx xxx xxxxxxx xxx xxxxxxxx xxxx xxxxx xxxxxxxxx xxx xxxxxx xxx xxxxx xxxxxxxxxxxxxx xxxx xxxx xx xxx xxxxx xx xxxxxxx xxxx xx XXXX - Xxx Xxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Xx xxxx xx xxx xxxxxxxxxxxxxx xxxxxxxx, xxxxxxxx xxxxxxx xxx xxxxx xxx xxxxx xx xxx xxxxxx xxxxxx, xxxxxxxx xxxxx xxxxx xxxxxxxxxxxxxx xxx xxx xxxxxxxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students planting a fig tree in the school garden",
+      "asset": {
+        "_ref": "image-75dda7736d576897445a2a723b2101666bebd855-790x676-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-08-28T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xx xxxx xx xxx xxxxxxxxxxxxxx xxxxxxxx, xxxxxxxx xxxxxxx xxx xxxxx xxx xxxxx xx xxx xxxxxx xxxxxx, xxxxxxxx xxxxx xxxxx xxxxxxxxxxxxxx xxx xxx xxxxxxxxxxx.",
+      "title": "Xxxxxxxxx Xxxxxxxxxx: Xxxxxxxx Xxxxx xxx Xxxxxx Xxxxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "school-garden-planting-day"
+    },
+    "title": "Xxxxxxxxx Xxxxxxxxxx: Xxxxxxxx Xxxxx xxx Xxxxxx Xxxxxx"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-september-newsletter-2026",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_system": {
+      "base": {
+        "id": "news-post-september-newsletter-2026",
+        "rev": "seeJ8sDCx2bMNJQ2P7SXBn"
+      }
+    },
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-10",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-11",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxx xxxx xx x xxx xxxxxxxx xxxx xx XXXX - Xxx Xxxxx. Xxx Xxxxxxxxx xxxxxxxxxx xxxxxx xxx xxxxx-xxxx xxxxxxxx, xxx Xxxxxxx Xxxxxxxxxx xxxxxxxx xxxxxxxx, xxxxxxx xxx xxxxxx xxxxxxxx xxxxxxxxx, xxx xxx xxxxx xx xxx xxxxxxxx xxxxxx xxxxxxxxxxx xxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-12",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-13",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxx xxx xxxx xxxx xxxx x xxxxxxx xxxx xxx Xxxxxxxxx, xx xxxxxxxxxxxx xx xxx Xxxxxx Xxxxxxxxxx Xxxx xxx x xxxxxxx xx xxx xxxxx xxx xxxxxxxxxx xx xxxxx xxxx xxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-14",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-15",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxxxxxxx xxx xxxxxx xxx xxxx xxxxxxxxxx xxx xxx xxxxxx xxxxxxxxxxxxx xxxxxxx xxx XxxxxXxx xxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "newsletter",
+    "excerpt": "Xxxxxxx xxxx! Xxxx xxx Xxxxxxxxx xxxxxxxxxx xxx xxx xxx xxxxxxxx xxxx xxxxxxxx, Xxxxxxx Xxxxxxxxxx xxxxxxxxx, xxxxxxx xxxxxxxxx xxx xxxxxxxx xxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi campus building",
+      "asset": {
+        "_ref": "image-554215c25498eee86409aa6fbea62f4253566275-2226x1124-png",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-05T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxxxxxx xxxx! Xxxx xxx Xxxxxxxxx xxxxxxxxxx xxx xxx xxx xxxxxxxx xxxx xxxxxxxx, Xxxxxxx Xxxxxxxxxx xxxxxxxxx, xxxxxxx xxxxxxxxx xxx xxxxxxxx xxxxxx.",
+      "title": "Xxxxxxxxx xxxx Xxxxxxxxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "september-newsletter-2026"
+    },
+    "title": "Xxxxxxxxx xxxx Xxxxxxxxxx"
+  },
+  {
+    "_createdAt": "2026-09-24T13:07:34Z",
+    "_id": "news-post-stem-lab-showcase",
+    "_rev": "QvrsuE3cZcyUlKHw4mQBpA",
+    "_type": "newsPost",
+    "_updatedAt": "2026-10-22T06:32:12Z",
+    "body": [
+      {
+        "_key": "b-6",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-7",
+            "_type": "span",
+            "marks": [],
+            "text": "Xxx xxxxxxx xxxx xx XXXX - Xxx Xxxxx xxxx xxxxxxx xxxx xxxxxxxx xx xxxxxxxx xxxxxx xxxxx xxxxxx xxxxxxxxx xxxxx XXXX xxxxxxxx xx xxxxxxxx, xxxxxxx xxx xxxxxxxxxx. Xxxxxxxxxx xxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxx, xxxxxxxxxxxxx xxxxxxxxxxxxxx xxx xX-xxxxxxxx xxxxxxxxxx xxxxxxxx xx xxx XXX xxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-8",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-9",
+            "_type": "span",
+            "marks": [],
+            "text": "XXXX xx XXXX - Xxx Xxxxx xx x xxxxxxx xxxxxxxx xxxxxx xxx xxxxxxxxxx xxxxxx xxxx x xxxxxx xxxx. Xxxxxxxx xxx xxxxxxxxxx xx xxxxxxx, xxxxx, xxxx xxx xxxxxxxx, xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxx xxxx-xxxxx xxxxxxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "b-a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "s-b",
+            "_type": "span",
+            "marks": [],
+            "text": "Xx xxxxx xxx xxxxxxx xxx xxxxxxxxxx xxxxxxxx xxx xxxxxxx xxxxx xxxxxxx, xxx xxxxxxxxxxxx xxx xxxxxxxx xx xxx xxxxxxxxx xxx xxxxxxxxxx xxxx xxxxxxx xx xxx xxxxxxxx."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Xxxx xxxxxxxxxxxxxx xxxxxxxxxxx xx xxxxxxxx xxxxxxxxxx, xxx xxxxxxxx xxxxxxxxxxxx xxxxx-xx XXXX xxxxxxxx xxxxxx xxx xxxxxx xxx xxxxxxxx.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi students experimenting with a Van de Graaff generator in the science lab",
+      "asset": {
+        "_ref": "image-504c6e8aa512a3073ae36e8eaa655e4bf01eca55-1528x1252-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-09-11T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Xxxx xxxxxxxxxxxxxx xxxxxxxxxxx xx xxxxxxxx xxxxxxxxxx, xxx xxxxxxxx xxxxxxxxxxxx xxxxx-xx XXXX xxxxxxxx xxxxxx xxx xxxxxx xxx xxxxxxxx.",
+      "title": "XXXX Xxx Xxxxxxxx: Xxxxxxxx Xxxxx Xxxxxxx xx Xxxx | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "stem-lab-showcase"
+    },
+    "title": "XXXX Xxx Xxxxxxxx: Xxxxxxxx Xxxxx Xxxxxxx xx Xxxx"
+  }
+]
