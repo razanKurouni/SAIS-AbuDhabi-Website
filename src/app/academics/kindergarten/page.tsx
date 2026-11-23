@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsArabicSection } from "@/components/sections/academics-arabic-section";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { AcademicsTeachingCommitmentsSection } from "@/components/sections/academics-teaching-commitments-section";
 import { IntroFeatureSection } from "@/components/sections/intro-feature-section";
@@ -247,6 +248,7 @@ export default async function AcademicsKindergartenPage() {
           imageSide="right"
         />
       ) : null}
+      <AcademicsArabicSection section={kindergartenPage?.arabicSection} idPrefix="academics-kg" />
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Kindergarten" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

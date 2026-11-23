@@ -139,6 +139,7 @@ export const PAGE_SPECS: PageSpec[] = [
       cards("supportProgramsSection", "Support Programs"),
       cards("assessmentProtocolSection", "Assessment Protocol"),
       { slot: "calendarDownload", kind: "cta", label: "Calendar Download" },
+      txt("arabicSection", "Arabic Subjects"),
     ],
   },
   {
@@ -151,6 +152,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("curriculumSection", "Curriculum"),
       cards("drdpSection", "DRDP Assessment"),
       it("dayInLifeSection", "A Day in the Life"),
+      txt("arabicSection", "Arabic Subjects"),
     ],
   },
   {
@@ -163,6 +165,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("assessmentSection", "Assessment"),
       it("assessmentDetailSection", "Assessment – Details"),
       it("dayInLifeSection", "A Day in the Life"),
+      txt("arabicSection", "Arabic Subjects"),
     ],
   },
   {
@@ -177,6 +180,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("assessmentDetailSection", "Assessment – Details"),
       cards("supportProgramsSection", "Inclusion & Support Programs"),
       it("dayInLifeSection", "A Day in the Life"),
+      txt("arabicSection", "Arabic Subjects"),
       { slot: "learningPhasesElementaryImage", kind: "image", label: "Learning Phases – Elementary Image" },
     ],
   },
@@ -197,6 +201,7 @@ export const PAGE_SPECS: PageSpec[] = [
       it("apDiplomaSection", "What is AP?"),
       cards("apBenefitsSection", "Benefits of AP Courses"),
       it("dayInLifeSection", "A Day in the Life"),
+      txt("arabicSection", "Arabic Subjects"),
     ],
   },
   {

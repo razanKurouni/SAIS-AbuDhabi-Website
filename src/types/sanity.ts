@@ -641,6 +641,15 @@ export type CalendarDownloadSection = {
   fileName?: string | null;
 };
 
+/**
+ * The Arabic subjects department text on the Academics pages: a heading and rich text whose
+ * Heading 3 blocks start the subject cards. Right to left when the text is Arabic.
+ */
+export type AcademicsArabicSection = {
+  heading?: SectionHeading;
+  body?: PortableTextBlock[];
+};
+
 export type AcademicsPageData = {
   seo?: Seo;
   hero?: PageHeroContent;
@@ -654,6 +663,7 @@ export type AcademicsPageData = {
   supportProgramsSection?: AcademicsSupportProgramsSection;
   assessmentProtocolSection?: AcademicsKindergartenAssessmentSection;
   calendarDownload?: CalendarDownloadSection;
+  arabicSection?: AcademicsArabicSection;
 };
 
 export type AcademicsKindergartenIntroSection = {
@@ -702,6 +712,7 @@ export type AcademicsKindergartenPageData = {
   curriculumSection?: AcademicsKindergartenFeatureSection;
   drdpSection?: AcademicsTeachingCommitmentsSection;
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
+  arabicSection?: AcademicsArabicSection;
 };
 
 export type AcademicsElementaryPageData = {
@@ -712,6 +723,7 @@ export type AcademicsElementaryPageData = {
   assessmentSection?: AcademicsKindergartenFeatureSection;
   assessmentDetailSection?: ImageTextSection;
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
+  arabicSection?: AcademicsArabicSection;
 };
 
 export type AcademicsMiddleSchoolPageData = {
@@ -724,6 +736,7 @@ export type AcademicsMiddleSchoolPageData = {
   assessmentDetailSection?: ImageTextSection;
   supportProgramsSection?: AcademicsSupportProgramsSection;
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
+  arabicSection?: AcademicsArabicSection;
   learningPhasesElementaryImage?: SanityImage;
 };
 
@@ -761,6 +774,7 @@ export type AcademicsHighSchoolPageData = {
   apDiplomaSection?: AcademicsKindergartenFeatureSection;
   apBenefitsSection?: AcademicsSupportProgramsSection;
   dayInLifeSection?: AcademicsKindergartenFeatureSection;
+  arabicSection?: AcademicsArabicSection;
 };
 
 export type AcademicsSkillItem = {

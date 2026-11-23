@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsArabicSection } from "@/components/sections/academics-arabic-section";
 import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { AcademicsSupportProgramsSliderSection } from "@/components/sections/academics-support-programs-slider-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
@@ -335,6 +336,7 @@ export default async function AcademicsMiddleSchoolPage() {
         />
       ) : null}
 
+      <AcademicsArabicSection section={middleSchoolPage?.arabicSection} idPrefix="academics-middle" />
       <LearningPhasesSection section={learningPhasesSection} excludeTitle="Middle School" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

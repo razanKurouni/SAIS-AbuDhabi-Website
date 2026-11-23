@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FileCheck2, Landmark, NotebookPen, UsersRound } from "lucide-react";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsArabicSection } from "@/components/sections/academics-arabic-section";
 import { AcademicsLearningSliderSection } from "@/components/sections/academics-learning-slider-section";
 import { AcademicsSupportProgramsSliderSection } from "@/components/sections/academics-support-programs-slider-section";
 import { AcademicsTeachingCommitmentsSection } from "@/components/sections/academics-teaching-commitments-section";
@@ -390,6 +391,7 @@ export default async function AcademicsPage() {
         fallbackIcons={[FileCheck2, NotebookPen, UsersRound, Landmark]}
       />
 
+      <AcademicsArabicSection section={academicsPage?.arabicSection} idPrefix="academics" />
       <LearningPhasesSection section={data?.learningPhases} />
       <AccreditationsSection section={data?.accreditations} />
       <TourIntroSection section={data?.tour} />

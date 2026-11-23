@@ -185,6 +185,7 @@ export function adaptAcademics(page: CmsPage): AcademicsPageData {
         }
       : undefined,
     calendarDownload: download(s.get("calendarDownload")),
+    arabicSection: textSection(s.get("arabicSection")),
   };
 }
 
@@ -198,6 +199,7 @@ export function adaptKindergarten(page: CmsPage): AcademicsKindergartenPageData 
       ? { heading: heading(s.get("drdpSection")), cards: iconCards(s.get("drdpSection")) }
       : undefined,
     dayInLifeSection: imageText(s.get("dayInLifeSection")),
+    arabicSection: textSection(s.get("arabicSection")),
   };
 }
 
@@ -209,6 +211,7 @@ export function adaptElementary(page: CmsPage): AcademicsElementaryPageData {
     assessmentSection: imageText(s.get("assessmentSection")),
     assessmentDetailSection: imageText(s.get("assessmentDetailSection")),
     dayInLifeSection: imageText(s.get("dayInLifeSection")),
+    arabicSection: textSection(s.get("arabicSection")),
   };
 }
 
@@ -224,6 +227,7 @@ export function adaptMiddleSchool(page: CmsPage): AcademicsMiddleSchoolPageData 
       ? { heading: heading(s.get("supportProgramsSection")), cards: iconCards(s.get("supportProgramsSection")) }
       : undefined,
     dayInLifeSection: imageText(s.get("dayInLifeSection")),
+    arabicSection: textSection(s.get("arabicSection")),
     learningPhasesElementaryImage: image(s.get("learningPhasesElementaryImage")?.image),
   };
 }
@@ -249,6 +253,7 @@ export function adaptHighSchool(page: CmsPage): AcademicsHighSchoolPageData {
       ? { heading: heading(s.get("apBenefitsSection")), cards: iconCards(s.get("apBenefitsSection")) }
       : undefined,
     dayInLifeSection: imageText(s.get("dayInLifeSection")),
+    arabicSection: textSection(s.get("arabicSection")),
   };
 }
 

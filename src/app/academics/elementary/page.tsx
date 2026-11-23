@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SitePageShell } from "@/components/layout/site-page-shell";
+import { AcademicsArabicSection } from "@/components/sections/academics-arabic-section";
 import { AcademicsElementaryAssessmentSection } from "@/components/sections/academics-elementary-assessment-section";
 import { EditorialSplitSection } from "@/components/sections/editorial-split-section";
 import { InnerPageNav, type InnerPageNavItem } from "@/components/sections/inner-page-nav";
@@ -264,6 +265,7 @@ export default async function AcademicsElementaryPage() {
         />
       ) : null}
 
+      <AcademicsArabicSection section={elementaryPage?.arabicSection} idPrefix="academics-elementary" />
       <LearningPhasesSection section={data?.learningPhases} excludeTitle="Elementary" />
       <TourIntroSection section={data?.tour} />
       <TourSection section={data?.tour} />

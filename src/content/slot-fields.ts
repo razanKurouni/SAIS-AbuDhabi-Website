@@ -198,6 +198,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "entry": []
   },
+  "academics-elementary-page/arabicSection": {
+    "section": [
+      "body",
+      "heading"
+    ],
+    "heading": [
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "academics-elementary-page/assessmentDetailSection": {
     "section": [
       "heading",
@@ -275,6 +287,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "heading": [
       "description",
       "eyebrow",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-high-school-page/arabicSection": {
+    "section": [
+      "body",
+      "heading"
+    ],
+    "heading": [
       "title"
     ],
     "card": [],
@@ -397,6 +421,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     "cardEntry": [],
     "entry": []
   },
+  "academics-kindergarten-page/arabicSection": {
+    "section": [
+      "body",
+      "heading"
+    ],
+    "heading": [
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
   "academics-kindergarten-page/curriculumSection": {
     "section": [
       "heading",
@@ -448,6 +484,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "heading": [
       "description"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-middle-school-page/arabicSection": {
+    "section": [
+      "body",
+      "heading"
+    ],
+    "heading": [
+      "title"
     ],
     "card": [],
     "cardEntry": [],
@@ -552,6 +600,18 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
     ],
     "heading": [
       "description",
+      "title"
+    ],
+    "card": [],
+    "cardEntry": [],
+    "entry": []
+  },
+  "academics-page/arabicSection": {
+    "section": [
+      "body",
+      "heading"
+    ],
+    "heading": [
       "title"
     ],
     "card": [],
