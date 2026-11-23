@@ -156,8 +156,8 @@ const fallbackJoinTeamSection: CareersJoinTeamSectionData = {
         alt: "Email application icon",
       },
       label: "Emailing your CV to",
-      text: "hrrecruitment@saisabudhabi.com\n(specify position in the subject line)",
-      href: "mailto:hrrecruitment@saisabudhabi.com",
+      text: "maridel.puchol@saisabudhabi.com\n(specify position in the subject line)",
+      href: "mailto:maridel.puchol@saisabudhabi.com",
     },
     {
       _key: "teach-away",

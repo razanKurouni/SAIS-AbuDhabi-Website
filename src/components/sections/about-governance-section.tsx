@@ -21,6 +21,8 @@ export function AboutGovernanceSection({ section }: AboutGovernanceSectionProps)
   const content = section?.heading?.description?.length
     ? section.heading.description
     : blocksFromText(fallbackParagraphs.join("\n"));
+  // The button under the text (on About: the ADEK website), shown only when Sanity gives it a label and a link.
+  const cta = section?.ctas?.find((item) => item.label && item.href && item.href !== "#");
 
   return (
     <ApproachSectionBase
@@ -31,6 +33,7 @@ export function AboutGovernanceSection({ section }: AboutGovernanceSectionProps)
       content={content}
       image={section?.image || fallbackImage}
       imageSizes="(max-width: 767px) calc(100vw - 32px), 42vw"
+      cta={cta}
       showTitle={false}
       naturalImage
     />

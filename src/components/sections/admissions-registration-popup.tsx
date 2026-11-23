@@ -2,7 +2,16 @@
 
 import { useEffect, useId, useState, type FormEvent } from "react";
 import { ArrowRight, X } from "lucide-react";
-import type { CalendarDownloadSection as RegistrationCta } from "@/types/sanity";
+import { normalizeHref } from "@/lib/portal-links";
+import type { CalendarDownloadSection, Cta } from "@/types/sanity";
+
+type RegistrationCta = CalendarDownloadSection & { ctas?: Cta[] };
+
+/** The SAIS - Abu Dhabi online application (mograSYS). */
+const onlineApplicationUrl = "https://saisa.oa.mograsys.com/sign-in?redirectUrl=/";
+
+/** A link to another page or site, not a placeholder such as "#". */
+const isRealLink = (href?: string) => Boolean(href && !href.startsWith("#"));
 
 type AdmissionsRegistrationPopupProps = {
   section?: RegistrationCta | null;
@@ -63,6 +72,10 @@ export function AdmissionsRegistrationPopup({ section }: AdmissionsRegistrationP
     setStatus("idle");
   };
 
+  // Studio: the first button is "Start Now" (its link), the second "Registration Inquiry", which opens the form.
+  const [applyCta, inquiryCta] = section?.ctas || [];
+  const applyHref = isRealLink(applyCta?.href) ? normalizeHref(applyCta!.href) : onlineApplicationUrl;
+
   return (
     <>
       <section className="calendar-download-section admissions-registration-cta">
@@ -70,12 +83,29 @@ export function AdmissionsRegistrationPopup({ section }: AdmissionsRegistrationP
           <p className="calendar-download-section__text">
             {section?.text || "Start the Pre-Registration Process Now"}
           </p>
-          <button className="calendar-download-section__btn" type="button" onClick={() => setIsOpen(true)}>
-            <span>{section?.buttonLabel || "Start Now"}</span>
-            <span className="calendar-download-section__btn-icon" aria-hidden="true">
-              <ArrowRight size={18} strokeWidth={2.5} />
-            </span>
-          </button>
+          <div className="admissions-registration-cta__actions">
+            <a
+              className="calendar-download-section__btn"
+              href={applyHref}
+              target={applyCta?.openInNewTab === false ? undefined : "_blank"}
+              rel={applyCta?.openInNewTab === false ? undefined : "noopener noreferrer"}
+            >
+              <span>{applyCta?.label || section?.buttonLabel || "Start Now"}</span>
+              <span className="calendar-download-section__btn-icon" aria-hidden="true">
+                <ArrowRight size={18} strokeWidth={2.5} />
+              </span>
+            </a>
+            <button
+              className="calendar-download-section__btn calendar-download-section__btn--fit"
+              type="button"
+              onClick={() => setIsOpen(true)}
+            >
+              <span>{inquiryCta?.label || "Registration Inquiry"}</span>
+              <span className="calendar-download-section__btn-icon" aria-hidden="true">
+                <ArrowRight size={18} strokeWidth={2.5} />
+              </span>
+            </button>
+          </div>
         </div>
       </section>
 

@@ -19,6 +19,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useSlideshowVisibility } from "@/hooks/use-slideshow-visibility";
 import { useSwipe } from "@/hooks/use-swipe";
 import type { CSSProperties } from "react";
 import { HoverIconCard } from "@/components/ui/hover-icon-card";
@@ -126,6 +127,7 @@ export function AcademicsSupportProgramsSliderSection({
   const [visibleCount, setVisibleCount] = useState(visibleCounts?.desktop ?? 3);
   const [activeStart, setActiveStart] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const { ref, canAutoplay } = useSlideshowVisibility<HTMLElement>(() => setActiveStart(0));
   const maxStart = Math.max(0, cards.length - visibleCount);
   const safeActiveStart = Math.min(activeStart, maxStart);
   const dots = useMemo(() => Array.from({ length: maxStart + 1 }, (_, index) => index), [maxStart]);
@@ -135,10 +137,10 @@ export function AcademicsSupportProgramsSliderSection({
   const swipe = useSwipe(goToPrev, goToNext);
 
   useEffect(() => {
-    if (maxStart <= 0 || isHovered || (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) return;
+    if (maxStart <= 0 || isHovered || !canAutoplay || (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) return;
     const timer = window.setInterval(goToNext, autoplayIntervalMs);
     return () => window.clearInterval(timer);
-  }, [autoplayIntervalMs, goToNext, maxStart, isHovered]);
+  }, [autoplayIntervalMs, canAutoplay, goToNext, maxStart, isHovered]);
 
   const desktopCount = visibleCounts?.desktop;
   const tabletCount = visibleCounts?.tablet;
@@ -174,6 +176,7 @@ export function AcademicsSupportProgramsSliderSection({
 
   return (
     <section
+      ref={ref}
       className={`academics-support-programs ${className}`.trim()}
       aria-labelledby={heading?.title ? "academics-support-programs-title" : undefined}
       style={style}

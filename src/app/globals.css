@@ -524,10 +524,12 @@ button[aria-label="Open Next.js Dev Tools"] {
 }
 
 .home-hero__copy {
+  --home-hero-copy-min-height: 250px;
+
   position: relative;
   width: 100%;
   aspect-ratio: 2772 / 1564;
-  min-height: 250px;
+  min-height: var(--home-hero-copy-min-height);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -536,6 +538,19 @@ button[aria-label="Open Next.js Dev Tools"] {
   box-shadow: none;
   overflow: hidden;
   left: -20px;
+}
+
+/* The panel keeps its 2772:1564 shape, but grows taller when the tagline needs more room than that shape gives it
+   (the long 2026 tagline on phones and narrow tablets), so no line is cut off and the padding stays. */
+@supports (width: 1cqw) {
+  .home-hero__entry-motion {
+    container-type: inline-size;
+  }
+
+  .home-hero__copy {
+    aspect-ratio: auto;
+    min-height: max(var(--home-hero-copy-min-height), 100cqw * 1564 / 2772);
+  }
 }
 
 .home-hero__title,
@@ -6683,7 +6698,9 @@ img:where(
   inset: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* Centred by the auto margins below instead of justify-content: center, which pushed the top of a bio
+     too long for the panel (on phones) above it, out of reach of scrolling. */
+  justify-content: flex-start;
   overflow-y: auto;
   border-radius: inherit;
   background: var(--sais-accent);
@@ -6726,6 +6743,21 @@ img:where(
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0;
+  white-space: pre-line;
+}
+
+/* Short bios sit in the middle of the panel; a long one starts at the top and scrolls. */
+.our-team-leadership__hover-panel > :first-child {
+  margin-top: auto;
+}
+
+.our-team-leadership__hover-panel > :last-child {
+  margin-bottom: auto;
+}
+
+/* A bio of several paragraphs (a blank line between them in the Studio). */
+.our-team-leadership__bio + .our-team-leadership__bio {
+  margin-top: 0.7em;
 }
 
 .our-team-leadership__controls {
@@ -10079,8 +10111,9 @@ img:where(
   }
 
   .home-hero__copy {
+    --home-hero-copy-min-height: 220px;
+
     left: 0;
-    min-height: 220px;
     padding: 28px 84px 28px 24px;
     margin-bottom: 30px;
   }
@@ -11132,7 +11165,10 @@ img:where(
   }
 
   .home-hero__copy {
-    min-height: 280px;
+    --home-hero-copy-min-height: 280px;
+
+    /* On phones the panel is as tall as its text needs, at least 280px (also where 1cqw is not supported). */
+    aspect-ratio: auto;
     padding: 24px 66px 24px 20px;
   }
 
@@ -13370,6 +13406,21 @@ img:where(
 
 .admissions-registration-cta .calendar-download-section__btn {
   cursor: pointer;
+}
+
+/* The same pill, as wide as a longer label needs ("Registration Inquiry"). */
+.calendar-download-section__btn.calendar-download-section__btn--fit {
+  width: auto;
+}
+
+/* "Start Now" and "Registration Inquiry" stay together, side by side, and move below the text
+   together when the band is too narrow for all three. */
+.admissions-registration-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 1.5rem;
 }
 
 .admissions-registration-modal {

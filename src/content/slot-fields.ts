@@ -85,6 +85,7 @@ export const SLOT_FIELDS: Record<string, SlotFieldLevels> = {
   },
   "about-page/governance": {
     "section": [
+      "ctas",
       "heading",
       "image"
     ],

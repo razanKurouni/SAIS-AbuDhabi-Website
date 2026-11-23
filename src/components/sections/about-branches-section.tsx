@@ -28,7 +28,8 @@ const fallbackCards: AboutBranchCard[] = [
     },
     cta: {
       label: "See More",
-      href: "#",
+      href: "https://www.saisdubai.com/",
+      openInNewTab: true,
     },
     cardColor: "#27779d",
     buttonColor: "#27779d",
@@ -45,7 +46,8 @@ const fallbackCards: AboutBranchCard[] = [
     },
     cta: {
       label: "See More",
-      href: "#",
+      href: "https://www.saissharjah.com/",
+      openInNewTab: true,
     },
     cardColor: "#00a5b2",
     buttonColor: "#00a5b2",
@@ -62,10 +64,11 @@ const fallbackCards: AboutBranchCard[] = [
     },
     cta: {
       label: "See More",
-      href: "#",
+      href: "https://www.saisuaq.com/",
+      openInNewTab: true,
     },
     cardColor: "#777b80",
-    buttonColor: "#d97252",
+    buttonColor: "#777b80",
   },
 ];
 

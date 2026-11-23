@@ -4,7 +4,7 @@ import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import type { CareersJoinTeamSection as CareersJoinTeamSectionData } from "@/types/sanity";
 
-/** An email address that has to wrap breaks before its "@" ("hrrecruitment" / "@saisabudhabi.com"), not mid-word. */
+/** An email address that has to wrap breaks before its "@" ("maridel.puchol" / "@saisabudhabi.com"), not mid-word. */
 function withEmailBreak(text: string) {
   if (!text.includes("@")) return text;
   return text.split("@").flatMap((part, index) => (index === 0 ? [part] : [<wbr key={index} />, `@${part}`]));

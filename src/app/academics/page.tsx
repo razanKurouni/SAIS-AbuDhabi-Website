@@ -74,15 +74,11 @@ function paragraph(_key: string, text: string): PortableTextBlock {
 
 const fallbackCurriculumSection: ContactInfoSectionData = {
   heading: {
-    title: "Our Curriculum\nPhilosophy and Vision",
+    title: "A Rigorous American Education with Global Perspectives",
     description: [
       paragraph(
-        "curriculum-overview",
-        "At SAIS - Abu Dhabi, our curriculum is driven by a commitment to academic excellence, holistic development, and global readiness. Grounded in internationally recognized American standards - including AERO Common Core and the Next Generation Science Standards - our curriculum ensures that students acquire the knowledge, skills, and dispositions necessary for lifelong learning and success in a rapidly evolving world."
-      ),
-      paragraph(
-        "curriculum-vision",
-        "We envision a dynamic, standards-based curriculum that is coherent, vertically and horizontally aligned, and responsive to the diverse needs of our multicultural student body."
+        "acad-intro-0",
+        "We deliver a robust American curriculum built on the California Common Core State Standards. Our approach fosters academic excellence, innovation, and global citizenship through engaging, inclusive learning experiences grounded in UAE culture."
       ),
     ],
   },
@@ -198,21 +194,6 @@ const fallbackLearningSliderSection: AcademicsLearningSliderSectionData = {
       backgroundColor: "#d97252",
       sideColor: "#00A5B2",
       ringColor: "var(--sais-primary)",
-      textColor: "#ffffff",
-      imagePosition: "center",
-    },
-    {
-      _key: "ngrt-testing",
-      title: "NGRT Testing",
-      body:
-        "The New Group Reading Test (NGRT) measures reading skills against national averages. This standardized assessment evaluates:\n\n- Phonics knowledge\n- Reading comprehension\n- Decoding ability\n- Vocabulary development\n- Grammatical understanding\n- Deduction and inference skills\n- Understanding of figurative and idiomatic language",
-      image: {
-        url: "/academics-learning-ngrt.png",
-        alt: "SAIS - Abu Dhabi students reading a book",
-      },
-      backgroundColor: "var(--sais-primary)",
-      sideColor: "#00A5B2",
-      ringColor: "#d97252",
       textColor: "#ffffff",
       imagePosition: "center",
     },

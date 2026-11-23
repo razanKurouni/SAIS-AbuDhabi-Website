@@ -39,7 +39,7 @@ const fallbackSection: ContactInfoSectionData &
       _key: "address",
       icon: "location",
       label: "Campus Address",
-      text: "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE - P.O. Box 35590",
+      text: "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE",
       href: "https://maps.app.goo.gl/A1Q7hUVqYEAtcckX8",
     },
     {

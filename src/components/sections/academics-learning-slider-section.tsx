@@ -3,6 +3,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
+import { useSlideshowVisibility } from "@/hooks/use-slideshow-visibility";
 import { useSwipe } from "@/hooks/use-swipe";
 import type { CSSProperties } from "react";
 import { Reveal } from "@/components/ui/reveal";
@@ -65,6 +66,7 @@ export function AcademicsLearningSliderSection({
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState<"next" | "prev">("next");
   const [isHovered, setIsHovered] = useState(false);
+  const { ref, canAutoplay } = useSlideshowVisibility<HTMLElement>(() => setActiveIndex(0));
   const slideCount = slides.length;
   const safeActiveIndex = slideCount > 0 ? activeIndex % slideCount : 0;
   const activeSlide = slides[safeActiveIndex];
@@ -99,12 +101,12 @@ export function AcademicsLearningSliderSection({
       return;
     }
 
-    if (isHovered) return;
+    if (isHovered || !canAutoplay) return;
 
     const timer = window.setInterval(goToNext, 5600);
 
     return () => window.clearInterval(timer);
-  }, [disableAnimation, goToNext, slideCount, isHovered]);
+  }, [canAutoplay, disableAnimation, goToNext, slideCount, isHovered]);
 
   if (!heading?.title && !slides.length) {
     return null;
@@ -121,6 +123,7 @@ export function AcademicsLearningSliderSection({
 
   return (
     <section
+      ref={ref}
       className={`academics-learning-slider ${disableAnimation ? "academics-learning-slider--animation-paused" : ""} ${className}`.trim()}
       aria-labelledby={heading?.title ? "academics-learning-slider-title" : undefined}
       style={style}

@@ -208,7 +208,7 @@ const fallbackLogos: AccreditationLogo[] = [
 ];
 
 export function AboutAccreditationsSection({ section }: AboutAccreditationsSectionProps) {
-  const title = section?.heading?.title || "Accreditations";
+  const title = section?.heading?.title || "Accreditations & Affiliations";
   const body = section?.body?.length ? section.body : blocksFromText(fallbackBody.join("\n"));
   const paragraphs = body;
   const logos = section?.logos?.length ? section.logos : fallbackLogos;

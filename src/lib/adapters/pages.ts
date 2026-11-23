@@ -273,7 +273,9 @@ export function adaptAdmissionsApplication(page: CmsPage): AdmissionsApplication
     videoSection: video(s.get("videoSection")),
     applicationProcess: imageText(s.get("applicationProcess")),
     stepsSection: s.has("stepsSection") ? { heading: heading(s.get("stepsSection")), steps: steps(s.get("stepsSection")) } : undefined,
-    finalCta: download(s.get("finalCta")),
+    finalCta: s.has("finalCta")
+      ? { ...download(s.get("finalCta")), ctas: cleanCtas(s.get("finalCta")?.ctas) }
+      : undefined,
     mograHubAppBand: mograHubAppBand(s.get("mograHubAppBand")),
   };
 }

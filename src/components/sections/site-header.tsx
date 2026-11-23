@@ -183,7 +183,7 @@ export function SiteHeader({
           aria-label="Sharjah American International School home"
         >
           <Image
-            src={activeLogo?.url || "/sais-logo-lockup.png"}
+            src={activeLogo?.url || "/sais-header-logo-lockup.png"}
             alt={activeLogo?.alt || "Sharjah American International School"}
             width={481}
             height={109}

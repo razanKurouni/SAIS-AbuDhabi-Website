@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { CSSProperties, UIEvent } from "react";
 import { Reveal } from "@/components/ui/reveal";
+import { useSlideshowVisibility } from "@/hooks/use-slideshow-visibility";
 import { richTextToParagraphs } from "@/lib/content";
 import type { BoardGovernorMember, OurTeamPageData } from "@/types/sanity";
 
@@ -33,11 +34,14 @@ type OurTeamLeadershipStyle = CSSProperties & {
 };
 
 export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionProps) {
-  const sliderRef = useRef<HTMLDivElement>(null);
   const activeIndexRef = useRef(0);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [hoveredMemberKey, setHoveredMemberKey] = useState<string | null>(null);
+  const { ref: sliderRef, canAutoplay } = useSlideshowVisibility<HTMLDivElement>((slider) => {
+    slider.scrollTo({ left: 0, behavior: "instant" });
+    setActiveIndex(0);
+  });
   const intro =
     section?.heading?.title ||
     "Our academic team is a diverse group of passionate educators and experienced leaders committed to delivering high-quality education across all grade levels.";
@@ -74,7 +78,7 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
         setActiveIndex(safeIndex);
       }
     },
-    [members.length],
+    [members.length, sliderRef],
   );
 
   const goToPrevious = useCallback(() => {
@@ -107,7 +111,7 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
   }, []);
 
   useEffect(() => {
-    if (!canSlide || isHovered || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (!canSlide || isHovered || !canAutoplay || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
     }
 
@@ -116,7 +120,7 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
     }, 4200);
 
     return () => window.clearInterval(timer);
-  }, [canSlide, goToNext, isHovered]);
+  }, [canAutoplay, canSlide, goToNext, isHovered]);
 
   const style: OurTeamLeadershipStyle = {
     "--our-team-leadership-bg": section?.backgroundColor || "#ffffff",
@@ -246,7 +250,16 @@ export function OurTeamLeadershipSection({ section }: OurTeamLeadershipSectionPr
                         <strong>Years of Experience:</strong> {member.yearsOfExperience}
                       </p>
                     ) : null}
-                    {member.hoverBio ? <p className="our-team-leadership__bio">{member.hoverBio}</p> : null}
+                    {/* A blank line in the Studio starts a new paragraph; a single line break stays a line break. */}
+                    {member.hoverBio
+                      ?.split(/\n\s*\n/)
+                      .map((paragraph) => paragraph.trim())
+                      .filter(Boolean)
+                      .map((paragraph, paragraphIndex) => (
+                        <p key={paragraphIndex} className="our-team-leadership__bio">
+                          {paragraph}
+                        </p>
+                      ))}
                   </div>
                 ) : null}
               </Reveal>

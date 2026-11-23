@@ -1,0 +1,754 @@
+{
+ "mutations": [
+  {
+   "patch": {
+    "id": "site-settings",
+    "ifRevisionID": "1f1FQi7PiLaX0gswcNZiz6",
+    "set": {
+     "footer.contactItems[_key==\"footer-address\"].text": "Sharjah American International School - Abu Dhabi Campus, Abu Dhabi, UAE",
+     "header.logo.asset": {
+      "_type": "reference",
+      "_ref": "image-474f2008f51bfdb9d37a1cbe24e2aff966556890-962x218-png"
+     }
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "contact-page",
+    "ifRevisionID": "kQmRpMF0cYh1F1H4NhncFm",
+    "set": {
+     "sections[_key==\"contactInfo\"].entries[_key==\"contact-address\"].text": "Sharjah American International School - Abu Dhabi Campus,\nAbu Dhabi, UAE"
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "homepage-main",
+    "ifRevisionID": "rMa7VYsiueJqQ5j4BEvJkj",
+    "set": {
+     "hero.heading.subtitle": "The California Common Core State Standards are taught by highly qualified international teachers who accommodate the diverse learning needs of all students, foster critical thinking, strengthen UAE National Identity and prepare students to become globally competent, confident and responsible citizens who value their national heritage while embracing global perspectives.",
+     "sections[_key==\"whySection\"].heading.description[_key==\"85f4684d8b31\"].children[_key==\"cbaafe201cb7\"].text": "Our journey began in 2016, and in a short time, we have become one of the most respected American-curriculum schools in the region. Backed by the legacy of the Sharjah American International School (established in 1997), our Abu Dhabi campus reflects a rich tradition of academic excellence, innovation, and strong values.",
+     "sections[_key==\"accreditations\"].cards": [
+      {
+       "_key": "cognia",
+       "_type": "card",
+       "title": "Cognia Accredited",
+       "image": {
+        "_type": "image",
+        "alt": "Cognia Accredited badge",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-6305f2c63f825c6fc06feddeadb4d138bc58f9f7-486x486-png"
+        }
+       }
+      },
+      {
+       "_key": "sat-college-board",
+       "_type": "card",
+       "title": "SAT – College Board",
+       "image": {
+        "_type": "image",
+        "alt": "College Board SAT logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-2f306c3f17dde6e37831029bd7b3f618931845aa-373x242-png"
+        }
+       }
+      },
+      {
+       "_key": "ap-college-board",
+       "_type": "card",
+       "title": "AP – College Board",
+       "image": {
+        "_type": "image",
+        "alt": "College Board AP logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-6494de750d76ee487f17c80d01b46199a19e5153-312x159-png"
+        }
+       }
+      },
+      {
+       "_key": "ncda",
+       "_type": "card",
+       "title": "National Career Development Association (NCDA)",
+       "image": {
+        "_type": "image",
+        "alt": "NCDA – National Career Development Association logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-5db4773886bd0f9ec39c1b3c602e4a6af6af4959-422x92-png"
+        }
+       }
+      },
+      {
+       "_key": "nearpod",
+       "_type": "card",
+       "title": "Nearpod Certified Educator",
+       "image": {
+        "_type": "image",
+        "alt": "Nearpod Certified Educator badge",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-2ef780621bb38ca41334dfbd813c233922630a5f-324x294-png"
+        }
+       }
+      },
+      {
+       "_key": "ixl-learning",
+       "_type": "card",
+       "title": "IXL Learning",
+       "image": {
+        "_type": "image",
+        "alt": "IXL Learning logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-107c1ae4a4595291a20ffe9999fbc948403def99-359x180-png"
+        }
+       }
+      },
+      {
+       "_key": "safeguarding",
+       "_type": "card",
+       "title": "Safeguarding Initiative",
+       "image": {
+        "_type": "image",
+        "alt": "Safeguarding Initiative during COVID-19 badge",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-d7a54d7d452e3beefce2d49ea6b219bcab82e777-536x492-png"
+        }
+       }
+      },
+      {
+       "_key": "pearson-education",
+       "_type": "card",
+       "title": "Pearson Education",
+       "image": {
+        "_type": "image",
+        "alt": "Pearson Education logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-bf10669db699d897b068ae4735104cae20f7f6ab-522x522-png"
+        }
+       }
+      },
+      {
+       "_key": "iqraa",
+       "_type": "card",
+       "title": "Iqraa",
+       "image": {
+        "_type": "image",
+        "alt": "Iqraa logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-aff2cb2aa367989ce9afca14d8a7e286192059bf-670x655-png"
+        }
+       }
+      },
+      {
+       "_key": "schoolsmaster",
+       "_type": "card",
+       "title": "SchoolsMaster",
+       "image": {
+        "_type": "image",
+        "alt": "SchoolsMaster – Helping Students Find Their Purpose logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-619e4d7a7455089725a4e987bc24b495e4e72a0b-150x81-png"
+        }
+       }
+      },
+      {
+       "_key": "abrsm",
+       "_type": "card",
+       "title": "ABRSM",
+       "image": {
+        "_type": "image",
+        "alt": "ABRSM logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-8e5a58f901acb5f224f2ccad1039921ef98166af-240x245-png"
+        }
+       }
+      },
+      {
+       "_key": "apple-teacher",
+       "_type": "card",
+       "title": "Apple Teacher",
+       "image": {
+        "_type": "image",
+        "alt": "Apple Teacher logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-c802186bc0cee0ba32148f48f0a7ecd36e5d4889-896x251-png"
+        }
+       }
+      },
+      {
+       "_key": "alef",
+       "_type": "card",
+       "title": "Alef Education",
+       "image": {
+        "_type": "image",
+        "alt": "Alef Education logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-d90302d1258fe831e8ac5a8a0f710e1dc5f3ef2d-1042x366-png"
+        }
+       }
+      },
+      {
+       "_key": "savvas-realize",
+       "_type": "card",
+       "title": "Savvas Realize",
+       "image": {
+        "_type": "image",
+        "alt": "Savvas Realize logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-63a93e67233ce28d2f4c15f93fc5d48b0438552c-1198x553-png"
+        }
+       }
+      },
+      {
+       "_key": "stem-org",
+       "_type": "card",
+       "title": "STEM.org Certified Educational Instructor",
+       "image": {
+        "_type": "image",
+        "alt": "STEM.org Certified Educational Instructor badge",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-2aafb6c7cbc858c5b4c259c0e5eb5cacfcdbcabc-265x422-png"
+        }
+       }
+      },
+      {
+       "_key": "achieve3000",
+       "_type": "card",
+       "title": "Achieve3000",
+       "image": {
+        "_type": "image",
+        "alt": "Achieve3000 logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-28ada96037be042746ddee4e07a0dd3f8edad398-409x163-png"
+        }
+       }
+      },
+      {
+       "_key": "follett",
+       "_type": "card",
+       "title": "Follett",
+       "image": {
+        "_type": "image",
+        "alt": "Follett logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-35b1c4a7f716772d74940d2915f306aa30152b10-2749x935-png"
+        }
+       }
+      },
+      {
+       "_key": "anti-bullying",
+       "_type": "card",
+       "title": "Anti-Bullying Alliance",
+       "image": {
+        "_type": "image",
+        "alt": "Anti-Bullying Alliance logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-bedfa061be804a0447601e8d12685479e1712ab4-249x58-png"
+        }
+       }
+      },
+      {
+       "_key": "microsoft-mce",
+       "_type": "card",
+       "title": "Microsoft Certified Educator",
+       "image": {
+        "_type": "image",
+        "alt": "Microsoft Certified Educator badge",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-ae0d9a2d963f96f7ee7b1355713e8a561bad41e4-393x392-png"
+        }
+       }
+      },
+      {
+       "_key": "sam-labs",
+       "_type": "card",
+       "title": "SAM Labs",
+       "image": {
+        "_type": "image",
+        "alt": "SAM Labs logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-3cd0bc9ef331757a65c5a97d1be2ba0b0fc48c97-362x230-png"
+        }
+       }
+      },
+      {
+       "_key": "mcgraw-hill",
+       "_type": "card",
+       "title": "McGraw Hill",
+       "image": {
+        "_type": "image",
+        "alt": "McGraw Hill logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-4cc79a7d58c0696527d2aa7c28c6aa61ce1349e6-326x310-png"
+        }
+       }
+      },
+      {
+       "_key": "pasco",
+       "_type": "card",
+       "title": "PASCO",
+       "image": {
+        "_type": "image",
+        "alt": "PASCO logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-157f8da2ef3323f776e6f7e01c0987e66510f065-544x168-png"
+        }
+       }
+      },
+      {
+       "_key": "pocketlab",
+       "_type": "card",
+       "title": "PocketLab",
+       "image": {
+        "_type": "image",
+        "alt": "PocketLab – Science. Everywhere. logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-ff8fe45e2f100d6a71d0ea536ec887b85cb65288-650x200-png"
+        }
+       }
+      },
+      {
+       "_key": "edmentum",
+       "_type": "card",
+       "title": "Edmentum",
+       "image": {
+        "_type": "image",
+        "alt": "Edmentum logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-4adb0294ea43d524ffd8b85d8a717d15e803b5f4-1141x247-png"
+        }
+       }
+      },
+      {
+       "_key": "raz-kids",
+       "_type": "card",
+       "title": "Raz-Kids",
+       "image": {
+        "_type": "image",
+        "alt": "Raz-Kids logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-c1a1bec5c13068fab45d3bd864105d6311681383-1033x410-png"
+        }
+       }
+      },
+      {
+       "_key": "bravobravo",
+       "_type": "card",
+       "title": "BravoBravo",
+       "image": {
+        "_type": "image",
+        "alt": "BravoBravo logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-38b7a896db08b930c6ea4be071f2030ba072bc85-1554x1473-png"
+        }
+       }
+      },
+      {
+       "_key": "islamic-treasures",
+       "_type": "card",
+       "title": "Islamic Treasures",
+       "image": {
+        "_type": "image",
+        "alt": "Islamic Treasures logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-0c589fd6631f044bf9b017b42f6aba0a88051396-624x660-png"
+        }
+       }
+      },
+      {
+       "_key": "cengage",
+       "_type": "card",
+       "title": "Cengage",
+       "image": {
+        "_type": "image",
+        "alt": "Cengage logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-7e1d9eabc522bddb6fb30f3c17b24abb47c9d32d-366x92-png"
+        }
+       }
+      },
+      {
+       "_key": "british-council-ielts",
+       "_type": "card",
+       "title": "British Council IELTS",
+       "image": {
+        "_type": "image",
+        "alt": "British Council IELTS logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-37f87614b091f60f6944851c34626a940637f742-681x498-png"
+        }
+       }
+      },
+      {
+       "_key": "unifrog",
+       "_type": "card",
+       "title": "Unifrog",
+       "image": {
+        "_type": "image",
+        "alt": "Unifrog logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-50e790bc0839a11d2922fe174313012efa9d96b9-1168x684-png"
+        }
+       }
+      },
+      {
+       "_key": "ismojo",
+       "_type": "card",
+       "title": "ISMOJO",
+       "image": {
+        "_type": "image",
+        "alt": "ISMOJO logo",
+        "asset": {
+         "_type": "reference",
+         "_ref": "image-d1b61dbce92d288b48555e9e85bb6b88ec224219-580x494-png"
+        }
+       }
+      }
+     ]
+    },
+    "unset": [
+     "sections[_key==\"learningPhases\"].cta"
+    ]
+   }
+  },
+  {
+   "patch": {
+    "id": "about-page",
+    "ifRevisionID": "zabXJBmUBsslDGTfzxgOYT",
+    "set": {
+     "sections[_key==\"intro\"].body[_key==\"tuynxb9m\"].children[_key==\"o00htqb7\"].text": "SAIS - Abu Dhabi opened its doors in 2016, launching a purposeful and transformative educational mission. From day one, the school has been deeply committed to fostering academic excellence, innovation, and global citizenship in every student.",
+     "sections[_key==\"ourStory\"].heading.title": "The journey of SAIS - Abu Dhabi began in 2016, marking the start of a purposeful and transformative educational mission. From its first day, the school has been deeply committed to fostering excellence, innovation, and a sense of global citizenship among its students.",
+     "sections[_key==\"accreditations\"].heading.title": "Accreditations & Affiliations",
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-dubai\"].cta.href": "https://www.saisdubai.com/",
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-dubai\"].cta.openInNewTab": true,
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-sharjah-campus\"].cta.href": "https://www.saissharjah.com/",
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-sharjah-campus\"].cta.openInNewTab": true,
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-umm-al-quwain\"].cta.href": "https://www.saisuaq.com/",
+     "sections[_key==\"branches\"].cards[_key==\"about-branch-umm-al-quwain\"].cta.openInNewTab": true,
+     "sections[_key==\"governance\"].ctas": [
+      {
+       "_key": "governance-adek-cta",
+       "_type": "cta",
+       "label": "Visit ADEK",
+       "href": "https://www.adek.gov.ae/",
+       "openInNewTab": true
+      }
+     ]
+    },
+    "unset": [
+     "sections[_key==\"governance\"].heading.description[_key==\"6e044eb316f2\"]"
+    ]
+   }
+  },
+  {
+   "patch": {
+    "id": "our-team-page",
+    "ifRevisionID": "sHf47GHI0n0I18d08qSDyf",
+    "set": {
+     "sections[_key==\"leadershipSection\"].cards[_key==\"hanna-halabi\"].subtitle": "Assistant Vice Principal",
+     "sections[_key==\"leadershipSection\"].cards[_key==\"fc333b8843c0\"].subtitle": "Head of Inclusion",
+     "sections[_key==\"leadershipSection\"].cards[_key==\"fc333b8843c0\"].label": "19",
+     "sections[_key==\"leadershipSection\"].cards[_key==\"fc333b8843c0\"].description": "As a member of the Senior Leadership Team at SAIS, I bring 19 years of experience in the UAE education sector and hold a Master’s degree in Special Educational Needs. Throughout my career, I have been committed to promoting inclusive education, student wellbeing, and academic success for all learners. I work collaboratively with students, families, educators, and school leaders to develop effective support systems and create learning environments where every student feels valued, supported, and empowered to achieve their full potential."
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "academics-page",
+    "ifRevisionID": "ZBLL2B0uZFDDTLIGrqXySM",
+    "set": {
+     "sections[_key==\"curriculumSection\"].heading.description[_key==\"acad-intro-0\"].children[_key==\"acad-intro-0-span\"].text": "We deliver a robust American curriculum built on the California Common Core State Standards. Our approach fosters academic excellence, innovation, and global citizenship through engaging, inclusive learning experiences grounded in UAE culture.",
+     "sections[_key==\"teachingCommitmentsSection\"].cards[_key==\"rigorous-standards\"].title": "Uncompromising Academic\nStandards",
+     "sections[_key==\"teachingCommitmentsSection\"].cards[_key==\"rigorous-standards\"].description": "The California Common Core State Standards provide a strong foundation in English Language Arts and Mathematics, emphasizing critical thinking, problem-solving, and real-world application. In Science, students learn through inquiry-based, hands-on investigation that prepares them to explore and address global challenges.",
+     "sections[_key==\"arabicPolicySection\"].ctas": [
+      {
+       "_key": "arabic-policy-cta",
+       "_type": "cta",
+       "label": "Learn More",
+       "href": "https://cdn.sanity.io/files/zpdqig01/abudhabi/6cd986e1984bc7946ccd563727a5a2a801ba2fee.pdf",
+       "openInNewTab": true
+      }
+     ]
+    },
+    "unset": [
+     "sections[_key==\"learningSliderSection\"].cards[_key==\"ngrt-testing\"]"
+    ]
+   }
+  },
+  {
+   "patch": {
+    "id": "academics-kindergarten-page",
+    "ifRevisionID": "sHf47GHI0n0I18d08qRGDg",
+    "set": {
+     "sections[_key==\"dayInLifeSection\"].heading.description[_key==\"kg-day-0\"].children[_key==\"kg-day-0-span\"].text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school, from engaging classroom activities to creative projects, friendships, and memorable moments."
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "academics-elementary-page",
+    "ifRevisionID": "ZBLL2B0uZFDDTLIGrqXySM",
+    "set": {
+     "sections[_key==\"dayInLifeSection\"].heading.description[_key==\"elementary-day\"].children[_key==\"elementary-day-span\"].text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school, from engaging classroom activities to creative projects, friendships, and memorable moments."
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "academics-middle-school-page",
+    "ifRevisionID": "ZBLL2B0uZFDDTLIGrqXySM",
+    "set": {
+     "sections[_key==\"dayInLifeSection\"].heading.description[_key==\"middle-school-day\"].children[_key==\"middle-school-day-span\"].text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school, from engaging classroom activities to creative projects, friendships, and memorable moments."
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "academics-high-school-page",
+    "ifRevisionID": "ZBLL2B0uZFDDTLIGrqXySM",
+    "set": {
+     "sections[_key==\"dayInLifeSection\"].heading.description[_key==\"hs-day\"].children[_key==\"hs-day-span\"].text": "Step into a day in the life of our students and discover the vibrant experiences that shape learning at our school, from engaging classroom activities to creative projects, friendships, and memorable moments."
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "school-reports-page",
+    "ifRevisionID": "kQmRpMF0cYh1F1H4NhncFm",
+    "set": {
+     "sections[_key==\"reports\"].cards[_key==\"irtiqaa-inspection-reports\"].file": {
+      "_type": "file",
+      "asset": {
+       "_type": "reference",
+       "_ref": "file-f1fba82c8410c44a8da6adcd1f51d9793d6aeb79-pdf"
+      }
+     },
+     "sections[_key==\"reports\"].cards[_key==\"national-identity-mark-report\"].file": {
+      "_type": "file",
+      "asset": {
+       "_type": "reference",
+       "_ref": "file-2b97f1f3ea0e3e8b93341333b975c522e7bdc233-pdf"
+      }
+     },
+     "sections[_key==\"reports\"].cards[_key==\"annual-report\"].file": {
+      "_type": "file",
+      "asset": {
+       "_type": "reference",
+       "_ref": "file-be9c38e516e85dfa8e82855fc5801bfe8313e757-pdf"
+      }
+     }
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "careers-page",
+    "ifRevisionID": "rMa7VYsiueJqQ5j4BEvJkj",
+    "set": {
+     "sections[_key==\"joinTeamSection\"].entries[_key==\"email-cv\"].href": "mailto:maridel.puchol@saisabudhabi.com",
+     "sections[_key==\"joinTeamSection\"].entries[_key==\"email-cv\"].text": "maridel.puchol@saisabudhabi.com\n(specify position in the subject line)"
+    }
+   }
+  },
+  {
+   "patch": {
+    "id": "admissions-application-page",
+    "ifRevisionID": "sF0ufqfTB3V7TljXzFaNma",
+    "set": {
+     "sections[_key==\"finalCta\"].ctas": [
+      {
+       "_key": "klmub4id97",
+       "_type": "cta",
+       "label": "Start Now",
+       "href": "https://saisa.oa.mograsys.com/sign-in?redirectUrl=/",
+       "openInNewTab": true
+      },
+      {
+       "_key": "registration-inquiry",
+       "_type": "cta",
+       "label": "Registration Inquiry",
+       "href": "#registration-inquiry",
+       "openInNewTab": false
+      }
+     ]
+    },
+    "unset": [
+     "sections[_key==\"stepsSection\"].cards[_key==\"step-fee\"].body[_key==\"dc868977e559\"]"
+    ]
+   }
+  },
+  {
+   "create": {
+    "_id": "news-post-roudha-altamimi-dressage",
+    "_type": "newsPost",
+    "title": "Celebrating the Achievement for Roudha Al Tamimi",
+    "slug": {
+     "_type": "slug",
+     "current": "roudha-al-tamimi-dressage-achievement"
+    },
+    "category": "news",
+    "featured": false,
+    "publishedAt": "2026-11-15T08:00:00.000Z",
+    "excerpt": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!",
+    "body": [
+     {
+      "_key": "news-post-roudha-altamimi-dressage-0",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-roudha-altamimi-dressage-0-s",
+        "_type": "span",
+        "marks": [],
+        "text": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!"
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     },
+     {
+      "_key": "news-post-roudha-altamimi-dressage-1",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-roudha-altamimi-dressage-1-s",
+        "_type": "span",
+        "marks": [],
+        "text": "We wish you the very best of luck in your upcoming Show Jumping Competition!"
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     },
+     {
+      "_key": "news-post-roudha-altamimi-dressage-2",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-roudha-altamimi-dressage-2-s",
+        "_type": "span",
+        "marks": [],
+        "text": "Well done, Roudha! We are so proud of you!"
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     }
+    ],
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi student Roudha Altamimi with her horse and 1st place rosette at Al Mandara",
+     "asset": {
+      "_type": "reference",
+      "_ref": "image-c974672fbdf4be4c84fb674469ff19730e885722-960x1280-jpg"
+     }
+    },
+    "seo": {
+     "_type": "seo",
+     "title": "Celebrating the Achievement for Roudha Al Tamimi | SAIS - Abu Dhabi",
+     "description": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!"
+    }
+   }
+  },
+  {
+   "create": {
+    "_id": "news-post-reem-khaled-adek-archery",
+    "_type": "newsPost",
+    "title": "A New Milestone for SAIS",
+    "slug": {
+     "_type": "slug",
+     "current": "a-new-milestone-for-sais"
+    },
+    "category": "news",
+    "featured": false,
+    "publishedAt": "2026-11-15T08:00:00.000Z",
+    "excerpt": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!",
+    "body": [
+     {
+      "_key": "news-post-reem-khaled-adek-archery-0",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-reem-khaled-adek-archery-0-s",
+        "_type": "span",
+        "marks": [],
+        "text": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!"
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     },
+     {
+      "_key": "news-post-reem-khaled-adek-archery-1",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-reem-khaled-adek-archery-1-s",
+        "_type": "span",
+        "marks": [],
+        "text": "We are excited to see her passion for archery grow as she takes the next step by joining the Abu Dhabi Archery Club and working towards competing at national level."
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     },
+     {
+      "_key": "news-post-reem-khaled-adek-archery-2",
+      "_type": "block",
+      "children": [
+       {
+        "_key": "news-post-reem-khaled-adek-archery-2-s",
+        "_type": "span",
+        "marks": [],
+        "text": "Reem, we wish you all the best on this journey. Keep aiming high! We are proud of you and look forward to seeing what you achieve next!"
+       }
+      ],
+      "markDefs": [],
+      "style": "normal"
+     }
+    ],
+    "image": {
+     "_type": "image",
+     "alt": "SAIS - Abu Dhabi student Reem Khaled at the ADEK Archery Competition",
+     "asset": {
+      "_type": "reference",
+      "_ref": "image-04b2eb865419b1e781b5cb80e08b24d68ead3404-960x1280-jpg"
+     }
+    },
+    "seo": {
+     "_type": "seo",
+     "title": "A New Milestone for SAIS | SAIS - Abu Dhabi",
+     "description": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!"
+    }
+   }
+  }
+ ]
+}

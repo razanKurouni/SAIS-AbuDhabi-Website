@@ -107,7 +107,7 @@ const sections = [
   {
     title: "14. Contact us",
     paragraphs: [
-      "For privacy questions or requests, contact SAIS - Abu Dhabi at info@saisabudhabi.com, call +971 2 586 1222, or write to Sharjah American International School - Abu Dhabi Campus, P.O. Box 35590, Abu Dhabi, UAE.",
+      "For privacy questions or requests, contact SAIS - Abu Dhabi at info@saisabudhabi.com, call +971 2 586 1222, or write to Sharjah American International School - Abu Dhabi Campus, Abu Dhabi, UAE.",
     ],
   },
 ];

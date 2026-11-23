@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useSlideshowVisibility } from "@/hooks/use-slideshow-visibility";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import type { ApplicationStepsSection as ApplicationStepsSectionData } from "@/types/sanity";
@@ -38,6 +39,7 @@ export function ApplicationStepsSection({ section, columns }: ApplicationStepsSe
   const isGrid = Boolean(columns);
   const visible = isGrid ? steps.length || 1 : visibleInSlider;
   const [start, setStart] = useState(0);
+  const { ref } = useSlideshowVisibility<HTMLElement>(() => setStart(0));
   const maxStart = isGrid ? 0 : Math.max(0, steps.length - visible);
   const safeStart = Math.min(start, maxStart);
   const dots = useMemo(() => Array.from({ length: maxStart + 1 }, (_, index) => index), [maxStart]);
@@ -54,7 +56,7 @@ export function ApplicationStepsSection({ section, columns }: ApplicationStepsSe
       };
 
   return (
-    <section className="application-steps" aria-labelledby={section?.heading?.title ? "application-steps-title" : undefined}>
+    <section ref={ref} className="application-steps" aria-labelledby={section?.heading?.title ? "application-steps-title" : undefined}>
       <SectionReveal className="application-steps__inner">
         {section?.heading?.title ? (
           <h2 id="application-steps-title" className="application-steps__title">
