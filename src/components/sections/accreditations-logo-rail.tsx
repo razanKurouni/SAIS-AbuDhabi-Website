@@ -22,6 +22,15 @@ const DESKTOP_BOX: LogoBox = { area: 116 * 116, maxWidth: 240, maxHeight: 122 };
 const PHONE_BOX: LogoBox = { area: 84 * 84, maxWidth: 160, maxHeight: 96 };
 
 /*
+ * The narrowest logo the browser is told about. Sanity's smallest copies of a
+ * logo (256px wide and under) can carry faint grey smudges from compression
+ * around the letters, which showed above the College Board wordmark; from
+ * 384px up they are clean. A logo narrower than this is still drawn at its
+ * own size, it is only read from a sharper copy.
+ */
+const MIN_SOURCE_WIDTH = 260;
+
+/*
  * How far below (or above) the screen the rail is when its logos start to load.
  * The browser's own lazy loading only looks at where each logo is on the page,
  * and it does not notice a logo that reaches the screen by riding the moving
@@ -94,7 +103,7 @@ export function AccreditationsLogoRail({ logos = [] }: AccreditationsLogoRailPro
       src,
       alt: image.alt,
       desktop,
-      sizes: `(max-width: 767px) ${phone.width}px, ${desktop.width}px`,
+      sizes: `(max-width: 767px) ${Math.max(phone.width, MIN_SOURCE_WIDTH)}px, ${Math.max(desktop.width, MIN_SOURCE_WIDTH)}px`,
       style: {
         /* The rounded box's own proportions, not the file's: the drawn height
            then equals the height attribute exactly, as the width does.
