@@ -1,12 +1,69 @@
+"use client";
+
 import Image from "next/image";
 import type { CSSProperties } from "react";
-import type { LogoItem } from "@/types/sanity";
+import { useInViewport } from "@/hooks/use-in-viewport";
+import type { LogoItem, SanityImage } from "@/types/sanity";
 
 type AccreditationsLogoRailProps = {
   logos?: LogoItem[];
 };
 
+type LogoBox = { area: number; maxWidth: number; maxHeight: number };
+
+/*
+ * Logos come in every shape and at every pixel size, so each one is drawn in a
+ * box of about the same area for its own proportions instead of at whatever
+ * size its file happens to be: a square badge and a long wordmark then read as
+ * one set. The boxes stay inside the rail's limits, 240 × 122, and 160 × 96 on
+ * phones.
+ */
+const DESKTOP_BOX: LogoBox = { area: 116 * 116, maxWidth: 240, maxHeight: 122 };
+const PHONE_BOX: LogoBox = { area: 84 * 84, maxWidth: 160, maxHeight: 96 };
+
+/*
+ * How far below (or above) the screen the rail is when its logos start to load.
+ * The browser's own lazy loading only looks at where each logo is on the page,
+ * and it does not notice a logo that reaches the screen by riding the moving
+ * track, so that logo stayed blank until a hover stopped the track. The rail
+ * itself does not move sideways, so it is the rail that is watched: once it
+ * comes this close, every logo in it loads. Until then none of them is
+ * requested, and none of them is preloaded with the page.
+ */
+const LOAD_MARGIN = "600px 0px";
+
+/* Width over height, from the asset's dimensions or the `-<W>x<H>.<ext>` end of its Sanity URL. */
+function aspectRatio(image: SanityImage): number {
+  if (image.width && image.height) {
+    return image.width / image.height;
+  }
+
+  const match = image.url?.split("?")[0].match(/-(\d+)x(\d+)\.[a-z0-9]+$/i);
+  return match ? Number(match[1]) / Number(match[2]) : 2;
+}
+
+function fitLogo(ratio: number, box: LogoBox) {
+  let width = Math.sqrt(box.area * ratio);
+  let height = width / ratio;
+
+  if (width > box.maxWidth) {
+    width = box.maxWidth;
+    height = width / ratio;
+  }
+
+  if (height > box.maxHeight) {
+    height = box.maxHeight;
+    width = height * ratio;
+  }
+
+  return { width: Math.round(width), height: Math.round(height) };
+}
+
 export function AccreditationsLogoRail({ logos = [] }: AccreditationsLogoRailProps) {
+  const { ref, isInViewport: isNear } = useInViewport<HTMLDivElement>({
+    rootMargin: LOAD_MARGIN,
+    threshold: 0,
+  });
   /* Three logos or fewer sit still; past that the rail scrolls. */
   const shouldSlide = logos.length > 3;
   const logoGroups = shouldSlide ? [0, 1] : [0];
@@ -18,28 +75,64 @@ export function AccreditationsLogoRail({ logos = [] }: AccreditationsLogoRailPro
     return null;
   }
 
+  /* Each logo's box is fixed before its file loads, so the copy group is
+     always exactly as wide as the first and the loop wraps without a jump. */
+  const sizedLogos = logos.map((logo) => {
+    const image = logo.image;
+    const src = image?.url;
+
+    if (!image || !src) {
+      return { logo };
+    }
+
+    const ratio = aspectRatio(image);
+    const desktop = fitLogo(ratio, DESKTOP_BOX);
+    const phone = fitLogo(ratio, PHONE_BOX);
+
+    return {
+      logo,
+      src,
+      alt: image.alt,
+      desktop,
+      sizes: `(max-width: 767px) ${phone.width}px, ${desktop.width}px`,
+      style: {
+        /* The rounded box's own proportions, not the file's: the drawn height
+           then equals the height attribute exactly, as the width does.
+           object-fit: contain takes up the sub-pixel difference. */
+        "--accreditations-logo-ratio": `${desktop.width} / ${desktop.height}`,
+        "--accreditations-logo-width": `${desktop.width}px`,
+        "--accreditations-logo-width-sm": `${phone.width}px`,
+      } as CSSProperties,
+    };
+  });
+
   return (
-    <div className={`accreditations-rail ${shouldSlide ? "is-slider" : ""}`}>
+    <div ref={ref} className={`accreditations-rail ${shouldSlide ? "is-slider" : ""}`}>
       <div
         className="accreditations-rail__track"
         style={railStyle}
       >
         {logoGroups.map((groupIndex) => (
           <div className="accreditations-rail__group" key={`accreditations-group-${groupIndex}`}>
-            {logos.map((logo, index) => (
+            {sizedLogos.map(({ logo, src, alt, desktop, sizes, style }, index) => (
               <div
                 className="accreditations-rail__item"
                 key={`${logo.name}-${groupIndex}-${index}`}
                 aria-hidden={groupIndex > 0}
+                style={style}
               >
-                {logo.image?.url ? (
+                {src && desktop ? (
+                  /* Lazy in the page's HTML, eager once the rail is near the
+                     screen (see LOAD_MARGIN). The copy group reuses the same
+                     files, so it costs no extra downloads. */
                   <Image
-                    src={logo.image.url}
-                    alt={groupIndex > 0 ? "" : logo.image.alt || logo.name}
-                    width={300}
-                    height={170}
+                    src={src}
+                    alt={groupIndex > 0 ? "" : alt || logo.name}
+                    width={desktop.width}
+                    height={desktop.height}
+                    loading={isNear ? "eager" : "lazy"}
                     className="accreditations-rail__image"
-                    sizes="(max-width: 767px) 46vw, 240px"
+                    sizes={sizes}
                   />
                 ) : (
                   <span className="accreditations-rail__fallback">{logo.name}</span>

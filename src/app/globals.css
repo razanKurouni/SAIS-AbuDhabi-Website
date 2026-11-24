@@ -4877,12 +4877,15 @@ a.contact-info-section__item-text:hover {
   min-width: 0;
 }
 
+/* The rail sets each logo's width and proportions (see accreditations-logo-rail.tsx),
+   so the logos read as one size whatever their files, and hold their box before they load. */
 .accreditations-rail__image {
   display: block;
-  width: auto;
+  width: var(--accreditations-logo-width, auto);
   max-width: min(240px, 100%);
   height: auto;
   max-height: 122px;
+  aspect-ratio: var(--accreditations-logo-ratio, auto);
   object-fit: contain;
   transition:
     filter 260ms ease,
@@ -10654,7 +10657,15 @@ img:where(
     flex: 1 1 40%;
   }
 
+  /* The shares above wrap a still row. On the moving rail they gave every logo
+     the average logo's width, which held the long wordmarks under their size;
+     there each logo keeps its own width, as it does on desktop. */
+  .accreditations-rail.is-slider .accreditations-rail__item {
+    flex: 0 0 auto;
+  }
+
   .accreditations-rail__image {
+    width: var(--accreditations-logo-width-sm, auto);
     max-width: min(160px, 100%);
     max-height: 96px;
   }
