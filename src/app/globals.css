@@ -4090,6 +4090,8 @@ a.contact-info-section__item-text:hover {
   color: #216b97;
   font-size: 32px;
   line-height: 1.12;
+  /* Even lines, so no title ends with one word alone. */
+  text-wrap: balance;
 }
 
 .news-post__header time {
@@ -4166,6 +4168,12 @@ a.contact-info-section__item-text:hover {
   .news-listing__inner,
   .news-post__inner {
     width: calc(100% - 32px);
+  }
+
+  /* A little smaller on phones (26px at 360 up to 31px at 430), so that with the balanced lines a long title does not
+     leave its last word alone: at 32px "Empowering Educators!" is wider than the 328–398px a phone title has. */
+  .news-post__header h1 {
+    font-size: clamp(26px, 7.2vw, 32px);
   }
 
   .news-listing-featured {
@@ -10161,13 +10169,9 @@ img:where(
     font-size: var(--sais-body-text-size);
   }
 
+  /* A card left alone on the last row keeps the width of the cards above it (one column). */
   .latest-news__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  /* Only the card left alone on the last row is narrowed; with two posts both share the row at full column width. */
-  .latest-news-card:last-child:nth-child(odd) {
-    max-width: calc(50% - 20px);
   }
 
   .social-feed__grid {
@@ -11297,6 +11301,21 @@ img:where(
     min-height: 740px;
   }
 
+  /* The photo above the panel is kept in proportion to the panel (rows 9 : 10), so the panel starts below the
+     girl's chin whatever the length of the sentence: a longer text makes the hero taller, and the photo, which
+     fills the hero, grows with it, so a fixed space above the panel would not keep up. The panel's bottom stays
+     where it was, and a short text still gets the 740px hero. */
+  .home-hero__content {
+    display: grid;
+    grid-template-rows: 9fr 10fr;
+    padding-top: 0;
+  }
+
+  .home-hero__scroll-motion {
+    grid-row: 2;
+    align-self: end;
+  }
+
   .home-hero__scroll-motion,
   .home-hero__entry-motion {
     width: min(100vw, 520px);
@@ -11305,14 +11324,18 @@ img:where(
   .home-hero__copy {
     --home-hero-copy-min-height: 280px;
 
-    /* On phones the panel is as tall as its text needs, at least 280px (also where 1cqw is not supported). */
+    /* On phones the panel is as tall as its text needs, at least 280px (also where 1cqw is not supported). The
+       right padding keeps the lines clear of the teal curve (14px or more at 360–430px); it stays narrow enough
+       for "American Curriculum," to fit on one line from 390px. */
     aspect-ratio: auto;
-    padding: 24px 66px 24px 20px;
+    padding: 24px calc(13vw + 30px) 24px 20px;
   }
 
+  /* Where the title needs three lines, they are evened out ("UAE Heart." together, not "Heart." alone). */
   .home-hero__title {
     font-size: clamp(1.5rem, 5.8vw, 1.42rem);
     line-height: 1.22;
+    text-wrap: balance;
   }
 
   .home-hero__description {
@@ -17268,6 +17291,24 @@ a.school-policy-card__cover:hover {
 .student-programs-house-captains .intro-feature__description li {
   margin: 0;
   padding-left: 4px;
+}
+
+/* House Captains: the 2000×1414 picture is shown whole at every width (all four banners, both title words and the
+   shield). The frame takes the picture's own shape: the shared 1560/1312 frame trimmed its sides, and on phones the
+   shared 440px minimum kept only its middle. */
+.student-programs-house-captains .intro-feature__image-shell {
+  aspect-ratio: 2000 / 1414;
+}
+
+@media (max-width: 767px) {
+  .student-programs-house-captains .intro-feature__image-shell {
+    min-height: 0;
+  }
+
+  /* The picture starts below the panel's wave instead of under it. */
+  .student-programs-house-captains .intro-feature__media {
+    padding-top: 52px;
+  }
 }
 
 @media (max-width: 767px) {

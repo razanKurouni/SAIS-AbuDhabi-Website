@@ -1,12 +1,13 @@
 /**
  * Keeps the campus name on one line: "SAIS - Abu Dhabi" never wraps, and in the full name a line may break before
  * the dash ("... School" / "- Abu Dhabi") but never after it. A word joiner after the dash stops the browser
- * breaking there (a hyphen allows a break after it).
+ * breaking there (a hyphen allows a break after it). Written without the dash, "SAIS Abu Dhabi" never wraps either.
  */
 export function keepCampusNameTogether(text: string) {
   return text
     .replace(/SAIS - Abu Dhabi/g, "SAIS -⁠ Abu Dhabi")
-    .replace(/ - Abu Dhabi/g, " -⁠ Abu Dhabi");
+    .replace(/ - Abu Dhabi/g, " -⁠ Abu Dhabi")
+    .replace(/SAIS Abu Dhabi/g, "SAIS\u00A0Abu\u00A0Dhabi");
 }
 
 // Links, ids and the SEO title and description stay exactly as written in the Studio.
