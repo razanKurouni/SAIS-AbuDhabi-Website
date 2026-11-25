@@ -10,12 +10,14 @@ export const pictureProjection = `{
 /**
  * News post images: tolerant of the older `{ image: { asset }, alt }` shape so
  * a dataset converted in place keeps its news pictures until they are normalized.
+ * `hotspot` is the point the editor marked with the Studio's crop tool (null when none).
  */
 export const newsPictureProjection = `{
   alt,
   "url": coalesce(asset->url, image.asset->url),
   "width": coalesce(asset->metadata.dimensions.width, image.asset->metadata.dimensions.width),
-  "height": coalesce(asset->metadata.dimensions.height, image.asset->metadata.dimensions.height)
+  "height": coalesce(asset->metadata.dimensions.height, image.asset->metadata.dimensions.height),
+  "hotspot": coalesce(hotspot, image.hotspot){x, y}
 }`;
 
 /** A picture that may have a `mobileImage` sibling field. */

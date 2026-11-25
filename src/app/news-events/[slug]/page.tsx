@@ -5,6 +5,7 @@ import { SitePageShell } from "@/components/layout/site-page-shell";
 import { InnerPageNav } from "@/components/sections/inner-page-nav";
 import { RichText } from "@/components/ui/rich-text";
 import { SectionReveal } from "@/components/ui/section-reveal";
+import { focalPointStyle } from "@/lib/focal-point";
 import { getHomepage, getNewsPostBySlug } from "@/lib/sanity";
 
 type NewsPostPageProps = {
@@ -110,6 +111,7 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
                 priority
                 sizes="(max-width: 767px) calc(100vw - 32px), 85vw"
                 className="news-post__image"
+                style={focalPointStyle(post.image)}
               />
             </div>
           ) : null}

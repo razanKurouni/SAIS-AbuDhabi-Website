@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
+import { focalPointStyle } from "@/lib/focal-point";
 import type { FeatureCard } from "@/types/sanity";
 
 type LatestNewsCardsProps = {
@@ -39,6 +40,7 @@ export function LatestNewsCards({ posts = [] }: LatestNewsCardsProps) {
                   quality={82}
                   sizes="(max-width: 767px) 92vw, (max-width: 1200px) 30vw, 360px"
                   className="latest-news-card__image"
+                  style={focalPointStyle(post.image)}
                 />
               ) : (
                 <div className="latest-news-card__fallback">{post.title}</div>

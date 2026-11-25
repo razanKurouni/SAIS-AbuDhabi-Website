@@ -23,6 +23,8 @@ export type SanityImage = {
   mobileAlt?: string;
   width?: number;
   height?: number;
+  /** News photos only: the point marked with the Studio's crop tool, as fractions of the width and height. */
+  hotspot?: { x?: number; y?: number } | null;
 };
 
 export type LinkField = {

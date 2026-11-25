@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useCallback, useEffect, useRef, useState, type UIEvent } from "react";
 import { SectionReveal } from "@/components/ui/section-reveal";
 import { useSlideshowVisibility } from "@/hooks/use-slideshow-visibility";
+import { focalPointStyle } from "@/lib/focal-point";
 import type { NewsPost } from "@/types/sanity";
 
 type NewsListingSectionProps = {
@@ -38,6 +39,7 @@ function NewsCard({ post, buttonLabel }: { post: NewsPost; buttonLabel: string }
             fill
             sizes="(max-width: 767px) calc(100vw - 32px), 28vw"
             className="news-listing-card__image"
+            style={focalPointStyle(post.image)}
           />
         ) : null}
       </Link>
