@@ -1,0 +1,353 @@
+[
+  {
+    "_createdAt": "2026-11-25T11:28:36Z",
+    "_id": "news-post-art-professional-development",
+    "_rev": "cCIYuCP1FtCU1dZ6M8sXf7",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-25T11:28:36Z",
+    "body": [
+      {
+        "_key": "news-post-art-professional-development-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-art-professional-development-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "An engaging Art Professional Development session with our KG and Elementary staff, exploring creative techniques, hands-on learning, and innovative ways to bring art into the classroom. Together, we learn, create, and inspire young minds!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "An engaging Art Professional Development session with our KG and Elementary staff, exploring creative techniques, hands-on learning, and innovative ways to bring art into the classroom.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi KG and Elementary teachers in an Art Professional Development session",
+      "asset": {
+        "_ref": "image-46eb8cc0f79fa432c6c0ad9bb6c32cc608c23982-672x896-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-11-25T08:04:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "An engaging Art Professional Development session with our KG and Elementary staff, exploring creative techniques, hands-on learning, and innovative ways to bring art into the classroom.",
+      "title": "Inspiring Creativity, Empowering Educators! | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "inspiring-creativity-empowering-educators"
+    },
+    "title": "Inspiring Creativity, Empowering Educators!"
+  },
+  {
+    "_createdAt": "2026-11-25T11:28:36Z",
+    "_id": "news-post-reading-ambassadors",
+    "_rev": "cCIYuCP1FtCU1dZ6M8sXf7",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-25T11:28:36Z",
+    "body": [
+      {
+        "_key": "news-post-reading-ambassadors-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-1-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Through this lovely initiative, our high school students became role models, sharing stories, inspiring young minds, and nurturing a love for books from an early age."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-2-s",
+            "_type": "span",
+            "marks": [],
+            "text": "These meaningful moments strengthen connections across our school community and remind us that learning, kindness, and inspiration are best shared."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-3-s",
+            "_type": "span",
+            "marks": [],
+            "text": "We are incredibly proud of our Reading Ambassadors for making a positive difference, one story at a time!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi High School Reading Ambassador reading a story to Pre-KG learners",
+      "asset": {
+        "_ref": "image-e659cf35e677338d66910566000c90b8a325d0f4-908x1210-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-11-25T08:03:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!",
+      "title": "High School Reading Ambassadors | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "high-school-reading-ambassadors"
+    },
+    "title": "High School Reading Ambassadors"
+  },
+  {
+    "_createdAt": "2026-11-23T11:38:45Z",
+    "_id": "news-post-reem-khaled-adek-archery",
+    "_rev": "kKXtgSUauNeI8iyT2RwHfL",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-23T11:38:45Z",
+    "body": [
+      {
+        "_key": "news-post-reem-khaled-adek-archery-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reem-khaled-adek-archery-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reem-khaled-adek-archery-1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reem-khaled-adek-archery-1-s",
+            "_type": "span",
+            "marks": [],
+            "text": "We are excited to see her passion for archery grow as she takes the next step by joining the Abu Dhabi Archery Club and working towards competing at national level."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reem-khaled-adek-archery-2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reem-khaled-adek-archery-2-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Reem, we wish you all the best on this journey. Keep aiming high! We are proud of you and look forward to seeing what you achieve next!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi student Reem Khaled at the ADEK Archery Competition",
+      "asset": {
+        "_ref": "image-04b2eb865419b1e781b5cb80e08b24d68ead3404-960x1280-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-11-15T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "Congratulations to Reem Khaled on being the first female student from SAIS to take part in the ADEK Archery Competition!",
+      "title": "A New Milestone for SAIS | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "a-new-milestone-for-sais"
+    },
+    "title": "A New Milestone for SAIS"
+  },
+  {
+    "_createdAt": "2026-11-23T11:38:45Z",
+    "_id": "news-post-roudha-altamimi-dressage",
+    "_rev": "kKXtgSUauNeI8iyT2RwHfL",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-23T11:38:45Z",
+    "body": [
+      {
+        "_key": "news-post-roudha-altamimi-dressage-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-roudha-altamimi-dressage-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-roudha-altamimi-dressage-1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-roudha-altamimi-dressage-1-s",
+            "_type": "span",
+            "marks": [],
+            "text": "We wish you the very best of luck in your upcoming Show Jumping Competition!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-roudha-altamimi-dressage-2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-roudha-altamimi-dressage-2-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Well done, Roudha! We are so proud of you!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi student Roudha Altamimi with her horse and 1st place rosette at Al Mandara",
+      "asset": {
+        "_ref": "image-c974672fbdf4be4c84fb674469ff19730e885722-960x1280-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-11-15T08:00:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "A big congratulations to Roudha Fahad Altamimi on securing 1st Place in the Dressage Competition at Al Mandara!",
+      "title": "Celebrating the Achievement for Roudha Al Tamimi | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "roudha-al-tamimi-dressage-achievement"
+    },
+    "title": "Celebrating the Achievement for Roudha Al Tamimi"
+  },
+  {
+    "_createdAt": "2026-11-25T11:28:36Z",
+    "_id": "news-post-sustainability-fashion-show",
+    "_rev": "cCIYuCP1FtCU1dZ6M8sXf7",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-25T11:28:36Z",
+    "body": [
+      {
+        "_key": "news-post-sustainability-fashion-show-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-sustainability-fashion-show-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "At Sharjah American International School, we believe that caring for our planet starts with the choices we make every day. Our Sustainability Fashion Show showcased the creativity and environmental awareness of our students, who transformed recycled and reusable materials into unique and inspiring fashion designs."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-sustainability-fashion-show-1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-sustainability-fashion-show-1-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Through initiatives like this, we encourage our school community to reduce waste, reuse materials, and embrace sustainable practices, proving that small actions can make a big difference."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-sustainability-fashion-show-2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-sustainability-fashion-show-2-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Together, we are shaping a greener future and nurturing a generation that cares for our planet!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "At Sharjah American International School, we believe that caring for our planet starts with the choices we make every day.",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi student presenting a design made from recycled materials at the Sustainability Fashion Show",
+      "asset": {
+        "_ref": "image-11d2728f64c4169f6b4531009f8968d040ec8782-908x1210-jpg",
+        "_type": "reference"
+      }
+    },
+    "publishedAt": "2026-11-25T08:02:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "At Sharjah American International School, we believe that caring for our planet starts with the choices we make every day.",
+      "title": "Sustainability Fashion Show | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "sustainability-fashion-show"
+    },
+    "title": "Sustainability Fashion Show"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "_createdAt": "2026-11-25T11:28:36Z",
+    "_id": "news-post-reading-ambassadors",
+    "_rev": "Zy6G9ETKZbWAXTT7BehQru",
+    "_type": "newsPost",
+    "_updatedAt": "2026-11-25T15:01:43Z",
+    "body": [
+      {
+        "_key": "news-post-reading-ambassadors-0",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-0-s",
+            "_type": "span",
+            "marks": [],
+            "text": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-1",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-1-s",
+            "_type": "span",
+            "marks": [],
+            "text": "Through this lovely initiative, our high school students became role models, sharing stories, inspiring young minds, and nurturing a love for books from an early age."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-2",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-2-s",
+            "_type": "span",
+            "marks": [],
+            "text": "These meaningful moments strengthen connections across our school community and remind us that learning, kindness, and inspiration are best shared."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "news-post-reading-ambassadors-3",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "news-post-reading-ambassadors-3-s",
+            "_type": "span",
+            "marks": [],
+            "text": "We are incredibly proud of our Reading Ambassadors for making a positive difference, one story at a time!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "category": "news",
+    "excerpt": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!",
+    "featured": false,
+    "image": {
+      "_type": "image",
+      "alt": "SAIS - Abu Dhabi High School Reading Ambassador reading a story to Pre-KG learners",
+      "asset": {
+        "_ref": "image-e659cf35e677338d66910566000c90b8a325d0f4-908x1210-jpg",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 0.22,
+        "width": 0.2,
+        "x": 0.58,
+        "y": 0.22
+      }
+    },
+    "publishedAt": "2026-11-25T08:03:00.000Z",
+    "seo": {
+      "_type": "seo",
+      "description": "High School Reading Ambassadors spreading the joy of reading to our little Pre-KG learners!",
+      "title": "High School Reading Ambassadors | SAIS - Abu Dhabi"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "high-school-reading-ambassadors"
+    },
+    "title": "High School Reading Ambassadors"
+  }
+]
