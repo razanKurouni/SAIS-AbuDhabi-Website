@@ -1,0 +1,52 @@
+{
+  "dataset": "zpdqig01/abudhabi",
+  "takenAt": "2026-11-26",
+  "reason": "Before adding the second team photo from Latest_News.pdf (page 5, second image) to the U17 football post as More Photos (gallery).",
+  "documents": [
+    {
+      "_createdAt": "2026-11-25T11:28:36Z",
+      "_id": "news-post-u17-football-adek-cup",
+      "_rev": "cCIYuCP1FtCU1dZ6M8sXf7",
+      "_type": "newsPost",
+      "_updatedAt": "2026-11-25T11:28:36Z",
+      "body": [
+        {
+          "_key": "news-post-u17-football-adek-cup-0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "news-post-u17-football-adek-cup-0-s",
+              "_type": "span",
+              "marks": [],
+              "text": "Our U17 Football Team delivered an outstanding performance, securing an impressive 8-0 victory against Creative British School in the ADEK Cup - Schools and Universities Championship 2026."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "category": "news",
+      "excerpt": "Our U17 Football Team delivered an outstanding performance, securing an impressive 8-0 victory against Creative British School in the ADEK Cup - Schools and Universities Championship 2026.",
+      "featured": false,
+      "image": {
+        "_type": "image",
+        "alt": "SAIS - Abu Dhabi U17 Football Team on the pitch at the ADEK Cup",
+        "asset": {
+          "_ref": "image-a27ce5c476551120b45834733496e8af4028bf4f-768x576-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-11-25T08:01:00.000Z",
+      "seo": {
+        "_type": "seo",
+        "description": "Our U17 Football Team delivered an outstanding performance, securing an impressive 8-0 victory against Creative British School in the ADEK Cup - Schools and Universities Championship 2026.",
+        "title": "A Big Win for SAIS Abu Dhabi | SAIS - Abu Dhabi"
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "a-big-win-for-sais-abu-dhabi"
+      },
+      "title": "A Big Win for SAIS Abu Dhabi"
+    }
+  ]
+}
