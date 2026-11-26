@@ -11301,21 +11301,6 @@ img:where(
     min-height: 740px;
   }
 
-  /* The photo above the panel is kept in proportion to the panel (rows 9 : 10), so the panel starts below the
-     girl's chin whatever the length of the sentence: a longer text makes the hero taller, and the photo, which
-     fills the hero, grows with it, so a fixed space above the panel would not keep up. The panel's bottom stays
-     where it was, and a short text still gets the 740px hero. */
-  .home-hero__content {
-    display: grid;
-    grid-template-rows: 9fr 10fr;
-    padding-top: 0;
-  }
-
-  .home-hero__scroll-motion {
-    grid-row: 2;
-    align-self: end;
-  }
-
   .home-hero__scroll-motion,
   .home-hero__entry-motion {
     width: min(100vw, 520px);
@@ -11324,18 +11309,14 @@ img:where(
   .home-hero__copy {
     --home-hero-copy-min-height: 280px;
 
-    /* On phones the panel is as tall as its text needs, at least 280px (also where 1cqw is not supported). The
-       right padding keeps the lines clear of the teal curve (14px or more at 360–430px); it stays narrow enough
-       for "American Curriculum," to fit on one line from 390px (375–389px: see the block after this one). */
+    /* On phones the panel is as tall as its text needs, at least 280px (also where 1cqw is not supported). */
     aspect-ratio: auto;
-    padding: 24px calc(13vw + 30px) 24px 20px;
+    padding: 24px 66px 24px 20px;
   }
 
-  /* Where the title needs three lines, they are evened out ("UAE Heart." together, not "Heart." alone). */
   .home-hero__title {
     font-size: clamp(1.5rem, 5.8vw, 1.42rem);
     line-height: 1.22;
-    text-wrap: balance;
   }
 
   .home-hero__description {
@@ -11732,20 +11713,6 @@ img:where(
     justify-content: center;
   }
 
-}
-
-/* Home hero on 375–389px phones: "American Curriculum," stays on one line, as from 390px, so the hero is not 100px
-   taller. A narrower right padding alone cannot do it: at 375px that line then ends 5px from the teal curve. So the title
-   is tracked a little tighter (0.5px instead of 1px) and the right padding eases from 70px at 375px up to the
-   13vw + 30px of wider phones, which keeps every line 14px or more clear of the curve. */
-@media (min-width: 375px) and (max-width: 389px) {
-  .home-hero__copy {
-    padding-right: calc(70px + (100vw - 375px) * 0.72);
-  }
-
-  .home-hero__title {
-    letter-spacing: 0.5px;
-  }
 }
 
 @media (max-width: 920px) {
