@@ -21,5 +21,6 @@ export const newsPostBySlugQuery = `*[_type == "newsPost" && slug.current == $sl
   excerpt,
   image ${newsPictureProjection},
   body,
+  "gallery": gallery[] ${newsPictureProjection},
   seo { title, description, image ${newsPictureProjection} }
 }`;

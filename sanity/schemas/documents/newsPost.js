@@ -46,6 +46,28 @@ export const newsPost = {
       ],
     },
     { name: "body", title: "Full Article", type: "blockContent" },
+    {
+      // Extra photos for posts that come with more than one (for example a match with two team photos).
+      name: "gallery",
+      title: "More Photos",
+      type: "array",
+      description:
+        "Optional. Extra photos shown under the article text, one after another, in the same frame as the Featured Image. Use the crop tool's circle to mark the part that must always show.",
+      of: [
+        {
+          type: "image",
+          options: { hotspot: true },
+          fields: [
+            {
+              name: "alt",
+              title: "Alt text",
+              type: "string",
+              description: "Describe the image for accessibility and SEO.",
+            },
+          ],
+        },
+      ],
+    },
     { name: "seo", title: "SEO", type: "seo" },
   ],
   orderings: [

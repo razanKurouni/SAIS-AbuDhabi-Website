@@ -4122,6 +4122,13 @@ a.contact-info-section__item-text:hover {
   }
 }
 
+/* More Photos: a post's extra photos under the article text, in the Featured Image's frame. */
+.news-post__gallery {
+  display: grid;
+  gap: 24px;
+  margin-top: 44px;
+}
+
 .news-post__body {
   display: grid;
   gap: 20px;
@@ -4211,6 +4218,11 @@ a.contact-info-section__item-text:hover {
   .news-post__body {
     margin-top: 30px;
     font-size: 0.95rem;
+  }
+
+  .news-post__gallery {
+    gap: 16px;
+    margin-top: 30px;
   }
 
   .admissions-fee-terms {

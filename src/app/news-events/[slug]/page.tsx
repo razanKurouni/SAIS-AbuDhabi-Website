@@ -81,6 +81,8 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
 
   // Portrait photos (taller than wide) get a 4:3 frame on tablet/desktop too, so heads are not cropped.
   const isPortraitImage = (post.image?.height ?? 0) > (post.image?.width ?? 0);
+  const isPortrait = (image?: { width?: number; height?: number }) => (image?.height ?? 0) > (image?.width ?? 0);
+  const gallery = (post.gallery || []).filter((image) => image?.url);
 
   return (
     <SitePageShell data={data} mainClassName="site-page__main news-post-page__main" pageClassName="news-post-page">
@@ -116,6 +118,25 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
             </div>
           ) : null}
           <RichText blocks={post.body} fallback={post.excerpt} className="news-post__body" />
+          {gallery.length ? (
+            <div className="news-post__gallery">
+              {gallery.map((image, index) => (
+                <div
+                  key={image.url}
+                  className={`news-post__image-wrap ${isPortrait(image) ? "news-post__image-wrap--portrait" : ""}`.trim()}
+                >
+                  <Image
+                    src={image.url as string}
+                    alt={image.alt || `${post.title || "News"} photo ${index + 2}`}
+                    fill
+                    sizes="(max-width: 767px) calc(100vw - 32px), 85vw"
+                    className="news-post__image"
+                    style={focalPointStyle(image)}
+                  />
+                </div>
+              ))}
+            </div>
+          ) : null}
         </SectionReveal>
       </article>
     </SitePageShell>

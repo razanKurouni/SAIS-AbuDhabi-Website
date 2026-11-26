@@ -417,6 +417,8 @@ export type NewsPost = {
   excerpt?: string;
   image?: SanityImage;
   body?: PortableTextBlock[];
+  /** Extra photos shown under the article text. */
+  gallery?: SanityImage[];
   seo?: Seo;
 };
 
