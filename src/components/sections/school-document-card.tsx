@@ -7,7 +7,7 @@ type SchoolDocumentCardProps = {
   index: number;
   fallbackCover: SanityImage;
   fallbackTitle: string;
-  /* School Reports: the download buttons open the file in a new tab instead of downloading in place. */
+  /* School Reports and School Policies: the download buttons open the file in a new tab instead of downloading in place. */
   openInNewTab?: boolean;
 };
 

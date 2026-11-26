@@ -141,6 +141,7 @@ export default async function SchoolPoliciesPage() {
                 index={index}
                 fallbackCover={fallbackCover}
                 fallbackTitle="School Policy"
+                openInNewTab
               />
             ))}
           </div>

@@ -39,19 +39,7 @@ const fallbackDescription: PortableTextBlock[] = [
         _key: "intro-feature-span-1",
         _type: "span",
         text:
-          "Sharjah American International School (SAIS) - Abu Dhabi is a distinguished member of the SAIS group of schools founded and led by Dr. Aysha Al Sayyar and Dr. Nawaf Fawaz. The SAIS educational network spans four Emirates across the UAE: Sharjah, Dubai, Umm Al-Quwain, and Abu Dhabi.",
-      },
-    ],
-  },
-  {
-    _key: "intro-feature-paragraph-2",
-    _type: "block",
-    children: [
-      {
-        _key: "intro-feature-span-2",
-        _type: "span",
-        text:
-          "At SAIS - Abu Dhabi, we deliver a rigorous American curriculum within a framework that honors traditional Islamic values and cultural heritage. Our fundamental belief is that students achieve their highest potential in a supportive, nurturing environment that respects and integrates local traditions.",
+          "The California Common Core State Standards are taught by highly qualified international teachers who accommodate the diverse learning needs of all students, foster critical thinking, strengthen UAE National Identity and prepare students to become globally competent, confident and responsible citizens who value their national heritage while embracing global perspectives.",
       },
     ],
   },
