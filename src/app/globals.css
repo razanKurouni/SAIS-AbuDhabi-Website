@@ -17274,35 +17274,39 @@ a.school-policy-card__cover:hover {
   padding-left: 4px;
 }
 
-/* House Captains: the picture sits in the same frame as the other photos at every width. On desktop and tablet it
-   fills the frame (all four banners and both title words still show). On phones (767px and narrower) the frame is
-   taller than this wide picture, so filling it would keep only the middle two banners: there the whole picture is
-   shown, centred below the panel's wave (about 20px deep on average), on its own background grey, with its top and
-   bottom edges faded into that grey so it does not look cut. The fade is sized from the frame's width: the picture
-   is 2000 x 1414, so it is 70.7% of the frame width tall. */
+/* House Captains: the picture sits in the same frame as the other photos at every width. The frame is taller than
+   this wide picture (2000 x 1414), so filling it would trim the picture: instead the whole picture is shown, centred,
+   on its own background grey, with its top and bottom edges faded into that grey so it does not look cut. The fade is
+   sized from the frame's width, since the picture is 70.7% of that width tall. On phones (767px and narrower) the
+   panel's wave covers the top of the frame (about 20px deep on average), so there the picture sits 20px lower. */
+.student-programs-house-captains .intro-feature__image-shell {
+  --house-captains-shift: 0px;
+  container-type: inline-size;
+  background: #dbdbdb;
+}
+
+.student-programs-house-captains .intro-feature__image {
+  object-fit: contain;
+  object-position: 50% calc(50% + var(--house-captains-shift));
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent calc(50% + var(--house-captains-shift) - 35.35cqw),
+    #000 calc(50% + var(--house-captains-shift) - 35.35cqw + 18px),
+    #000 calc(50% + var(--house-captains-shift) + 35.35cqw - 18px),
+    transparent calc(50% + var(--house-captains-shift) + 35.35cqw)
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent calc(50% + var(--house-captains-shift) - 35.35cqw),
+    #000 calc(50% + var(--house-captains-shift) - 35.35cqw + 18px),
+    #000 calc(50% + var(--house-captains-shift) + 35.35cqw - 18px),
+    transparent calc(50% + var(--house-captains-shift) + 35.35cqw)
+  );
+}
+
 @media (max-width: 767px) {
   .student-programs-house-captains .intro-feature__image-shell {
-    container-type: inline-size;
-    background: #dbdbdb;
-  }
-
-  .student-programs-house-captains .intro-feature__image {
-    object-fit: contain;
-    object-position: 50% calc(50% + 20px);
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      transparent calc(50% + 20px - 35.35cqw),
-      #000 calc(50% + 38px - 35.35cqw),
-      #000 calc(50% + 2px + 35.35cqw),
-      transparent calc(50% + 20px + 35.35cqw)
-    );
-    mask-image: linear-gradient(
-      to bottom,
-      transparent calc(50% + 20px - 35.35cqw),
-      #000 calc(50% + 38px - 35.35cqw),
-      #000 calc(50% + 2px + 35.35cqw),
-      transparent calc(50% + 20px + 35.35cqw)
-    );
+    --house-captains-shift: 20px;
   }
 }
 
