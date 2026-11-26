@@ -17274,15 +17274,12 @@ a.school-policy-card__cover:hover {
   padding-left: 4px;
 }
 
-/* House Captains: the 2000×1414 picture is shown whole at every width (all four banners, both title words and the
-   shield). The frame takes the picture's own shape: the shared 1560/1312 frame trimmed its sides, and on phones the
-   shared 440px minimum kept only its middle. */
-.student-programs-house-captains .intro-feature__image-shell {
-  aspect-ratio: 2000 / 1414;
-}
-
+/* House Captains: on desktop and tablet the picture sits in the same frame as the other photos (all four banners
+   and both title words still show). On phones the shared 440px-tall frame would keep only the middle of this wide
+   picture (two banners, both words cut), so there the frame takes the picture's own shape. */
 @media (max-width: 767px) {
   .student-programs-house-captains .intro-feature__image-shell {
+    aspect-ratio: 2000 / 1414;
     min-height: 0;
   }
 
