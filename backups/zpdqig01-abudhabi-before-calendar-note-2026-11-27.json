@@ -1,0 +1,187 @@
+{
+  "dataset": "zpdqig01/abudhabi",
+  "takenAt": "2026-11-27",
+  "reason": "Before: the School Calendar Terms section's Rich Text (body) set to the note \"Please note that dates in the school calendar are subject to change in line with announcements from the UAE Government and relevant education authorities.\", as on UAQ. Nothing else on the page changed.",
+  "documents": [
+    {
+      "_createdAt": "2026-09-21T10:49:43Z",
+      "_id": "school-calendar-page",
+      "_rev": "sF0ufqfTB3V7TljXzFaNma",
+      "_system": {
+        "base": {
+          "id": "school-calendar-page",
+          "rev": "Evs7yHCuC0b587ag3gfZjl"
+        }
+      },
+      "_type": "page",
+      "_updatedAt": "2026-10-26T10:23:04Z",
+      "hero": {
+        "heading": {
+          "_type": "sectionHeading",
+          "title": "School Calendar"
+        },
+        "image": {
+          "_type": "image",
+          "alt": "School calendar",
+          "asset": {
+            "_ref": "image-7151334e1c9c3d29d9c62561aa892d153bc4a601-2226x1124-jpg",
+            "_type": "reference"
+          }
+        },
+        "mobileImage": {
+          "_type": "image",
+          "alt": "School calendar",
+          "asset": {
+            "_ref": "image-508c4b8958958e06aa266f50d77fb48294c5eaab-1113x562-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      "route": "/school-calendar",
+      "sections": [
+        {
+          "_key": "intro",
+          "_type": "textSection",
+          "heading": {
+            "_type": "sectionHeading",
+            "description": [
+              {
+                "_key": "school-calendar-intro",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "school-calendar-intro-text",
+                    "_type": "span",
+                    "text": "The school calendar shows all important dates for the school year, including holidays, exam periods, and special events. The calendar is updated regularly to reflect any changes or new announcements.\n"
+                  }
+                ],
+                "style": "normal"
+              }
+            ],
+            "title": "Term Dates & Key Events 2026–2027"
+          },
+          "slot": "intro"
+        },
+        {
+          "_key": "terms",
+          "_type": "cardsSection",
+          "cards": [
+            {
+              "_key": "semester-1",
+              "_type": "card",
+              "entries": [
+                {
+                  "_key": "semester-1-0",
+                  "_type": "entry",
+                  "label": "First Day for Students",
+                  "text": "Monday, August 31"
+                },
+                {
+                  "_key": "semester-1-1",
+                  "_type": "entry",
+                  "label": "Days Off for Students",
+                  "text": "Wednesday, October 14 – Friday, October 16"
+                },
+                {
+                  "_key": "semester-1-2",
+                  "_type": "entry",
+                  "label": "UAE National Day Holiday",
+                  "text": "Wednesday, December 2 – Thursday, December 3"
+                },
+                {
+                  "_key": "semester-1-3",
+                  "_type": "entry",
+                  "label": "Winter Break",
+                  "text": "Monday, December 14 – Friday, January 1"
+                }
+              ],
+              "title": "Semester 1"
+            },
+            {
+              "_key": "semester-2",
+              "_type": "card",
+              "entries": [
+                {
+                  "_key": "semester-2-0",
+                  "_type": "entry",
+                  "label": "Ramadan Begins",
+                  "text": "Monday, February 8"
+                },
+                {
+                  "_key": "semester-2-1",
+                  "_type": "entry",
+                  "label": "First Day of Semester 2",
+                  "text": "Wednesday, February 10"
+                },
+                {
+                  "_key": "semester-2-2",
+                  "_type": "entry",
+                  "label": "Eid Al Fitr",
+                  "text": "Monday, March 8 – Wednesday, March 10"
+                },
+                {
+                  "_key": "semester-2-3",
+                  "_type": "entry",
+                  "label": "Spring Break",
+                  "text": "Monday, April 5 – Friday, April 9"
+                },
+                {
+                  "_key": "semester-2-4",
+                  "_type": "entry",
+                  "label": "Eid Al Adha",
+                  "text": "Monday, May 17 – Wednesday, May 19"
+                },
+                {
+                  "_key": "semester-2-5",
+                  "_type": "entry",
+                  "label": "Last Day for Students",
+                  "text": "Friday, July 2"
+                }
+              ],
+              "title": "Semester 2"
+            }
+          ],
+          "slot": "terms"
+        },
+        {
+          "_key": "calendarDownload",
+          "_type": "ctaSection",
+          "ctas": [
+            {
+              "_key": "k2smub4id9a",
+              "_type": "cta",
+              "href": "#",
+              "label": "Download"
+            }
+          ],
+          "file": {
+            "_type": "file",
+            "asset": {
+              "_ref": "file-c136b3b0bad29bb77505c5f3a31f66a34e009466-pdf",
+              "_type": "reference"
+            }
+          },
+          "heading": {
+            "_type": "sectionHeading",
+            "title": "Download the full school calendar here:"
+          },
+          "slot": "calendarDownload"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "description": "View SAIS - Abu Dhabi term dates, holidays, and key school calendar events.",
+        "image": {
+          "_type": "image",
+          "alt": "School calendar",
+          "asset": {
+            "_ref": "image-508c4b8958958e06aa266f50d77fb48294c5eaab-1113x562-jpg",
+            "_type": "reference"
+          }
+        },
+        "title": "School Calendar | SAIS - Abu Dhabi"
+      },
+      "title": "School Calendar"
+    }
+  ]
+}
