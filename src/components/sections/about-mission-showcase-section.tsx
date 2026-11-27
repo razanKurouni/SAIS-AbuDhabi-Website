@@ -26,7 +26,7 @@ const fallbackCards: MissionShowcaseCard[] = [
   },
   {
     title: "Cultivate",
-    description: "Cultivating wellbeing, leadership, and community service to prepare students for lifelong success.",
+    description: "Cultivating well-being, leadership, and community service to prepare students for lifelong success.",
     image: { url: "/images/about-mission/cultivate.jpg", alt: "SAIS - Abu Dhabi student learning to play the violin" },
     color: "#df7150",
   },

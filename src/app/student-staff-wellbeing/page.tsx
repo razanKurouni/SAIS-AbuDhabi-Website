@@ -28,7 +28,7 @@ const fallbackCounselling: Required<AcademicsKindergartenFeatureSection> = {
 };
 
 const fallbackFramework: Required<AcademicsKindergartenFeatureSection> = {
-  heading: { title: "Wellbeing Framework" },
+  heading: { title: "Well-being Framework" },
   image: {},
   imageSide: "right",
   imagePosition: "center",
@@ -40,12 +40,12 @@ const fallbackFramework: Required<AcademicsKindergartenFeatureSection> = {
 };
 
 const fallbackMetadata: Metadata = {
-  title: "Student & Staff Wellbeing | SAIS - Abu Dhabi",
-  description: "Learn about student and staff wellbeing support at SAIS - Abu Dhabi.",
+  title: "Student & Staff Well-being | SAIS - Abu Dhabi",
+  description: "Learn about student and staff well-being support at SAIS - Abu Dhabi.",
 };
 
 const fallbackHero = {
-  title: "Student &\nStaff Wellbeing",
+  title: "Student &\nStaff Well-being",
   image: {
     url: "/contact-campus-building.jpg",
     alt: "SAIS - Abu Dhabi campus building",

@@ -10,7 +10,7 @@ type AboutAccreditationsSectionProps = {
 };
 
 const fallbackBody = [
-  "Our school is proud to be supported by a distinguished network of internationally recognized accreditations, certifications, and educational partnerships that reflect our commitment to academic excellence, innovation, student wellbeing, and continuous professional growth.",
+  "Our school is proud to be supported by a distinguished network of internationally recognized accreditations, certifications, and educational partnerships that reflect our commitment to academic excellence, innovation, student well-being, and continuous professional growth.",
   "Through affiliations with respected organizations and platforms such as Cognia, College Board, NCDA, Pearson Education, Apple Teacher, STEM.org, Microsoft Certified Educator, ABRSM, and other leading educational providers, we ensure that our students benefit from high-quality learning opportunities, globally aligned standards, advanced academic pathways, and a future-focused educational experience.",
   "These partnerships strengthen our curriculum, enrich teaching and learning practices, and reinforce our mission to provide a well-rounded, internationally benchmarked education for every learner.",
 ];

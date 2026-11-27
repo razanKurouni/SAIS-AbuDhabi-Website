@@ -297,14 +297,14 @@ export const PAGE_SPECS: PageSpec[] = [
   {
     id: "student-staff-wellbeing-page",
     route: "/student-staff-wellbeing",
-    title: "Student & Staff Wellbeing",
+    title: "Student & Staff Well-being",
     group: "Our Community",
     slots: [
       it("commitment", "Our Commitment"),
       cards("proactiveSection", "A Proactive Approach"),
       it("counselingSupportSection", "Counseling and Support Services"),
       it("selSection", "Social and Emotional Learning"),
-      it("wellbeingFramework", "Wellbeing Framework"),
+      it("wellbeingFramework", "Well-being Framework"),
     ],
   },
   {

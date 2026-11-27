@@ -6,7 +6,7 @@ type AboutInspectionSectionProps = {
 };
 
 const fallbackParagraphs = [
-  "Our staff communicate with stakeholders through various channels to ensure students’ wellbeing and academic success. Teachers create an inclusive environment by planning lessons that meet the needs of all learners, including students of determination and those who are gifted and talented. Student-led national and international events are regularly held at the school, helping students stay actively engaged with the wider community.",
+  "Our staff communicate with stakeholders through various channels to ensure students’ well-being and academic success. Teachers create an inclusive environment by planning lessons that meet the needs of all learners, including students of determination and those who are gifted and talented. Student-led national and international events are regularly held at the school, helping students stay actively engaged with the wider community.",
   "At SAIS - Abu Dhabi, we are committed to preparing our students to become lifelong learners who are curious, resilient, and driven to grow. We focus on developing strong character values such as integrity, respect, and responsibility. Through academic and personal development, we encourage our students to contribute positively to their community and make a meaningful difference in the world around them.",
 ];
 

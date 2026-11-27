@@ -39,7 +39,7 @@ const fallbackCards: AboutBranchCard[] = [
     established: "1997",
     location: "Al Ramaqiya Area, Sharjah, UAE",
     description:
-      "SAIS Sharjah offers a well-established academic environment known for its commitment to excellence, student wellbeing, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
+      "SAIS Sharjah offers a well-established academic environment known for its commitment to excellence, student well-being, and continuous improvement. Students benefit from a balanced American curriculum designed to support achievement and personal growth.",
     image: {
       url: "https://cdn.sanity.io/images/zpdqig01/abudhabi/34b9d5bb395b410a45678ec5d416045ce96163e4-1012x612.png",
       alt: "SAIS Sharjah campus building",

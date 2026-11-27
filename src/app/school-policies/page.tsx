@@ -44,7 +44,7 @@ const fallbackIntro = {
     description: [
       paragraph(
         "school-policies-intro",
-        "Safety and wellbeing of every child is our highest priority. Our policies outline the measures we take to create a secure, respectful, and supportive environment for all students. These guidelines ensure that staff, students, and the wider community share a clear understanding of safeguarding expectations and responsibilities across all aspects of school life."
+        "Safety and well-being of every child is our highest priority. Our policies outline the measures we take to create a secure, respectful, and supportive environment for all students. These guidelines ensure that staff, students, and the wider community share a clear understanding of safeguarding expectations and responsibilities across all aspects of school life."
       ),
     ],
   },
