@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { keepWordTogether } from "@/components/ui/keep-word-together";
 import type { CSSProperties } from "react";
 
 export type InnerPageNavItem = {
@@ -109,7 +110,7 @@ export function InnerPageNav({
                 aria-current={isActive ? "page" : undefined}
                 className="inner-page-nav__link"
               >
-                {item.label}
+                {keepWordTogether(item.label)}
               </Link>
             </li>
           );

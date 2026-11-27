@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { CmsImage } from "@/components/ui/cms-image";
+import { keepWordTogether } from "@/components/ui/keep-word-together";
 import { Reveal } from "@/components/ui/reveal";
 import type { FeatureCard } from "@/types/sanity";
 
@@ -58,7 +59,7 @@ export function LearningPhasesCards({ cards = [] }: LearningPhasesCardsProps) {
             />
 
             <div className="learning-phase-card__body">
-              <h3 className="learning-phase-card__title">{card.title}</h3>
+              <h3 className="learning-phase-card__title">{keepWordTogether(card.title)}</h3>
               {card.description && <p className="learning-phase-card__grades">{card.description}</p>}
 
               <Link
